@@ -1,0 +1,47 @@
+/// Container max-width
+/// @type Length
+$max-width: 800px;
+
+/// Lovely blue
+/// @type Color
+$blue: #107FC9;
+
+/// Hot pink
+/// @type Color
+$pink: #FF4F72;
+
+/// Main color
+/// @type Color
+$main-color: $blue;
+
+/// Secondary color
+/// @type Color
+$secondary-color: $pink;
+
+/// Dark grey
+/// @type Color
+$dark-grey: #444;
+
+/// Medium grey
+/// @type Color
+$medium-grey: #AAA;
+
+/// Light grey
+/// @type Color
+$light-grey: #EEE;
+
+/// Breakpoints
+/// @type Map
+/// @prop {String} key - Breakpoint name
+/// @prop {Map} value - Breakpoint value
+$breakpoints: (
+  'medium': (min-width: 600px)
+);
+
+/// Regular font stack
+/// @type List
+$text-font-stack: "Roboto", "Helvetica", "Arial", sans-serif;
+
+/// Code font stack
+/// @type List
+$code-font-stack: "Source Code Pro", "Courier New", monospace;

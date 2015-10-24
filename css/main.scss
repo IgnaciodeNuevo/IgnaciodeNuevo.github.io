@@ -1,0 +1,52 @@
+/* sass/
+|
+|– base/
+|   |– _base.scss        # Commonly used HTML elements 
+|   |– _reset.scss       # Reset/normalize
+|   |– _typography.scss  # Typography rules
+|   |– _links.scss		# Links
+|   ...                  # Etc…
+|
+|– components/
+|   |– _buttons.scss     # Buttons
+|   ...                  # Etc…
+|
+|– layout/
+|   |– _navigation.scss  # Navigation
+|   |– _header.scss      # Header
+|   |– _footer.scss      # Footer
+|   |– _sidebar.scss     # Sidebar
+|   ...                  # Etc…
+|
+|– pages/
+|   |– _home.scss        # Home specific styles
+|   ...                  # Etc…
+|
+|– utils/
+|   |– _variables.scss   # Sass Variables
+|   |– _functions.scss   # Sass Functions
+|   |– _mixins.scss      # Sass Mixins
+|   |– _helpers.scss     # Class & placeholders helpers
+|   ...                  # Etc…
+|
+`– main.scss             # Main Sass file
+*/
+
+@import "base/base";
+@import "base/reset";
+@import "base/typography";
+@import "base/links";
+
+@import "components/buttons";
+
+@import "layout/navigation";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/sidebar";
+
+@import "pages/home";
+
+@import "utils/variables";
+@import "utils/mixins";
+@import "utils/functions";
+@import "utils/placeholders";

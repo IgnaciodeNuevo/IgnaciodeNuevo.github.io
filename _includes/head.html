@@ -1,0 +1,64 @@
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article:
+http://ogp.me/ns/article#">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>{{ page.title }} &ndash; Ignacio Villanueva &ndash; Front-end developer focusing on HTML5, CSS, JavaScript, architecture, scalability, front-end performance, and mobile and responsive web design and development based in Madrid, Spain</title>
+
+<!-- StyleSheets & DNS Prefetch -->
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  <link rel="dns-prefetch" href="//www.google-analytics.com">
+  <link rel="dns-prefetch" href="https://twitter.com">
+  <link rel="dns-prefetch" href="//platform.twitter.com">
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/main.css">
+
+<!-- Robots & indexing -->
+  {% if page.external %}
+  <meta name="robots" content="noindex,nofollow">
+  <meta http-equiv="refresh" content="0;url={{ page.external.url }}" />
+  {% else %}
+  <meta name="robots" content="index,follow"> 
+  <meta name="revisit-after" content="1 days"> 
+  {% endif %}
+
+<!-- Open Graph data -->
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+  <meta property="og:site_name" content="IgnaciodeNuevo.com" />
+
+<!-- Twitter cards -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@IgnaciodeNuevo">
+  <meta name="twitter:domain" content="ignaciodenuevo.com">
+  <meta name="twitter:creator" content="@IgnaciodeNuevo">
+  <meta name="twitter:title" content="{{ page.title }} – Ignacio Villanueva">
+  <meta name="twitter:image:src" content="/images/favicon.png">
+<!--<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">-->
+
+<!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/rss" | prepend: site.baseurl | prepend: site.url }}" />
+  
+<!-- Favicon -->
+  <link rel="shortcut icon" href="/images/favicon.ico">
+  <link rel="shortcut icon" href="/images/favicon.png">
+
+<!-- Other -->
+  <meta name="description" content="Articles on CSS, JavaScript, architecture, scalability, front-end performance, and mobile and responsive web design and development.">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+</head>
+<!--
+.___                             .__           .___     ____  ___                   
+|   | ____ __   ________    ____ |__| ____  ___|  /____ \   \ |  \  __ __   ______    ______  
+|   |/ __ \\ \ |  |\__  \ _/ ___\|  |/ _  \/ __  /  __ \|    \|   ||  |  \_/ __ \ \  / /  _ \ 
+|   / /_/  >  \|  |/ __ \\  \___ |  ( <_> ) /_/ \   ___/  |\      |   |  /\  ___/\ \/ (  <_> )
+|___\___  /|_|\___(____  /\___  >__|\____/\____ |\___  >__| \__  / \____/  \___ > \__/ \____/ 
+   /_____/             \/     \/               \/    \/        \/             \/  
+
+   - Twitter: @Ignaciodenuevo - GitHub: IgnaciodeNuevo - Email: ignaciodenuevo@gmail.com -
+
+-->

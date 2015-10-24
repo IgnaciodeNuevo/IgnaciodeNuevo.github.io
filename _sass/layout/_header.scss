@@ -1,0 +1,51 @@
+/**
+ * Header
+ */
+.header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+
+  @include respond-to('medium') {
+    text-align: initial;
+  }
+}
+
+/**
+ * Header title 
+ * 1. Poor man's vertical rhythm
+ * 2. Same size as copy text
+ */
+.header__title {
+  margin: 0 0 20px; /* 1 */
+  font-size: 1em; /* 2 */
+  position: relative;
+
+  @include respond-to('medium') {
+    float: left;
+    margin: 0;
+  }
+
+  /**
+   * Header title link
+   */
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+/**
+ * Blinking carret
+ */
+.blink {
+  color: $secondary-color;
+  animation: blink 1s infinite steps(1);
+
+  @keyframes blink {
+    50% { opacity: 0; }
+  }
+}
+

@@ -1,0 +1,72 @@
+/**
+ * Basic typography style for copy text
+ */
+body {
+  font: 1.25em/1.6 $text-font-stack;
+  color: $dark-grey;
+}
+
+/**
+ * Apply some basic styles to main headings
+ * 1. Poor man's vertical rhythm
+ */
+h1 {
+  font-size: 36px;
+  margin-top: 10px; /* 1 */
+  margin-bottom: 50px; /* 1 */
+}
+
+/**
+ * Headings level 2
+ * 1. Enable position context for anchor links
+ * 2. Clear any pull-image / pull-quote
+ * 3. Poor man's vertical rhythm
+ */
+h2 {
+  position: relative; /* 1 */
+  clear: both; /* 2 */
+  margin-top: 70px; /* 3 */
+  margin-bottom: 20px; /* 3 */
+}
+
+/**
+ * Headingds level 3
+ * 1. Poor man's vertical rhythm
+ */
+h3 {
+  margin-bottom: 40px; /* 1 */
+}
+
+/**
+ * Select links living inside headings with no class
+ * It turns out Markdown generated headings have no class
+ * 1. Put it slightly off in the left margin
+ */
+h2:not([class]) a {
+  position: absolute; /* 1 */
+  left: -25px; /* 1 */
+  text-decoration: none;
+  color: $light-grey;
+}
+
+/**
+ * Make the anchor link highlighter when hovering the heading
+ */
+h2:hover a,
+h2:active a {
+  color: $secondary-color;
+}
+
+/**
+ * Poor man's vertical rhythm
+ */
+p, ul, ol {
+  margin-bottom: 25px;
+}
+
+/**
+ * Poor man's vertical rhythm
+ */
+li {
+  margin-bottom: 10px;
+}

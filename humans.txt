@@ -1,0 +1,16 @@
+# humanstxt.org/
+
+    Author: Ignacio Villanueva
+    Site: www.IgnaciodeNuevo.com
+    Twitter: @IgnaciodeNuevo
+    Location: Madrid, Spain
+
+# TECHNOLOGY COLOPHON
+
+    Sass
+    Jekyll + Simple-Jekyll-Search
+    Pygments Syntax Highlighter
+    GitHub Pages
+    Discus
+    Icons: materialdesignicons.com
+    Font: Open Sans
