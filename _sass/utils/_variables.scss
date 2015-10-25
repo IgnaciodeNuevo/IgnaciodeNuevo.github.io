@@ -2,33 +2,6 @@
 /// @type Length
 $max-width: 800px;
 
-/// Lovely blue
-/// @type Color
-$blue: #107FC9;
-
-/// Hot pink
-/// @type Color
-$pink: #FF4F72;
-
-/// Main color
-/// @type Color
-$main-color: $blue;
-
-/// Secondary color
-/// @type Color
-$secondary-color: $pink;
-
-/// Dark grey
-/// @type Color
-$dark-grey: #444;
-
-/// Medium grey
-/// @type Color
-$medium-grey: #AAA;
-
-/// Light grey
-/// @type Color
-$light-grey: #EEE;
 
 /// Breakpoints
 /// @type Map
@@ -38,10 +11,71 @@ $breakpoints: (
   'medium': (min-width: 600px)
 );
 
-/// Regular font stack
-/// @type List
-$text-font-stack: "Roboto", "Helvetica", "Arial", sans-serif;
 
-/// Code font stack
-/// @type List
-$code-font-stack: "Source Code Pro", "Courier New", monospace;
+
+//*****************************************
+//	$TYPOGRAPHY
+//*****************************************
+
+$sans-font:
+		"Open Sans",
+		"Roboto",
+		"San Francisco",
+		"Verdana",
+		"Arial",
+		"Helvetica",
+		sans-serif;
+
+$serif-font:
+		"Georgia",
+		"Museo Slab",
+		"Adelle",
+		"Droid Serif",
+		"Roboto Slab",
+		serif;
+
+$code-font:
+		"Source Code Pro",
+		"Menlo",
+		"Monaco",
+		"Consolas",
+		"Courier New",
+		Courier, monospace;
+
+
+
+//*****************************************
+//	$COLORS
+//*****************************************
+
+$light-grey:			#e7e7e7;
+$medium-grey:			#a3a3a3;
+$dark-grey:			#5d5d5d;
+$ultradark-grey:		#333333;
+
+$main-color: 			#981914;
+$secondary-color:		#2f3d5a;
+$terciary-color:		#f33324;
+
+$fucia-uno:			#d5023f;
+$fucia-dos: 			#f50055;
+$fucia-tres:			#df2940;
+$fucia-cuatro:			#bd1e3a;
+$fucia-cinco:			#d81a21;
+$fuscia-seis:			#c6152e;
+
+$dorado-uno:			#b99867;
+$dorado-dos:			#cdb586;
+$dorado-tres:			#b8895b;
+
+$pantone-rojo-uno: 		#C5003E;
+$pantone-rojo-dos: 		#C8102E;
+$pantone-rojo-tres: 	#E000AD;
+
+$pantone-azul-uno:		#0047BB;
+$pantone-azul-dos: 		#003DA5;
+$pantone-azul-tres:		#006298;
+
+$pantone-morado-uno:	#AC12A1;
+$pantone-morado-dos:	#6638B6;
+$pantone-morado-tres: 	#5F259F;
