@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "About"
-excerpt: "Front-end developer focusing on HTML5, CSS, JavaScript, architecture, scalability, front-end performance, and mobile and responsive web design and development."
+excerpt: "Ignacio Villanueva - Front-end developer focusing on CSS, Sass, architecture, scalability, front-end performance, and mobile and responsive web design based in Madrid, Spain."
 tags:
   - Ignacio Villanueva
   - about
@@ -9,7 +9,7 @@ tags:
 
 # About me
 
-I am Ignacio a Spanish front-end developer focusing on [HTML5](https://html.spec.whatwg.org/multipage/), [CSS](http://www.w3.org/Style/CSS/), [JavaScript](http://www.ecma-international.org/publications/standards/Ecma-262.htm), architecture, scalability, front-end performance, and mobile and [responsive web design](https://en.wikipedia.org/wiki/Responsive_web_design) and development based in [Madrid](https://en.wikipedia.org/wiki/Madrid). After a couple of years working in different things, I have rediscovered the front-end after completing a master's degree in [Trazos](http://www.trazos.net/) of [Web Development and Graphic Design](http://www.trazos.net/masters/curso-master-en-diseno-grafico/).
+I am Ignacio, a Spanish Front-end Developer focusing on [CSS](http://www.w3.org/Style/CSS/), [Sass](http://sass-lang.com), architecture, scalability, front-end performance, and mobile and [responsive web design](https://en.wikipedia.org/wiki/Responsive_web_design) based in [Madrid](https://en.wikipedia.org/wiki/Madrid). After a couple of years working in different things, I have rediscovered the front-end after completing a master's degree in [Trazos](http://www.trazos.net/) of [Web Development and Graphic Design](http://www.trazos.net/masters/curso-master-en-diseno-grafico/).
 
 I had the pleasure to have [Eduardo Fierro](http://eduardofierro.pro/) as Web Development teacher, he is the kind of teacher who manages to give the best of you and undoubtedly his greatest virtue, is his ability to motivate the student.
 
@@ -37,3 +37,5 @@ This site is built on [RSS Feed](http://jekyllrb.com), an static site generator 
 The site is written in [Sass](http://sass-lang.com), and built from scratch without the help of no framework.
 
 The font used is [Open Sans](https://www.google.com/fonts/specimen/Open+Sans), and is served via [Google Fonts](https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans). The photograph used on the homepage’s masthead is of me and was taken by [Damián Fernández](http://adft.es/).
+
+The icons used are [Material Design Icons](https://materialdesignicons.com) or are maded by me.

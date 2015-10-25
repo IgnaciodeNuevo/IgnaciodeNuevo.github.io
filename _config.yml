@@ -1,16 +1,16 @@
 # Site settings
-title: Hugo Giraudel, front-end developer in Berlin
-email: hugo.giraudel@gmail.com
+title: "Ignacio Villanueva - Front-end Developer focusing on CSS, Sass, architecture, scalability, front-end performance, and mobile and responsive web design based in Madrid, Spain."
+email: IgnaciodeNuevo@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  My name is Hugo Giraudel, I am a French front-end developer based in Berlin, focused on CSS and Sass.
+  My name is Ignacio Villanueva, I am a Spanish Front-end Developer based in Madrid, focusing on CSS and Sass, architecture, scalability, front-end performance, and mobile and responsive web design based in Madrid, Spain.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://hugogiraudel.com" # the base hostname & protocol for your site
-twitter_username: HugoGiraudel
-github_username:  HugoGiraudel
+url: "http://ignaciodenuevo.com" # the base hostname & protocol for your site
+twitter_username: IgnaciodeNuevo
+github_username:  IgnaciodeNuevo
 
 # Build settings
 markdown: kramdown
-paginate_path: /blog/page:num
+paginate_path: /writing/page:num
 paginate: 10
 permalink: pretty
 sass:

@@ -1,6 +1,8 @@
-- interview: Sara Soueidan
-  web: http://sarasoueidan.com/
-  twitter: @SaraSoueidan
-  date: October 25, 2015
-  image: /images/sara-soueidan.jpg
-  past: true
+- interview: Prueba
+  web: http://prueba.com
+  twitter: https://twitter.com/Prueba
+  date: "October 25, 2015"
+  image_dev_url: /images/Prueba.png
+  link: 
+  number_dev: 1
+  excerpt: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, iure quod consequatur quasi veritatis delectus, eum provident consectetur sit! Nobis perspiciatis tenetur doloribus temporibus aut quidem consequatur consectetur veniam repellat."

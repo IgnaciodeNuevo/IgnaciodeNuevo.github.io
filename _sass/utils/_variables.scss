@@ -11,7 +11,8 @@ $breakpoints: (
   'medium': (min-width: 600px)
 );
 
-
+$border-radius: 3px;
+$border: 3px solid $main-color;
 
 //*****************************************
 //	$TYPOGRAPHY
@@ -21,9 +22,9 @@ $sans-font:
 		"Open Sans",
 		"Roboto",
 		"San Francisco",
-		"Verdana",
 		"Arial",
 		"Helvetica",
+		"Verdana",
 		sans-serif;
 
 $serif-font:
@@ -40,7 +41,8 @@ $code-font:
 		"Monaco",
 		"Consolas",
 		"Courier New",
-		Courier, monospace;
+		Courier,
+		monospace;
 
 
 
@@ -64,18 +66,18 @@ $fucia-cuatro:			#bd1e3a;
 $fucia-cinco:			#d81a21;
 $fuscia-seis:			#c6152e;
 
-$dorado-uno:			#b99867;
-$dorado-dos:			#cdb586;
+$dorado-uno:			#cdb586;
+$dorado-dos:			#b99867;
 $dorado-tres:			#b8895b;
 
 $pantone-rojo-uno: 		#C5003E;
 $pantone-rojo-dos: 		#C8102E;
 $pantone-rojo-tres: 	#E000AD;
 
-$pantone-azul-uno:		#0047BB;
-$pantone-azul-dos: 		#003DA5;
-$pantone-azul-tres:		#006298;
+$pantone-azul-uno:		#006298;
+$pantone-azul-dos:		#0047BB;
+$pantone-azul-tres: 	#003DA5;
 
 $pantone-morado-uno:	#AC12A1;
-$pantone-morado-dos:	#6638B6;
-$pantone-morado-tres: 	#5F259F;
+$pantone-morado-dos: 	#5F259F;
+$pantone-morado-tres:	#6638B6;
