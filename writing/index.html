@@ -1,0 +1,32 @@
+---
+layout: default
+title: "Writing"
+excerpt: "Articles about HTML5, CSS, JavaScript, architecture, scalability, front-end performance, and mobile and responsive web design and development."
+tags:
+  - blog
+  - writing
+  - articles
+---
+
+<h1>Latest articles</h1>
+
+<p><img src="/images/writing.jpg" alt="Photography by Luis Llerena" /></p>
+
+<p>I use to write <em>a lot</em>, at least once per week. If you are looking for something specific, hit <a href="/search">the search</a> in the footer of the page, or check all <a href="/developers-interviews">Developer Interviews</a>.</p>
+
+<ul class="articles  list">
+{% for post in paginator.posts %}
+  {% unless post.preview %}
+    {% include post-list.html post=post %}
+  {% endunless %}
+{% endfor %}
+</ul>
+
+<ul class="pagination">
+  {% if paginator.previous_page %}
+    <li><a href="{{ paginator.previous_page_path }}"><span class="pagination__icon">◀</span> Previous</a></li>
+  {% endif %}
+  {% if paginator.next_page %}
+    <li><a href="{{ paginator.next_page_path }}">Next <span class="pagination__icon">►</span></a></li>
+  {% endif %}
+</ul>
