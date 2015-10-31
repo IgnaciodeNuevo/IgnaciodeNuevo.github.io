@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Learning Regular Expressions: The Practical Way"
+date: 2015-08-05
+excerpt: The single fact that you clicked on that link to come here shows that you are brave. Most people just run away when it comes to regular expressions. They are wrong to do so! Not only are they extremely valuable, but their foundations also are actually quite easy to grasp.
 tags: 
   - regular expressions
   - regex

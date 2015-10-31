@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "About"
-excerpt: "Ignacio Villanueva - Front-end developer focusing on CSS, Sass, architecture, scalability, front-end performance, and mobile and responsive web design based in Madrid, Spain."
+excerpt: "Ignacio Villanueva - Front-end developer focusing on CSS, Sass, architecture, scalability, front-end performance, and mobile and responsive web design based in Madrid."
 tags:
   - Ignacio Villanueva
   - about
@@ -25,17 +25,17 @@ I dare call myself someone who likes learning, I am also constantly tweeting, wr
 
 So I work harder every day, learning to be up to date.
 
-You can follow me on [Twitter](https://twitter.com/IgnaciodeNuevo), fork me on [Github](https://github.com/IgnaciodeNuevo), subscribe via [RSS Feed](http://) or say hello at [ignaciodenuevo@gmail.com](mailto:ignaciodenuevo@gmail.com)
+You can follow me on [Twitter](https://twitter.com/IgnaciodeNuevo), fork me on [Github](https://github.com/IgnaciodeNuevo), subscribe via [RSS Feed](/rss) or say hello at [ignaciodenuevo@gmail.com](mailto:ignaciodenuevo@gmail.com)
 
 
 ## About this site
 
 I use of many tools and services; tools and services that make my life much simpler.
 
-This site is built on [RSS Feed](http://jekyllrb.com), an static site generator and hosted on [Github Pages](https://pages.github.com/) under the [IgnaciodeNuevo / ignaciodenuevo.github.com](https://github.com/IgnaciodeNuevo/ignaciodenuevo.github.com) repository.
+This site is built on [Jekyll](http://jekyllrb.com), an static site generator and hosted on [Github Pages](https://pages.github.com/) under the [IgnaciodeNuevo / ignaciodenuevo.github.com](https://github.com/IgnaciodeNuevo/ignaciodenuevo.github.com) repository.
 
 The site is written in [Sass](http://sass-lang.com), and built from scratch without the help of no framework.
 
-The font used is [Open Sans](https://www.google.com/fonts/specimen/Open+Sans), and is served via [Google Fonts](https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans). The photograph used on the homepage’s masthead is of me and was taken by [Damián Fernández](http://adft.es/).
+The font used is [Open Sans](https://www.google.com/fonts/specimen/Open+Sans), and is served via [Google Fonts](https://www.google.com/fonts). The photograph used on the homepage’s masthead is of me and was taken by [Damián Fernández](http://adft.es/).
 
 The icons used are [Material Design Icons](https://materialdesignicons.com) or are maded by me.

@@ -1,8 +1,9 @@
-- interview: Prueba
-  web: http://prueba.com
-  twitter: https://twitter.com/Prueba
+- name: "Sara Soueidan"
+  web: http://sara-soueidan.com
+  twitter: https://twitter.com/sara-soueidan
   date: "October 25, 2015"
-  image_dev_url: /images/Prueba.png
-  link: 
+  image_url: ../images/sara-soueidan.png
+  interview_url: sara-soueidan
   number_dev: 1
-  excerpt: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, iure quod consequatur quasi veritatis delectus, eum provident consectetur sit! Nobis perspiciatis tenetur doloribus temporibus aut quidem consequatur consectetur veniam repellat."
+  excerpt: "HOLA MANUE Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+
