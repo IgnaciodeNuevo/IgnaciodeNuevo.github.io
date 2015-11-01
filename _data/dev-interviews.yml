@@ -1,9 +1,8 @@
-- name: "Sara Soueidan"
-  web: http://sara-soueidan.com
-  twitter: https://twitter.com/sara-soueidan
+- name: "Prueba"
+  web: http://prueba.com
+  twitter: https://twitter.com/prueba
   date: "October 25, 2015"
-  image_url: ../images/sara-soueidan.png
-  interview_url: sara-soueidan
+  image_url: ../images/prueba.png
+  interview_url: prueba
   number_dev: 1
-  excerpt: "HOLA MANUE Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-
+  excerpt: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."

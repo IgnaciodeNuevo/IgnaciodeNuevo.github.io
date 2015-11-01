@@ -29,7 +29,7 @@ classes: home
 {% for project in site.data.projects limit:1 %}
 <section class="home-section">
   <h2 class="home-section__title">My latest PROJECT:</h2>
-  <a href="{{ project.url }}" target="_blank"> 
+  <a href="{{ project.project_url }}" target="_blank"> 
     <h3 class="home-section__link">{{ project.name }}</h3>
     <p class="">{{ project.description }}</p>
     <img src="{{ project.image_url }}" alt="{{ project.name }} Image" class="portrait"/>
@@ -44,7 +44,7 @@ classes: home
     <h3 class="home-section__link">{{ interview.name }}</h3>
     <time class="home-section__time" datetime="{{ interview.date | date: "%Y-%m-%d" }}">{{ interview.date }}</time>
     <p class="">{{ interview.excerpt }}</p>
-    <img src="{{ interview.image_url }}" alt="{{ interview.interview }} Photography" class="portrait"/>
+    <img class="portrait" src="{{ interview.image_url }}" alt="{{ interview.interview }} Photography"/>
   </a>
   <p>
     <a href="{{ interview.web }}">{{ interview.name }} Web</a> - <a href="{{ interview.twitter }}">{{ interview.name }} Twitter</a>
