@@ -17,11 +17,13 @@ After a year and a half, learning by my self, I had the great opportunity to joi
 
 This year and a half, I have discovered my greatest passion.
 
-> Someone said before "Choose a job you love, and you will never have to work a day in your life" - Confucius.
+> Someone said before: Choose a job you love, and you will never have to work a day in your life
+> <footer> - Confucius</footer>
 
 I dare call myself someone who likes learning, I am also constantly tweeting, writing about the web, graphic design and other topics.
 
-> Someone advised me once: "Don't give up, keep trying" - Victoria.
+> Someone advised me once: Don't give up, keep trying
+> <footer>- Victoria</footer>
 
 So I work harder every day, learning to be up to date.
 

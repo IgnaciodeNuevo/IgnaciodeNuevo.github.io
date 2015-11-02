@@ -15,43 +15,57 @@ classes: home
   </div>
 </section>
 
-{% for post in site.posts limit:1 %}
-<section class="home-section">
-  <h2 class="home-section__h2">My latest ARTICLE:</h2>
-  <a href="{{ post.url }}">
-    <h3 class="home-section__h3">{{ post.title }}</h3>
-    <time class="home-section__date" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.post_date }}</time>
-    <p>{{ post.excerpt }}</p>
-  </a>
-</section>
-{% endfor %}
-
-{% for project in site.data.projects limit:1 %}
-<section class="home-section">
-  <h2 class="home-section__h2">My latest PROJECT:</h2>
-  <a href="/projects/{{ project.project_url }}"> 
-    <h3 class="home-section__h3">{{ project.name }}</h3>
-    <time class="home-section__date" datetime="{{ project.date | date: "%Y-%m-%d" }}">{{ project.project_date }}</time>
-    <p>{{ project.description }}</p>
-    <img class="portrait--small" src="{{ project.image_url }}" alt="{{ project.name }} Image"/>
-  </a>
+<blockquote>
   <p>
-    <a href="{{ project.project_web }}" target="_blank">{{ project.name }}'s Web</a>
+    He is a great professional who in addition to being effective is resposible and I work with him in some freelance projects. I would recommend him without delay.
   </p>
-</section>
-{% endfor %}
+  <footer>
+    Eduardo Fierro, Trazos
+  </footer>
+</blockquote>
 
-{% for interview in site.data.dev-interviews limit:1 %}
-<section class="home-section">
-  <h2 class="home-section__h2">My latest DEVELOPER INTERVIEW:</h2>
-  <a href="/developers-interviews/{{ interview.interview_url }}">
-    <h3 class="home-section__h3">{{ interview.name }}</h3>
-    <time class="home-section__date" datetime="{{ interview.date | date: "%Y-%m-%d" }}">{{ interview.interview_date }}</time>
-    <p>{{ interview.excerpt }}</p>
-    <img class="portrait--small" src="{{ interview.image_url }}" alt="{{ interview.interview }} Photography"/>
-  </a>
-  <p>
-    <a href="{{ interview.interview_web }}" target="_blank">{{ interview.name }}'s Web</a> - <a href="{{ interview.interview_twitter }}" target="_blank">{{ interview.name }}'s Twitter</a>
-  </p>
-</section>
-{% endfor %}
+<main class="home-section">
+  <section>
+    {% for post in site.posts limit:1 %}
+    <article class="home-article">
+      <h2 class="home-section__h2">My latest ARTICLE:</h2>
+      <a href="{{ post.url }}">
+        <h3 class="home-section__h3">{{ post.title }}</h3>
+        <time class="home-section__date" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.post_date }}</time>
+        <p>{{ post.excerpt }}</p>
+      </a>
+    </article>
+    {% endfor %}
+
+    {% for project in site.data.projects limit:1 %}
+    <article class="home-article">
+      <h2 class="home-section__h2">My latest PROJECT:</h2>
+      <a href="/projects/{{ project.project_url }}"> 
+        <h3 class="home-section__h3">{{ project.name }}</h3>
+        <time class="home-section__date" datetime="{{ project.date | date: "%Y-%m-%d" }}">{{ project.project_date }}</time>
+        <p>{{ project.description }}</p>
+        <img class="portrait--small" src="{{ project.image_url }}" alt="{{ project.name }} Image"/>
+      </a>
+      <p>
+        <a href="{{ project.project_web }}" target="_blank">{{ project.name }}'s Web</a>
+      </p>
+    </article>
+    {% endfor %}
+
+    {% for interview in site.data.dev-interviews limit:1 %}
+    <article class="home-article">
+      <h2 class="home-section__h2">My latest DEVELOPER INTERVIEW:</h2>
+      <a href="/developers-interviews/{{ interview.interview_url }}">
+        <h3 class="home-section__h3">{{ interview.name }}</h3>
+        <time class="home-section__date" datetime="{{ interview.date | date: "%Y-%m-%d" }}">{{ interview.interview_date }}</time>
+        <p>{{ interview.excerpt }}</p>
+        <img class="portrait--small" src="{{ interview.image_url }}" alt="{{ interview.interview }} Photography"/>
+        <p>{{ interview.interview_number }}</p>
+      </a>
+      <p>
+        <a href="{{ interview.interview_web }}" target="_blank">{{ interview.name }}'s Web</a> - <a href="{{ interview.interview_twitter }}" target="_blank">{{ interview.name }}'s Twitter</a>
+      </p>
+    </article>
+    {% endfor %}
+  </section>
+</main>

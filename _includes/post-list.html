@@ -1,0 +1,8 @@
+<li class="article  list__item">
+
+  <p class="article__date  list__secondary-content">{{ include.post.date | date: "%B %d, %Y" }}</p>
+
+  <p class="article__title  list__primary-content">
+    <a class="article__link" href="{{ include.post.url }}">{{ include.post.title }}</a>
+  </p>
+</li>
