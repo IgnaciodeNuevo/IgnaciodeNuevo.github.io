@@ -1,8 +1,8 @@
 - name: "Prueba"
-  web: http://prueba.com
-  twitter: https://twitter.com/prueba
-  date: "October 25, 2015"
-  image_url: ../images/prueba.png
-  interview_url: prueba
-  number_dev: 1
   excerpt: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+  image_url: ../images/prueba.png
+  interview_date: "October 25, 2015"
+  interview_number: 1
+  interview_twitter: https://twitter.com/prueba
+  interview_url: prueba
+  interview_web: http://prueba.com
