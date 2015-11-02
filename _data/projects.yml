@@ -1,4 +1,6 @@
 - name: Grupo Legantia
+  date: "September 2015"
   description: "Legal marketplace for notaries, lawyers, attorneys, and students in Spain."
   project_url: http://grupolegantia.com
   image_url: ../images/logo-GrupoLegantia.svg
+  
