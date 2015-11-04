@@ -15,6 +15,8 @@ I had the pleasure to have [Eduardo Fierro](http://eduardofierro.pro/) as Web De
 
 After a year and a half, learning by my self, I had the great opportunity to join [Martin & Young](http://www.martin-young.com/), a small digital agency in Madrid to work on client projects.
 
+{% include apologize.html %}
+
 This year and a half, I have discovered my greatest passion.
 
 > Someone said before: Choose a job you love, and you will never have to work a day in your life

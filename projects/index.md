@@ -14,8 +14,6 @@ tags:
 
 When I can, I try to invest a lot of time in open-source projects. Here are a few of them I initiated myself:
 
-{% include apologize.html %}
-
 <ul class="list">
 {% for project in site.data.projects %}
   <li class="list__item">

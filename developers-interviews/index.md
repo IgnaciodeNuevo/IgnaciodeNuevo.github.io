@@ -19,10 +19,10 @@ It does not happen *that* often, but sometimes I have the pleasure to interview 
   <li class="event  list__item">
     <a href="/developers-interviews/{{ interview.interview_url }}">
       <h3 class="home-section__h3">{{ interview.name }}</h3>
-      <time class="home-section__time" datetime="{{ interview.date | date: "%Y-%m-%d" }}">{{ interview.interview_date }}</time>
+      <time class="home-section__date" datetime="{{ interview.date | date: "%Y-%m-%d" }}">{{ interview.interview_date }}</time>
       <p>{{ interview.excerpt }}</p>
-      <p>{{ interview.interview_number }}</p>
       <img class="portrait--small" src="{{ interview.image_url }}" alt="{{ interview.interview }} Photography"/>
+      <p>{{ interview.interview_number }}</p>
     </a>
     <p>
       <a href="{{ interview.interview_web }}" target="_blank">{{ interview.name }}'s Web</a> - <a href="{{ interview.interview_twitter }}" target="_blank">{{ interview.name }}'s Twitter</a>
