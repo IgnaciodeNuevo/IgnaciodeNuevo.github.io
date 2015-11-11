@@ -36,10 +36,10 @@ You can follow me on [Twitter](https://twitter.com/IgnaciodeNuevo), fork me on [
 
 I use of many tools and services; tools and services that make my life much simpler.
 
-This site is built on [Jekyll](http://jekyllrb.com), an static site generator and hosted on [Github Pages](https://pages.github.com/) under the [IgnaciodeNuevo / ignaciodenuevo.github.com](https://github.com/IgnaciodeNuevo/ignaciodenuevo.github.com) repository.
+This site is built on [Jekyll](http://jekyllrb.com), an static site generator and hosted on [Github Pages](https://pages.github.com/) under the [IgnaciodeNuevo / ignaciodenuevo.github.io](https://github.com/IgnaciodeNuevo/ignaciodenuevo.github.io) repository.
 
 The site is written in [Sass](http://sass-lang.com), and built from scratch without the help of no framework.
 
-The font used is [Open Sans](https://www.google.com/fonts/specimen/Open+Sans), and is served via [Google Fonts](https://www.google.com/fonts). The photograph used on the homepage’s masthead is of me and was taken by [Damián Fernández](http://adft.es/).
+The font used is [Roboto](https://www.google.com/fonts/specimen/Roboto), and is served via [Google Fonts](https://www.google.com/fonts). The photograph used on the homepage’s masthead is of me and was taken by [Damián Fernández](http://adft.es/).
 
 The icons used are [Material Design Icons](https://materialdesignicons.com) or are maded by me.

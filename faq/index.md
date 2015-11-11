@@ -4,7 +4,7 @@ title: "FAQ"
 excerpt: "Ignacio Villanueva - Front-end developer focusing on CSS, Sass, architecture, scalability, front-end performance, and mobile and responsive web design based in Madrid."
 tags:
   - Ignacio Villanueva
-  - FAQ
+  - about
 ---
 
 # FAQ: Frequently asked questions
@@ -38,3 +38,6 @@ Possibly.
 
 ###Can I use your slides/images/videos in my presentation/article/book?
 Thanks for asking! Yes, you can use any of my materials in your work whenever you [read this](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+### Will you join my company to work with me?
+It depends, I'm always looking to improve as a professional, so if you think you can help me with this, say hi at [ignaciodenuevo@gmail.com](mailto:ignaciodenuevo@gmail.com) ant we'll chat.

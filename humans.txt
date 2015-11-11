@@ -13,4 +13,4 @@
     GitHub Pages
     Discus
     Icons: materialdesignicons.com
-    Font: Open Sans
+    Font: Roboto
