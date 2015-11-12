@@ -15,7 +15,7 @@ classes: home
   </div>
 </section>
 
-{% include recommendations.html %}
+    {% include motto.html %}
 
 <main class="home-section">
   <section>
@@ -44,6 +44,8 @@ classes: home
       </p>
     </article>
     {% endfor %}
+
+    {% include recommendations.html %}
 
     {% for interview in site.data.dev-interviews limit:1 %}
     <article class="home-article">
