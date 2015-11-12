@@ -2,6 +2,8 @@
 
 This is the uncompiled source from [my site](http://ignaciodenuevo.com) which is built on [Jekyll](http://jekyllrb.com), which was originally a fork of [Hugo Giraudel's site](https://github.com/HugoGiraudel/hugogiraudel.github.com).
 
+Code comments shamelessly borrowed and refactored a little from [Hugo Giraudel's site code](https://github.com/HugoGiraudel/hugogiraudel.github.com), (this is for me one of the most difficult things to do, as well as naming classes).
+
 If you find any bug or want to make a suggestion, please open an issue on the [bug tracker](https://github.com/IgnaciodeNuevo/ignaciodenuevo.github.com/issues).
 
 Despite being open sourced, all code and content remain copyright of Ignacio Villanueva and all the articles licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/) and code licensed under [The MIT License (MIT)](/license/index.md).

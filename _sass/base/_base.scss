@@ -1,79 +1,58 @@
-/**
- * Set up a decent box model on the root element
- */
+//
+// Box Model
+//
 html {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  border-top: 7px solid $main-color;
 }
 
-/**
- * Make all elements from the DOM inherit from the parent box-sizing
- * Since `*` has a specificity of 0, it does not override the `html` value
- * making all elements inheriting from the root box-sizing value
- * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
- */
+//
+// Make all elements from the DOM inherit from the parent box-sizing
+// See: https://css-tricks.com/box-sizing/
+//
 *, *::before, *::after {
-  box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+     -moz-box-sizing: inherit;
+          box-sizing: inherit;
 } 
 
-/**
- * Flat background color for the whole page
- */
+//
+// Flat light-grey background color for the whole page
+//
 body {
-  background: $main-color;
+  background: $white;
 }
 
-/**
- * Basic styles for links
- * 1. Position context for pseudo-element
- */
+//
+// Basic styles for links
+// 1. Position context for pseudo-element
+//
 a {
-  color: $secondary-color;
-  transition: 0.15s;
-  text-decoration: none;
-  position: relative; /* 1 */
+  position: relative; // 1
   display: inline-block;
+  color: $main-color;
+  text-decoration: none;
 
-  /**
-   * Underline
-   * 1. Same transition as link
-   * 2. Full width below content
-   * 3. Same color as link
-   * 4. Scaled down to 0 to be invisible
-   */
-  &::before {
-    content: '';
-    transition: inherit; /* 1 */
-    position: absolute; /* 2 */
-    top: 100%; /* 2 */
-    left: 0; /* 2 */
-    right: 0; /* 2 */
-    height: 1px;
-    background: currentcolor; /* 3 */
-    -webkit-transform: scaleX(0); /* 4 */
-    -ms-transform: scaleX(0); /* 4 */
-    transform: scaleX(0); /* 4 */
-  }
-
-  /**
-   * Display underline on hover
-   */
-  &:active::before,
-  &:hover::before {
-    -webkit-transform: scaleX(1);
-    -moz-transform: scaleX(1);
-    transform: scaleX(1);
+  //
+  // Display 'special' underline on hover
+  //
+  &:hover {
+    background: linear-gradient($main-color, $main-color) no-repeat;
+    background-size: 100% 1px;
+    background-position: 0 1.3em;
+    //text-shadow: .05em 0 white, -.05em 0 white;
   }
 }
 
-/**
- * Basic styles for images
- * 1. Warning, potentially dangerous if using inline images
- * 2. Prevent image from being taller than viewport
- */
+//
+// Basic styles for images
+// 1. Prevent image from being taller than viewport
+//
 img {
   max-width: 100%;
   height: auto;
-  display: block; /* 1 */
-  max-height: 80vh; /* 2 */
+  max-height: 80vh; // 1
   margin: 0 auto;
 }

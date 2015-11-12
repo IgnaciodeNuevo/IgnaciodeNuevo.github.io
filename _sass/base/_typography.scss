@@ -1,72 +1,49 @@
-/**
- * Basic typography style for copy text
- */
+//
+// Basic typography style for copy text
+//
 body {
-  font: 1.25em/1.6 $text-font-stack;
-  color: $dark-grey;
+  font: 18px/1.4 $sans-font;
+  font: 1.125rem/1.4 $sans-font;
+  color: $ultradark-grey;
 }
 
-/**
- * Apply some basic styles to main headings
- * 1. Poor man's vertical rhythm
- */
+//
+// Headings level 1
+//
 h1 {
-  font-size: 36px;
-  margin-top: 10px; /* 1 */
-  margin-bottom: 50px; /* 1 */
+  font-size: 32px;
+  font-size: 2rem;
+  margin-bottom: 50px;
 }
 
-/**
- * Headings level 2
- * 1. Enable position context for anchor links
- * 2. Clear any pull-image / pull-quote
- * 3. Poor man's vertical rhythm
- */
+///
+// Headings level 2
+//
 h2 {
-  position: relative; /* 1 */
-  clear: both; /* 2 */
-  margin-top: 70px; /* 3 */
-  margin-bottom: 20px; /* 3 */
+  font-size: 28px;
+  font-size: 1.75rem;
+  margin-bottom: 45px;
 }
 
-/**
- * Headingds level 3
- * 1. Poor man's vertical rhythm
- */
+///
+// Headingds level 3
+//
 h3 {
-  margin-bottom: 40px; /* 1 */
+  font-size: 22px;
+  font-size: 1.375rem;
+  margin-bottom: 40px;
 }
 
-/**
- * Select links living inside headings with no class
- * It turns out Markdown generated headings have no class
- * 1. Put it slightly off in the left margin
- */
-h2:not([class]) a {
-  position: absolute; /* 1 */
-  left: -25px; /* 1 */
-  text-decoration: none;
-  color: $light-grey;
-}
-
-/**
- * Make the anchor link highlighter when hovering the heading
- */
-h2:hover a,
-h2:active a {
-  color: $secondary-color;
-}
-
-/**
- * Poor man's vertical rhythm
- */
+//
+// Vertical rhythm
+//
 p, ul, ol {
   margin-bottom: 25px;
 }
 
-/**
- * Poor man's vertical rhythm
- */
+//
+// Vertical rhythm
+//
 li {
   margin-bottom: 10px;
 }

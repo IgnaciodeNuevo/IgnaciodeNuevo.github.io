@@ -21,7 +21,7 @@ classes: home
   <section>
     {% for post in site.posts limit:1 %}
     <article class="home-article">
-      <h2 class="home-section__h2">My latest ARTICLE:</h2>
+      <h2 class="home-section__h2">My latest article:</h2>
       <a href="{{ post.url }}">
         <h3 class="home-section__h3">{{ post.title }}</h3>
         <time class="home-section__date" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.post_date }}</time>
@@ -32,7 +32,7 @@ classes: home
 
     {% for project in site.data.projects limit:1 %}
     <article class="home-article">
-      <h2 class="home-section__h2">My latest PROJECT:</h2>
+      <h2 class="home-section__h2">My latest project:</h2>
       <a href="/projects/{{ project.project_url }}"> 
         <h3 class="home-section__h3">{{ project.name }}</h3>
         <time class="home-section__date" datetime="{{ project.date | date: "%Y-%m-%d" }}">{{ project.project_date }}</time>
@@ -49,7 +49,7 @@ classes: home
 
     {% for interview in site.data.dev-interviews limit:1 %}
     <article class="home-article">
-      <h2 class="home-section__h2">My latest DEVELOPER INTERVIEW:</h2>
+      <h2 class="home-section__h2">My latest developer interview:</h2>
       <a href="/developers-interviews/{{ interview.interview_url }}">
         <h3 class="home-section__h3">{{ interview.name }}</h3>
         <time class="home-section__date" datetime="{{ interview.date | date: "%Y-%m-%d" }}">{{ interview.interview_date }}</time>
