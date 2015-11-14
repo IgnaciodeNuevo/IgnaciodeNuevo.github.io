@@ -2,7 +2,7 @@
 // Force the correct font-stack on all code elements, overriding Prism.js
 //
 code {
-  font-family: $code-font !important;
+  font-family: $codeFont !important;
 //  This code makes code blocks 100% width if they are like blockquotes
 // 	display: block;
 //  width: 100%;
@@ -16,7 +16,7 @@ code {
 //
 pre > code {
   font-size: 90%;
-  color: $bg-color;
+  color: $bgColor;
 }
 
 //
@@ -24,11 +24,11 @@ pre > code {
 //
 p > code {
   font-size: 90%;
-  color: $pantone-blue-one;
-  background-color: $light-grey;
+  color: $pantoneBlueOne;
+  background-color: $lightGrey;
   padding: 0 3px;
   margin-right: 3px;
-  border-radius: $border-radius;
+  border-radius: $borderRadius;
 }
 
 //
@@ -38,6 +38,6 @@ p > code {
 pre {
   margin: 0 -40px 40px !important; // 1
   padding: 20px 40px !important; // 1
-  background-color: $dark-grey;
-  border-radius: $border-radius;
+  background-color: $darkGrey;
+  border-radius: $borderRadius;
 }

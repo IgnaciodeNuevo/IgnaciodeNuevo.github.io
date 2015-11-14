@@ -24,31 +24,22 @@
  * 1. Position context for pseudo-element
  */
 .nav li {
-  padding: 0 10px;
+  padding: 15px 10px;
   position: relative; /* 1 */
   display: inline-block;
   margin: 0;
+
+  &:hover {
+      @include underLine($mainColor, $mainColor, 4px, 2.5em)
+  }
 }
 
 /**
  * Navigation active item 
  * 1. (sqrt(2) * 20) / 2
  */
-.is-active::before {
-  @include respond-to('medium') {
-    content: '';
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background: white;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-    left: 50%;
-    bottom: -40px;
-    margin-left: -12px; /* 1 */
-    box-shadow: 0 -3px 5px -3px rgba(black, 0.2);
-  }
+.is-active {
+    @include underLine($mainColor, $mainColor, 4px, 2.5em)
 }
 
 /**
@@ -56,5 +47,9 @@
  */
 .nav a {
   text-decoration: none;
-  color: white;
+  color: $darkGrey;
+
+  &:hover {
+    @include underLine($mainColor, $darkGrey, 4px, 2.5em)
+  }
 }

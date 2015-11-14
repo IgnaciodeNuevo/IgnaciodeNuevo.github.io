@@ -7,12 +7,12 @@ table {
   border-collapse: collapse;
 
   thead {
-    border-bottom: 2px solid $medium-grey;
+    border-bottom: 2px solid $mediumGrey;
   }
 }
 
 tr + tr {
-  border-top: 1px solid $medium-grey;
+  border-top: 1px solid $mediumGrey;
 }
 
 td,

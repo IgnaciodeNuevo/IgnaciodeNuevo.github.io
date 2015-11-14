@@ -6,8 +6,8 @@
 //
 blockquote {
   position: relative;
-  background-color: $main-color;
-  color: $bg-color;
+  background-color: $mainColor;
+  color: $bgColor;
   padding: 15px;
   overflow: hidden; /* 1 */
   margin-top: 0; // 2
@@ -21,12 +21,12 @@ blockquote {
     position: absolute;
     top: -10px;
     left: 515px;
-    font-family: "Arial", $sans-font;
+    font-family: "Arial", $sansFont;
     font-size: 70px;
     font-size: 4.375rem;
     font-style: normal;
     font-weight: bold;
-    color: $bg-color;
+    color: $bgColor;
   }
 }
 
@@ -49,9 +49,9 @@ blockquote > :last-child {
 // So change links color to $bg-color
 //
 blockquote a {
-  @include dashedUnderLine($bg-color, 1px);
+  @include dashedUnderLine($bgColor, $bgColor, 1px);
   &:hover {
-    @include underLine($bg-color, 1px);
+    @include underLine($bgColor, $bgColor, 1px);
   }
 }
 

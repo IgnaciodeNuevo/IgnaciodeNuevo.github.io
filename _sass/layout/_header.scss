@@ -32,20 +32,12 @@
    * Header title link
    */
   a {
-    color: white;
+    color: $darkGrey;
     text-decoration: none;
+    padding: 15px 0;
+
+    &:hover {
+      @include underLine($mainColor, $darkGrey, 4px, 2.5em)
+    }
   }
 }
-
-/**
- * Blinking carret
- */
-.blink {
-  color: $secondary-color;
-  animation: blink 1s infinite steps(1);
-
-  @keyframes blink {
-    50% { opacity: 0; }
-  }
-}
-

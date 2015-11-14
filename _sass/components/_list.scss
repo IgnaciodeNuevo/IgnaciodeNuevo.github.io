@@ -15,7 +15,7 @@
 .list__item {
   margin: 10px 0;
   padding: 20px 0;
-  border-bottom: 1px solid $light-grey;
+  border-bottom: 1px solid $lightGrey;
 }
 
 /**
@@ -40,9 +40,9 @@
  * List item secondary content
  */
 .list__secondary-content {
-  color: $medium-grey;
+  color: $mediumGrey;
   display: block;
-  font-family: $code-font;
+  font-family: $codeFont;
   margin: 0 0 5px;
   font-size: 80%;
 }
@@ -60,6 +60,6 @@
   }
 
   &:hover {
-    color: $secondary-color;
+    color: $secondaryColor;
   }
 }

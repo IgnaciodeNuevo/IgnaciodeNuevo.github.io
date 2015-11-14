@@ -28,5 +28,5 @@
 .event__actions li + li::before {
   content: ' •  ';
   white-space: pre;
-  color: mix(black, $light-grey, 10%);
+  color: mix(black, $lightGrey, 10%);
 }

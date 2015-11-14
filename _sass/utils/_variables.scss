@@ -1,27 +1,27 @@
 //*****************************************
 //	$COLORS
 //*****************************************
-$bg-color:					#ffffff;
-$light-grey:				#eaeaea;
-$medium-grey:				#a3a3a3;
-$dark-grey:					#222222;
+$bgColor:					#ffffff;
+$lightGrey:				#eaeaea;
+$mediumGrey:				#a3a3a3;
+$darkGrey:					#222222;
 
-$main-color: 				#C5003E;
-$secondary-color:		#2f3d5a;
+$mainColor: 				#C5003E;
+$secondaryColor:		#2f3d5a;
 
-$pantone-pink:		 	#C8102E;
+$pantonePink:		 	#C8102E;
 
-$pantone-purple: 		#5F259F;
+$pantonePurple: 		#5F259F;
 
-$pantone-blue-one:	#0047BB;
-$pantone-blue-two: 	#003DA5;
+$pantoneBlueOne:	#0047BB;
+$pantoneBlueTwo: 	#003DA5;
 
 
 
 //*****************************************
 //	$TYPOGRAPHY
 //*****************************************
-$sans-font:
+$sansFont:
 		"Roboto",
 		"San Francisco",
 		"Arial",
@@ -29,7 +29,7 @@ $sans-font:
 		"Verdana",
 		sans-serif;
 
-$code-font:
+$codeFont:
 		"Source Code Pro",
 		"Menlo",
 		"Monaco",
@@ -43,7 +43,7 @@ $code-font:
 //*****************************************
 //	$CONTAINER-MAX-WIDTH
 //*****************************************
-$max-width: 800px;
+$maxWidth: 800px;
 
 
 
@@ -59,4 +59,4 @@ $breakpoints: (
 //*****************************************
 //	$BORDER
 //*****************************************
-$border-radius: 3px;
+$borderRadius: 3px;

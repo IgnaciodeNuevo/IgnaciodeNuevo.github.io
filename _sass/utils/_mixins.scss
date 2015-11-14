@@ -48,16 +48,16 @@
 // Special underline
 // By default links are $main-color and blockquote are have also a background-color of $main-color
 // See: http://dabblet.com/gist/58f3d67d5bb0f8338776
-@mixin underLine($color: $main-color, $underlineThickness: 1px) {
-  color: $color;
+@mixin underLine($color: $mainColor, $fontColor: $mainColor, $underlineThickness: 1px, $yDistance: 1.3em) {
+  color: $fontColor;
   background: linear-gradient($color, $color) no-repeat;
   background-size: 100% $underlineThickness;
-  background-position: 0 1.3em;
+  background-position: 0 $yDistance;
 }
 
-@mixin dashedUnderLine($color: $main-color, $underlineThickness: 1px) {
-  color: $color;
+@mixin dashedUnderLine($color: $mainColor, $fontColor: $mainColor, $underlineThickness: 1px, $yDistance: 1.3em) {
+  color: $fontColor;
   background: linear-gradient(90deg, $color 66%, transparent 0) repeat-x;
   background-size: 0.2em $underlineThickness;
-  background-position: 0 1.3em;
+  background-position: 0 $yDistance;
 }

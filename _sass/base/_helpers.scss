@@ -14,7 +14,7 @@
 // 3. Leave some space on the edges
 //
 .container {
-  max-width: $max-width; // 1
+  max-width: $maxWidth; // 1
   width: 100%; // 1
   margin-left: auto; // 2
   margin-right: auto; // 2
@@ -36,7 +36,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: $max-width;
+    max-width: $maxWidth;
  }
 
 //
@@ -70,11 +70,11 @@
 //
 .alert {
   width: 100%;
-  max-width: $max-width;
+  max-width: $maxWidth;
   padding-left: 36px;
-  border-left: 3px solid $main-color;
-  color: $main-color;
-  background-color: $light-grey;
+  border-left: 3px solid $mainColor;
+  color: $mainColor;
+  background-color: $lightGrey;
   font-size: 14px;
   font-size: .875rem;
 
@@ -94,12 +94,12 @@
 }
 
 .alert a {
-  @include underLine($main-color, 1px);
+  @include underLine($mainColor, 1px);
 
   //
   // Display 'special' underline on hover
   //
   &:hover {
-    @include dashedUnderLine($main-color, 1px);
+    @include dashedUnderLine($mainColor, 1px);
   }
 }
