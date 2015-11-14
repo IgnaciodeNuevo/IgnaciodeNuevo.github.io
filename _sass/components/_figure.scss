@@ -14,9 +14,13 @@
  */
 .figure figcaption {
   float: right; /* 1 */
-  font-size: 16px;
-  color: $medium-grey;
-  margin: 10px 40px 0;
+  margin: 10px 0;
+  padding: 0 5px;
+  font-size: 14px;
+  font-size: .875rem;
+  color: $main-color;
+  border-left: 3px solid $main-color;
+  background-color: $light-grey;
 }
 
 /**

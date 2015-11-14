@@ -1,52 +1,102 @@
-/* sass/
-|
-|– base/
-|   |– _base.scss        # Commonly used HTML elements 
-|   |– _reset.scss       # Reset/normalize
-|   |– _typography.scss  # Typography rules
-|   |– _links.scss		# Links
-|   ...                  # Etc…
-|
-|– components/
-|   |– _buttons.scss     # Buttons
-|   ...                  # Etc…
-|
-|– layout/
-|   |– _navigation.scss  # Navigation
-|   |– _header.scss      # Header
-|   |– _footer.scss      # Footer
-|   |– _sidebar.scss     # Sidebar
-|   ...                  # Etc…
-|
-|– pages/
-|   |– _home.scss        # Home specific styles
-|   ...                  # Etc…
-|
-|– utils/
-|   |– _variables.scss   # Sass Variables
-|   |– _functions.scss   # Sass Functions
-|   |– _mixins.scss      # Sass Mixins
-|   |– _helpers.scss     # Class & placeholders helpers
-|   ...                  # Etc…
-|
-`– main.scss             # Main Sass file
-*/
+---
+---
+@charset 'utf-8';
 
-@import "base/base";
-@import "base/reset";
-@import "base/typography";
-@import "base/links";
-
-@import "components/buttons";
-
-@import "layout/navigation";
-@import "layout/header";
-@import "layout/footer";
-@import "layout/sidebar";
-
-@import "pages/home";
+// sass/
+// |
+// |– base/
+// |   |– _base.scss        # Commonly used HTML elements 
+// |   |– _helpers.scss     # Helpers
+// |   |– _shame.scss       # Stylesheet dedicated to housing your nasty, hacky, quick-fix CSS
+// |   |– _typography.scss  # Typography rules
+// |   ...                  # Etc…
+// |
+// |– components/
+// |   |– _blockquote.scss  # Blockquote
+// |   |– _cite.scss        # Cite
+// |   |– _code.scss        # Code
+// |   |– _figure.scss      # Figure
+// |   |– _images:.scss     # Images
+// |   |– _list.scss        # List
+// |   |– _pagination.scss  # Pagination
+// |   |– _table.scss       # Table
+// |   |– _toc.scss         # Toc
+// |   ...                  # Etc…
+// |
+// |– layout/
+// |   |– _article.scss     # Article
+// |   |– _footer.scss      # Footer
+// |   |– _header.scss      # Header
+// |   |– _main.scss        # Main
+// |   |– _nav.scss         # Nav
+// |   |– _section.scss     # Section
+// |   |– _sidebar.scss     # Sidebar
+// |   ...                  # Etc…
+// |
+// |– pages/
+// |   |– _about.scss       # About specific styles
+// |   |– _blog.scss        # Blog specific styles
+// |   |– _faq.scss         # FAQ specific styles
+// |   |– _home.scss        # Home specific styles
+// |   |– _interviews.scss  # Developers Interviews specific styles
+// |   |– _license.scss     # MIT license specific styles
+// |   |– _post.scss        # Post specific styles
+// |   |– _resources.scss   # Resources specific styles
+// |   |– _search.scss      # Search specific styles
+// |   |– _speaking.scss    # Speaking specific styles
+// |   |– _styleguide.scss  # Styleguide specific styles
+// |   ...                  # Etc…
+// |
+// |– utils/
+// |   |– _mixins.scss      # Sass Mixins
+// |   |– _variables.scss   # Sass Variables
+// |   ...                  # Etc…
+// |
+// |- vendor/
+// |   |– _normalize.scss   # Makes browsers render all elements more consistently
+// |   |– _prism.scss       # Syntax highlighter
+// |
+// `– ../css/main.scss      # Main Sass file
+// 
 
 @import "utils/variables";
 @import "utils/mixins";
-@import "utils/functions";
-@import "utils/placeholders";
+
+@import "vendor/prism";
+@import "vendor/normalize";
+
+@import "base/base";
+@import "base/helpers";
+@import "base/typography";
+
+@import "layout/header";
+@import "layout/footer";
+@import "layout/main";
+@import "layout/nav";
+@import "layout/article";
+@import "layout/section";
+@import "layout/sidebar";
+
+@import "components/figure";
+@import "components/toc";
+@import "components/pagination";
+@import "components/images";
+@import "components/list";
+@import "components/code";
+@import "components/blockquote";
+@import "components/cite";
+@import "components/table";
+
+@import "pages/home";
+@import "pages/blog";
+@import "pages/post";
+@import "pages/about";
+@import "pages/interviews";
+@import "pages/speaking";
+@import "pages/resources";
+@import "pages/faq";
+@import "pages/license";
+@import "pages/search";
+@import "pages/styleguide";
+
+@import "base/shame";

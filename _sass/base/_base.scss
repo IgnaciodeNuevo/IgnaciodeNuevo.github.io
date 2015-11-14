@@ -22,7 +22,7 @@ html {
 // Flat light-grey background color for the whole page
 //
 body {
-  background: $white;
+  background: $bg-color;
 }
 
 //
@@ -36,13 +36,10 @@ a {
   text-decoration: none;
 
   //
-  // Display 'special' underline on hover
+  // Display 'special' underline
   //
   &:hover {
-    background: linear-gradient($main-color, $main-color) no-repeat;
-    background-size: 100% 1px;
-    background-position: 0 1.3em;
-    //text-shadow: .05em 0 white, -.05em 0 white;
+    @include underLine($main-color, 1px)
   }
 }
 

@@ -1,45 +1,63 @@
-/**
- * Blockquotes
- * 1. Clear inner floats (if any)
- * 2. Poor man's vertical rhythm
- */
+//
+// Blockquotes
+// 1. Clear inner floats (if any)
+// 2. Vertical rhythm
+// 3. Centering blackquote
+//
 blockquote {
-  font-style: italic;
-  border-left: 5px solid $light-grey;
-  padding-left: 20px;
+  position: relative;
+  background-color: $main-color;
+  color: $bg-color;
+  padding: 15px;
   overflow: hidden; /* 1 */
-  margin: 0 0 40px; /* 2 */
+  margin-top: 0; // 2
+  margin-right: auto; // 3
+  margin-bottom: 40px; // 2
+  margin-left: auto; // 3
+  text-align: left;
+
+  &::before {
+    content: "\201C";
+    position: absolute;
+    top: -10px;
+    left: 515px;
+    font-family: "Arial", $sans-font;
+    font-size: 70px;
+    font-size: 4.375rem;
+    font-style: normal;
+    font-weight: bold;
+    color: $bg-color;
+  }
 }
 
-/**
- * Prevent an odd gap when the first child of blockquote as a top margin
- */
+//
+// Prevent an odd gap when the first child of blockquote as a top margin
+//
 blockquote > :first-child {
   margin-top: 0;
 }
 
-/**
- * Prevent an odd gap when the last child of blockquote as a bottom margin
- */
+//
+// Prevent an odd gap when the last child of blockquote as a top margin
+//
 blockquote > :last-child {
   margin-bottom: 0;
 }
 
-/**
- * Make images inside blockquotes left floated starting medium screens
- */
-blockquote img {
-  @include respond-to('medium') {
-    float: left;
-    max-width: 33%;
-    margin-right: 20px;
+//
+// Prevent, as every blockquote by default has a $main-color and links are $main-color to, not being legible.
+// So change links color to $bg-color
+//
+blockquote a {
+  @include dashedUnderLine($bg-color, 1px);
+  &:hover {
+    @include underLine($bg-color, 1px);
   }
 }
 
-/**
- * Some legacy articles still use `.quote` for blockquotes
- * This makes them behave exactly like regular blockquotes
- */
-.quote {
-  @extend blockquote;
+//
+// Every p tag inside a blockquote should be italic
+//
+blockquote p {
+  font-style: italic;
 }

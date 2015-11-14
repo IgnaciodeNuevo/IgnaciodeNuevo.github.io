@@ -1,23 +1,26 @@
-/// Container max-width
-/// @type Length
-$max-width: 800px;
+//*****************************************
+//	$COLORS
+//*****************************************
+$bg-color:					#ffffff;
+$light-grey:				#eaeaea;
+$medium-grey:				#a3a3a3;
+$dark-grey:					#222222;
+
+$main-color: 				#C5003E;
+$secondary-color:		#2f3d5a;
+
+$pantone-pink:		 	#C8102E;
+
+$pantone-purple: 		#5F259F;
+
+$pantone-blue-one:	#0047BB;
+$pantone-blue-two: 	#003DA5;
 
 
-/// Breakpoints
-/// @type Map
-/// @prop {String} key - Breakpoint name
-/// @prop {Map} value - Breakpoint value
-$breakpoints: (
-  'medium': (min-width: 600px)
-);
-
-$border-radius: 3px;
-$border: 3px solid $main-color;
 
 //*****************************************
 //	$TYPOGRAPHY
 //*****************************************
-
 $sans-font:
 		"Roboto",
 		"San Francisco",
@@ -25,14 +28,6 @@ $sans-font:
 		"Helvetica",
 		"Verdana",
 		sans-serif;
-
-$serif-font:
-		"Georgia",
-		"Museo Slab",
-		"Adelle",
-		"Droid Serif",
-		"Roboto Slab",
-		serif;
 
 $code-font:
 		"Source Code Pro",
@@ -46,37 +41,22 @@ $code-font:
 
 
 //*****************************************
-//	$COLORS
+//	$CONTAINER-MAX-WIDTH
 //*****************************************
+$max-width: 800px;
 
-$light-grey:			#e7e7e7;
-$medium-grey:			#a3a3a3;
-$dark-grey:			#5d5d5d;
-$ultradark-grey:		#333333;
 
-$main-color: 			#981914;
-$secondary-color:		#2f3d5a;
-$terciary-color:		#f33324;
 
-$fucia-uno:			#d5023f;
-$fucia-dos: 			#f50055;
-$fucia-tres:			#df2940;
-$fucia-cuatro:			#bd1e3a;
-$fucia-cinco:			#d81a21;
-$fuscia-seis:			#c6152e;
+//*****************************************
+//	$BREAKPOINTS
+//*****************************************
+$breakpoints: (
+  'medium': (min-width: 600px)
+);
 
-$dorado-uno:			#cdb586;
-$dorado-dos:			#b99867;
-$dorado-tres:			#b8895b;
 
-$pantone-rojo-uno: 		#C5003E;
-$pantone-rojo-dos: 		#C8102E;
-$pantone-rojo-tres: 	#E000AD;
 
-$pantone-azul-uno:		#006298;
-$pantone-azul-dos:		#0047BB;
-$pantone-azul-tres: 	#003DA5;
-
-$pantone-morado-uno:	#AC12A1;
-$pantone-morado-dos: 	#5F259F;
-$pantone-morado-tres:	#6638B6;
+//*****************************************
+//	$BORDER
+//*****************************************
+$border-radius: 3px;

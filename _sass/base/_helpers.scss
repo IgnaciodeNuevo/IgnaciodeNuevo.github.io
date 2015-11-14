@@ -23,9 +23,17 @@
  }
 
 //
+// Aligns left any inline element
+//
+ .left-text {
+  text-align: left;
+ }
+
+//
 // Center something horizontally
 //
  .center {
+    display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: $max-width;
@@ -55,4 +63,43 @@
   padding: 0;
   position: absolute;
   width: 1px;
+}
+
+//
+// Highlights the left border with a $main-color color and the background with a $light-grey color
+//
+.alert {
+  width: 100%;
+  max-width: $max-width;
+  padding-left: 36px;
+  border-left: 3px solid $main-color;
+  color: $main-color;
+  background-color: $light-grey;
+  font-size: 14px;
+  font-size: .875rem;
+
+  //
+  // Highlights the alert by adding an alert icon
+  //
+  &::before {
+    content: url(../images/icon-info.svg);
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 8px;
+    top: -38px;
+    vertical-align: middle;
+    color: #ffffff;
+  }
+}
+
+.alert a {
+  @include underLine($main-color, 1px);
+
+  //
+  // Display 'special' underline on hover
+  //
+  &:hover {
+    @include dashedUnderLine($main-color, 1px);
+  }
 }
