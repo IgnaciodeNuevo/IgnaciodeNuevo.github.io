@@ -27,7 +27,6 @@
 // |   |– _article.scss     # Article
 // |   |– _footer.scss      # Footer
 // |   |– _header.scss      # Header
-// |   |– _main.scss        # Main
 // |   |– _nav.scss         # Nav
 // |   |– _section.scss     # Section
 // |   |– _sidebar.scss     # Sidebar
@@ -71,7 +70,7 @@
 
 @import "layout/header";
 @import "layout/footer";
-@import "layout/main";
+//@import "layout/main";
 @import "layout/nav";
 @import "layout/article";
 @import "layout/section";
