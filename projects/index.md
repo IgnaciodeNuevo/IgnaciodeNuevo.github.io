@@ -8,7 +8,7 @@ tags:
   - github
 ---
 <div class="header-section">
-  <img src="/images/projects.jpg" alt="Photography by Negative Space" />" />
+  <img src="/images/projects.jpg" alt="Photography by Negative Space" />
   <h1 class="header-section__h1">Development Projects</h1>
 </div>
 
