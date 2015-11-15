@@ -6,7 +6,7 @@
 //
 blockquote {
   position: relative;
-  background-color: $mainColor;
+  background-color: $darkGrey;
   color: $bgColor;
   padding: 15px;
   overflow: hidden; /* 1 */
@@ -15,6 +15,7 @@ blockquote {
   margin-bottom: 40px; // 2
   margin-left: auto; // 3
   text-align: left;
+  font-size: 90%;
 
   &::before {
     content: "\201C";

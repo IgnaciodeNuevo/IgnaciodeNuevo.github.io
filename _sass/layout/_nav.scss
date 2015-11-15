@@ -24,14 +24,9 @@
  * 1. Position context for pseudo-element
  */
 .nav li {
-  padding: 15px 10px;
-  position: relative; /* 1 */
+  position: relative; // 1
   display: inline-block;
-  margin: 0;
-
-  &:hover {
-      @include underLine($mainColor, $mainColor, 4px, 2.5em)
-  }
+  margin: 0 10px;
 }
 
 /**
@@ -46,10 +41,11 @@
  * Navigation links
  */
 .nav a {
+  padding: 15px 0;
   text-decoration: none;
   color: $darkGrey;
 
   &:hover {
-    @include underLine($mainColor, $darkGrey, 4px, 2.5em)
+    @include underLine($mainColor, $darkGrey, 4px, 2.5em);
   }
 }
