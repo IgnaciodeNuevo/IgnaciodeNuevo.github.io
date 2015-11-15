@@ -7,10 +7,10 @@ tags:
   - interviews
   - blog
 ---
-
-# Developers Interviews
-
-<img src="/images/developers-interviews.jpg" alt="Photography by Luis Llerena" />
+<div class="header-section">
+  <img src="/images/developers-interviews.jpg" alt="An overview of my Trello board" />
+  <h1 class="header-section__h1">Developers Interviews</h1>
+</div>
 
 It does not happen *that* often, but sometimes I have the pleasure to interview some of the most amazing web developers arround the globe!
 

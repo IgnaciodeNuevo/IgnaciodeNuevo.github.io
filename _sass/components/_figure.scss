@@ -1,31 +1,30 @@
-/**
- * Figures
- * 1. Poor man's vertical rhythm
- * 2. Clear inner floats
- */
+//
+// Figures
+// 1. Vertical rhythm
+// 2. Clear inner floats
+//
 .figure {
   margin: 0 -40px 40px; /* 1 */
   overflow: hidden; /* 2 */
 }
 
-/**
- * Figcaption
- * 1. Right aligned
- */
+//
+// Figcaption
+// 1. Right aligned
+//
 .figure figcaption {
-  float: right; /* 1 */
+  float: right; // 1
   margin: 10px 0;
   padding: 0 5px;
-  font-size: 14px;
-  font-size: .875rem;
+  font-size: 80%;
   color: $mainColor;
   border-left: 3px solid $mainColor;
   background-color: $lightGrey;
 }
 
-/**
- * Left floated figures
- */
+//
+// Left floated figures
+//
 .figure--left {
   @extend .figure;
 
@@ -34,17 +33,17 @@
     margin-right: 20px;
   }
 
-  /**
-   * Left align caption then
-   */
+  //
+  // Left align caption then
+  //
   figcaption {
     float: left;
   }
 }
 
-/**
- * Right floated figures
- */
+//
+// Right floated figures
+//
 .figure--right {
   @extend .figure;
 
@@ -54,13 +53,13 @@
   }
 }
 
-/**
- * Floated figures
- * 1. Poor man's vertical rhythm
- */
+//
+// Floated figures
+// 1. Vertical rhythm
+//
 .figure--left,
 .figure--right {
-  margin-bottom: 40px; /* 1 */
+  margin-bottom: 40px; // 1
 
   @include respond-to('medium') {
     max-width: 250px;
@@ -69,4 +68,36 @@
   @media (min-width: 800px) {
     max-width: 400px;
   }
+}
+
+//
+// Header of every main section of the site
+// 1. Vertical rhythm
+//
+.header-section {
+  position: relative;
+  margin: 1em -40px; // 1
+}
+
+//
+// Gives every img inside a figure a border-radius of $borderRadius
+//
+.header-section img {
+  border-radius: $borderRadius;
+}
+
+//
+// Heading level 1 of every main section of the site
+// 1. Positioning the heading level 1 inside .header-section
+//
+.header-section__h1 {
+  position: absolute;
+  padding: 0 8px;
+  left: 31px; // 1
+  top: -30px; // 1
+  font-size: 200%;
+  font-weight: 400;
+  color: $bgColor;
+  background-color: $mainColor;
+  border-radius: $borderRadius;
 }
