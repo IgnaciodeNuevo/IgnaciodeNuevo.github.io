@@ -45,11 +45,9 @@ a {
 
 //
 // Basic styles for images
-// 1. Prevent image from being taller than viewport
 //
 img {
   max-width: 100%;
   height: auto;
-  max-height: 80vh; // 1
   margin: 0 auto;
 }

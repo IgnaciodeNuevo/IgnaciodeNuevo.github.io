@@ -76,10 +76,29 @@
 //
 .header-section {
   position: relative;
-  margin: 1em -40px; // 1
+
+  // small: 320px (target) / 16px (context) = 19.875em
+  @include respond-to('small') {
+    max-width: 320px;
+    max-width: 20em;
+    max-width: 100vw;
+  }
+
+  // medium: 600px (target) / 16px (context) = 37.5em
+  @include respond-to('medium') {
+    max-width: 600px;
+    max-width: 37.5em;
+    max-width: 100vw;
+  }
+  
+  // big: 800px (target) / 16px (context) = 50em
+  @include respond-to('big') {
+    max-width: 800px;
+    max-width: 50em;
+    max-width: 100vw;
+  }
 }
 
-//
 // Gives every img inside a figure a border-radius of $borderRadius
 //
 .header-section img {
@@ -93,11 +112,33 @@
 .header-section__h1 {
   position: absolute;
   padding: 0 8px;
-  left: 31px; // 1
-  top: -30px; // 1
   font-size: 200%;
   font-weight: 400;
   color: $bgColor;
   background-color: $mainColor;
   border-radius: $borderRadius;
+
+  // small: 320px (target) / 16px (context) = 19.875em
+  @include respond-to('small') {
+    top: 0; // 1
+    left: 10px; // 1
+    font-size: 22px;
+    font-size: 1.375rem;
+  }
+
+  // medium: 600px (target) / 16px (context) = 37.5em
+  @include respond-to('medium') {
+    top: -22px; // 1
+    left: 25px; // 1
+    font-size: 27px;
+    font-size: 1.6875rem;
+  }
+  
+  // big: 800px (target) / 16px (context) = 50em
+  @include respond-to('big') {
+    top: -30px; // 1
+    left: 31px; // 1
+    font-size: 32px;
+    font-size: 2rem;
+  }
 }

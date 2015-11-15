@@ -50,8 +50,22 @@ $maxWidth: 800px;
 //*****************************************
 //	$BREAKPOINTS
 //*****************************************
+//
+// small: 320px (target) / 16px (context) = 20em
+// medium: 600px (target) / 16px (context) = 37.5em
+// big: 800px (target) / 16px (context) = 50em
+// large: 1024px (target) / 16px (context) = 64em
+// xtraLarge: 1280px (target) / 16 (context) = 80em
+// xtraBig: 1920 (target) / 16 (context) = 120em
+//
+
 $breakpoints: (
-  'medium': (min-width: 600px)
+  'small': (min-width: 19.875em),
+  'medium': (min-width: 37.5em),
+  'big': (min-width: 50em),
+  'large': (min-width: 64em),
+  'xtraLarge': (min-width: 80em),
+  'xtraBig': (min-width: 120em),
 );
 
 

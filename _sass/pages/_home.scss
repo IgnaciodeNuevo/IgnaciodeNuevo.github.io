@@ -120,10 +120,12 @@
 //   max-height: 150px;
 // }
 
-.home-section {
-  display: block;
-  height: 80vh;
-}
+
+
+// .home-section {
+//   display: block;
+//   max-height: 80vh;
+// }
 
 .home-section__portrait {
   display: block;
@@ -133,9 +135,28 @@
 }
 
 .home-section__h1 {
-  font-size: 85px;
-  font-size: 5.3125rem;
-  letter-spacing: -4px;
+  font-family: $sansFont;
   font-weight: 700;
   line-height: 1;
+
+  // small: 320px (target) / 16px (context) = 19.875em
+  @include respond-to('small') {
+    font-size: 32px;
+    font-size: 2rem;
+    letter-spacing: -2px;
+  }
+
+  // medium: 600px (target) / 16px (context) = 37.5em
+  @include respond-to('medium') {
+    font-size: 45px;
+    font-size: 2.8125rem;
+    //letter-spacing: -2px;
+  }
+
+  // big: 800px (target) / 16px (context) = 50em
+  @include respond-to('big') {
+    font-size: 55px;
+    font-size: 3.4375rem;
+    //letter-spacing: -2px;
+  }
 }
