@@ -8,7 +8,7 @@ tags:
   - blog
 ---
 <div class="header-section">
-  <img src="/images/developers-interviews.jpg" alt="An overview of my Trello board" />
+  <img src="/images/developers-interviews.jpg" alt="Photography by Alejandro Escamilla" />
   <h1 class="header-section__h1">Developers Interviews</h1>
 </div>
 

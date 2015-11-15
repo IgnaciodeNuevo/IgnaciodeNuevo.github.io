@@ -7,10 +7,10 @@ tags:
   - open-source
   - github
 ---
-
-# Open-source Projects
-
-<img src="/images/banners/coding.jpg" alt="Photography by Alexandra Lucas" />
+<div class="header-section">
+  <img src="/images/projects.jpg" alt="Photography by Negative Space" />" />
+  <h1 class="header-section__h1">Development Projects</h1>
+</div>
 
 When I can, I try to invest a lot of time in open-source projects. Here are a few of them I initiated myself:
 

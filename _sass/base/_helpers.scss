@@ -14,6 +14,7 @@
 // 3. Leave some space on the edges
 //
 .container {
+  position: relative;
   width: 100%; // 1
   max-width: $maxWidth; // 1
   margin-left: auto; // 2

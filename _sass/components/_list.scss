@@ -54,12 +54,4 @@
 .list__item a {
   color: inherit; /* 1 */
   text-decoration: none;
-
-  &::before {
-    transition: transform 0.1s;
-  }
-
-  &:hover {
-    color: $secondaryColor;
-  }
 }
