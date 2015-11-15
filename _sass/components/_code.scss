@@ -36,6 +36,8 @@ p > code {
 // 1. Overrides Prism.js
 //
 pre {
+  margin: 0 -40px 40px !important; // 1
+  padding: 20px 40px !important; // 1
   background-color: $darkGrey;
   border-radius: $borderRadius;
 }
