@@ -5,7 +5,7 @@
 // 3. Centering blackquote
 //
 blockquote {
-  position: relative;
+  display: block;
   background-color: $darkGrey;
   color: $bgColor;
   padding: 15px;
@@ -19,9 +19,10 @@ blockquote {
 
   &::before {
     content: "\201C";
-    position: absolute;
-    top: -10px;
-    left: 515px;
+    display: inline-block;
+    float: left;
+    margin-top: -25px;
+    margin-left: 505px;
     font-family: "Arial", $sansFont;
     font-size: 70px;
     font-size: 4.375rem;

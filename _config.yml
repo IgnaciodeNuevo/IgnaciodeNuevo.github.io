@@ -1,8 +1,8 @@
 # Site settings
-title: "Ignacio Villanueva - Front-end Developer focusing on CSS, Sass, architecture, scalability, front-end performance, and mobile and responsive web design based in Madrid, Spain."
+title: "Ignacio Villanueva - Front-end Developer, focusing on CSS and Sass, architecture, front-end performance and responsive web design."
 email: IgnaciodeNuevo@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  My name is Ignacio Villanueva, I am a Spanish Front-end Developer based in Madrid, focusing on CSS and Sass, architecture, scalability, front-end performance, and mobile and responsive web design based in Madrid, Spain.
+  My name is Ignacio Villanueva, front-end Developer, focusing on CSS and Sass, architecture, front-end performance and responsive web design.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://ignaciodenuevo.com" # the base hostname & protocol for your site
 twitter_username: IgnaciodeNuevo
@@ -10,7 +10,7 @@ github_username:  IgnaciodeNuevo
 
 # Build settings
 markdown: kramdown
-paginate_path: /writing/page:num
+paginate_path: /blog/page:num
 paginate: 10
 permalink: pretty
 sass:

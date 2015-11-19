@@ -66,11 +66,10 @@
   //
   &::before {
     content: url(../images/icon-info.svg);
-    position: absolute;
     width: 20px;
     height: 20px;
-    left: 8px;
-    top: -38px;
+    margin-left: -28px;
+    margin-top: -54px;
     vertical-align: middle;
     color: #ffffff;
   }

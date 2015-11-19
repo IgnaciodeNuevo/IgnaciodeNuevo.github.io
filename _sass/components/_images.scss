@@ -1,7 +1,7 @@
-/**
- * Floated images
- * 1. Poor man's vertical rhythm
- */
+//
+// Floated images
+// 1. Vrtical rhythm
+//
 .pull-image--left,
 .pull-image--right {
   @include respond-to('medium') {
@@ -14,22 +14,22 @@
   }
 }
 
-/**
- * Left floated images
- */
+//
+// Left floated images
+//
 .pull-image--left {
   @include respond-to('medium') {
     float: left;
-    margin-right: 20px;
+    margin-right: 15px;
   }
 }
 
-/**
- * Right floated images
- */
+//
+// Right floated images
+//
 .pull-image--right {
   @include respond-to('medium') {
     float: right;
-    margin-left: 20px;
+    margin-left: 15px;
   }
 }
