@@ -3,9 +3,23 @@
 //
 .home-section__portrait {
   display: block;
-  margin: 40px auto;
   max-width: 200px;
   border-radius: 50%;
+
+  // small: 320px (target) / 16px (context) = 19.875em
+  @include respond-to('small') {
+    margin: 15px auto;
+  }
+
+  // medium: 600px (target) / 16px (context) = 37.5em
+  @include respond-to('medium') {
+    margin: 35px auto;
+  }
+
+  // big: 800px (target) / 16px (context) = 50em
+  @include respond-to('big') {
+    margin: 80px auto;
+  }
 }
 
 .home-section__h1 {
@@ -17,6 +31,7 @@
   @include respond-to('small') {
     font-size: 32px;
     font-size: 2rem;
+    margin-bottom: $marginBottom;
     letter-spacing: -2px;
   }
 
@@ -24,6 +39,7 @@
   @include respond-to('medium') {
     font-size: 45px;
     font-size: 2.8125rem;
+    margin-bottom: $marginBottom * 1.5;
     //letter-spacing: -2px;
   }
 
@@ -31,6 +47,25 @@
   @include respond-to('big') {
     font-size: 49px;
     font-size: 3.0625rem;
+    margin-bottom: $marginBottom * 3;
     //letter-spacing: -2px;
+  }
+}
+
+.home-section__p {
+
+  // small: 320px (target) / 16px (context) = 19.875em
+  @include respond-to('small') {
+    margin-bottom: $marginBottom;
+  }
+
+  // medium: 600px (target) / 16px (context) = 37.5em
+  @include respond-to('medium') {
+    margin-bottom: $marginBottom * 1.5;
+  }
+
+  // big: 800px (target) / 16px (context) = 50em
+  @include respond-to('big') {
+    margin-bottom: $marginBottom * 3;
   }
 }
