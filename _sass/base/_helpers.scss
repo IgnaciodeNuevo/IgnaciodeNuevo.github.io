@@ -21,7 +21,18 @@
   margin-right: auto; // 2
   padding-left: 15px; // 3
   padding-right: 15px; // 3
- }
+
+  &--small {
+    width: 100%; // 1
+    max-width: 200px; // 1
+    margin: 0 auto;
+  }
+
+  &--big {
+    width: 100%; // 1
+    max-width: 231px; // 1
+  }
+}
 
 //
 // Hide text while making it readable for screen readers
@@ -53,8 +64,6 @@
 // Highlights the left border with a $main-color color and the background with a $light-grey color
 //
 .alert {
-  width: 100%;
-  max-width: $maxWidth;
   padding-top: 20px;
   padding-left: 36px;
   border-left: 3px solid $mainColor;
@@ -71,8 +80,7 @@
     height: 20px;
     margin-left: -5px;
     margin-top: -29px;
-    vertical-align: middle;
-    color: #ffffff;
+    color: $bgColor;
   }
 }
 
@@ -85,8 +93,4 @@
   &:hover {
     @include underLine($mainColor, $mainColor, 1px);
   }
-}
-
-.blockquote {
-  background-color: $darkGrey;
 }

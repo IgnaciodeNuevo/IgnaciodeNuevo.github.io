@@ -1,6 +1,6 @@
-/**
- * Header
- */
+//
+// Header
+//
 .header {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -13,14 +13,14 @@
   }
 }
 
-/**
- * Header title 
- * 1. Poor man's vertical rhythm
- * 2. Same size as copy text
- */
+//
+// Header title 
+// 1. Vertical rhythm
+// 2. Same size as copy text
+//
 .header__title {
-  margin: 0 0 20px; /* 1 */
-  font-size: 1em; /* 2 */
+  margin: 0 0 20px; // 1
+  font-size: 1.125rem; // 2
   position: relative;
 
   @include respond-to('medium') {
@@ -28,13 +28,14 @@
     margin: 0;
   }
 
-  /**
-   * Header title link
-   */
+  //
+  // Header title link
+  //
   a {
     color: $darkGrey;
     text-decoration: none;
     padding: 15px 0;
+    max-width: 149px;
 
     &:hover {
       @include underLine($mainColor, $darkGrey, 4px, 2.5em)

@@ -1,6 +1,6 @@
-/**
- * Navigation
- */
+//
+// Navigation
+//
 .nav {
   position: relative;
 
@@ -9,37 +9,36 @@
   }
 }
 
-/**
- * Navigation list
- * 1. Undo default styles
- */
+//
+// Navigation list
+// 1. Undo default styles
+//
 .nav ul {
-  list-style: none; /* 1 */
-  margin: 0; /* 1 */
-  padding: 0; /* 1 */
+  list-style: none; // 1
+  margin: 0; // 1
+  padding: 0; // 1
 }
 
-/**
- * Navigation item
- * 1. Position context for pseudo-element
- */
+//
+// Navigation item
+// 1. Position context for pseudo-element
+//
 .nav li {
   position: relative; // 1
   display: inline-block;
   margin: 0 10px;
 }
 
-/**
- * Navigation active item 
- * 1. (sqrt(2) * 20) / 2
- */
+//
+// Navigation active item 
+//
 .is-active {
     @include underLine($mainColor, $mainColor, 4px, 2.5em)
 }
 
-/**
- * Navigation links
- */
+///
+// Navigation links
+//
 .nav a {
   padding: 15px 0;
   text-decoration: none;

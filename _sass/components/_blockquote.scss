@@ -4,35 +4,6 @@
 // 2. Vertical rhythm
 // 3. Centering blackquote
 //
-// blockquote {
-//   background-color: $darkGrey;
-//   color: $bgColor;
-//   overflow: hidden; /* 1 */
-//   margin-top: 0; // 2
-//   margin-right: auto; // 3
-//   margin-bottom: 40px; // 2
-//   margin-left: auto; // 3
-//   padding: 15px;
-//   text-align: left;
-//   font-size: 90%;
-//   //quotes: "\201C""\201D""\2018""\2019";
-
-//   &::before {
-//     content: "\201C";
-//     //content: open-quote;
-//     display: inline-block;
-//     margin-top: -25px;
-//     margin-left: 505px;
-//     font-family: "Arial", $sansFont;
-//     font-size: 70px;
-//     font-size: 4.375rem;
-//     font-style: normal;
-//     font-weight: bold;
-//     color: $bgColor;
-//   }
-// }
-
-
 blockquote {
   position: relative;
   margin-bottom: 24px;
@@ -53,6 +24,13 @@ blockquote {
     font-style: normal;
     font-weight: bold;
   }
+}
+
+//
+// Makes the container of every blockquote background-color: $darkGrey
+//
+.blockquote {
+  background-color: $darkGrey;
 }
 
 //
