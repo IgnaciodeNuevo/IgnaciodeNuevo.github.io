@@ -1,7 +1,3 @@
-.post-title {
-  text-transform: capitalize;
-}
-
 //
 // Date from in the post page
 //
@@ -9,9 +5,4 @@
 .post-tags {
   color: $mediumGrey;
   font-family: $codeFont;
-}
-
-.reading-time {
-  &::after { content: ')'; }
-  &::before { content: '('; }
 }

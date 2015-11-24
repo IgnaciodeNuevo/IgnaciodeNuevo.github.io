@@ -3,12 +3,12 @@ layout: default
 ---
 
 {% if page.title %} 
-  <h1 class="post__h1">{{ page.title }}</h1> 
+  <h1>{{ page.title }}</h1> 
 {% endif %}
 
 {% if page.date %}
   <p class="post__date">{{ page.date | date: "%B %d, %Y" }}</p> 
-  <p class="post__reading-time">Estimated reading time: : {% include reading_time.html content=content %}</p>
+  <p>{% include reading_time.html content=content %}</p>
 {% endif %}
 
 {{ content }}

@@ -28,8 +28,12 @@
   }
 }
 
+//
+// Subheading
+// 1. Vertical rhythm
+//
 .article__h2 {
-  margin: 50px auto 20px;
+  margin: 50px auto 20px; // 1
   padding-left: 20px;
 
   &:first-child {
@@ -37,6 +41,9 @@
   }
 }
 
+//
+// Left margin to make room for photography and number
+//
 .article__h3,
 .article__date,
 .article__excerpt,
@@ -44,24 +51,38 @@
   margin-left: 91px;
 }
 
+//
+// Subeading H3
+// 1. Vertical rhythm
+//
 .article__h3 {
-  margin-top: 7px;
-  margin-bottom: 5px;
+  margin-top: 7px; // 1
+  margin-bottom: 5px; // 1
   color: $darkGrey;
 }
 
+//
+// Date of publication
+// 
 .article__date {
   font-family: $codeFont;
   font-size: 80%;
   color: $darkGrey;
 }
 
+//
+// Article excerpt
+// 1. Vertical rhythm
+//
 .article__excerpt {
-  margin-bottom: 20px;
+  margin-bottom: 20px; // 1
   font-size: 90%;
   color: $darkGrey;
 }
 
+//
+// Developer interview or project photography
+//
 .portrait--small {
   position: absolute;
   width: 75px;
@@ -70,6 +91,9 @@
   border-radius: $borderRadius; 
 }
 
+//
+// Number of publication/project
+//
 .article__number {
   position: absolute;
   width: 75px;
@@ -89,6 +113,10 @@
   left: 8px;
 }
 
+//
+// Developer interview or project Twitter/Website
+// 1. Vertical rhythm
+//
 .article__url {
   margin-top: 0;
   margin-bottom: 5px;
