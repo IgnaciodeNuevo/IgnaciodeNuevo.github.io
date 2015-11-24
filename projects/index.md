@@ -14,17 +14,17 @@ tags:
 
 When I can, I try to invest a lot of time in open-source projects. Here are a few of them I initiated myself:
 
-<ul class="list">
+<ul class="reset-bullet">
 {% for project in site.data.projects %}
-  <li class="list__item">
-    <a href="/projects/{{ project.project_url }}"> 
-        <h3 class="home-section__h3">{{ project.name }}</h3>
-        <time class="home-section__date" datetime="{{ project.date | date: "%Y-%m-%d" }}">{{ project.project_date }}</time>
-        <p>{{ project.description }}</p>
-        <img class="portrait--small" src="{{ project.image_url }}" alt="{{ project.name }} Image"/>
-      </a>
-      <p>
-        <a href="{{ project.project_web }}" target="_blank">{{ project.name }}'s Web</a>
-      </p>
+  <li class="article  container">
+    <a class="article__link" href="/projects/{{ project.project_url }}"> 
+      <h3 class="article__h3">{{ project.name }}</h3>
+      <time class="article__date" datetime="{{ project.date | date: "%Y-%m-%d" }}">{{ project.project_date }}</time>
+      <p class="article__excerpt">{{ project.description }}</p>
+      <img class="portrait--small" src="{{ project.image_url }}" alt="{{ project.name }} Image"/>
+    </a>
+    <p class="article__url">
+      <a href="{{ project.project_web }}" target="_blank">{{ project.name }}'s Web</a>
+    </p>
   </li>
 {% endfor %}

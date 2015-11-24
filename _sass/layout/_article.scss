@@ -1,0 +1,104 @@
+//
+// Article
+//
+.article {
+  position: relative;
+  background-color: $lightGrey;
+  border-radius: $borderRadius;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border: 3px solid $lightGrey;
+  //border-bottom: 3px solid $darkGrey;
+  box-shadow: 0 4px 3px -2px $darkGrey;
+
+  &:hover {
+    border: 3px solid $mainColor;
+  }
+
+  &:hover .article__h3 {
+    color: $mainColor;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  & a {
+    @include underLine(transparent, $mainColor, 0);
+  }
+}
+
+.article__h2 {
+  margin: 50px auto 20px;
+  padding-left: 20px;
+
+  &:first-child {
+    margin: 0 auto 20px;
+  }
+}
+
+.article__h3,
+.article__date,
+.article__excerpt,
+.article__url {
+  margin-left: 91px;
+}
+
+.article__h3 {
+  margin-top: 7px;
+  margin-bottom: 5px;
+  color: $darkGrey;
+}
+
+.article__date {
+  font-family: $codeFont;
+  font-size: 80%;
+  color: $darkGrey;
+}
+
+.article__excerpt {
+  margin-bottom: 20px;
+  font-size: 90%;
+  color: $darkGrey;
+}
+
+.portrait--small {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  top: 42px;
+  border-radius: $borderRadius; 
+}
+
+.article__number {
+  position: absolute;
+  width: 75px;
+  height: 40px;
+  top: -27px;
+  line-height: 40px;
+  text-align: center;
+  background-color: $mainColor;
+  color: $bgColor;
+  border-radius: $borderRadius;
+}
+
+//
+// Fix .article__number alignment while in the search engine
+//
+.article__search {
+  left: 8px;
+}
+
+.article__url {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 90%;
+
+  & a {
+    @include dashedUnderLine($mainColor, $mainColor, 1px)
+  }
+
+  & a:hover {
+    @include underLine($mainColor, $mainColor, 1px)
+  }
+}

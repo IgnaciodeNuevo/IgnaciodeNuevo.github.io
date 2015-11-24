@@ -1,15 +1,24 @@
+//
+// Search styles
+//
 .search-container {
   clear: both;
   margin-top: 80px;
 }
 
 .search-input {
-  width: 100%;
   display: block;
-  padding: 5px;
+  width: 100%;
   margin-bottom: 20px;
+  padding: 5px;
 }
 
-.search-results {
+#results-container {
+	padding-left: 0;
+}
 
+#search-input {
+    border: 3px solid $mainColor;
+    border-radius: $borderRadius;
+    padding: 10px;
 }

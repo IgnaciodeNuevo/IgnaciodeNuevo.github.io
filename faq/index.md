@@ -40,4 +40,4 @@ Possibly.
 Thanks for asking! Yes, you can use any of my materials in your work whenever you [read this](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 ### Will you join my company to work with me?
-It depends, I'm always looking to improve as a professional, so if you think you can help me with this, say hi at [ignaciodenuevo@gmail.com](mailto:ignaciodenuevo@gmail.com) ant we'll chat.
+It depends, I'm always looking to improve as a professional, so if you think you can help me with this, say hi at [ignaciodenuevo@gmail.com](mailto:ignaciodenuevo@gmail.com) and we'll chat.

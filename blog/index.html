@@ -14,7 +14,7 @@ tags:
 
 <p>I use to write <em>a lot</em>, at least once per week. If you are looking for something specific, hit <a href="/search">the search</a> in the footer of the page, or check all <a href="/developers-interviews">Developer Interviews</a>.</p>
 
-<ul class="articles  list">
+<ul class="reset-bullet">
 {% for post in paginator.posts %}
   {% unless post.preview %}
     {% include post-list.html post=post %}
