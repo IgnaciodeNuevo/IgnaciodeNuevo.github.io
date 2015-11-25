@@ -1,0 +1,17 @@
+//
+// 404 Page
+//
+strong {
+	font-size: 49px;
+  font-size: 3.0625rem;
+  color: $mainColor;
+}
+
+//
+// Center horizontally
+//
+img,
+strong {
+	display: block;
+	margin: 0 auto;
+}
