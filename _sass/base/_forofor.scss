@@ -10,8 +10,17 @@ strong {
 //
 // Center horizontally
 //
-img,
+.tac,
 strong {
+	text-align: center;
+}
+
+//
+// Center horizontally
+//
+img {
 	display: block;
+	width: 100%;
+	max-width: 400px;
 	margin: 0 auto;
 }
