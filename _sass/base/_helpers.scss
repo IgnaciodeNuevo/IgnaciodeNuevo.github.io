@@ -118,3 +118,10 @@
     @include underLine(transparent, $mainColor);
   }
 }
+
+//
+// Center horizontally
+//
+.tac {
+  text-align: center;
+}

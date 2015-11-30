@@ -39,4 +39,4 @@ Writing about unknown topics is a way to force me to investigate about them and 
   </blockquote>
 </div>
 
-So, I'll be writting every week, don't know what but this is my beginning of a long and awesome trip.
+So, I'll be writting every week, don't know what about but this is my beginning of a long and awesome trip.
