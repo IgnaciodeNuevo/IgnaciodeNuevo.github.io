@@ -1,57 +1,17 @@
 ---
 layout: post
-title: "Interview Prueba"
+title: "Grupo Legantia"
 tags:
-  - writing
-  - interviews
-  - blog
+  - project
+  - web
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit neque molestias distinctio officiis quis, illum excepturi, labore provident vero expedita dolorum at tenetur assumenda blanditiis in fugiat? Ad, veniam, aspernatur!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit neque molestias distinctio officiis quis, illum excepturi, labore provident vero expedita dolorum at tenetur assumenda blanditiis in fugiat? Ad, veniam, aspernatur!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit neque molestias distinctio officiis quis, illum excepturi, labore provident vero expedita dolorum at tenetur assumenda blanditiis in fugiat? Ad, veniam, aspernatur!
+## The project
 
-> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit neque molestias distinctio officiis quis, illum excepturi, labore provident vero expedita dolorum at tenetur assumenda blanditiis in fugiat? Ad, veniam, aspernatur!
+The many-device web we use today has tought us to design to design in very different ways.
 
-{% highlight scss %}
-/**
- * Make past events slightly less apparent
- */
-.event--past {
-  opacity: 0.65;
-}
+Designing one website for small and large screens could be very tricky. So in the agency I was working for, one of our clients camed with a big problem, they wanted to create a platform where legal professionals such as notaries, lawyers, attorneys and law students in Spain could attend networking events organized by [Grupo Legantia](http://grupolegantia.com), share their knowlage and debate in the forum, read articles published by reputed professionals, post or find a job and also create professional relationships through social network.
 
-/**
- * Event actions
- * 1. Undo default styles
- */
-.event__actions {
-  list-style: none; /* 1 */
-  padding: 0; /* 1 */
-  margin: 0; /* 1 */
-}
-
-/**
- * Event action
- */
-.event__actions li {
-  display: inline-block;
-}
-
-/**
- * Event action separator
- */
-.event__actions li + li::before {
-  content: ' •  ';
-  white-space: pre;
-  color: mix(black, $light-grey, 10%);
-}
-{% endhighlight %}
-
- * Hola
- * Que
- * Tal
- * Estás
- * Tu
-
- > Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore eos dicta quod, blanditiis placeat, esse accusantium quo quaerat laboriosam possimus earum neque nobis, eveniet nesciunt inventore dolorum? Quam, quibusdam inventore.
-
- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore eos dicta quod, blanditiis placeat, esse accusantium quo quaerat laboriosam possimus earum neque nobis, eveniet nesciunt inventore dolorum? Quam, quibusdam inventore.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore eos dicta quod, blanditiis placeat, esse accusantium quo quaerat laboriosam possimus earum neque nobis, eveniet nesciunt inventore dolorum? Quam, quibusdam inventore.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore eos dicta quod, blanditiis placeat, esse accusantium quo quaerat laboriosam possimus earum neque nobis, eveniet nesciunt inventore dolorum? Quam, quibusdam inventore.
+{% for project in site.data.projects %}
+<a href="{{ project.project_web }}" target="_blank"><img src="/images/project-grupo-legantia-1.jpg" alt="Grupo Legantia HomePage"></a>
+{% endfor %}
