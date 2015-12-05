@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Interviewing web developers"
+title: "Interviewing Web People"
 excerpt: "I am starting an awesome project wich I never thought it would be possible. I am interviewing the most awesome people of the Web Industry."
 post_date: "December 4, 2015"
 post_number: 2
