@@ -22,25 +22,31 @@
 //
 // Navigation item
 // 1. Position context for pseudo-element
+// 2. Same size as copy text
 //
 .nav li {
-  position: relative; // 1
   display: inline-block;
+  position: relative; // 1
   margin: 0 10px;
+  font-size: 18px; // 2
+  font-size: 1.125rem; // 2
 }
 
 //
 // Navigation active item 
 //
 .is-active {
-    @include underLine($mainColor, $mainColor, 4px, 2.5em)
+  display: block;
+  margin: 0 auto;
+  max-width: 166.188px;
+  @include underLine($mainColor, $mainColor, 4px, 2.5em);
 }
 
 ///
 // Navigation links
 //
 .nav a {
-  padding: 15px 0;
+  padding: 12px 0;
   text-decoration: none;
   color: $darkGrey;
 

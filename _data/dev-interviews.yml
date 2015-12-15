@@ -1,8 +1,17 @@
+- name: "Hugo Giraudel"
+  excerpt: "My name is Hugo. I am a French front-end developer about to turn 24 and living in Berlin, Germany. I am working at Edenspiekermann, where I can play with HTML, CSS (Sass & CSS Modules) and JavaScript (React) on a daily basis."
+  image_url: ../images/portrait-hugo-giraudel.jpg
+  interview_date: "December 14, 2015"
+  interview_number: 2
+  interview_twitter: https://twitter.com/HugoGiraudel
+  interview_url: hugo-giraudel
+  interview_web: http://hugogiraudel.com
+
 - name: "Jamie Knight"
   excerpt: "I am Jamie, I am autistic, 26 and have been coding for the web since I was 9. I am never seen far from a large plushie lion named “Lion”."
   image_url: ../images/portrait-jamie-knight.jpg
-  interview_date: "November 30, 2015"
+  interview_date: "December 5, 2015"
   interview_number: 1
   interview_twitter: https://twitter.com/JamieKnight
   interview_url: jamie-knight
-  interview_web: http://jkg3.com/
+  interview_web: http://jkg3.com

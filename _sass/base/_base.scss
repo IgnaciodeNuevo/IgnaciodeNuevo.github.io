@@ -39,7 +39,7 @@ a {
   // Display 'special' underline
   //
   &:hover {
-    @include underLine($mainColor, 1px)
+    @include underLine($mainColor, $mainColor, 1px);
   }
 }
 

@@ -16,11 +16,28 @@
 .container {
   position: relative;
   width: 100%; // 1
-  max-width: $maxWidth; // 1
   margin-left: auto; // 2
   margin-right: auto; // 2
-  padding-left: 15px; // 3
-  padding-right: 15px; // 3
+  
+
+  // small: 320px (target) / 16px (context) = 19.875em
+  @include respond-to('small') {
+    max-width: 98%; // 1
+    padding-left: 2px; // 3
+    padding-right: 2px; // 3
+  }
+
+  @include respond-to('medium') {
+    max-width: calc($maxWidth - 10px); // 1
+    padding-left: 3px; // 3
+    padding-right: 3px; // 3
+  }
+
+  @include respond-to('big') {
+    max-width: $maxWidth; // 1
+    padding-left: 10px; // 3
+    padding-right: 10px; // 3
+  }
 
   &--small {
     width: 100%; // 1

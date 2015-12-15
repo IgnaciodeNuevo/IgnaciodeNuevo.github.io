@@ -2,65 +2,9 @@
 ---
 @charset 'utf-8';
 
-// sass/
-// |
-// |– base/
-// |   |– _base.scss        # Commonly used HTML elements 
-// |   |– _helpers.scss     # Helpers
-// |   |– _shame.scss       # Stylesheet dedicated to housing your nasty, hacky, quick-fix CSS
-// |   |– _typography.scss  # Typography rules
-// |   ...                  # Etc…
-// |
-// |– components/
-// |   |– _blockquote.scss  # Blockquote
-// |   |– _cite.scss        # Cite
-// |   |– _code.scss        # Code
-// |   |– _figure.scss      # Figure
-// |   |– _images:.scss     # Images
-// |   |– _pagination.scss  # Pagination
-// |   |– _table.scss       # Table
-// |   |– _toc.scss         # Toc
-// |   ...                  # Etc…
-// |
-// |– layout/
-// |   |– _article.scss     # Article
-// |   |– _footer.scss      # Footer
-// |   |– _header.scss      # Header
-// |   |– _nav.scss         # Nav
-// |   |– _section.scss     # Section
-// |   |– _sidebar.scss     # Sidebar
-// |   ...                  # Etc…
-// |
-// |– pages/
-// |   |– _about.scss       # About specific styles
-// |   |– _blog.scss        # Blog specific styles
-// |   |– _faq.scss         # FAQ specific styles
-// |   |– _home.scss        # Home specific styles
-// |   |– _interviews.scss  # Developers Interviews specific styles
-// |   |– _license.scss     # MIT license specific styles
-// |   |– _post.scss        # Post specific styles
-// |   |– _resources.scss   # Resources specific styles
-// |   |– _search.scss      # Search specific styles
-// |   |– _speaking.scss    # Speaking specific styles
-// |   |– _styleguide.scss  # Styleguide specific styles
-// |   ...                  # Etc…
-// |
-// |– utils/
-// |   |– _mixins.scss      # Sass Mixins
-// |   |– _variables.scss   # Sass Variables
-// |   ...                  # Etc…
-// |
-// |- vendor/
-// |   |– _normalize.scss   # Makes browsers render all elements more consistently
-// |   |– _prism.scss       # Syntax highlighter
-// |
-// `– ../css/main.scss      # Main Sass file
-// 
-
 @import "utils/variables";
 @import "utils/mixins";
 
-//deleted file - @import "vendor/prism";
 @import "vendor/normalize";
 
 @import "base/base";
@@ -72,29 +16,22 @@
 @import "layout/main";
 @import "layout/nav";
 @import "layout/article";
-//empty file - @import "layout/section";
 //empty file - @import "layout/sidebar";
 
 @import "components/figure";
-//deleted file - @import "components/toc";
 @import "components/pagination";
 @import "components/images";
 @import "components/lists";
-//deleted file - @import "components/list";
 @import "components/code";
 @import "components/blockquote";
 @import "components/cite";
-//deleted file - @import "components/table";
 
 @import "pages/home";
-//deleted file - @import "pages/blog";
 @import "pages/post";
 @import "pages/about";
 @import "pages/interviews";
 @import "pages/speaking";
 //empty file - @import "pages/resources";
-//empty file - @import "pages/faq";
-//empty file - @import "pages/license";
 @import "pages/search";
 //empty file - @import "pages/styleguide";
 

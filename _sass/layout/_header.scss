@@ -19,9 +19,10 @@
 // 2. Same size as copy text
 //
 .header__title {
-  margin: 0 0 20px; // 1
-  font-size: 1.125rem; // 2
   position: relative;
+  margin: 0 0 20px; // 1
+  font-size: 18px; // 2
+  font-size: 1.125rem; // 2
 
   @include respond-to('medium') {
     float: left;
@@ -34,11 +35,11 @@
   a {
     color: $darkGrey;
     text-decoration: none;
-    padding: 15px 0;
+    padding: 12px 0;
     max-width: 149px;
 
     &:hover {
-      @include underLine($mainColor, $darkGrey, 4px, 2.5em)
+      @include underLine($mainColor, $darkGrey, 4px, 2.5em);
     }
   }
 }
