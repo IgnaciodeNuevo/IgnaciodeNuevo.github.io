@@ -1,3 +1,12 @@
+- name: "Ben Schwarz"
+  excerpt: "Probably over excited about the wrong things! I’m generally really focused on whatever my brain leads me to — and I’m really great at neglecting (important) things that aren’t interesting to me."
+  image_url: ../images/portrait-ben-schwarz.jpg
+  interview_date: "January 12, 2016"
+  interview_number: 3
+  interview_twitter: https://twitter.com/BenSchwarz
+  interview_url: ben-schwarz
+  interview_web: http://germanforblack.com/
+
 - name: "Hugo Giraudel"
   excerpt: "My name is Hugo. I am a French front-end developer about to turn 24 and living in Berlin, Germany. I am working at Edenspiekermann, where I can play with HTML, CSS (Sass & CSS Modules) and JavaScript (React) on a daily basis."
   image_url: ../images/portrait-hugo-giraudel.jpg
