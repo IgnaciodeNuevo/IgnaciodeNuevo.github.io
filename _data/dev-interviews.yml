@@ -1,3 +1,12 @@
+- name: "Jonathan Stark"
+  excerpt: "Front end dev seems to change on a daily basis. It's virtually impossible to keep up with the latest and greatest, and everything has pros and cons."
+  image_url: ../images/portrait-jonathan-stark.jpg
+  interview_date: "January 18, 2016"
+  interview_number: 4
+  interview_twitter: https://twitter.com/jonathanstark
+  interview_url: jonathan-stark
+  interview_web: https://jonathanstark.com/
+
 - name: "Ben Schwarz"
   excerpt: "Probably over excited about the wrong things! I’m generally really focused on whatever my brain leads me to — and I’m really great at neglecting (important) things that aren’t interesting to me."
   image_url: ../images/portrait-ben-schwarz.jpg
