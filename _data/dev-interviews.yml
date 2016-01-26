@@ -1,3 +1,12 @@
+- name: "Brad Frost"
+  excerpt: "Generally speaking, I make websites. I'm a front-end web designer by trade, and increasingly I consult with organizations to help them make better web experiences."
+  image_url: ../images/portrait-brad-frost.png
+  interview_date: "January 26, 2016"
+  interview_number: 5
+  interview_twitter: https://twitter.com/brad_frost
+  interview_url: brad-frost
+  interview_web: http://bradfrost.com
+
 - name: "Jonathan Stark"
   excerpt: "Front end dev seems to change on a daily basis. It's virtually impossible to keep up with the latest and greatest, and everything has pros and cons."
   image_url: ../images/portrait-jonathan-stark.jpg
