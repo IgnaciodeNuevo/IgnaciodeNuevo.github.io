@@ -1,3 +1,12 @@
+- name: "Stephen Hey"
+  excerpt: "I'm a designer who codes. I was schooled as a designer, did print design and later art direction for several years. Then I started doing web design and learned front-end technologies."
+  image_url: ../images/portrait-stephen-hay.jpg
+  interview_date: "February 1, 2016"
+  interview_number: 6
+  interview_twitter: https://twitter.com/stephenhay
+  interview_url: stephen-hay
+  interview_web: http://www.the-haystack.com/
+
 - name: "Brad Frost"
   excerpt: "Generally speaking, I make websites. I'm a front-end web designer by trade, and increasingly I consult with organizations to help them make better web experiences."
   image_url: ../images/portrait-brad-frost.png
