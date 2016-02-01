@@ -35,7 +35,7 @@ Communication and other people problems. Teams not actually working together, no
  
 ## How would you recommend somebody to start learning web development?
 
-Again, focus on the fundamentals. Create a structured document using a tutorial such as those found on MDN. Opera Software also has excellent articles, as done the Chrome team. But to start, just mark up a document. Try and understand what the different elements are and what use cases they might have, how you might combine them. Understand how these elements create a tree structure. Start looking at this structured content in as many devices as you can.
+Again, focus on the fundamentals. Create a structured document using a tutorial such as those found on MDN. Opera Software also has excellent articles, as does the Chrome team. But to start, just mark up a document. Try and understand what the different elements are and what use cases they might have, how you might combine them. Understand how these elements create a tree structure. Start looking at this structured content in as many devices as you can.
 
 Then start learning to apply style using the same resources. Keep looking at what happens on devices. Learn about inheritance and the cascade. See if you can use these to your advantage. Don't worry about CSS "methodologies" or pre- and post-processors for now. Learn as many ways to do layout as you can. Have fun and play around. Learn about media queries and responsive design.
 
@@ -45,7 +45,7 @@ Also, I'm severely oversimplifying. :-)
 
 ## What are the things you would have known when you first started?
 
-There was less to know back then. I'm got I got in when I did, because I was able to learn gradually.
+There was less to know back then. I'm glad I got in when I did, because I was able to learn gradually.
  
 ## When starting a new project, if you feel stuck where do you look for inspiration?
 
