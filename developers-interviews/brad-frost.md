@@ -6,7 +6,7 @@ tags:
   - interviews
   - blog
 ---
-<img class="home-section__portrait" src="/images/portrait-brad-frost.png" alt="Photo Brad Frost"  />
+<img class="home-section__portrait" src="/images/portrait-brad-frost.jpg" alt="Photo Brad Frost"  />
 {% if page.title %} 
   <h1 class="interviews__h1">{{ page.title }}</h1> 
 {% endif %}

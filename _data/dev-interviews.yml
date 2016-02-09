@@ -1,3 +1,12 @@
+- name: "Maximiliano Firtman"
+  excerpt: "I'm a mobile+web developer, trainer, author and speaker. I'm focused on bringing great experiences on mobile devices, both with native and web technologies."
+  image_url: ../images/portrait-maximiliano-firtman.jpg
+  interview_date: "February 9, 2016"
+  interview_number: 7
+  interview_twitter: https://twitter.com/firt
+  interview_url: maximiliano-firtman
+  interview_web: http://firt.mobi/
+
 - name: "Stephen Hey"
   excerpt: "I'm a designer who codes. I was schooled as a designer, did print design and later art direction for several years. Then I started doing web design and learned front-end technologies."
   image_url: ../images/portrait-stephen-hay.jpg
@@ -9,7 +18,7 @@
 
 - name: "Brad Frost"
   excerpt: "Generally speaking, I make websites. I'm a front-end web designer by trade, and increasingly I consult with organizations to help them make better web experiences."
-  image_url: ../images/portrait-brad-frost.png
+  image_url: ../images/portrait-brad-frost.jpg
   interview_date: "January 26, 2016"
   interview_number: 5
   interview_twitter: https://twitter.com/brad_frost
