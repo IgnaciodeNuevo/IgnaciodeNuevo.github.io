@@ -1,3 +1,12 @@
+- name: "Paul Robert LLoyd"
+  excerpt: "I’m an independent graphic designer and front-end web developer based in Brighton, England. I help responsible organisations like the Guardian, UNICEF and Mozilla create purposeful digital products."
+  image_url: ../images/portrait-paul-lloyd.jpg
+  interview_date: "February 15, 2016"
+  interview_number: 8
+  interview_twitter: https://twitter.com/paulrobertlloyd
+  interview_url: paul-lloyd
+  interview_web: https://paulrobertlloyd.com
+
 - name: "Maximiliano Firtman"
   excerpt: "I'm a mobile+web developer, trainer, author and speaker. I'm focused on bringing great experiences on mobile devices, both with native and web technologies."
   image_url: ../images/portrait-maximiliano-firtman.jpg
