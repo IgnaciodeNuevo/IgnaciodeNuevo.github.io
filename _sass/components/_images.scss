@@ -6,7 +6,7 @@
 .pull-image--right {
   @include respond-to('medium') {
     max-width: 250px;
-    margin-bottom: 15px; /* 1 */
+    margin-bottom: 10px; /* 1 */
   }
 
   @media (min-width: 800px) {
@@ -20,7 +20,7 @@
 .pull-image--left {
   @include respond-to('medium') {
     float: left;
-    margin-right: 15px;
+    margin-right: 10px;
   }
 }
 
@@ -30,6 +30,6 @@
 .pull-image--right {
   @include respond-to('medium') {
     float: right;
-    margin-left: 15px;
+    margin-left: 10px;
   }
 }

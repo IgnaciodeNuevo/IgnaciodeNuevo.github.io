@@ -54,8 +54,8 @@ Second I would have built the platform from scratch and not using Joomla as a CM
 
 The awesome people that are still working at the agency on the project are tackling a massive redesign.
 
-<!-- {% for project in site.data.projects %}
+{% for project in site.data.projects %}
 <p class="btn--hire">
   <a href="{{ project.project_web }}" target="_blank">Visit {{ project.name }}'s Web</a>
 </p>
-{% endfor %} -->
+{% endfor %}

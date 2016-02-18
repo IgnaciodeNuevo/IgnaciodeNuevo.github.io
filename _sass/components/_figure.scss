@@ -4,17 +4,15 @@
 // 2. Clear inner floats
 //
 .figure {
-  margin: 0 -40px 40px; /* 1 */
+  position: relative;
+  margin: 0 -30px 40px; /* 1 */
   overflow: hidden; /* 2 */
 }
-
 //
 // Figcaption
-// 1. Right aligned
 //
-.figure figcaption {
-  float: right; // 1
-  margin: 10px 0;
+figcaption {
+  max-width: 300px;
   padding: 0 5px;
   font-size: 80%;
   color: $mainColor;
@@ -37,7 +35,7 @@
   // Left align caption then
   //
   figcaption {
-    float: left;
+    float: right;
   }
 }
 
