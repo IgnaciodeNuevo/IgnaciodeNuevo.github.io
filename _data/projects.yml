@@ -1,3 +1,10 @@
+- name: Telebelleza
+  description: "Online sales of professional beauty products."
+  image_url: ../images/logo-telebelleza.svg
+  project_date: "Launch: October 2015"
+  project_url: telebelleza
+  project_web: http://www.telebelleza.es
+  
 - name: Grupo Legantia
   description: "Legal marketplace for notaries, lawyers, attorneys and students in Spain."
   image_url: ../images/logo-grupolegantia.svg

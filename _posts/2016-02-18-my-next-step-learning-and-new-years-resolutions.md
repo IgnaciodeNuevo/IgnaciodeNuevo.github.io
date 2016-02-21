@@ -17,13 +17,13 @@ tags:
   <figcaption><a href="#JSBookOne">JavaScript for Kids</a></figcaption>
 </figure>
 
-I know, I know, we are in the middle of February and New Year's Resolutions are not something to talk about now, but I've been quite busy with a big project (so I couldn't have time to update my WebSite and blog a lot). For me it is time to say what are my New Year's Resolutions and my next step learning Front-end Development, cause as we all know one of the best things in our industry is to learn new things everyday. 
+I know, I know, we are in the middle of February and New Year's Resolutions are not something to talk about now, but I've been quite busy with a big project, (so I couldn't have time to update my WebSite and blog a lot). For me it is time to say what are my New Year's Resolutions and my next step learning Front-end Development is to start learning <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a>.
 
-I started learning <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a>.
+Cause as we all know one of the best things in our industry is to learn new things everyday. 
 
-As many of my coworkers know I've been writing <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">HTML</a> and <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank">CSS</a> a couple of years in my [projects ](/projects) so, after my last permanent job in <a href="http://www.martin-young.com" target="_blank">Martin & Young</a>, a small digital agency in Madrid I had the time to start reading several books such as <a href="#JSBookOne">JavaScript for Kids</a> & <a href="#JSBookTwo">Eloquent JavaScript</a> but as they have exercises to do I left them halfway.
+As many of my coworkers know, I've been writing <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">HTML</a> and <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank">CSS</a> a couple of years in my [projects ](/projects) so, after my last permanent job in <a href="http://www.martin-young.com" target="_blank">Martin & Young</a>, a small digital agency in Madrid I had the time to start reading several books such as <a href="#JSBookOne">JavaScript for Kids</a> & <a href="#JSBookTwo">Eloquent JavaScript</a> but as they have exercises to do, I left them halfway.
 
-Because Front-end is more than writing CSS and HTML, I thought is time now to learn JavaScript and the last <a href="http://www.ecma-international.org/" target="_blank">ECMAScript 6</a> specification so I started looking for an online course or an affordable Bootcamp and my research took me to <a href="http://www.freecodecamp.com/" target="_blank">FreeCodeCamp</a> a place where you can learn full-stak Web Development.
+Front-end is more than writing CSS and HTML, I thought is time now to learn JavaScript and the last <a href="http://www.ecma-international.org/" target="_blank">ECMAScript 6</a> specification so I started looking for an online course or an affordable Bootcamp and my research took me to <a href="http://www.freecodecamp.com/" target="_blank">FreeCodeCamp</a> a place where you can learn full-stak Web Development.
 
 I thought it was made for me because you'll be learning some of the most common things you are asked to know in a Front-end Development position.
 
@@ -47,7 +47,7 @@ Here are the things you'll learn in <a href="http://www.freecodecamp.com/" targe
 
 I started the Front-end path first, and took me only six days to get to the point where I am now.
 
-The first part was HTML5 and CSS (5 hours), then Responsive Design with <a href="http://getbootstrap.com/" target="_blank">Boostrap</a> (5 hours) the popular HTML5 & CSS3 framework, but it was quite easy only because I knew it but for someone who has never written code would be harder.
+The first part was HTML5 and CSS (5 hours), then Responsive Design with <a href="http://getbootstrap.com/" target="_blank">Boostrap</a> (5 hours) the popular HTML5 & CSS3 framework, but it was quite easy only because I knew it, but for someone who has never written code would be harder.
 
 Then I've started with jQuery that only took me 3 hours and know, what I've been looking for, JavaScript, that's the point where I am. I've been only one day learning the basics of JavaScript (variables, data types which are undefined, null, Boolean, string, symbol...) and I am really excited with the experience of FreeCodeCamp. For know it was so easy and boring... (remember I knew HTML and CSS) but now I hope that things are challenging.
 

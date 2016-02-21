@@ -12,9 +12,7 @@ The many-device web we use today has tought us to design in very different ways.
 
 Designing one website for small and large screens could be very tricky. So in the agency I was working for, one of our clients camed with a big problem. They wanted to create a platform where legal professionals such as notaries, lawyers, attorneys and law students in Spain could attend networking events organized by [Grupo Legantia](http://grupolegantia.com), share their knowlage and debate in the forum, read articles published by reputed professionals, teach people through our MOOC section, post or find a job and also create professional relationships through the social network.
 
-{% for project in site.data.projects %}
-<a href="{{ project.project_web }}" target="_blank"><img src="/images/project-grupo-legantia-1.jpg" alt="Grupo Legantia's Home Page"></a>
-{% endfor %}
+<img src="/images/project-grupo-legantia-1.jpg" alt="Grupo Legantia's Home Page">
 
 ## The process
 
@@ -54,8 +52,6 @@ Second I would have built the platform from scratch and not using Joomla as a CM
 
 The awesome people that are still working at the agency on the project are tackling a massive redesign.
 
-{% for project in site.data.projects %}
 <p class="btn--hire">
-  <a href="{{ project.project_web }}" target="_blank">Visit {{ project.name }}'s Web</a>
+  <a href="http://grupolegantia.com" target="_blank">Visit Grupo Legantia</a>
 </p>
-{% endfor %}
