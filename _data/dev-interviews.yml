@@ -1,3 +1,12 @@
+- name: "Scott Hanselman"
+  excerpt: "My name is Scott Hanselman. I'm a programmer, teacher, and speaker. I work out of my home office in Portland, Oregon for the Web Platform Team at Microsoft."
+  image_url: ../images/portrait-scott-hanselman.jpg
+  interview_date: "February 22, 2016"
+  interview_number: 9
+  interview_twitter: https://twitter.com/shanselman
+  interview_url: scott-hanselman
+  interview_web: http://www.hanselman.com
+
 - name: "Paul Robert LLoyd"
   excerpt: "I’m an independent graphic designer and front-end web developer based in Brighton, England. I help responsible organisations like the Guardian, UNICEF and Mozilla create purposeful digital products."
   image_url: ../images/portrait-paul-lloyd.jpg
