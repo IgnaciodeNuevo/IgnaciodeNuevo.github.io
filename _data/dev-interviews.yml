@@ -1,3 +1,12 @@
+- name: "Jeremy Keith"
+  excerpt: "My name is Jeremy and do web ...stuff. I'm not sure whether to call myself a web designer or web developer or something else. I usually like to just say 'I make websites'."
+  image_url: ../images/portrait-jeremy-keith.jpg
+  interview_date: "February 28, 2016"
+  interview_number: 9
+  interview_twitter: https://twitter.com/adactio
+  interview_url: jeremy-keith
+  interview_web: https://adactio.com
+
 - name: "Paul Robert LLoyd"
   excerpt: "I’m an independent graphic designer and front-end web developer based in Brighton, England. I help responsible organisations like the Guardian, UNICEF and Mozilla create purposeful digital products."
   image_url: ../images/portrait-paul-lloyd.jpg

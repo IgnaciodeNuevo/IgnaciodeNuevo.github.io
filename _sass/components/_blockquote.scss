@@ -31,6 +31,10 @@ blockquote {
 //
 .blockquote {
   background-color: $darkGrey;
+
+  & blockquote.container::before {
+    left: 7px;
+  }
 }
 
 //

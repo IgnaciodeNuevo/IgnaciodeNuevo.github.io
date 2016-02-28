@@ -6,7 +6,7 @@ post_date: "February 18, 2016"
 post_number: 3
 tags: 
   - Learning
-  - Frontend
+  - Front-end
   - JavaScript
 ---
 
