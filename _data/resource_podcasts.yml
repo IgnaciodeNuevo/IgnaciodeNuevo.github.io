@@ -1,0 +1,56 @@
+- name: ShopTalkShow
+  url: http://shoptalkshow.com
+
+- name: The Path to performance
+  url: https://pathtoperf.com/
+
+- name: Style Guide Podcast
+  url: http://styleguides.io/podcast
+
+- name: The Web Ahead
+  url: http://thewebahead.net
+
+- name: CodeNewbie
+  url: http://www.codenewbie.org
+
+- name: The Big Web Show
+  url: http://5by5.tv/bigwebshow
+
+- name: Toolsday
+  url: http://toolsday.io/
+
+- name: Late Night with Trav and Los
+  url: http://www.travandlos.com/
+
+- name: HTTP 203 Podcast
+  url: https://developers.google.com/web/shows/http203
+
+- name: RWD Podcast
+  url: http://responsivewebdesign.com/podcast
+
+- name: JavaScript Air
+  url: http://javascriptair.com
+
+- name: JavaScript Jabber
+  url: https://devchat.tv/js-jabber
+
+- name: TTL Podcast
+  url: http://ttlpodcast.com
+
+- name: CTRL+Click Cast
+  url: http://ctrlclickcast.com
+
+- name: Developer Tea
+  url: https://developertea.com
+
+- name: Hansel Minutes
+  url: http://hanselminutes.com
+
+- name: Polymer Podcast
+  url: http://www.polymerpodcast.com
+
+- name: The Web Platform
+  url: http://thewebplatform.libsyn.com
+
+- name: Motion and Meaning
+  url: http://motionandmeaning.io

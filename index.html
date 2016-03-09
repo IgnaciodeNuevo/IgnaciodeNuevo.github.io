@@ -46,10 +46,10 @@ classes: home
 
   {% include recommendations.html %}
 
-  {% for interview in site.data.dev-interviews limit:1 %}
+  {% for interview in site.data.interviews limit:1 %}
   <h2 class="article__h2  container">My latest interview:</h2>
   <article class="article  container">
-    <a class="article__link" href="/developers-interviews/{{ interview.interview_url }}">
+    <a class="article__link" href="/interviews/{{ interview.interview_url }}">
       <h3 class="article__h3">{{ interview.name }}</h3>
       <time class="article__date" datetime="{{ interview.date | date: "%Y-%m-%d" }}">{{ interview.interview_date }}</time>
       <p class="article__excerpt">{{ interview.excerpt }}</p>

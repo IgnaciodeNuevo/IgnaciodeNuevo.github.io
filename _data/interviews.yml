@@ -1,3 +1,12 @@
+- name: "Faruk Ateş"
+  excerpt: "I’m a product designer and developer, the original creator of the Modernizr JavaScript library, a writer, and an occasional public speaker."
+  image_url: ../images/portrait-faruk-ates.jpg
+  interview_date: "March 03, 2016"
+  interview_number: 11
+  interview_twitter: https://twitter.com/KuraFire
+  interview_url: faruk-ates
+  interview_web: http://farukat.es
+
 - name: "Jeremy Keith"
   excerpt: "My name is Jeremy and do web ...stuff. I'm not sure whether to call myself a web designer or web developer or something else. I usually like to just say 'I make websites'."
   image_url: ../images/portrait-jeremy-keith.jpg
