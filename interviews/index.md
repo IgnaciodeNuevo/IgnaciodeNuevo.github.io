@@ -17,7 +17,7 @@ It does not happen *that* often, but sometimes I have the pleasure to interview 
 <ul class="reset-bullet">
 {% for interview in site.data.interviews %}
   <li class="article  container">
-    <a class="article__link" href="/developers-interviews/{{ interview.interview_url }}">
+    <a class="article__link" href="/interviews/{{ interview.interview_url }}">
       <h3 class="article__h3">{{ interview.name }}</h3>
       <time class="article__date" datetime="{{ interview.date | date: "%Y-%m-%d" }}">{{ interview.interview_date }}</time>
       <p class="article__excerpt">{{ interview.excerpt }}</p>

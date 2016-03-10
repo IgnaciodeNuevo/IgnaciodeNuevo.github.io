@@ -1,11 +1,11 @@
-- name: Free Code Camp
-  url: http://www.freecodecamp.com/
-
-- name: What The Flexbox?!
-  url: http://flexbox.io/
-
 - name: CommandLine Power User
-  url: http://commandlinepoweruser.com/
+  url: http://commandlinepoweruser.com
+
+- name: Free Code Camp
+  url: http://www.freecodecamp.com
 
 - name: The Odin Project
-  url: http://www.theodinproject.com/
+  url: http://www.theodinproject.com
+
+- name: What The Flexbox?!
+  url: http://flexbox.io
