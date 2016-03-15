@@ -1,3 +1,12 @@
+- name: "Daniel Martinez"
+  excerpt: "I am an UI Developer very bad at JavaScript."
+  image_url: ../images/portrait-daniel-martinez.jpg
+  interview_date: "March 15, 2016"
+  interview_number: 12
+  interview_twitter: https://twitter.com/Wakkos
+  interview_url: daniel-martinez
+  interview_web: http://coolvillage.es
+
 - name: "Faruk Ateş"
   excerpt: "I’m a product designer and developer, the original creator of the Modernizr JavaScript library, a writer, and an occasional public speaker."
   image_url: ../images/portrait-faruk-ates.jpg
