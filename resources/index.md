@@ -134,7 +134,7 @@ List of resources to learn Front-end Web Design & Development curated by me, tha
         </p>
     {% endfor %}
   </li>
-  <!-- <li class="resource  container">
+  <li class="resource  container">
     <p class="resource__type">Other</p>
     {% for resource in site.data.resource_other %}
         <h3 class="resource__h3">{{ resource.name }}</h3>
@@ -145,7 +145,7 @@ List of resources to learn Front-end Web Design & Development curated by me, tha
             <a href="{{ resource.url }}" target="_blank">{{ resource.name }}'s Web</a>
         </p>
     {% endfor %}
-  </li> -->
+  </li>
 </ul>
 
 
