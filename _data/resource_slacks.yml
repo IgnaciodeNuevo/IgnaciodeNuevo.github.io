@@ -19,6 +19,9 @@
 - name: Polymer Channel
   url: https://polymer-slack.herokuapp.com
 
+- name: Smashing Conf
+  url: https://smashingconf.herokuapp.com
+
 - name: User Experience Design
   url: https://www.designerhangout.co
 

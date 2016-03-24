@@ -1,45 +1,47 @@
-- name: Awesome Resources GitHub
+- name: Awesome on GitHub
   url: https://github.com/sindresorhus/awesome
 
 - name: Filament Group Open-Source Code
-  url: https://www.filamentgroup.com/code/
+  url: https://www.filamentgroup.com/code
 
-- name: Enboard.co
-  url: http://enboard.co/frontend/
+- name: Front End Resources
+  url: http://enboard.co/frontend
+
+- name: Front-end Dev Bookmarks
+  url: https://github.com/dypsilon/frontend-dev-bookmarks
 
 - name: Front-end Dev Resources
   url: https://github.com/dmytroyarmak/frontend-dev-resources
+
+- name: Front-end Tools
+  url: https://github.com/codylindley/frontend-tools
 
 - name: git:logs
   url: http://www.gitlogs.com/resource-guides
 
 - name: Perf Tooling
-  url: http://www.perf-tooling.today/
+  url: http://www.perf-tooling.today
 
-- name: Responsive Patterns by Brad Frost
+- name: Responsive Patterns
   url: http://bradfrost.github.io/this-is-responsive/patterns.html
 
-- name: Responsive Resources by Brad Frost
+- name: Responsive Resources
   url: http://bradfrost.github.io/this-is-responsive/resources.html
 
 - name: Repo Webdeign
   url: https://rrrepo.co/repo/webdesign
 
-- name: StyleSheets.co
-  url: https://stylesheets.co/
+- name: Stylesheets.co
+  url: https://stylesheets.co
+
+- name: Styleguides.io
+  url: http://styleguides.io
 
 - name: UX Resources
-  url: http://uxdesignweekly.com/ux-resources/
+  url: http://uxdesignweekly.com/ux-resources
 
 - name: Web Field Manual
-  url: http://webfieldmanual.com/
+  url: http://webfieldmanual.com
 
 - name: wwwhere
-  url: http://wwwhere.io/
-
-- name: Front-end Tools
-  url: https://github.com/codylindley/frontend-tools
-
-- name: Front-end Dev Bookmarks
-  url: https://github.com/dypsilon/frontend-dev-bookmarks
-
+  url: http://wwwhere.io

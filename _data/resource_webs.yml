@@ -1,2 +1,8 @@
 - name: CSS-Tricks
   url: https://css-tricks.com
+
+- name: CSS Guidelines
+  url: http://cssguidelin.es
+
+- name: Sass Guidelines
+  url: http://sass-guidelin.es
