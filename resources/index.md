@@ -94,7 +94,7 @@ List of resources to learn Front-end Web Design & Development curated by me, tha
             <svg style="width:15px;height:15px; margin-right: 3px;" xmlns="http://www.w3.org/2000/svg" viewBox="-187 61.7 24 24">
                 <path fill="#C5003E" d="M-172.3 61.7v2.7h4.8l-13.1 13.1 1.9 1.9 13.1-13.1v4.8h2.7v-9.3m-2.8 21.3h-18.7V64.4h9.3v-2.7h-9.3c-1.5 0-2.7 1.2-2.7 2.7v18.7c0 1.5 1.2 2.7 2.7 2.7h18.7c1.5 0 2.7-1.2 2.7-2.7v-9.3h-2.7v9.3z"/>
             </svg>
-            <a href="{{ resource.url }}" target="_blank">{{ resource.name }}'s Web</a>
+            <a href="{{ resource.url }}" target="_blank">{{ resource.name }}'s Slack Channel</a>
         </p>
     {% endfor %}
   </li>
