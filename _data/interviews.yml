@@ -1,3 +1,12 @@
+- name: "Brian Rinaldi"
+  excerpt: "I have spent over 20 years as a developer, but today my focus is on the developer community. I write, speak, manage sites and programs all focused on developers."
+  image_url: ../images/portrait-brian-rinaldi.jpg
+  interview_date: "March 28, 2016"
+  interview_number: 14
+  interview_twitter: https://twitter.com/remotesynth
+  interview_url: brian-rinaldi
+  interview_web: http://remotesynthesis.com
+
 - name: "Kevin M. Hoffman"
   excerpt: "I run a distributed agency called Seven Heads Design that builds project teams from highly experienced independent designers."
   image_url: ../images/portrait-kevin-m-hoffman.jpg
