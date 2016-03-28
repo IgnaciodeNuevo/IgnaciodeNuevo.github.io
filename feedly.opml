@@ -2,7 +2,7 @@
 
 <opml version="1.0">
     <head>
-        <title>Ignacio subscriptions in feedly Cloud</title>
+        <title>IgnaciodeNuevo RSS subscriptions Feed</title>
     </head>
     <body>
         <outline text="Performance" title="Performance">
@@ -11,17 +11,6 @@
             <outline type="rss" text="perf.fail - do, learn, fail forward." title="perf.fail - do, learn, fail forward." xmlUrl="http://perf.fail/rss" htmlUrl="http://perf.fail/"/>
             <outline type="rss" text="Steve Souders" title="Steve Souders" xmlUrl="http://www.stevesouders.com/blog/feed/atom/" htmlUrl="http://www.stevesouders.com/blog"/>
             <outline type="rss" text="Web Performance Today" title="Web Performance Today" xmlUrl="http://www.webperformancetoday.com/feed/" htmlUrl="http://www.webperformancetoday.com"/>
-        </outline>
-        <outline text="United Kingdom" title="United Kingdom">
-            <outline type="rss" text="Diario de un Londinense" title="Diario de un Londinense" xmlUrl="http://www.diariodeunlondinense.com/feed/" htmlUrl="http://www.diariodeunlondinense.com"/>
-            <outline type="rss" text="From Spain to UK" title="From Spain to UK" xmlUrl="http://www.fromspaintouk.com/feed/" htmlUrl="http://www.fromspaintouk.com"/>
-            <outline type="rss" text="TeoSiesta" title="TeoSiesta" xmlUrl="http://teosiesta.wordpress.com/feed/" htmlUrl="https://teosiesta.wordpress.com"/>
-            <outline type="rss" text="A Londres" title="A Londres" xmlUrl="http://memarchoalondres.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="http://memarchoalondres.blogspot.com/"/>
-            <outline type="rss" text="A London" title="A London" xmlUrl="http://a-london.com/feed/" htmlUrl="http://a-london.com"/>
-            <outline type="rss" text="TrucosLondres.com" title="TrucosLondres.com" xmlUrl="http://trucoslondres.com/feed/" htmlUrl="http://trucoslondres.com"/>
-            <outline type="rss" text="Viajando por ahí" title="Viajando por ahí" xmlUrl="http://feeds.feedburner.com/viajandoporahi" htmlUrl="http://viajandoporahi.com"/>
-            <outline type="rss" text="Foro Londres" title="Foro Londres" xmlUrl="http://www.forolondres.com/feed/" htmlUrl="http://www.forolondres.com"/>
-            <outline type="rss" text="Españoles en UK" title="Españoles en UK" xmlUrl="http://bristolenos.com/feed/" htmlUrl="http://bristolenos.com"/>
         </outline>
         <outline text="Diseño Gráfico" title="Diseño Gráfico">
             <outline type="rss" text="Creadictos" title="Creadictos" xmlUrl="http://feeds.feedburner.com/feedcreadictos" htmlUrl="http://www.creadictos.com"/>
@@ -151,15 +140,6 @@
             <outline type="rss" text="Jekyll Static Site Generator" title="Jekyll Static Site Generator" xmlUrl="https://www.reddit.com/r/Jekyll/.rss" htmlUrl="https://www.reddit.com/r/Jekyll/"/>
             <outline type="rss" text="Jekyll Talk - Latest topics" title="Jekyll Talk - Latest topics" xmlUrl="https://talk.jekyllrb.com/latest.rss" htmlUrl="https://talk.jekyllrb.com/latest"/>
             <outline type="rss" text="Jekyll • Simple, blog-aware, static sites" title="Jekyll • Simple, blog-aware, static sites" xmlUrl="https://jekyllrb.com/feed.xml" htmlUrl="https://jekyllrb.com/"/>
-        </outline>
-        <outline text="Tecnología" title="Tecnología">
-            <outline type="rss" text="ALT1040" title="ALT1040" xmlUrl="http://alt1040.com/feed/" htmlUrl="http://hipertextual.com"/>
-            <outline type="rss" text="Engadget" title="Engadget" xmlUrl="http://es.engadget.com/rss.xml" htmlUrl="http://es.engadget.com/rss.xml"/>
-            <outline type="rss" text="Apple 5×1" title="Apple 5×1" xmlUrl="http://www.apple5x1.es/feed/" htmlUrl="https://apple5x1.com"/>
-            <outline type="rss" text="Gizmodo" title="Gizmodo" xmlUrl="http://es.gizmodo.com/rss" htmlUrl="http://es.gizmodo.com"/>
-            <outline type="rss" text="Andro4all" title="Andro4all" xmlUrl="http://feeds.feedburner.com/Andro4allcom" htmlUrl="http://andro4all.com"/>
-            <outline type="rss" text="Genbeta" title="Genbeta" xmlUrl="http://www.genbeta.com/index.xml" htmlUrl="http://www.genbeta.com"/>
-            <outline type="rss" text="coolest guides on the planet" title="coolest guides on the planet" xmlUrl="http://feeds.feedburner.com/coolestguidesplanet" htmlUrl="http://www.rssmix.com/"/>
         </outline>
         <outline text="W3C" title="W3C">
             <outline type="rss" text="W3C News" title="W3C News" xmlUrl="http://www.w3.org/2000/08/w3c-synd/home.rss" htmlUrl="https://www.w3.org/blog/news"/>
