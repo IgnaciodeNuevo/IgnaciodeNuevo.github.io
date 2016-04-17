@@ -138,8 +138,16 @@
 }
 
 //
-// Center horizontally
+// Center text horizontally
 //
 .tac {
   text-align: center;
+}
+
+//
+// Center horizontally
+//
+.center {
+  display: block;
+  margin: 0 auto;
 }
