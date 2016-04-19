@@ -57,7 +57,7 @@ This is what I am doing this days. After all this is what a one year and a half 
 
 I have neglected my website due to lack of time but things gonna change.
 
-I decided to publish one [Developer Interview](/developers-interviews) every week, to write one [Blog](/blog) post and to write about one of the [Projects](/projects) I've been doing the last few months. With this I'll force myself to write more on my WebSite. Also I've dedided to dedicate one day every week polishing my WebSite and another watching a Front-end Development video from a Conference.
+I decided to publish one [Developer Interview](/interviews) every week, to write one [Blog](/blog) post and to write about one of the [Projects](/projects) I've been doing the last few months. With this I'll force myself to write more on my WebSite. Also I've dedided to dedicate one day every week polishing my WebSite and another watching a Front-end Development video from a Conference.
 
 See you next week.
 

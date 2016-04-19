@@ -35,7 +35,7 @@ Now's the perfect time to buy your kids/nieces/cousins some robots. Robots are a
 
 If you're not careful you can spent hundreds on robots. However, I'm notoriously frugal and I believe that you can build some amazing stuff with children with a reasonable budget.
 
-- Continue reading [here](www.hanselman.com/blog/GettingStartedWithRobotsForKidsAndChildrenInSTEMThisHolidaySeason.aspx).
+- Continue reading [here](http://www.hanselman.com/blog/GettingStartedWithRobotsForKidsAndChildrenInSTEMThisHolidaySeason.aspx).
  
 ## What are the things you would have known when you first started?
 

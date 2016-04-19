@@ -78,5 +78,5 @@ Now, I have been recieving more emails accepting my requests of interview I in t
 At last I want to say thank you, to every single person that respond me, to accept my interview or to say the can not accept it. And for those who I have not recived back any email, I will be requesting you again an interview.
 
 <p class="btn">
-  <a href="/developers-interviews/">Read the Interviews I have maded</a>
+  <a href="/interviews">Read the Interviews I have maded</a>
 </p>

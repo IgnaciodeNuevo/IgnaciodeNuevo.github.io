@@ -48,4 +48,4 @@ That you will never stop learning.
 It's challenging but rewarding, so don't give up quickly! And remember that everything is going to change, so prepare yourself for learning every day and don't get mad when technology changes
  
 ## What can we expect from Maximiliano in the future? Anything you want to share?
-A new book is coming: [High Performance Mobile Web](firt.mobi/hpmw) and new video trainings for O'Reilly Media. Also, I expect to travel to new countries, I've reached the 50 countries milestone, so I have several more to come.
+A new book is coming: [High Performance Mobile Web](http://firt.mobi/hpmw) and new video trainings for O'Reilly Media. Also, I expect to travel to new countries, I've reached the 50 countries milestone, so I have several more to come.
