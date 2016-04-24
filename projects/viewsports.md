@@ -42,7 +42,7 @@ One great thing about Ionic was it's easy component based system.
 
 As back-end Jorge build the database communication with the front-end via [Laravel](https://laravel.com/) a PHP framework.
 
-We optimized our .SVG icons via [SVGO](https://jakearchibald.github.io/svgomg/) GUI built by the incredible Google's engineer [Jake Archibald](https://jakearchibald.com/), an useful tool I found via [Twitter](https://twitter.com/IgnaciodeNuevo).
+We optimized our .SVG icons via [SVGO](https://jakearchibald.github.io/svgomg/) GUI built by the incredible Google's engineer [Jake Archibald](https://jakearchibald.com/), an useful tool I found via [Twitter]({{ site.twitter }}).
 
 We used [Wunderlist](https://www.wunderlist.com/es/) to keep pending things up-to-date.
 
@@ -52,14 +52,8 @@ The hardest thing I've learned in this project was to efficiently communicate re
 
 I would have made the App by having other deadlines, as allways another terrible problem when you work for the customer of a client.
 
-Did you enjoy this?
-
 <p class="btn--hire">
   <a href="https://play.google.com/store/apps/details?id=com.viewsports.io" target="_blank">Download ViewSports</a>
 </p>
 
-Do you have any questions about me or my work?
-
-<p class="btn--hire">
-  <a href="/faq">Read FAQ</a>
-</p>
+{% include hire.html %}

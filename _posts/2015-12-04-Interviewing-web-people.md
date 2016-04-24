@@ -29,7 +29,7 @@ When one of the first developers told me he/she is not comfortable with his/her 
 
 I only follow people I admire their work, what they are doing in our industry or by what they share. So if you, reader, want to learn something one of the most important things you could do is to follow developers you find interesting and read what they share, because one of the most amazing things in Web Industry is that people share a lot of awesome things, articles about what they have learnt, posts about our industry, technical posts, things they build to solve a problem and lots of other things.
 
-I started sending a few emails to some of the developers I follow on this [Twitter's list](https://twitter.com/IgnaciodeNuevo/lists/web-development) and first I thought, why if most of them do not know who I am are going to answer my emails and we do not talk of accepting my interview, I thought that because we only feel like this kind of people are so busy that when they recive an email like mine requesting an interview by someone they do not know will be instant deleted.
+I started sending a few emails to some of the developers I follow on this [Twitter's list]({{ site.twitter }}/lists/web-development) and first I thought, why if most of them do not know who I am are going to answer my emails and we do not talk of accepting my interview, I thought that because we only feel like this kind of people are so busy that when they recive an email like mine requesting an interview by someone they do not know will be instant deleted.
 
 Note I was trying to send emails as many people I can because I thought none will respond this and by copy/pasting my first few emails I made a mistake, I copy/pasted the email I sent to someone I met in Madrid in the Google HQ where he gave a talk and made me feel terribly stupid. So I sent to everyone I sent this an apology email.
 
@@ -49,26 +49,26 @@ Note I was trying to send emails as many people I can because I thought none wil
 
 After researching what kind of questions should I make I have made a list of approximately forty questions that were obviously too many so I reduced them to only fifteen wich will be the same for every interviewee. You will notice how different answers and how many aproaches could be:
 
-* To all those don't meet you yet. How do you describe yourself?
-* When you started developing, what were some common mistakes you made along the way?
-* Front-end seems to be easy until you start to learning. How do you face the challenge of learning new things?
-* What would you qualify as the top few problems facing developers today?
-* How would you recommend somebody to start learning web development?
-* What are the things you would have known when you first started?
-* When starting a new project, if you feel stuck where do you look for inspiration?
-* What was your first development job and how you faced it?
-* What was the most challenging project you ever faced and why?
-* Can you describe your workflow when you create HTML, CSS and JavaScript from scratch?
-* What excites you most these days?
-* What is the most important thing you’ve learned?
-* Do you have any favorite books, videos, or resources that you could share with the readers?
-* Do you have any advice for new developers just starting their career journey?
-* What can we expect from Chris in the future? Anything you want to share?
++ To all those don't meet you yet. How do you describe yourself?
++ When you started developing, what were some common mistakes you made along the way?
++ Front-end seems to be easy until you start to learning. How do you face the challenge of learning new things?
++ What would you qualify as the top few problems facing developers today?
++ How would you recommend somebody to start learning web development?
++ What are the things you would have known when you first started?
++ When starting a new project, if you feel stuck where do you look for inspiration?
++ What was your first development job and how you faced it?
++ What was the most challenging project you ever faced and why?
++ Can you describe your workflow when you create HTML, CSS and JavaScript from scratch?
++ What excites you most these days?
++ What is the most important thing you’ve learned?
++ Do you have any favorite books, videos, or resources that you could share with the readers?
++ Do you have any advice for new developers just starting their career journey?
++ What can we expect from Chris in the future? Anything you want to share?
 
 So if you are one of those awesome developers of our industry feel free to send me your answer to this questions and they will be published as soon as possible.
 
 <p class="btn--hire">
-  <a href="mailto:ignaciodenuevo@gmail.com">Send your answers here</a>
+  <a href="mailto:{{ site.email }}">Send your answers here</a>
 </p>
 
 Felt disappointed first because I was so excited to intereview people are as passionate as my about web development due to I have been sending emails one afternoon and the morning before and none had responded. But the day before that, people start accepting my requests of interview so when I recived the first email back telling me I was accepted to interview my first interviewee I exploded with joy, this was so amazing for my, intereviewing people I really admire and never ever thought they will accept or even respond my emails that made me very happy.
@@ -80,3 +80,5 @@ At last I want to say thank you, to every single person that respond me, to acce
 <p class="btn">
   <a href="/interviews">Read the Interviews I have maded</a>
 </p>
+
+{% include hire.html %}

@@ -58,7 +58,7 @@ I had the pleasure to have [Eduardo Fierro](http://eduardofierro.pro/index.php) 
   </blockquote>
 </div>
 
-Some months after my real beginnings in Front-end Web Development I sent Trazos an [email](/trazos-email) *in Spanish* to help them with the academic program, why not if I found what I wanted to be?
+Some months after my real beginnings in Front-end Web Development I sent Trazos an [email](/trazos-email) _in Spanish_ to help them with the academic program, why not if I found what I wanted to be?
 
 The sad thing about my email was, they never changed their academic program with the knowledge that our industry demands. I tryied to help them due real passion about Web Development. I told them to remove some things like Flash, Dreamweaver and to add responsive web design, UX/UI, preprocessors, task runners and version control to help their studens learning real Web Development.
 
@@ -75,6 +75,6 @@ I'm [publishing some interviews](/interviews) with people like Hugo Giraudel, Br
 Did you enjoy this?
 
 <p class="btn--hire">
-    <a href="mailto:ignaciodenuevo@gmail.com">HIRE ME</a>
-  </p>
+  <a href="mailto:{{ site.email }}">HIRE ME</a>
+</p>
 

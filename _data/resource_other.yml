@@ -46,5 +46,8 @@
 - name: Web Font Resources
   url: https://optimizerwp.com/web-fonts-resources
 
+- name: WebAIM
+  url: http://webaim.org/resources
+
 - name: wwwhere
   url: http://wwwhere.io

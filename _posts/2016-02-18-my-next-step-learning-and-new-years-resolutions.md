@@ -88,3 +88,4 @@ See you next week.
   </blockquote>
 </div>
 
+{% include hire.html %}

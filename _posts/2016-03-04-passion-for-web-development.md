@@ -21,7 +21,7 @@ Once I ended the Master at Trazos I had the feeling of not knowing anything, but
   </blockquote>
 </div>
 
-The hardest part to learn new topics is to foce myself to search new topics every day, to read most of the interesting articles I find on Twitter, RSS and Newsletters. Every day like many people on the Internet once I'm ready I open my email (only twice a day) and read the Newsletters that have come to my Inbox and look for new tutorials, web design topics and front-end development articles, then I check my <a href="http://feedly.com/" target="_blank">RSS App</a> until I start working or doing whatever I have to do this morning. If the day is a working day I commonly check my <a href="https://twitter.com/IgnaciodeNuevo/lists/web-development" target="_blank">Twitter's</a> timeline to search for new articles, read a front-end book or listen a podcasts on my way to work.
+The hardest part to learn new topics is to foce myself to search new topics every day, to read most of the interesting articles I find on Twitter, RSS and Newsletters. Every day like many people on the Internet once I'm ready I open my email (only twice a day) and read the Newsletters that have come to my Inbox and look for new tutorials, web design topics and front-end development articles, then I check my <a href="http://feedly.com/" target="_blank">RSS App</a> until I start working or doing whatever I have to do this morning. If the day is a working day I commonly check my <a href="{{ site.twitter }}/lists/web-development" target="_blank">Twitter's</a> timeline to search for new articles, read a front-end book or listen a podcasts on my way to work.
 
 Saving all the things that I find on Twitter, RSS, Newsletters (Web links) I use the <a href="https://getpocket.com" target="_blank">Pocket</a> App to keep this and read them later.
 
@@ -35,8 +35,4 @@ Now I'm comfortable knowing what I want and where I want to go.
 
 This is all for now, I hope you find it interesting and useful to you.
 
-Did you enjoy this?
-
-<p class="btn--hire">
-  <a href="mailto:ignaciodenuevo@gmail.com">HIRE ME</a>
-</p>
+{% include hire.html %}

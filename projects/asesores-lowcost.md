@@ -52,3 +52,5 @@ Knowing how to manage some plugins and templates would helped us to build the we
 <p class="btn--hire">
   <a href="http://www.asesoreslowcost.com" target="_blank">Visit Asesores LowCost</a>
 </p>
+
+{% include hire.html %}

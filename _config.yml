@@ -1,12 +1,12 @@
 # Site settings
-title: "Ignacio Villanueva - Front-end Developer, focusing on CSS and Sass, architecture, front-end performance and responsive web design."
-email: IgnaciodeNuevo@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  I am Ignacio Villanueva, Front-end Developer, focusing on CSS and Sass, architecture, front-end performance and responsive web design.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://ignaciodenuevo.com" # the base hostname & protocol for your site
-twitter_username: IgnaciodeNuevo
-github_username:  IgnaciodeNuevo
+title:          "Ignacio Villanueva - Front-end Developer, focusing on CSS and Sass, architecture, front-end performance and responsive web design."
+description:    "I am Ignacio Villanueva, Front-end Developer, focusing on CSS and Sass, architecture, front-end performance and responsive web design."
+url:            "http://ignaciodenuevo.com"
+email:          ignaciodenuevo@gmail.com
+twitter:        https://twitter.com/IgnaciodeNuevo
+github:         https://github.com/IgnaciodeNuevo
+facebook:       https://www.facebook.com/IgnaciodeNuevo
+baseurl: ""
 
 # Build settings
 markdown: kramdown
