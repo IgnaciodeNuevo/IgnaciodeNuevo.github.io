@@ -110,8 +110,4 @@ Well, you can grab the [RSS feed](/feed.xml), follow me on [Twitter]({{ site.twi
 
 Thanks, Ignacio.
 
-Did you enjoy this?
-
-<p class="btn--hire">
-  <a href="mailto:{{ site.email }}">HIRE ME</a>
-</p>
+{% include hire.html %}

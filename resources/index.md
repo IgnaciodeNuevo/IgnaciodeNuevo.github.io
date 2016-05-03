@@ -63,7 +63,7 @@ List of resources to learn Front-end Web Design & Development curated by me, tha
     {% endfor %}
   </li>
   <li class="resource  container">
-    <p class="resource__type">Newsletters</p>
+    <p id="newsletters" class="resource__type">Newsletters</p>
     {% for resource in site.data.resource_newsletters %}
         <h3 class="resource__h3">{{ resource.name }}</h3>
         <p class="resource__url">
