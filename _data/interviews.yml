@@ -1,3 +1,12 @@
+- name: "Richard Rutter"
+  excerpt: "I’m a web person through and through. Day to day I help run Clearleft, a digital design consultancy and studio I co-founded. Within that, I’m a user experience designer and a web typography advocate/consultant."
+  image_url: ../images/portrait-richard-rutter.jpg
+  interview_date: "May 11, 2016"
+  interview_number: 15
+  interview_twitter: https://twitter.com/clagnut
+  interview_url: richard-rutter
+  interview_web: http://clagnut.com
+
 - name: "Brian Rinaldi"
   excerpt: "I have spent over 20 years as a developer, but today my focus is on the developer community. I write, speak, manage sites and programs all focused on developers."
   image_url: ../images/portrait-brian-rinaldi.jpg
