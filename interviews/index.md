@@ -14,6 +14,8 @@ tags:
 
 It does not happen *that* often, but sometimes I have the pleasure to interview some of the most amazing web developers arround the globe!
 
+Many will realize that I haven't interviewed any woman but as far as I have tried, no woman has accepted, so if you are one, let me interview you! We need #womenintech
+
 <ul class="reset-bullet">
 {% for interview in site.data.interviews %}
   <li class="article  container">

@@ -8,8 +8,8 @@ layout: default
 
 {% if page.date %}
   <p class="post__date">{{ page.date | date: "%B %d, %Y" }}</p> 
-  <p>{% include reading_time.html content=content %}</p>
 {% endif %}
+	<p>{% include reading_time.html content=content %}</p>
 
 {{ content }}
 

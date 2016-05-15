@@ -1,3 +1,10 @@
+- name: WeCodeSign Podcast
+  description: "The Design and Development Podcast in Spanish by Ignacio Villanueva and Gabriel Ferrer."
+  image_url: ../images/logo-WCD.svg
+  project_date: "Launch: May 2016"
+  project_url: wecodesign-podcast
+  project_web: http://wecodesignpodcast.com
+
 - name: ViewSports
   description: "A social network where everyone can participate with their favorite sports."
   image_url: ../images/logo-viewsports.svg

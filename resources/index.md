@@ -15,7 +15,7 @@ List of resources to learn Front-end Web Design & Development curated by me, tha
 
 <ul class="reset-bullet">
   <li class="resource  container">
-    <p class="resource__type">Books</p>
+    <p id="books" class="resource__type">Books</p>
     {% for resource in site.data.resource_books %}
         <h3 class="resource__h3">{{ resource.name }}</h3>
         <p class="resource__url">
@@ -75,7 +75,7 @@ List of resources to learn Front-end Web Design & Development curated by me, tha
     {% endfor %}
   </li>
   <li class="resource  container">
-    <p class="resource__type">Podcasts</p>
+    <p id="podcasts" class="resource__type">Podcasts</p>
     {% for resource in site.data.resource_podcasts %}
         <h3 class="resource__h3">{{ resource.name }}</h3>
         <p class="resource__url">

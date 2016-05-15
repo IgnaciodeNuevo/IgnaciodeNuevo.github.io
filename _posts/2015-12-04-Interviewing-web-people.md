@@ -20,7 +20,7 @@ So first things first, lets practice our speaking skills and in a few months we 
       I really am not that comfortable with my public image and speaking, especially in English, is hard. It might not look like it, but it is.
     </p>
     <cite>
-      Unknown Developer
+      Anonymous Developer
     </cite>
   </blockquote>
 </div>

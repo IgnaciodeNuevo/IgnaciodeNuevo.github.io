@@ -46,6 +46,22 @@ classes: home
 
   {% include recommendations.html %}
 
+  {% for podcast in site.data.podcast limit:1 %}
+  <h2 class="article__h2  container">My Podcast episode:</h2>
+  <p class="article__subheading  container">The podcast is in Spanish</p>
+  <article class="article  container">
+    <a class="article__link" href="/podcast/{{ podcast.podcast_url }}"> 
+      <h3 class="article__h3">{{ podcast.name }}</h3>
+      <time class="article__date" datetime="{{ podcast.date | date: "%Y-%m-%d" }}">{{ podcast.podcast_date }}</time>
+      <p class="article__excerpt">{{ podcast.description }}</p>
+      <img class="portrait--small" src="{{ podcast.image_url }}" alt="{{ podcast.name }} Image"/>
+    </a>
+    <p class="article__url">
+      <a href="{{ podcast.podcast_web }}" target="_blank">Accede al post del episodio</a>
+    </p>
+  </article>
+  {% endfor %}
+
   {% for interview in site.data.interviews limit:1 %}
   <h2 class="article__h2  container">My latest interview:</h2>
   <article class="article  container">
