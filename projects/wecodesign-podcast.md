@@ -65,7 +65,7 @@ I'm happy with this project.
 I wouldn't change anything except for possible code errors or accesibility issues.
 
 <p class="btn--hire">
-  <a href="wecodesignpodcast.com" target="_blank">Listen my Podcast</a>
+  <a href="http://wecodesignpodcast.com" target="_blank">Listen my Podcast</a>
 </p>
 
 {% include hire.html %}
