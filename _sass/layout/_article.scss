@@ -41,11 +41,13 @@
   }
 }
 
-  .article__subheading {
+  .btn--warning {
     padding-left: 20px;
     font-family: $codeFont;
     font-size: 80%;
-    color: $darkGrey;
+    color: $bgColor;
+    background-color: $mainColor;
+    border-radius: 4px;
   }
 
 //
