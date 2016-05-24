@@ -1,3 +1,9 @@
+- name: "Episodio 2 - Los Bootcamps"
+  description: "Analizamos las características de los Bootcamps como alternativa formativa y entrevistamos a Gonzalo Manrique, co-fundador de Ironhack."
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Mayo 24, 2016"
+  podcast_web: http://wecodesignpodcast.com/2016/05/24/episodio-2/
+
 - name: "Episodio 1 - Educación clásica"
   description: "Analizamos el rol de la universidad y entrevistamos a Edu Fierro, Digital Sr en Yslandia y docente en Lightbox."
   image_url: ../images/logo-WCD.svg
