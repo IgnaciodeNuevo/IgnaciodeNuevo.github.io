@@ -1,3 +1,9 @@
+- name: "Episodio 3 - Formación online"
+  description: "En WCD hablamos de las plataformas online como Udacity y entrevistamos a Álvaro Sanmartín, su responsable de desarrollo."
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Junio 7, 2016"
+  podcast_web: http://wecodesignpodcast.com/2016/06/07/episodio-3/
+
 - name: "Episodio 2 - Los Bootcamps"
   description: "Analizamos las características de los Bootcamps como alternativa formativa y entrevistamos a Gonzalo Manrique, co-fundador de Ironhack."
   image_url: ../images/logo-WCD.svg

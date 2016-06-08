@@ -15,7 +15,6 @@ tags:
 Realizo un Podcast sobre diseño y desarrollo Web en When I can, I try to invest a lot of time in open-source projects. Here are a few of them I initiated myself:
 
 {% for podcast in site.data.podcast %}
-<h2 class="article__h2  container">My Podcast episode:</h2>
 <article class="article  container">
   <a class="article__link" href="/podcast/{{ podcast.podcast_url }}"> 
     <h3 class="article__h3">{{ podcast.name }}</h3>
