@@ -1,3 +1,9 @@
+- name: "Episodio 4 - SEO y SEM"
+  description: "El consultor y analista SEO Jose Ramón Saura nos desvela algunos de los secretos detrás de esta profesión tan importante como desconocida."
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Junio 21, 2016"
+  podcast_web: http://wecodesignpodcast.com/2016/06/21/episodio-4/
+
 - name: "Episodio 3 - Formación online"
   description: "En WCD hablamos de las plataformas online como Udacity y entrevistamos a Álvaro Sanmartín, su responsable de desarrollo."
   image_url: ../images/logo-WCD.svg
