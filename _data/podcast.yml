@@ -1,3 +1,9 @@
+- name: "Entrevista para Jarras y Podcast"
+  description: "Jesús, de Jarras y Podcast nos entrevista a Gabriel y a mi para conocer más sobre de donde venimos, a donde vamos y como grabamos y hacemos el podcast. Así lo hacemos nosotros."
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Junio 29, 2016"
+  podcast_web: http://www.ivoox.com/jarras-podcast-26-wecodesign-audios-mp3_rf_12050160_1.html?utm_expid=113438436-21.PjN6XAE7SNWq0IrvvWXbeg.0&utm_referrer=https%3A%2F%2Ft.co%2FqIVjjYZe8j
+
 - name: "Episodio 4 - SEO y SEM"
   description: "El consultor y analista SEO Jose Ramón Saura nos desvela algunos de los secretos detrás de esta profesión tan importante como desconocida."
   image_url: ../images/logo-WCD.svg

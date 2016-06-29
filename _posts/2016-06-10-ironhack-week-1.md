@@ -6,6 +6,7 @@ post_date: "June 10, 2016"
 post_number: 9
 tags: 
   - Ironhack
+  - Bootcamp
   - Week_0
   - Week_1
 ---
