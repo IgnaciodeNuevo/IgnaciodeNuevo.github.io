@@ -1,3 +1,9 @@
+- name: "Episodio 5 - UX y UI"
+  description: "El UX / UI Designer & FrontEnd Developer Javier Larrea García comenta sobre la situación del UX y el UI y el estado actual de dicho perfil."
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Junio 21, 2016"
+  podcast_web: http://wecodesignpodcast.com/2016/07/05/episodio-5/
+
 - name: "Entrevista para Jarras y Podcast"
   description: "Jesús, de Jarras y Podcast nos entrevista a Gabriel y a mi para conocer más sobre de donde venimos, a donde vamos y como grabamos y hacemos el podcast. Así lo hacemos nosotros."
   image_url: ../images/logo-WCD.svg
