@@ -6,7 +6,7 @@
   project_web: http://wecodesignpodcast.com
 
 - name: ViewSports
-  description: "A social network where everyone can participate with their favorite sports."
+  description: "Social network where everyone can participate with their favorite sports."
   image_url: ../images/logo-viewsports.svg
   project_date: "Launch: April 2016"
   project_url: viewsports
