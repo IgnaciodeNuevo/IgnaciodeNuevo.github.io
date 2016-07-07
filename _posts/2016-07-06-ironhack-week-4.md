@@ -12,23 +12,25 @@ tags:
 
 ### Ruby on Rails
 
-On monday we had the opportunity to meet [Patricia Gao](https://twitter.com/patriciagao){:target="_blank"} currently working as Rails Back-end Developer for [Cabify](https://www.cabify.com/){:target="_blank"}.
+On monday we had the opportunity to meet [Patricia Gao](https://twitter.com/patriciagao){:target="_blank"} currently working as Rails Back-end Developer at [Cabify](https://www.cabify.com/){:target="_blank"}.
 
-She started introducing us what was is [Ruby on Rails](http://rubyonrails.org){:target="_blank"}, a Ruby framework, what’s cool about Rails is that it makes an web application using HTML, CSS, and JavaScript that runs on a web server. We also saw what MVC (model–view–controller) means:
+She started introducing us what is [Ruby on Rails](http://rubyonrails.org){:target="_blank"}, a Ruby framework, what’s cool about Rails is that it makes web applications using HTML, CSS, and JavaScript that runs on a web server and are rendered by the browser.
+
+We also saw what MVC (model–view–controller) means:
 
 + *Model:* stores data that is retrieved according to commands from the controller and displayed in the view.
 + *View:* generates new output to the user based on changes in the model.
 + *Controller:* can send commands to the model to update the model's state. It can also send commands to its associated view to change the view's presentation of the model.
 
-It went from 0 to 30, now; a week before I have the feeling that this week was my best week so far, slow but consistently growing. My strategy was to learn the small but unconnected chunks of Rails and in the last few days I put the parts together and make something. That said I'm more a visual person, thats why I like more Front-end but this seems to be good for side projects, we'll see.
+It went from 0 to 30, now; a week before I have the feeling that this week was my best week so far, slow but consistently growing. My strategy was to learn the small but unconnected chunks of Rails and in the last few days I put the parts together and make something. That said I'm more a visual person, thats why I like more Front-end but this seems, Ruby to be good for side projects.
 
-I still need tons of practice to be able to express freely what is in my mind, but felt pretty good about myself. Even with a little experience of programming, I found Ruby on Rails very very powerful and it really blows my mind.
+I still need tons of practice to be able to express what is in my mind, but felt pretty good about myself. Even with a little experience of programming, I found Ruby on Rails powerful and it blew my mind.
 
-In this journey, one of things that I have been focusing is to keep my excitement and spirit high. Seriously I still can't believe that I am actually enjoying overall experience.
+In this journey, one of things that I have been focusing is to keep my excitement and spirit high. Seriously I still can't believe that I am actually enjoying the overall experience.
 
 More than 50% of the program is already over while writing this blog post, we are on the Wednesday of the 5th week.
 
-One good about Monday morning was that we had time to ask a lot of questions because we finished the lesson twenty minutes before the one o'clock.
+One good about Monday morning was that we had time to ask lot of questions because we finished the lesson twenty minutes before the one o'clock.
 
 #### Monday recap
 
@@ -40,9 +42,9 @@ One good about Monday morning was that we had time to ask a lot of questions bec
 + Path helpers & link_to
 + Lot of exercises
 
-On Tuesday at 18:30 I went to non Ironhack Meetup, actually a [Front-end Developers](http://www.meetup.com/Front-end-Developers-Madrid){:target="_blank"} Madrid Meetup, they've talked about [Google Analytics](https://twitter.com/IgnaciodeNuevo/status/747843215663955968){:target="_blank"}.
+On Tuesday at 18:30h, I went to a non Ironhack Meetup, actually a [Front-end Developers](http://www.meetup.com/Front-end-Developers-Madrid){:target="_blank"} Madrid Meetup. They've talked about [Google Analytics](https://twitter.com/IgnaciodeNuevo/status/747843215663955968){:target="_blank"}.
 
-We had to take ten minutes from our lunch to finish the lesson but was worth it.
+We have taken ten minutes from our lunch to finish the lesson but was worth it.
 
 #### Tuesday recap
 
@@ -53,28 +55,27 @@ We had to take ten minutes from our lunch to finish the lesson but was worth it.
 + Migrations
 + Lot of exercises
 
-Wednesday some of the Ironhackers had a Yoga class (see below), and a twenty User Experience talk (so short), as I'm not a Yoga guy I went home to review the "lesson".
+On Wednesday some of the Ironhackers had a Yoga class (see photograph below), and a twenty User Experience talk (so short). As I'm not a Yoga guy, I went home to review the lesson and exercises.
 
 <img src="/images/post-irnohack-week-four.jpg" alt="Yoga time">
 
 #### Wednesday and Thursday recap
 
-+ Show Action (the never ended project)
 + Create Action (Project)
-+ Associations (Time Entry)
-+ Nested Routes (TimeEntry Index)
-+ Create Action (Time Entry)
++ Associations
++ Nested Routes
++ Create Action
 + Validations
-+ Exercise - Auctions site
++ Auctions site (the never ended project)
 + Update/Delete entries (Put/Patch)
 + Partials
 + Delete Action
 + Flash messages
 + Application Helpers
 
-On Friday I had a one-on-one meeting with Raul and give me feedback about how I'm doing in the Bootcamp, he told me that I have typo errors and problems finding them. He also told me that I know more than I think, which is really great.
+On Friday I had a one-on-one meeting with Raul and gave me feedback about how I'm doing in the Bootcamp. He told me that I have typo errors and problems finding them. He also told me that I know more than I think.
 
-I've found something interesting. Rails give IDs to some elements automatically and this is not a good practice!
+I've found something interesting this week. Rails give IDs to some elements automatically and this is not a good practice!
 
 `
 	<input type="text" name="project[name]" id="project_name">
@@ -152,8 +153,6 @@ I've also maded a Rails Project Cheetsheet.
 `rename_column :<table>, :<current_column_name>, :<new_column_name>`
 
 `rails g migration fix_brand_name_in_cars`
-
-My next goal after the Bootcamp is to dive deep into how things underneath the code work.
 
 So, I’m a happy ruby developer this week.
 
