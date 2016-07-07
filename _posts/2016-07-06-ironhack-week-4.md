@@ -5,6 +5,7 @@ excerpt: "My Ironhack journal for Week[4], Ruby on Rails with Patricia Gao"
 post_date: "July 6, 2016"
 post_number: 12
 tags: 
+  - Back-end
   - Ironhack
   - Bootcamp
   - Week_4
@@ -14,23 +15,23 @@ tags:
 
 On monday we had the opportunity to meet [Patricia Gao](https://twitter.com/patriciagao){:target="_blank"} currently working as Rails Back-end Developer at [Cabify](https://www.cabify.com/){:target="_blank"}.
 
-She started introducing us what is [Ruby on Rails](http://rubyonrails.org){:target="_blank"}, a Ruby framework, what’s cool about Rails is that it makes web applications using HTML, CSS, and JavaScript that runs on a web server and are rendered by the browser.
+She started introducing us what is [Ruby on Rails](http://rubyonrails.org){:target="_blank"}, a Ruby framework, what is cool about Rails is that it makes web applications using HTML, CSS, and JavaScript that runs on a web server.
 
-We also saw what MVC (model–view–controller) means:
+We also learnt what is an MVC (model–view–controller) framework:
 
 + *Model:* stores data that is retrieved according to commands from the controller and displayed in the view.
 + *View:* generates new output to the user based on changes in the model.
 + *Controller:* can send commands to the model to update the model's state. It can also send commands to its associated view to change the view's presentation of the model.
 
-It went from 0 to 30, now; a week before I have the feeling that this week was my best week so far, slow but consistently growing. My strategy was to learn the small but unconnected chunks of Rails and in the last few days I put the parts together and make something. That said I'm more a visual person, thats why I like more Front-end but this seems, Ruby to be good for side projects.
+It went from 0 to 30, now; a week before I have the feeling that this week was the best one so far, slow but consistently growing. My strategy was to learn the small but unconnected chunks of Rails and in the last few days I put the parts together and make something. That said I'm more a visual person, thats why I like more Front-end but seems that Ruby would be good for side projects.
 
 I still need tons of practice to be able to express what is in my mind, but felt pretty good about myself. Even with a little experience of programming, I found Ruby on Rails powerful and it blew my mind.
 
 In this journey, one of things that I have been focusing is to keep my excitement and spirit high. Seriously I still can't believe that I am actually enjoying the overall experience.
 
-More than 50% of the program is already over while writing this blog post, we are on the Wednesday of the 5th week.
+More than 50% of the program is already over while writing this blog post, we are on Wednesday of the 5th week.
 
-One good about Monday morning was that we had time to ask lot of questions because we finished the lesson twenty minutes before the one o'clock.
+One good thing about Monday morning was that we had time to ask lot of questions because we finished the lesson twenty minutes before one o'clock.
 
 #### Monday recap
 
@@ -42,9 +43,7 @@ One good about Monday morning was that we had time to ask lot of questions becau
 + Path helpers & link_to
 + Lot of exercises
 
-On Tuesday at 18:30h, I went to a non Ironhack Meetup, actually a [Front-end Developers](http://www.meetup.com/Front-end-Developers-Madrid){:target="_blank"} Madrid Meetup. They've talked about [Google Analytics](https://twitter.com/IgnaciodeNuevo/status/747843215663955968){:target="_blank"}.
-
-We have taken ten minutes from our lunch to finish the lesson but was worth it.
+On Tuesday at 18:30h, I went to a non Ironhack Meetup, actually a [Front-end Developers](http://www.meetup.com/Front-end-Developers-Madrid){:target="_blank"} Madrid Meetup. They've talked about [Google Analytics](https://twitter.com/IgnaciodeNuevo/status/747843215663955968){:target="_blank"}, it was such a great event.
 
 #### Tuesday recap
 
@@ -73,9 +72,9 @@ On Wednesday some of the Ironhackers had a Yoga class (see photograph below), an
 + Flash messages
 + Application Helpers
 
-On Friday I had a one-on-one meeting with Raul and gave me feedback about how I'm doing in the Bootcamp. He told me that I have typo errors and problems finding them. He also told me that I know more than I think.
+On Friday I had a one-on-one meeting with Raul who gave me feedback about how I'm doing in the Bootcamp. He told me that I have typo errors and problems finding them. He also told me that I know more than I think which is something interesting to keep in mind.
 
-I've found something interesting this week. Rails give IDs to some elements automatically and this is not a good practice!
+I've found something interesting this week. Rails give IDs to some elements automatically and this is not a good practice! I.E:
 
 `
 	<input type="text" name="project[name]" id="project_name">
@@ -89,9 +88,9 @@ We've been doing with Patricia a [Timetracking](https://github.com/IgnaciodeNuev
 	</blockquote>
 </div>
 
-I've also published yesterday [WeCodeSign Podcast. 1x05 - UX & UI](http://wecodesignpodcast.com/2016/07/05/episodio-5).
+I've also published yesterday [WeCodeSign Podcast - 1x05](http://wecodesignpodcast.com/2016/07/05/episodio-5) about UX & UI.
 
-I've also maded a Rails Project Cheetsheet.
+I've maded a Rails Cheetsheet for everyone who likes to start with a new project.
 
 ## New project Cheetsheet
 
@@ -154,7 +153,7 @@ I've also maded a Rails Project Cheetsheet.
 
 `rails g migration fix_brand_name_in_cars`
 
-So, I’m a happy ruby developer this week.
+So, I’m a happy Ruby developer this week.
 
 See you in a week!
 

@@ -5,6 +5,7 @@ excerpt: "My Ironhack journal for Week[3], HTML, CSS and JavaScript with Javi Ve
 post_date: "June 27, 2016"
 post_number: 11
 tags: 
+  - Front-end
   - Ironhack
   - Bootcamp
   - Week_3
