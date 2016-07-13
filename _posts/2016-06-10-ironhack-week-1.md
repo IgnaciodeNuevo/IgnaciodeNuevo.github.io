@@ -29,7 +29,7 @@ We are from very different parts, Reinier (from the Netherlands), Nacho (from Sp
 <div>
   <blockquote class="container  alert">
     <p>Claudia (AM), Isaura (TA), Tristan, me, Reinier, Marcos, Satwat, Fernanda, Daniel, LLuis (TA)</p>
-	  <p>Manu (ex-LT), Alex, Magnus, Nacho</p>
+	<p>Manu (ex-LT), Alex, Magnus, Nacho</p>
   </blockquote>
 </div>
 
