@@ -13,7 +13,7 @@ tags:
   - Week_5
 ---
 
-### jQuery and APIs
+## jQuery and APIs
 
 Week five and I have been developing a lot. I feel confortable developing small projects in Rails. We'll see what happends next three weeks...
 
