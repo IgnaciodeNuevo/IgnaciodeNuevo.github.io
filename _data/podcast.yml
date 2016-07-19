@@ -1,3 +1,9 @@
+- name: "Episodio 6 - Primeros pasos como Front-end Designer"
+  description: "La diseñadora y desarrolladora Front-end Lidia Pescuezo nos explica cómo fue su paso desde Bellas Artes a una Agencia Digital."
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Julio 19, 2016"
+  podcast_web: http://wecodesignpodcast.com/2016/07/19/episodio-6/
+
 - name: "Episodio 5 - UX y UI"
   description: "El UX / UI Designer & FrontEnd Developer Javier Larrea García comenta sobre la situación del UX y el UI y el estado actual de dicho perfil."
   image_url: ../images/logo-WCD.svg
