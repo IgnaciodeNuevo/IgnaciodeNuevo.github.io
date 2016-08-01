@@ -36,7 +36,7 @@ I’m really love talking about the Web and as much I love talking about the Web
 ### Will I contribute to your blog, website, magazine etc?
 Possibly.
 
-###Can I use your slides/images/videos in my presentation/article/book?
+### Can I use your slides/images/videos in my presentation/article/book?
 Thanks for asking! Yes, you can use any of my materials in your work whenever you [read this](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 <!-- ### Will you join my company to work with me?
