@@ -51,3 +51,6 @@
 
 - name: You don't know JavaScript
   url: http://search.oreilly.com/?i=1;q=You+Don%27t+Know+JS;q1=Books;x=0;x1=t1;y=0&act=fc_contenttype_Books
+
+- name: Ruby on Rails Tutorial
+  url: https://www.railstutorial.org/book
