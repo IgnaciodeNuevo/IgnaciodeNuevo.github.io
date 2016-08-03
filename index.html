@@ -10,24 +10,12 @@ classes: home
 ---
 <section class="home-section container">
     <img class="home-section__portrait" src="/images/ignacio-villanueva.jpg" alt="Photo Ignacio Villanueva"  />
-    <h1 class="home-section__h1">I'm Ignacio Villanueva, Front-end Developer, focusing on CSS and Sass, architecture, front-end performance and responsive web design.</h1>
+    <h1 class="home-section__h1">Ignacio Villanueva a Front-end Developer focusing front-end architecture, front-end performance and responsive web design.</h1>
     <p class="home-section__p">You can follow me on <a href="{{ site.twitter }}" target="_blank">Twitter</a>, fork me on <a href="{{ site.github }}" target="_blank">Github</a>, subscribe via <a href="/feed.xml">RSS Feed</a> or say hello at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
 </section>
-
 {% include motto.html %}
 
 <main class="main">
-    {% for post in site.posts limit:1 %}
-    <h2 class="article__h2  container">My latest article:</h2>
-    <article class="article  container">
-    <a class="article__link" href="{{ post.url }}">
-        <h3 class="article__h3">{{ post.title }}</h3>
-        <time class="article__date" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.post_date }}</time>
-        <p class="article__excerpt">{{ post.excerpt }}</p>
-        <p class="article__number">{{ post.post_number }}</p>
-    </a>
-    </article>
-    {% endfor %}
 
     {% for project in site.data.projects limit:1 %}
     <h2 class="article__h2  container">My latest project:</h2>
@@ -41,6 +29,18 @@ classes: home
     <p class="article__url">
         <a href="{{ project.project_web }}" target="_blank">{{ project.name }}'s Web</a>
     </p>
+    </article>
+    {% endfor %}
+
+    {% for post in site.posts limit:1 %}
+    <h2 class="article__h2  container">My latest article:</h2>
+    <article class="article  container">
+    <a class="article__link" href="{{ post.url }}">
+        <h3 class="article__h3">{{ post.title }}</h3>
+        <time class="article__date" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.post_date }}</time>
+        <p class="article__excerpt">{{ post.excerpt }}</p>
+        <p class="article__number">{{ post.post_number }}</p>
+    </a>
     </article>
     {% endfor %}
 
