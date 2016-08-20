@@ -1,3 +1,9 @@
+- name: "Episodio 8 - Trabajando con diferentes CMS"
+  description: "Luis Martín de Martin & Young, una agencia de desarrollo y posicionamiento web nos cuenta su experiencia trabajando con diferentes CMS."
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Agosto 16, 2016"
+  podcast_web: http://wecodesignpodcast.com/2016/08/16/episodio-8-trabajando-con-diferentes-CMS/
+
 - name: "Episodio 7 - Exportando talento"
   description: "Miguel es un desarrollador bilbaíno asentado en Vancouver y nos cuenta su paso de creador de Apps a exitoso editor de vídeo."
   image_url: ../images/logo-WCD.svg
