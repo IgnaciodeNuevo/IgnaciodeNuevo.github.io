@@ -10,7 +10,7 @@ tags:
   - TDD
   - JavaScript
   - jQuery
-  - Week_5
+  - Week_6
 ---
 
 ### Advanced Ruby on Rails

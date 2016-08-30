@@ -19,6 +19,9 @@
 - name: git:logs
   url: http://www.gitlogs.com/resource-guides
 
+- name: 'MarkApp: Building apps with HTML'
+  url: http://markapp.io
+
 - name: Perf Tooling
   url: http://www.perf-tooling.today
 
