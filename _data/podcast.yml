@@ -1,3 +1,9 @@
+- name: "Episodio 9 - El estado actual de Angular y Polymer"
+  description: "Alejandro Arroyo Duque nos cuenta su experiencia con Angular y Polymer y su visión sobre el futuro de dichas tecnologías."
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Agosto 30, 2016"
+  podcast_web: http://wecodesignpodcast.com/2016/08/30/estado-actual-de-angular-y-polymer/
+
 - name: "Episodio 8 - Trabajando con diferentes CMS"
   description: "Luis Martín de Martin & Young, una agencia de desarrollo y posicionamiento web nos cuenta su experiencia trabajando con diferentes CMS."
   image_url: ../images/logo-WCD.svg
