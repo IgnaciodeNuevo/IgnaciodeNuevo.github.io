@@ -65,14 +65,14 @@ This new experience has made me think a lot on my future. Within the hiring days
 
 Now, as I was writing this post, one month after Ironhack ended I have lot of new ideas to develop and what I want to do now as front-end developer with a good friend I've made at Campus Madrid.
 
-<img src="/images/post-irnohack-conclusions-2.jpg" alt="Hackshow one">
+<img src="/images/post-irnohack-conclusions-2.JPG" alt="Hackshow one">
 <div>
   <blockquote class="container  alert">
     <span>Hackshow attendees part one</span>
   </blockquote>
 </div>
 
-<img src="/images/post-irnohack-conclusions-3.jpg" alt="Hackshow two">
+<img src="/images/post-irnohack-conclusions-3.JPG" alt="Hackshow two">
 <div>
   <blockquote class="container  alert">
     <span>Hackshow attendees part two</span>
