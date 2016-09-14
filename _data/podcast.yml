@@ -1,3 +1,9 @@
+- name: "Episodio 10 - Diseño de Interacción"
+  description: "Izaskun Saez, UX/UI Senior Designer nos comenta cual es la situación de un sector que vive un aparente boom: El Diseño de Interacción."
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Septiembre 13, 2016"
+  podcast_web: http://wecodesignpodcast.com/2016/09/13/diseno-de-interaccion/
+
 - name: "Episodio 9 - El estado actual de Angular y Polymer"
   description: "Alejandro Arroyo Duque nos cuenta su experiencia con Angular y Polymer y su visión sobre el futuro de dichas tecnologías."
   image_url: ../images/logo-WCD.svg
