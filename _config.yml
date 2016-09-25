@@ -1,11 +1,12 @@
 # Site settings
-title:          "Ignacio Villanueva - Front-end Developer focusing front-end architecture, front-end performance and responsive web design."
-description:    "Ignacio Villanueva - Front-end Developer focusing front-end architecture, front-end performance and responsive web design."
-url:            "http://ignaciodenuevo.com"
-email:          ignaciodenuevo@gmail.com
-twitter:        https://twitter.com/IgnaciodeNuevo
-github:         https://github.com/IgnaciodeNuevo
-facebook:       https://www.facebook.com/IgnaciodeNuevo
+title: "Ignacio Villanueva - Front-end Developer focusing front-end architecture, front-end performance and responsive web design."
+description: "Ignacio Villanueva - Front-end Developer focusing front-end architecture, front-end performance and responsive web design."
+url: https://www.ignaciodenuevo.com   # with the https protocol
+enforce_ssl: www.yoursite.com   # without any protocol
+email: ignaciodenuevo@gmail.com
+twitter: https://twitter.com/IgnaciodeNuevo
+github: https://github.com/IgnaciodeNuevo
+facebook: https://www.facebook.com/IgnaciodeNuevo
 baseurl: ""
 
 # Build settings
