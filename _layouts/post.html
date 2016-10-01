@@ -17,6 +17,12 @@ layout: default
   <p class="post-tags">Published under: {{ page.tags|array_to_sentence_string }}.</p>
 {% endif %}
 
+<ul class="tags">
+  {% for tag in page.tags %}
+    <li><a href="/tags#{{ tag }}" class="tag">{{ tag }}</a></li>
+  {% endfor %}
+</ul>
+
 {% unless page.comments == false or page.external %}
   <div id="disqus_thread"></div> 
 {% endunless %}
