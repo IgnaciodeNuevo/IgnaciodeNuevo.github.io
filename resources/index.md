@@ -13,6 +13,8 @@ tags:
 
 List of resources to learn Front-end Web Design & Development curated by me, that I enjoyed reading, watching, listening to or using.
 
+TL; DR
+
 <ul class="reset-bullet">
   <li class="resource  container">
     <p id="books" class="resource__type">Books</p>
