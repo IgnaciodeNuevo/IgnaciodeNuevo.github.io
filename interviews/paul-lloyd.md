@@ -1,10 +1,6 @@
 ---
 layout: interview
 title: "Paul Lloyd"
-tags:
-  - writing
-  - interviews
-  - blog
 ---
 <img class="home-section__portrait" src="/images/portrait-paul-lloyd.jpg" alt="Photo Paul Lloyd"/>
 {% if page.title %} 

@@ -1,10 +1,6 @@
 ---
 layout: interview
 title: "Brian Rinaldi"
-tags:
-  - writing
-  - interviews
-  - blog
 ---
 <img class="home-section__portrait" src="/images/portrait-brian-rinaldi.jpg" alt="Photo Brian Rinaldi"  />
 {% if page.title %} 

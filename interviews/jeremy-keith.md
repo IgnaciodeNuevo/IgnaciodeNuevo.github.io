@@ -1,10 +1,6 @@
 ---
 layout: interview
 title: "Jeremy Keith"
-tags:
-  - writing
-  - interviews
-  - blog
 ---
 <img class="home-section__portrait" src="/images/portrait-jeremy-keith.jpg" alt="Photo Jeremy Keith"  />
 {% if page.title %} 

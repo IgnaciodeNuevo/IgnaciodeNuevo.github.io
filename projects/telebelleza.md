@@ -1,9 +1,6 @@
 ---
 layout: post
 title: "Telebelleza"
-tags:
-  - project
-  - web
 ---
 
 ## The project

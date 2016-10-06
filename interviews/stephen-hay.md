@@ -1,10 +1,6 @@
 ---
 layout: interview
 title: "Stephen Hay"
-tags:
-  - writing
-  - interviews
-  - blog
 ---
 <img class="home-section__portrait" src="/images/portrait-stephen-hay.jpg" alt="Photo Stephen Hay"/>
 {% if page.title %} 

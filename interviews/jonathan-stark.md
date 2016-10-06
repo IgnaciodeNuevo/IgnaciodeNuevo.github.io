@@ -1,10 +1,6 @@
 ---
 layout: interview
 title: "Jonathan Stark"
-tags:
-  - writing
-  - interviews
-  - blog
 ---
 <img class="home-section__portrait" src="/images/portrait-jonathan-stark.jpg" alt="Photo Jamie Knight"  />
 {% if page.title %} 

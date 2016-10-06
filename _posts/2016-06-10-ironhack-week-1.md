@@ -7,9 +7,6 @@ post_number: 9
 tags: 
   - Front-end
   - Ironhack
-  - Bootcamp
-  - Week_0
-  - Week_1
 ---
 
 ### My application at Ironhack
@@ -64,5 +61,3 @@ I almost forgot to mention that we are ten studens in my cohort and only one gir
 Anyway, today is day 5 of week 1. I'm scared but I'll never give up. Stay tuned for the next week post.
 
 Can’t wait for week 2 to start!
-
-{% include hire.html %}

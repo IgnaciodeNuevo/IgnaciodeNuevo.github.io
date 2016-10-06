@@ -1,11 +1,6 @@
 ---
 layout: post
 title: "ViewSports"
-tags:
-  - project
-  - app
-  - ios
-  - android
 ---
 
 ## The project

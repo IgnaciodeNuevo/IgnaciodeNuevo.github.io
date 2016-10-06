@@ -1,10 +1,6 @@
 ---
 layout: interview
 title: "Brad Frost"
-tags:
-  - writing
-  - interviews
-  - blog
 ---
 <img class="home-section__portrait" src="/images/portrait-brad-frost.jpg" alt="Photo Brad Frost"  />
 {% if page.title %} 

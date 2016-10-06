@@ -6,7 +6,6 @@ post_date: "December 4, 2015"
 post_number: 2
 tags: 
   - Interviews
-  - Developers
 ---
 Today is a very exciting day, a really one.
 
@@ -80,5 +79,3 @@ At last I want to say thank you, to every single person that respond me, to acce
 <p class="btn">
   <a href="/interviews">Read the Interviews I have maded</a>
 </p>
-
-{% include hire.html %}

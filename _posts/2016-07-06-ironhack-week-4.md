@@ -7,8 +7,6 @@ post_number: 12
 tags: 
   - Back-end
   - Ironhack
-  - Bootcamp
-  - Week_4
 ---
 
 ### Ruby on Rails
@@ -156,5 +154,3 @@ I've maded a Rails Cheetsheet for everyone who likes to start with a new project
 So, I’m a happy Ruby developer this week.
 
 See you in a week!
-
-{% include hire.html %}

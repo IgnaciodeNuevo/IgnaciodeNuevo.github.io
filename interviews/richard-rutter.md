@@ -1,10 +1,6 @@
 ---
 layout: interview
 title: "Richard Rutter"
-tags:
-  - writing
-  - interviews
-  - blog
 ---
 <img class="home-section__portrait" src="/images/portrait-richard-rutter.jpg" alt="Photo Richard Rutter"  />
 {% if page.title %} 

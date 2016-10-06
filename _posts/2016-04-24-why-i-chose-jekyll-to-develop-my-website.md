@@ -109,5 +109,3 @@ I have lot of things to do:
 Well, you can grab the [RSS feed](/feed.xml), follow me on [Twitter]({{ site.twitter }}) and keep an eye on the project on [GitHub]({{ site.github }}/ignaciodenuevo.github.io).
 
 Thanks, Ignacio.
-
-{% include hire.html %}

@@ -1,9 +1,6 @@
 ---
 layout: post
 title: "Grupo Legantia"
-tags:
-  - project
-  - web
 ---
 
 ## The project

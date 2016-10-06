@@ -2,10 +2,6 @@
 layout: default
 title: "Podcasts"
 excerpt: "Lista de episodios que hemos publicado del podcast WeCodeSign Podcast"
-tags:
-  - projects
-  - open-source
-  - github
 ---
 <div class="header-section">
   <img src="/images/section-podcast.jpg" alt="Photography by Kai Oberhäuser" />

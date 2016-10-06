@@ -1,10 +1,6 @@
 ---
 layout: interview
 title: "Faruk Ateş"
-tags:
-  - writing
-  - interviews
-  - blog
 ---
 <img class="home-section__portrait" src="/images/portrait-faruk-ates.jpg" alt="Photo Faruk Ateş"  />
 {% if page.title %} 

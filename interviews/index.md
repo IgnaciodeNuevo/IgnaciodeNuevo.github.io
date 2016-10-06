@@ -2,10 +2,6 @@
 layout: default
 title: "Interviews"
 excerpt: "Interviews with the most influential developers of the industry and people think interesting to follow because of their work."
-tags:
-  - writing
-  - interviews
-  - blog
 ---
 <div class="header-section">
   <img src="/images/section-interviews.jpg" alt="Photography by Alejandro Escamilla" />

@@ -1,10 +1,7 @@
 ---
 layout: default
 title: "FAQ"
-excerpt: "Ignacio Villanueva - Front-end developer focusing on CSS, Sass, architecture, scalability, front-end performance, and mobile and responsive web design based in Madrid."
-tags:
-  - Ignacio Villanueva
-  - about
+excerpt: "Ignacio Villanueva - Front-end Developer focusing front-end architecture, front-end performance and responsive web design."
 ---
 
 # FAQ: Frequently asked questions

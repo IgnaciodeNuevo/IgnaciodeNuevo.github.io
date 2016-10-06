@@ -1,10 +1,6 @@
 ---
 layout: interview
 title: "Ben Schwarz"
-tags:
-  - writing
-  - interviews
-  - blog
 ---
 <img class="home-section__portrait" src="/images/portrait-ben-schwarz.jpg" alt="Photo Ben Schwarz"  />
 {% if page.title %} 

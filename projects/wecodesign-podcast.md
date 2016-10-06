@@ -1,9 +1,6 @@
 ---
 layout: post
 title: "WeCodeSign Podcast"
-tags:
-  - project
-  - web
 ---
 
 ## The project

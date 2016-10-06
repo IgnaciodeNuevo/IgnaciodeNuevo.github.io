@@ -7,8 +7,7 @@ post_number: 5
 tags: 
   - Learning
   - Front-end
-  - Web Design
-  - Web Development
+  - Web
 ---
 Front-end seems to be easy until you start learning it. This feeling took me a year to get this conclusion, after the Master of Web Development and Graphic Design I did from December (2013) to May (2014) in [Trazos](/2016/02/28/my-interest-in-web-development/) where I had no idea how to guide my way in this long effor of learning front-end Web Development, digging up many websites to learn lot of new technologies and more I've discovered one important fact: "learn new topics every day and maintain to date" is the best way in the road to success.
 
@@ -34,5 +33,3 @@ Keep thinking that this have no value if you don't practice or make new personal
 Now I'm comfortable knowing what I want and where I want to go.
 
 This is all for now, I hope you find it interesting and useful to you.
-
-{% include hire.html %}

@@ -6,7 +6,6 @@ post_date: "May 3, 2016"
 post_number: 8
 tags: 
   - Overwhelmed
-  - Impostor syndrome
 ---
 Let's start at the beginning. I started using the web since the terrible time of 11kb modems. I began playing video games lot of years ago and since then I've been tinkering with old table based layouts.
 
@@ -101,5 +100,3 @@ TLDR; Yes our industry is fast, it moves quickly, this is inspiring, because itâ
     </ul>
   </blockquote>
 </div>
-
-{% include hire.html %} 

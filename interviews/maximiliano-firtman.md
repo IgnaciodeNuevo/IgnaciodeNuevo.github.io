@@ -1,10 +1,6 @@
 ---
 layout: interview
 title: "Maximiliano Firtman"
-tags:
-  - writing
-  - interviews
-  - blog
 ---
 <img class="home-section__portrait" src="/images/portrait-maximiliano-firtman.jpg" alt="Photo Maximiliano Firtman"/>
 {% if page.title %} 

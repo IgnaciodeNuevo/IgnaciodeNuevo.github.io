@@ -1,10 +1,6 @@
 ---
 layout: interview
 title: "Jamie Knight"
-tags:
-  - writing
-  - interviews
-  - blog
 ---
 <img class="home-section__portrait" src="/images/portrait-jamie-knight.jpg" alt="Photo Jamie Knight"  />
 {% if page.title %} 

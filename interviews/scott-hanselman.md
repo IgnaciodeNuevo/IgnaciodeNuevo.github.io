@@ -1,10 +1,6 @@
 ---
 layout: interview
 title: "Scott Hanselman"
-tags:
-  - writing
-  - interviews
-  - blog
 ---
 <img class="home-section__portrait" src="/images/portrait-scott-hanselman.jpg" alt="Photo Scott Hanselman"  />
 {% if page.title %} 

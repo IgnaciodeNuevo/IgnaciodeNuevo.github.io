@@ -1,10 +1,6 @@
 ---
 layout: interview
 title: "Daniel Martinez"
-tags:
-  - writing
-  - interviews
-  - blog
 ---
 <img class="home-section__portrait" src="/images/portrait-daniel-martinez.jpg" alt="Photo Daniel Martínez"  />
 {% if page.title %} 

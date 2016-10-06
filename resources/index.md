@@ -2,9 +2,6 @@
 layout: default
 title: "Resources"
 excerpt: "Resouces for Web Developers."
-tags:
-  - Resources
-  - Front-end
 ---
 <div class="header-section">
   <img src="/images/section-resources.jpg" alt="Photography by Todd Quackenbush" />

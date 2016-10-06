@@ -6,12 +6,9 @@ post_date: "August 30, 2016"
 post_number: 15
 tags: 
   - Ironhack
-  - Bootcamp
   - TDD
   - JavaScript
   - jQuery
-  - Week_7
-  - Week_8
 ---
 
 ### Index of my Ironhack series
@@ -131,5 +128,3 @@ It has been two INTENSIVE but so good months... I will never forget this, so man
 Last thing for new frontenders I would recommend them to take a look at my [learning resources](/resources) list to know where to start learning. Keep in touch Ironhackers!
 
 If you are reading this and want to apply to Ironhack ask me anithing, many new things are coming, new Madrid headquarters (opening at the end of 2016). They are moving to a new place! I'm so nervous to see what happens.
-
-{% include hire.html %}

@@ -1,9 +1,6 @@
 ---
 layout: post
 title: "Asesores LowCost"
-tags:
-  - project
-  - web
 ---
 
 ## The project

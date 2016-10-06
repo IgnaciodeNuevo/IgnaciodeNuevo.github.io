@@ -1,10 +1,6 @@
 ---
 layout: interview
 title: "Hugo Giraudel"
-tags:
-  - writing
-  - interviews
-  - blog
 ---
 <img class="home-section__portrait" src="/images/portrait-hugo-giraudel.jpg" alt="Photo Hugo Giraudel"/>
 {% if page.title %} 

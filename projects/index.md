@@ -2,10 +2,6 @@
 layout: default
 title: "Projects"
 excerpt: "A list of all my open-sourced projects, all hosted on GitHub. Fair warning: some of them are not maintained anymore."
-tags:
-  - projects
-  - open-source
-  - github
 ---
 <div class="header-section">
   <img src="/images/section-projects.jpg" alt="Photography by Negative Space" />

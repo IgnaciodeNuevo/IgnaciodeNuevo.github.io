@@ -7,8 +7,6 @@ post_number: 11
 tags: 
   - Front-end
   - Ironhack
-  - Bootcamp
-  - Week_3
 ---
 
 ### HTML & CSS
@@ -50,5 +48,3 @@ On Friday we had to do a JavaScript Quiz:
 What a terrible experience, but after ending classes on Friday we went out together to [Isaura's bar](https://www.facebook.com/LekaLekaBar/){:target="_blank"}, we spend four hours talking to each other and having fun. Was a great week after all.
 
 This was the hardes week so far, only because of JavaScript, it was really difficult.
-
-{% include hire.html %}

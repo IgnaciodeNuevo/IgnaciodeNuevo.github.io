@@ -6,11 +6,9 @@ post_date: "July 18, 2016"
 post_number: 14
 tags: 
   - Ironhack
-  - Bootcamp
   - TDD
   - JavaScript
   - jQuery
-  - Week_6
 ---
 
 ### Advanced Ruby on Rails
@@ -149,5 +147,3 @@ Saturday we went back to have an introduction to React by Javi Velasco our JavaS
 Next week starts the hard part. Final project is comming.
 
 Until next post.
-
-{% include hire.html %}

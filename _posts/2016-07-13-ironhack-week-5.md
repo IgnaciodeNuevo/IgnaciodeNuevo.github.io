@@ -6,11 +6,9 @@ post_date: "July 13, 2016"
 post_number: 13
 tags: 
   - Ironhack
-  - Bootcamp
   - TDD
   - JavaScript
   - jQuery
-  - Week_5
 ---
 
 ## jQuery and APIs
@@ -92,6 +90,4 @@ Thursday was... bad, I have been sleeping eight ours a day but with no reason I 
 + Ironhack Pokedex exercise
 + Spotify Player exercise
 
-Waiting our last theory week
-
-{% include hire.html %}
+Waiting our last theory week.

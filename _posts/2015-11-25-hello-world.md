@@ -5,7 +5,7 @@ excerpt: "First clarify that this is going to be the blog of my personal trip in
 post_date: "November 25, 2015"
 post_number: 1
 tags: 
-  - hello
+  - Blog
 ---
 Hi!
 
@@ -40,5 +40,3 @@ Writing about unknown topics is a way to force me to investigate about them and 
 </div>
 
 So, I'll be writting every week, don't know what about but this is my beginning of a long and awesome trip.
-
-{% include hire.html %}

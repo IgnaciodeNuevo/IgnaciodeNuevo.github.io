@@ -87,5 +87,3 @@ See you next week.
     </ul>
   </blockquote>
 </div>
-
-{% include hire.html %}

@@ -7,8 +7,6 @@ post_number: 10
 tags:
   - Front-end 
   - Ironhack
-  - Bootcamp
-  - Week_2
 ---
 
 ### Test Driven Development
@@ -70,5 +68,3 @@ We are going to create a movie quiz web app!! So lets see the main points of our
 I have to say that this week we spent 6 days at Ironhack school, so the Saturday we came to do a [JavaScript small recap](https://github.com/IgnaciodeNuevo/Ironhack/tree/master/Week%202/Day%206%20-%20JavaScript%20Recap){:target="_blank"}.
 
 This week we will have Javi Velasco a Front-end Developer to teach us HTML, CSS and JavaScript, so I can't wait this beautiful part of Web Development to start!
-
-{% include hire.html %}

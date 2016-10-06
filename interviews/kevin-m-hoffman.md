@@ -1,10 +1,6 @@
 ---
 layout: interview
 title: "Kevin M. Hoffman"
-tags:
-  - writing
-  - interviews
-  - blog
 ---
 <img class="home-section__portrait" src="/images/portrait-kevin-m-hoffman.jpg" alt="Photo Kevin M. Hoffman by Michelle Gray"  />
 {% if page.title %} 
