@@ -1,3 +1,9 @@
+- name: "Episodio 12 - Tipografía Web"
+  description: "El Diseñador UI y tipógrafo Lole Román nos cuenta como debemos usar la tipografía en la web y trucos para usarla correctamente."
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Octubre 11, 2016"
+  podcast_web: http://wecodesignpodcast.com/2016/10/11/tipografia-web/
+
 - name: "Episodio 11 - Web Audio"
   description: "La desarrolladora y devrel de Mozilla Soledad Penadés, visita el podcast para contarnos el Web Audio y su influencia en la Web."
   image_url: ../images/logo-WCD.svg
