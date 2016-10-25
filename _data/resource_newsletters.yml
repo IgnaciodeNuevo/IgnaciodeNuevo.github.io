@@ -45,3 +45,9 @@
 
 - name: Webdesigner News
   url: http://www.webdesignernews.com
+
+- name: TypeScript Weekly
+  url: https://www.typescript-weekly.com
+
+- name: React Weekly
+  url: http://reactjsnewsletter.com

@@ -1,3 +1,9 @@
+- name: "Episodio 13 - El ecosistema frontend"
+  description: "Miguel Martín, CTO de Redradix nos cuenta como ve la situación actual del front-end, que herramientas utiliza y cuales no."
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Octubre 25, 2016"
+  podcast_web: http://wecodesignpodcast.com/2016/10/25/el-ecosistema-frontend/
+
 - name: "Episodio 12 - Tipografía Web"
   description: "El Diseñador UI y tipógrafo Lole Román nos cuenta como debemos usar la tipografía en la web y trucos para usarla correctamente."
   image_url: ../images/logo-WCD.svg
