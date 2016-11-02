@@ -1,3 +1,6 @@
+- name: DevDocs
+  url: http://devdocs.io/
+
 - name: Awesome on GitHub
   url: https://github.com/sindresorhus/awesome
 
@@ -60,3 +63,9 @@
 
 - name: wwwhere
   url: http://wwwhere.io
+
+- name: HTML5-Please
+  url: http://html5please.com/
+
+- name: Design Principles
+  url: https://principles.adactio.com/
