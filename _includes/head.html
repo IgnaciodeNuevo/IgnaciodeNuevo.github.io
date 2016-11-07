@@ -23,7 +23,7 @@
   {% endif %}
 
 <!-- Open Graph data -->
-  <meta property="og:title" content="{{ page.title }} | {{ site.title }}" />
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
   <meta property="og:image" content="http://ignaciodenuevo.com/images/logo.jpg" />
