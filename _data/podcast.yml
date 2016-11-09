@@ -1,3 +1,9 @@
+- name: "Episodio 14 - Accesibilidad Web"
+  description: "Jonathan Chacón, desarrollador y consultor web nos explica las recomendaciones para hacer la web más accesible."
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Noviembre 8, 2016"
+  podcast_web: http://wecodesignpodcast.com/2016/11/08/accesibilidad-en-la-web/
+
 - name: "Episodio 13 - El ecosistema frontend"
   description: "Miguel Martín, CTO de Redradix nos cuenta como ve la situación actual del front-end, que herramientas utiliza y cuales no."
   image_url: ../images/logo-WCD.svg
