@@ -1,3 +1,9 @@
+- name: "Episodio 15 - herramientas del Frontend"
+  description: "Hoy como invitado está con nosotros Luis de Dios, frontend que nos ayudará a entender las herramientas que usamos día a día."
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Noviembre 22, 2016"
+  podcast_web: http://wecodesignpodcast.com/2016/11/22/herramientas-del-frontend/
+  
 - name: "Episodio 14 - Accesibilidad Web"
   description: "Jonathan Chacón, desarrollador y consultor web nos explica las recomendaciones para hacer la web más accesible."
   image_url: ../images/logo-WCD.svg
