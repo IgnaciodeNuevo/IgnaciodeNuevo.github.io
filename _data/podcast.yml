@@ -1,3 +1,9 @@
+- name: "Web Performance con Ignacio Villanueva - Hablemos de Web"
+  description: "Ángel y Natalia, de Hablemos de Web me entrevistan en su Podcast sobre Web Performance y las bases del desarrollo web."
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Noviembre 22, 2016"
+  podcast_web: http://www.hablemosdeweb.com/episodios/ignacio-villanueva.html
+  
 - name: "Episodio 15 - herramientas del Frontend"
   description: "Hoy como invitado está con nosotros Luis de Dios, frontend que nos ayudará a entender las herramientas que usamos día a día."
   image_url: ../images/logo-WCD.svg
