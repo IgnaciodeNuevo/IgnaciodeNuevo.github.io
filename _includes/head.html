@@ -36,9 +36,8 @@
   <meta name="twitter:site" content="@IgnaciodeNuevo">
   <meta name="twitter:domain" content="{{ site.url }}">
   <meta name="twitter:creator" content="@IgnaciodeNuevo">
-  
   <meta name="twitter:image" content="/images/logo.jpg">
-  <meta name="twitter:description" content="{% if post.excerpt %}{{ post.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
 <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
