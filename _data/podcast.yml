@@ -1,3 +1,9 @@
+- name: "Episodio 16 - Buenas prácticas CSS"
+  description: "Hoy hablamos con Belén Albeza, devrel de Mozilla sobre la importancia del buen código CSS y buenas prácticas a tener en cuenta."
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Diciembre 6, 2016"
+  podcast_web: http://wecodesignpodcast.com/2016/12/06/buenas-practicas-css/
+
 - name: "Web Performance con Ignacio Villanueva - Hablemos de Web"
   description: "Ángel y Natalia, de Hablemos de Web me entrevistan en su Podcast sobre Web Performance y las bases del desarrollo web."
   image_url: ../images/logo-WCD.svg
