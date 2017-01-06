@@ -1,21 +1,32 @@
 # Site settings
-title: "Ignacio Villanueva - Front-end Developer focusing front-end architecture, front-end performance and responsive web design."
 description: "Ignacio Villanueva - Front-end Developer focusing front-end architecture, front-end performance and responsive web design."
-url: IgnaciodeNuevo.com # with the https protocol
+url: "http://ignaciodenuevo.com" # with the https protocol
 # enforce_ssl: www.ignaciodenuevo.com # without any protocol
-email: IgnaciodeNuevo@gmail.com
-twitter: https://twitter.com/IgnaciodeNuevo
-github: https://github.com/IgnaciodeNuevo
+email: ignaciodenuevo@gmail.com
+twitter: https://twitter.com/ignaciodenuevo
+github: https://github.com/ignaciodenuevo
 baseurl: ""
 
-# Build settings
+# Markdown settings
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Pagination settings
 paginate_path: /blog/page:num
 paginate: 10
+
+# Permalink
 permalink: pretty
+
+# Sass settings
 sass:
   style: :compressed
+
+# GEMS
 gems:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
+  

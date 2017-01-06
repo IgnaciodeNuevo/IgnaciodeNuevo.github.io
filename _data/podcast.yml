@@ -1,8 +1,14 @@
-- name: "Episodio 16 - Buenas prácticas CSS"
-  description: "Hoy hablamos con Belén Albeza, devrel de Mozilla sobre la importancia del buen código CSS y buenas prácticas a tener en cuenta."
+- name: "Episodio 17 - Metodologías de Trabajo"
+  description: "Mario Sánchez, Director Creativo & UX en Redbility nos cuenta sus experiencias organizando proyectos y gestionando equipos."
   image_url: ../images/logo-WCD.svg
-  podcast_date: "Diciembre 6, 2016"
-  podcast_web: http://wecodesignpodcast.com/2016/12/06/buenas-practicas-css/
+  podcast_date: "Enero 3, 2016"
+  podcast_web: http://wecodesignpodcast.com/2017/01/03/metodologias-de-trabajo/
+
+- name: "Episodio 17 - SVG"
+  description: "Hoy hablamos con Jorge Aznar, front-end designer y autor de Scalable un libro sobre SVG y nos contará trucos y consejos para usar SVG."
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Diciembre 20, 2016"
+  podcast_web: http://wecodesignpodcast.com/2016/12/20/SVG/
 
 - name: "Web Performance con Ignacio Villanueva - Hablemos de Web"
   description: "Ángel y Natalia, de Hablemos de Web me entrevistan en su Podcast sobre Web Performance y las bases del desarrollo web."
