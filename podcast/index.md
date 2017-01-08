@@ -12,9 +12,9 @@ Realizo un Podcast sobre diseño y desarrollo Web en When I can, I try to invest
 
 {% for podcast in site.data.podcast %}
 <article class="article  container">
-  <a class="article__link" href="/podcast/{{ podcast.podcast_url }}"> 
+  <a class="article__link" href="{{ podcast.podcast_web }}" target="_blank"> 
     <h3 class="article__h3">{{ podcast.name }}</h3>
-    <time class="article__date" datetime="{{ podcast.date | date: "%Y-%m-%d" }}">{{ podcast.podcast_date }}</time>
+    <time class="article__date">{{ project.project_date }}</time>
     <p class="article__excerpt">{{ podcast.description }}</p>
     <img class="portrait--small" src="{{ podcast.image_url }}" alt="{{ podcast.name }} Image"/>
   </a>
