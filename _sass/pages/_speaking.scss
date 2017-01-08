@@ -1,32 +1,55 @@
-/**
- * Make past events slightly less apparent
- */
-.event--past {
-  opacity: 0.65;
+//
+// Search styles
+//
+
+.speaking {
+  position: relative;
+  background-color: $lightGrey;
+  border-radius: $borderRadius;
+  margin-bottom: 30px;
+  padding: 10px;
+  border: 3px solid $lightGrey;
+  //border-bottom: 3px solid $darkGrey;
+  box-shadow: 0 4px 3px -2px $darkGrey;
+
+
+  &:hover {
+    border: 3px solid $mainColor;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  & a {
+    @include underLine(transparent, $mainColor, 0);
+  }
 }
 
-/**
- * Event actions
- * 1. Undo default styles
- */
-.event__actions {
-  list-style: none; /* 1 */
-  padding: 0; /* 1 */
-  margin: 0; /* 1 */
+// Subeading H3
+// 1. Vertical rhythm
+//
+.speaking__h3 {
+  margin-top: 7px; // 1
+  margin-bottom: 5px; // 1
+  color: $darkGrey;
 }
 
-/**
- * Event action
- */
-.event__actions li {
-  display: inline-block;
+//
+// Date of publication
+// 
+.speaking__date {
+  font-family: $codeFont;
+  font-size: 80%;
+  color: $darkGrey;
 }
 
-/**
- * Event action separator
- */
-.event__actions li + li::before {
-  content: ' •  ';
-  white-space: pre;
-  color: mix(black, $lightGrey, 10%);
+//
+// Article excerpt
+// 1. Vertical rhythm
+//
+.speaking__excerpt {
+  margin-bottom: 0; // 1
+  font-size: 90%;
+  color: $darkGrey;
 }
