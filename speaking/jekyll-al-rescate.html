@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>¡Jekyll al rescate!</title>
+		<title>Jekyll al rescate</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/dark.css">
@@ -38,11 +38,253 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>
-					<img data-src="/images/speaking-jekyll.png" alt="Jekyll.rb's logo">
+					<img data-src="/images/speaking/speaking-jekyll.png" alt="Jekyll.rb's logo">
 					<h2>¡Al rescate!</h2>
 				</section>
+
+
 				<section>
-					<a href="http://ignaciodenuevo.com"><img data-src="/images/IgnaciodeNuevo_logo.svg" alt="IgnaciodeNuevo's logo"></a>
+					<h2>¿Por qué?</h2>
+					<ul>
+						<li>Menos complejidad (HTML, CSS y JS)</li>
+						<li>Menos dependencias (al no haber backend)</li>
+						<li>Velocidad de la web (archivos estáticos) *</li>
+						<li>Seguridad (al no haber logins y backend)</li>
+						<li>Escalabilidad</li>
+						<li>Control de Versiones</li>
+					</ul>
+				</section>
+
+				<section>
+					<section class="future">
+						<h2>Tabla de contenidos</h2>
+						<svg style="width:24px;height:24px" viewBox="0 0 24 24">
+							  <path fill="#fff" d="M10,4H14V13L17.5,9.5L19.92,11.92L12,19.84L4.08,11.92L6.5,9.5L10,13V4Z" />
+						</svg>
+					</section>
+
+					<section class="future">
+						<h2>Empezamos</h2>
+						<ul>
+							<li>Bienvenidos</li>
+							<li>Comandos básicos</li>
+							<li>Configuración</li>
+							<li>Instalación</li>
+							<li>Liquid</li>
+							<li>Markdown</li>
+						</ul>
+					</section>
+
+					<section class="future">
+						<h2>El contenido</h2>
+						<ul>
+							<li>Front Matter</li>
+							<li>Writing posts</li>
+							<li>Working with drafts</li>
+							<li>Creating pages</li>
+							<li>Static Files</li>
+							<li>Variables</li>
+							<li>Collections</li>
+							<li>Data Files</li>
+							<li>Assets</li>
+							<li>Blog migrations</li>
+						</ul>
+					</section>
+
+					<section class="future">
+						<h2>Customización</h2>
+						<ul>
+							<li>Plantillas</li>
+							<li>Includes</li>
+							<li>Permalinks</li>
+							<li>Paginación</li>
+							<li>Plugins</li>
+							<li>Temas</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<h2>Estructura de carpetas</h2>
+						<pre><code data-trim data-noescape>
+.
+├── _config.yml
+├── _data
+|   └── members.yml
+├── _drafts
+|   ├── begin-with-the-crazy-ideas.md
+|   └── on-simplicity-in-technology.md
+├── _includes
+|   ├── footer.html
+|   └── header.html
+├── _layouts
+|   ├── default.html
+|   └── post.html
+├── _posts
+|   ├── 2007-10-29-why-every-programmer-should-play-nethack.md
+|   └── 2009-04-26-barcamp-boston-4-roundup.md
+├── _sass
+|   ├── _base.scss
+|   └── _layout.scss
+├── _site
+├── .jekyll-metadata
+└── index.html # can also be an 'index.md' with valid YAML Frontmatter
+						</code></pre>
+				</section>
+
+				<section>
+					<section class="future">
+						<h2>Instalación de Jekyll</h2>
+						<svg style="width:24px;height:24px" viewBox="0 0 24 24">
+						  <path fill="#fff" d="M10,4H14V13L17.5,9.5L19.92,11.92L12,19.84L4.08,11.92L6.5,9.5L10,13V4Z" />
+						</svg>
+					</section>
+
+					<section class="future">
+						<h2>Instalación en OXS</h2>
+						<ol>
+							<li>XCode</li>
+							<li>xcode-select —install</li>
+							<li>/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</li>
+							<li>brew install ruby</li>
+							<li>gem install jekyll</li>
+							<li>jekyll -v</li>
+							<li>cd… [carpeta]</li>
+							<li>jekyll new nombre_de_mi_proyecto</li>
+						</ol>
+					</section>
+
+					<section class="future">
+						<h2>Instalación en Windows</h2>
+						<ol>
+							<li>command prompt (como admin)</li>
+							<li>@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin</li>
+							<li>close terminal and reopen</li>
+							<li>choco install ruby-y</li>
+							<li>close terminal and reopen</li>
+							<li>gem install jekyll</li>
+							<li>jekyll -v</li>
+							<li>cd… [carpeta]</li>
+							<li>jekyll new nombre_de_mi_proyecto</li>
+						</ol>
+					</section>
+
+					<section class="future">
+						<h2>Instalación en Linux</h2>
+						<ol>
+							<li>app-get update</li>
+							<li>app-get install ruby-full</li>
+							<li>gem install jekyll</li>
+							<li>jekyll -v</li>
+							<li>cd… [carpeta]</li>
+							<li>jekyll new nombre_de_mi_proyecto</li>
+						</ol>
+					</section>
+				</section>				
+
+
+				<section>
+					<h2><a href="https://pages.github.com/">Github Pages</a></h2>
+					<ul>
+						<li><a href="https://help.github.com/categories/github-pages-basics/">Github Pages Basics</a></li>
+						<li><a href="https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/">Using jekyll with github pages</a></li>
+						<li><a href="https://pages.github.com/versions/">Dependency versions</a></li>
+					</ul>
+				</section>
+
+
+				<section>
+					<section class="future">
+						<h2>Recursos</h2>
+						<svg style="width:24px;height:24px" viewBox="0 0 24 24">
+						  <path fill="#fff" d="M10,4H14V13L17.5,9.5L19.92,11.92L12,19.84L4.08,11.92L6.5,9.5L10,13V4Z" />
+						</svg>
+					</section>
+
+					<section class="future">
+						<ul>
+							<li><a href="https://github.com/planetjekyll/quickrefs/blob/master/JEKYLL.md">Jekyll CheatSheet - Planet Jekyll</a></li>
+							<li><a href="http://jekyll.tips/jekyll-cheat-sheet/">Jekyll CheatSheet - Jekyll Tips</a></li>
+							<li><a href="http://hydepress.github.io/jekyll">Jekyll Book - Hydepress</a></li>
+							<li><a href="https://talk.jekyllrb.com/">Jekyll Talk</a></li>
+							<li><a href="https://www.youtube.com/watch?v=_f4aly6xblQ&list=PLrxYIq_0LFJc0TfNbv24cuFD1IaUtkzrh">Jekyll Casts - CloudCannon</a></li>
+							<li><a href=""></a></li>
+							<li><a href=""></a></li>
+							<li><a href=""></a></li>
+						</ul>
+					</section>
+
+					<section class="future">
+						<h2>Plugins</h2>
+						<ul>
+							<li><a href="https://github.com/jekyll">Official Plugins</a></li>
+							<li><a href="https://github.com/planetjekyll/awesome-jekyll-plugins">Awesome Jekyll - Plugins</a></li>
+							<li><a href="http://jekyll.tips/jekyll-casts/using-jekyll-plugins/">Jekyll.tips - Plugins</a></li>
+						</ul>
+					</section>
+					
+					<section class="future">
+						<h2>CMS</h2>
+						<ul>
+							<li><a href="https://jekyll.github.io/jekyll-admin/">Jekyll Admin</a></li>
+							<li><a href="https://github.com/planetjekyll/awesome-jekyll-editors">Awesine Jekyll Editors</a></li>
+							<li><a href="http://cloudcannon.com/">Cloudcannon</a></li>
+						</ul>
+					</section>
+				</section>
+
+
+				<section>
+					<section class="future">
+						<h2>Ejemplos de Jekyll</h2>
+						<svg style="width:24px;height:24px" viewBox="0 0 24 24">
+						  <path fill="#fff" d="M10,4H14V13L17.5,9.5L19.92,11.92L12,19.84L4.08,11.92L6.5,9.5L10,13V4Z" />
+						</svg>
+					</section>
+
+					<section class="future">
+						<h2>Obama Founding Campaign</h2>
+					</section>
+
+					<section class="future">
+						<h2>USA Federal Information Office</h2>
+						<a href="https://policy.cio.gov/">
+							<img data-src="/images/speaking/speaking-federalinformationoffice.jpeg" alt="USA Federal Information Office">
+						</a>
+					</section>
+
+					<section class="future">
+						<h2>Panama Papers</h2>
+						<a href="https://panamapapers.icij.org/">
+							<img data-src="/images/speaking/speaking-panamapapers.jpeg" alt="Panama Papers">
+						</a>
+					</section>
+
+					<section class="future">
+						<h2>Jekyll Conf Speakers</h2>
+						<a href="http://katydecorah.com/unconventional/jekyllconf/">
+							<img data-src="/images/speaking/speaking-jekyllconfspeakers.jpeg" alt="Jekyll Conf Speakers">
+						</a>
+					</section>
+
+					<section class="future">
+						<h2>Stackoverflow blog</h2>
+						<a href="http://stackoverflow.blog/2015/07/how-we-built-our-blog/">
+							<img data-src="/images/speaking/speaking-stackoverflow.jpeg" alt="Stackoverflow blog">
+						</a>
+					</section>
+
+					<section class="future">
+						<h2>The New Dynamic Examples</h2>
+						<a href="https://www.thenewdynamic.org/tool/jekyll/">
+							<img data-src="/images/speaking/speaking-thenewdynamic.jpeg" alt="The New Dynamic">
+						</a>
+					</section>
+				</section>
+
+
+				<section>
+					<a href="http://ignaciodenuevo.com"><img data-src="/images/speaking/IgnaciodeNuevo_logo.svg" alt="IgnaciodeNuevo's logo"></a>
 					<img data-src="/images/ignacio-villanueva.jpg" alt="Foto de Ignacio Villanueva">
 					<p>Soy un Front-end Developer especializado en arquitectura, front-end performance y responsive web design.</p>
 				</section>
