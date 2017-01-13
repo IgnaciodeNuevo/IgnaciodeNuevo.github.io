@@ -3,21 +3,32 @@
  *
  * By Ignacio Villanueva, http://ignaciodenuevo.com
  */
+a {
+  text-decoration: underline !important; }
+
+.text-align-left {
+  text-align: left; }
+
 section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
-  color: #222; }
+  color: #fff; }
 
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #333;
-  background-color: #333; }
+  background: #222;
+  background-color: #222; }
 
 .reveal {
   font-family: "Roboto", "San Francisco", "Arial", "Helvetica", "Verdana", sans-serif;
   font-size: 38px;
   font-weight: normal;
   color: #fff; }
+
+::-moz-selection {
+  color: #fff;
+  background: white;
+  text-shadow: none; }
 
 ::selection {
   color: #fff;
@@ -211,7 +222,7 @@ body {
   transition: color .15s ease; }
 
 .reveal a:hover {
-  color: white;
+  color: #0047BB;
   text-shadow: none;
   border: none; }
 
@@ -254,16 +265,16 @@ body {
   border-top-color: #fff; }
 
 .reveal .controls .navigate-left.enabled:hover {
-  border-right-color: white; }
+  border-right-color: #0047BB; }
 
 .reveal .controls .navigate-right.enabled:hover {
-  border-left-color: white; }
+  border-left-color: #0047BB; }
 
 .reveal .controls .navigate-up.enabled:hover {
-  border-bottom-color: white; }
+  border-bottom-color: #0047BB; }
 
 .reveal .controls .navigate-down.enabled:hover {
-  border-top-color: white; }
+  border-top-color: #0047BB; }
 
 /*********************************************
  * PROGRESS BAR

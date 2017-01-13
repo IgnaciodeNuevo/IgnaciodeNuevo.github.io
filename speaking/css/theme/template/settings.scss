@@ -28,9 +28,11 @@ $heading2Size: 2.11em;
 $heading3Size: 1.55em;
 $heading4Size: 1.00em;
 
+a {text-decoration: underline !important;}
+
 // Links and actions
 $linkColor: #fff;
-$linkColorHover: lighten( $linkColor, 20% );
+$linkColorHover: #0047BB;
 
 // Text selection
 $selectionBackgroundColor: #0047BB;
