@@ -1,3 +1,9 @@
+- name: "Episodio 19 - Reclutando Talento"
+  description: "Jose Martín-Corral, recruiter de Aurigae una consultora española del sector IT nos contará trucos para saber afrontar una entrevista."
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Enero 17, 2017"
+  podcast_web: http://wecodesignpodcast.com/2017/01/17/reclutando-talento/
+
 - name: "Episodio 18 - Metodologías de Trabajo"
   description: "Mario Sánchez, Director Creativo & UX en Redbility nos cuenta sus experiencias organizando proyectos y gestionando equipos."
   image_url: ../images/logo-WCD.svg
