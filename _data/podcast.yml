@@ -1,3 +1,9 @@
+- name: "Episodio 20 - La importancia del Open Source"
+  description: "Ulises Gascón, desarrollador OpenSource y especializado en JavaScript y Node nos cuenta su opinión el importancia del software libre."
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Enero 31, 2017"
+  podcast_web: http://wecodesignpodcast.com/2017/01/31/la-importancia-del-open-source/
+
 - name: "Episodio 19 - Reclutando Talento"
   description: "Jose Martín-Corral, recruiter de Aurigae una consultora española del sector IT nos contará trucos para saber afrontar una entrevista."
   image_url: ../images/logo-WCD.svg
