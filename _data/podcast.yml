@@ -1,3 +1,9 @@
+- name: "Episodio 21 - Presente y futuro del UX"
+  description: "Mauricio Angulo, consultor de User Experience, Google Developer Expert nos cuenta sus pensamientos sobre la experiencia de usuario."
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Febrero 14, 2017"
+  podcast_web: http://wecodesignpodcast.com/2017/02/14/presente-y-futuro-del-ux/
+
 - name: "Episodio 20 - La importancia del Open Source"
   description: "Ulises Gascón, desarrollador OpenSource y especializado en JavaScript y Node nos cuenta su opinión el importancia del software libre."
   image_url: ../images/logo-WCD.svg
