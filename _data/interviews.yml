@@ -1,3 +1,12 @@
+- name: "Harry Roberts"
+  excerpt: "I’m a web developer from England. My actual job title is Consultant Front-end Architect—I travel the world to help clients of all shapes and sizes write better, faster, more scalable, more maintainable CSS."
+  image_url: ../images/portrait-harry-roberts.jpg
+  interview_date: "January 27, 2017"
+  interview_number: 16
+  interview_twitter: https://twitter.com/csswizardry
+  interview_url: harry-roberts
+  interview_web: https://csswizardry.com/
+
 - name: "Richard Rutter"
   excerpt: "I’m a web person through and through. Day to day I help run Clearleft, a digital design consultancy and studio I co-founded. Within that, I’m a user experience designer and a web typography advocate/consultant."
   image_url: ../images/portrait-richard-rutter.jpg
