@@ -1,6 +1,9 @@
 - name: CSS Reference
   url: http://cssreference.io/
 
+- name: HTML Reference
+  url: http://htmlreference.io/
+
 - name: DevDocs
   url: http://devdocs.io/
 
@@ -33,6 +36,9 @@
 
 - name: 'MarkApp: Building apps with HTML'
   url: http://markapp.io
+
+- name: 'HTML & CSS is Hard'
+  url: https://internetingishard.com/html-and-css/
 
 - name: Perf Tooling
   url: http://www.perf-tooling.today
