@@ -1,3 +1,9 @@
+- name: "Episodio 23 - De educadora a Front-end"
+  description: "Laetitia Carquet, aprendiz insaciable y colaboradora de proyectos como Semillasocial nos contará su experiencia."
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Marzo 14, 2017"
+  podcast_web: http://wecodesignpodcast.com/2017/03/14/de-educadora-a-frontend/
+
 - name: "Episodio 22 - La importancia del diseño en la web"
   description: "Wences Sanz, Senior Designer en Everis nos cuenta su visión por el diseño y las tendencias web que podremos ver este 2017."
   image_url: ../images/logo-WCD.svg
