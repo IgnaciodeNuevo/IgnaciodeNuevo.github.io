@@ -1,3 +1,9 @@
+- name: "Episodio 24 - CSS Grid Layout"
+  description: "Manuel Rego desarrollador, Chromium/Blink owner & WebKit reviewer nos habla sobre la implementación y el presente de CSS Grid Layout."
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Marzo 28, 2017"
+  podcast_web: http://wecodesignpodcast.com/2017/03/28/css-grid-layout/
+
 - name: "Episodio 23 - De educadora a Front-end"
   description: "Laetitia Carquet, aprendiz insaciable y colaboradora de proyectos como Semillasocial nos contará su experiencia."
   image_url: ../images/logo-WCD.svg
