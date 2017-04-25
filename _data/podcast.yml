@@ -1,3 +1,9 @@
+- name: "Episodio 25 - PostCSS"
+  description: "Joan León Front-end y UI Developer y responsable de formación en su empresa nos hablará sobre PostCSS."
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Abril 11, 2017"
+  podcast_web: http://wecodesignpodcast.com/2017/04/11/postcss/
+
 - name: "Episodio 24 - CSS Grid Layout"
   description: "Manuel Rego desarrollador, Chromium/Blink owner & WebKit reviewer nos habla sobre la implementación y el presente de CSS Grid Layout."
   image_url: ../images/logo-WCD.svg
