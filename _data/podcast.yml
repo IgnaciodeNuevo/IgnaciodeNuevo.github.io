@@ -1,3 +1,9 @@
+- name: "Episodio 26 - Design Systems"
+  description: "Naiara Abaroa, Front-end Designer y apasionada por el CSS, nos ayudará a entender los Design Systems."
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Abril 25, 2017"
+  podcast_web: http://wecodesignpodcast.com/2017/04/25/design-systems/
+
 - name: "Episodio 25 - PostCSS"
   description: "Joan León Front-end y UI Developer y responsable de formación en su empresa nos hablará sobre PostCSS."
   image_url: ../images/logo-WCD.svg
