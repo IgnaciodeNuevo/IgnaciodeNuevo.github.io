@@ -1,1 +1,12 @@
-<svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 345 345"><style>.st0{fill:#C5003E;} .st1{fill:#FFFFFF;}</style><path class="st0" d="M324.8 345H20.3C9.1 345 0 335.9 0 324.8V20.4C0 9.1 9.1 0 20.3 0h304.5c11.2 0 20.4 9.1 20.4 20.4v304.5c-.2 11-9.4 20.1-20.4 20.1z"/><path class="st1" d="M61.6 300.5V256l144.5-83.5L61.6 89V44.5l221.8 128-221.8 128z"/><path class="st1" d="M61.6 211.4v-77.8l67.4 38.9-67.4 38.9z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#222222;}
+	.st1{fill:#FFFFFF;}
+</style>
+<path class="st0" d="M0,0h200v200H0V0z"/>
+<path class="st1" d="M70.1,35.3L50.3,45.4v83.5h23.2V71.8l4.3-2.1l30.4,22.1l14.1-18.5L70.1,35.3L70.1,35.3z M128.4,73.2v57.1
+	l-4.3,2.1l-30.4-22.1l-14.1,18.5l52.2,37.9l19.8-10.1V73.2H128.4L128.4,73.2z"/>
+</svg>

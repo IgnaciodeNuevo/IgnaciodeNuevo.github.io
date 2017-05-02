@@ -1,5 +1,33 @@
+- name: Viivas
+  description: "Platform to improve your wellbeing where professionals helps people improve their lifes."
+  image_url: ../images/logo.svg
+  project_date: "Launch: April 2017"
+  project_url: https://viivas.com/
+  project_web: https://viivas.com/
+
+- name: Beebench
+  description: "Plataform to change the way creative freelancers work with big companies in the creative industry."
+  image_url: ../images/logo-beebench.svg
+  project_date: "Launch: April 2017"
+  project_url: https://beebench.com/
+  project_web: https://beebench.com/
+
+- name: MiceROOTS
+  description: "The online meetings market place for MICE users."
+  image_url: ../images/logo.svg
+  project_date: "Launch: May 2017"
+  project_url: http://www.miceroots.com/
+  project_web: http://www.miceroots.com/
+
+- name: Check'n GO
+  description: "Check and GO Madrid, the free app that will keep you informed of the pollution levels of the capital of Spain."
+  image_url: ../images/logo.svg
+  project_date: "Launch: December 2016"
+  project_url: https://play.google.com/store/apps/details?id=es.kubide.checkngo&hl=es_419
+  project_web: https://play.google.com/store/apps/details?id=es.kubide.checkngo&hl=es_419
+
 - name: WeCodeSign Podcast
-  description: "The Design and Development Podcast in Spanish by Ignacio Villanueva and Gabriel Ferrer."
+  description: "The Design and Development Podcast in Spanish by Ignacio Villanueva and Carmen Ansio."
   image_url: ../images/logo-WCD.svg
   project_date: "Launch: May 2016"
   project_url: wecodesign-podcast
