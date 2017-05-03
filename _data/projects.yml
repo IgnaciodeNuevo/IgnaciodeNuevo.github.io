@@ -2,28 +2,28 @@
   description: "Platform to improve your wellbeing where professionals helps people improve their lifes."
   image_url: ../images/logo.svg
   project_date: "Launch: April 2017"
-  project_url: projects/
+  project_url: 
   project_web: https://viivas.com/
 
 - name: Beebench
   description: "Plataform to change the way creative freelancers work with big companies in the creative industry."
   image_url: ../images/logo-beebench.svg
   project_date: "Launch: April 2017"
-  project_url: projects/
+  project_url: 
   project_web: https://beebench.com/
 
 - name: MiceROOTS
   description: "The online meetings market place for MICE users."
   image_url: ../images/logo.svg
   project_date: "Launch: May 2017"
-  project_url: projects/
+  project_url: 
   project_web: http://www.miceroots.com/
 
 - name: Check'n GO
   description: "Check and GO Madrid, the free app that will keep you informed of the pollution levels of the capital of Spain."
   image_url: ../images/logo.svg
   project_date: "Launch: December 2016"
-  project_url: projects/
+  project_url: 
   project_web: https://play.google.com/store/apps/details?id=es.kubide.checkngo&hl=es_419
 
 - name: WeCodeSign Podcast
