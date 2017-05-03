@@ -45,7 +45,3 @@ As mentioned, the platform was built on top of WordPress, which was hosted on [w
 I would have made the website by making a custom template instead of buying one and modifying the global.css which is not a good practice.
 
 Knowing how to manage some plugins and templates would helped us to build the website faster instead of reading lot of tutorials, but now I know lot of new things about WordPress.
-
-<p class="btn--hire">
-  <a href="http://www.asesoreslowcost.com" target="_blank">Visit Asesores LowCost</a>
-</p>

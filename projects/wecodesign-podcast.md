@@ -41,10 +41,6 @@ I decided to buy some equipment:
 
 In the web technologies I decided to use <a href="http://jekyllrb.com" target="_blank">Jekyll</a> as our platform to get hosted at <a href="https://github.com/WeCodeSign/wecodesign.github.io" target="_blank">GitHub Pages</a>. It solves some problems we had, first it is a static generator website which means we have no need of databases which is more secure as we will serve static assets like .mp3 files hosted at <a href="https://archive.org/" target="_blank">Archive.org</a> with a Creative Commons <a href="http://creativecommons.org/licenses/by-nd/3.0/" target="_blank">Attribution-No Derivative Works 3.0</a> liscence.
 
-I had a problem to use an image as background image for every new episode to achieve the next goal.
-
-<iframe class="center" src="https://vine.co/v/i0KA0WhtB9I/embed/postcard" frameborder="0"></iframe><script src="https://platform.vine.co/static/scripts/embed.js"></script>
-
 Looking for help at <a href="https://talk.jekyllrb.com/" target="_blank">Jekyll Talk</a> someone give me the idea of using liquid templating engine with my HTML but as far as I need to use as background-image I had to add a <code>forloop</code> for every image.
 
 I added a <code>style</code> element to allow embed style information on each loop.

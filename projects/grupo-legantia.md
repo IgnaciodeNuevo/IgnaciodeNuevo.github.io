@@ -48,7 +48,3 @@ First we did not have enought time for wireframing and testing the unfinished si
 Second I would have built the platform from scratch and not using Joomla as a CMS.
 
 The awesome people that are still working at the agency on the project are tackling a massive redesign.
-
-<p class="btn--hire">
-  <a href="http://grupolegantia.com" target="_blank">Visit Grupo Legantia</a>
-</p>
