@@ -31,20 +31,6 @@ classes: home
     </article>
     {% endfor %}
 
-    {% for post in site.posts limit:1 %}
-    <h2 class="article__h2  container">My latest article:</h2>
-    <article class="article  container">
-    <a class="article__link" href="{{ post.url }}">
-        <h3 class="article__h3">{{ post.title }}</h3>
-        <time class="article__date" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.post_date }}</time>
-        <p class="article__excerpt">{{ post.excerpt }}</p>
-        <p class="article__number">{{ post.post_number }}</p>
-    </a>
-    </article>
-    {% endfor %}
-
-    {% include recommendations.html %}
-
     {% for podcast in site.data.podcast limit:1 %}
     <h2 class="article__h2  container">My latest Podcast episode:</h2>
     <div>
@@ -62,6 +48,20 @@ classes: home
     <p class="article__url">
         <a href="{{ podcast.podcast_web }}" target="_blank">Accede al post del episodio</a>
     </p>
+    </article>
+    {% endfor %}
+
+    {% include recommendations.html %}
+
+    {% for post in site.posts limit:1 %}
+    <h2 class="article__h2  container">My latest article:</h2>
+    <article class="article  container">
+    <a class="article__link" href="{{ post.url }}">
+        <h3 class="article__h3">{{ post.title }}</h3>
+        <time class="article__date" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.post_date }}</time>
+        <p class="article__excerpt">{{ post.excerpt }}</p>
+        <p class="article__number">{{ post.post_number }}</p>
+    </a>
     </article>
     {% endfor %}
 
