@@ -48,5 +48,3 @@ My former boss and ex coworkers are still dealing with PrestaShop and it problem
 <p class="btn--hire">
   <a href="http://telebelleza.es" target="_blank">Visit Telebelleza</a>
 </p>
-
-{% include hire.html %}

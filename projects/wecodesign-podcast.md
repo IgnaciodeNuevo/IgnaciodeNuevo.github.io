@@ -64,5 +64,3 @@ I wouldn't change anything except for possible code errors or accesibility issue
 <p class="btn--hire">
   <a href="http://wecodesignpodcast.com" target="_blank">Listen my Podcast</a>
 </p>
-
-{% include hire.html %}

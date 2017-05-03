@@ -52,5 +52,3 @@ The awesome people that are still working at the agency on the project are tackl
 <p class="btn--hire">
   <a href="http://grupolegantia.com" target="_blank">Visit Grupo Legantia</a>
 </p>
-
-{% include hire.html %}

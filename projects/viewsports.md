@@ -50,5 +50,3 @@ I would have made the App by having other deadlines, as allways another terrible
 <p class="btn--hire">
   <a href="https://play.google.com/store/apps/details?id=com.viewsports.io" target="_blank">Download ViewSports</a>
 </p>
-
-{% include hire.html %}
