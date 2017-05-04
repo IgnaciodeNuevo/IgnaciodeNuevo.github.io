@@ -161,6 +161,7 @@
               <!-- .end .column -->
             </div>
             <!-- .end .grid -->
+            <p class="aligncenter"><a href="https://en.bem.info/" target="_blank">Documentación de BEM</a></p>
           </div>
           <footer>
             <p>
@@ -173,6 +174,114 @@
 
 
 
+
+        <!-- Slide 6 -->
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter"><strong>SMACSS</strong></h1>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">¿Cómo funciona?</p>
+                <p class="text-intro"><code>Base</code></p>
+                <p class="text-intro"><code>Layout</code></p>
+                <p class="text-intro"><code>Module</code></p>
+                <p class="text-intro"><code>State</code></p>
+                <p class="text-intro"><code>Theme</code></p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+<span class="code-comment">&lt;!-- Base: Selectores, aunque a veces pueden ser atributos, pseudoelementos, selectores hijos o padres. --&gt;</span>
+&lt;body&gt;, &lt;a:hover&gt;
+
+<span class="code-comment">&lt;!-- Secciones, entendiendo que dentro de cada sección el contenido se dividirá en módulos. --&gt;</span>
+&lt;article&gt;, &lt;footer&gt;
+
+<span class="code-comment">&lt;!-- Componentes que pueden ser reutilizados. --&gt;</span>
+.module span
+
+<span class="code-comment">&lt;!-- Reglas que nos marcan el estado de nuestros módulos. Ej: estado activo de un botón. --&gt;</span>
+is-collapsed, is-active
+
+<span class="code-comment">&lt;!-- Theme: SOpcional. --&gt;</span>
+.mod, &lt;.theme-background&gt;
+
+</pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+            <p class="aligncenter"><a href="https://smacss.com/" target="_blank">Documentación de SMACSS</a></p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="WeCodeSign Podcast's Logo"><a href="https://twitter.com/IgnaciodeNuevo" title="Twitter">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <!-- Slide  -->
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter"><strong>Object Oriented CSS  (OOCSS)</strong></h1>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">¿Cómo funciona?</p>
+                <p class="text-intro"><code>Separación de estructura y aspecto</code></p>
+                <p class="text-intro"><code>Separación de "contenedores" y contenido: ha de comportarse igual esté donde esté</code></p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+.globalwidth {
+  width: 980px;
+  margin: 0 auto;
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow: hidden;
+}
+
+.header-inside {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 260px;
+}
+
+&lt;header&gt;
+  &lt;div class="header-inside globalwidth"&gt;
+  &lt;/div&gt;
+&lt;/header&gt;
+
+&lt;div class="main globalwidth"&gt;
+&lt;/div&gt;
+
+&lt;footer&gt;
+  &lt;div class="footer-inside globalwidth"&gt;
+  &lt;/div&gt;
+&lt;/footer&gt;
+</pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+            <p class="aligncenter"><a href="https://github.com/stubbornella/oocss/wiki" target="_blank">Documentación de OOCSS</a></p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="WeCodeSign Podcast's Logo"><a href="https://twitter.com/IgnaciodeNuevo" title="Twitter">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+        
+        
+        
         <!-- Slide (last) -->
         <section class="bg-apple">
           <div class="wrap aligncenter">
