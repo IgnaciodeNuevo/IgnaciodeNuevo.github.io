@@ -59,7 +59,7 @@ svg {
 a,
 .bg-white a,
 .bg-light a,.bg-gradient-white a {
-  color: #44d;
+  color: #0047BB;
 }
 
 a:hover {
@@ -128,7 +128,7 @@ Slides - Backgrounds <section class="bg-primary">
 /*3 Corp Colors*/
 
 .bg-primary {
-  background-color: #44d;
+  background-color: #0047BB;
 }
 
 .bg-secondary {
@@ -394,7 +394,7 @@ Features & Clients List
 .features li:hover,.clients li:hover  {
 box-shadow: 0 8px 16px rgba(0,20,80,.02),0 4px 16px rgba(0,0,0,.08);
 }
-/*.features li span,.features li svg{color: #44d;}*/
+/*.features li span,.features li svg{color: #0047BB;}*/
 
 /*============================
 .flexblock with border
@@ -804,14 +804,14 @@ input[type="submit"],
 button[type="submit"]:hover,
 input[type="submit"]:hover 
 {
-  border: 1px solid #44d;
+  border: 1px solid #0047BB;
 }
 
 button[type="submit"],
 input[type="submit"],
 .button,.button:hover,button[type="submit"]:hover,input[type="submit"]:hover {
   color: #fff;
-  background-color: #44d;
+  background-color: #0047BB;
   text-shadow: 0 1px 0 #123;
 }
 .button:active,button[type="submit"]:active,input[type="submit"]:active {
@@ -832,7 +832,7 @@ background-color: #17d;
   color: #fff;
 }
 
-.bg-white a.button.ghost,.bg-gradient-white a.button.ghost {color: #333;border: 1px solid #44d;}
+.bg-white a.button.ghost,.bg-gradient-white a.button.ghost {color: #333;border: 1px solid #0047BB;}
 
 :disabled,
 button:disabled:hover {
@@ -841,7 +841,7 @@ button:disabled:hover {
   color: #ccc;
 }
 fieldset {
-  border: 1px solid #44d;
+  border: 1px solid #0047BB;
   background-color: rgba(0, 20, 80, 0.2)
 }
 

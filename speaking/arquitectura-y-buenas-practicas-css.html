@@ -9,7 +9,6 @@
   <link rel="dns-prefetch" href="https://twitter.com/ignaciodenuevo">
   <link rel="dns-prefetch" href="//platform.twitter.com">
   <link href='https://fonts.googleapis.com/css?family=Roboto:700,400|Source+Code+Pro' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="/css/main.css">
 
 <!-- Open Graph data -->
   <meta property="og:title" content="Ignacio Villanueva - Front-end Developer focusing front-end architecture, front-end performance and responsive web design." />
@@ -43,13 +42,10 @@
   <meta name="description" content="Articles on CSS, Sass, architecture, front-end performance, and mobile and responsive web design based in Madrid.">
 
 <!-- CSS Base -->
-  <link rel="stylesheet" type='text/css' media='all' href="static/css/base.css">
+  <link rel="stylesheet" type='text/css' media='all' href="webslides/css/base.css">
 
 <!-- CSS Colors -->
-  <link rel="stylesheet" type='text/css' media='all' href="static/css/colors.css">
-
-<!-- Optional - CSS SVG Icons (Font Awesome) -->
-  <link rel="stylesheet" type='text/css' media='all' href="static/css/svg-icons.css">
+  <link rel="stylesheet" type='text/css' media='all' href="webslides/css/colors.css">
 
 </head>
 <!--
@@ -65,31 +61,6 @@
 -->
   </head>
   <body>
-    <header role="banner">
-      <nav role="navigation">
-        <p class="logo"><a href="index.html" title="WebSlides">WebSlides</a></p>
-        <ul>
-          <li class="github">
-            <a rel="external" href="https://github.com/webslides/webslides" title="Github">
-              <svg class="fa-github">
-                <use xlink:href="#fa-github"></use>
-              </svg>
-              <em>WebSlides</em>
-            </a>
-          </li>
-          <li class="twitter">
-            <a rel="external" href="https://twitter.com/webslides" title="Twitter">
-              <svg class="fa-twitter">
-                <use xlink:href="#fa-twitter"></use>
-              </svg>
-              <em>@WebSlides</em>
-            </a>
-          </li>
-          <!--  <li class="dribbble"><a rel="external" href="http://dribbble.com/webslides" title="Dribbble"><svg class="fa-dribbble"><use xlink:href="#fa-dribbble"></use></svg> <em>webslides</em></a></li> -->
-        </ul>
-      </nav>
-    </header>
-
     <main role="main">
       <article id="webslides" class="vertical">
         <!-- Quick Guide
@@ -380,13 +351,10 @@
     </footer>  -->
 
     <!-- Required -->
-    <script src="static/js/webslides.js"></script>
+    <script src="webslides/js/webslides.min.js"></script>
     <script>
       window.ws = new WebSlides();
     </script>
 
-    <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
-    <script defer src="static/js/svg-icons.js"></script>
-
   </body>
-</html>
+  </html>
