@@ -52,7 +52,7 @@ svg {
 
 [class*="bg-"] a,
 [class*="bg-gradient-"] a {
-  color: #bce;
+  color: white;
 }
 .bg-brown a {color: #c23;}
 
@@ -63,7 +63,8 @@ a,
 }
 
 a:hover {
-  color: #3af;
+  color: white;
+  text-decoration: underline;
 }
 .flexblock li>a,[class*="bg-"] li>a,
 [class*="bg-gradient-"] li>a,

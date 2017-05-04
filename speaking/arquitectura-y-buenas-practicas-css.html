@@ -85,7 +85,6 @@
         <section class="bg-apple aligncenter">
           <!--.wrap = container (width: 90%) -->
           <div class="wrap aligncenter">
-            
             <p><a href="http://ignaciodenuevo.com/"><img style="max-width: 200px;" src="/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"></a></p>
             <h1><strong>Ignacio Villanueva</strong></h1>
             <p class="text-intro">Soy un Front-end Developer especializado en arquitectura, front-end performance y responsive web design.<br>
@@ -100,91 +99,95 @@
 
 
         <!-- Slide 3 -->
-        <section>
+        <section class="aligncenter slide current">
           <span class="background" style="background-image:url('https://media.giphy.com/media/13XW2MJE0XCoM0/giphy.gif')"></span>
           <!--.wrap = container (width: 90%) -->
-          <div class="wrap aligncenter">
-            <h1 style="color: white;"><strong>¡Comenzamos!</strong></h1>
+          <div class="wrap">
+            <h1 class="text-landing  myText">¡Comenzamos!</h1>
+            <p class="text-intro  myText">Existen <strong>DOS </strong> tipos de personas en el mundo. A los que nos gusta el CSS y a los que <strong>NO ;)</strong>.</p>
           </div>
-          <!-- .end .wrap -->
         </section>
 
 
-
+  
         <!-- Slide 4 -->
         <section class="bg-apple">
-          
-          <div class="wrap">
-            <h2>Features</h2>
-            <ul class="flexblock features">
-              <li>
-                <div>
-                  <h2>
-                    <span>&rarr;</span>
-                    Simple Navigation
-                  </h2>
-                  with arrow keys and swipe.
-                </div>
-              </li>
-              <li>
-                <div>
-                  <h2>
-                    <svg class="fa-link">
-                      <use xlink:href="#fa-link"></use>
-                    </svg>
-                    Permalinks
-                  </h2>
-                  Go to a specific slide.
-                </div>
-              </li>
-              <li>
-                <div>
-                  <h2>
-                    <svg class="fa-clock-o">
-                      <use xlink:href="#fa-clock-o"></use>
-                    </svg>
-                    Slide Counter
-                  </h2>
-                  Current/Total number
-                </div>
-              </li>
-              <li>
-                <div>
-                  <h2>
-                    <span>40<sup>+</sup></span>
-                    Beautiful Components
-                  </h2>
-                  Covers, cards, quotes...
-                </div>
-              </li>
-              <li>
-                <div>
-                  <h2>
-                    <svg class="fa-text-height">
-                      <use xlink:href="#fa-text-height"></use>
-                    </svg>
-                    Vertical Rhythm
-                  </h2>
-                  Use multiples of 8.
-                </div>
-              </li>
-              <li>
-                <div>
-                  <h2>
-                    <span>500<sup>+</sup></span>
-                    SVG Icons
-                  </h2>
-                  Font Awesome Kit.
-                </div>
-              </li>
-            </ul>
+          <div class="wrap aligncenter">
+            <h1><strong>Naming Conventions</strong></h1>
+            <p class="text-intro">BEM, SMACSS, OOCSS</p>
           </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="WeCodeSign Podcast's Logo"><a href="https://twitter.com/IgnaciodeNuevo" title="Twitter">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+          </footer>
         </section>
-        <section class="bg-apple aligncenter">
-          <h2><strong>¡Gracias!</strong></h2>
+
+
+
+        <!-- Slide 5 -->
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter"><strong>BEM</strong></h1>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">¿Cómo funciona?</p>
+                <p class="text-intro"><code>btn</code></p>
+                <p class="text-intro"><code>btn__price</code></p>
+                <p class="text-intro"><code>btn--big</code></p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+<span class="code-comment">&lt;!-- Correcto. La clase `error` está usada correctamente usada --&gt;</span>
+&lt;div class="error"&gt;
+  
+  <span class="code-comment">&lt;!-- `search-form` Elemento de tipo bloque --&gt;</span>
+  &lt;form class="search-form"&gt;
+
+    <span class="code-comment">&lt;!-- `search-form__input` Elemento de tipo elemento --&gt;</span>
+    &lt;input class="search-form__input"&gt;
+
+    <span class="code-comment">&lt;!-- `button` Elemento de tipo modificador --&gt;</span>
+    &lt;button class="search-form__button"&gt;Search&lt;/button&gt;
+  &lt;/form&gt;
+
+  &lt;/form&gt;
+&lt;/div&gt;
+</pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="WeCodeSign Podcast's Logo"><a href="https://twitter.com/IgnaciodeNuevo" title="Twitter">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <!-- Slide (last) -->
+        <section class="bg-apple">
+          <div class="wrap aligncenter">
+            <h2><strong>¡Gracias!</strong></h2>
+            <p class="text-intro">¿Alguna pregunta?</p>
+          </div>
           <p><a href="https://twitter.com/ignaciodenuevo"</p>
           <p class="text-symbols">* * *</p>
-          <h2><strong>¿Preguntas?</strong></h2>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="WeCodeSign Podcast's Logo"><a href="https://twitter.com/IgnaciodeNuevo" title="Twitter">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+          </footer>
         </section>
 
       </article>
