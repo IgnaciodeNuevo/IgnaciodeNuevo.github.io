@@ -1,6 +1,13 @@
+- name: "Arquitectura y buenas prácticas CSS"
+  description: "Nociones básicas de como comenzar a usar un CSS escalable y buenas prácticas de uso"
+  speaking_date: "Talk: Mayo 5, 2017"
+  speaking_url: arquitectura-y-buenas-practicas-css.html
+  speaking_slides: 
+  speaking_video:
+
 - name: Jekyll al rescate
   description: "Jekyll al rescate, uso exhaustivo de Jekyll, el generador de páginas web estáticas"
-  speaking_date: "Launch: Enero 14, 2017"
+  speaking_date: "Talk: Enero 14, 2017"
   speaking_url: jekyll-al-rescate.html
   speaking_slides: 
   speaking_video:
