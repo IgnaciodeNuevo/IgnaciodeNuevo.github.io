@@ -301,11 +301,98 @@ is-collapsed, is-active
 
         <!-- Slide 9 -->
         <section class="bg-apple">
-          <span class="background" style="background-image:url('https://media.giphy.com/media/TZf4ZyXb0lXXi/giphy.gif')"></span>
+          <span class="background anim" style="background-image:url('https://source.unsplash.com/n9WPPWiPPJw/')"></span>
           <div class="wrap aligncenter">
             <h1><strong>CSS-in-JS</strong></h1>
             <p class="text-intro">Existe otro mundo allí fuera. No creo que sea una buena práctica pero tiene sus usos y ayuda en muchas ocasiones.</p>
           </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="WeCodeSign Podcast's Logo"><a href="https://twitter.com/IgnaciodeNuevo" title="Twitter">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <!-- Slide 10 -->
+        <section class="bg-apple">
+          <div class="wrap aligncenter">
+            <h1><strong></strong>Arquitectura Sass 7-1</h1>
+            <p class="text-intro">Parte 1/2</p>
+            <pre>        
+sass/
+|
+|– abstracts/
+|   |– _variables.scss    # Sass Variables
+|   |– _functions.scss    # Sass Functions
+|   |– _mixins.scss       # Sass Mixins
+|   |– _placeholders.scss # Sass Placeholders
+|
+|– base/
+|   |– _reset.scss        # Reset/normalize
+|   |– _typography.scss   # Typography rules
+|   …                     # Etc.
+|
+|– components/
+|   |– _buttons.scss      # Buttons
+|   |– _carousel.scss     # Carousel
+|   |– _cover.scss        # Cover
+|   |– _dropdown.scss     # Dropdown
+|   …                     # Etc.
+|
+|– layout/
+|   |– _navigation.scss   # Navigation
+|   |– _grid.scss         # Grid system
+|   |– _header.scss       # Header
+|   |– _footer.scss       # Footer
+|   |– _sidebar.scss      # Sidebar
+|   |– _forms.scss        # Forms
+|   …                     # Etc.
+
+            </pre>
+          </div>
+          <p class="aligncenter"><a href="https://sass-guidelin.es/#the-7-1-pattern" target="_blank">Documentación de Sass 7-1 Pattern</a></p>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="WeCodeSign Podcast's Logo"><a href="https://twitter.com/IgnaciodeNuevo" title="Twitter">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <!-- Slide 11 -->
+        <section class="bg-apple">
+          <div class="wrap aligncenter">
+            <h1><strong></strong>Arquitectura Sass 7-1</h1>
+            <p class="text-intro">Parte 2/2</p>
+            <pre>        
+|
+|– pages/
+|   |– _home.scss         # Home specific styles
+|   |– _contact.scss      # Contact specific styles
+|   …                     # Etc.
+|
+|– themes/
+|   |– _theme.scss        # Default theme
+|   |– _admin.scss        # Admin theme
+|   …                     # Etc.
+|
+|– vendors/
+|   |– _bootstrap.scss    # Bootstrap
+|   |– _jquery-ui.scss    # jQuery UI
+|   …                     # Etc.
+|
+`– main.scss              # Main Sass file
+
+            </pre>
+          </div>
+          <p class="aligncenter"><a href="https://sass-guidelin.es/#the-7-1-pattern" target="_blank">Documentación de Sass 7-1 Pattern</a></p>
           <footer>
             <p>
               <span class="alignleft">
