@@ -178,7 +178,7 @@ Slides - Backgrounds <section class="bg-primary">
 /* BG Apple Keynote*/
 
 .bg-apple {
-  background: linear-gradient(to bottom, #000 0%, #1a2028 50%, #293845 100%);
+  background-color: #0047BB;
 }
 
 
