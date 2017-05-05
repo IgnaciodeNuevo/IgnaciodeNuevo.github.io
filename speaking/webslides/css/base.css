@@ -307,6 +307,12 @@ dd {
   color:  white;
 }
 
+.myFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*=========================================
 1. Base --> Baseline: 8px = .8rem
 =========================================== */
