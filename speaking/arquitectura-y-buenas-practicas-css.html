@@ -213,7 +213,7 @@
 .module span
 
 <span class="code-comment">&lt;!-- Reglas que nos marcan el estado de nuestros módulos. Ej: estado activo de un botón. --&gt;</span>
-is-collapsed, is-active
+.is-collapsed, .is-active
 
 <span class="code-comment">&lt;!-- Theme: SOpcional. --&gt;</span>
 .mod, &lt;.theme-background&gt;
@@ -254,33 +254,37 @@ is-collapsed, is-active
               <!-- .end .column -->
               <div class="column">
                 <pre>
-.globalwidth {
-  width: 980px;
-  margin: 0 auto;
+<span class="code-comment">&lt;!-- Sin usar el "Single Responsibility Principle" --&gt;</span>
+.card {
+  color: black;
+  margin-top: 100px;
+  box-shadow: 0px 0px 30px rgba(0,0,0,.3);
+  background-color: white;
+  font-size: 30px;
   position: relative;
-  padding-left: 20px;
-  padding-right: 20px;
-  overflow: hidden;
+  display: block;
+  width: 50%;
+  padding: 30px;
 }
 
-.header-inside {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  height: 260px;
+<span class="code-comment">&lt;!-- Usando el el "Single Responsibility Principle" --&gt;</span>
+.card {
+  color: goldenrod;
+  box-shadow: 0px 0px 30px rgba(0,0,0,.3);
+  background-color: silver;
+  font-size: 30px;
+  padding: 30px;
 }
 
-&lt;header&gt;
-  &lt;div class="header-inside globalwidth"&gt;
-  &lt;/div&gt;
-&lt;/header&gt;
+.half {
+  position: relative;
+  display: block;  
+  width: 50%;
+}
 
-&lt;div class="main globalwidth"&gt;
-&lt;/div&gt;
-
-&lt;footer&gt;
-  &lt;div class="footer-inside globalwidth"&gt;
-  &lt;/div&gt;
-&lt;/footer&gt;
+.mtxl {
+  margin-top: 100px;
+}
 </pre>
               </div>
               <!-- .end .column -->
