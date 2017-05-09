@@ -1,3 +1,9 @@
+- name: "Episodio 27 - Paradigmas de Interacción"
+  description: "Carmel Hassan, UX Designer nos hablará de los diferentes modelos de interfaz existentes como interactuar con ellos."
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Mayo 09, 2017"
+  podcast_web: http://wecodesignpodcast.com/2017/05/09/paradigmas-de-interaccion/
+
 - name: "Episodio 26 - Design Systems"
   description: "Naiara Abaroa, Front-end Designer y apasionada por el CSS, nos ayudará a entender los Design Systems."
   image_url: ../images/logo-WCD.svg
