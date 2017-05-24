@@ -1,3 +1,9 @@
+- name: "Episodio 2x01 - Adalab"
+  description: "Inés y Rosario decidieron unir sus conocimientos para formar Adalab, con el objetivo de ayudar a mujeres con dificultades a introducirse en sector del desarrollo."
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Mayo 23, 2017"
+  podcast_web: http://wecodesignpodcast.com/2017/05/23/adalab/
+
 - name: "Episodio 27 - Paradigmas de Interacción"
   description: "Carmel Hassan, UX Designer nos hablará de los diferentes modelos de interfaz existentes como interactuar con ellos."
   image_url: ../images/logo-WCD.svg
