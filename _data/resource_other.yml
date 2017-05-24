@@ -82,5 +82,8 @@
 - name: The 2016 Almanac
   url: https://wdrl.info/almanac/2016
 
+- name: Offline First
+  url: http://offlinefirst.org/
+
 - name: WebComponents
   url: https://www.webcomponents.org/
