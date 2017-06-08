@@ -1,0 +1,934 @@
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <title>Ignacio Villanueva &ndash; Front-end Developer focusing front-end architecture, front-end performance and responsive web design.</title>
+
+<!-- StyleSheets & DNS Prefetch -->
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  <link rel="dns-prefetch" href="//www.google-analytics.com">
+  <link rel="dns-prefetch" href="https://twitter.com/ignaciodenuevo">
+  <link rel="dns-prefetch" href="//platform.twitter.com">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:700,400|Source+Code+Pro' rel='stylesheet' type='text/css'>
+
+<!-- Open Graph data -->
+  <meta property="og:title" content="Charla: CSS Grid Layout, ¡Está vivo! – Ignacio Villanueva." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="http://ignaciodenuevo.com/speaking/arquitectura-y-buenas-practicas-css" />
+  <meta property="og:image" content="http://ignaciodenuevo.com/images/logo.jpg" />
+  <meta property="og:description" content="Charla: CSS Grid Layout, ¡Está vivo! – Ignacio Villanueva." />
+  <meta property="og:site_name" content="http://ignaciodenuevo.com" />
+
+<!-- Twitter cards -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@IgnaciodeNuevo">
+  <meta name="twitter:domain" content="http://ignaciodenuevo.com/speaking/arquitectura-y-buenas-practicas-css">
+  <meta name="twitter:creator" content="@IgnaciodeNuevo">
+  <meta name="twitter:title" content="Charla: CSS Grid Layout, ¡Está vivo! – Ignacio Villanueva design.">
+  <meta name="twitter:image" content="http://ignaciodenuevo.com/images/logo.jpg">
+  <meta name="twitter:description" content="Charla: CSS Grid Layout, ¡Está vivo! – Ignacio Villanueva design.">
+  
+<!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/images/favicon/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/images/favicon/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/images/favicon/manifest.json">
+  <link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg" color="#0047bb">
+  <meta name="theme-color" content="#ffffff">
+  
+<!-- Chrome for Android Toolbar Color-->
+  <meta name="theme-color" content="#0047BB">
+
+<!-- Other -->
+  <meta name="description" content="Articles on CSS, Sass, architecture, front-end performance, and mobile and responsive web design based in Madrid.">
+
+<!-- CSS Base -->
+  <link rel="stylesheet" type='text/css' media='all' href="webslides/css/base.css">
+
+<!-- CSS Colors -->
+  <link rel="stylesheet" type='text/css' media='all' href="webslides/css/colors.css">
+
+</head>
+<!--
+.___                             .__           .___     ____  ___                   
+|   | ____ __   ________    ____ |__| ____  ___|  /____ \   \ |  \  __ __   ______    ______  
+|   |/ __ \\ \ |  |\__  \ _/ ___\|  |/ _  \/ __  /  __ \|    \|   ||  |  \_/ __ \ \  / /  _ \ 
+|   / /_/  >  \|  |/ __ \\  \___ |  ( <_> ) /_/ \   ___/  |\      |   |  /\  ___/\ \/ (  <_> )
+|___\___  /|_|\___(____  /\___  >__|\____/\____ |\___  >__| \__  / \____/  \___ > \__/ \____/ 
+   /_____/             \/     \/               \/    \/        \/             \/  
+
+   - Twitter: @IgnaciodeNuevo - GitHub: IgnaciodeNuevo - Email: ignaciodenuevo@gmail.com -
+
+-->
+  </head>
+  <body>
+    <main role="main">
+      <article id="webslides">
+        <!-- Quick Guide
+          - Each parent <section> in the <article id="webslides"> element is an individual slide.
+          - Vertical sliding = <article id="webslides" class="vertical">
+          - <div class="wrap"> = container 90% / <div class="wrap size-50"> = 45%;
+        -->
+
+        <section class="bg-apple aligncenter">
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap aligncenter">
+            <h1><strong>CSS Grid Layout, ¡Está vivo!</strong></h1>
+            <p class="text-intro">Open Source Weekends, Madrid – 10 de Junio, 2017</p>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+
+        
+
+
+        <section class="fullscreen slide current" id="section-76">
+          <div class="card-50">
+            <figure>
+              <img src="/images/speaking/speaking-grid-me.jpg" alt="Áqaba, Jordan">
+            </figure>
+            <!-- end figure-->
+            <div class="flex-content">
+              <h2>Ignacio Villanueva</h2>
+              <p>Front-end Developer en especializado en arquitectura, front-end performance y responsive web design.</p>
+              <p class="text-intro">Podcasting en WeCodeSign y organizo Open Source Weekends</p>
+              <p class="myFlex">
+                <img style="max-width: 150px;" src="/images/speaking/speaking-logo-WCD--pink.svg" alt="WeCodeSign Podcast's Logo">
+                <img style="max-width: 150px;" src="/images/speaking/speaking-logo-OSW--blue.svg" alt="Open Source Weekends Podcast's Logo">
+              </p>
+              <p class="aligncenter"><a class="button" href="http://ignaciodenuevo.com/">¿Quiéres saber más?</a></p>
+            </div>
+            <!-- end .flex-content-->
+          </div>
+          <!-- end .card-50-->
+        </section>
+
+
+  
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter"><strong>display</strong></h1>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">Valores:</p>
+                <p class="text-intro"><code>grid</code></p>
+                <p class="text-intro"><code>inline-grid</code></p>
+                <p class="text-intro"><code>subgrid</code></p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+                .contenedor {
+                  display: grid | inline-grid | subgrid;
+                }
+                </pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="WeCodeSign Podcast's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter"><strong>grid-template-columns y grid-template-rows</strong></h1>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">Valores</p>
+                <p class="text-intro">- track-size</p>
+                <p class="text-intro">- line-name</p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+                .contenedor {
+                  grid-template-columns: <track-size> ... | <line-name> <track-size> ...;
+                  grid-template-rows: <track-size> ... | <line-name> <track-size> ...;
+                }
+
+                .contenedor {
+                  grid-template-columns: 100px 100px 300px 20% 1fr;
+                  grid-template-rows: 100px 100px 100px;
+                }
+                </pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+            <p class="aligncenter"><a href="https://codepen.io/IgnaciodeNuevo/pen/bRVXBQ" target="_blank">Ejemplo en CodePen</a></p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="WeCodeSign Podcast's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter"><strong>grid-template-areas</strong></h1>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">Valores</p>
+                <p class="text-intro">- grid-area-name</p>
+                <p class="text-intro">- .</p>
+                <p class="text-intro">- none</p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+                .item-a {
+                  grid-area: header;
+                }
+                .item-b {
+                  grid-area: main;
+                }
+                .item-c {
+                  grid-area: sidebar;
+                }
+                .item-d {
+                  grid-area: footer;
+                }
+
+                .contenedor {
+                  grid-template-columns: 1fr 1fr 1fr 1fr;
+                  grid-template-rows: auto;
+                  grid-template-areas: 
+                    "header header header header"
+                    "main main . sidebar"
+                    "footer footer footer footer";
+                }
+                </pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+            <p class="aligncenter"><a href="https://codepen.io/IgnaciodeNuevo/pen/vZNorj" target="_blank">Ejemplo en CodePen</a></p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="WeCodeSign Podcast's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+        
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter"><strong>grid-template (unfinished)</strong></h1>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">Valores</p>
+                <p class="text-intro">- none</p>
+                <p class="text-intro">- subgrid</p>
+                <p class="text-intro">- grid-template-rows / grid-template-columns</p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+                .contenedor {
+                  grid-template: none | subgrid | grid-template-rows / grid-template-columns;
+                }
+
+                .contenedor {
+                  grid-template-rows: [fila-inicio] 25px [fila-fin row2-inicio] 25px [row2-fin];
+                  grid-template-columns: auto 50px auto;
+                  grid-template-areas: 
+                    "header header header" 
+                    "footer footer footer";
+                }
+                </pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+            <p class="aligncenter"><a href="#" target="_blank">Ejemplo en CodePen</a></p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="WeCodeSign Podcast's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter"><strong>grid-column-gap y grid-row-gap</strong></h1>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">Valores</p>
+                <p class="text-intro">- tamaño</p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+                .contenedor {
+                  grid-column-gap: tamaño;
+                  grid-row-gap: tamaño;
+                }
+                </pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+            <p class="aligncenter"><a href="https://codepen.io/IgnaciodeNuevo/pen/MoaNNj" target="_blank">Ejemplo en CodePen</a></p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="WeCodeSign Podcast's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter"><strong>grid-gap</strong></h1>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">Valores</p>
+                <p class="text-intro">- tamaño</p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+                .contenedor {
+                  grid-gap: tamaño;
+                }
+                </pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+            <p class="aligncenter"><a href="https://codepen.io/IgnaciodeNuevo/pen/weKVVV" target="_blank">Ejemplo en CodePen</a></p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="WeCodeSign Podcast's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter"><strong>justify-items (unfinished)</strong></h1>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">Valores</p>
+                <p class="text-intro">- start</p>
+                <p class="text-intro">- end</p>
+                <p class="text-intro">- center</p>
+                <p class="text-intro">- stretch</p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+                .contenedor {
+                  justify-items: start | end | center | stretch;
+                }
+                </pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+            <p class="aligncenter"><a href="#" target="_blank">Ejemplo en CodePen</a></p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="WeCodeSign Podcast's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter"><strong>align-items (unfinished)</strong></h1>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">Valores</p>
+                <p class="text-intro">- start</p>
+                <p class="text-intro">- end</p>
+                <p class="text-intro">- center</p>
+                <p class="text-intro">- stretch</p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+                .contenedor {
+                  align-items: start | end | center | stretch;
+                }
+                </pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+            <p class="aligncenter"><a href="#" target="_blank">Ejemplo en CodePen</a></p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="WeCodeSign Podcast's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter"><strong>justify-content (unfinished)</strong></h1>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">Valores</p>
+                <p class="text-intro">- start</p>
+                <p class="text-intro">- end</p>
+                <p class="text-intro">- center</p>
+                <p class="text-intro">- stretch</p>
+                <p class="text-intro">- space-around</p>
+                <p class="text-intro">- space-between</p>
+                <p class="text-intro">- space-evenly</p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+                .contenedor {
+                  justify-content: start | end | center | stretch | space-around | space-between | space-evenly;  
+                }
+                </pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+            <p class="aligncenter"><a href="#" target="_blank">Ejemplo en CodePen</a></p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="WeCodeSign Podcast's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter"><strong>align-content (unfinished)</strong></h1>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">Valores</p>
+                <p class="text-intro">- start</p>
+                <p class="text-intro">- end</p>
+                <p class="text-intro">- center</p>
+                <p class="text-intro">- stretch</p>
+                <p class="text-intro">- space-around</p>
+                <p class="text-intro">- space-between</p>
+                <p class="text-intro">- space-evenly</p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+                .contenedor {
+                  align-content: start | end | center | stretch | space-around | space-between | space-evenly;  
+                }
+                </pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+            <p class="aligncenter"><a href="#" target="_blank">Ejemplo en CodePen</a></p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="WeCodeSign Podcast's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter"><strong>grid-auto-columns y grid-auto-rows</strong></h1>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">Valores</p>
+                <p class="text-intro">- tamaño del track</p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+                .contenedor {
+                  grid-auto-columns: tamaño del track ...;
+                  grid-auto-rows: tamaño del track ...;
+                }
+
+                .contenedor {
+                  grid-template-columns: 60px 60px;
+                  grid-template-rows: 90px 90px
+                }
+                </pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+            <p class="aligncenter"><a href="https://codepen.io/IgnaciodeNuevo/pen/vZLByb" target="_blank">Ejemplo en CodePen</a></p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="WeCodeSign Podcast's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter"><strong>grid-auto-flow</strong></h1>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">Valores</p>
+                <p class="text-intro">- row</p>
+                <p class="text-intro">- column</p>
+                <p class="text-intro">- dense</p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+                .contenedor {
+                  grid-auto-flow: row | column | row dense | column dense
+                }
+
+                &lt;section class="contenedor"
+                   &lt;div class="item-a"&gt;item-a&lt;/div&gt;
+                   &lt;div class="item-b"&gt;item-b&lt;/div&gt;
+                   &lt;div class="item-c"&gt;item-c&lt;/div&gt;
+                   &lt;div class="item-d"&gt;item-d&lt;/div&gt;
+                   &lt;div class="item-e"&gt;item-e&lt;/div&gt;
+                &lt;/section>
+
+                .contenedor {
+                  display: grid;
+                  grid-template-columns: 1fr 200px 200px 200px 1fr;
+                  grid-template-rows: repeat(2, 200px);
+                  grid-auto-flow: row;
+                }
+                </pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+            <p class="aligncenter"><a href="https://codepen.io/IgnaciodeNuevo/pen/vZLBjq" target="_blank">Ejemplo en CodePen</a></p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="WeCodeSign Podcast's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter"><strong>grid</strong></h1>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">Valores</p>
+                <p class="text-intro">- none</p>
+                <p class="text-intro">- grid-template-rows / grid-template-columns</p>
+                <p class="text-intro">- grid-auto-flow [grid-auto-rows [ / grid-auto-columns] ]</p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+                .contenedor {
+                  grid: none | grid-template-rows / grid-template-columns | grid-auto-flow [grid-auto-rows [ / grid-auto-columns]];
+                }
+
+                .contenedor {
+                  grid-template-rows: 200px auto;
+                  grid-template-columns: 1fr auto 1fr;
+                  grid-template-areas: none;
+                }
+                </pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+            <p class="aligncenter"><a href="#" target="_blank">Ejemplo en CodePen</a></p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="WeCodeSign Podcast's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter"><strong>Título</strong></h1>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">Valores</p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+                código
+                </pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+            <p class="aligncenter"><a href="#" target="_blank">Ejemplo en CodePen</a></p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="WeCodeSign Podcast's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter"><strong>Título</strong></h1>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">Valores</p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+                código
+                </pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+            <p class="aligncenter"><a href="#" target="_blank">Ejemplo en CodePen</a></p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="WeCodeSign Podcast's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter"><strong>Título</strong></h1>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">Valores</p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+                código
+                </pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+            <p class="aligncenter"><a href="#" target="_blank">Ejemplo en CodePen</a></p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="WeCodeSign Podcast's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter"><strong>FIN: Título</strong></h1>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">Valores</p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+                código
+                </pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+            <p class="aligncenter"><a href="#" target="_blank">Ejemplo en CodePen</a></p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="WeCodeSign Podcast's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+        <section class="bg-apple">
+          <div class="wrap aligncenter">
+            <h1><strong>¿A quién seguir?</strong></h1>
+            <p class="text-intro">Gente que habla habitualmente de buenas práctias y arquitectura CSS.</p>
+            <ul class="flexblock features">
+              <li>
+                <a href="https://twitter.com/LeaVerou" target="_blank"><h3 class="aligncenter">Lea Verou</h3></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/jensimmons" target="_blank"><h3 class="aligncenter">Jen Simmons</h3></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/rachelandrew" target="_blank"><h3 class="aligncenter">Rachel Andrew</h3></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/csswizardry" target="_blank"><h3 class="aligncenter">Harry Roberts</h3></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/HugoGiraudel" target="_blank"><h3 class="aligncenter">Hugo Giraudel</h3></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/nabaroa" target="_blank"><h3 class="aligncenter">Naiara Abaroa</h3></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/diana_aceves_" target="_blank"><h3 class="aligncenter">Diana Aceves</h3></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/ancoar" target="_blank"><h3 class="aligncenter">Ángel Corral</h3></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/wakkos" target="_blank"><h3 class="aligncenter">Daniel Martínez</h3></a>
+              </li>
+            </ul>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="WeCodeSign Podcast's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+        
+         
+        
+        <section class="bg-apple">
+          <div class="wrap aligncenter">
+            <h1><strong>¡Gracias!</strong></h1><br><br>
+            <p class="text-symbols">* * *</p>
+            <a href="http://ignaciodenuevo.com/" target="_blank">IgnaciodeNuevo.com</a><br><br>
+            <a href="http://wecodesignpodcast.com/" target="_blank">WeCodeSign Podcast</a><br><br>
+            <a href="http://osweekends.com/" target="_blank">Open Source Weekends</a>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="WeCodeSign Podcast's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <span class="background" style="background-image: url('https://media.giphy.com/media/sB7cTkLm0xzXO/giphy.gif')"></span>
+          <div class="wrap aligncenter">
+            <h1><strong>¿Alguna pregunta?</strong></h1>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="WeCodeSign Podcast's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+      </article>
+    </main>
+    <!--main-->
+
+
+
+
+
+
+      </article>
+      <!-- end article -->
+    </main>
+    <!-- end main -->
+
+   <!-- A global footer
+
+     <footer role="contentinfo">
+      <div class="wrap">
+        <p>An <a href="https://github.com/webslides/webslides">open source solution</a>, by <a href="https://twitter.com/webslides">@webslides</a>.</p>
+      </div>
+    </footer>  -->
+
+    <!-- Required -->
+    <script src="webslides/js/webslides.min.js"></script>
+    <script>
+      window.ws = new WebSlides();
+    </script>
+
+  </body>
+  </html>
