@@ -107,10 +107,73 @@
   
         <section class="bg-apple">
           <div class="wrap">
+            <h1 class="aligncenter"><strong>Contenedor</strong></h1>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="WeCodeSign Podcast's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter"><strong>Índice</strong></h1>
+          </div>
+          <pre style="margin: 0 auto; max-width: 850px;">
+            display
+            grid-template-columns
+              grid-template-columns: repeat(number-of-times, width);
+              grid-template-columns: number repeat(number-of-times, width) number;
+              grid-template-columns: repeat(number-of-times, width width);
+              grid-template-columns: repeat(number-of-times, [col] width);
+            grid-template-rows
+              grid-template-columns: repeat(number-of-times, [row] width);
+            grid-template-areas
+            grid-template
+            grid-column-gap
+            grid-row-gap
+            grid-gap
+            justify-items
+            align-items
+            justify-content
+            align-content
+            grid-auto-columns
+            grid-auto-rows
+            grid-auto-flow
+            grid
+          </pre>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="WeCodeSign Podcast's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
             <h1 class="aligncenter"><strong>display</strong></h1>
             <div class="grid vertical-align">
               <div class="column">
-                <p class="text-intro">Valores:</p>
+                <p class="text-intro"><strong>VALORES:</strong></p>
                 <p class="text-intro"><code>grid</code></p>
                 <p class="text-intro"><code>inline-grid</code></p>
                 <p class="text-intro"><code>subgrid</code></p>
@@ -145,19 +208,19 @@
 
         <section class="bg-apple">
           <div class="wrap">
-            <h1 class="aligncenter"><strong>grid-template-columns y grid-template-rows</strong></h1>
+            <h1 class="aligncenter"><strong>grid-template-columns - grid-template-rows</strong></h1>
             <div class="grid vertical-align">
               <div class="column">
-                <p class="text-intro">Valores</p>
-                <p class="text-intro">- track-size</p>
-                <p class="text-intro">- line-name</p>
+                <p class="text-intro"><strong>VALORES:</strong></p>
+                <p class="text-intro">- &lt;track-size&gt;</p>
+                <p class="text-intro">- &lt;line-name&gt;</p>
               </div>
               <!-- .end .column -->
               <div class="column">
                 <pre>
                 .contenedor {
-                  grid-template-columns: <track-size> ... | <line-name> <track-size> ...;
-                  grid-template-rows: <track-size> ... | <line-name> <track-size> ...;
+                  grid-template-columns: &lt;track-size&gt; ... | &lt;line-name&gt; &lt;track-size&gt; ...;
+                  grid-template-rows: &lt;track-size&gt; ... | &lt;line-name&gt; &lt;track-size&gt; ...;
                 }
 
                 .contenedor {
@@ -193,8 +256,8 @@
             <h1 class="aligncenter"><strong>grid-template-areas</strong></h1>
             <div class="grid vertical-align">
               <div class="column">
-                <p class="text-intro">Valores</p>
-                <p class="text-intro">- grid-area-name</p>
+                <p class="text-intro"><strong>VALORES:</strong></p>
+                <p class="text-intro">- &lt;grid-area-name&gt;</p>
                 <p class="text-intro">- .</p>
                 <p class="text-intro">- none</p>
               </div>
@@ -250,7 +313,7 @@
             <h1 class="aligncenter"><strong>grid-template (unfinished)</strong></h1>
             <div class="grid vertical-align">
               <div class="column">
-                <p class="text-intro">Valores</p>
+                <p class="text-intro"><strong>VALORES:</strong></p>
                 <p class="text-intro">- none</p>
                 <p class="text-intro">- subgrid</p>
                 <p class="text-intro">- grid-template-rows / grid-template-columns</p>
@@ -294,18 +357,18 @@
 
         <section class="bg-apple">
           <div class="wrap">
-            <h1 class="aligncenter"><strong>grid-column-gap y grid-row-gap</strong></h1>
+            <h1 class="aligncenter"><strong>grid-column-gap - grid-row-gap</strong></h1>
             <div class="grid vertical-align">
               <div class="column">
-                <p class="text-intro">Valores</p>
+                <p class="text-intro"><strong>VALORES:</strong></p>
                 <p class="text-intro">- tamaño</p>
               </div>
               <!-- .end .column -->
               <div class="column">
                 <pre>
                 .contenedor {
-                  grid-column-gap: tamaño;
-                  grid-row-gap: tamaño;
+                  grid-column-gap: &lt;tamaño&gt;;
+                  grid-row-gap: &lt;tamaño&gt;;
                 }
                 </pre>
               </div>
@@ -335,8 +398,8 @@
             <h1 class="aligncenter"><strong>grid-gap</strong></h1>
             <div class="grid vertical-align">
               <div class="column">
-                <p class="text-intro">Valores</p>
-                <p class="text-intro">- tamaño</p>
+                <p class="text-intro"><strong>VALORES:</strong></p>
+                <p class="text-intro">- &lt;grid-row-gap&gt; &lt;grid-column-gap&gt;</p>
               </div>
               <!-- .end .column -->
               <div class="column">
@@ -372,7 +435,7 @@
             <h1 class="aligncenter"><strong>justify-items (unfinished)</strong></h1>
             <div class="grid vertical-align">
               <div class="column">
-                <p class="text-intro">Valores</p>
+                <p class="text-intro"><strong>VALORES:</strong></p>
                 <p class="text-intro">- start</p>
                 <p class="text-intro">- end</p>
                 <p class="text-intro">- center</p>
@@ -412,7 +475,7 @@
             <h1 class="aligncenter"><strong>align-items (unfinished)</strong></h1>
             <div class="grid vertical-align">
               <div class="column">
-                <p class="text-intro">Valores</p>
+                <p class="text-intro"><strong>VALORES:</strong></p>
                 <p class="text-intro">- start</p>
                 <p class="text-intro">- end</p>
                 <p class="text-intro">- center</p>
@@ -453,7 +516,7 @@
             <h1 class="aligncenter"><strong>justify-content (unfinished)</strong></h1>
             <div class="grid vertical-align">
               <div class="column">
-                <p class="text-intro">Valores</p>
+                <p class="text-intro"><strong>VALORES:</strong></p>
                 <p class="text-intro">- start</p>
                 <p class="text-intro">- end</p>
                 <p class="text-intro">- center</p>
@@ -496,7 +559,7 @@
             <h1 class="aligncenter"><strong>align-content (unfinished)</strong></h1>
             <div class="grid vertical-align">
               <div class="column">
-                <p class="text-intro">Valores</p>
+                <p class="text-intro"><strong>VALORES:</strong></p>
                 <p class="text-intro">- start</p>
                 <p class="text-intro">- end</p>
                 <p class="text-intro">- center</p>
@@ -539,7 +602,7 @@
             <h1 class="aligncenter"><strong>grid-auto-columns y grid-auto-rows</strong></h1>
             <div class="grid vertical-align">
               <div class="column">
-                <p class="text-intro">Valores</p>
+                <p class="text-intro"><strong>VALORES:</strong></p>
                 <p class="text-intro">- tamaño del track</p>
               </div>
               <!-- .end .column -->
@@ -582,7 +645,7 @@
             <h1 class="aligncenter"><strong>grid-auto-flow</strong></h1>
             <div class="grid vertical-align">
               <div class="column">
-                <p class="text-intro">Valores</p>
+                <p class="text-intro"><strong>VALORES:</strong></p>
                 <p class="text-intro">- row</p>
                 <p class="text-intro">- column</p>
                 <p class="text-intro">- dense</p>
@@ -633,10 +696,10 @@
 
         <section class="bg-apple">
           <div class="wrap">
-            <h1 class="aligncenter"><strong>grid</strong></h1>
+            <h1 class="aligncenter"><strong>grid (unfinished)</strong></h1>
             <div class="grid vertical-align">
               <div class="column">
-                <p class="text-intro">Valores</p>
+                <p class="text-intro"><strong>VALORES:</strong></p>
                 <p class="text-intro">- none</p>
                 <p class="text-intro">- grid-template-rows / grid-template-columns</p>
                 <p class="text-intro">- grid-auto-flow [grid-auto-rows [ / grid-auto-columns] ]</p>
@@ -678,15 +741,78 @@
 
         <section class="bg-apple">
           <div class="wrap">
-            <h1 class="aligncenter"><strong>Título</strong></h1>
+            <h1 class="aligncenter"><strong>Items</strong></h1>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="WeCodeSign Podcast's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter"><strong>Índice</strong></h1>
+          </div>
+          <pre style="margin: 0 auto; max-width: 850px;">
+            grid-column-start
+            grid-column-end
+            grid-row-start
+            grid-row-end
+            grid-column
+            grid-row
+            grid-area
+            justify-self
+            align-self
+          </pre>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="WeCodeSign Podcast's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter"><strong>grid-column-start - grid-column-end<br>grid-row-start - grid-row-end (unfinished)</strong></h1>
             <div class="grid vertical-align">
               <div class="column">
-                <p class="text-intro">Valores</p>
+                <p class="text-intro"><strong>VALORES:</strong></p>
+                <p class="text-intro">- &lt;línea&gt;</p>
+                <p class="text-intro">- span &lt;número&gt;</p>
+                <p class="text-intro">- span &lt;nombre&gt;</p>
+                <p class="text-intro">- auto dense</p>
               </div>
               <!-- .end .column -->
               <div class="column">
                 <pre>
-                código
+                .item-a {
+                  grid-column-start: 2;
+                  grid-column-end: five;
+                  grid-row-start: row1-start
+                  grid-row-end: 3
+                }
                 </pre>
               </div>
               <!-- .end .column -->
@@ -712,15 +838,19 @@
 
         <section class="bg-apple">
           <div class="wrap">
-            <h1 class="aligncenter"><strong>Título</strong></h1>
+            <h1 class="aligncenter"><strong>grid-column - grid-row (unfinished)</strong></h1>
             <div class="grid vertical-align">
               <div class="column">
-                <p class="text-intro">Valores</p>
+                <p class="text-intro"><strong>VALORES:</strong></p>
+                <p class="text-intro">- &lt;start-line&gt; / &lt;end-line&gt;</p>
               </div>
               <!-- .end .column -->
               <div class="column">
                 <pre>
-                código
+                .item-c {
+                  grid-column: 3 / span 2;
+                  grid-row: third-line / 4;
+                }
                 </pre>
               </div>
               <!-- .end .column -->
@@ -746,15 +876,23 @@
 
         <section class="bg-apple">
           <div class="wrap">
-            <h1 class="aligncenter"><strong>Título</strong></h1>
+            <h1 class="aligncenter"><strong>grid-area (unfinished)</strong></h1>
             <div class="grid vertical-align">
               <div class="column">
-                <p class="text-intro">Valores</p>
+                <p class="text-intro"><strong>VALORES:</strong></p>
+                <p class="text-intro">- &lt;name&gt;</p>
+                <p class="text-intro">- &lt;row-start&gt; / &lt;column-start&gt; / &lt;row-start&gt; / &lt;column-end&gt;</p>
               </div>
               <!-- .end .column -->
               <div class="column">
                 <pre>
-                código
+                .item {
+                  grid-area: &lt;name&gt; | &lt;row-start&gt; / &lt;column-start&gt; / &lt;row-end&gt; / &lt;column-end&gt;;
+                }
+
+                item-d {
+                  grid-area: header
+                }
                 </pre>
               </div>
               <!-- .end .column -->
@@ -780,15 +918,25 @@
 
         <section class="bg-apple">
           <div class="wrap">
-            <h1 class="aligncenter"><strong>FIN: Título</strong></h1>
+            <h1 class="aligncenter"><strong>justify-self (unfinished)</strong></h1>
             <div class="grid vertical-align">
               <div class="column">
-                <p class="text-intro">Valores</p>
+                <p class="text-intro"><strong>VALORES:</strong></p>
+                <p class="text-intro">- start</p>
+                <p class="text-intro">- end</p>
+                <p class="text-intro">- center</p>
+                <p class="text-intro">- stretch</p>
               </div>
               <!-- .end .column -->
               <div class="column">
                 <pre>
-                código
+                .item {
+                  justify-self: start | end | center | stretch;
+                }
+
+                .item-a {
+                  justify-self: start;
+                }
                 </pre>
               </div>
               <!-- .end .column -->
@@ -809,6 +957,53 @@
             </p>
           </footer>
         </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter"><strong>align-self (unfinished)</strong></h1>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro"><strong>VALORES:</strong></p>
+                <p class="text-intro">- start</p>
+                <p class="text-intro">- end</p>
+                <p class="text-intro">- center</p>
+                <p class="text-intro">- stretch</p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+                .item {
+                  align-self: start | end | center | stretch;
+                }
+
+                .item-a {
+                  align-self: start;
+                }
+                </pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+            <p class="aligncenter"><a href="#" target="_blank">Ejemplo en CodePen</a></p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="WeCodeSign Podcast's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
         <section class="bg-apple">
           <div class="wrap aligncenter">
             <h1><strong>¿A quién seguir?</strong></h1>
