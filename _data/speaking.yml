@@ -1,3 +1,10 @@
+- name: "CSS Grid Layout, ¡Está vivo!"
+  description: "Nociones básicas de como comenzar a usar un CSS escalable y buenas prácticas de uso"
+  speaking_date: "Talk: Junio 10, 2017"
+  speaking_url: css-grid-layout
+  speaking_slides: 
+  speaking_video:
+
 - name: "Arquitectura y buenas prácticas CSS"
   description: "Nociones básicas de como comenzar a usar un CSS escalable y buenas prácticas de uso"
   speaking_date: "Talk: Mayo 5, 2017"
