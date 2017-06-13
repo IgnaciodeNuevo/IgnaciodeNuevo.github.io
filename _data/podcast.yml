@@ -1,8 +1,20 @@
+- name: "Episodio Mini - 6"
+  description: "¿Qué aportan los juniors?"
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Junio 13, 2017"
+  podcast_web: http://wecodesignpodcast.com/2017/06/13/mini-6/
+
 - name: "Episodio 2x02 - Toma de Requisitos"
   description: "Carlos Blé, desarrollador Agile, mentor y speaker nos contará su experiencia sobre la importancia de la toma de requisitos."
   image_url: ../images/logo-WCD.svg
   podcast_date: "Junio 6, 2017"
   podcast_web: http://wecodesignpodcast.com/2017/06/06/toma-de-requisitos/
+
+- name: "Episodio Mini - 5"
+  description: "¿Somos proactivos?"
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Mayo 30, 2017"
+  podcast_web: http://wecodesignpodcast.com/2017/05/30/mini-5/
 
 - name: "Episodio 2x01 - Adalab"
   description: "Inés y Rosario decidieron unir sus conocimientos para formar Adalab, con el objetivo de ayudar a mujeres con dificultades a introducirse en sector del desarrollo."
@@ -10,11 +22,23 @@
   podcast_date: "Mayo 23, 2017"
   podcast_web: http://wecodesignpodcast.com/2017/05/23/adalab/
 
+- name: "Episodio Mini - 4"
+  description: "¡Un año de WeCodeSign!"
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Mayo 16, 2017"
+  podcast_web: http://wecodesignpodcast.com/2017/05/16/mini-4/
+
 - name: "Episodio 27 - Paradigmas de Interacción"
   description: "Carmel Hassan, UX Designer nos hablará de los diferentes modelos de interfaz existentes como interactuar con ellos."
   image_url: ../images/logo-WCD.svg
   podcast_date: "Mayo 09, 2017"
   podcast_web: http://wecodesignpodcast.com/2017/05/09/paradigmas-de-interaccion/
+
+- name: "Episodio Mini - 3"
+  description: "¿Vale cualquier tecnología para todo?"
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Mayo 2, 2017"
+  podcast_web: http://wecodesignpodcast.com/2017/05/02/mini-3/
 
 - name: "Episodio 26 - Design Systems"
   description: "Naiara Abaroa, Front-end Designer y apasionada por el CSS, nos ayudará a entender los Design Systems."
@@ -22,11 +46,23 @@
   podcast_date: "Abril 25, 2017"
   podcast_web: http://wecodesignpodcast.com/2017/04/25/design-systems/
 
+- name: "Episodio Mini - 2"
+  description: "¿Podemos usar tecnologías modernas?"
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Mayo 2, 2017"
+  podcast_web: http://wecodesignpodcast.com/2017/04/18/mini-2/
+
 - name: "Episodio 25 - PostCSS"
   description: "Joan León Front-end y UI Developer y responsable de formación en su empresa nos hablará sobre PostCSS."
   image_url: ../images/logo-WCD.svg
   podcast_date: "Abril 11, 2017"
   podcast_web: http://wecodesignpodcast.com/2017/04/11/postcss/
+
+- name: "Episodio Mini - 1"
+  description: "¿Qué es un episodio Mini?"
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Abril 3, 2017"
+  podcast_web: http://wecodesignpodcast.com/2017/04/03/mini-1/
 
 - name: "Episodio 24 - CSS Grid Layout"
   description: "Manuel Rego desarrollador, Chromium/Blink owner & WebKit reviewer nos habla sobre la implementación y el presente de CSS Grid Layout."
