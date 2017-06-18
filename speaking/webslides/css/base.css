@@ -313,6 +313,15 @@ dd {
   align-items: center;
 }
 
+.center-vertically {
+  display: flex;
+  align-items: center;
+}
+
+.center-vertically > * {
+  margin-bottom: 0;
+}
+
 /*=========================================
 1. Base --> Baseline: 8px = .8rem
 =========================================== */
