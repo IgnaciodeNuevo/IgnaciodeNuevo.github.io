@@ -1,20 +1,19 @@
+- name: Arquitecturas CSS Escalables
+  description: "El CSS en proyectos grandes puede ser inmanejable por ello veremos ejemplos prácticos de uso para solucionar estos problemas"
+  speaking_date: "Talk: Junio 19, 2017 (Ironhack)"
+  speaking_url: arquitecturas-css-escalables
+
 - name: "CSS Grid Layout, ¡Está vivo!"
-  description: "Nociones básicas de como comenzar a usar un CSS escalable y buenas prácticas de uso"
-  speaking_date: "Talk: Junio 10, 2017"
+  description: "Nos adentramos en la especificación de CSS Grdid Layout con ejemplos de uso"
+  speaking_date: "Talk: Junio 10, 2017 (Open Source Weekends)"
   speaking_url: css-grid-layout
-  speaking_slides: 
-  speaking_video:
 
 - name: "Arquitectura y buenas prácticas CSS"
   description: "Nociones básicas de como comenzar a usar un CSS escalable y buenas prácticas de uso"
-  speaking_date: "Talk: Mayo 5, 2017"
+  speaking_date: "Talk: Mayo 5, 2017 (Adalab)"
   speaking_url: arquitectura-y-buenas-practicas-css
-  speaking_slides: 
-  speaking_video:
 
 - name: Jekyll al rescate
   description: "Jekyll al rescate, uso exhaustivo de Jekyll, el generador de páginas web estáticas"
-  speaking_date: "Talk: Enero 14, 2017"
+  speaking_date: "Talk: Enero 14, 2017 (Open Source Weekends)"
   speaking_url: jekyll-al-rescate.html
-  speaking_slides: 
-  speaking_video:
