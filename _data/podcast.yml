@@ -1,3 +1,9 @@
+- name: "Episodio 2x03 - Trabajando en Remoto"
+  description: "Trabajando en Remoto"
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Junio 20, 2017"
+  podcast_web: http://wecodesignpodcast.com/2017/06/20/trabajando-en-remoto/
+
 - name: "Episodio Mini - 6"
   description: "¿Qué aportan los juniors?"
   image_url: ../images/logo-WCD.svg
