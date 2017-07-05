@@ -1,3 +1,15 @@
+- name: "Episodio 2x04 - Mobile First"
+  description: "Mobile First"
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Julio 4, 2017"
+  podcast_web: http://wecodesignpodcast.com/2017/07/04/mobile-first/
+
+- name: "Episodio Mini - 6"
+  description: "Salarios"
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Junio 13, 2017"
+  podcast_web: http://wecodesignpodcast.com/2017/06/27/mini-7/
+
 - name: "Episodio 2x03 - Trabajando en Remoto"
   description: "Trabajando en Remoto"
   image_url: ../images/logo-WCD.svg

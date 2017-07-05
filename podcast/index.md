@@ -8,7 +8,7 @@ excerpt: "Lista de episodios que hemos publicado del podcast WeCodeSign Podcast"
   <h1 class="header-section__h1">Podcast</h1>
 </div>
 
-Realizo un Podcast sobre diseño y desarrollo Web en When I can, I try to invest a lot of time in open-source projects. Here are a few of them I initiated myself:
+Lista a los episodios del Podcast del cual soy creador y Co-Host sobre front-end, diseño web y UX:
 
 {% for podcast in site.data.podcast %}
 <article class="article  container">
