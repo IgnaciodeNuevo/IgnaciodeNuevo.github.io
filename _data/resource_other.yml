@@ -87,3 +87,9 @@
 
 - name: WebComponents
   url: https://www.webcomponents.org/
+
+- name: A Collective List Of APIs.
+  url: http://apilist.fun/
+
+- name: What’s next for CSS?
+  url: https://jonathantneal.github.io/css-db/
