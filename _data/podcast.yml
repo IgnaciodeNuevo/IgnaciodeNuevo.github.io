@@ -1,3 +1,9 @@
+- name: "Episodio Mini - 8"
+  description: "Ñapas as a Service"
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Julio 11, 2017"
+  podcast_web: http://wecodesignpodcast.com/2017/07/11/mini-8/
+
 - name: "Episodio 2x04 - Mobile First"
   description: "Mobile First"
   image_url: ../images/logo-WCD.svg
