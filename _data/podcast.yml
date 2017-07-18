@@ -1,3 +1,9 @@
+- name: "Episodio 2x05 - Camino a la programación funcional"
+  description: "Camino a la programación funcional"
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Julio 18, 2017"
+  podcast_web: http://wecodesignpodcast.com/2017/07/18/camino-a-la-programacion-funcional/
+
 - name: "Episodio Mini - 8"
   description: "Ñapas as a Service"
   image_url: ../images/logo-WCD.svg
