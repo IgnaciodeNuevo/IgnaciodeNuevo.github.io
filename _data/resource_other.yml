@@ -99,3 +99,9 @@
 
 - name: Prettier
   url: https://prettier.io/
+
+- name: PWA Stats
+  url: https://www.pwastats.com/
+
+- name: Design Resources
+  url: http://designresources.party/
