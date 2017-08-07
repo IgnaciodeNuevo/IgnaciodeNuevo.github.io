@@ -16,21 +16,6 @@ classes: home
 
 <main class="main">
 
-    {% for project in site.data.projects limit:1 %}
-    <h2 class="article__h2  container">Latest project:</h2>
-    <article class="article  container">
-    <a class="article__link" href="/projects/{{ project.project_url }}"> 
-        <h3 class="article__h3">{{ project.name }}</h3>
-        <time class="article__date" datetime="{{ project.date | date: "%Y-%m-%d" }}">{{ project.project_date }}</time>
-        <p class="article__excerpt">{{ project.description }}</p>
-        <img class="portrait--small" src="{{ project.image_url }}" alt="{{ project.name }} Image"/>
-    </a>
-    <p class="article__url">
-        <a href="{{ project.project_web }}" target="_blank">{{ project.name }}'s Web</a>
-    </p>
-    </article>
-    {% endfor %}
-
     {% for podcast in site.data.podcast limit:1 %}
     <h2 class="article__h2  container">Latest Podcast episode:</h2>
     <div>
@@ -51,8 +36,6 @@ classes: home
     </article>
     {% endfor %}
 
-    {% include recommendations.html %}
-
     {% for talk in site.data.speaking limit:1 %}
       <h2 class="article__h2  container">Latest talk:</h2>
       <article class="article  container">
@@ -63,6 +46,8 @@ classes: home
         </a>
       </article>
     {% endfor %}
+
+    {% include recommendations.html %}
 
     {% for post in site.posts limit:1 %}
       <h2 class="article__h2  container">Latest article:</h2>

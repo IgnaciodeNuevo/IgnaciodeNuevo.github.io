@@ -3,7 +3,7 @@ layout: default
 title: "Projects"
 excerpt: "A list of all my open-sourced projects, all hosted on GitHub. Fair warning: some of them are not maintained anymore."
 ---
-<div class="header-section">
+<!-- <div class="header-section">
   <img src="/images/section-projects.jpg" alt="Photography by Negative Space" />
   <h1 class="header-section__h1">Development Projects</h1>
 </div>
@@ -26,4 +26,4 @@ When I can, I try to invest a lot of time in open-source projects. Here are a fe
       <a href="{{ project.project_web }}" target="_blank">{{ project.name }}'s Web</a>
     </p>
   </li>
-{% endfor %}
+{% endfor %} -->
