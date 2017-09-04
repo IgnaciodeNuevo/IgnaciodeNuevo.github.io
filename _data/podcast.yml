@@ -1,3 +1,9 @@
+- name: "Episodio 2x06 - Accesibilidad Práctica"
+  description: "Accesibilidad Práctica"
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Septiembre 05, 2017"
+  podcast_web: http://wecodesignpodcast.com/2017/09/05/accesibilidad-practica/
+
 - name: "Episodio Mini 9 - Miedo al fracaso"
   description: "Miedo al fracaso"
   image_url: ../images/logo-WCD.svg
