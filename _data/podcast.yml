@@ -1,3 +1,9 @@
+- name: "Episodio Mini 10 - Empresas Unicornio"
+  description: "Miedo al fracaso"
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Septiembre 12, 2017"
+  podcast_web: http://wecodesignpodcast.com/2017/09/12/mini-10/
+
 - name: "Episodio 2x06 - Accesibilidad Práctica"
   description: "Accesibilidad Práctica"
   image_url: ../images/logo-WCD.svg
