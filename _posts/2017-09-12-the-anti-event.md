@@ -10,7 +10,7 @@ tags:
 
 # The Anti Event
 
-Parece mentira que haga tanto tiempo que no me pongo a escribir en el blog, pero esta vez merece enormemente la pena. El año pasado tuve la oportunidad de asistir a mi primer evento internacional, <a href="/2016/10/06/indie-web-camp-brighton-2016/">Indie Web Camp Brighton 2016</a> que tuvo lugar en Brighton en las oficinas de Clarleft.
+Parece mentira que haga tanto tiempo que no me pongo a escribir en el blog, pero esta vez merece enormemente la pena. El año pasado tuve la oportunidad de asistir a mi primer evento internacional, <a href="/2016/10/06/indie-web-camp-brighton-2016/">Indie Web Camp Brighton 2016</a> que tuvo lugar en las oficinas de <a href="https://clearleft.com/">Clearleft</a>.
 
 En éste evento la organización era diferente a las conferencias y meetups a los que acostumbro a asistir ya que fueron los propios asistentes quienes se ofrecían a dar una charla o a debatir sobre un tema y hacer de moderadores. Fue una experiencia increible, jamás había salido tan inspirado de un evento y esta vez íbamos a asistir a uno muy especial en Bilbao.
 
@@ -32,13 +32,13 @@ La mañana del viernes dimos una vuelta por el casco viejo y quedamos con alguno
 
 A las 16:00h comenzaba el evento. Llegó el gran momento, y qué mejor antes de explicar las normas que relajarnos un poco y quitarnos el estrés de encima jugando a <a href="https://www.youtube.com/watch?v=nAhL3tJEqeU">piedra-papel-tijera</a> 😂
 
-¡Éramos unos 50! y la verdad que hay que dar las gracias por la calidad humana de <a href="https://twitter.com/nabaroa">Naiara</a>, <a href="https://twitter.com/jontorrado">Jon Torrado</a>, y <a href="https://twitter.com/cataflu">Cata</a>, todo el mundo estuvo super participativo aportando ideas para las charlas y organizando el tablero para que todos pudiésemos asistir a la mayor cantidad de ellas.
+¡Éramos unos 50! y la verdad que hay que dar las gracias por la calidad humana de <a href="https://twitter.com/nabaroa">Naiara</a>, <a href="https://twitter.com/jontorrado">Jon</a>, y <a href="https://twitter.com/cataflu">Cata</a>, todo el mundo estuvo super participativo aportando ideas para las charlas y organizando el tablero para que todos pudiésemos asistir a la mayor cantidad de ellas.
 
 Algo que puedo decir con total franqueza es que no hubo ningún ego rondando el evento y pudimos participar y preguntar en cada charla.
 
 ## Vue
 
-¡Cómo no! <a href="https://vuejs.org/v2/guide/">Vue</a> es el nuevo juguete de los Front-end y no podía faltar a una charla sobre esta librería que imparieron <a href="https://twitter.com/Xaviju">Xavi</a> de Kaleidos y <a href="https://twitter.com/sirikon">Carlos</a> de PlainConcepts.
+¡Cómo no! <a href="https://vuejs.org/v2/guide/">Vue</a> es el nuevo juguete de los Front-end y no podía faltar a una charla sobre esta librería que imparieron <a href="https://twitter.com/Xaviju">Xavi</a> de <a href="http://kaleidos.net/">Kaleidos</a> y <a href="https://twitter.com/sirikon">Carlos</a> de <a href="https://www.plainconcepts.com/">PlainConcepts</a> (Bilbao).
 
 Nos estuvieron contanto sobre las ventajas de usarlo frente a otras herramientas del mercado como Angular o React y contaban que el creador se ha decantado por las mejores partes de estos. El sistema de templating, shadow DOM, reactividad...
 
@@ -54,7 +54,7 @@ Si bien conocía todo, no está mal pegar un repaso y ver como hacen los demás 
 
 ## Salida después del primer día
 
-Había sido un día muy intenso y de mucho caminar por la mañana así que decidimos volver al Airbnb que había cogido con <a href="https://twitter.com/Xaviju">Xavi</a>, <a href="https://twitter.com/NTKOG">Jorge Barrachina</a>, <a href="https://twitter.com/jorgeatgu">Jorge Aznar</a> y así esperábamos a <a href="https://twitter.com/carmenansio">Carmen Ansio</a> que llegaba desde Barcelona por la noche.
+Había sido un día muy intenso y de mucho caminar por la mañana así que decidimos volver al Airbnb que había alquilado con <a href="https://twitter.com/Xaviju">Xavi</a>, <a href="https://twitter.com/NTKOG">Jorge Barrachina</a>, <a href="https://twitter.com/jorgeatgu">Jorge Aznar</a> y <a href="https://twitter.com/carmenansio">Carmen Ansio</a> que llegaba desde Barcelona por la noche.
 
 Estuvimos cenando y charlando un tranquilamente. La verdad que me lo pasé genial. La pena es que no pude dormir bien y al día siguiente estaba destrozado. ¡Gracias por no dejarme dormir compi de cuarto! 😞
 
@@ -62,7 +62,7 @@ Estuvimos cenando y charlando un tranquilamente. La verdad que me lo pasé genia
 
 ## Día 2 (sábado 9)
 
-La mañana del sábado ibamos con las pilas cargadas y con ganas de empezar. Como ya pasó el día anterior <a href="https://twitter.com/jontorrado">Jon Torrado</a>, estuvo organizando el tablero de charlas y explicando a la gente nueva que llegó el sábado como funcionábamos.
+La mañana del sábado ibamos con las pilas cargadas y con ganas de empezar. Como ya pasó el día anterior <a href="https://twitter.com/jontorrado">Jon</a>, estuvo organizando el tablero de charlas y explicando a la gente nueva que llegó el sábado como funcionábamos.
 
 ### Taller de Acuarela
 
@@ -72,15 +72,15 @@ Nada mejor que empezar la mañana relajadamente que de la mano de <a href="https
 
 Por mi parte como siempre me pasa en estas situaciones tuve un buen rato una terrible vergüenza por pintar (_algo que jamás he hecho por lo mal que se me da_). Al final me animé a participar gracias a que <a href="https://twitter.com/carmenansio">Carmen</a> se había dibujado a lápiz y con algunos consejos de Carlos empecé a estropear su estupendo dibujo.
 
-Se nos pasó tan rápido el taller que nos saltamos una charla, estuvimos dos horas jugando con acuarelas. Ahora doy las gracias a <a href="https://twitter.com/carmenansio">Carmen</a> por animarme a pintar su dibujo.
+Se nos pasó tan rápido el taller que nos saltamos una charla, estuvimos dos horas jugando con acuarelas. Ahora doy las gracias a <a href="https://twitter.com/carmenansio">Carmen</a> por animarme a pintar lo que había dibujado.
 
 <img src="/images/post-antievent-2.jpg" alt="Tablero de Anti Charlas">
 
 ### SVG
 
-Sabiendo que <a href="https://twitter.com/carmenansio">Carmen</a> está preparando algo de `SVG` y que es una de las cosas que quiero mejorar este año le pedí a <a href="https://twitter.com/jorgeATGU">Jorge</a> que nos diese una <a href="http://jorgeatgu.github.io/slides-svg/#/">charla básica</a> de como usarlo en la web.
+Sabiendo que <a href="https://twitter.com/carmenansio">Carmen</a> está preparando algo sobre `SVG` y que es una de las cosas que quiero mejorar este año le pedí a <a href="https://twitter.com/jorgeATGU">Jorge</a> que nos diese una <a href="http://jorgeatgu.github.io/slides-svg/#/">charla básica</a> de como usarlo en la web.
 
-Nos estuvo contando el uso de la etiqueta `USE`, como hacerlos más accesibles y las ventajas de usarlo inline (_que es como yo lo uso habitualmente_) frente a usarlo dentro de una etiqueta `IMG` de HTML.
+Nos estuvo contando el uso de la etiqueta `USE`, como hacerlos más accesibles y las ventajas de usarlo inline (_que es como yo lo uso habitualmente_) frente a usarlo dentro de una etiqueta `IMG` de `HTML`.
 
 También nos contó como usar <a href="https://octuweb.com/sprites-con-svg/">Sprites con SVG</a> y que a demás ha escrito <a href="https://leanpub.com/scalable/">un libro sobre SVG</a> estupendo.
 
@@ -106,13 +106,13 @@ Elena Torró <a href="https://elenatorro.github.io/theantievent-notes/#podcastin
 
 La charla que más esperaba por sus posibilidades técnicas era la de <a href="https://twitter.com/jorgeatgu">Jorge</a> sobre automatización de tareas con Bash. Nos dejó <a href="https://twitter.com/jorgeATGU/status/906542557362081792">una recopilación en Twitter</a> de los enlaces de la charla.
 
-La verdad es que tengo que meterme a fondo con el tema. Vistas las posibilidades que ofrece creo que se puede mejorar enormemente la pructividad, algo que nos encanta a los/as desarrolladores/as. Terminó <a href="https://twitter.com/viroide">Jon (Viroide)</a> contándonos algunos truquis.
+La verdad es que tengo que meterme a fondo con el tema. Vistas las posibilidades que ofrece creo que se puede mejorar enormemente la pructividad, algo que nos encanta a los/as desarrolladores/as. Terminó <a href="https://twitter.com/viroide">Jon (Viroide)</a> contándonos algunos truquis sobre bash.
 
-<a href="https://twitter.com/jontorrado">Jon Torrado</a>, nos dijo que iba a escribir un artículo sobre como gestiona el sus tareas con Gulp y ya lo ha publicado. <a href="https://medium.com/@jontorrado/working-with-gulp-2-19376bfdd077">Podéis leerlo aquí</a>.
+<a href="https://twitter.com/jontorrado">Jon</a>, nos dijo que iba a escribir un artículo sobre como gestiona el sus tareas con Gulp y ya lo ha publicado. <a href="https://medium.com/@jontorrado/working-with-gulp-2-19376bfdd077">Podéis leerlo aquí</a>.
 
 ### Diversidad en el sector
 
-Me sorprendió enormenete lo colaborativo que estuvo todo el mundo con el tema, nos juntamos en un círculo a debatir sobre los problemas que tenemos en nuestro sector y que por desgracia no se quedan ahí, ya que es algo arraigado en la sociedad.
+Me sorprendió enormenete lo colaborativo que estuvo todo el mundo en la mesa redonda, nos juntamos en un círculo a debatir sobre los problemas que tenemos en nuestro sector y que por desgracia no se quedan ahí, ya que es algo arraigado en la sociedad.
 
 Como ideas surgieron el que meetups más grandes colaboren con otros más pequeños haciendo de estos espacios seguros para todo el mundo. Algo que he tenido la suerte de aprender y ver que realmente funciona en <a href="http://osweekends.com">Open Source Weekends</a>, que podemos entre todos/as anirmar a conocidas a que den charlas en eventos, al principio más pequeños y luego más grandes.
 
@@ -129,7 +129,6 @@ Creo que hubo gran diversidad, sin duda es el evento al que más mujeres han asi
 <iframe width="100%" height="450px" src="https://www.youtube.com/embed/pGaKf1bekO0" frameborder="0" allowfullscreen></iframe>
 
 <iframe src="https://player.vimeo.com/video/233208532" width="100%" height="450px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/233208532">TheAntiEvent2017</a> from <a href="https://vimeo.com/videosardiluzu">ardiluzu</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 Para acabar fuimos 34 de los 50 asistentes de cena y luego a tomar algo. Nos íbamos a ir pronto a dormir pero esto que te vas despidiendo de gente y llegas a las 4:30 al Airbnb.
 
