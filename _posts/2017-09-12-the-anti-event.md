@@ -24,13 +24,13 @@ Si queréis conocer quien fue al evento podéis hacerlo en <a href="https://twit
 
 ## Día 0 (jueves 7)
 
-Un par de semanas antes del evento decidimos que estaría bien ir con tiempo y aprovechar para dar una vuelta por Bilbao, así que como teníamos tantas ganas nos fuimos el jueves 7 y estuvimmos de pinchos por Ledesma.
+Un par de semanas antes del evento decidimos que estaría bien ir con tiempo y aprovechar para dar una vuelta por Bilbao, así que como teníamos tantas ganas nos fuimos el jueves 7 y estuvimos de pinchos por Ledesma.
 
 ## Día 1 (viernes 8)
 
 La mañana del viernes dimos una vuelta por el casco viejo y quedamos con algunos antiasistentes para comer con calma por la zona.
 
-A las 16:00h comenzaba el evento. Llegó el gran momento, y qué mejor antes de explicar las normas que relajarnos un poco y quitarnos el estrés de encima jugando a piedra-papel-tijera 😂
+A las 16:00h comenzaba el evento. Llegó el gran momento, y qué mejor antes de explicar las normas que relajarnos un poco y quitarnos el estrés de encima jugando a <a href="https://www.youtube.com/watch?v=nAhL3tJEqeU">piedra-papel-tijera</a> 😂
 
 ¡Éramos unos 50! y la verdad que hay que dar las gracias por la calidad humana de <a href="https://twitter.com/nabaroa">Naiara</a>, <a href="https://twitter.com/jontorrado">Jon Torrado</a>, y <a href="https://twitter.com/cataflu">Cata</a>, todo el mundo estuvo super participativo aportando ideas para las charlas y organizando el tablero para que todos pudiésemos asistir a la mayor cantidad de ellas.
 
@@ -68,6 +68,8 @@ La mañana del sábado ibamos con las pilas cargadas y con ganas de empezar. Com
 
 Nada mejor que empezar la mañana relajadamente que de la mano de <a href="https://twitter.com/oneeyedman">Carlos</a> impartiendo un taller de acuarela, (_que yo creía iba a ser teórico o como mucho una demostración magistral por su parte_), pero no. ¡Iba a ser práctico! 😱
 
+<img src="/images/post-antievent-4.jpg" alt="Posando para foto en el taller de Acuarelas">
+
 Por mi parte como siempre me pasa en estas situaciones tuve un buen rato una terrible vergüenza por pintar (_algo que jamás he hecho por lo mal que se me da_). Al final me animé a participar gracias a que <a href="https://twitter.com/carmenansio">Carmen</a> se había dibujado a lápiz y con algunos consejos de Carlos empecé a estropear su estupendo dibujo.
 
 Se nos pasó tan rápido el taller que nos saltamos una charla, estuvimos dos horas jugando con acuarelas. Ahora doy las gracias a <a href="https://twitter.com/carmenansio">Carmen</a> por animarme a pintar su dibujo.
@@ -96,6 +98,8 @@ Tras la comida <a href="https://twitter.com/carmenansio">Carmen</a> y yo estuvim
 
 Fue super entretenido contar todos los entresijos, incluso hicimos un pequeño spoiler sobre un futuro episodio y sobre novedades que nos estamos planteando para el año que viene.
 
+<img src="/images/post-antievent-5.jpg" alt="Carmen y yo hablando sobre WeCodeSign">
+
 Elena Torró <a href="https://elenatorro.github.io/theantievent-notes/#podcasting">ha escrito sobre la charla</a> por si queréis saber más 😎
 
 ### Automatización con Bash y Gulp
@@ -122,6 +126,11 @@ Para finalizar el evento, en grupos estuvimos viendo un punto negativo a mejorar
 
 Creo que hubo gran diversidad, sin duda es el evento al que más mujeres han asistido de en cuantos he participado y eso demuestra que espacios donde todos/as somos iguales y nadie es disriminado atrae a mayor diveridad de personas.
 
+<iframe width="100%" height="450px" src="https://www.youtube.com/embed/pGaKf1bekO0" frameborder="0" allowfullscreen></iframe>
+
+<iframe src="https://player.vimeo.com/video/233208532" width="100%" height="450px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/233208532">TheAntiEvent2017</a> from <a href="https://vimeo.com/videosardiluzu">ardiluzu</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
 Para acabar fuimos 34 de los 50 asistentes de cena y luego a tomar algo. Nos íbamos a ir pronto a dormir pero esto que te vas despidiendo de gente y llegas a las 4:30 al Airbnb.
 
 Como conclusión decir que ha sido el mejor evento tecnológico al que he podido asistir. Todo ha salido orgánicamente, he tenido el placer de conocer a gente increible, aprender mucho y donde la calidad humana de los orgaizadores ha sido de diez.
@@ -139,8 +148,6 @@ PD.: Se me olvidaba mencionar que sortearon 15 tazas y me tocó una en la segund
       <li><a href="https://elenatorro.github.io/theantievent-notes/">Notas de Elena Torró</a></li>
       <li><a href="https://melies-hugo.js.org/post/experiencia-theantievent/">Experiencia de Cristina Fernández</a></li>
       <li><a href="http://jorgeatgu.com/blog/retroespecter-theantievent-17/">Retrospectiva de Jorge</a></li>
-      <li>	<a href="https://vimeo.com/233208532">Video en Vimeo de TheAntiEvent</a></li>
-      <li><a href="https://youtu.be/pGaKf1bekO0">Video en YouTube de TheAntiEvent</a></li>
     </ul>
   </blockquote>
 </div>
