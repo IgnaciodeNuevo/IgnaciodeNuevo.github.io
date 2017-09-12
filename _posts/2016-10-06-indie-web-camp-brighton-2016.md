@@ -5,7 +5,7 @@ excerpt: "My experience going to the Indie Web Camp Brighton"
 post_date: "October 6, 2016"
 post_number: 16
 tags: 
-  - IndieWebCamp
+  - Event
 ---
 
 <img src="/images/post-IWC-Brighton-2016-1.gif" alt="Photo by Julie Anne Noying CC-BY/Flickr">
