@@ -100,7 +100,7 @@ Fue super entretenido contar todos los entresijos, incluso hicimos un pequeño s
 
 <img src="/images/post-antievent-5.jpg" alt="Carmen y yo hablando sobre WeCodeSign">
 
-Elena Torró <a href="https://elenatorro.github.io/theantievent-notes/#podcasting">ha escrito sobre la charla</a> por si queréis saber más 😎
+<a href="https://twitter.com/eletorro">Elena Torró</a> <a href="https://elenatorro.github.io/theantievent-notes/#podcasting">ha escrito sobre la charla</a> por si queréis saber más 😎
 
 ### Automatización con Bash y Gulp
 
