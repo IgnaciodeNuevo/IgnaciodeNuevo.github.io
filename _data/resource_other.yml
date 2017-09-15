@@ -108,3 +108,9 @@
 
 - name: Remote Starter Kit
   url: http://www.remotestarterkit.com/
+
+- name: Design resources
+  url: https://css-tricks.com/design-resource-sites/
+
+- name: HTML and CSS CheatSheets
+  url: https://cssauthor.com/html-and-css-cheat-sheets/
