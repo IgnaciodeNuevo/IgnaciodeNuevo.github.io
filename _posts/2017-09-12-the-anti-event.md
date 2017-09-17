@@ -147,7 +147,8 @@ PD.: Se me olvidaba mencionar que sortearon 15 tazas y me tocó una en la segund
       <li><a href="https://elenatorro.github.io/theantievent-notes/">Notas de Elena Torró</a></li>
       <li><a href="https://melies-hugo.js.org/post/experiencia-theantievent/">Experiencia de Cristina Fernández</a></li>
       <li><a href="http://jorgeatgu.com/blog/retroespecter-theantievent-17/">Retrospectiva de Jorge</a></li>
-      <li><a href="https://medium.com/@dmarchena/una-retro-personal-del-theantievent-2017-4bd31f4712fa">Una retro personal del TheAntiEvent 2017</a></li>
+      <li><a href="https://medium.com/@dmarchena/una-retro-personal-del-theantievent-2017-4bd31f4712fa">Una retro personal del TheAntiEvent 2017 de David Marchena</a></li>
+      <li><a href="https://robertogarrido.com/theantievent-2017/">TheAntiEvent 2017 o como mejorar como profesional en un fin de semana de Roberto Garrido</a></li>
     </ul>
   </blockquote>
 </div>
