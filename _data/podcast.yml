@@ -1,3 +1,9 @@
+- name: "Episodio 2x07 - La Web Abierta"
+  description: "La Web Abierta"
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Septiembre 19, 2017"
+  podcast_web: http://wecodesignpodcast.com/2017/09/18/la-web-abierta/
+
 - name: "Episodio Mini 10 - Empresas Unicornio"
   description: "Miedo al fracaso"
   image_url: ../images/logo-WCD.svg
