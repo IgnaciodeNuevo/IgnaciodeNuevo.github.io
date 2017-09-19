@@ -313,6 +313,11 @@ dd {
   align-items: center;
 }
 
+.myFlex-left {
+  display: flex;
+  align-items: center;
+}
+
 .center-vertically {
   display: flex;
   align-items: center;
