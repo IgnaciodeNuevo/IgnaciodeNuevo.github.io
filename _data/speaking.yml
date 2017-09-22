@@ -1,3 +1,8 @@
+- name: CSS Grid Layout en un proyecto Real
+  description: "Vemos las qué diferencias tiene CSS Grid Layout con Flexbox, las distintas propiedades y un proyecto usando fallbacks."
+  speaking_date: "Talk: Septiembre 21, 2017 (Front-end Developers Madrid Meetup)"
+  speaking_url: css-grid-en-un-proyecto-real
+
 - name: Arquitecturas CSS Escalables
   description: "El CSS en proyectos grandes puede ser inmanejable por ello veremos ejemplos prácticos de uso para solucionar estos problemas"
   speaking_date: "Talk: Junio 19, 2017 (Ironhack)"
