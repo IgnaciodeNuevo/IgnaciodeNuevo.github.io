@@ -14,11 +14,11 @@ Cuando abrí esta Web lo planteaba como un lugar donde hablar sobre mi profesió
 
 Nunca pensaba usar mi <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">Twitter</a> más que para hablar sobre desarrollo front-end y pensaba dejar a un lado temas personales.
 
-El problema viene cuando, desde hace algún tiempo; (*un año aproximadamente*), empecé a darme cuenta de cosas que no estaban bien en el sector del desarrollo. Como los relacionados a la discriminación o el acoso, por lo que empecé a informarme, aprender y sobre todo a replantearme si todo lo que "nos han enseñado" era correcto.
+El problema viene cuando, desde hace algún tiempo; (*un año aproximadamente*), empecé a darme cuenta de cosas que no estaban bien en el sector del desarrollo. Como los relacionados con la discriminación o el acoso, por lo que empecé a informarme, aprender y sobre todo a replantearme si todo lo que "nos han enseñado" era correcto.
 
 Como hombre cisgénero y blanco, soy un privilegiado y debido a esto, por la sociedad machista en la que vivimos no te planteas según que cosas.
 
-Quizá debido al contexto social en el que vivo, veo los problemas que tienen las mujeres así como a muchas otras personas. Gente de color, personas con algún tipo de problema (*no solamente <a href="http://www.discapnet.es/areas-tematicas/nuestros-derechos/tus-derechos-fondo/otros-temas/discapacidad-versus-minusvalia">discapacidad</a>*) y personas de otros colectivos se les discrimina ya que "*no son igual de válidas que nosotros*".
+Quizá debido al contexto social en el que vivo, veo los problemas que tienen las mujeres así como muchas otras personas. Gente de color, personas con algún tipo de problema (*no solamente <a href="http://www.discapnet.es/areas-tematicas/nuestros-derechos/tus-derechos-fondo/otros-temas/discapacidad-versus-minusvalia">discapacidad</a>*) y personas de otros colectivos se les discrimina ya que "*no son igual de válidas que nosotros*".
 
 Debido a estas inquietudes desde hace algún tiempo intento mejorar, reaprender y aportar (*siempre sin intentar liderar esta lucha*), desde un segundo plano para hacer de nuestro sector un lugar un poquito mejor.
 
