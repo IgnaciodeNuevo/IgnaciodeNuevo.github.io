@@ -10,11 +10,11 @@ tags:
 
 # El contexto
 
-Cuando abrí esta web lo planteaba como un lugar donde hablar sobre mi profesión. Hará un par de años se me ocurría que escribiría únicamente en inglés (*por aquello de forzarme a mejorar*), para mostrar mis proyectos personales y profesionales.
+Cuando abrí esta Web lo planteaba como un lugar donde hablar sobre mi profesión. Hará un par de años se me ocurría que escribiría únicamente en inglés (*por aquello de forzarme a mejorar*), para mostrar mis proyectos personales y profesionales.
 
 Nunca pensaba usar mi <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">Twitter</a> más que para hablar sobre desarrollo front-end y pensaba dejar a un lado temas personales.
 
-El problema viene cuando, desde hace algún tiempo; (*un año aproximadamente*), empecé a darme cuenta de cosas que no estaban bien en el sector del desarrollo. Como los relacionados a la discriminación o el acoso, por lo que empecé a informarme, aprender y sobre todo a replanterme si todo lo que "nos han enseñado" era correcto.
+El problema viene cuando, desde hace algún tiempo; (*un año aproximadamente*), empecé a darme cuenta de cosas que no estaban bien en el sector del desarrollo. Como los relacionados a la discriminación o el acoso, por lo que empecé a informarme, aprender y sobre todo a replantearme si todo lo que "nos han enseñado" era correcto.
 
 Como hombre cisgénero y blanco, soy un privilegiado y debido a esto, por la sociedad machista en la que vivimos no te planteas según que cosas.
 
@@ -22,7 +22,7 @@ Quizá debido al contexto social en el que vivo, veo los problemas que tienen la
 
 Debido a estas inquietudes desde hace algún tiempo intento mejorar, reaprender y aportar (*siempre sin intentar liderar esta lucha*), desde un segundo plano para hacer de nuestro sector un lugar un poquito mejor.
 
-Entender la situación actual en el sector del desarrollo web/móvil, es fundamental para entender los problemas que sufren muchas compañeras y personas del colectivo LGBTQIA+ (lesbianas, gays, bisexuales, transgénero, queer/questioning, intersexual, asexual/agénero/aromántico...).
+Entender la situación actual en el sector del desarrollo Web/móvil, es fundamental para entender los problemas que sufren muchas compañeras y personas del colectivo LGBTQIA+ (lesbianas, gays, bisexuales, transgénero, queer/questioning, intersexual, asexual/agénero/aromántico...).
 
 ## El momento ahá
 
@@ -49,7 +49,7 @@ Por desgracia algunos compañeros, amigos, familiares y conocidos (*hombres*), n
 
 No es la primera vez que asisto a algún evento sobre diversidad de género, mesas redondas o charlas donde algunas ponentes se encuentran muy incómodas. Luego lees de eventos no mixtos (*espacios seguros*) donde ellas se pueden expresar sin tantos miedos y encima algunos lo critican.
 
-Aunque consideremos que tenemos empatía jamás nos podremos poner en su piel, simplemente por que ellas viven en su día a día un acoso constante, silencioso o a veces explícito pero nunca adecuado. Ellas no son las culpables, así pues debemos poner el foco en los que actuan inadecuadamente.
+Aunque consideremos que tenemos empatía jamás nos podremos poner en su piel, simplemente por que ellas viven en su día a día un acoso constante, silencioso o a veces explícito pero nunca adecuado. Ellas no son las culpables, así pues debemos poner el foco en los que actúan inadecuadamente.
 
 ### Distintas personas, distintas formas de actuar
 
@@ -61,9 +61,9 @@ No con todo el mundo tenemos la misma confianza y por tanto deberíamos actuar d
 
 Esta situación precisamente la comentaba en el tren camino a <a href="/2017/09/12/the-anti-event/">The Anti Event</a> ya que no sabía como actuar y muy amablemente me dijeron que quizá dar la mano podría ser la solución.
 
-### Whatsapps de "tíos"
+### WhatsApps de "tíos"
 
-Pongamos el caso típico donde nos agregan a un grupo de Whatsapp de "tíos" donde se comparten fotografías de mujeres (*pornografía vamos*). Entiendo aunque no comparto que se haga y menos si se da en un entorno laboral con el resto de compañeros de trabajo. Ahí podríamos comentar, siempre educadamente que no es lo correcto hacerlo, es más me pasó hace unos años en el que mi jefe me añadió a un grupo de estos y me salí del mismo. Era curioso como no había ninguna compañera en el canal pero si todos los hombres de la oficina.
+Pongamos el caso típico donde nos agregan a un grupo de WhatsApp de "tíos" donde se comparten fotografías de mujeres (*pornografía vamos*). Entiendo aunque no comparto que se haga y menos si se da en un entorno laboral con el resto de compañeros de trabajo. Ahí podríamos comentar, siempre educadamente que no es lo correcto hacerlo, es más me pasó hace unos años en el que mi jefe me añadió a un grupo de estos y me salí del mismo. Era curioso como no había ninguna compañera en el canal pero si todos los hombres de la oficina.
 
 ### Comentarios o miradas inapropiadas
 
@@ -71,13 +71,13 @@ Otro caso habitual es cuando un conocido comenta algo sobre una mujer de un modo
 
 ### Usar un lenguaje inclusivo
 
-Hará algún tiempo, gracias a ver algún video sobre el tema comentaba en <a href="https://twitter.com/IgnaciodeNuevo/status/894677736123490306">este hilo de Twitter</a> la posibilidad de usar la E en lugar de la O cuando nos dirijimos a un grupo grande para ser más inclusivos. Decir por otro lado que los lenguajes evolucionan. En castellano tenemos "el" y "ella" pero no todo el mundo se identifica con estos y aunque el género gramatical no es el mismo que el de las personas algunas lo entienden como tal. 
+Hará algún tiempo, gracias a ver algún video sobre el tema comentaba en <a href="https://twitter.com/IgnaciodeNuevo/status/894677736123490306">este hilo de Twitter</a> la posibilidad de usar la E en lugar de la O cuando nos dirigimos a un grupo grande para ser más inclusivos. Decir por otro lado que los lenguajes evolucionan. En castellano tenemos "el" y "ella" pero no todo el mundo se identifica con estos y aunque el género gramatical no es el mismo que el de las personas algunas lo entienden como tal. 
 
 Otra opción es que en lugar de hablar sobre ellos hablemos con palabras más genéricas como personas o gente. Una clara situación de mejoría es la redacción de ofertas laborales. 😊
 
 ### Eventos seguros mixtos y códigos de conducta
 
-Cada vez hay más Meetups y nuestras compañeras se animan más y más a asistir. Un ejemplo claro son las <a href="https://twitter.com/search?f=tweets&vertical=default&q=%23adalabers&src=typd">#Adalabers</a> que van a muchos eventos aún siendo unas "recién llegadas al sector" (*lo cual es super positivo*) e incluso se animan a <a href="https://2017.codemotion.es/agenda.html#5693168230072320/5757021508861952">proponer charlas</a>. Otro buen ejemplo es <a href="https://twitter.com/adabcnjs">Ada.js Barcelona</a> donde <a href="https://twitter.com/carmenansio">Carmen Ansio</a> es co-organizadora e intentan promover la inclusión y el empoderamiento de otras desarrolladoras.
+Cada vez hay más Meetups y nuestras compañeras se animan más y más a asistir. Un ejemplo claro son las <a href="https://twitter.com/search?f=tweets&vertical=default&q=%23adalabers&src=typd">#Adalabers</a> que van a muchos eventos aún siendo unas "recién llegadas al sector" (*lo cual es súper positivo*) e incluso se animan a <a href="https://2017.codemotion.es/agenda.html#5693168230072320/5757021508861952">proponer charlas</a>. Otro buen ejemplo es <a href="https://twitter.com/adabcnjs">Ada.js Barcelona</a> donde <a href="https://twitter.com/carmenansio">Carmen Ansio</a> es co-organizadora e intentan promover la inclusión y el empoderamiento de otras desarrolladoras.
 
 Por ello creo más que necesario (*por no decir obligatorio*) tener un código de conducta como por ejemplo <a href="https://gist.github.com/Integralist/4e84af31c483d0f5a182">este</a> para hacer velar por las asistentes a los eventos.
 
@@ -108,9 +108,9 @@ Creo que no es necesario, lo primero y con razón porque se sentirán usadas y l
 
 Seguramente me deje muchísimas cosas pendientes, si es así ruego me lo hagáis saber y ampliaré el artículo. Espero poder aportar mi granito de arena y hacer ver que se pueden hacer las cosas infinitamente mejor.
 
-Como punto final decir aunque suene muy obvio que sería muy interesante que cada uno de nosotros visibilicemos y recalquemos actitudes y comportamientos machistas en otros hombres ya que a nosotros nos harán más caso y tendrá muchas menos consecuencias negativas que si tienen que hacerlo ellas.
+Como punto final decir que, cada uno de nosotros podríamos visibilizar y recalcar actitudes y comportamientos machistas en otros hombres ya que a nosotros nos harán más caso y tendrá muchas menos consecuencias negativas que si tienen que hacerlo ellas.
 
-Por último dar las gracias a quienes me han dado feedback antes de publicar el artículo #YouRock 😍
+Por último dar las gracias a quienes me han dado feedback antes de publicar el artículo. 😍
 
 <div>
   <blockquote class="container  alert">
