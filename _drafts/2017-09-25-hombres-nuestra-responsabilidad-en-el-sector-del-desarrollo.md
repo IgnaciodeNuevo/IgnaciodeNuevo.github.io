@@ -101,8 +101,15 @@ Creo que no es necesario, lo primero y con razón porque se sentirán usadas y l
 
 ## Ventajas de los equipos diversos
 
-+ Aportamos a hacer de nuestras empresas un lugar mejor y para todo el mundo
-+ Se consiguen
++ Aportamos a nuestras empresas para crear un lugar mejor y para todo el mundo.
++ Se crean mejores relaciones entre las personas del equipo.
++ Se crean entornos donde más gente se siente cómoda aportando.
++ Se comparte la responsabilidad al buscar soluciones desde diferentes puntos de vista.
++ Las decisiones que se toman con la participación de todo el equipo tienen mayor aceptación.
++ Aumenta la calidad del trabajo al tomarse las decisiones por consenso.
++ Se fortalece el espíritu de equipo.
++ Se reducen los tiempos de trabajo.
++ Surgen nuevas formas de abordar un problema.
 
 ## Conclusiones
 
