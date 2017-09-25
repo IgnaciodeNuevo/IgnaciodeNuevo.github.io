@@ -107,7 +107,7 @@ Seguramente me deje muchísimas cosas pendientes, si es así ruego me lo hagáis
     <ul>
      <li><a href="https://github.com/folkswhocode/awesome-diversity">Awesome Diversity</a></li>
      <li><a href="https://www.youtube.com/channel/UC7Z9bj7ibznsY1ty9ca0rBw">asadaf</a></li>
-     <li><a href="https://www.youtube.com/channel/UCLKaFQcM40WTfvRyy3T05Mg"></a>SpanishQueens</li>
+     <li><a href="https://www.youtube.com/channel/UCLKaFQcM40WTfvRyy3T05Mg">SpanishQueens</a></li>
      <li><a href="https://www.youtube.com/channel/UCXwXB7a3cq9AERiWF4-dK9g">Ash Hardell</a></li>
      <li><a href="https://www.youtube.com/channel/UC_rIWyZeGjIXSsW6VDDmfwQ">Devermut</a></li>
     </ul>
