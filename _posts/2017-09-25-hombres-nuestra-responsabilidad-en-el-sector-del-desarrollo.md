@@ -28,6 +28,8 @@ Entender la situación actual en el sector del desarrollo Web/móvil, es fundame
 
 Como bien decía últimamente sigo a varias compañeras del sector (*y no del sector*), así como YouTubers. Leo algún artículo que cae en mis manos y me meto en "algún hilo en Twitter". Por este motivo el otro día tuve la suerte de escribir y que una persona me <a href="https://twitter.com/filobotica/status/910444454842073088">sacase un poco los colores</a>, invitándome a hacer algo más para aportar.
 
+Antes de empezar quiero dejar bien claro que mi intención no es ponerme ninguna medalla, si no aportar.
+
 ## ¿Qué podemos hacer los hombres para mejorar esta situación de discriminación y acoso?
 
 Intentaré hablar más concretamente sobre mujeres pero es perfectamente extrapolable a otras personas en muchos de los casos. La equidad y educación son la clave para solucionar los problemas.
@@ -126,6 +128,7 @@ Por último dar las gracias a quienes me han dado feedback antes de publicar el 
      <li><a href="https://github.com/folkswhocode/awesome-diversity">Awesome Diversity</a></li>
      <li><a href="https://github.com/folkswhocode/diversifaq/blob/master/FAQ.md">Folks Who Code FAQ</a></li>
      <li><a href="https://github.com/larahogan/ally-resources">Allie resources by Lara Hogan</a></li>
+     <li><a href="https://www.slideshare.net/txipi/identidad-digital-y-feminismo2015">Identidad digital y feminismo por Pablo Garaizar</a></li>
      <li><a href="https://www.youtube.com/channel/UC7Z9bj7ibznsY1ty9ca0rBw">asadaf</a></li>
      <li><a href="https://www.youtube.com/channel/UCLKaFQcM40WTfvRyy3T05Mg">SpanishQueens</a></li>
      <li><a href="https://www.youtube.com/channel/UCXwXB7a3cq9AERiWF4-dK9g">Ash Hardell</a></li>
