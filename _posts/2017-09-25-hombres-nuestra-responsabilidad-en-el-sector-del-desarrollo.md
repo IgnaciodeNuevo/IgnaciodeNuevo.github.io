@@ -103,6 +103,8 @@ Creo que no es necesario, lo primero y con razón porque se sentirán usadas y l
 
 ## Ventajas de los equipos diversos
 
+A continuación querría dar algunas ideas de las ventajas que puede conllevar la diversidad, aunque alguanas de ellas pueden no ser de manera inmediata.
+
 + Aportamos a nuestras empresas para crear un lugar mejor y para todo el mundo.
 + Se crean mejores relaciones entre las personas del equipo.
 + Se crean entornos donde más gente se siente cómoda aportando.
@@ -120,6 +122,8 @@ Seguramente me deje muchísimas cosas pendientes, si es así ruego me lo hagáis
 Como punto final decir que, cada uno de nosotros podríamos visibilizar y recalcar actitudes y comportamientos machistas en otros hombres ya que a nosotros nos harán más caso y tendrá muchas menos consecuencias negativas que si tienen que hacerlo ellas.
 
 Por último dar las gracias a quienes me han dado feedback antes de publicar el artículo. 😍
+
+¡Espero que no haya sido muy largo!
 
 <div>
   <blockquote class="container  alert">
