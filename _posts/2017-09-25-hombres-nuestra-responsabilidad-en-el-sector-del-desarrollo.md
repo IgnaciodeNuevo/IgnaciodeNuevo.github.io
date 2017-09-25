@@ -10,17 +10,19 @@ tags:
 
 # El contexto
 
-Cuando abrí esta web lo planteaba como un lugar donde hablar sobre mi profesión. Hará un par de años se me ocurría que hablaría únicamente en inglés (*por aquello de forzarme a mejorar escribiendo en esta lengua*), para mostrar mis proyectos personales y profesionales.
+Cuando abrí esta web lo planteaba como un lugar donde hablar sobre mi profesión. Hará un par de años se me ocurría que escribiría únicamente en inglés (*por aquello de forzarme a mejorar*), para mostrar mis proyectos personales y profesionales.
 
-Nunca pensaba usar mi <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">Twitter</a> más que para hablar sobre desarrollo front-end por aquello de ser "*lo más profesional posible*" y pensaba dejar a un lado temas personales.
+Nunca pensaba usar mi <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">Twitter</a> más que para hablar sobre desarrollo front-end y pensaba dejar a un lado temas personales.
 
-El problema viene cuando, desde hace algún tiempo (*un año aproximadamente*) empecé a darme cuenta de cosas que no estaban bien en el sector del desarrollo; como los relacionados a la discriminación o el acoso, por lo que empecé a informarme, aprender y sobre todo a replanterme si todo lo que nos han enseñado era correcto.
+El problema viene cuando, desde hace algún tiempo; (*un año aproximadamente*), empecé a darme cuenta de cosas que no estaban bien en el sector del desarrollo. Como los relacionados a la discriminación o el acoso, por lo que empecé a informarme, aprender y sobre todo a replanterme si todo lo que "nos han enseñado" era correcto.
 
-Como hombre cisgénero y blanco, soy un privilegiado y debido a esto, por la sociedad machista en la que vivimos no te planteas según que cosas. Nos enseñan que la mujer es inferior, que somos los amos del universo y al resto de personas, mujeres, gente de color, personas con algún tipo de problema (*no solamente minusvalías*) y personas de otros colectivos se les discrimina ya que "*no son igual de válidas como nosotros*".
+Como hombre cisgénero y blanco, soy un privilegiado y debido a esto, por la sociedad machista en la que vivimos no te planteas según que cosas.
+
+Quizá debido al contexto social en el que vivo, veo los problemas que tienen las mujeres así como a muchas otras personas. Gente de color, personas con algún tipo de problema (*no solamente <a href="http://www.discapnet.es/areas-tematicas/nuestros-derechos/tus-derechos-fondo/otros-temas/discapacidad-versus-minusvalia">discapacidad</a>*) y personas de otros colectivos se les discrimina ya que "*no son igual de válidas que nosotros*".
 
 Debido a estas inquietudes desde hace algún tiempo intento mejorar, reaprender y aportar (*siempre sin intentar liderar esta lucha*), desde un segundo plano para hacer de nuestro sector un lugar un poquito mejor.
 
-Entender la situación actual en el sector del desarrollo web/móvil en el que trabajo es fundamental para entender los problemas que sufren muchas compañeras y personas del colectivo LGBTQIA+ (lesbianas, gays, bisexuales, transgénero, queer/questioning, intersexual, asexual/agénero/aromántico...) así como otro tipo de personas.
+Entender la situación actual en el sector del desarrollo web/móvil, es fundamental para entender los problemas que sufren muchas compañeras y personas del colectivo LGBTQIA+ (lesbianas, gays, bisexuales, transgénero, queer/questioning, intersexual, asexual/agénero/aromántico...).
 
 ## El momento ahá
 
@@ -49,7 +51,7 @@ No es la primera vez que asisto a algún evento sobre diversidad de género, mes
 
 Aunque consideremos que tenemos empatía jamás nos podremos poner en su piel, simplemente por que ellas viven en su día a día un acoso constante, silencioso o a veces explícito pero nunca adecuado. Ellas no son las culpables, así pues debemos poner el foco en los que actuan inadecuadamente.
 
-### Distintas peronas, distintas formas de actuar
+### Distintas personas, distintas formas de actuar
 
 Lo primero que podemos hacer y más obvio es no tener sesgos de ningún tipo o al menos aprender y corregirlos, tratar a todo el mundo educadamente, no todos somos iguales, hay gente más tímida, más extrovertida, gente de distintas culturas que pueden interpretar lo que se diga (*aunque sea con la mejor de las intenciones*) de un modo que quizá no nos esperábamos. En este caso siempre podemos rectificar, pedir disculpas e intentar hacer ver a la persona que no intentábamos decir las cosas del modo que se han entendido. "¡Pedir perdón es de sabios!"
 
@@ -97,15 +99,26 @@ No es la primera vez que me encuentro como hay algún Meetup o empresa donde sac
 
 Creo que no es necesario, lo primero y con razón porque se sentirán usadas y lo segundo porque simplemente son personas.
 
-### Conclusiones
+## Ventajas de los equipos diversos
+
++ Aportamos a hacer de nuestras empresas un lugar mejor y para todo el mundo
++ Se consiguen
+
+## Conclusiones
 
 Seguramente me deje muchísimas cosas pendientes, si es así ruego me lo hagáis saber y ampliaré el artículo. Espero poder aportar mi granito de arena y hacer ver que se pueden hacer las cosas infinitamente mejor.
+
+Como punto final decir aunque suene muy obvio que sería muy interesante que cada uno de nosotros visibilicemos y recalquemos actitudes y comportamientos machistas en otros hombres ya que a nosotros nos harán más caso y tendrá muchas menos consecuencias negativas que si tienen que hacerlo ellas.
+
+Por último dar las gracias a quienes me han dado feedback antes de publicar el artículo #YouRock 😍
 
 <div>
   <blockquote class="container  alert">
     <h4>Documentación para aprender sobre diversidad</h4>
     <ul>
      <li><a href="https://github.com/folkswhocode/awesome-diversity">Awesome Diversity</a></li>
+     <li><a href="https://github.com/folkswhocode/diversifaq/blob/master/FAQ.md">Folks Who Code FAQ</a></li>
+     <li><a href="https://github.com/larahogan/ally-resources">Allie resources by Lara Hogan</a></li>
      <li><a href="https://www.youtube.com/channel/UC7Z9bj7ibznsY1ty9ca0rBw">asadaf</a></li>
      <li><a href="https://www.youtube.com/channel/UCLKaFQcM40WTfvRyy3T05Mg">SpanishQueens</a></li>
      <li><a href="https://www.youtube.com/channel/UCXwXB7a3cq9AERiWF4-dK9g">Ash Hardell</a></li>
