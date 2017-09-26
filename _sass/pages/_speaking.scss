@@ -52,4 +52,19 @@
   margin-bottom: 0; // 1
   font-size: 90%;
   color: $darkGrey;
+
+  a {
+    font-size: 110%;
+  }
 }
+
+.speaking__link {
+  height: 20px;
+  margin-bottom: -4px;
+  width: 20px;
+
+  & path {
+    fill: $mainColor;
+  }
+}
+
