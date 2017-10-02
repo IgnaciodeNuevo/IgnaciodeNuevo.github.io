@@ -1,3 +1,9 @@
+- name: "Episodio 2x08 - Progressive Web Apps"
+  description: "Progressive Web Apps"
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Octubre 02, 2017"
+  podcast_web: http://wecodesignpodcast.com/2017/10/03/progressive-web-apps/
+
 - name: "Episodio Mini 11 - ¡Novedades!"
   description: "¡Novedades!"
   image_url: ../images/logo-WCD.svg
