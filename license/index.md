@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Code License (MIT License)"
-excerpt: "Ignacio Villanueva - Front-end developer focusing on CSS, Sass, architecture, scalability, front-end performance, and mobile and responsive web design based in Madrid."
+excerpt: "Ignacio Villanueva - Front-end developer focusing on CSS, Sass, architecture, scalability, front-end performance, and mobile and responsive web design based in Barcelona."
 tags:
   - Ignacio Villanueva
   - License

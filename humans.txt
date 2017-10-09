@@ -3,7 +3,7 @@
     Author: Ignacio Villanueva
     Site: www.IgnaciodeNuevo.com
     Twitter: @IgnaciodeNuevo
-    Location: Madrid, Spain
+    Location: Barcelona, Spain
 
 # TECHNOLOGY COLOPHON
 
