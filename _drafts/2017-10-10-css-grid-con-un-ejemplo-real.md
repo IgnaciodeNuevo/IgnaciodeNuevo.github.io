@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CSS Grid Layout con un ejemplo real."
+title: "CSS Grid Layout con un Ejemplo Real."
 excerpt: "CSS Grid Layout ha llegado para cambiarlo todo. Para ello veremos un ejemplo real con fallbacks para navegadores antiguos."
 post_date: "Octubre 18, 2017"
 post_number: 19
@@ -73,6 +73,8 @@ CSS Grid Inspector (FF - Devloper Edition) - video
 [Ejemplo en CodePen](https://codepen.io/primalivet/pen/ryjKmV/)
 
 ## Manos a la obra
+
+Después de haber hablado sobre la historia, la diferencia frente a `flexbox`, sobre si debemos o no usarlo en producción y el inspector de Grid de Firefox es momento de empezar a trabajar.
 
 <div>
   <blockquote class="container  alert">
