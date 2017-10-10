@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CSS Grid Layout con un Ejemplo Real."
+title: "CSS Grid: La BBC como ejemplo"
 excerpt: "CSS Grid Layout ha llegado para cambiarlo todo. Para ello veremos un ejemplo real con fallbacks para navegadores antiguos."
 post_date: "Octubre 18, 2017"
 post_number: 19
