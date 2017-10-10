@@ -2,7 +2,7 @@
 layout: post
 title: "Hombres: Nuestra responsabilidad en el sector del desarrollo."
 excerpt: "¿Qué podemos hacer como hombres en el sector del desarrollo para hacer de este un lugar mejor para nuestras compañeras?"
-post_date: "Septiembre 25, 2016"
+post_date: "Septiembre 25, 2017"
 post_number: 18
 tags: 
   - Diversity
