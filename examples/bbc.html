@@ -54,6 +54,7 @@ http://ogp.me/ns/article#">
       -webkit-box-sizing: border-box;
          -moz-box-sizing: border-box;
               box-sizing: border-box;
+      font-family: sans-serif;
     }
 
     *, *::before, *::after {
@@ -69,14 +70,98 @@ http://ogp.me/ns/article#">
     } 
 	
 
+    header {
+      background-color: black;
+      color: white;
+    }
+
+    nav {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 1248px;
+    }
+
+    /* 1028px */
+    @media (min-width: 64.25em) {
+      nav {
+        height: 40px;
+      }
+    }
+
+    nav img,
+    .navbar,
+    .navbar li,
+    .bbc-search {
+      border-right: 1px solid #666;
+      float: left;
+    }
+
+    nav img {
+      margin-left: 8px;
+      margin-top: 8px;
+    } 
+
+    .navbar {
+      display: inline-block;
+    }
+
+    /* 1028px */
+    @media (min-width: 64.25em) {
+      .navbar {
+        display: grid;
+      }
+    }
+
+    .navbar li {
+      display: inline-block;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    /* 1028px */
+    @media (min-width: 64.25em) {
+      .navbar li {
+        height: 40px;
+        line-height: 40px;
+      }
+    }
+
+    input#bbc-search {
+      border: none;
+      background: white;
+      height: 1.846em;
+      margin-top: 8px;
+      margin-left: 8px;
+      min-height: 24px;
+      font-weight: bold;
+      width: 162px;
+      float: left;
+      padding: 0 0 0 6px;
+      color: #333;
+      font-weight: bold;
+    }
 	</style>
 </head>
 <body>
 	<header>
     <nav>
-      
+      <img src="img/bbc-logo.png" alt="BBC">
+      <ul class="navbar">
+        <li>Home</li>
+        <li>News</li>
+        <li>Sport</li>
+        <li>Weather</li>
+        <li>Shop</li>
+        <li>Earth</li>
+        <li>Travel</li>
+        <li>Capital</li>
+        <li>More</li>
+      </ul>
+      <label for="bbc-search">
+        <input id="bbc-search" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" name="q" placeholder="Search">
+      </label>
     </nav>
   </header>
-  
+
 </body>
 </html>

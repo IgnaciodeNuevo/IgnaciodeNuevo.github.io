@@ -83,6 +83,8 @@ CSS Grid Inspector (FF - Devloper Edition) - video
 
 Después de haber hablado sobre la historia, la diferencia frente a `Flexbox`, sobre si debemos o no usarlo en producción y el inspector de `Grid` de Firefox es momento de empezar a trabajar.
 
+Tened en cuenta que no se han usado ni prefijos que podríamos escribir manualmente o con Autoprefixer, así como el uso de unidades relativas como `EM` o `REM`. Así mismo tampoco he prestado especial atención al nombre de las clases de CSS.
+
 <div>
   <blockquote class="container  alert">
     <h4>Documentación extra</h4>
