@@ -67,7 +67,13 @@ http://ogp.me/ns/article#">
       border: 0;
       margin: 0;
       padding: 0;
-    } 
+    }
+
+    .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 
 
@@ -90,7 +96,7 @@ http://ogp.me/ns/article#">
     }
 
     /* 1028px */
-    @media (min-width: 64em) {
+    @media (min-width: 64.25em) {
       header {
         height: auto;
       }
@@ -165,16 +171,10 @@ http://ogp.me/ns/article#">
 
       .navbar li {
         display: inline-block;
-        padding-left: 20px;
-        padding-right: 20px;
-      }
-    }
-
-    /* 1028px */
-    @media (min-width: 64.25em) {
-      .navbar li {
         height: 40px;
         line-height: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
       }
     }
 
@@ -211,6 +211,7 @@ http://ogp.me/ns/article#">
     *************************/
     .module--promo {
       background: #e7e8e1;
+      padding-bottom: 2rem;
     }
 
     .module__title,
@@ -230,27 +231,120 @@ http://ogp.me/ns/article#">
       text-transform: uppercase;
     }
 
-    .promo-grid > .promo-grid__item,
-    .grid > .grid__item {
-      width: 100%;
-    }
+
+
+
 
     /*************************
     * Promo Grid
     *************************/
-    .promo-grid__title,
-    .promo-grid__tag {
-      margin-bottom: 24px;
+
+    /* Not Supports - CSS Grid */
+    @supports not (display: grid) {
+      .promo-grid > .promo-grid__item {
+        float: left;
+        width: 100%;
+      }
+
+      .promo-grid > .promo-grid__item:not(:nth-of-type(2n)) {
+        margin-right: 20px;
+      }
+
+      /* 640px */
+      @media (min-width: 40em) {
+        .promo-grid > .promo-grid__item {
+          width: calc(50% - 20px);
+        }
+      }
     }
 
     .promo-grid {
       padding-left: 20px;
       padding-right: 20px;
+
+      /* Flexbox */
+      display: flex;
+      flex-wrap: wrap;
+
+      /* Grid */
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+      grid-gap: 20px;
+      grid-template-areas:
+        "uno"
+        "dos"
+        "tres"
+        "cuatro"
+        "cinco";
     }
 
-    .promo-grid > .grid__item {
-      width: 100%;
+    /* 640px */
+    @media (min-width: 40em) {
+      .promo-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+        "uno      dos"
+        "tres     cuatro"
+        "cinco    .";
+      }
     }
+
+    /* 1028px */
+    @media (min-width: 64.25em) {
+      .promo-grid {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+        "uno      uno     dos       tres"
+        "o        o     cuatro    cinco";
+      }
+    }
+
+    .promo-grid__item:nth-child(1) {
+      grid-area: uno;
+    }
+
+    .promo-grid__item:nth-child(2) {
+      grid-area: dos;
+    }
+
+    .promo-grid__item:nth-child(3) {
+      grid-area: tres;
+    }
+
+    .promo-grid__item:nth-child(4) {
+      grid-area: cuatro;
+    }
+
+    .promo-grid__item:nth-child(5) {
+      grid-area: cinco;
+    }
+
+    .small-hidden {
+      display: none
+    }
+
+    @media (min-width: 64.25em) {
+      .small-hidden {
+        grid-area: o;
+        color: white;
+        background-color: #333;
+
+        /* Flexbox */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    .promo-grid__title,
+    .promo-grid__tag {
+      margin-bottom: 24px;
+    }
+
+    .promo-grid__img {
+      margin-bottom: 8px;
+    } 
 
     .promo-grid__img {
       height: 250px;
@@ -282,6 +376,17 @@ http://ogp.me/ns/article#">
 
     .promo-grid__img.cinco {
       background-image: url('img/bbc-cinco.jpg');
+    }
+
+    .promo-grid__tag {
+      color: #333;
+      text-transform: uppercase;
+    }
+
+    .promo-grid__tag::before {
+      content:  '';
+      border: 1px solid #e91802;
+      margin-right: 5px;
     }
 
 
@@ -362,6 +467,10 @@ http://ogp.me/ns/article#">
     .grid__text {
       margin-bottom: 16px;
     }
+
+    .grid__text {
+      color: #333;
+    }
 	</style>
 </head>
 <body>
@@ -392,7 +501,7 @@ http://ogp.me/ns/article#">
 
   <section class="module--promo">
     <h2 class="module__title">Welcome to BBC.com - Sunday, 15 October</h2>
-    <div class="promo-grid">
+    <div class="promo-grid  clearfix">
       <div class="promo-grid__item">
         <div class="promo-grid__img  uno"></div>
         <h3 class="promo-grid__title">Hundreds dead in Mogadishu blast</h3>
@@ -417,6 +526,9 @@ http://ogp.me/ns/article#">
         <div class="promo-grid__img  cinco"></div>
         <h3 class="promo-grid__title">Get ahead with healthy meal prep ideas</h3>
         <p class="promo-grid__tag">Good Food</p>
+      </div>
+      <div class="promo-grid__item  small-hidden">
+        <h3 class="promo-grid__title">This element is hidden until 64.25em</h3>
       </div>
     </div>
   </section>
