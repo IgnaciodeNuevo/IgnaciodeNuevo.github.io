@@ -85,6 +85,12 @@ Después de haber hablado sobre la historia, la diferencia frente a `Flexbox`, s
 
 Tened en cuenta que no se han usado ni prefijos que podríamos escribir manualmente o con Autoprefixer, así como el uso de unidades relativas como `EM` o `REM`. Así mismo tampoco he prestado especial atención al nombre de las clases de CSS.
 
+Podéis ver el ejemplo [aquí](https://raw.githubusercontent.com/IgnaciodeNuevo/IgnaciodeNuevo.github.io/master/examples/bbc.html)
+
+### Conclusiones
+
+Espero que os sea de utilidad y entendais un poco más como podemos usar `CSS Grid`, `Flexbox`, `@supports` y como aplicar progressive enhancement para dar soporte a distintos navegadores.
+
 <div>
   <blockquote class="container  alert">
     <h4>Documentación extra</h4>
