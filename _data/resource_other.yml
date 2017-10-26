@@ -126,3 +126,6 @@
 
 - name: W3C Drafts
   url: https://drafts.csswg.org/
+
+- name: Inclusive Components
+  url: https://inclusive-components.design/
