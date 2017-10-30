@@ -1,3 +1,9 @@
+- name: "Episodio 2x10 - La W3C"
+  description: "La W3C"
+  image_url: ../images/logo-WCD.svg
+  podcast_date: "Octubre 31, 2017"
+  podcast_web: http://wecodesignpodcast.com/2017/10/31/la-w3c/
+
 - name: "Episodio 2x09 - El Síndrome del Impostor"
   description: "Progressive Web Apps"
   image_url: ../images/logo-WCD.svg
