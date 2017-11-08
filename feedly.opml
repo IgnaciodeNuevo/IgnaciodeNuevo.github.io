@@ -38,6 +38,7 @@
             <outline type="rss" text="Web Resources Depot" title="Web Resources Depot" xmlUrl="http://feeds.feedburner.com/webresourcesdepot" htmlUrl="https://webresourcesdepot.com"/>
             <outline type="rss" text="Mr Frontend Blog" title="Mr Frontend Blog" xmlUrl="http://blog.mrfrontend.org/feed/" htmlUrl="https://blog.mrfrontend.org"/>
             <outline type="rss" text="Zach Leatherman" title="Zach Leatherman" xmlUrl="http://www.zachleat.com/web/feed/" htmlUrl="http://www.zachleat.com/web/"/>
+            <outline type="rss" text="Chen Hui Jing" title="Chen Hui Jing" xmlUrl="https://www.chenhuijing.com/feed.xml" htmlUrl="https://www.chenhuijing.com/"/>
             <outline type="rss" text="Scott Hanselman's Blog" title="Scott Hanselman's Blog" xmlUrl="http://feeds.hanselman.com/ScottHanselman" htmlUrl="https://www.hanselman.com/blog/"/>
             <outline type="rss" text="Free Code Camp" title="Free Code Camp" xmlUrl="https://medium.freecodecamp.com/feed" htmlUrl="https://medium.freecodecamp.org?source=rss----336d898217ee---4"/>
             <outline type="rss" text="Belén Albeza" title="Belén Albeza" xmlUrl="http://www.belenalbeza.com/rss/" htmlUrl="https://www.belenalbeza.com/"/>
