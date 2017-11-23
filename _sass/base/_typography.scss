@@ -1,7 +1,8 @@
 //
 // Basic typography style for copy text
 //
-body {
+body,
+.text {
   font: 18px/1.4 $sansFont;
   font: 1.125rem/1.4 $sansFont;
   color: $darkGrey;
@@ -39,9 +40,10 @@ h3 {
 //
 // Vertical rhythm
 //
-p, ul, ol, h2 {
+p, ul, ol, h2, label.text {
   margin-bottom: 25px;
 }
+
 
 //
 // Vertical rhythm
