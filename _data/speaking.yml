@@ -1,7 +1,7 @@
 - name: CSS architectures - It's alive!
   description: "Veremos ejemplos prácticos de lo que se debe y no se debe hacer en diferentes arquitectura, buenas prácticas y como se estructuran la 7-1 o ITCSS"
   speaking_date: "Talk: Septiembre 25, 2017 (Codemotion Madrid - Track 1)"
-  speaking_url: http://wecodesignpodcast.com/speaking/#/
+  speaking_url: codemotion2017/
   video: https://www.youtube.com/watch?v=qnSbqv6rqx4
 
 - name: CSS Grid Layout en un proyecto Real
