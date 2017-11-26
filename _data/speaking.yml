@@ -1,3 +1,9 @@
+- name: CSS architectures - It's alive!
+  description: "Veremos ejemplos prácticos de lo que se debe y no se debe hacer en diferentes arquitectura, buenas prácticas y como se estructuran la 7-1 o ITCSS"
+  speaking_date: "Talk: Septiembre 25, 2017 (Codemotion Madrid - Track 1)"
+  speaking_url: http://wecodesignpodcast.com/speaking/#/
+  video: https://www.youtube.com/watch?v=qnSbqv6rqx4
+
 - name: CSS Grid Layout en un proyecto Real
   description: "Vemos las qué diferencias tiene CSS Grid Layout con Flexbox, las distintas propiedades y un proyecto usando fallbacks."
   speaking_date: "Talk: Septiembre 21, 2017 (Front-end Developers Madrid Meetup)"
