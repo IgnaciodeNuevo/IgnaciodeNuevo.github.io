@@ -23,10 +23,13 @@
     border-radius: $borderRadius;
     border: 3px solid $mainColor;
     height: 42px;
+    transition: background-color .2s ease,
+                border .2s ease;
     width: 100%;
 
     &:hover {
-      @include underLine(transparent, $mainColor);
+      background-color: darken($mainColor, 10);
+      border: 3px solid darken($mainColor, 10);
     }
   }
 }
