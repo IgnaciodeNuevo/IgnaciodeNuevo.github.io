@@ -1,34 +1,66 @@
 .mailchimp {
-	display: flex;
-	justify-content: center;
-}
-
-.input--center {
+	border-radius: $borderRadius;
   border: 3px solid $mainColor;
-  border-radius: 3px;
-  padding: 5px 10px;
-  margin-right: 20px;
-}
+  margin-top: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 31.25rem;
+  padding: 2rem;
 
-label.text {
-  margin-bottom: 25px;
-}
-
-.text {
-  font: 18px/1.4 $sansFont;
-  font: 1.125rem/1.4 $sansFont;
-  color: $darkGrey;
-}
-
-.btn {
-  text-align: center;
-  background-color: $mainColor;
-  color: $bgColor;
-  border-radius: $borderRadius;
-  border: 3px solid $mainColor;
-  height: 42px;
-
-  &:hover {
-    @include underLine(transparent, $mainColor);
+  h2 {
+    margin-top: 0;
+    text-align: center;
   }
+
+  a {
+    font-size: 0.8rem;
+  }
+
+  .btn {
+    text-align: center;
+    background-color: $mainColor;
+    color: $bgColor;
+    border-radius: $borderRadius;
+    border: 3px solid $mainColor;
+    height: 42px;
+    width: 100%;
+
+    &:hover {
+      @include underLine(transparent, $mainColor);
+    }
+  }
+}
+
+.asterisk {
+  color: $mainColor;
+  font-size: 0.8rem;
+}
+
+.mailchimp-label {
+  margin-bottom: .3rem;
+}
+
+.mailchimp-input {
+  margin-bottom: 1rem;
+  border-radius: $borderRadius;
+  border: 1px solid $mainColor;
+  padding: .3rem .6rem;
+
+  &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 0.8rem;
+  }
+  &::-moz-placeholder { /* Firefox 19+ */
+    font-size: 0.8rem;
+  }
+  &:-ms-input-placeholder { /* IE 10+ */
+    font-size: 0.8rem;
+  }
+  &:-moz-placeholder { /* Firefox 18- */
+    font-size: 0.8rem;
+  }
+}
+
+.mailchimp-label,
+.mailchimp-input {
+  display: block;
 }
