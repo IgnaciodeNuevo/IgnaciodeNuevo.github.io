@@ -1,3 +1,8 @@
+- name: CSS Grid Layout - ¡Se acabaron los hacks, larga vida al CSS! 
+  description: "¿Qué ha ocurrido todos estos años en el CSS? ¿Qué hemos estado usando en nuestro día a día? ¡Grid ha llegado para salvarnos del uso de hacks!"
+  speaking_date: "Talk: December 19, 2017 (Plain Concepts Tech Day)"
+  speaking_url: /CSS-Grid-PlainConcepts.pdf
+
 - name: CSS architectures - It's alive!
   description: "Veremos ejemplos prácticos de lo que se debe y no se debe hacer en diferentes arquitectura, buenas prácticas y como se estructuran la 7-1 o ITCSS"
   speaking_date: "Talk: Septiembre 25, 2017 (Codemotion Madrid - Track 1)"
