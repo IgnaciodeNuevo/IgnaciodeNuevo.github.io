@@ -132,3 +132,6 @@
 
 - name: OpenType Variable PlayGround
   url: https://www.axis-praxis.org/specimens/__DEFAULT__
+
+- name: Design Patterns
+  url: https://refactoring.guru/design-patterns/catalog
