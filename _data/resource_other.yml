@@ -129,6 +129,9 @@
 
 - name: Inclusive Components
   url: https://inclusive-components.design/
+  
+- name: The a11y project
+  url: https://a11yproject.com
 
 - name: OpenType Variable PlayGround
   url: https://www.axis-praxis.org/specimens/__DEFAULT__
