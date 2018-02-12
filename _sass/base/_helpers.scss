@@ -24,7 +24,7 @@
 
   &--small {
     width: 100%; // 1
-    max-width: 200px; // 1
+    max-width: 230px; // 1
     margin: 0 auto;
   }
 
@@ -49,7 +49,7 @@
 //
 // Hide element while making it readable for screen readers
 //
-.visually-hidden { 
+.visually-hidden {
   border: 0;
   clip: rect(0 0 0 0);
   height: 1px;

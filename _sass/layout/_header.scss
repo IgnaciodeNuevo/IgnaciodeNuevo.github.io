@@ -14,7 +14,7 @@
 }
 
 //
-// Header title 
+// Header title
 // 1. Vertical rhythm
 // 2. Same size as copy text
 //
@@ -23,6 +23,7 @@
   margin: 0 0 20px; // 1
   font-size: 18px; // 2
   font-size: 1.125rem; // 2
+  white-space: nowrap;
 
   @include respond-to('medium') {
     float: left;
