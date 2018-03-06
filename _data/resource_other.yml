@@ -129,7 +129,7 @@
 
 - name: Inclusive Components
   url: https://inclusive-components.design/
-  
+
 - name: The a11y project
   url: https://a11yproject.com
 
@@ -141,3 +141,6 @@
 
 - name: A11y Resources
   url: http://pauljadam.com/resources.html
+
+- name: What’s next for CSS?
+  url: https://jonathantneal.github.io/css-db/
