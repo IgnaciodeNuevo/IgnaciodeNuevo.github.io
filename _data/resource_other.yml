@@ -144,3 +144,6 @@
 
 - name: What’s next for CSS?
   url: https://jonathantneal.github.io/css-db/
+
+- name: Everyone has JavaScript, right?
+  url: https://kryogenix.org/code/browser/everyonehasjs.html
