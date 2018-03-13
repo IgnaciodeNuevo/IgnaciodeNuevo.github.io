@@ -10,12 +10,6 @@
 - name: Awesome on GitHub
   url: https://github.com/sindresorhus/awesome
 
-- name: Web Development Map
-  url: https://coggle.it/diagram/Vz9LvW8byvN0I38x
-
-- name: BeautifyConverter
-  url: http://www.beautifyconverter.com
-
 - name: Filament Group Open-Source Code
   url: https://www.filamentgroup.com/code
 
@@ -24,15 +18,6 @@
 
 - name: Front-end Dev Bookmarks
   url: https://github.com/dypsilon/frontend-dev-bookmarks
-
-- name: Front-end Dev Resources
-  url: https://github.com/dmytroyarmak/frontend-dev-resources
-
-- name: Front-end Tools
-  url: https://github.com/codylindley/frontend-tools
-
-- name: git:logs
-  url: http://www.gitlogs.com/resource-guides
 
 - name: 'MarkApp: Building apps with HTML'
   url: http://markapp.io
@@ -49,23 +34,11 @@
 - name: Responsive Resources
   url: http://bradfrost.github.io/this-is-responsive/resources.html
 
-- name: Repo Webdeign
-  url: https://rrrepo.co/repo/webdesign
-
-- name: Stylesheets.co
-  url: https://stylesheets.co
-
 - name: Styleguides.io
   url: http://styleguides.io
 
-- name: UX Resources
-  url: http://uxdesignweekly.com/ux-resources
-
 - name: Web Field Manual
   url: http://webfieldmanual.com
-
-- name: Web Font Resources
-  url: https://optimizerwp.com/web-fonts-resources
 
 - name: WebAIM
   url: http://webaim.org/resources
@@ -76,18 +49,6 @@
 - name: HTML5-Please
   url: http://html5please.com/
 
-- name: Design Principles
-  url: https://principles.adactio.com/
-
-- name: The 2016 Almanac
-  url: https://wdrl.info/almanac/2016
-
-- name: Offline First
-  url: http://offlinefirst.org/
-
-- name: WebComponents
-  url: https://www.webcomponents.org/
-
 - name: A Collective List Of APIs.
   url: http://apilist.fun/
 
@@ -97,26 +58,11 @@
 - name: Frontend Development Interview Questions
   url: https://github.com/IgnaciodeNuevo/frontend-development-interviews/blob/master/README.md
 
-- name: Prettier
-  url: https://prettier.io/
-
 - name: PWA Stats
   url: https://www.pwastats.com/
 
 - name: Design Resources
   url: http://designresources.party/
-
-- name: Remote Starter Kit
-  url: http://www.remotestarterkit.com/
-
-- name: Design resources
-  url: https://css-tricks.com/design-resource-sites/
-
-- name: HTML and CSS CheatSheets
-  url: https://cssauthor.com/html-and-css-cheat-sheets/
-
-- name: Mega HTML5 CheatSheet
-  url: https://medium.com/level-up-web/the-mega-html5-cheatsheet-e8c479b1c521
 
 - name: Native form elements
   url: http://nativeformelements.com/
