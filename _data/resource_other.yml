@@ -147,3 +147,6 @@
 
 - name: Everyone has JavaScript, right?
   url: https://kryogenix.org/code/browser/everyonehasjs.html
+
+- name: Frontend Checklist
+  url: https://frontendchecklist.io/
