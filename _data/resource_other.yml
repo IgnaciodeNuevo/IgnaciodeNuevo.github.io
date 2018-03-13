@@ -96,3 +96,9 @@
 
 - name: Frontend Checklist
   url: https://frontendchecklist.io/
+
+- name: Web Feature Availability
+  url: https://paulirish.github.io/web-feature-availability/
+
+- name: CSS usage on the web platform
+  url: https://developer.microsoft.com/en-us/microsoft-edge/platform/usage/
