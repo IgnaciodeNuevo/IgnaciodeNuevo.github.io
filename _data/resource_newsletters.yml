@@ -13,23 +13,11 @@
 - name: CSS-Tricks Newsletter
   url: https://css-tricks.com
 
-- name: Frontend Dev Weekly
-  url: http://frontenddevweekly.com
-
 - name: Full Web Newsletter
   url: http://fullweb.io
 
 - name: Ponyfoo Newsletter
   url: https://ponyfoo.com
-
-- name: Responsive Design Newsletter
-  url: https://responsivedesign.is
-
-- name: SideBar Newsletter
-  url: http://sidebar.io
-
-- name: SitePoint Newsletter
-  url: http://www.sitepoint.com/newsletter
 
 - name: Smashing Magazine Newsletter
   url: https://www.smashingmagazine.com/the-smashing-newsletter
@@ -38,22 +26,10 @@
   url: http://valhead.com/newsletter
 
 - name: Web Animation Weekly Newsletter
-  url: http://rachelnabors.us1.list-manage.com/subscribe?u=0a8f219cf8284562f91a26ee9&id=d60f6683d2
+  url: http://rachelnabors.com/newsletters/
 
 - name: Web Design Weekly
   url: https://web-design-weekly.com
 
 - name: Web Development Reading List
   url: https://wdrl.info
-
-- name: Webdesigner News
-  url: http://www.webdesignernews.com
-
-- name: TypeScript Weekly
-  url: https://www.typescript-weekly.com
-
-- name: React Weekly
-  url: http://reactjsnewsletter.com
-
-- name: ng-newsletter
-  url: http://cur.ng-newsletter.com/
