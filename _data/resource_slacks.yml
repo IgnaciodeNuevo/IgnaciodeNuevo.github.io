@@ -1,9 +1,6 @@
 - name: Animation at Work
   url: http://damp-lake-50659.herokuapp.com
 
-- name: Chromium Channel
-  url: https://chromiumdev-slack.herokuapp.com
-
 - name: Code Newbies
   url: https://codenewbie.typeform.com/to/uwsWlZ
 
@@ -13,23 +10,11 @@
 - name: Front-end Developers London
   url: http://frontendlondon-slack.herokuapp.com
 
-- name: Front-end Developers Madrid (in Spanish)
-  url: http://www.meetup.com/Front-end-Developers-Madrid
-
-- name: Polymer Channel
-  url: https://polymer-slack.herokuapp.com
-
 - name: Smashing Conference
   url: https://smashingconf.herokuapp.com
-
-- name: User Experience Design
-  url: https://www.designerhangout.co
 
 - name: Web a11y
   url: https://web-a11y.herokuapp.com
 
 - name: Web Performance
   url: https://webperformance.herokuapp.com
-
-- name: Best General Slack-Teams
-  url: https://github.com/ReportChef/List-of-best-Slack-Teams
