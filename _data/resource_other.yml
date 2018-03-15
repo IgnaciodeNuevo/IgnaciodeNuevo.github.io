@@ -102,3 +102,6 @@
 
 - name: CSS usage on the web platform
   url: https://developer.microsoft.com/en-us/microsoft-edge/platform/usage/
+
+- name: W3C all CSS Properties
+  url: https://www.w3.org/Style/CSS/all-properties.en.html
