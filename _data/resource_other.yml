@@ -105,6 +105,9 @@
 
 - name: W3C all CSS Properties
   url: https://www.w3.org/Style/CSS/all-properties.en.html
-  
+
 - name: Internet Explorer CSSGrid Layout support
   url: https://rachelandrew.co.uk/archives/2016/11/26/should-i-try-to-use-the-ie-implementation-of-css-grid-layout/
+
+- name: Front-End Developer Handbook 2018
+  url: https://frontendmasters.com/books/front-end-handbook/2018/
