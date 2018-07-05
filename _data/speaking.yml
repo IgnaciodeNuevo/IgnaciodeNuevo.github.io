@@ -1,4 +1,9 @@
-- name: CSS Grid Layout - ¡Se acabaron los hacks, larga vida al CSS! 
+- name: Workshop - CSS Grid Layout con fallbacks y a lo loco.
+  description: "Mediante Live Coding vimos de manera sencilla como CSS Grid Layout es capaz de solucionarnos estructuras de maquetación que requerían de trucos."
+  speaking_date: "Charla: Julio 7, 2018 (JSCoders Meetup)"
+  speaking_url: css-grid-layout-con-fallbacks-y-a-lo-loco/
+
+- name: CSS Grid Layout - ¡Se acabaron los hacks, larga vida al CSS!
   description: "¿Qué ha ocurrido todos estos años en el CSS? ¿Qué hemos estado usando en nuestro día a día? ¡Grid ha llegado para salvarnos del uso de hacks!"
   speaking_date: "Charla: Diciembre 20, 2017 (Plain Concepts Tech Day)"
   speaking_url: /CSS-Grid-PlainConcepts.pdf
