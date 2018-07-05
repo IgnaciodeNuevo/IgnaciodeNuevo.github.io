@@ -34,7 +34,7 @@
   }
 }
 
-.flex-center {
+.u-flex-center {
   align-items: center;
   display: flex;
   height: 100vh;
@@ -108,6 +108,23 @@
 .reset-bullet {
   padding-left: 0;
   list-style-type: none;
+}
+
+.btn-link {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  text-align: center;
+  background-color: $mainColor;
+  color: $bgColor;
+  border-radius: $borderRadius;
+  border: 3px solid $mainColor;
+  max-width: 30%;
+
+  &:hover {
+    @include underLine(transparent, $mainColor);
+  }
 }
 
 .btn a {
