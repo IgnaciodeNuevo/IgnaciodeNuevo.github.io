@@ -111,6 +111,9 @@
 
 - name: Front-End Developer Handbook 2018
   url: https://frontendmasters.com/books/front-end-handbook/2018/
-  
+
 - name: The Front-End Design Checklist
   url: https://frontenddesignchecklist.io/
+
+- name: HTTP Status Codes
+  url: https://httpstatuses.com/
