@@ -117,3 +117,6 @@
 
 - name: HTTP Status Codes
   url: https://httpstatuses.com/
+
+- name: Web Typography Resources
+  url: https://betterwebtype.com/web-typography-resources.html
