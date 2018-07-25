@@ -1,53 +1,22 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
 //
-// Box Model
+// Set up a decent box model on the root element
 //
 html {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-  border-top: 7px solid $mainColor;
+  box-sizing: border-box;
 }
 
 //
 // Make all elements from the DOM inherit from the parent box-sizing
-// See: https://css-tricks.com/box-sizing/
+// Since `*` has a specificity of 0, it does not override the `html` value
+// making all elements inheriting from the root box-sizing value
+// See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
 //
-*, *::before, *::after {
-  -webkit-box-sizing: inherit;
-     -moz-box-sizing: inherit;
-          box-sizing: inherit;
-} 
-
-//
-// Flat light-grey background color for the whole page
-//
-body {
-  background-color: $bgColor;
-}
-
-//
-// Basic styles for links
-// 1. Position context for pseudo-element
-//
-a {
-  position: relative; // 1
-  display: inline-block;
-  color: $mainColor;
-  text-decoration: none;
-
-  //
-  // Display 'special' underline
-  //
-  &:hover {
-    @include underLine($mainColor, $mainColor, 1px);
-  }
-}
-
-//
-// Basic styles for images
-//
-img {
-  max-width: 100%;
-  height: auto;
-  margin: 0 auto;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }

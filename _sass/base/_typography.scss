@@ -1,58 +1,11 @@
 //
 // Basic typography style for copy text
 //
+@import '../abstracts/variables.scss';
+
 body {
-  font: 18px/1.4 $sansFont;
-  font: 1.125rem/1.4 $sansFont;
-  color: $darkGrey;
-}
-
-label.text {
-  display: block;
-  margin-top: 30px;
-  text-align: center;
-}
-
-//
-// Headings level 1
-//
-h1 {
-  font-size: 32px;
-  font-size: 2rem;
-  margin-top: 45px;
-  margin-bottom: 35px;
-}
-
-//
-// Headings level 2
-//
-h2 {
-  font-size: 28px;
-  font-size: 1.75rem;
-  margin-top: 40px;
-  margin-bottom: 30px;
-}
-
-//
-// Headingds level 3
-//
-h3 {
-  font-size: 22px;
-  font-size: 1.375rem;
-  margin-top: 35px;
-}
-
-//
-// Vertical rhythm
-//
-p, ul, ol, h2 {
-  margin-bottom: 25px;
-}
-
-
-//
-// Vertical rhythm
-//
-li {
-  margin-bottom: 10px;
+    color: $color-base;
+    font-family: $font-family-base;
+    font-size: 100%;
+    line-height: 1.4;
 }

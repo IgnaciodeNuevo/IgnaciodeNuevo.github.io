@@ -1,0 +1,146 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+//
+// $Colors
+//
+
+// Base Color
+$color-base: #000000;
+$color-base-darker: lighten($color-base, 20);
+$color-base-dark: lighten($color-base, 40);
+$color-base-light: lighten($color-base, 60);
+$color-base-lighter: lighten($color-base, 80);
+
+// Primary Color
+$color-primary: #0047bb;
+
+// State Palette
+$state-ok:      #008022;
+$state-warning: #ffac00;
+$state-error:   #ff1e1e;
+
+// Text colors
+$text-color-base: $color-base-dark;
+$text-color-link: $color-primary;
+
+// Absolute colors to avoid linting alerts on hardcoded values
+$color-white: #ffffff;
+$color-black: #000000;
+
+
+
+//
+// $Box-Shadow
+//
+$box-shaodw-1: 0 1px 2px rgba($color-base-darker, 0.5);
+$box-shaodw-2: 0 1px 2px rgba($color-base-dark, 0.5);
+$box-shaodw-3: 0 1px 2px rgba($color-base-light, 0.5);
+$box-shaodw-4: 0 1px 2px rgba($color-base-lighter, 0.5);
+
+
+
+//
+// $Animations
+//
+$animation-speed-slow:    0.35s;
+$animation-speed-regular: 0.25s;
+$animation-speed-fast:    0.15s;
+$animation-type:          easy-in;
+
+//
+// $Font-Family
+//
+$font-family-base:
+  -apple-system,
+  BlinkMacSystemFont,
+  "Segoe UI",
+  Roboto,
+  Helvetica,
+  Arial,
+  sans-serif,
+  "Apple Color Emoji",
+  "Segoe UI Emoji",
+  "Segoe UI Symbol";
+
+//
+// $Font-Weight
+//
+$font-weight-thin:       100;
+$font-weight-extralight: 200;
+$font-weight-light:      300;
+$font-weight-normal:     400;
+$font-weight-medium:     500;
+$font-weight-semibold:   600;
+$font-weight-bold:       700;
+$font-weight-extrabold:  800;
+$font-weight-black:      900;
+
+
+
+//
+// $Font-Size
+//
+$font-base: 1rem; // 16px
+
+
+
+//
+// $SIZING
+//
+$master-size:     0.5rem;
+$container-width: 800px;
+
+// Size
+$size-s: $master-size / 2;
+$size-m: $master-size; // 8px
+$size-l: $master-size * 2; // 16px
+$size-xl: $master-size * 3; // 24px
+$size-xxl: $master-size * 4; // 32px
+$size-xxxl: $master-size * 5; // 40px
+$size-giant: $master-size * 6; // 48px
+
+// Paddings
+$padding-s: $master-size / 2; // 2px
+$padding-m: $master-size; // 8px
+$padding-l: $master-size * 2; // 16px
+$padding-xl: $master-size * 3; // 24px
+$padding-xxl: $master-size * 4; // 32px
+$padding-xxxl: $master-size * 5; // 40px
+$padding-giant: $master-size * 6; // 48px
+
+// Margins
+$margin-s: $master-size / 2; // 4px
+$margin-m: $master-size; // 8px
+$margin-l: $master-size * 2; // 16px
+$margin-xl: $master-size * 3; // 24px
+$margin-xxl: $master-size * 4; // 32px
+$margin-xxxl: $master-size * 5; // 40px
+$margin-giant: $master-size * 6; // 48px
+
+// Icons
+$icon-s: $master-size / 2; // 4px
+$icon-m: $master-size; // 8px
+$icon-l: $master-size * 2; // 16px
+$icon-xl: $master-size * 3; // 24px
+$icon-xxl: $master-size * 4; // 32px
+$icon-xxxl: $master-size * 5; // 40px
+$icon-giant: $master-size * 6; // 48px
+
+
+
+//
+// $Scale
+//
+$scale: 1.61803;
+
+
+
+//
+// $Z-INDEX
+//
+$z-index-s: 1;
+$z-index-m: 2;
+$z-index-l: 3;
+$z-index-xl: 4;

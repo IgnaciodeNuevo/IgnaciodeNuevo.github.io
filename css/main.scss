@@ -2,40 +2,35 @@
 ---
 @charset 'utf-8';
 
-@import "utils/variables";
-@import "utils/mixins";
+// 1. Configuration and helpers
+@import
+    'abstracts/variables',
+    'abstracts/functions',
+    'abstracts/mixins/absolute',
+    'abstracts/mixins/ellipsis',
+    'abstracts/mixins/multiline-ellipsis',
+    'abstracts/mixins/vertical-center',
+    'abstracts/mixins/fonts';
 
-@import "vendor/normalize";
 
-@import "base/base";
-@import "base/helpers";
-@import "base/typography";
+// 2. Vendors
+@import
+    'vendor/normalize';
 
-@import "layout/header";
-@import "layout/footer";
-@import "layout/main";
-@import "layout/nav";
-@import "layout/article";
-//empty file - @import "layout/sidebar";
+// 3. Base stuff
+@import
+    'base/base',
+    'base/fonts',
+    'base/typography',
+    'base/utilities';
 
-@import "components/figure";
-@import "components/pagination";
-@import "components/images";
-@import "components/lists";
-@import "components/code";
-@import "components/blockquote";
-@import "components/cite";
-@import "components/mailchimp-form";
+// 4. Layout-related sections
+@import
+    'layout/header',
+    'layout/footer';
 
-@import "pages/home";
-@import "pages/post";
-@import "pages/about";
-@import "pages/interviews";
-@import "pages/speaking";
-@import "pages/resources";
-@import "pages/search";
-//empty file - @import "pages/styleguide";
+// 5. Components
 
-@import "base/tags";
-@import "base/shame";
-@import "base/forofor";
+// 6. Page-specific styles
+@import
+    'pages/home';

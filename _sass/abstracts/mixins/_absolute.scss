@@ -1,0 +1,11 @@
+// Position absolute an element
+// @author Ignacio Villanueva
+// @params {String} $top, $right, $bottom, $left
+
+@mixin absolute ($top, $right, $bottom, $left) {
+   position: absolute;
+   top: $top;
+   right: $right;
+   bottom: $bottom;
+   left: $left;
+}
