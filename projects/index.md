@@ -13,7 +13,7 @@ When I can, I try to invest a lot of time in open-source projects. Here are a fe
 <ul class="reset-bullet">
 {% for project in site.data.projects %}
   <li class="article  container">
-    <a class="article__link" href="/projects/{{ project.project_url }}"> 
+    <a class="article__link" href="/projects/{{ project.project_url }}">
       <h3 class="article__h3">{{ project.name }}</h3>
       <time class="article__date" datetime="{{ project.date | date: "%Y-%m-%d" }}">{{ project.project_date }}</time>
       <p class="article__excerpt">{{ project.description }}</p>
