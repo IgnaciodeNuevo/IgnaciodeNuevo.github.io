@@ -1,0 +1,916 @@
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <title>Ignacio Villanueva &ndash; Front-end Developer focusing front-end architecture, front-end performance and responsive web design.</title>
+
+<!-- StyleSheets & DNS Prefetch -->
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  <link rel="dns-prefetch" href="//www.google-analytics.com">
+  <link rel="dns-prefetch" href="https://twitter.com/ignaciodenuevo">
+  <link rel="dns-prefetch" href="//platform.twitter.com">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:700,400|Source+Code+Pro' rel='stylesheet' type='text/css'>
+
+<!-- Open Graph data -->
+  <meta property="og:title" content="Charla: Arquitectura y buenas prácticas CSS – Ignacio Villanueva." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="http://ignaciodenuevo.com/speaking/arquitectura-y-buenas-practicas-css" />
+  <meta property="og:image" content="http://ignaciodenuevo.com/images/logo.jpg" />
+  <meta property="og:description" content="Charla: Arquitectura y buenas prácticas CSS – Ignacio Villanueva." />
+  <meta property="og:site_name" content="http://ignaciodenuevo.com" />
+
+<!-- Twitter cards -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@IgnaciodeNuevo">
+  <meta name="twitter:domain" content="http://ignaciodenuevo.com/speaking/arquitectura-y-buenas-practicas-css">
+  <meta name="twitter:creator" content="@IgnaciodeNuevo">
+  <meta name="twitter:title" content="Charla: Arquitectura y buenas prácticas CSS – Ignacio Villanueva design.">
+  <meta name="twitter:image" content="http://ignaciodenuevo.com/images/logo.jpg">
+  <meta name="twitter:description" content="Charla: Arquitectura y buenas prácticas CSS – Ignacio Villanueva design.">
+
+<!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/images/favicon/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/images/favicon/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/images/favicon/manifest.json">
+  <link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg" color="#0047bb">
+  <meta name="theme-color" content="#ffffff">
+
+<!-- Chrome for Android Toolbar Color-->
+  <meta name="theme-color" content="#0047BB">
+
+<!-- Other -->
+  <meta name="description" content="Articles on CSS, Sass, architecture, front-end performance, and mobile and responsive web design based in Barcelona.">
+
+<!-- CSS Base -->
+  <link rel="stylesheet" type='text/css' media='all' href="webslides/css/base.css">
+
+<!-- CSS Colors -->
+  <link rel="stylesheet" type='text/css' media='all' href="webslides/css/colors.css">
+
+</head>
+<!--
+.___                             .__           .___     ____  ___
+|   | ____ __   ________    ____ |__| ____  ___|  /____ \   \ |  \  __ __   ______    ______
+|   |/ __ \\ \ |  |\__  \ _/ ___\|  |/ _  \/ __  /  __ \|    \|   ||  |  \_/ __ \ \  / /  _ \
+|   / /_/  >  \|  |/ __ \\  \___ |  ( <_> ) /_/ \   ___/  |\      |   |  /\  ___/\ \/ (  <_> )
+|___\___  /|_|\___(____  /\___  >__|\____/\____ |\___  >__| \__  / \____/  \___ > \__/ \____/
+   /_____/             \/     \/               \/    \/        \/             \/
+
+   - Twitter: @IgnaciodeNuevo - GitHub: IgnaciodeNuevo - Email: ignaciodenuevo@gmail.com -
+
+-->
+  </head>
+  <body>
+    <main role="main">
+      <article id="webslides">
+        <!-- Quick Guide
+          - Each parent <section> in the <article id="webslides"> element is an individual slide.
+          - Vertical sliding = <article id="webslides" class="vertical">
+          - <div class="wrap"> = container 90% / <div class="wrap size-50"> = 45%;
+        -->
+
+        <!-- Slide 1 -->
+        <section class="bg-apple aligncenter">
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap aligncenter">
+            <h1><strong>Arquitectura y buenas prácticas CSS</strong></h1>
+            <p class="text-intro">Adalab, Madrid – 5 de Mayo, 2017</p>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+
+
+        <!-- Slide 2 -->
+        <section class="bg-apple aligncenter">
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap aligncenter">
+            <img style="max-width: 500px;" src="/images/speaking/speaking-logo-ignaciodenuevo-horizontal.svg" alt="IgnaciodeNuevo's Logo">
+            <p class="text-intro">Soy Front-end Developer en <a href="https://kubide.es/">Kubide</a> especializado en arquitectura, front-end performance y responsive web design.<br>
+            (Vamos que me encanta el CSS)</p>
+            <h2><strong>¿Qué más hago?</strong></h2>
+            <p class="text-intro">Podcasting en WeCodeSign y organizo Open Source Weekends</p>
+            <p class="myFlex">
+              <img style="max-width: 150px;" src="/images/speaking/speaking-logo-WCD.svg" alt="WeCodeSign Podcast's Logo">
+              <img style="max-width: 150px;" src="/images/speaking/speaking-logo-OSW.svg" alt="Open Source Weekends Podcast's Logo">
+            </p>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+
+
+        <!-- Slide 3 -->
+        <section class="aligncenter slide current">
+          <span class="background" style="background-image:url('https://media.giphy.com/media/13XW2MJE0XCoM0/giphy.gif')"></span>
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap">
+            <h1 class="text-landing  myText">¡Comenzamos!</h1>
+            <p class="text-intro  myText">Existen <strong>DOS </strong> tipos de personas en el mundo. A los que nos gusta el CSS y a los que <strong>NO ;)</strong>.</p>
+          </div>
+        </section>
+
+
+
+        <!-- Slide 4 -->
+        <section class="bg-apple">
+          <div class="wrap aligncenter">
+            <h1><strong>Naming Conventions</strong></h1>
+            <p class="text-intro">BEM, SMACSS, OOCSS</p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <!-- Slide 5 -->
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter"><strong>BEM</strong></h1>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">¿Cómo funciona?</p>
+                <p class="text-intro"><code>btn</code></p>
+                <p class="text-intro"><code>btn__price</code></p>
+                <p class="text-intro"><code>btn--big</code></p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+<span class="code-comment">&lt;!-- Correcto. La clase `error` está usada correctamente usada --&gt;</span>
+&lt;div class="error"&gt;
+
+  <span class="code-comment">&lt;!-- `search-form` Elemento de tipo bloque --&gt;</span>
+  &lt;form class="search-form"&gt;
+
+    <span class="code-comment">&lt;!-- `search-form__input` Elemento de tipo elemento --&gt;</span>
+    &lt;input class="search-form__input"&gt;
+
+    <span class="code-comment">&lt;!-- `button` Elemento de tipo modificador --&gt;</span>
+    &lt;button class="search-form__button"&gt;Search&lt;/button&gt;
+  &lt;/form&gt;
+
+  &lt;/form&gt;
+&lt;/div&gt;
+</pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+            <p class="aligncenter"><a href="https://en.bem.info/" target="_blank">Documentación de BEM</a></p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+
+        <!-- Slide 6 -->
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter"><strong>SMACSS</strong></h1>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">¿Cómo funciona?</p>
+                <p class="text-intro"><code>Base</code></p>
+                <p class="text-intro"><code>Layout</code></p>
+                <p class="text-intro"><code>Module</code></p>
+                <p class="text-intro"><code>State</code></p>
+                <p class="text-intro"><code>Theme</code></p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+<span class="code-comment">&lt;!-- Base: Selectores, aunque a veces pueden ser atributos, pseudoelementos, selectores hijos o padres. --&gt;</span>
+&lt;body&gt;, &lt;a:hover&gt;
+
+<span class="code-comment">&lt;!-- Secciones, entendiendo que dentro de cada sección el contenido se dividirá en módulos. --&gt;</span>
+&lt;article&gt;, &lt;footer&gt;
+
+<span class="code-comment">&lt;!-- Componentes que pueden ser reutilizados. --&gt;</span>
+.module span
+
+<span class="code-comment">&lt;!-- Reglas que nos marcan el estado de nuestros módulos. Ej: estado activo de un botón. --&gt;</span>
+.is-collapsed, .is-active
+
+<span class="code-comment">&lt;!-- Theme: SOpcional. --&gt;</span>
+.mod, &lt;.theme-background&gt;
+
+</pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+            <p class="aligncenter"><a href="https://smacss.com/" target="_blank">Documentación de SMACSS</a></p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <!-- Slide 7 -->
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter"><strong>Object Oriented CSS  (OOCSS)</strong></h1>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">¿Cómo funciona?</p>
+                <p class="text-intro"><code>Separación de estructura y aspecto</code></p>
+                <p class="text-intro"><code>Separación de "contenedores" y contenido: ha de comportarse igual esté donde esté</code></p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+<span class="code-comment">&lt;!-- Sin usar el "Single Responsibility Principle" --&gt;</span>
+.card {
+  color: black;
+  margin-top: 100px;
+  box-shadow: 0px 0px 30px rgba(0,0,0,.3);
+  background-color: white;
+  font-size: 30px;
+  position: relative;
+  display: block;
+  width: 50%;
+  padding: 30px;
+}
+
+<span class="code-comment">&lt;!-- Usando el el "Single Responsibility Principle" --&gt;</span>
+.card {
+  color: goldenrod;
+  box-shadow: 0px 0px 30px rgba(0,0,0,.3);
+  background-color: silver;
+  font-size: 30px;
+  padding: 30px;
+}
+
+.half {
+  position: relative;
+  display: block;
+  width: 50%;
+}
+
+.mtxl {
+  margin-top: 100px;
+}
+</pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+            <p class="aligncenter"><a href="https://github.com/stubbornella/oocss/wiki" target="_blank">Documentación de OOCSS</a></p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <!-- Slide 8 -->
+        <section class="bg-apple">
+          <div class="wrap aligncenter">
+            <h1><strong>CSS = Hojas de Estilo en Cascada</strong></h1>
+            <p class="text-intro">Parece obvio pero os daréis cuenta de que no siempre es así</p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <!-- Slide 9 -->
+        <section class="bg-apple">
+          <span class="background" style="background-image:url('https://source.unsplash.com/n9WPPWiPPJw/')"></span>
+          <div class="wrap aligncenter">
+            <h1><strong>CSS-in-JS</strong></h1>
+            <p class="text-intro">Existe otro mundo allí fuera. No creo que sea una buena práctica pero tiene sus usos y ayuda en muchas ocasiones.</p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <!-- Slide 10 -->
+        <section class="bg-apple">
+          <div class="wrap aligncenter">
+            <h1><strong></strong>Arquitectura Sass 7-1</h1>
+            <p class="text-intro">Parte 1/3</p>
+            <pre>
+sass/
+|
+|– abstracts/
+|   |– _variables.scss    # Sass Variables
+|   |– _functions.scss    # Sass Functions
+|   |– _mixins.scss       # Sass Mixins
+|   |– _placeholders.scss # Sass Placeholders
+|
+|– base/
+|   |– _reset.scss        # Reset/normalize
+|   |– _typography.scss   # Typography rules
+|   …                     # Etc.
+            </pre>
+          </div>
+          <p class="aligncenter"><a href="https://sass-guidelin.es/#the-7-1-pattern" target="_blank">Documentación de Sass 7-1 Pattern</a></p>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+        <!-- Slide 11 -->
+        <section class="bg-apple">
+          <div class="wrap aligncenter">
+            <h1><strong></strong>Arquitectura Sass 7-1</h1>
+            <p class="text-intro">Parte 2/3</p>
+            <pre>
+|
+|– components/
+|   |– _buttons.scss      # Buttons
+|   |– _carousel.scss     # Carousel
+|   |– _cover.scss        # Cover
+|   |– _dropdown.scss     # Dropdown
+|   …                     # Etc.
+|
+|– layout/
+|   |– _navigation.scss   # Navigation
+|   |– _grid.scss         # Grid system
+|   |– _header.scss       # Header
+|   |– _footer.scss       # Footer
+|   |– _sidebar.scss      # Sidebar
+|   |– _forms.scss        # Forms
+|   …                     # Etc.
+            </pre>
+          </div>
+          <p class="aligncenter"><a href="https://sass-guidelin.es/#the-7-1-pattern" target="_blank">Documentación de Sass 7-1 Pattern</a></p>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+        <!-- Slide 12 -->
+        <section class="bg-apple">
+          <div class="wrap aligncenter">
+            <h1><strong></strong>Arquitectura Sass 7-1</h1>
+            <p class="text-intro">Parte 3/3</p>
+            <pre>
+|
+|– pages/
+|   |– _home.scss         # Home specific styles
+|   |– _contact.scss      # Contact specific styles
+|   …                     # Etc.
+|
+|– themes/
+|   |– _theme.scss        # Default theme
+|   |– _admin.scss        # Admin theme
+|   …                     # Etc.
+|
+|– vendors/
+|   |– _bootstrap.scss    # Bootstrap
+|   |– _jquery-ui.scss    # jQuery UI
+|   …                     # Etc.
+|
+`– main.scss              # Main Sass file
+
+            </pre>
+          </div>
+          <p class="aligncenter"><a href="https://sass-guidelin.es/#the-7-1-pattern" target="_blank">Documentación de Sass 7-1 Pattern</a></p>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <!-- Slide 12 -->
+        <section class="bg-apple">
+          <span class="background" style="background-image: url('https://media.giphy.com/media/ToMjGpx9F5ktZw8qPUQ/giphy.gif')"></span>
+          <div class="wrap aligncenter">
+            <h1><strong>Tras esta maravilla...</strong></h1>
+            <p class="text-intro">Habrá momentos en los que usaréis frameworks o librerías como Angular2, React, Vue (inserte aquí framework de moda)</p>
+          </div>
+        </section>
+
+
+
+        <!-- Slide 12 -->
+        <section class="bg-apple">
+          <h1 class="aligncenter"><strong>You might not need a CSS framework</strong></h1>
+          <div class="wrap size-60">
+            <!-- Responsive video/iframe... Add <div class="embed"> -->
+            <div class="embed">
+              <iframe data-youtube-id="6NNFMZDimLQ" frameborder="0" allowfullscreen="1" title="YouTube video player" width="640" height="360" src="https://www.youtube.com/embed/6NNFMZDimLQ"></iframe>
+            </div>
+            <!-- .end .embed -->
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+
+
+
+        <!-- Slide 13 -->
+        <section class="bg-apple">
+          <div class="wrap aligncenter">
+            <h1><strong>Bootstrap, Foundation</strong></h1>
+            <p class="text-intro">¡Es el mal!, En verdad no pero no se debería usar para todo.</p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+
+        <!-- Slide 14 -->
+        <section class="bg-apple">
+          <div class="wrap aligncenter">
+            <h1><strong>Buenas prácticas CSS</strong></h1>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <!-- Slide 15 -->
+        <section class="bg-apple">
+          <div class="wrap aligncenter">
+            <h1><strong>1/11</strong></h1>
+            <p class="text-intro">Consistencia al escribir código</p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <!-- Slide 16 -->
+        <section class="bg-apple">
+          <div class="wrap aligncenter">
+            <h1><strong>2/11</strong></h1>
+            <p class="text-intro">No usar IDs</p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <!-- Slide 17 -->
+        <section class="bg-apple">
+        <span class="background" style="background-image: url('https://source.unsplash.com/Y_pLBbSAhHI');"></span>
+          <div class="wrap aligncenter">
+            <h1><strong>3/11</strong></h1>
+            <p class="text-intro">No usar !important. Cada vez que se haga el Dios del Front matará un gatito. ¡Y no queremos que pase!</p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <!-- Slide 18 -->
+        <section class="bg-apple">
+          <div class="wrap aligncenter">
+            <h1><strong>4/11</strong></h1>
+            <p class="text-intro">Orden de propiedades CSS</p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+
+        <!-- Slide 19 -->
+        <section class="bg-apple">
+          <div class="wrap aligncenter">
+            <h1><strong>5/11</strong></h1>
+            <p class="text-intro">No usar shorthands, debido a que estás dando en muchos casos valores por defecto el navegador como en margin: 0 auto</p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+
+        <!-- Slide 20 -->
+        <section class="bg-apple">
+          <div class="wrap aligncenter">
+            <h1><strong>6/11</strong></h1>
+            <p class="text-intro">Single Responsibility Principle</p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+
+        <!-- Slide 21 -->
+        <section class="bg-apple">
+          <div class="wrap aligncenter">
+            <h1><strong>7/11</strong></h1>
+            <p class="text-intro">Minificar</p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <!-- Slide 22 -->
+        <section class="bg-apple">
+          <div class="wrap aligncenter">
+            <h1><strong>8/11</strong></h1>
+            <p class="text-intro">UnCSS</p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <!-- Slide 23 -->
+        <section class="bg-apple">
+          <div class="wrap aligncenter">
+            <h1><strong>9/11</strong></h1>
+            <p class="text-intro">Concatenar</p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <!-- Slide 24 -->
+        <section class="bg-apple">
+          <div class="wrap aligncenter">
+            <h1><strong>10/11</strong></h1>
+            <p class="text-intro">Usar clases específicas para JS</p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <!-- Slide 25 -->
+        <section class="bg-apple">
+          <div class="wrap aligncenter">
+            <h1><strong>11/11</strong></h1>
+            <p class="text-intro">Uso de Linters</p>
+          </div>
+          <p class="aligncenter"><a href="https://github.com/jorgeatgu/base/blob/master/gulpfile.js" target="_blank">Tareas Gulp de Jorge ;)</a></p>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <!-- Slide 26 -->
+        <section class="bg-apple">
+          <div class="wrap aligncenter">
+            <h1><strong>¿A quién seguir?</strong></h1>
+            <p class="text-intro">Gente que habla habitualmente de buenas práctias y arquitectura CSS.</p>
+            <ul class="flexblock features">
+              <li>
+                <a href="https://twitter.com/LeaVerou" target="_blank"><h3 class="aligncenter">Lea Verou</h3></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/jensimmons" target="_blank"><h3 class="aligncenter">Jen Simmons</h3></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/rachelandrew" target="_blank"><h3 class="aligncenter">Rachel Andrew</h3></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/csswizardry" target="_blank"><h3 class="aligncenter">Harry Roberts</h3></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/HugoGiraudel" target="_blank"><h3 class="aligncenter">Hugo Giraudel</h3></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/nabaroa" target="_blank"><h3 class="aligncenter">Naiara Abaroa</h3></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/diana_aceves_" target="_blank"><h3 class="aligncenter">Diana Aceves</h3></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/ancoar" target="_blank"><h3 class="aligncenter">Ángel Corral</h3></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/wakkos" target="_blank"><h3 class="aligncenter">Daniel Martínez</h3></a>
+              </li>
+            </ul>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <!-- Slide 27 -->
+        <section class="bg-apple">
+          <div class="wrap aligncenter">
+            <h1><strong>¡Gracias!</strong></h1><br><br>
+            <p class="text-symbols">* * *</p>
+            <a href="http://ignaciodenuevo.com/" target="_blank">IgnaciodeNuevo.com</a><br><br>
+            <a href="http://wecodesignpodcast.com/" target="_blank">WeCodeSign Podcast</a><br><br>
+            <a href="http://osweekends.com/" target="_blank">Open Source Weekends</a>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <!-- Slide 28 -->
+        <section class="bg-apple">
+          <span class="background" style="background-image: url('https://media.giphy.com/media/sB7cTkLm0xzXO/giphy.gif')"></span>
+          <div class="wrap aligncenter">
+            <h1><strong>¿Alguna pregunta?</strong></h1>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+      </article>
+    </main>
+    <!--main-->
+
+
+
+
+
+
+      </article>
+      <!-- end article -->
+    </main>
+    <!-- end main -->
+
+   <!-- A global footer
+
+     <footer role="contentinfo">
+      <div class="wrap">
+        <p>An <a href="https://github.com/webslides/webslides">open source solution</a>, by <a href="https://twitter.com/webslides">@webslides</a>.</p>
+      </div>
+    </footer>  -->
+
+    <!-- Required -->
+    <script src="webslides/js/webslides.min.js"></script>
+    <script>
+      window.ws = new WebSlides();
+    </script>
+
+  </body>
+  </html>
