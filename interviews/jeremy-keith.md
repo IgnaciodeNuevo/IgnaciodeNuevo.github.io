@@ -2,9 +2,9 @@
 layout: interview
 title: "Jeremy Keith"
 ---
-<img class="home-section__portrait" src="/images/portrait-jeremy-keith.jpg" alt="Photo Jeremy Keith"  />
-{% if page.title %} 
-  <h1 class="interviews__h1">{{ page.title }}</h1> 
+<img class="" src="/images/portrait-jeremy-keith.jpg" alt="Photo Jeremy Keith"  />
+{% if page.title %}
+  <h1 class="">{{ page.title }}</h1>
 {% endif %}
 
 ## To all those don't meet you yet. How do you describe yourself?
@@ -31,7 +31,7 @@ There's so much involved in front-end development these days, I think that one o
 
 ## How would you recommend somebody to start learning web development?
 
-<img class="pull-image--right" src="/images/interview-clearleft-2.jpg" alt="1st and 2nd floor at night">
+<img class="" src="/images/interview-clearleft-2.jpg" alt="1st and 2nd floor at night">
 
 Start with the foundations. Understand how the web works: HTTP, URLs, GET and POST. Then learn HTML, but I mean *really* learn HTML. I'm often surprised by how many advanced developers who are geniuses in JavaScript seem to have skipped over all that markup has to offer and end up expending a lot of effort trying to reproduce what the browser already does.
 

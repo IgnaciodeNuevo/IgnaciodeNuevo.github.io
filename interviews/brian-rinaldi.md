@@ -2,9 +2,10 @@
 layout: interview
 title: "Brian Rinaldi"
 ---
-<img class="home-section__portrait" src="/images/portrait-brian-rinaldi.jpg" alt="Photo Brian Rinaldi"  />
-{% if page.title %} 
-  <h1 class="interviews__h1">{{ page.title }}</h1> 
+
+<img class="" src="/images/portrait-brian-rinaldi.jpg" alt="Photo Brian Rinaldi"  />
+{% if page.title %}
+  <h1 class="">{{ page.title }}</h1>
 {% endif %}
 
 ## To all those who haven't met you yet. How do you describe yourself?

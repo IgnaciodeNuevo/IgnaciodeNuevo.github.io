@@ -2,22 +2,22 @@
 layout: interview
 title: "Jamie Knight"
 ---
-<img class="home-section__portrait" src="/images/portrait-jamie-knight.jpg" alt="Photo Jamie Knight"  />
-{% if page.title %} 
-  <h1 class="interviews__h1">{{ page.title }}</h1> 
+<img class="" src="/images/portrait-jamie-knight.jpg" alt="Photo Jamie Knight"  />
+{% if page.title %}
+  <h1 class="">{{ page.title }}</h1>
 {% endif %}
 
 ## To all those don't meet you yet. How do you describe yourself?
 
 I am Jamie, I am autistic, 26 and have been coding for the web since I was 9. I am never seen far from a large plushie lion named “Lion”.
 
-I have been working as a developer for well over 10 years now and have worked for companies like Apple, Channel 4, Dogs Trust and the BBC. I have been at the BBC for about 5 years. 
+I have been working as a developer for well over 10 years now and have worked for companies like Apple, Channel 4, Dogs Trust and the BBC. I have been at the BBC for about 5 years.
 
 I started working in Radio and Music where I became a lead developer on iPlayer Radio. I then worked on shared code like BBC header and footer in the Platform Engineering team.
 
 I have developed at a range of scales from small bespoke tools though to websites serving 6000 requests a second. My current job focuses on accessibility, ensuring the BBC’s products and services meets the needs of the whole audience. As part of that role I also work with R&D to develop new techniques and technologies.
 
-Outside of the BBC I am active in the autism community where I write and lecture about subjects like computer assistive communication and independent living. 
+Outside of the BBC I am active in the autism community where I write and lecture about subjects like computer assistive communication and independent living.
 
 Finally, I really like riding my mountain bike ;)
 
@@ -25,7 +25,7 @@ Finally, I really like riding my mountain bike ;)
 
 I had been developing for the web for almost 10 years before I really took the time to understand javascript. In some ways this is a good thing (my knowledge of CSS and HTML is very strong) but I think if I was to go back now I would have started using JS more earlier in my career.
 
-I think its also important to learn javascript itself and not get distracted learning a specific framework, tool, or package. 
+I think its also important to learn javascript itself and not get distracted learning a specific framework, tool, or package.
 
 ## Front-end seems to be easy until you start to learning. How do you face the challenge of learning new things?
 
@@ -45,19 +45,19 @@ While the tooling gives good outcomes in the short term, it does not lay a good 
 
 I’m a bit boring in that I think all web developers should have a great understanding of HTML and CSS before they explore the more advanced tools. I often see code which is very impressive at the interaction layer (JS) but the HTML and CSS is very poor. This results in poor user experiences for everyone and often no user experience at all for those with disabilities.
 
-More developers need to bear in mind the breath of the audience of the web. The power of the web is its power to be usable to all and I think many developers loose that principle. 
+More developers need to bear in mind the breath of the audience of the web. The power of the web is its power to be usable to all and I think many developers loose that principle.
 
 ## How would you recommend somebody to start learning web development?
 
-Get a good book on HTML and build a basic website with a text editor, and cheap hosting account and FTP. Don’t worry about how it looks to much, but get a site built. 
+Get a good book on HTML and build a basic website with a text editor, and cheap hosting account and FTP. Don’t worry about how it looks to much, but get a site built.
 
-Then iterate on that site like mad. Add CSS slowly and then maybe add a CMS (like perch). Start from the very minimum of a page and work from there. 
+Then iterate on that site like mad. Add CSS slowly and then maybe add a CMS (like perch). Start from the very minimum of a page and work from there.
 
-Toolkits like bootstrap made it easy to build a website, but it does not teach web development. 
+Toolkits like bootstrap made it easy to build a website, but it does not teach web development.
 
 ## When starting a new project, if you feel stuck where do you look for inspiration?
 
-I generally look around the BBC or talk to other developers on Twitter. If I am working on an App I may also download a few apps with a similar purpose or audience and see what I can learn. 
+I generally look around the BBC or talk to other developers on Twitter. If I am working on an App I may also download a few apps with a similar purpose or audience and see what I can learn.
 
 ## What was your first development job and how you faced it?
 
@@ -65,7 +65,7 @@ The first website I was paid to build I built when I was 14. I have been making 
 
 This was back in 2004 and I used Dreamweaver, plus a bit of handing coding. The site was my first site to use CSS for most of the colours and type. It was probably another year before I was using CSS for layout too.
 
-This was before twitter, I think it was about this time I joined the boagworld web design forum. 
+This was before twitter, I think it was about this time I joined the boagworld web design forum.
 
 ## What was the most challenging project you ever faced and why?
 
@@ -81,9 +81,9 @@ Everything I build is progressively enhanced, so JS comes at the end.
 
 I am excited about ARIA and the future of the web as a platform. The web is powerful because of its accessible nature and with tools like ARIA building an inclusive web is becoming easier.
 
-There are _billions_ of users yet to come online and I see this as a very exciting opportunity. 
+There are _billions_ of users yet to come online and I see this as a very exciting opportunity.
 
-Technology wise, I enjoy using node to build little apps and tools. For example, I built a system using an xbox controller and node running on a raspberry pi to control my house lighting. The raspberry pi also hosts a website for configuring what the controller does. 
+Technology wise, I enjoy using node to build little apps and tools. For example, I built a system using an xbox controller and node running on a raspberry pi to control my house lighting. The raspberry pi also hosts a website for configuring what the controller does.
 
 Its not very complicated, but it has made my life easier and been lots of fun. I have just started a project to build a tracker and data gather unit and website for a friend of mine who is off to travel the world.
 
@@ -95,7 +95,7 @@ Finally, I have learnt more by working with others than I would have ever learnt
 
 ## Do you have any advice for new developers just starting their career journey?
 
-Don’t rush. Take it slow and start with HTML and CSS. Make lots of things and write, talk and blog about the things you are making. 
+Don’t rush. Take it slow and start with HTML and CSS. Make lots of things and write, talk and blog about the things you are making.
 
 Another key aspect is to develop the social skills and communication skills needed to express your ideas well. Many developers don’t take time to learn the non technical skills and it will limit what they can do in the future.
 

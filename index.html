@@ -8,7 +8,7 @@ tags:
 classes: home
 ---
 <section class="home-section container">
-    <img class="home-section__portrait" src="/images/ignacio-villanueva.jpg" alt="Photo Ignacio Villanueva"  />
+    <img class="" src="/images/ignacio-villanueva.jpg" alt="Photo Ignacio Villanueva"  />
     <h1 class="home-section__h1">I am Ignacio Villanueva a front-end developer focused on architecture, front-end performance and responsive web design.</h1>
     <p class="home-section__p">You can follow me on <a href="{{ site.twitter }}" rel="me" target="_blank">Twitter</a>, fork me on <a href="{{ site.github }}" rel="me" target="_blank">Github</a>, subscribe via <a href="/feed.xml">RSS Feed</a> or say hello at <a href="mailto:{{ site.email }}" rel="me">{{ site.email }}</a>.</p>
 </section>
@@ -19,18 +19,18 @@ classes: home
     {% for podcast in site.data.podcast limit:1 %}
     <h2 class="article__h2  container">Latest Podcast episode:</h2>
     <div>
-    <blockquote class="container  alert">
+    <blockquote class="">
         <span>The Podcast is in Spanish.</span>
     </blockquote>
     </div>
-    <article class="article  container">
-      <a class="article__link" href="/podcast/{{ podcast.podcast_url }}">
-        <h3 class="article__h3">{{ podcast.name }}</h3>
-        <time class="article__date" datetime="{{ podcast.date | date: "%Y-%m-%d" }}">{{ podcast.podcast_date }}</time>
-        <p class="article__excerpt">{{ podcast.description }}</p>
-        <img class="portrait--small" src="{{ podcast.image_url }}" alt="{{ podcast.name }} Image"/>
+    <article class="">
+      <a class="" href="/podcast/{{ podcast.podcast_url }}">
+        <h3 class="">{{ podcast.name }}</h3>
+        <time class="" datetime="{{ podcast.date | date: "%Y-%m-%d" }}">{{ podcast.podcast_date }}</time>
+        <p class="">{{ podcast.description }}</p>
+        <img class="" src="{{ podcast.image_url }}" alt="{{ podcast.name }} Image"/>
       </a>
-    <p class="article__url">
+    <p class="">
       <a href="{{ podcast.podcast_web }}" target="_blank">Accede al post del episodio</a>
     </p>
     </article>
@@ -38,8 +38,8 @@ classes: home
 
     {% for talk in site.data.speaking limit:1 %}
       <h2 class="article__h2  container">Latest talk:</h2>
-      <article class="article  container">
-        <a class="article__link" href="/speaking/{{ talk.speaking_url }}">
+      <article class="">
+        <a class="" href="/speaking/{{ talk.speaking_url }}">
           <h3 class="speaking__h3">{{ talk.name }}</h3>
           <time class="speaking__date">{{ talk.speaking_date }}</time>
           <p class="speaking__excerpt">{{ talk.description }}</p>
@@ -49,11 +49,11 @@ classes: home
 
     {% for post in site.posts limit:1 %}
       <h2 class="article__h2  container">Latest article:</h2>
-      <article class="article  container">
-        <a class="article__link" href="{{ post.url }}">
-          <h3 class="article__h3">{{ post.title }}</h3>
-          <time class="article__date" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.post_date }}</time>
-          <p class="article__excerpt">{{ post.excerpt }}</p>
+      <article class="">
+        <a class="" href="{{ post.url }}">
+          <h3 class="">{{ post.title }}</h3>
+          <time class="" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.post_date }}</time>
+          <p class="">{{ post.excerpt }}</p>
           <p class="article__number">{{ post.post_number }}</p>
         </a>
       </article>
@@ -61,16 +61,16 @@ classes: home
 
     {% for interview in site.data.interviews limit:1 %}
       <h2 class="article__h2  container">Latest interview:</h2>
-      <article class="article  container">
-        <a class="article__link" href="/interviews/{{ interview.interview_url }}">
-          <h3 class="article__h3">{{ interview.name }}</h3>
-          <time class="article__date" datetime="{{ interview.date | date: "%Y-%m-%d" }}">{{ interview.interview_date }}</time>
-          <p class="article__excerpt">{{ interview.excerpt }}</p>
-          <img class="portrait--small" src="{{ interview.image_url }}" alt="{{ interview.interview }} Photography"/>
+      <article class="">
+        <a class="" href="/interviews/{{ interview.interview_url }}">
+          <h3 class="">{{ interview.name }}</h3>
+          <time class="" datetime="{{ interview.date | date: "%Y-%m-%d" }}">{{ interview.interview_date }}</time>
+          <p class="">{{ interview.excerpt }}</p>
+          <img class="" src="{{ interview.image_url }}" alt="{{ interview.interview }} Photography"/>
           <p class="article__number">{{ interview.interview_number }}</p>
         </a>
-        <p class="article__url"><a href="{{ interview.interview_web }}" target="_blank">{{ interview.name }}'s Web</a></p>
-        <p class="article__url"><a href="{{ interview.interview_twitter }}" target="_blank">{{ interview.name }}'s Twitter</a></p>
+        <p class=""><a href="{{ interview.interview_web }}" target="_blank">{{ interview.name }}'s Web</a></p>
+        <p class=""><a href="{{ interview.interview_twitter }}" target="_blank">{{ interview.name }}'s Twitter</a></p>
       </article>
     {% endfor %}
 </main>

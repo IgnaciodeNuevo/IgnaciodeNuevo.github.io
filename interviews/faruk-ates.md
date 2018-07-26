@@ -2,9 +2,9 @@
 layout: interview
 title: "Faruk Ateş"
 ---
-<img class="home-section__portrait" src="/images/portrait-faruk-ates.jpg" alt="Photo Faruk Ateş"  />
-{% if page.title %} 
-  <h1 class="interviews__h1">{{ page.title }}</h1> 
+<img class="" src="/images/portrait-faruk-ates.jpg" alt="Photo Faruk Ateş"  />
+{% if page.title %}
+  <h1 class="">{{ page.title }}</h1>
 {% endif %}
 
 ## To all those don't meet you yet. How do you describe yourself?
@@ -27,7 +27,7 @@ Another top problem is social issues. For a bunch of supposedly analytical syste
 
 ## How would you recommend somebody to start learning web development?
 
-It’s hard to say; it used to be that you could explore the source of sites and learn, but nowadays so much of the source is compiled and useless, educationally speaking. I still think that making little tools, apps, some kinds of personal projects is one of the best ways of learning. If you don’t yet have ideas for a project, try and recreate a website, app or game that you like, one feature at a time. Research what technologies you might use for it, play around with them, and build on that through iterations. Find communities locally or online where you can chat with others, ask questions from more experienced developers, and share ideas. 
+It’s hard to say; it used to be that you could explore the source of sites and learn, but nowadays so much of the source is compiled and useless, educationally speaking. I still think that making little tools, apps, some kinds of personal projects is one of the best ways of learning. If you don’t yet have ideas for a project, try and recreate a website, app or game that you like, one feature at a time. Research what technologies you might use for it, play around with them, and build on that through iterations. Find communities locally or online where you can chat with others, ask questions from more experienced developers, and share ideas.
 
 There’s so much out there, nowadays, but don’t be overwhelmed by it. Just pick something to start with and go from there.
 
@@ -44,7 +44,7 @@ Wherever is appropriate for the project, really. If I’m starting a code projec
 ## What was your first development job and how you faced it?
 
 I started on my 18th birthday as a web development consultant out of an agency. It was exciting and new and, though I’d done a lot of web development as a hobby already at this point, the professional environment was still largely unknown to me. I managed well enough, I suppose. I mostly tried hard to constantly learn how to be better, not just in my programming but also in dealing with other people, in communicating more effectively, and so forth.
- 
+
 ## What was the most challenging project you ever faced and why?
 
 Rewriting the entire set of front-end HTML for the Apple Online Store by myself. It was my first project after I joined Apple, and they were transitioning away from a table-based design and towards a modern, semantic front-end styled with CSS. It was incredibly daunting, but also super exciting and fun. I tested it all out in over 40 different browsers and versions at the time.
@@ -63,7 +63,7 @@ To stop caring about what the “better” technology is and only care about how
 
 ## Do you have any favorite books, videos, or resources that you could share with the readers?
 
-I haven’t really kept up with those much. I’m still consistently fond of and impressed by A Book Apart’s new books, every time. 
+I haven’t really kept up with those much. I’m still consistently fond of and impressed by A Book Apart’s new books, every time.
 
 ## Do you have any advice for new developers just starting their career journey?
 

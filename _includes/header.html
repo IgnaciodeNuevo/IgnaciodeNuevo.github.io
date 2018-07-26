@@ -2,7 +2,7 @@
     <h1 class="header__title{% if page.url == '/' %}  is-active{% endif %}">
         <a href="/">Ignacio Villanueva</a>
     </h1>
-    <nav role="navigation" class="nav">
+    <nav class="">
         <ul class="">
             {% for item in site.data.nav %}
                 <li {% if page.url == item.url %}class="is-active"{% endif %}><a href="{{ item.url }}">{{ item.label }}</a></li>

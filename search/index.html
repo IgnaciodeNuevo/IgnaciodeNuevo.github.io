@@ -11,7 +11,7 @@ excerpt: "Search page for all articles aggregated on the blog."
 <p>You can also look for other topics in my <a href="/tags">TAGS</a> system.</p>
 
 <div>
-  <blockquote class="container  alert">
+  <blockquote class="">
     <span>Currently the search engine only works for searching posts, no projects and no developers interviews.</span>
   </blockquote>
 </div>
@@ -31,10 +31,10 @@ document.addEventListener('DOMContentLoaded', function() {
     resultsContainer: document.getElementById('results-container'),
     json: 'data.json',
     searchResultTemplate: '<li class="article  reset-bullet  container">\
-      <a class="article__link" href="{url}">\
-        <h3 class="article__h3">{title}</h3>\
-        <time class="article__date">{date}</time>\
-        <p class="article__excerpt">{excerpt}</p>\
+      <a class="" href="{url}">\
+        <h3 class="">{title}</h3>\
+        <time class="">{date}</time>\
+        <p class="">{excerpt}</p>\
         <p class="article__number article__search">{number}</p>\
       </a>\
     </li>',

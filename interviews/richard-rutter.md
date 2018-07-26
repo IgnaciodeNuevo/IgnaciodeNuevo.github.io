@@ -2,9 +2,9 @@
 layout: interview
 title: "Richard Rutter"
 ---
-<img class="home-section__portrait" src="/images/portrait-richard-rutter.jpg" alt="Photo Richard Rutter"  />
-{% if page.title %} 
-  <h1 class="interviews__h1">{{ page.title }}</h1> 
+<img class="" src="/images/portrait-richard-rutter.jpg" alt="Photo Richard Rutter"  />
+{% if page.title %}
+  <h1 class="">{{ page.title }}</h1>
 {% endif %}
 
 ## To all those don't meet you yet. How do you describe yourself?

@@ -28,13 +28,11 @@ I started sending a few emails to some of the developers I follow on this [Twitt
 
 Note I was trying to send emails as many people I can because I thought none will respond this and by copy/pasting my first few emails I made a mistake, I copy/pasted the email I sent to someone I met in Madrid in the Google HQ where he gave a talk and made me feel terribly stupid. So I sent to everyone I sent this an apology email.
 
-  <blockquote class="container">
-    <p>
-      I am so sorry about this email, I was writing to XXXXX XXXXX and I literally pasted the email that just send him, because I am sending some emails about this. I want to say sorry.
-    </p>
+<blockquote class="">
+    <p>I am so sorry about this email, I was writing to XXXXX XXXXX and I literally pasted the email that just send him, because I am sending some emails about this. I want to say sorry.</p>
     <p>I still want to interview you.</p>
     <cite>Ignacio Villanueva</cite>
-  </blockquote>
+</blockquote>
 
 After researching what kind of questions should I make I have made a list of approximately forty questions that were obviously too many so I reduced them to only fifteen wich will be the same for every interviewee. You will notice how different answers and how many aproaches could be:
 

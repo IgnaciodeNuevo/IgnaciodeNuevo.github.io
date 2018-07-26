@@ -2,9 +2,10 @@
 layout: interview
 title: "Brad Frost"
 ---
-<img class="home-section__portrait" src="/images/portrait-brad-frost.jpg" alt="Photo Brad Frost"  />
-{% if page.title %} 
-  <h1 class="interviews__h1">{{ page.title }}</h1> 
+
+<img class="" src="/images/portrait-brad-frost.jpg" alt="Photo Brad Frost"  />
+{% if page.title %}
+  <h1 class="">{{ page.title }}</h1>
 {% endif %}
 
 ## To all those don't meet you yet. How do you describe yourself?
@@ -14,14 +15,14 @@ That's a good question; I barely know anymore! Generally speaking, I make websit
 ## When you started developing, what were some common mistakes you made along the way?
 
 My introduction to web development was all table-based layouts and other older techniques. It wasn't until I read Jeffrey Zeldman's Designing with Web Standards that I was introduced to a better way to develop websites.
- 
+
 ## Front-end seems to be easy until you start to learning. How do you face the challenge of learning new things?
 
 It takes a while, but learning where to look when you get stuck is crucial. Learning how to learn is a critical skill in an industry that's constantly changing. Google the things you're stuck on, and take note of the sites that give you the answers. Eventually patterns will emerge and you'll find yourself seeking those resources out first the next time you get stuck.
 
 ## What would you qualify as the top few problems facing developers today?
 
-There's an over-abundance of tools, technologies, and opinions out there for developers to learn. I touched on this [in a recent talk](http://bradfrost.com/blog/post/i-have-no-idea-what-the-hell-i-am-doing/), but the fact is the Web is too big for any one person to master. 
+There's an over-abundance of tools, technologies, and opinions out there for developers to learn. I touched on this [in a recent talk](http://bradfrost.com/blog/post/i-have-no-idea-what-the-hell-i-am-doing/), but the fact is the Web is too big for any one person to master.
 
 ## How would you recommend somebody to start learning web development?
 
@@ -37,11 +38,11 @@ I made a website for my uncle's chiropractic practice. It was my first site and 
 
 ## What was the most challenging project you ever faced and why?
 
-Every project has its challenges, and almost all of them have to do with people rather than technology. The best way to overcome those challenges is through honest conversation and as much collaboration as possible. 
+Every project has its challenges, and almost all of them have to do with people rather than technology. The best way to overcome those challenges is through honest conversation and as much collaboration as possible.
 
 ## When starting a new project, if you feel stuck where do you look for inspiration?
 
-I step away from the computer and spend some time in my back yard. I also travel a lot which is great to get a different perspective. 
+I step away from the computer and spend some time in my back yard. I also travel a lot which is great to get a different perspective.
 
 ## Can you describe your workflow when you create HTML, CSS and JavaScript from scratch?
 
@@ -49,12 +50,12 @@ Generally speaking, I start with structured content (HTML) first, then begin lay
 
 ## What excites you most these days?
 
-I really enjoy teaching and helping people do better work.  I'm also excited to work on a product of my own rather than client work for other people. It's a bit too early to share, but I'm excited to get it off the ground.
- 
+I really enjoy teaching and helping people do better work. I'm also excited to work on a product of my own rather than client work for other people. It's a bit too early to share, but I'm excited to get it off the ground.
+
 ## What is the most important thing you’ve learned?
 
-Work hard. Don't be an asshole. Share what you know. 
- 
+Work hard. Don't be an asshole. Share what you know.
+
 ## Do you have any favorite books, videos, or resources that you could share with the readers?
 
 Again, I'll redirect people [over here](http://bradfrost.com/faq/#industry). Those are the resources that I find really helpful.

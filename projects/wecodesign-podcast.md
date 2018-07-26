@@ -10,7 +10,7 @@ Podcasting was something I always liked. I use to hear many of them, I spend the
 I thought to start one in English but as I wrote before I don't feel that confortable speaking in English.
 
 I decided to chat about this with a friend who is Publicist and Ilustrator and decided to start one, first to force us when writing the script to investigate the _topics_ and learn new things and second to chat with developers, designers, UXers etc who otherwise we could not meet them, Spanish-speaking people we admire from other countries or cities where we live, a new kind of networking!
- 
+
 We send several emails to people we wanted to interview and everyone with only one exception (_because he don't want to expose himself to Internet_) said yes (_I feel amazed how web people are so close_).
 
 <img src="/images/proyecto-wecodesign-1.jpg" alt="iTunes de WeCodeSign cover">
@@ -57,6 +57,4 @@ I'm happy with this project.
 
 I wouldn't change anything except for possible code errors or accesibility issues.
 
-<p class="btn--hire">
-  <a href="http://wecodesignpodcast.com" target="_blank">Listen my Podcast</a>
-</p>
+<a href="http://wecodesignpodcast.com" target="_blank">Listen my Podcast</a>
