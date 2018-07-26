@@ -1,12 +1,12 @@
-<header class="header  container  clearfix" role="banner">
-  <h1 class="header__title{% if page.url == '/' %}  is-active{% endif %}">
-    <a href="/">Ignacio Villanueva</a>
-  </h1>
-  <nav role="navigation" class="nav">
-    <ul class="clearfix">
-      {% for item in site.data.nav %}
-      <li {% if page.url == item.url %}class="is-active"{% endif %}><a href="{{ item.url }}">{{ item.label }}</a></li>
-      {% endfor %}
-    </ul>
-  </nav>
-</header>
+<header class="" role="banner">
+    <h1 class="header__title{% if page.url == '/' %}  is-active{% endif %}">
+        <a href="/">Ignacio Villanueva</a>
+    </h1>
+    <nav role="navigation" class="nav">
+        <ul class="">
+            {% for item in site.data.nav %}
+                <li {% if page.url == item.url %}class="is-active"{% endif %}><a href="{{ item.url }}">{{ item.label }}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+  </header>

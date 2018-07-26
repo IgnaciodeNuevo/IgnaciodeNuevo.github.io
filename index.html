@@ -24,7 +24,7 @@ classes: home
     </blockquote>
     </div>
     <article class="article  container">
-      <a class="article__link" href="/podcast/{{ podcast.podcast_url }}"> 
+      <a class="article__link" href="/podcast/{{ podcast.podcast_url }}">
         <h3 class="article__h3">{{ podcast.name }}</h3>
         <time class="article__date" datetime="{{ podcast.date | date: "%Y-%m-%d" }}">{{ podcast.podcast_date }}</time>
         <p class="article__excerpt">{{ podcast.description }}</p>
@@ -39,15 +39,13 @@ classes: home
     {% for talk in site.data.speaking limit:1 %}
       <h2 class="article__h2  container">Latest talk:</h2>
       <article class="article  container">
-        <a class="article__link" href="/speaking/{{ talk.speaking_url }}"> 
+        <a class="article__link" href="/speaking/{{ talk.speaking_url }}">
           <h3 class="speaking__h3">{{ talk.name }}</h3>
           <time class="speaking__date">{{ talk.speaking_date }}</time>
           <p class="speaking__excerpt">{{ talk.description }}</p>
         </a>
       </article>
     {% endfor %}
-
-    {% include recommendations.html %}
 
     {% for post in site.posts limit:1 %}
       <h2 class="article__h2  container">Latest article:</h2>
