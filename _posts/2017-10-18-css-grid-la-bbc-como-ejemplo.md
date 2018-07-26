@@ -4,7 +4,7 @@ title: "CSS Grid: La BBC como ejemplo"
 excerpt: "CSS Grid Layout ha llegado para cambiarlo todo. Para ello veremos un ejemplo real con fallbacks para navegadores antiguos."
 post_date: "Octubre 18, 2017"
 post_number: 19
-tags: 
+tags:
   - CSS
 ---
 
@@ -28,19 +28,19 @@ La diferencia es clara entre [Flexbox](https://css-tricks.com/snippets/css/a-gui
 
 Os dejo un ejemplo sencillo en el que podéis ver la diferencia entre `Flexbox` (_arriba_) y `CSS Grid` (_abajo_) en el que ambos tienen cuatro hijos (_elementos_).
 
-<p data-height="265" data-theme-id="0" data-slug-hash="oGaeXR" data-default-tab="html,result" data-user="IgnaciodeNuevo" data-embed-version="2" data-pen-title="oGaeXR" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/IgnaciodeNuevo/pen/oGaeXR/">oGaeXR</a> by Ignacio Villanueva (<a href="https://codepen.io/IgnaciodeNuevo">@IgnaciodeNuevo</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<p data-height="265" data-theme-id="0" data-slug-hash="oGaeXR" data-default-tab="html,result" data-user="IgnaciodeNuevo" data-embed-version="2" data-pen-title="oGaeXR" data-preview="true" class="">See the Pen <a href="https://codepen.io/IgnaciodeNuevo/pen/oGaeXR/">oGaeXR</a> by Ignacio Villanueva (<a href="https://codepen.io/IgnaciodeNuevo">@IgnaciodeNuevo</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 ## Propiedades
 
 No creo que tenga sentido escribir otro artículo más sobre como funciona cada propieda (_puesto que se han escrito infinidad_), por ello os dejaré una serie de recursos extra al pie de este artículo para que podáis aprender a usar cada una de ellas.
 
-Cuando hablamos de un grid podemos pensar en una rejilla de elementos con espacios (`gaps`) entre ellos. Ejemplos clásicos son [Bootstrap Grid](https://getbootstrap.com/docs/3.3/css/#grid-intro) o el archiconocido [960 grid system](https://github.com/nathansmith/960-Grid-System).  
+Cuando hablamos de un grid podemos pensar en una rejilla de elementos con espacios (`gaps`) entre ellos. Ejemplos clásicos son [Bootstrap Grid](https://getbootstrap.com/docs/3.3/css/#grid-intro) o el archiconocido [960 grid system](https://github.com/nathansmith/960-Grid-System).
 
 Aunque todos habremos usado alguna librería CSS para crear grids, siempre hemos tenido repercusiones al hacerlo.
 
-+ El peso de la librería aumentaba considerablemente nuestras hojas de estilos.
-+ Añadíamos multitud de clases CSS a nuestro HTML que lo ensuciaba en exceso.
+- El peso de la librería aumentaba considerablemente nuestras hojas de estilos.
+- Añadíamos multitud de clases CSS a nuestro HTML que lo ensuciaba en exceso.
 
 Por no entrar en la [especificación](https://www.w3.org/TR/css-grid-1/) os invito a leer la documentación en castellano de [CSS Grid de la MDN](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Grid_Layout), ver la serie de videos en inglés llamada [Grid by Example](https://gridbyexample.com/) creada por [Rachel Andrew](https://twitter.com/rachelandrew) o echar un vistazo la estupenda guía que han creado en CSS-Tricks llamada [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/).
 
@@ -52,14 +52,14 @@ Os dejo unos [ejemplos](https://codepen.io/collection/DYpVoJ/) de cada propiedad
 
 Parece que cuando hablamos de una especificación tan moderna como esta tendemos a pensar dos cosas, la primera que todo el mundo ya sabe usarla pero en la realidad nos podemos llevar enormes sorpresas cuando vemos encuestas como la que realizaron en [Smashing Magazine](https://www.smashingmagazine.com/) donde con 1.573 votos un increible 61% comentó no haber usado aún `CSS Grid`.
 
-<blockquote class="twitter-tweet" data-lang="es"><p lang="en" dir="ltr">Did you have a chance to play with CSS Grid already? What do you find most confusing or difficult?</p>&mdash; Smashing Magazine (@smashingmag) <a href="https://twitter.com/smashingmag/status/907936156368752640?ref_src=twsrc%5Etfw">13 de septiembre de 2017</a></blockquote>
+<blockquote class="" data-lang="es"><p lang="en" dir="ltr">Did you have a chance to play with CSS Grid already? What do you find most confusing or difficult?</p>&mdash; Smashing Magazine (@smashingmag) <a href="https://twitter.com/smashingmag/status/907936156368752640?ref_src=twsrc%5Etfw">13 de septiembre de 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Días después comentaba con unos conocidos que había tenido la oportunidad de usar `Grid` en un proyecto real y ellos decían que no lo usarían jamás debida a su baja adopción por parte de los navegadores así que quise preguntaros si pensáis que es correcto hacerlo (_y no hablamos de un proyecto personal_), si no en uno profesional.
 
 Estos fueron los resultados.
 
-<blockquote class="twitter-tweet" data-lang="es"><p lang="es" dir="ltr">📊ENCUESTA para un artículo.<br><br>¿Es correcto usar <a href="https://twitter.com/hashtag/CSSGrid?src=hash&amp;ref_src=twsrc%5Etfw">#CSSGrid</a> Layout en producción en un proyecto del trabajo? 🤔<br><br>Soporte: 68.14%+4.35%=72.49%</p>&mdash; Ignacio Villanueva (@IgnaciodeNuevo) <a href="https://twitter.com/IgnaciodeNuevo/status/911166331399131136?ref_src=twsrc%5Etfw">22 de septiembre de 2017</a></blockquote>
+<blockquote class="" data-lang="es"><p lang="es" dir="ltr">📊ENCUESTA para un artículo.<br><br>¿Es correcto usar <a href="https://twitter.com/hashtag/CSSGrid?src=hash&amp;ref_src=twsrc%5Etfw">#CSSGrid</a> Layout en producción en un proyecto del trabajo? 🤔<br><br>Soporte: 68.14%+4.35%=72.49%</p>&mdash; Ignacio Villanueva (@IgnaciodeNuevo) <a href="https://twitter.com/IgnaciodeNuevo/status/911166331399131136?ref_src=twsrc%5Etfw">22 de septiembre de 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Bajo mi opinión se puede usar, pero ojo, depende. Depende del proyecto y obviamente depende de si nuestra empresa puede y quiere permitirse el tiempo extra que nos llevará dar soporte a otros navegadores usando un grid basado en floats o dar soporte a navegadores antiguos. Esto no quita que se pueda usar perfectamente ya que según los navegadores modernos vayan teniendo más y más adopción, nuestros proyectos ya estarán preparados.
@@ -93,23 +93,21 @@ Podéis ver el ejemplo [aquí](http://ignaciodenuevo.com/examples/bbc).
 Espero que os sea de utilidad y entendais un poco más como podemos usar `CSS Grid`, `Flexbox`, `@supports` y como aplicar progressive enhancement para dar soporte a distintos navegadores.
 
 <div>
-  <blockquote class="container  alert">
     <h4>Documentación extra</h4>
     <ul>
-      <li><a href="https://github.com/valentinogagliardi/awesome-css-grid" target="_blank">Awesome CSS Grid</a></li>
-      <li><a href="https://gridbyexample.com/" target="_blank">Grid by Example</a></li>
-      <li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank">A Complete Guide to Grid</a></li>
-      <li><a href="https://www.smashingmagazine.com/2017/09/css-grid-gotchas-stumbling-blocks/" target="_blank">CSS Grid Gotchas And Stumbling Block</a></li>
-      <li><a href="https://rachelandrew.co.uk/css/cheatsheets/grid-fallbacks" target="_blank">Grid “fallbacks” and overrides</a></li>
-      <li><a href="https://www.chenhuijing.com/blog/basic-grid-with-fallbacks" target="_blank">Basic grid layout with fallbacks using feature queries</a></li>
-      <li><a href="https://github.com/rachelandrew/gridbugs" target="_blank">A curated list of Grid interop issues</a></li>
-      <li><a href="https://www.smashingmagazine.com/2016/11/css-grids-flexbox-box-alignment-new-layout-standard/" target="_blank">TheNew Layout Standard For The Web: CSS Grid, Flexbox And Box Alignment</a></li>
-      <li><a href="https://daverupert.com/2017/09/breaking-the-grid/" target="_blank">Breakingthe Grid</a></li>
-      <li><a href="https://codepen.io/julesforrest/" target="_blank">CodePen examples by Jules Forrest</a></li>
-      <li><a href="https://codepen.io/collection/nvggZM/" target="_blank">Aysha Anggraini</a></li>
-      <li><a href="https://www.youtube.com/watch?v=dU7xtnzfqxQ" target="_blank">CSS Grid Inspector in Firefox Nightly, July 2017</a></li>
-      <li><a href="https://github.com/ademilter/chrome-css-grid-highlighter" target="_blank">CSS Grid Highlighter for Chrome</a></li>
-      <li><a href="https://www.smashingmagazine.com/2017/10/css-grid-challenge-2017-winners/" target="_blank">CSS Grid Challenge: Winners and Template</a></li>
+        <li><a href="https://github.com/valentinogagliardi/awesome-css-grid" target="_blank">Awesome CSS Grid</a></li>
+        <li><a href="https://gridbyexample.com/" target="_blank">Grid by Example</a></li>
+        <li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank">A Complete Guide to Grid</a></li>
+        <li><a href="https://www.smashingmagazine.com/2017/09/css-grid-gotchas-stumbling-blocks/" target="_blank">CSS Grid Gotchas And Stumbling Block</a></li>
+        <li><a href="https://rachelandrew.co.uk/css/cheatsheets/grid-fallbacks" target="_blank">Grid “fallbacks” and overrides</a></li>
+        <li><a href="https://www.chenhuijing.com/blog/basic-grid-with-fallbacks" target="_blank">Basic grid layout with fallbacks using feature queries</a></li>
+        <li><a href="https://github.com/rachelandrew/gridbugs" target="_blank">A curated list of Grid interop issues</a></li>
+        <li><a href="https://www.smashingmagazine.com/2016/11/css-grids-flexbox-box-alignment-new-layout-standard/" target="_blank">TheNew Layout Standard For The Web: CSS Grid, Flexbox And Box Alignment</a></li>
+        <li><a href="https://daverupert.com/2017/09/breaking-the-grid/" target="_blank">Breakingthe Grid</a></li>
+        <li><a href="https://codepen.io/julesforrest/" target="_blank">CodePen examples by Jules Forrest</a></li>
+        <li><a href="https://codepen.io/collection/nvggZM/" target="_blank">Aysha Anggraini</a></li>
+        <li><a href="https://www.youtube.com/watch?v=dU7xtnzfqxQ" target="_blank">CSS Grid Inspector in Firefox Nightly, July 2017</a></li>
+        <li><a href="https://github.com/ademilter/chrome-css-grid-highlighter" target="_blank">CSS Grid Highlighter for Chrome</a></li>
+        <li><a href="https://www.smashingmagazine.com/2017/10/css-grid-challenge-2017-winners/" target="_blank">CSS Grid Challenge: Winners and Template</a></li>
     </ul>
-  </blockquote>
 </div>

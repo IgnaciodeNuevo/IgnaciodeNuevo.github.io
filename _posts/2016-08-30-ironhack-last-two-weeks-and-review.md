@@ -4,7 +4,7 @@ title: "Ironhack journal - Last two weeks and final review"
 excerpt: "My Ironhack journal for last two weeks  and final review"
 post_date: "August 30, 2016"
 post_number: 15
-tags: 
+tags:
   - Ironhack
   - TDD
   - JavaScript
@@ -13,19 +13,17 @@ tags:
 
 ### Index of my Ironhack series
 
-<div>
-  <blockquote class="container  alert">
+<blockquote class="">
     <h4>Ironhack Bootcamp Jurnal</h4>
     <ul>
-      <li><a href="/2016/06/10/ironhack-week-1/">Prework & Week 1</a></li>
-      <li><a href="/2016/06/20/ironhack-week-2/">Week 2</a></li>
-      <li><a href="/2016/06/27/ironhack-week-3/">Week 3</a></li>
-      <li><a href="/2016/07/06/ironhack-week-4/">Week 4</a></li>
-      <li><a href="/2016/07/13/ironhack-week-5/">Week 5</a></li>
-      <li><a href="/2016/07/18/ironhack-week-6/">Week 6</a></li>
+        <li><a href="/2016/06/10/ironhack-week-1/">Prework & Week 1</a></li>
+        <li><a href="/2016/06/20/ironhack-week-2/">Week 2</a></li>
+        <li><a href="/2016/06/27/ironhack-week-3/">Week 3</a></li>
+        <li><a href="/2016/07/06/ironhack-week-4/">Week 4</a></li>
+        <li><a href="/2016/07/13/ironhack-week-5/">Week 5</a></li>
+        <li><a href="/2016/07/18/ironhack-week-6/">Week 6</a></li>
     </ul>
-  </blockquote>
-</div>
+</blockquote>
 
 ### Last two weeks
 
@@ -34,11 +32,10 @@ Where to start...
 First of all, thanks to all the TAs, Teachers an people like Isaura, Lluis, Alberto Marcos and so on that maded this possible. I feel now part of the Ironhack family.
 
 <img src="/images/post-irnohack-conclusions-1.jpg" alt="Marcos laptop and breakfast">
-<div>
-  <blockquote class="container  alert">
+
+<blockquote class="">
     <span>Marcos laptop and breakfast</span>
-  </blockquote>
-</div>
+</blockquote>
 
 I’m sorry that it took me so long to make my this post, but here it is.
 
@@ -63,18 +60,16 @@ This new experience has made me think a lot on my future. Within the hiring days
 Now, as I was writing this post, one month after Ironhack ended I have lot of new ideas to develop and what I want to do now as front-end developer with a good friend I've made at Campus Madrid.
 
 <img src="/images/post-irnohack-conclusions-2.JPG" alt="Hackshow one">
-<div>
-  <blockquote class="container  alert">
+
+<blockquote class="">
     <span>Hackshow attendees part one</span>
-  </blockquote>
-</div>
+</blockquote>
 
 <img src="/images/post-irnohack-conclusions-3.JPG" alt="Hackshow two">
-<div>
-  <blockquote class="container  alert">
+
+<blockquote class="">
     <span>Hackshow attendees part two</span>
-  </blockquote>
-</div>
+</blockquote>
 
 ### Ironhack Review
 
@@ -88,12 +83,10 @@ My biggest problem was to apply so late. With no experience at all programming I
 
 After recieving the email only one hour after finishing the technical test I called him again to chat about how easy was the interview.
 
-<div class="blockquote">
-  <blockquote class="container">
+<blockquote class="">
     <p>Each week we had to complete two surveys on the quality of our instructors. This speaks so good about the quality and goals of Ironhack.</p>
     <p>We also were told that there would be extensive career help and that the hiring rate was 98%.</p>
-  </blockquote>
-</div>
+</blockquote>
 
 How can you claim to have a 98% rate of hired students when not even 50% of the students are showing up at interviews? I have plans for my career and what to do now, [learn JavaScript](/2016/02/18/my-next-step-learning-and-new-years-resolutions/), but after a month of Ironhack ended we where only helped to find four interviews. They also gave us tree more job offers but to be serious Álvaro (Madrid Bootcamp's Manager) told us many times that his job is to help us with resume reviews... and to be honest we where on August. I hope things will change next hiring week.
 
@@ -112,15 +105,14 @@ I've been asked A LOT about my experience at Ironhack, thanks to my [Podcast](ht
 I’ll definitly take another Bootcamp in the next few years, this time one made in the USA and only if I can find one about JavaScript.
 
 <img src="/images/post-irnohack-conclusions-4.jpg" alt="Ironhackers Cohort (Madrid 2016) - Fullstack Bootcamp">
-<div>
-  <blockquote class="container  alert">
+
+<blockquote class="">
     <span>Reinier, Alex, Fernanda, Marcos, Tristan, Daniel, Satwat, me and Magnus</span><br>
     <span>Our missing classmate Nacho was added magically! 🙂</span>
-  </blockquote>
-</div>
+</blockquote>
 
 Lastly, but not less important, thanks to my classmates and teaching assistants for making this Bootcamp such an amazing and INTENSE experience. I hope to hear from you soon.
-                                                                                                                                  
+
 I would like to Ironhack to change some things, it was a good experience. I would recommend people to apply for sure but I would like them to be honest about the hiring rate and not telling half truths. I also would like to help Ironhackers and other people to continue their coding career with my experience.
 
 It has been two INTENSIVE but so good months... I will never forget this, so many photographs...

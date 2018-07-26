@@ -4,7 +4,7 @@ title: "The AntiEvent 2017"
 excerpt: "Mi experiencia en The AntiEvent 2017, un Open Space de nivel"
 post_date: "Septiembre 12, 2017"
 post_number: 17
-tags: 
+tags:
   - Event
 ---
 
@@ -141,14 +141,12 @@ Como conclusión decir que ha sido el mejor evento tecnológico al que he podido
 PD.: Se me olvidaba mencionar que sortearon 15 tazas y me tocó una en la segunda ronda que le regalé a <a href="https://twitter.com/carmenansio">Carmen</a> ya que a ella le hacía especial ilusión.
 
 <div>
-  <blockquote class="container  alert">
     <h4>Artículos y videos sobre The Anti Event 2017</h4>
     <ul>
-      <li><a href="https://elenatorro.github.io/theantievent-notes/">Notas de Elena Torró</a></li>
-      <li><a href="https://melies-hugo.js.org/post/experiencia-theantievent/">Experiencia de Cristina Fernández</a></li>
-      <li><a href="http://jorgeatgu.com/blog/retroespecter-theantievent-17/">Retrospectiva de Jorge</a></li>
-      <li><a href="https://medium.com/@dmarchena/una-retro-personal-del-theantievent-2017-4bd31f4712fa">Una retro personal del TheAntiEvent 2017 de David Marchena</a></li>
-      <li><a href="https://robertogarrido.com/theantievent-2017/">TheAntiEvent 2017 o como mejorar como profesional en un fin de semana de Roberto Garrido</a></li>
+        <li><a href="https://elenatorro.github.io/theantievent-notes/">Notas de Elena Torró</a></li>
+        <li><a href="https://melies-hugo.js.org/post/experiencia-theantievent/">Experiencia de Cristina Fernández</a></li>
+        <li><a href="http://jorgeatgu.com/blog/retroespecter-theantievent-17/">Retrospectiva de Jorge</a></li>
+        <li><a href="https://medium.com/@dmarchena/una-retro-personal-del-theantievent-2017-4bd31f4712fa">Una retro personal del TheAntiEvent 2017 de David Marchena</a></li>
+        <li><a href="https://robertogarrido.com/theantievent-2017/">TheAntiEvent 2017 o como mejorar como profesional en un fin de semana de Roberto Garrido</a></li>
     </ul>
-  </blockquote>
 </div>

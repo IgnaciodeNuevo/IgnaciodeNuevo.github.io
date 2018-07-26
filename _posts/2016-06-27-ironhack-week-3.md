@@ -4,7 +4,7 @@ title: "Ironhack journal - Week[3]"
 excerpt: "My Ironhack journal for Week[3], HTML, CSS and JavaScript with Javi Velasco"
 post_date: "June 27, 2016"
 post_number: 11
-tags: 
+tags:
   - Front-end
   - Ironhack
 ---
@@ -21,7 +21,7 @@ After lunch I learnt something new! We had to "clone" using [Boostrap](http://ge
 
 On tuesday we have been taught some HTML & CSS best practices and I've shared a really useful [CSS guide](http://cssguidelin.es/){:target="_blank"} with my classmates, they also learned what is the DOM and its structure and a bit of responsive web design.
 
-I was so happy... 
+I was so happy...
 
 Here is where the story starts to become dark. Why? You might ask... well we started learning JavaScript the hard way, as we knew in Ruby how to use loops, conditional statements, variables and so on we did a very very fast JS Pre Work recap. Inmediatly after the recap we focused in how to face problem solving in JS.
 
@@ -39,11 +39,9 @@ I did a one-on-one with Alfonso a Teacher Assistant and helped me a lot. I had a
 
 On Friday we had to do a JavaScript Quiz:
 
-<div class="blockquote">
-	<blockquote class="container">
-		<p>This is about as simple as it sounds, let's create a command line game in Node that asks the user questions, and allows the user to answer.</p>
-	</blockquote>
-</div>
+<blockquote class="">
+    <p>This is about as simple as it sounds, let's create a command line game in Node that asks the user questions, and allows the user to answer.</p>
+</blockquote>
 
 What a terrible experience, but after ending classes on Friday we went out together to [Isaura's bar](https://www.facebook.com/LekaLekaBar/){:target="_blank"}, we spend four hours talking to each other and having fun. Was a great week after all.
 

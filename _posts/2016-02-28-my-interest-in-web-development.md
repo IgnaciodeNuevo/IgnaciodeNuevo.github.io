@@ -4,12 +4,13 @@ title: "My interest in web development"
 excerpt: "When I was young and I don't remember what age I was but I think it was when he was eight I started learning to program with an amazing teacher called Iñaki"
 post_date: "February 28, 2016"
 post_number: 4
-tags: 
+tags:
   - Learning
   - Front-end
   - Web
 ---
-When I was young, approximately when was eight years old I started learning to program with an amazing teacher called Iñaki. He started teaching me and old programming language called Turbo Pascal, long long time ago, but as every kid I did something worng and I was punished with no more programming classes. 
+
+When I was young, approximately when was eight years old I started learning to program with an amazing teacher called Iñaki. He started teaching me and old programming language called Turbo Pascal, long long time ago, but as every kid I did something worng and I was punished with no more programming classes.
 
 What a shame!
 
@@ -50,12 +51,10 @@ After ending the course, I felt like I could do everything and be what ever I wa
 
 I had the pleasure to have [Eduardo Fierro](http://eduardofierro.pro/index.php) as Web Development teacher, he is the kind of teacher who manages to give the best of you and his greatest virtue, is his ability to motivate the student.
 
-<div class="blockquote">
-  <blockquote class="container">
+<blockquote class="">
     <p>He is a great professional who besides of being effective is resposible and I work with him in some freelance projects. I would recommend him without delay.</p>
     <cite>Eduardo Fierro, <a href="http://www.trazos.net" target="_blank">Trazos</a></cite>
-  </blockquote>
-</div>
+</blockquote>
 
 Some months after my real beginnings in Front-end Web Development I sent Trazos an [email](/trazos-email) _in Spanish_ to help them with the academic program, why not if I found what I wanted to be?
 
@@ -71,8 +70,4 @@ Whant to know lot of useful tips from some of the best Web Developers, Managers 
 
 I'm [publishing some interviews](/interviews) with people like Hugo Giraudel, Brad Frost or Jeremy Keith.
 
-Did you enjoy this?
-
-<p class="btn--hire">
-  <a href="mailto:{{ site.email }}">HIRE ME</a>
-</p>
+{% include hire.html %}

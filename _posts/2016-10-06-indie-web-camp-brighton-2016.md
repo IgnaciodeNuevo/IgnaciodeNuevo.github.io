@@ -4,7 +4,7 @@ title: "Indie Web Camp Brighton 2016"
 excerpt: "My experience going to the Indie Web Camp Brighton"
 post_date: "October 6, 2016"
 post_number: 16
-tags: 
+tags:
   - Event
 ---
 
@@ -15,7 +15,7 @@ It was a meeting for independent web creators (everyone from newbies to hackers)
 [Recording](http://wecodesignpodcast.com/2016/09/27/web-audio/){:target="_blank"} a Podast with [Soledad Penadés](https://soledadpenades.com) a Mozilla's devrel and then attending the amazing [IndieWebCamp Brighton 2016](https://indieweb.org/2016/Brighton){:target="_blank"} has made me feel superpowers. Being surrounded by a community committed to develop the web without being part of social media services (aka. “silos”) where you can't excape their ecosystem and using the open web for social interaction and knowledge sharing was really inspiring.
 
 IndieWebCamp Brighton 2016 was held September 24/25 at [68middle](http://68middle.st){:target="_blank"} and for me has been a great opportunity to get out of my comfort zone, traveling to the UK and forcing me to speak in [english](/2015/11/25/hello-world/) was a great experience.
- 
+
 I've first learnt about this Indie movement two months ago and now I can say that this people where really supportive.
 
 ### The community

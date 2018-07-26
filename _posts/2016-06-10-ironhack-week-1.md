@@ -4,7 +4,7 @@ title: "Ironhack journal - Week[0] and Week[1]"
 excerpt: "My Ironhack journal for Week[0] and Week[1]"
 post_date: "June 10, 2016"
 post_number: 9
-tags: 
+tags:
   - Front-end
   - Ironhack
 ---
@@ -23,12 +23,10 @@ We are from very different parts, Reinier (from the Netherlands), Nacho (from Sp
 
 <img src="/images/post-irnohack-week-one-a.jpg" alt="Ironhack cohort June 2016 Madrid">
 
-<div>
-  <blockquote class="container  alert">
+<blockquote class="">
     <p>Claudia (AM), Isaura (TA), Tristan, me, Reinier, Marcos, Satwat, Fernanda, Daniel, LLuis (TA)</p>
-	<p>Manu (ex-LT), Alex, Magnus, Nacho</p>
-  </blockquote>
-</div>
+    <p>Manu (ex-LT), Alex, Magnus, Nacho</p>
+</blockquote>
 
 Next eight weeks, from June 6th to July 29th I'll be working extremely hard to confront the biggest challenge I've faced in the last years of my life. I was freaking myself out for the intensity of the week. I can say now it's going better than I had anticipated.
 
@@ -52,7 +50,7 @@ And here is the hard part: sometimes I question myself if I'll be able to be a g
 
 Some days I was able to grasp the material instantly and other days it took hours googling for help at Google and Stackoverflow. Friday was a hell making an exercise called [Chess Validator](https://github.com/IgnaciodeNuevo/Ironhack/tree/master/Week%201/Day%205%20-%20Chess%20Validator){:target="_blank"}, we weren't able to write the program that should validate whether the move wou want to make is legal or not by every single pice you are using. We had to use inheritance, mixins, duck types and composition rules.
 
-Friday evening some of us joined our instructors and the co-founder, Gonzalo and Ironhackers from previous cohorts. It was actually a meet-up for Ironhackers! 
+Friday evening some of us joined our instructors and the co-founder, Gonzalo and Ironhackers from previous cohorts. It was actually a meet-up for Ironhackers!
 
 I now feel like I'm truly part of Ironhack comunity, and that my future will be better every day.
 

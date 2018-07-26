@@ -4,7 +4,7 @@ title: "Ironhack journal - Week[4]"
 excerpt: "My Ironhack journal for Week[4], Ruby on Rails with Patricia Gao"
 post_date: "July 6, 2016"
 post_number: 12
-tags: 
+tags:
   - Back-end
   - Ironhack
 ---
@@ -17,9 +17,9 @@ She started introducing us what is [Ruby on Rails](http://rubyonrails.org){:targ
 
 We also learnt what is an MVC (model–view–controller) framework:
 
-+ *Model:* stores data that is retrieved according to commands from the controller and displayed in the view.
-+ *View:* generates new output to the user based on changes in the model.
-+ *Controller:* can send commands to the model to update the model's state. It can also send commands to its associated view to change the view's presentation of the model.
+- _Model:_ stores data that is retrieved according to commands from the controller and displayed in the view.
+- _View:_ generates new output to the user based on changes in the model.
+- _Controller:_ can send commands to the model to update the model's state. It can also send commands to its associated view to change the view's presentation of the model.
 
 It went from 0 to 30, now; a week before I have the feeling that this week was the best one so far, slow but consistently growing. My strategy was to learn the small but unconnected chunks of Rails and in the last few days I put the parts together and make something. That said I'm more a visual person, thats why I like more Front-end but seems that Ruby would be good for side projects.
 
@@ -33,24 +33,24 @@ One good thing about Monday morning was that we had time to ask lot of questions
 
 #### Monday recap
 
-+ Intro to RoR
-+ Our First Routes
-+ Views, layout and assets
-+ Rails Params
-+ Asset Pipeline for CSS / JS / Images
-+ Path helpers & link_to
-+ Lot of exercises
+- Intro to RoR
+- Our First Routes
+- Views, layout and assets
+- Rails Params
+- Asset Pipeline for CSS / JS / Images
+- Path helpers & link_to
+- Lot of exercises
 
 On Tuesday at 18:30h, I went to a non Ironhack Meetup, actually a [Front-end Developers](http://www.meetup.com/Front-end-Developers-Madrid){:target="_blank"} Madrid Meetup. They've talked about [Google Analytics](https://twitter.com/IgnaciodeNuevo/status/747843215663955968){:target="_blank"}, it was such a great event.
 
 #### Tuesday recap
 
-+ Models
-+ Intro to Relational Databases
-+ Create and Read with Models
-+ Seeds
-+ Migrations
-+ Lot of exercises
+- Models
+- Intro to Relational Databases
+- Create and Read with Models
+- Seeds
+- Migrations
+- Lot of exercises
 
 On Wednesday some of the Ironhackers had a Yoga class (see photograph below), and a twenty User Experience talk (so short). As I'm not a Yoga guy, I went home to review the lesson and exercises.
 
@@ -58,33 +58,29 @@ On Wednesday some of the Ironhackers had a Yoga class (see photograph below), an
 
 #### Wednesday and Thursday recap
 
-+ Create Action (Project)
-+ Associations
-+ Nested Routes
-+ Create Action
-+ Validations
-+ Auctions site (the never ended project)
-+ Update/Delete entries (Put/Patch)
-+ Partials
-+ Delete Action
-+ Flash messages
-+ Application Helpers
+- Create Action (Project)
+- Associations
+- Nested Routes
+- Create Action
+- Validations
+- Auctions site (the never ended project)
+- Update/Delete entries (Put/Patch)
+- Partials
+- Delete Action
+- Flash messages
+- Application Helpers
 
 On Friday I had a one-on-one meeting with Raul who gave me feedback about how I'm doing in the Bootcamp. He told me that I have typo errors and problems finding them. He also told me that I know more than I think which is something interesting to keep in mind.
 
 I've found something interesting this week. Rails give IDs to some elements automatically and this is not a good practice! I.E:
 
-`
-	<input type="text" name="project[name]" id="project_name">
-`
+`<input type="text" name="project[name]" id="project_name">`
 
 We've been doing with Patricia a [Timetracking](https://github.com/IgnaciodeNuevo/Ironhack/tree/master/Week%204/timetracking) weekly project.
 
-<div>
-	<blockquote class="container  alert">
-	    <span>The Podcast is in Spanish.</span>
-	</blockquote>
-</div>
+<blockquote class="">
+    <span>The Podcast is in Spanish.</span>
+</blockquote>
 
 I've also published yesterday [WeCodeSign Podcast - 1x05](http://wecodesignpodcast.com/2016/07/05/episodio-5) about UX & UI.
 
@@ -138,12 +134,12 @@ I've maded a Rails Cheetsheet for everyone who likes to start with a new project
 
 #### Here are some of the most used migration commands that you will see.
 
-+ add_column
-+ remove_column
-+ rename_column
-+ add / remove reference (We will talk about references shortly)
-+ create_table
-+ create_join_table
+- add_column
+- remove_column
+- rename_column
+- add / remove reference (We will talk about references shortly)
+- create_table
+- create_join_table
 
 #### RENAME COLUMN
 

@@ -4,9 +4,10 @@ title: "On being overwhelmed"
 excerpt: "Let's start at the beginning. I started using the web since the terrible time of 11kb modems. I began playing video games lot of years ago and since then I've been tinkering with old table based layouts."
 post_date: "May 3, 2016"
 post_number: 8
-tags: 
+tags:
   - Overwhelmed
 ---
+
 Let's start at the beginning. I started using the web since the terrible time of 11kb modems. I began playing video games lot of years ago and since then I've been tinkering with old table based layouts.
 
 Fifteen years ago was a good time to start on the web, this was easy to learn, there is no new wheel to be reinvented every six months like now.
@@ -35,12 +36,10 @@ Oh and jQuery, are you using jQuery right now? It is dead my friend.
 
 Finally are you using Angular 1.0? Oh, today I've read Angular 2.0 has become draft recommendation, shouldn’t you be using React by Facebook?
 
-<div class="blockquote">
-  <blockquote class="container">
+<blockquote class="">
     <p>Whenever a new framework, tool or technique comes out, I hear more groans than celebrations.</p>
     <cite>Wes Bos</cite>
-  </blockquote>
-</div>
+</blockquote>
 
 I'm new in web industry. How are we supposed to get up to date with everything while keeps changing?
 
@@ -52,12 +51,10 @@ It is known that Africa and India are going to join the web, but there is no goo
 
 Working on the web means that things change quickly. A need to readapt yourself every couple of months and keep learning, and learning fast. If not you are a dead developer.
 
-<div class="blockquote">
-  <blockquote class="container">
+<blockquote class="">
     <p>We will always see innovation, people pushing the envelope on both what is possible and the best way to get things done.</p>
     <cite>Wes Bos</cite>
-  </blockquote>
-</div>
+</blockquote>
 
 It’s not changing that fast. Why you might ask?
 
@@ -92,11 +89,9 @@ That’s it, That’s all.
 TLDR; Yes our industry is fast, it moves quickly, this is inspiring, because it’s getting better and better.
 
 <div>
-  <blockquote class="container  alert">
     <h4>Further reading</h4>
     <ul>
-      <li><a href="http://wesbos.com/overwhelmed-with-web-development/" target="_blank">On being overwhelmed with our fast paced industry</a></li>
-      <li><a href="http://ashleynolan.co.uk/blog/frontend-tooling-survey-2015-results" target="_blank">The State of Front-End Tooling – 2015</a></li>
+        <li><a href="http://wesbos.com/overwhelmed-with-web-development/" target="_blank">On being overwhelmed with our fast paced industry</a></li>
+        <li><a href="http://ashleynolan.co.uk/blog/frontend-tooling-survey-2015-results" target="_blank">The State of Front-End Tooling – 2015</a></li>
     </ul>
-  </blockquote>
 </div>

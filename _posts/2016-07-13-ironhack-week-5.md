@@ -4,7 +4,7 @@ title: "Ironhack journal - Week[5]"
 excerpt: "My Ironhack journal for Week[5], Advanced JavaScript with Raúl Vega"
 post_date: "July 13, 2016"
 post_number: 13
-tags: 
+tags:
   - Ironhack
   - TDD
   - JavaScript
@@ -19,34 +19,30 @@ On monday we had Raúl, one of the Ironhack Teacher Assistants as our instructor
 
 <img src="/images/post-irnohack-week-five-a.jpg" alt="Listening to Raúl while he teaches us jQuery">
 
-<div>
-  <blockquote class="container  alert">
+<blockquote class="">
     <p>Listening to Raúl while he teaches us jQuery</p>
-  </blockquote>
-</div>
+</blockquote>
 
 We learnt what is Ajax:
 
-Web applications can send data to and retrieve from a server asynchronously (in the background) without interfering with the display and behavior of the existing page. By decoupling the data interchange layer from the presentation layer, Ajax allows for web pages, and by extension web applications, to change content dynamically without the need to reload the entire page. Despite the name, the use of XML is not required (JSON is often used in the AJAJ variant), and the requests do not need to be asynchronous. 
+Web applications can send data to and retrieve from a server asynchronously (in the background) without interfering with the display and behavior of the existing page. By decoupling the data interchange layer from the presentation layer, Ajax allows for web pages, and by extension web applications, to change content dynamically without the need to reload the entire page. Despite the name, the use of XML is not required (JSON is often used in the AJAJ variant), and the requests do not need to be asynchronous.
 
 I.E: imagine you are filling a form and the connection goes down. The browser via local storage has been saving the data, so when you refresh the website your data is still here!
 
 <img src="/images/post-irnohack-week-five-b.jpg" alt="Extreme programming talk by Carlos Blé">
 
-<div>
-  <blockquote class="container  alert">
+<blockquote class="">
     <p>Extreme programming talk by Carlos Blé</p>
-  </blockquote>
-</div>
+</blockquote>
 
 After a long but good day we had the pleasure to meet [Carlos Blé](https://twitter.com/carlosble){:target="_blank"} a recognized Spanish developer from Islas Canarias and software craftsman at [CODESAI](http://www.codesai.com){:target="_blank"}. He talked about extreme programming, which is not programming while doing extreme sports :) Extreme programming (XP) is a software development method to improve software quality and responsiveness to changing customer requirements, he talked a bit of programming history followed by a brief explanation of the XP values: communication, simplicity, feedback, and courage, principles and practices. In this participative session he discussed what does it mean to be a professional software developer and how to get there.
 
 #### Monday recap
 
-+ Javascript in the Browser
-+ DOM manipulation with jQuery
-+ Events with jQuery
-+ Pizza Builder Exercise
+- Javascript in the Browser
+- DOM manipulation with jQuery
+- Events with jQuery
+- Pizza Builder Exercise
 
 Tuesday was completly different. We started learning how to communicate with an API and the problems started.
 
@@ -56,8 +52,8 @@ Communicating with a good API like the Spotify's one was ok but it was the first
 
 #### Tuesday recap
 
-+ Slides - Ajax
-+ Spotify Artist Search exercise
+- Slides - Ajax
+- Spotify Artist Search exercise
 
 On Wednesday I learnt what are the differences between RESTful and Soap APIs, one only gives you information and the other one features, we have also learnt what are Pitfalls in JavaScript and what is Local Storage (but not how to use it).
 
@@ -67,27 +63,25 @@ The remaining morning we learnt how to use the `this` object in JavaScript, the 
 
 <img src="/images/post-irnohack-week-five-c.jpg" alt="Lunch time we used to play table tennis">
 
-<div>
-  <blockquote class="container  alert">
+<blockquote class="">
     <p>Lunch time we used to play table tennis</p>
-  </blockquote>
-</div>
+</blockquote>
 
 #### Wednesday
 
-+ Pitfalls in Javascript
-+ Geolocation
-+ Local Storage
-+ Audio/Video
+- Pitfalls in Javascript
+- Geolocation
+- Local Storage
+- Audio/Video
 
 Thursday was... bad, I have been sleeping eight ours a day but with no reason I was sleepy all the week, I had this experience of learning nothing because of my drowsiness... awful. Friday was as always a full day exercise. We did a [Spotify Player](https://github.com/IgnaciodeNuevo/Ironhack/blob/master/Week%205/Day%205/spotify-skeleton-master/spotify.js){:target="_blank"} thanks to Spotify's API
 
 #### Thursday and Friday recap
 
-+ More Ajax
-+ Spotify Artist Search exercise
-+ Browser Javascript Structure
-+ Ironhack Pokedex exercise
-+ Spotify Player exercise
+- More Ajax
+- Spotify Artist Search exercise
+- Browser Javascript Structure
+- Ironhack Pokedex exercise
+- Spotify Player exercise
 
 Waiting our last theory week.
