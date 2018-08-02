@@ -15,47 +15,17 @@ TL; DR
 <ul class="">
     <li class="">
         <p id="books" class="">Books</p>
-        {% for resource in site.data.resource_books %}
+        {% for resource in site.data.books %}
             <h3 class="">{{ resource.name }}</h3>
             <p class="">
                 {% include external-link.html %}
                 <a href="{{ resource.url }}" target="_blank">{{ resource.name }}'s Web</a>
-            </p>
-        {% endfor %}
-    </li>
-    <li class="">
-        <p class="">Courses</p>
-        {% for resource in site.data.resource_courses %}
-            <h3 class="">{{ resource.name }}</h3>
-            <p class="">
-                {% include external-link.html %}
-                <a href="{{ resource.url }}" target="_blank">{{ resource.name }}'s Web</a>
-            </p>
-        {% endfor %}
-    </li>
-    <li class="">
-        <p class="">Developers</p>
-        {% for resource in site.data.resource_twitter %}
-            <h3 class="">{{ resource.name }}</h3>
-            <p class="">
-                {% include external-link.html %}
-                <a href="{{ resource.url }}" target="_blank">{{ resource.name }}'s Web</a>
-            </p>
-        {% endfor %}
-    </li>
-    <li class="">
-        <p class="">Feeds</p>
-        {% for resource in site.data.resource_feeds %}
-            <h3 class="">{{ resource.name }}</h3>
-            <p class="">
-                {% include external-link.html %}
-                <a href="{{ resource.url }}" target="_blank">{{ resource.name }}</a>
             </p>
         {% endfor %}
     </li>
     <li class="">
         <p id="newsletters" class="">Newsletters</p>
-        {% for resource in site.data.resource_newsletters %}
+        {% for resource in site.data.newsletters %}
             <h3 class="">{{ resource.name }}</h3>
             <p class="">
                 {% include external-link.html %}
@@ -65,7 +35,7 @@ TL; DR
     </li>
     <li class="">
         <p id="podcasts" class="">Podcasts</p>
-        {% for resource in site.data.resource_podcasts %}
+        {% for resource in site.data.podcasts %}
             <h3 class="">{{ resource.name }}</h3>
             <p class="">
                 {% include external-link.html %}
@@ -75,7 +45,7 @@ TL; DR
     </li>
     <li class="">
         <p class="">Slack Channels</p>
-        {% for resource in site.data.resource_slacks %}
+        {% for resource in site.data.slacks %}
             <h3 class="">{{ resource.name }}</h3>
             <p class="">
                 {% include external-link.html %}
@@ -84,28 +54,8 @@ TL; DR
         {% endfor %}
     </li>
     <li class="">
-        <p class="">Videos</p>
-        {% for resource in site.data.resource_videos %}
-            <h3 class="">{{ resource.name }}</h3>
-            <p class="">
-                {% include external-link.html %}
-                <a href="{{ resource.url }}" target="_blank">{{ resource.name }}'s Web</a>
-            </p>
-        {% endfor %}
-    </li>
-    <li class="">
-        <p class="">Webs</p>
-        {% for resource in site.data.resource_webs %}
-            <h3 class="">{{ resource.name }}</h3>
-            <p class="">
-                {% include external-link.html %}
-                <a href="{{ resource.url }}" target="_blank">{{ resource.name }}'s Web</a>
-            </p>
-        {% endfor %}
-    </li>
-    <li class="">
         <p class="">Webs of Resources</p>
-        {% for resource in site.data.resource_other %}
+        {% for resource in site.data.resources %}
             <h3 class="">{{ resource.name }}</h3>
             <p class="">
                 {% include external-link.html %}

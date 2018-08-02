@@ -1,7 +1,18 @@
----
-layout: full
----
+<!DOCTYPE html>
+<html lang="en">
 
-<main class="">
-  {{ content }}
-</main>
+    {% include head.html %}
+
+    <body>
+
+    {% include header.html %}
+
+    <main class="">
+        {{ content }}
+    </main>
+
+    {% include footer.html %}
+
+    </body>
+
+</html>

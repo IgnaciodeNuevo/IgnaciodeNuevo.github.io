@@ -1,5 +1,5 @@
 ---
-layout: full
+layout: default
 title: "Ignacio Villanueva - Front-end Developer focusing front-end architecture, front-end performance and responsive web design."
 ---
 

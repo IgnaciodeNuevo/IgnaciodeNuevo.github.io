@@ -120,3 +120,15 @@
 
 - name: Web Typography Resources
   url: https://betterwebtype.com/web-typography-resources.html
+
+- name: CSS-Tricks
+  url: https://css-tricks.com
+
+- name: Smashingmag
+  url: https://www.smashingmagazine.com
+
+- name: CSS Guidelines
+  url: http://cssguidelin.es
+
+- name: Sass Guidelines
+  url: http://sass-guidelin.es
