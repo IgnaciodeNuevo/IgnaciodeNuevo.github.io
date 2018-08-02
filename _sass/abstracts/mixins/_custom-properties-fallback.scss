@@ -1,0 +1,8 @@
+// Custom properties to Sass fallback
+// @author Ignacio Villanueva
+// @params {String} $property, $variable, $fallback
+
+@mixin variable($property, $variable, $fallback) {
+    #{$property}: $fallback;
+    #{$property}: var($variable);
+}
