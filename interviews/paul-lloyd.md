@@ -2,7 +2,7 @@
 layout: interview
 title: "Paul Lloyd"
 ---
-<img class="" src="/images/portrait-paul-lloyd.jpg" alt="Photo Paul Lloyd"/>
+<img class="" src="/assets/images/portrait-paul-lloyd.jpg" alt="Photo Paul Lloyd"/>
 {% if page.title %}
   <h1 class="">{{ page.title }}</h1>
 {% endif %}

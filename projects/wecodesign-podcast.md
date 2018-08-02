@@ -13,7 +13,7 @@ I decided to chat about this with a friend who is Publicist and Ilustrator and d
 
 We send several emails to people we wanted to interview and everyone with only one exception (_because he don't want to expose himself to Internet_) said yes (_I feel amazed how web people are so close_).
 
-<img src="/images/proyecto-wecodesign-1.jpg" alt="iTunes de WeCodeSign cover">
+<img src="/assets/images/proyecto-wecodesign-1.jpg" alt="iTunes de WeCodeSign cover">
 
 ## The process
 
@@ -45,7 +45,7 @@ Looking for help at <a href="https://talk.jekyllrb.com/" target="_blank">Jekyll 
 
 I added a <code>style</code> element to allow embed style information on each loop.
 
-<img src="/images/proyecto-wecodesign-2.jpg" alt="Code of WeCodeSign">
+<img src="/assets/images/proyecto-wecodesign-2.jpg" alt="Code of WeCodeSign">
 
 I can't hightlight code on my website because I removed the <code>/css/syntax.css</code> by error and styled <code><blockquote></blockquote></code> tags (_I was a noob using Jekyll_).
 

@@ -17,7 +17,7 @@ Started learning about box-model and positioning (an easy part for me), fortunat
 
 After lunch I learnt something new! We had to "clone" using [Boostrap](http://getbootstrap.com){:target="_blank"} a [Trello board](https://github.com/IgnaciodeNuevo/Ironhack/tree/master/Week%203/Day%201/Boostrap){:target="_blank"}. It was easy knowing how some things works in CSS, I was able to help Marcos too.
 
-<img src="/images/post-irnohack-week-three-a.jpg" alt="Learning HTML & CSS with Javi Velasco">
+<img src="/assets/images/post-irnohack-week-three-a.jpg" alt="Learning HTML & CSS with Javi Velasco">
 
 On tuesday we have been taught some HTML & CSS best practices and I've shared a really useful [CSS guide](http://cssguidelin.es/){:target="_blank"} with my classmates, they also learned what is the DOM and its structure and a bit of responsive web design.
 
@@ -27,7 +27,7 @@ Here is where the story starts to become dark. Why? You might ask... well we sta
 
 We spent Wednesday afternoon solving [Jasmine + Koans](https://github.com/IgnaciodeNuevo/Ironhack/tree/master/Week%203/Day%203/jasmine-koans){:target="_blank"} the most funny exercise I've done and we have been introduced to Jasmine, the DOM-less simple JavaScript testing framework. Been said that this was the last funny day during this week is saying too much.
 
-<img src="/images/post-irnohack-week-three-b.jpg" alt="Javi Velasco posing">
+<img src="/assets/images/post-irnohack-week-three-b.jpg" alt="Javi Velasco posing">
 
 Thursday we started with Object Oriented JavaScript, asynchrony and callbacks. The day was full of information, so many things to learn and not enought time. (This is why reviewing the lesson at home was so important but this day was more important than ever).
 

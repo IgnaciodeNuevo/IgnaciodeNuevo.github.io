@@ -31,7 +31,7 @@ Where to start...
 
 First of all, thanks to all the TAs, Teachers an people like Isaura, Lluis, Alberto Marcos and so on that maded this possible. I feel now part of the Ironhack family.
 
-<img src="/images/post-irnohack-conclusions-1.jpg" alt="Marcos laptop and breakfast">
+<img src="/assets/images/post-irnohack-conclusions-1.jpg" alt="Marcos laptop and breakfast">
 
 <blockquote class="">
     <span>Marcos laptop and breakfast</span>
@@ -59,13 +59,13 @@ This new experience has made me think a lot on my future. Within the hiring days
 
 Now, as I was writing this post, one month after Ironhack ended I have lot of new ideas to develop and what I want to do now as front-end developer with a good friend I've made at Campus Madrid.
 
-<img src="/images/post-irnohack-conclusions-2.JPG" alt="Hackshow one">
+<img src="/assets/images/post-irnohack-conclusions-2.JPG" alt="Hackshow one">
 
 <blockquote class="">
     <span>Hackshow attendees part one</span>
 </blockquote>
 
-<img src="/images/post-irnohack-conclusions-3.JPG" alt="Hackshow two">
+<img src="/assets/images/post-irnohack-conclusions-3.JPG" alt="Hackshow two">
 
 <blockquote class="">
     <span>Hackshow attendees part two</span>
@@ -104,7 +104,7 @@ I've been asked A LOT about my experience at Ironhack, thanks to my [Podcast](ht
 
 I’ll definitly take another Bootcamp in the next few years, this time one made in the USA and only if I can find one about JavaScript.
 
-<img src="/images/post-irnohack-conclusions-4.jpg" alt="Ironhackers Cohort (Madrid 2016) - Fullstack Bootcamp">
+<img src="/assets/images/post-irnohack-conclusions-4.jpg" alt="Ironhackers Cohort (Madrid 2016) - Fullstack Bootcamp">
 
 <blockquote class="">
     <span>Reinier, Alex, Fernanda, Marcos, Tristan, Daniel, Satwat, me and Magnus</span><br>

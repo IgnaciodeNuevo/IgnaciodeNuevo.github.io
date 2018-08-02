@@ -2,7 +2,7 @@
 layout: interview
 title: "Jeremy Keith"
 ---
-<img class="" src="/images/portrait-jeremy-keith.jpg" alt="Photo Jeremy Keith"  />
+<img class="" src="/assets/images/portrait-jeremy-keith.jpg" alt="Photo Jeremy Keith"  />
 {% if page.title %}
   <h1 class="">{{ page.title }}</h1>
 {% endif %}
@@ -23,7 +23,7 @@ If you find something interesting, then learning it isn't a problem—I mean, it
 In general, I've found that if something doesn't genuinely interest you, it's okay not to learn it.
 That can feel like a cop-out, especially if it's the latest shiny technology that everyone seems to be talking about, but peer pressure is not a good deciding factor in what to learn.
 
-<img src="/images/interview-clearleft-1.jpg" alt="Clearleft">
+<img src="/assets/images/interview-clearleft-1.jpg" alt="Clearleft">
 
 ## What would you qualify as the top few problems facing developers today?
 
@@ -31,7 +31,7 @@ There's so much involved in front-end development these days, I think that one o
 
 ## How would you recommend somebody to start learning web development?
 
-<img class="" src="/images/interview-clearleft-2.jpg" alt="1st and 2nd floor at night">
+<img class="" src="/assets/images/interview-clearleft-2.jpg" alt="1st and 2nd floor at night">
 
 Start with the foundations. Understand how the web works: HTTP, URLs, GET and POST. Then learn HTML, but I mean *really* learn HTML. I'm often surprised by how many advanced developers who are geniuses in JavaScript seem to have skipped over all that markup has to offer and end up expending a lot of effort trying to reproduce what the browser already does.
 

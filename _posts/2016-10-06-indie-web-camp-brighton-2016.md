@@ -8,7 +8,7 @@ tags:
   - Event
 ---
 
-<img src="/images/post-IWC-Brighton-2016-1.gif" alt="Photo by Julie Anne Noying CC-BY/Flickr">
+<img src="/assets/images/post-IWC-Brighton-2016-1.gif" alt="Photo by Julie Anne Noying CC-BY/Flickr">
 
 It was a meeting for independent web creators (everyone from newbies to hackers) to share ideas and actively create things for our personal websites.
 
@@ -24,7 +24,7 @@ After the introduction, we showed our websites and show what we've been working 
 
 I was astonished by the variety topics and software used.
 
-<img src="/images/post-IWC-Brighton-2016-2.jpg" alt="Photo by Julie Anne Noying CC-BY/Flickr">
+<img src="/assets/images/post-IWC-Brighton-2016-2.jpg" alt="Photo by Julie Anne Noying CC-BY/Flickr">
 
 ### Shareing knowledge
 
@@ -48,7 +48,7 @@ At 5:30pm we went to the pub again to keep talking about The Web for two hours a
 
 Now I can say that being part of [IndieWebCamp Brighton 2016](https://indieweb.org/2016/Brighton){:target="_blank"} this year has been one of the most inspiring experiences I've ever had.
 
-<img src="/images/post-IWC-Brighton-2016-4.jpg" alt="Photo by Julie Anne Noying CC-BY/Flickr">
+<img src="/assets/images/post-IWC-Brighton-2016-4.jpg" alt="Photo by Julie Anne Noying CC-BY/Flickr">
 
 I also want to say thanks to the organizers. Such an amazing experience, see you next year Brighton!
 

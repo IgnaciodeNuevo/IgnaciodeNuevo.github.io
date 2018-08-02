@@ -58,7 +58,7 @@ Había sido un día muy intenso y de mucho caminar por la mañana así que decid
 
 Estuvimos cenando y charlando un tranquilamente. La verdad que me lo pasé genial. La pena es que no pude dormir bien y al día siguiente estaba destrozado. ¡Gracias por no dejarme dormir compi de cuarto! 😞
 
-<img src="/images/post-antievent-1.jpg" alt="¡Empieza The Anti Event 2017!">
+<img src="/assets/images/post-antievent-1.jpg" alt="¡Empieza The Anti Event 2017!">
 
 ## Día 2 (sábado 9)
 
@@ -68,13 +68,13 @@ La mañana del sábado ibamos con las pilas cargadas y con ganas de empezar. Com
 
 Nada mejor que empezar la mañana relajadamente que de la mano de <a href="https://twitter.com/oneeyedman">Carlos</a> impartiendo un taller de acuarela, (_que yo creía iba a ser teórico o como mucho una demostración magistral por su parte_), pero no. ¡Iba a ser práctico! 😱
 
-<img src="/images/post-antievent-4.jpg" alt="Posando para foto en el taller de Acuarelas">
+<img src="/assets/images/post-antievent-4.jpg" alt="Posando para foto en el taller de Acuarelas">
 
 Por mi parte como siempre me pasa en estas situaciones tuve un buen rato una terrible vergüenza por pintar (_algo que jamás he hecho por lo mal que se me da_). Al final me animé a participar gracias a que <a href="https://twitter.com/carmenansio">Carmen</a> se había dibujado a lápiz y con algunos consejos de Carlos empecé a estropear su estupendo dibujo.
 
 Se nos pasó tan rápido el taller que nos saltamos una charla, estuvimos dos horas jugando con acuarelas. Ahora doy las gracias a <a href="https://twitter.com/carmenansio">Carmen</a> por animarme a pintar lo que había dibujado.
 
-<img src="/images/post-antievent-2.jpg" alt="Tablero de Anti Charlas">
+<img src="/assets/images/post-antievent-2.jpg" alt="Tablero de Anti Charlas">
 
 ### SVG
 
@@ -98,7 +98,7 @@ Tras la comida <a href="https://twitter.com/carmenansio">Carmen</a> y yo estuvim
 
 Fue super entretenido contar todos los entresijos, incluso hicimos un pequeño spoiler sobre un futuro episodio y sobre novedades que nos estamos planteando para el año que viene.
 
-<img src="/images/post-antievent-5.jpg" alt="Carmen y yo hablando sobre WeCodeSign">
+<img src="/assets/images/post-antievent-5.jpg" alt="Carmen y yo hablando sobre WeCodeSign">
 
 <a href="https://twitter.com/eletorro">Elena Torró</a> <a href="https://elenatorro.github.io/theantievent-notes/#podcasting">ha escrito sobre la charla</a> por si queréis saber más 😎
 
@@ -136,7 +136,7 @@ Como conclusión decir que ha sido el mejor evento tecnológico al que he podido
 
 ¡Espero no perderme The Anti Event el año que viene, ha sido increible!
 
-<img src="/images/post-antievent-3.jpg" alt="Una preciosa Anti Taza">
+<img src="/assets/images/post-antievent-3.jpg" alt="Una preciosa Anti Taza">
 
 PD.: Se me olvidaba mencionar que sortearon 15 tazas y me tocó una en la segunda ronda que le regalé a <a href="https://twitter.com/carmenansio">Carmen</a> ya que a ella le hacía especial ilusión.
 

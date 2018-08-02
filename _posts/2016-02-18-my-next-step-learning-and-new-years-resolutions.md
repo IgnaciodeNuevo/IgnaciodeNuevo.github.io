@@ -13,7 +13,7 @@ tags:
 # Learning JavaScript
 
 <figure class="">
-    <img src="/images/resource-javascript-for-kids.jpg" alt="JavaScript for Kids (book)">
+    <img src="/assets/images/resource-javascript-for-kids.jpg" alt="JavaScript for Kids (book)">
     <figcaption>
         <a href="#JSBookOne">JavaScript for Kids</a>
     </figcaption>
@@ -43,7 +43,7 @@ Here are the things you'll learn in <a href="http://www.freecodecamp.com/" targe
 </ul>
 
 <figure class="">
-  <img src="/images/resource-eloquent-javascript.jpg" alt="Eloquent JavaScript (book)">
+  <img src="/assets/images/resource-eloquent-javascript.jpg" alt="Eloquent JavaScript (book)">
   <figcaption><a href="#JSBookTwo">Eloquent JavaScript</a></figcaption>
 </figure>
 

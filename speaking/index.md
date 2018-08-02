@@ -4,7 +4,7 @@ title: "Speaking"
 ---
 
 <div class="">
-    <img src="/images/section-speaking.jpg" alt="Photography by Jeremy Yap" />
+    <img src="/assets/images/section-speaking.jpg" alt="Photography by Jeremy Yap" />
     <h1 class="">Speaking</h1>
 </div>
 

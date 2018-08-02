@@ -2,7 +2,7 @@
 layout: interview
 title: "Hugo Giraudel"
 ---
-<img class="" src="/images/portrait-hugo-giraudel.jpg" alt="Photo Hugo Giraudel"/>
+<img class="" src="/assets/images/portrait-hugo-giraudel.jpg" alt="Photo Hugo Giraudel"/>
 {% if page.title %}
   <h1 class="">{{ page.title }}</h1>
 {% endif %}

@@ -17,7 +17,7 @@ Week 6 was our last theory week, theory if you can say that we learn by listenin
 
 On monday we met Harek (nobody calls him by his name), my second favourite teacher during this Bootcamp so far. He is the kind of person that motivates you with his attitude and talking about Ruby on Rails you can say that he loves his job, so him as Jake did before is the people you ever would like to have as a teacher.
 
-<img src="/images/post-irnohack-week-six-b.jpg" alt="Harek showing us something in Rails console">
+<img src="/assets/images/post-irnohack-week-six-b.jpg" alt="Harek showing us something in Rails console">
 
 <blockquote class="">
     <p>Harek showing us something in Rails console</p>
@@ -32,7 +32,7 @@ We learnt that using forms to add things to our Data Base is not the fastest way
     <cite>Postman Website</cite>
 </blockquote>
 
-<img src="/images/post-irnohack-week-six-c.jpg" alt="Postman Testing">
+<img src="/assets/images/post-irnohack-week-six-c.jpg" alt="Postman Testing">
 
 <blockquote class="">
     <p>Postman Testing</p>
@@ -98,7 +98,7 @@ We also learnt about Git Branches, so I did a small recap of commands to use
 
 Friday we did a BBQ Planner to help people organize barbecues but it's got a few problems and after ending the class we went to a Scape Room. A fun experience helping each other to win Raúl, Marcos, Tristán, Fernanda and Reinier!
 
-<img src="/images/post-irnohack-week-six-d.jpg" alt="Group Photo at the Scape Room">
+<img src="/assets/images/post-irnohack-week-six-d.jpg" alt="Group Photo at the Scape Room">
 
 <blockquote class="">
     <p>Group Photo at the Scape Room</p>
@@ -120,7 +120,7 @@ Friday we did a BBQ Planner to help people organize barbecues but it's got a few
 
 Saturday we went back to have an introduction to React by Javi Velasco our JavaScript teacher. I cant wait to finish Ironhack's Bootcamp and start playing with React again and learn how to use it.
 
-<img src="/images/post-irnohack-week-six-a.jpg" alt="Javi Velasco teaching us React">
+<img src="/assets/images/post-irnohack-week-six-a.jpg" alt="Javi Velasco teaching us React">
 
 <blockquote class="">
     <p>Javi Velasco teaching us React</p>

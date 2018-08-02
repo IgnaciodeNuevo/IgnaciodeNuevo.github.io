@@ -4,7 +4,7 @@ title: "Resources"
 excerpt: "Resouces for Web Developers."
 ---
 <div class="">
-<img src="/images/section-resources.jpg" alt="Photography by Todd Quackenbush" />
+<img src="/assets/images/section-resources.jpg" alt="Photography by Todd Quackenbush" />
 <h1 class="">Resources for Web Developers</h1>
 </div>
 

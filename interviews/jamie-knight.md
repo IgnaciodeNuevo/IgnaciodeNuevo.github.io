@@ -2,7 +2,7 @@
 layout: interview
 title: "Jamie Knight"
 ---
-<img class="" src="/images/portrait-jamie-knight.jpg" alt="Photo Jamie Knight"  />
+<img class="" src="/assets/images/portrait-jamie-knight.jpg" alt="Photo Jamie Knight"  />
 {% if page.title %}
   <h1 class="">{{ page.title }}</h1>
 {% endif %}

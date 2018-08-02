@@ -3,7 +3,7 @@ layout: interview
 title: "Brian Rinaldi"
 ---
 
-<img class="" src="/images/portrait-brian-rinaldi.jpg" alt="Photo Brian Rinaldi"  />
+<img class="" src="/assets/images/portrait-brian-rinaldi.jpg" alt="Photo Brian Rinaldi"  />
 {% if page.title %}
   <h1 class="">{{ page.title }}</h1>
 {% endif %}

@@ -2,7 +2,7 @@
 layout: interview
 title: "Scott Hanselman"
 ---
-<img class="" src="/images/portrait-scott-hanselman.jpg" alt="Photo Scott Hanselman"  />
+<img class="" src="/assets/images/portrait-scott-hanselman.jpg" alt="Photo Scott Hanselman"  />
 {% if page.title %}
   <h1 class="">{{ page.title }}</h1>
 {% endif %}

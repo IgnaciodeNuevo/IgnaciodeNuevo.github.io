@@ -19,7 +19,7 @@ First of all we didn't know before what TDD is, so to clear things a little bit 
 
 We met [Jake](https://www.linkedin.com/in/wolas){:target="_blank"} a Senior Back-end Developer at [Glownet](http://glownet.com/){:target="_blank"} the person with more energy I've ever met. It was a pleasure to have him as our main teacher during this week.
 
-<img src="/images/post-irnohack-week-two-a.jpg" alt="Ironhack Teacher: Jake">
+<img src="/assets/images/post-irnohack-week-two-a.jpg" alt="Ironhack Teacher: Jake">
 
 <blockquote class="">
   <span>Jake with a hanger</span>
@@ -43,7 +43,7 @@ The principle of agile methodologies is to do small taks in a short period of ti
 
 We've also been pair programming every day in the afternoon with the help of Pomodoro Technic, 25min developing, 5min resting.
 
-<img class="" src="/images/post-irnohack-week-two-b.jpg" alt="Ironhack Teacher: Jake">
+<img class="" src="/assets/images/post-irnohack-week-two-b.jpg" alt="Ironhack Teacher: Jake">
 
 <blockquote class="">
     <span>Satwat, Marcos, Reinier, Nacho</span>

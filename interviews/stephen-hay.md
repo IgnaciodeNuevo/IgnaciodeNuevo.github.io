@@ -2,7 +2,7 @@
 layout: interview
 title: "Stephen Hay"
 ---
-<img class="" src="/images/portrait-stephen-hay.jpg" alt="Photo Stephen Hay"/>
+<img class="" src="/assets/images/portrait-stephen-hay.jpg" alt="Photo Stephen Hay"/>
 {% if page.title %}
   <h1 class="">{{ page.title }}</h1>
 {% endif %}

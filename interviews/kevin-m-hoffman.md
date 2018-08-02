@@ -2,7 +2,7 @@
 layout: interview
 title: "Kevin M. Hoffman"
 ---
-<img class="" src="/images/portrait-kevin-m-hoffman.jpg" alt="Photo Kevin M. Hoffman by Michelle Gray"  />
+<img class="" src="/assets/images/portrait-kevin-m-hoffman.jpg" alt="Photo Kevin M. Hoffman by Michelle Gray"  />
 {% if page.title %}
   <h1 class="">{{ page.title }}</h1>
 {% endif %}

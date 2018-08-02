@@ -54,7 +54,7 @@ On Tuesday at 18:30h, I went to a non Ironhack Meetup, actually a [Front-end Dev
 
 On Wednesday some of the Ironhackers had a Yoga class (see photograph below), and a twenty User Experience talk (so short). As I'm not a Yoga guy, I went home to review the lesson and exercises.
 
-<img src="/images/post-irnohack-week-four.jpg" alt="Yoga time">
+<img src="/assets/images/post-irnohack-week-four.jpg" alt="Yoga time">
 
 #### Wednesday and Thursday recap
 

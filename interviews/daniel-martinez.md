@@ -3,7 +3,7 @@ layout: interview
 title: "Daniel Martinez"
 ---
 
-<img class="" src="/images/portrait-daniel-martinez.jpg" alt="Photo Daniel Martínez"  />
+<img class="" src="/assets/images/portrait-daniel-martinez.jpg" alt="Photo Daniel Martínez"  />
 {% if page.title %}
   <h1 class="">{{ page.title }}</h1>
 {% endif %}

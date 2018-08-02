@@ -21,7 +21,7 @@ They are also on Slack at nights to help us if we have problems at home.
 
 We are from very different parts, Reinier (from the Netherlands), Nacho (from Spain), Alejandro (from Spain), Daniel (from Germany), Satwat (from the UK), Magnus (from Norwey), Marcos (from France), Fernanda and Tristán (from Spain).
 
-<img src="/images/post-irnohack-week-one-a.jpg" alt="Ironhack cohort June 2016 Madrid">
+<img src="/assets/images/post-irnohack-week-one-a.jpg" alt="Ironhack cohort June 2016 Madrid">
 
 <blockquote class="">
     <p>Claudia (AM), Isaura (TA), Tristan, me, Reinier, Marcos, Satwat, Fernanda, Daniel, LLuis (TA)</p>
@@ -44,7 +44,7 @@ I am anxious, extremely anxious. I’m trying not to let it get to me but I have
 
 And here is the hard part: sometimes I question myself if I'll be able to be a good front-end soon. To be honest, I love it, so much, I've found two years ago what is my passion. No one tells you how hard was to become a successful developer.
 
-<img src="/images/post-irnohack-week-one-b.jpg" alt="Ironhack Week 1 - Photo 1">
+<img src="/assets/images/post-irnohack-week-one-b.jpg" alt="Ironhack Week 1 - Photo 1">
 
 ## Its Friday!
 

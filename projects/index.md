@@ -4,7 +4,7 @@ title: "Projects"
 excerpt: "A list of all my open-sourced projects, all hosted on GitHub. Fair warning: some of them are not maintained anymore."
 ---
 <!-- <div class="">
-  <img src="/images/section-projects.jpg" alt="Photography by Negative Space" />
+  <img src="/assets/images/section-projects.jpg" alt="Photography by Negative Space" />
   <h1 class="">Development Projects</h1>
 </div>
 

@@ -2,7 +2,7 @@
 layout: interview
 title: "Harry Roberts"
 ---
-<img class="" src="/images/portrait-harry-roberts.jpg" alt="Photo Harry Roberts"  />
+<img class="" src="/assets/images/portrait-harry-roberts.jpg" alt="Photo Harry Roberts"  />
 {% if page.title %}
   <h1 class="">{{ page.title }}</h1>
 {% endif %}

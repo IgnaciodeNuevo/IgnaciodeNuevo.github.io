@@ -17,7 +17,7 @@ Week five and I have been developing a lot. I feel confortable developing small 
 
 On monday we had Raúl, one of the Ironhack Teacher Assistants as our instructor. We have been introduced to jQuery and if I'm right the most famous JavaScript library. It is usefull because it helps to manipulate the DOM (Document Object Model) or as I say, the HTML tree. Because we have been learning only tree days of real JavaScript (we knew lot of basic stuff like variables, functions and so on) so we didn't saw the basics this week.
 
-<img src="/images/post-irnohack-week-five-a.jpg" alt="Listening to Raúl while he teaches us jQuery">
+<img src="/assets/images/post-irnohack-week-five-a.jpg" alt="Listening to Raúl while he teaches us jQuery">
 
 <blockquote class="">
     <p>Listening to Raúl while he teaches us jQuery</p>
@@ -29,7 +29,7 @@ Web applications can send data to and retrieve from a server asynchronously (in 
 
 I.E: imagine you are filling a form and the connection goes down. The browser via local storage has been saving the data, so when you refresh the website your data is still here!
 
-<img src="/images/post-irnohack-week-five-b.jpg" alt="Extreme programming talk by Carlos Blé">
+<img src="/assets/images/post-irnohack-week-five-b.jpg" alt="Extreme programming talk by Carlos Blé">
 
 <blockquote class="">
     <p>Extreme programming talk by Carlos Blé</p>
@@ -48,7 +48,7 @@ Tuesday was completly different. We started learning how to communicate with an 
 
 Communicating with a good API like the Spotify's one was ok but it was the first time I had to do such a thing and it took me hours to find the solution to the problems I had. We have learnt how to use the source tab in the Developer Tools in Chrome and how to debug JavaScript and jQuery using breakpoints or using the setps tool instead of breakpoints.
 
-<img src="/images/post-irnohack-week-five-d.jpg" alt="jQuery debugging">
+<img src="/assets/images/post-irnohack-week-five-d.jpg" alt="jQuery debugging">
 
 #### Tuesday recap
 
@@ -61,7 +61,7 @@ My classmates also learnt how to use HTML video and audio tags and how to use fa
 
 The remaining morning we learnt how to use the `this` object in JavaScript, the most confusing thing I have learnt this week so far; and what is hoisting in JavaScript and jQuery. Raúl taught us to use the Google Geolocation API and how to implement it in Google Maps, it was amazing.
 
-<img src="/images/post-irnohack-week-five-c.jpg" alt="Lunch time we used to play table tennis">
+<img src="/assets/images/post-irnohack-week-five-c.jpg" alt="Lunch time we used to play table tennis">
 
 <blockquote class="">
     <p>Lunch time we used to play table tennis</p>

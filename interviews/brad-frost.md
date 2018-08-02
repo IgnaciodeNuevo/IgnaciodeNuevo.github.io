@@ -3,7 +3,7 @@ layout: interview
 title: "Brad Frost"
 ---
 
-<img class="" src="/images/portrait-brad-frost.jpg" alt="Photo Brad Frost"  />
+<img class="" src="/assets/images/portrait-brad-frost.jpg" alt="Photo Brad Frost"  />
 {% if page.title %}
   <h1 class="">{{ page.title }}</h1>
 {% endif %}

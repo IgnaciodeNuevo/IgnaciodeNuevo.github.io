@@ -2,7 +2,7 @@
 layout: interview
 title: "Maximiliano Firtman"
 ---
-<img class="" src="/images/portrait-maximiliano-firtman.jpg" alt="Photo Maximiliano Firtman"/>
+<img class="" src="/assets/images/portrait-maximiliano-firtman.jpg" alt="Photo Maximiliano Firtman"/>
 {% if page.title %}
   <h1 class="">{{ page.title }}</h1>
 {% endif %}

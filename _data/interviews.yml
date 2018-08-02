@@ -1,6 +1,6 @@
 - name: "Harry Roberts"
   excerpt: "I’m a web developer from England. My actual job title is Consultant Front-end Architect—I travel the world to help clients of all shapes and sizes write better, faster, more scalable, more maintainable CSS."
-  image_url: ../images/portrait-harry-roberts.jpg
+  image_url: ../assets/images/portrait-harry-roberts.jpg
   interview_date: "January 27, 2017"
   interview_number: 16
   interview_twitter: https://twitter.com/csswizardry
@@ -9,7 +9,7 @@
 
 - name: "Richard Rutter"
   excerpt: "I’m a web person through and through. Day to day I help run Clearleft, a digital design consultancy and studio I co-founded. Within that, I’m a user experience designer and a web typography advocate/consultant."
-  image_url: ../images/portrait-richard-rutter.jpg
+  image_url: ../assets/images/portrait-richard-rutter.jpg
   interview_date: "May 11, 2016"
   interview_number: 15
   interview_twitter: https://twitter.com/clagnut
@@ -18,7 +18,7 @@
 
 - name: "Brian Rinaldi"
   excerpt: "I have spent over 20 years as a developer, but today my focus is on the developer community. I write, speak, manage sites and programs all focused on developers."
-  image_url: ../images/portrait-brian-rinaldi.jpg
+  image_url: ../assets/images/portrait-brian-rinaldi.jpg
   interview_date: "March 28, 2016"
   interview_number: 14
   interview_twitter: https://twitter.com/remotesynth
@@ -27,7 +27,7 @@
 
 - name: "Kevin M. Hoffman"
   excerpt: "I run a distributed agency called Seven Heads Design that builds project teams from highly experienced independent designers."
-  image_url: ../images/portrait-kevin-m-hoffman.jpg
+  image_url: ../assets/images/portrait-kevin-m-hoffman.jpg
   interview_date: "March 22, 2016"
   interview_number: 13
   interview_twitter: https://twitter.com/kevinmhoffman
@@ -36,7 +36,7 @@
 
 - name: "Daniel Martinez"
   excerpt: "I am an UI Developer very bad at JavaScript."
-  image_url: ../images/portrait-daniel-martinez.jpg
+  image_url: ../assets/images/portrait-daniel-martinez.jpg
   interview_date: "March 15, 2016"
   interview_number: 12
   interview_twitter: https://twitter.com/Wakkos
@@ -45,7 +45,7 @@
 
 - name: "Faruk Ateş"
   excerpt: "I’m a product designer and developer, the original creator of the Modernizr JavaScript library, a writer, and an occasional public speaker."
-  image_url: ../images/portrait-faruk-ates.jpg
+  image_url: ../assets/images/portrait-faruk-ates.jpg
   interview_date: "March 03, 2016"
   interview_number: 11
   interview_twitter: https://twitter.com/KuraFire
@@ -54,16 +54,16 @@
 
 - name: "Jeremy Keith"
   excerpt: "My name is Jeremy and do web ...stuff. I'm not sure whether to call myself a web designer or web developer or something else. I usually like to just say 'I make websites'."
-  image_url: ../images/portrait-jeremy-keith.jpg
+  image_url: ../assets/images/portrait-jeremy-keith.jpg
   interview_date: "February 28, 2016"
   interview_number: 10
   interview_twitter: https://twitter.com/adactio
   interview_url: jeremy-keith
   interview_web: https://adactio.com
-  
+
 - name: "Scott Hanselman"
   excerpt: "My name is Scott Hanselman. I'm a programmer, teacher, and speaker. I work out of my home office in Portland, Oregon for the Web Platform Team at Microsoft."
-  image_url: ../images/portrait-scott-hanselman.jpg
+  image_url: ../assets/images/portrait-scott-hanselman.jpg
   interview_date: "February 22, 2016"
   interview_number: 9
   interview_twitter: https://twitter.com/shanselman
@@ -72,7 +72,7 @@
 
 - name: "Paul Robert LLoyd"
   excerpt: "I’m an independent graphic designer and front-end web developer based in Brighton, England. I help responsible organisations like the Guardian, UNICEF and Mozilla create purposeful digital products."
-  image_url: ../images/portrait-paul-lloyd.jpg
+  image_url: ../assets/images/portrait-paul-lloyd.jpg
   interview_date: "February 15, 2016"
   interview_number: 8
   interview_twitter: https://twitter.com/paulrobertlloyd
@@ -81,7 +81,7 @@
 
 - name: "Maximiliano Firtman"
   excerpt: "I'm a mobile+web developer, trainer, author and speaker. I'm focused on bringing great experiences on mobile devices, both with native and web technologies."
-  image_url: ../images/portrait-maximiliano-firtman.jpg
+  image_url: ../assets/images/portrait-maximiliano-firtman.jpg
   interview_date: "February 9, 2016"
   interview_number: 7
   interview_twitter: https://twitter.com/firt
@@ -90,7 +90,7 @@
 
 - name: "Stephen Hey"
   excerpt: "I'm a designer who codes. I was schooled as a designer, did print design and later art direction for several years. Then I started doing web design and learned front-end technologies."
-  image_url: ../images/portrait-stephen-hay.jpg
+  image_url: ../assets/images/portrait-stephen-hay.jpg
   interview_date: "February 1, 2016"
   interview_number: 6
   interview_twitter: https://twitter.com/stephenhay
@@ -99,7 +99,7 @@
 
 - name: "Brad Frost"
   excerpt: "Generally speaking, I make websites. I'm a front-end web designer by trade, and increasingly I consult with organizations to help them make better web experiences."
-  image_url: ../images/portrait-brad-frost.jpg
+  image_url: ../assets/images/portrait-brad-frost.jpg
   interview_date: "January 26, 2016"
   interview_number: 5
   interview_twitter: https://twitter.com/brad_frost
@@ -108,7 +108,7 @@
 
 - name: "Jonathan Stark"
   excerpt: "Front end dev seems to change on a daily basis. It's virtually impossible to keep up with the latest and greatest, and everything has pros and cons."
-  image_url: ../images/portrait-jonathan-stark.jpg
+  image_url: ../assets/images/portrait-jonathan-stark.jpg
   interview_date: "January 18, 2016"
   interview_number: 4
   interview_twitter: https://twitter.com/jonathanstark
@@ -117,7 +117,7 @@
 
 - name: "Ben Schwarz"
   excerpt: "Probably over excited about the wrong things! I’m generally really focused on whatever my brain leads me to — and I’m really great at neglecting (important) things that aren’t interesting to me."
-  image_url: ../images/portrait-ben-schwarz.jpg
+  image_url: ../assets/images/portrait-ben-schwarz.jpg
   interview_date: "January 12, 2016"
   interview_number: 3
   interview_twitter: https://twitter.com/BenSchwarz
@@ -126,7 +126,7 @@
 
 - name: "Hugo Giraudel"
   excerpt: "My name is Hugo. I am a French front-end developer about to turn 24 and living in Berlin, Germany. I am working at Edenspiekermann, where I can play with HTML, CSS (Sass & CSS Modules) and JavaScript (React) on a daily basis."
-  image_url: ../images/portrait-hugo-giraudel.jpg
+  image_url: ../assets/images/portrait-hugo-giraudel.jpg
   interview_date: "December 14, 2015"
   interview_number: 2
   interview_twitter: https://twitter.com/HugoGiraudel
@@ -135,7 +135,7 @@
 
 - name: "Jamie Knight"
   excerpt: "I am Jamie, I am autistic, 26 and have been coding for the web since I was 9. I am never seen far from a large plushie lion named “Lion”."
-  image_url: ../images/portrait-jamie-knight.jpg
+  image_url: ../assets/images/portrait-jamie-knight.jpg
   interview_date: "December 5, 2015"
   interview_number: 1
   interview_twitter: https://twitter.com/JamieKnight

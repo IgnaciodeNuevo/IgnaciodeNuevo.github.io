@@ -3,7 +3,7 @@ layout: interview
 title: "Ben Schwarz"
 ---
 
-<img class="" src="/images/portrait-ben-schwarz.jpg" alt="Photo Ben Schwarz"  />
+<img class="" src="/assets/images/portrait-ben-schwarz.jpg" alt="Photo Ben Schwarz"  />
 {% if page.title %}
   <h1 class="">{{ page.title }}</h1>
 {% endif %}

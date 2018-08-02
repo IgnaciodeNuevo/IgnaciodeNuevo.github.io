@@ -2,7 +2,7 @@
 layout: interview
 title: "Faruk Ateş"
 ---
-<img class="" src="/images/portrait-faruk-ates.jpg" alt="Photo Faruk Ateş"  />
+<img class="" src="/assets/images/portrait-faruk-ates.jpg" alt="Photo Faruk Ateş"  />
 {% if page.title %}
   <h1 class="">{{ page.title }}</h1>
 {% endif %}

@@ -2,7 +2,7 @@
 layout: interview
 title: "Richard Rutter"
 ---
-<img class="" src="/images/portrait-richard-rutter.jpg" alt="Photo Richard Rutter"  />
+<img class="" src="/assets/images/portrait-richard-rutter.jpg" alt="Photo Richard Rutter"  />
 {% if page.title %}
   <h1 class="">{{ page.title }}</h1>
 {% endif %}

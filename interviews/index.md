@@ -5,7 +5,7 @@ excerpt: "Interviews with the most influential developers of the industry and pe
 ---
 
 <div class="">
-  <img src="/images/section-interviews.jpg" alt="Photography by Alejandro Escamilla" />
+  <img src="/assets/images/section-interviews.jpg" alt="Photography by Alejandro Escamilla" />
   <h1 class="">Interviews with Developers</h1>
 </div>
 
