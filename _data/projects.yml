@@ -1,6 +1,5 @@
 - name: WeCodeSign Podcast
   description: "The Design and Development Podcast in Spanish by Ignacio Villanueva and Carmen Ansio."
-  image_url: ../assets/images/logo-WCD.svg
-  project_date: "Launch: May 2016"
-  project_url: wecodesign-podcast
-  project_web: http://wecodesignpodcast.com
+  date: "Launch: May 2016"
+  url: project-wecodesign
+  web: http://wecodesignpodcast.com
