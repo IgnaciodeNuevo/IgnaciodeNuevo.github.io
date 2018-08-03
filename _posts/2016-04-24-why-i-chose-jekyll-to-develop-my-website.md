@@ -53,10 +53,10 @@ Jekyll then works its magic by combining [YAML](http://yaml.org) front matter wi
 Finally the importance of its modularity helping you follow the [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) principle of programming from a folder that begins with an underscore like so:
 
     _includes
-    	footer.html
-    	head.html
-    	header.html
-    	reading_time.html
+    	layout-header.html
+    	layout-footer.html
+    	section-head.html
+    	component-reading_time.html
 
 Furthermore, any time I want to make a change to either, I only have to update it in one place and it’s pushed out to the entire site.
 
