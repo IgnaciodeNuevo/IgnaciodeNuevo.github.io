@@ -35,3 +35,8 @@
   description: "Nociones básicas de como comenzar a usar un CSS escalable y buenas prácticas de uso"
   date: "Charla: Mayo 5, 2017 (Adalab)"
   url: arquitectura-y-buenas-practicas-css/
+
+- name: Jekyll al rescate
+  description: "Jekyll al rescate, uso exhaustivo de Jekyll, el generador de páginas web estáticas"
+  date: "Charla: Enero 14, 2017 (Open Source Weekends)"
+  url: jekyll-al-rescate/
