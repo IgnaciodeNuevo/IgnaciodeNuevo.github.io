@@ -14,7 +14,7 @@ excerpt: "Articles about HTML5, CSS, JavaScript, architecture, scalability, fron
 <ul class="">
     {% for post in paginator.posts %}
         {% unless post.preview %}
-            {% include post-list.html post=post %}
+            {% include layout-posts.html post=post %}
         {% endunless %}
     {% endfor %}
 </ul>

@@ -18,7 +18,7 @@ TL; DR
         {% for resource in site.data.books %}
             <h3 class="">{{ resource.name }}</h3>
             <p class="">
-                {% include external-link.html %}
+                {% include icon-external.html %}
                 <a href="{{ resource.url }}" target="_blank">{{ resource.name }}'s Web</a>
             </p>
         {% endfor %}
@@ -28,7 +28,7 @@ TL; DR
         {% for resource in site.data.newsletters %}
             <h3 class="">{{ resource.name }}</h3>
             <p class="">
-                {% include external-link.html %}
+                {% include icon-external.html %}
                 <a href="{{ resource.url }}" target="_blank">{{ resource.name }}</a>
             </p>
         {% endfor %}
@@ -38,7 +38,7 @@ TL; DR
         {% for resource in site.data.podcasts %}
             <h3 class="">{{ resource.name }}</h3>
             <p class="">
-                {% include external-link.html %}
+                {% include icon-external.html %}
                 <a href="{{ resource.url }}" target="_blank">{{ resource.name }}'s Web</a>
             </p>
         {% endfor %}
@@ -48,7 +48,7 @@ TL; DR
         {% for resource in site.data.slacks %}
             <h3 class="">{{ resource.name }}</h3>
             <p class="">
-                {% include external-link.html %}
+                {% include icon-external.html %}
                 <a href="{{ resource.url }}" target="_blank">{{ resource.name }}'s Slack Channel</a>
             </p>
         {% endfor %}
@@ -58,7 +58,7 @@ TL; DR
         {% for resource in site.data.resources %}
             <h3 class="">{{ resource.name }}</h3>
             <p class="">
-                {% include external-link.html %}
+                {% include icon-external.html %}
                 <a href="{{ resource.url }}" target="_blank">{{ resource.name }}'s Web</a>
             </p>
         {% endfor %}
