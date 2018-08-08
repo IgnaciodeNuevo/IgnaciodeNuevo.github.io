@@ -138,3 +138,6 @@
 
 - name: Font style matcher
   url: https://meowni.ca/font-style-matcher/
+
+- name: CSS Duotone Generator
+  url: https://cssduotone.com/
