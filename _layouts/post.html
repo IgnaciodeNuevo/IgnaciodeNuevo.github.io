@@ -6,9 +6,10 @@ layout: default
     <h1>{{ page.title }}</h1>
 {% endif %}
 
-{% if page.date %}
+<!-- {% if page.date %}
     <p class="">{{ page.date | date: "%B %d, %Y" }}</p>
-{% endif %}
+{% endif %} -->
+    <p>Page date: {{ page.date | date: "%B %d, %Y" }}</p>
 	<p>{% include component-reading_time.html content=content %}</p>
 
 {{ content }}
