@@ -2,7 +2,6 @@
 layout: post
 title: "Creando formularios accesibles"
 excerpt: "¿Sabemos lo que implica que un formulario sea accesible? Yo hace poco no lo sabía."
-post_date: "Julio 31, 2018"
 post_number: 21
 tags:
  - Accesibilidad

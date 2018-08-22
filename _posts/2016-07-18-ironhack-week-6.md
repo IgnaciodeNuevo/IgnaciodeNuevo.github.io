@@ -2,7 +2,6 @@
 layout: post
 title: "Ironhack journal - Week[6]"
 excerpt: "My Ironhack journal for Week[6], Advanced Ruby on Rails with Harek"
-post_date: "July 18, 2016"
 post_number: 14
 tags:
   - Ironhack

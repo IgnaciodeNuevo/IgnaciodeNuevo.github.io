@@ -2,7 +2,6 @@
 layout: post
 title: "Ironhack journal - Week[5]"
 excerpt: "My Ironhack journal for Week[5], Advanced JavaScript with Raúl Vega"
-post_date: "July 13, 2016"
 post_number: 13
 tags:
   - Ironhack

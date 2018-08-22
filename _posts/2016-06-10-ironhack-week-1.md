@@ -2,7 +2,6 @@
 layout: post
 title: "Ironhack journal - Week[0] and Week[1]"
 excerpt: "My Ironhack journal for Week[0] and Week[1]"
-post_date: "June 10, 2016"
 post_number: 9
 tags:
   - Front-end

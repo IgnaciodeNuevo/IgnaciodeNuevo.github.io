@@ -2,7 +2,6 @@
 layout: post
 title: "Indie Web Camp Brighton 2016"
 excerpt: "My experience going to the Indie Web Camp Brighton"
-post_date: "October 6, 2016"
 post_number: 16
 tags:
   - Event

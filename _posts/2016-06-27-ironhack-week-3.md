@@ -2,7 +2,6 @@
 layout: post
 title: "Ironhack journal - Week[3]"
 excerpt: "My Ironhack journal for Week[3], HTML, CSS and JavaScript with Javi Velasco"
-post_date: "June 27, 2016"
 post_number: 11
 tags:
   - Front-end

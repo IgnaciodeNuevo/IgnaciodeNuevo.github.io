@@ -2,7 +2,6 @@
 layout: post
 title: "Passion for Web Development"
 excerpt: "Front-end seems to be easy until you start learning it. This feeling took me a year to get this conclusion."
-post_date: "March 4, 2016"
 post_number: 5
 tags:
   - Learning
