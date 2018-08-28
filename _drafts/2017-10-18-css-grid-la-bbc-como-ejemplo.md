@@ -45,7 +45,7 @@ Por no entrar en la [especificación](https://www.w3.org/TR/css-grid-1/) os invi
 
 `CSS Grid` es uno de los módulos de CSS más amplios que se han creado hasta la fecha y tiene muchas propiedades. La mayoría funcionan exactamente igual para la vertical como la horizontal.
 
-Os dejo unos [ejemplos](https://codepen.io/collection/DYpVoJ/) de cada propiedad que he creado hará algún tiempo y una [galería de elementos ficticia](http://ignaciodenuevo.com/examples/css-grid-en-un-proyecto-real.html) en la que podéis ver como está comentada la siguiente línea `.wrapper { display: grid; }`. Podéis encontrar el [código de ejemplo aquí](https://raw.githubusercontent.com/IgnaciodeNuevo/IgnaciodeNuevo.github.io/master/examples/css-grid-en-un-proyecto-real.html).
+Os dejo unos [ejemplos](https://codepen.io/collection/DYpVoJ/) de cada propiedad que he creado hará algún tiempo y una [galería de elementos ficticia]({{ site.url }}/examples/css-grid-en-un-proyecto-real.html) en la que podéis ver como está comentada la siguiente línea `.wrapper { display: grid; }`. Podéis encontrar el [código de ejemplo aquí](https://raw.githubusercontent.com/IgnaciodeNuevo/IgnaciodeNuevo.github.io/master/examples/css-grid-en-un-proyecto-real.html).
 
 ## ¿Sabemos y debemos usar ya CSS Grid?
 
@@ -85,7 +85,7 @@ Después de haber hablado sobre la historia, la diferencia frente a `Flexbox`, s
 
 Tened en cuenta que no se han usado ni prefijos que podríamos escribir manualmente o con Autoprefixer, así como el uso de unidades relativas como `EM` o `REM`.
 
-Podéis ver el ejemplo [aquí](http://ignaciodenuevo.com/examples/bbc).
+Podéis ver el ejemplo [aquí]({{ site.url }}/examples/bbc).
 
 ### Conclusiones
 

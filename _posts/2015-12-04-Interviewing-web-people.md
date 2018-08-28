@@ -9,7 +9,7 @@ tags:
 
 Today is a very exciting day, a really one.
 
-I talked with a friend of mine to do a pocast. Why? Because we thought, why not to talk about our interests and our hobbies, wich are crafting things, testing new technologies, new platforms and why not share our experiences with others... but, after a few hours chatting about this and researching how to start a podcast I thought why not to make it in English, because as I mentiones before [here](http://ignaciodenuevo.com/2015/11/25/hello-world/) I am not a native English speaker so apart from knowing I do not write well enought and my friend's speaking skills and mine are also not so good this project will be difficult for us.
+I talked with a friend of mine to do a pocast. Why? Because we thought, why not to talk about our interests and our hobbies, wich are crafting things, testing new technologies, new platforms and why not share our experiences with others... but, after a few hours chatting about this and researching how to start a podcast I thought why not to make it in English, because as I mentiones before [here]({{ site.url }}/2015/11/25/hello-world/) I am not a native English speaker so apart from knowing I do not write well enought and my friend's speaking skills and mine are also not so good this project will be difficult for us.
 
 So first things first, lets practice our speaking skills and in a few months we will be ready to make this possible and now, because I follow some of the most amazing people in our industry, I am starting to interview them and because I know my speaking skills are not so good by a written interview.
 
