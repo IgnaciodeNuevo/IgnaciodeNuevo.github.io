@@ -73,7 +73,7 @@ The remaining morning we learnt how to use the `this` object in JavaScript, the 
 - Local Storage
 - Audio/Video
 
-Thursday was... bad, I have been sleeping eight ours a day but with no reason I was sleepy all the week, I had this experience of learning nothing because of my drowsiness... awful. Friday was as always a full day exercise. We did a [Spotify Player](https://github.com/IgnaciodeNuevo/Ironhack/blob/master/Week%205/Day%205/spotify-skeleton-master/spotify.js){:target="_blank"} thanks to Spotify's API
+Thursday was... bad, I have been sleeping eight ours a day but with no reason I was sleepy all the week, I had this experience of learning nothing because of my drowsiness... awful. Friday was as always a full day exercise. We did a [Spotify Player]({{ site.github }}/Ironhack/blob/master/Week%205/Day%205/spotify-skeleton-master/spotify.js){:target="_blank"} thanks to Spotify's API
 
 #### Thursday and Friday recap
 

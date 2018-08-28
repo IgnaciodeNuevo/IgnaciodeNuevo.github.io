@@ -14,7 +14,7 @@ We met [Javi Velasco](http://javivelasco.com/){:target="_blank"} on monday morni
 
 Started learning about box-model and positioning (an easy part for me), fortunately I knew everything. After that we learnt about positioning. Fortunately knowing every topic in this morning class I have been able to help my classmates, wich usually is the oposit, I had the opportunity to help Reinier, Marcos and Satwat which made me proud. This is a really good feeling, helping others was the best thing I've done this week.
 
-After lunch I learnt something new! We had to "clone" using [Boostrap](http://getbootstrap.com){:target="_blank"} a [Trello board](https://github.com/IgnaciodeNuevo/Ironhack/tree/master/Week%203/Day%201/Boostrap){:target="_blank"}. It was easy knowing how some things works in CSS, I was able to help Marcos too.
+After lunch I learnt something new! We had to "clone" using [Boostrap](http://getbootstrap.com){:target="_blank"} a [Trello board]({{ site.github }}/Ironhack/tree/master/Week%203/Day%201/Boostrap){:target="_blank"}. It was easy knowing how some things works in CSS, I was able to help Marcos too.
 
 <img src="/assets/images/post-irnohack-week-three-a.jpg" alt="Learning HTML & CSS with Javi Velasco">
 
@@ -24,7 +24,7 @@ I was so happy...
 
 Here is where the story starts to become dark. Why? You might ask... well we started learning JavaScript the hard way, as we knew in Ruby how to use loops, conditional statements, variables and so on we did a very very fast JS Pre Work recap. Inmediatly after the recap we focused in how to face problem solving in JS.
 
-We spent Wednesday afternoon solving [Jasmine + Koans](https://github.com/IgnaciodeNuevo/Ironhack/tree/master/Week%203/Day%203/jasmine-koans){:target="_blank"} the most funny exercise I've done and we have been introduced to Jasmine, the DOM-less simple JavaScript testing framework. Been said that this was the last funny day during this week is saying too much.
+We spent Wednesday afternoon solving [Jasmine + Koans]({{ site.github }}/Ironhack/tree/master/Week%203/Day%203/jasmine-koans){:target="_blank"} the most funny exercise I've done and we have been introduced to Jasmine, the DOM-less simple JavaScript testing framework. Been said that this was the last funny day during this week is saying too much.
 
 <img src="/assets/images/post-irnohack-week-three-b.jpg" alt="Javi Velasco posing">
 

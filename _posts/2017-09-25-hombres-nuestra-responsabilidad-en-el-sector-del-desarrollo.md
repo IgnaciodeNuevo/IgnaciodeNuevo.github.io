@@ -11,7 +11,7 @@ tags:
 
 Cuando abrí esta Web lo planteaba como un lugar donde hablar sobre mi profesión. Hará un par de años se me ocurría que escribiría únicamente en inglés (_por aquello de forzarme a mejorar_), para mostrar mis proyectos personales y profesionales.
 
-Nunca pensaba usar mi <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">Twitter</a> más que para hablar sobre desarrollo front-end y pensaba dejar a un lado temas personales.
+Nunca pensaba usar mi <a href="{{ site.twitter }}" target="_blank">Twitter</a> más que para hablar sobre desarrollo front-end y pensaba dejar a un lado temas personales.
 
 El problema viene cuando, desde hace algún tiempo; (_un año aproximadamente_), empecé a darme cuenta de cosas que no estaban bien en el sector del desarrollo. Como los relacionados con la discriminación o el acoso, por lo que empecé a informarme, aprender y sobre todo a replantearme si todo lo que "nos han enseñado" era correcto.
 
@@ -41,7 +41,7 @@ Aunque parezca mentira creo que podemos hacer pequeños gestos en nuestro día a
 
 Por desgracia algunos compañeros, amigos, familiares y conocidos (_hombres_), no todos son así por supuesto, solamente hacen caso a otros hombres cuando se les dicen según que cosas.
 
-<blockquote class="">La verdad que me resulta muy complicado pensar como plantear las siguientes situaciones y espero no ofender a nadie, que si se diese el caso ruego me escribáis a <a href="mailto:ignaciodenuevo@gmail.com">ignaciodenuevo@gmail.com</a> para hacérmelo saber.
+<blockquote class="">La verdad que me resulta muy complicado pensar como plantear las siguientes situaciones y espero no ofender a nadie, que si se diese el caso ruego me escribáis a <a href="mailto:{{ site.email }}">{{ site.email }}</a> para hacérmelo saber.
 </blockquote>
 
 ## Charlando sobre diversidad y discriminación con amigas y conocidas
@@ -70,7 +70,7 @@ Otro caso habitual es cuando un conocido comenta algo sobre una mujer de un modo
 
 ### Usar un lenguaje inclusivo
 
-Hará algún tiempo, gracias a ver algún video sobre el tema comentaba en <a href="https://twitter.com/IgnaciodeNuevo/status/894677736123490306">este hilo de Twitter</a> la posibilidad de usar la E en lugar de la O cuando nos dirigimos a un grupo grande para ser más inclusivos. Decir por otro lado que los lenguajes evolucionan. En castellano tenemos "el" y "ella" pero no todo el mundo se identifica con estos y aunque el género gramatical no es el mismo que el de las personas algunas lo entienden como tal.
+Hará algún tiempo, gracias a ver algún video sobre el tema comentaba en <a href="{{ site.twitter }}/status/894677736123490306">este hilo de Twitter</a> la posibilidad de usar la E en lugar de la O cuando nos dirigimos a un grupo grande para ser más inclusivos. Decir por otro lado que los lenguajes evolucionan. En castellano tenemos "el" y "ella" pero no todo el mundo se identifica con estos y aunque el género gramatical no es el mismo que el de las personas algunas lo entienden como tal.
 
 Otra opción es que en lugar de hablar sobre ellos hablemos con palabras más genéricas como personas o gente. Una clara situación de mejoría es la redacción de ofertas laborales. 😊
 

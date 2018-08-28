@@ -52,7 +52,7 @@ During this week, we had the pleasure to have [Bryan McEire](https://twitter.com
 
 ### Movie Lovers Exercise
 
-This week has been an interesting one, we've been testing the 90% of our time and only 10% coding. It was a good week, lot of good stuff but on Friday I've been trying to test in our [weekly exercise](https://github.com/IgnaciodeNuevo/Ironhack/tree/master/Week%202/Day%205%20-%20Movie%20Lovers){:target="_blank"}.
+This week has been an interesting one, we've been testing the 90% of our time and only 10% coding. It was a good week, lot of good stuff but on Friday I've been trying to test in our [weekly exercise]({{ site.github }}/Ironhack/tree/master/Week%202/Day%205%20-%20Movie%20Lovers){:target="_blank"}.
 
 We are going to create a movie quiz web app!! So lets see the main points of our quiz:
 
@@ -60,6 +60,6 @@ We are going to create a movie quiz web app!! So lets see the main points of our
 - Let's use IMDB gem to get the movie information.
 - Use RSpec to test your classes.
 
-I have to say that this week we spent 6 days at Ironhack school, so the Saturday we came to do a [JavaScript small recap](https://github.com/IgnaciodeNuevo/Ironhack/tree/master/Week%202/Day%206%20-%20JavaScript%20Recap){:target="_blank"}.
+I have to say that this week we spent 6 days at Ironhack school, so the Saturday we came to do a [JavaScript small recap]({{ site.github }}/Ironhack/tree/master/Week%202/Day%206%20-%20JavaScript%20Recap){:target="_blank"}.
 
 This week we will have Javi Velasco a Front-end Developer to teach us HTML, CSS and JavaScript, so I can't wait this beautiful part of Web Development to start!

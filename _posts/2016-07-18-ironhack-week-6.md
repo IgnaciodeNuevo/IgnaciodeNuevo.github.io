@@ -105,7 +105,7 @@ Friday we did a BBQ Planner to help people organize barbecues but it's got a few
 
 #### Friday recap
 
-- [BBQ Planner](https://github.com/IgnaciodeNuevo/Ironhack/tree/master/Week%206/Day%205){:target="_blank"}
+- [BBQ Planner]({{ site.github }}/Ironhack/tree/master/Week%206/Day%205){:target="_blank"}
 
 ### GEMS
 

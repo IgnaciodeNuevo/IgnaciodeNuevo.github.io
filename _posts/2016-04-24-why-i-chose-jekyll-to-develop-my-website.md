@@ -73,7 +73,7 @@ You can host your static website for _free_ directly from your [GitHub Repo]({{ 
 
 ## Iterating is the key
 
-I then spent the following 7 months [iterating and iterating](https://github.com/IgnaciodeNuevo/ignaciodenuevo.github.io/commits). During this period, other [projects](/projects) fell by the wayside as I got distracted by yet another feature addition, performance improvement or design detail.
+I then spent the following 7 months [iterating and iterating]({{ site.github }}/ignaciodenuevo.github.io/commits). During this period, other [projects](/projects) fell by the wayside as I got distracted by yet another feature addition, performance improvement or design detail.
 
 I have lot of things to do:
 

@@ -40,7 +40,7 @@ One good thing about Monday morning was that we had time to ask lot of questions
 - Path helpers & link_to
 - Lot of exercises
 
-On Tuesday at 18:30h, I went to a non Ironhack Meetup, actually a [Front-end Developers](http://www.meetup.com/Front-end-Developers-Madrid){:target="_blank"} Madrid Meetup. They've talked about [Google Analytics](https://twitter.com/IgnaciodeNuevo/status/747843215663955968){:target="_blank"}, it was such a great event.
+On Tuesday at 18:30h, I went to a non Ironhack Meetup, actually a [Front-end Developers](http://www.meetup.com/Front-end-Developers-Madrid){:target="_blank"} Madrid Meetup. They've talked about [Google Analytics]({{ site.twitter }}/status/747843215663955968){:target="_blank"}, it was such a great event.
 
 #### Tuesday recap
 
@@ -75,7 +75,7 @@ I've found something interesting this week. Rails give IDs to some elements auto
 
 `<input type="text" name="project[name]" id="project_name">`
 
-We've been doing with Patricia a [Timetracking](https://github.com/IgnaciodeNuevo/Ironhack/tree/master/Week%204/timetracking) weekly project.
+We've been doing with Patricia a [Timetracking]({{ site.github }}/Ironhack/tree/master/Week%204/timetracking) weekly project.
 
 <blockquote class="">
     <span>The Podcast is in Spanish.</span>

@@ -58,7 +58,7 @@ Días después comentaba con unos conocidos que había tenido la oportunidad de 
 
 Estos fueron los resultados.
 
-<blockquote class="" data-lang="es"><p lang="es" dir="ltr">📊ENCUESTA para un artículo.<br><br>¿Es correcto usar <a href="https://twitter.com/hashtag/CSSGrid?src=hash&amp;ref_src=twsrc%5Etfw">#CSSGrid</a> Layout en producción en un proyecto del trabajo? 🤔<br><br>Soporte: 68.14%+4.35%=72.49%</p>&mdash; Ignacio Villanueva (@IgnaciodeNuevo) <a href="https://twitter.com/IgnaciodeNuevo/status/911166331399131136?ref_src=twsrc%5Etfw">22 de septiembre de 2017</a></blockquote>
+<blockquote class="" data-lang="es"><p lang="es" dir="ltr">📊ENCUESTA para un artículo.<br><br>¿Es correcto usar <a href="https://twitter.com/hashtag/CSSGrid?src=hash&amp;ref_src=twsrc%5Etfw">#CSSGrid</a> Layout en producción en un proyecto del trabajo? 🤔<br><br>Soporte: 68.14%+4.35%=72.49%</p>&mdash; Ignacio Villanueva (@IgnaciodeNuevo) <a href="{{ site.twitter }}/status/911166331399131136?ref_src=twsrc%5Etfw">22 de septiembre de 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Bajo mi opinión se puede usar, pero ojo, depende. Depende del proyecto y obviamente depende de si nuestra empresa puede y quiere permitirse el tiempo extra que nos llevará dar soporte a otros navegadores usando un grid basado en floats o dar soporte a navegadores antiguos. Esto no quita que se pueda usar perfectamente ya que según los navegadores modernos vayan teniendo más y más adopción, nuestros proyectos ya estarán preparados.

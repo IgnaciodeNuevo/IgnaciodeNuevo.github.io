@@ -47,7 +47,7 @@ And here is the hard part: sometimes I question myself if I'll be able to be a g
 
 ## Its Friday!
 
-Some days I was able to grasp the material instantly and other days it took hours googling for help at Google and Stackoverflow. Friday was a hell making an exercise called [Chess Validator](https://github.com/IgnaciodeNuevo/Ironhack/tree/master/Week%201/Day%205%20-%20Chess%20Validator){:target="_blank"}, we weren't able to write the program that should validate whether the move wou want to make is legal or not by every single pice you are using. We had to use inheritance, mixins, duck types and composition rules.
+Some days I was able to grasp the material instantly and other days it took hours googling for help at Google and Stackoverflow. Friday was a hell making an exercise called [Chess Validator]({{ site.github }}/Ironhack/tree/master/Week%201/Day%205%20-%20Chess%20Validator){:target="_blank"}, we weren't able to write the program that should validate whether the move wou want to make is legal or not by every single pice you are using. We had to use inheritance, mixins, duck types and composition rules.
 
 Friday evening some of us joined our instructors and the co-founder, Gonzalo and Ironhackers from previous cohorts. It was actually a meet-up for Ironhackers!
 

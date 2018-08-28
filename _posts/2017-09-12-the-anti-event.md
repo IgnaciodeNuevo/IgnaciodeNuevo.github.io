@@ -19,8 +19,6 @@ Las espectativas eran enormes y no podía ser menos puesto que el evento lo orga
 
 Viendo el nivelazo de algunos antiasistentes prometía incluso antes de llegar.
 
-Si queréis conocer quien fue al evento podéis hacerlo en <a href="https://twitter.com/IgnaciodeNuevo/lists/theantievent-2017">esta lista de Twitter</a>.
-
 ## Día 0 (jueves 7)
 
 Un par de semanas antes del evento decidimos que estaría bien ir con tiempo y aprovechar para dar una vuelta por Bilbao, así que como teníamos tantas ganas nos fuimos el jueves 7 y estuvimos de pinchos por Ledesma.
