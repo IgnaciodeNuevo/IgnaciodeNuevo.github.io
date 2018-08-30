@@ -6,6 +6,7 @@
     font-family: 'Input';
     src: url('/assets/fonts/Input/Input-Mono-Regular.woff2') format('woff2'),
         url('/assets/fonts/Input/Input-Mono-Regular.woff') format('woff');
-    font-weight: 400;
+    font-style: normal;
+    font-weight: $font-weight-normal;
     font-display: swap;
 }
