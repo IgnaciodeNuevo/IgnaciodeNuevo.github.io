@@ -11,6 +11,5 @@
     Jekyll + Simple-Jekyll-Search
     Pygments Syntax Highlighter
     GitHub Pages
-    Discus
     Icons: materialdesignicons.com
     Font: Roboto
