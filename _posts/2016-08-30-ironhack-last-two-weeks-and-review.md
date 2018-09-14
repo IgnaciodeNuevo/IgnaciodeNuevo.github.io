@@ -2,12 +2,12 @@
 layout: post
 title: "Ironhack journal - Last two weeks and final review"
 excerpt: "My Ironhack journal for last two weeks  and final review"
-post_number: 15
 tags:
   - Ironhack
   - TDD
   - JavaScript
   - jQuery
+published: false
 ---
 
 ### Index of my Ironhack series

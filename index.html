@@ -59,7 +59,6 @@ classes: home
           <h3 class="">{{ post.title }}</h3>
           <time class="" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d, %Y" }}</time>
           <p class="">{{ post.excerpt }}</p>
-          <p class="article__number">{{ post.post_number }}</p>
         </a>
       </article>
     {% endfor %}

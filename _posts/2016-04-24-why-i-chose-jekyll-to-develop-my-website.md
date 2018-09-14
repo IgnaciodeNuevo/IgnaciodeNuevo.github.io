@@ -2,7 +2,6 @@
 layout: post
 title: "Why I chose Jekyll to develop my website"
 excerpt: "Today I'll be sharing why I chose Jekyll to develop my website and it was not trivial for me."
-post_number: 7
 tags:
   - Front-end
   - Jekyll

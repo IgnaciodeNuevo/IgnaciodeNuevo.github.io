@@ -2,10 +2,10 @@
 layout: post
 title: "Ironhack journal - Week[0] and Week[1]"
 excerpt: "My Ironhack journal for Week[0] and Week[1]"
-post_number: 9
 tags:
   - Front-end
   - Ironhack
+published: false
 ---
 
 ### My application at Ironhack

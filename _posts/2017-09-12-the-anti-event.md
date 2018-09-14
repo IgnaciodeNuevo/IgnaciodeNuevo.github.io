@@ -2,7 +2,6 @@
 layout: post
 title: "The AntiEvent 2017"
 excerpt: "Mi experiencia en The AntiEvent 2017, un Open Space de nivel"
-post_number: 17
 tags:
   - Event
 ---

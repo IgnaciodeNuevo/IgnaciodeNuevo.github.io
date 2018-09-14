@@ -2,10 +2,10 @@
 layout: post
 title: "Ironhack journal - Week[4]"
 excerpt: "My Ironhack journal for Week[4], Ruby on Rails with Patricia Gao"
-post_number: 12
 tags:
   - Back-end
   - Ironhack
+published: false
 ---
 
 ### Ruby on Rails

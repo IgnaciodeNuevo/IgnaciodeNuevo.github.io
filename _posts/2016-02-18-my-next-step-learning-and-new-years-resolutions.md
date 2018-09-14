@@ -2,7 +2,6 @@
 layout: post
 title: "My next step learning and New Year's Resolutions"
 excerpt: "For me it is time to say what are my New Year's Resolutions and my next step learning Front-end Development, cause as we all know one of the best things in our industry is to learn new things everyday. "
-post_number: 3
 tags:
   - Learning
   - Front-end

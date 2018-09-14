@@ -2,12 +2,12 @@
 layout: post
 title: "Ironhack journal - Week[6]"
 excerpt: "My Ironhack journal for Week[6], Advanced Ruby on Rails with Harek"
-post_number: 14
 tags:
   - Ironhack
   - TDD
   - JavaScript
   - jQuery
+published: false
 ---
 
 ### Advanced Ruby on Rails

@@ -2,10 +2,10 @@
 layout: post
 title: "Ironhack journal - Week[2]"
 excerpt: "My Ironhack journal for Week[2], Test Driven Development (TDD) with Jake"
-post_number: 10
 tags:
   - Front-end
   - Ironhack
+published: false
 ---
 
 ### Test Driven Development

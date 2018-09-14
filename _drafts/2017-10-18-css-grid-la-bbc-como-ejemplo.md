@@ -2,7 +2,6 @@
 layout: post
 title: "CSS Grid: La BBC como ejemplo"
 excerpt: "CSS Grid Layout ha llegado para cambiarlo todo. Para ello veremos un ejemplo real con fallbacks para navegadores antiguos."
-post_number: 19
 tags:
   - CSS
 ---

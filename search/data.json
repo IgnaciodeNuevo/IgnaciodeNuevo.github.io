@@ -7,8 +7,7 @@
       "tags"     : "{{ post.tags | join: ', ' }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",
       "date"     : "{{ post.date|date: '%B %d, %Y' }}",
-      "excerpt"  : "{{ post.excerpt }}",
-      "number"   : "{{ post.post_number }}"
+      "excerpt"  : "{{ post.excerpt }}"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
