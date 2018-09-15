@@ -206,7 +206,7 @@ body {
 
 /* Fixes issue in Chrome where italic fonts did not appear when printing to PDF */
 .reveal:after {
-  content: '';
+  content: "";
   font-style: italic;
 }
 
@@ -329,7 +329,7 @@ body {
 	background-color: rgba( 0, 0, 0, 0.2 );
 }
 	.reveal .progress:after {
-		content: '';
+		content: "";
 		display: block;
 		position: absolute;
 		height: 20px;
@@ -449,7 +449,7 @@ body {
 	min-height: 0 !important;
 }
 
-/* Don't allow interaction with invisible slides */
+/* Don"t allow interaction with invisible slides */
 .reveal .slides>section.future,
 .reveal .slides>section>section.future,
 .reveal .slides>section.past,
@@ -512,7 +512,7 @@ body {
 
 /*********************************************
  * SLIDE TRANSITION
- * Aliased 'linear' for backwards compatibility
+ * Aliased "linear" for backwards compatibility
  *********************************************/
 
 @each $stylename in slide, linear {
@@ -535,7 +535,7 @@ body {
 
 /*********************************************
  * CONVEX TRANSITION
- * Aliased 'default' for backwards compatibility
+ * Aliased "default" for backwards compatibility
  *********************************************/
 
 @each $stylename in default, convex {
@@ -612,7 +612,7 @@ body {
 		min-height: 0;
 	}
 	.reveal.cube .slides section:not(.stack):before {
-		content: '';
+		content: "";
 		position: absolute;
 		display: block;
 		width: 100%;
@@ -624,7 +624,7 @@ body {
 		transform: translateZ( -20px );
 	}
 	.reveal.cube .slides section:not(.stack):after {
-		content: '';
+		content: "";
 		position: absolute;
 		display: block;
 		width: 90%;
@@ -683,7 +683,7 @@ body {
 		z-index: 12;
 	}
 	.reveal.page .slides section:not(.stack):before {
-		content: '';
+		content: "";
 		position: absolute;
 		display: block;
 		width: 100%;
@@ -694,7 +694,7 @@ body {
 		transform: translateZ( -20px );
 	}
 	.reveal.page .slides section:not(.stack):after {
-		content: '';
+		content: "";
 		position: absolute;
 		display: block;
 		width: 90%;
@@ -1050,13 +1050,13 @@ body {
 		opacity: 1;
 		visibility: visible;
 
-		// This can't be applied to the slide itself in Safari
+		// This can"t be applied to the slide itself in Safari
 		outline: 10px solid rgba(150,150,150,0.1);
 		outline-offset: 10px;
 	}
 }
 
-// Disable transitions transitions while we're activating
+// Disable transitions transitions while we"re activating
 // or deactivating the overview mode.
 .reveal.overview .slides section,
 .reveal.overview-deactivating .slides section {

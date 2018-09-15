@@ -2,14 +2,14 @@
 // This file contains CSS utiltiy classes.
 // -----------------------------------------------------------------------------
 
-@import '../abstracts/variables.scss';
+@import "../abstracts/variables.scss";
 
 //
 // Clear inner floats
 //
 .u-clearfix::after {
     clear: both;
-    content: '';
+    content: "";
     display: table;
 }
 
