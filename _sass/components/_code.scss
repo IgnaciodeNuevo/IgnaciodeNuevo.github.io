@@ -37,4 +37,6 @@ p > code {
 pre {
   background-color: $darkGrey;
   border-radius: $borderRadius;
+  overflow-x: scroll;
+  padding: 1rem;
 }
