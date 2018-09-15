@@ -6,7 +6,25 @@
     font-family: 'Input';
     src: url('/assets/fonts/Input/Input-Mono-Regular.woff2') format('woff2'),
         url('/assets/fonts/Input/Input-Mono-Regular.woff') format('woff');
+    font-stretch: normal;
     font-style: normal;
     font-weight: $font-weight-normal;
-    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Guardian Egyptian';
+    src: url('/assets/fonts/Guardian/GuardianEgyp-Bold-Web.woff2') format('woff2'),
+         url('/assets/fonts/Guardian/GuardianEgyp-Bold-Web.woff') format('woff');
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: $font-weight-bold;
+}
+
+@font-face {
+    font-family: 'Brando Regular Sans';
+    src: url('/assets/fonts/Brando/brandosans-regular-v100.woff2') format('woff2'),
+         url('/assets/fonts/Brando/brandosans-regular-v100.woff') format('woff');
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: $font-weight-normal;
 }
