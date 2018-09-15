@@ -2,6 +2,8 @@
 // This file contains all @font-face declarations, if any.
 // -----------------------------------------------------------------------------
 
+// Download Input font here:
+// http://input.fontbureau.com/download/
 @font-face {
     font-family: "Input";
     src: url("/assets/fonts/Input/Input-Mono-Regular.woff2") format("woff2"),
@@ -11,6 +13,8 @@
     font-weight: $font-weight-normal;
 }
 
+// Buy Guardian Egyptian font here:
+// https://commercialtype.com/catalog/guardian_egyptian/guardian_egyptian_headline/bold
 @font-face {
     font-family: "Guardian Egyptian";
     src: url("/assets/fonts/Guardian/GuardianEgyp-Bold-Web.woff2") format("woff2"),
@@ -20,6 +24,8 @@
     font-weight: $font-weight-bold;
 }
 
+// Buy Brando Regular Sans font here:
+// https://www.boldmonday.com/typeface/brando-sans/
 @font-face {
     font-family: "Brando Regular Sans";
     src: url("/assets/fonts/Brando/Brando-Sans-Regular.woff2") format("woff2"),
