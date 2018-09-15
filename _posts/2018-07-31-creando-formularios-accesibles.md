@@ -277,3 +277,87 @@ _Código de ejemplo:_
 ```
 
 <h2>Panel de Errores</h2>
+
+Después de la teoría llega la práctica. Vamos a ver un ejemplo real de lo que podría ser un formulario accesible y otros temas no directamente relacionados con el HTML o ARIA que también son importantes.
+
+Normalmente trabajo con [Vue.js](https://vuejs.org/), pero en este ejemplo usaré HTML, CSS y vanilla JavaScript por entender todo lo mejor posible.
+
+_Código de ejemplo:_
+
+```html
+<form class="upload-form js-upload-form">
+
+    <!-- Panel de errores -->
+    <div class="errors-panel">
+        <p class="errors-panel__number" tabindex="0">Revisa los <strong>3</strong> siguientes campos para poder
+            enviar el formulario.</p>
+        <ul class="errors-panel__list">
+            <li class="errors-panel__item">
+                El campo "Nombre" no puede estar vacío.
+                <span class="u-visually-hidden"> Presiona "ESPACIO" o "ENTER" para hacer focus sobre el campo a
+                    revisar.</span>
+            </li>
+            <li class="errors-panel__item">
+                El campo "Apellidos" no puede estar vacío.
+                <span class="u-visually-hidden"> Presiona "ESPACIO" o "ENTER" para hacer focus sobre el campo a
+                    revisar.</span>
+            </li>
+            <li class="errors-panel__item">
+                El campo "Descripción" no puede estar vacío.
+                <span class="u-visually-hidden"> Presiona "ESPACIO" o "ENTER" para hacer focus sobre el campo a
+                    revisar.</span>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Body del formulario -->
+
+    <!-- Nombre -->
+    <div class="upload-form__item">
+        <label class="upload-form__label" for="name">
+            Nombre
+            <span tabindex="0">*
+                <span class="u-visually-hidden"> es un campo que no puede estar vacío.</span>
+            </span>
+        </label>
+        <input class="upload-form__input" type="text" id="name" name="name" required>
+    </div>
+
+    <!-- Apellidos -->
+    <div class="upload-form__item">
+        <label class="upload-form__label" for="surname">
+            Apellidos
+            <span tabindex="0">*
+                <span class="u-visually-hidden"> es un campo que no puede estar vacío.</span>
+            </span>
+        </label>
+        <input class="upload-form__input" type="text" id="surname" name="surname" required>
+    </div>
+
+    <!-- Descripción -->
+    <div class="upload-form__wrapper">
+        <label class="upload-form__title" for="desc">
+            Descripción
+            <span tabindex="0">*
+                <span class="u-visually-hidden"> es un campo que no puede estar vacío.</span>
+            </span>
+        </label>
+        <textarea class="upload-form__textarea" id="desc" name="desc" required></textarea>
+    </div>
+
+    <!-- Input File -->
+    <div class="u-flex">
+        <input id="image" name="image" accept=".jpg, .jpeg, .png, .gif" type="file">
+        <label for="image">Selecciona una imagen en formato .jpg, .jpeg, .png, .gif</label>
+    </div>
+
+    <button class="btn" type="submit" value="Enviar">Enviar formulario</button>
+</form>
+```
+
+Como podemos ver, el HTML consta de dos partes bien diferenciadas. El panel de errores en el que se muestran tres posibles campos a revisar y el cuerpo del formulario con cuatro campos:
+
+- `<input type="text" id="name" name="name" required>` para el "Nombre"
+- `<input type="text" id="surname" name="surname" required>` para los "Apellidos"
+- `<textarea id="desc" name="desc" required></textarea>` para la "Descripción"
+- `<input id="image" name="image" accept=".jpg, .jpeg, .png, .gif" type="file">` para la imagen.
