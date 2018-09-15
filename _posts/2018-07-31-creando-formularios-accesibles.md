@@ -280,7 +280,7 @@ _Código de ejemplo:_
 
 Después de la teoría llega la práctica. Vamos a ver un ejemplo real de lo que podría ser un formulario accesible y otros temas no directamente relacionados con el HTML o ARIA que también son importantes.
 
-Normalmente trabajo con [Vue.js](https://vuejs.org/), pero en este ejemplo usaré HTML, CSS y vanilla JavaScript por entender todo lo mejor posible.
+Normalmente trabajo con [Vue.js](https://vuejs.org/), pero en este ejemplo usaré HTML, CSS y TypeScript muy sencillo con Vue.js.
 
 _Código de ejemplo:_
 
@@ -289,23 +289,17 @@ _Código de ejemplo:_
 
     <!-- Panel de errores -->
     <div class="errors-panel">
-        <p class="errors-panel__number" tabindex="0">Revisa los <strong>3</strong> siguientes campos para poder
-            enviar el formulario.</p>
+        <p class="errors-panel__number" tabindex="0">Revisa los <strong>3</strong> siguientes campos para poder enviar el formulario.</p>
         <ul class="errors-panel__list">
-            <li class="errors-panel__item">
-                El campo "Nombre" no puede estar vacío.
-                <span class="u-visually-hidden"> Presiona "ESPACIO" o "ENTER" para hacer focus sobre el campo a
-                    revisar.</span>
-            </li>
-            <li class="errors-panel__item">
-                El campo "Apellidos" no puede estar vacío.
-                <span class="u-visually-hidden"> Presiona "ESPACIO" o "ENTER" para hacer focus sobre el campo a
-                    revisar.</span>
-            </li>
-            <li class="errors-panel__item">
-                El campo "Descripción" no puede estar vacío.
-                <span class="u-visually-hidden"> Presiona "ESPACIO" o "ENTER" para hacer focus sobre el campo a
-                    revisar.</span>
+            <li class="errors-panel__item"
+                v-on:click="scrollToElement(error.id)"
+                v-for="error in errors">
+                    {{ error.message }}.
+                    <span class="u-visually-hidden"
+                          @keydown.enter="scrollToElement(error.id)"
+                          @keydown.space="scrollToElement(error.id)">
+                              Presiona "ESPACIO" o "ENTER" para hacer focus sobre el campo a revisar.
+                    </span>
             </li>
         </ul>
     </div>
@@ -316,7 +310,9 @@ _Código de ejemplo:_
     <div class="upload-form__item">
         <label class="upload-form__label" for="name">
             Nombre
-            <span tabindex="0">*
+            <span tabindex="0"
+                  @keydown.enter="scrollToMandatory()"
+                  @keydown.space="scrollToMandatory()">*
                 <span class="u-visually-hidden"> es un campo que no puede estar vacío.</span>
             </span>
         </label>
@@ -327,7 +323,9 @@ _Código de ejemplo:_
     <div class="upload-form__item">
         <label class="upload-form__label" for="surname">
             Apellidos
-            <span tabindex="0">*
+            <span tabindex="0"
+                  @keydown.enter="scrollToMandatory()"
+                  @keydown.space="scrollToMandatory()">*
                 <span class="u-visually-hidden"> es un campo que no puede estar vacío.</span>
             </span>
         </label>
@@ -338,7 +336,9 @@ _Código de ejemplo:_
     <div class="upload-form__wrapper">
         <label class="upload-form__title" for="desc">
             Descripción
-            <span tabindex="0">*
+            <span tabindex="0"
+                  @keydown.enter="scrollToMandatory()"
+                  @keydown.space="scrollToMandatory()">*
                 <span class="u-visually-hidden"> es un campo que no puede estar vacío.</span>
             </span>
         </label>
@@ -348,10 +348,12 @@ _Código de ejemplo:_
     <!-- Input File -->
     <div class="u-flex">
         <input id="image" name="image" accept=".jpg, .jpeg, .png, .gif" type="file">
-        <label for="image">Selecciona una imagen en formato .jpg, .jpeg, .png, .gif</label>
+        <label for="image">Selecciona una imagen en formato .jpg, .jpeg, .png o .gif</label>
     </div>
 
-    <button class="btn" type="submit" value="Enviar">Enviar formulario</button>
+    <p class="upload__text">(*) This is a mandatory field</p>
+
+    <button class="btn js-btn" type="submit" value="Enviar" @click.prevent="submitForm()">Enviar formulario</button>
 </form>
 ```
 
@@ -361,3 +363,139 @@ Como podemos ver, el HTML consta de dos partes bien diferenciadas. El panel de e
 - `<input type="text" id="surname" name="surname" required>` para los "Apellidos"
 - `<textarea id="desc" name="desc" required></textarea>` para la "Descripción"
 - `<input id="image" name="image" accept=".jpg, .jpeg, .png, .gif" type="file">` para la imagen.
+
+Cuando enviemos el formulario, lo primero que haremos será validar si los campos se están enviando correctamente. En caso de haber algún campo vacío que sea obligatorio, con JavaScript, podríamos añadir una clase a dichos elementos que deberá marcar de algún modo (no únicamente con un borde de color rojo o verde como se suele hacer, ya que podríamos confundir a personas con daltonismo) el campo que ha de ser revisado.
+
+También sería recomendable añadir una imagen que sea lo más entendible posible. Por ejemplo una `X` si hay error y un `tick` si el campo está como se ha solicitado.
+
+_Código de ejemplo:_
+
+```css
+.upload-form__item.has-error,
+.upload-form__wrapper.has-error,
+.u-flex.has-error,
+.upload-form__item.is-ok,
+.upload-form__wrapper.is-ok,
+.u-flex.is-ok {
+    border: 2px solid #ff0000;
+    position: relative;
+}
+
+.upload-form__item.has-error,
+.upload-form__wrapper.has-error
+.u-flex.has-error
+
+/* El posicionamiento de este elemento no se ajusta a la realidad */
+.upload-form__item.has-error::after,
+.upload-form__wrapper.has-error::after,
+.u-flex.has-error::after,
+.upload-form__item.is-ok::after,
+.upload-form__wrapper.is-ok::after,
+.u-flex.is-ok::after {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.upload-form__item.has-error::after,
+.upload-form__wrapper.has-error::after,
+.u-flex.has-error::after {
+    background-image: url("assets/error.jpg");
+}
+
+.upload-form__item.is-ok::after,
+.upload-form__wrapper.is-ok::after,
+.u-flex.is-ok::after {
+    background-image: url("assets/ok.jpg");
+}
+```
+
+Después de esto en caso de que haya errores deberemos hacer scroll al panel de errores, hacerle focus y mostrar tantos `<li class="errors-panel__item">` como elementos a revisar.
+
+En un archivo del panel de errores crearíamos una clase.
+
+```javascript
+export default class ErrorsComponent extends Vue {
+    @Prop()
+    errors: any[];
+
+    @Prop()
+    numeroErrores: number;
+
+    mounted() {
+        if (this.errors) {
+            this.scrollToErrors();
+        }
+    }
+
+    public scrollToElement(id): void {
+        let element = document.getElementById(id);
+        this.focusElement(id);
+        element.parentElement.scrollIntoView();
+    }
+
+    private focusElement(id): void {
+        let focusedElement = document.getElementById(id);
+        focusedElement.scrollIntoView();
+        document.getElementById(id).focus();
+    }
+
+    private scrollToErrors(): void {
+        let errorsPanel = document.getElementById('errors-panel__number');
+        errorsPanel.scrollIntoView();
+        errorsPanel.focus();
+    }
+}
+```
+
+Cada vez que enviemos el formulario deberemos validarlo para comprobar si existe algún problema con el mismo y hacer scroll y focus en el panel de errores.
+
+```javascript
+export default class UploadComponent extends Vue {
+    public name = '';
+    public surname = '';
+    public desc = '';
+    public image = ''
+
+    public errors = [];
+    public numeroErrores = 0;
+
+    private validateForm(): void {
+        if (!this.name) this.errors.push({ id: 'name', message: 'Name of the project is a mandatory field.' });
+        if (!this.surname) this.errors.push({ id: 'surname', message: 'Surname is a mandatory field.'});
+        if (!this.desc) this.errors.push({ id: 'desc', message: 'Description is a mandatory field.'});
+
+        const numeroErrores = this.errors;
+        this.numeroErrores = numeroErrores.length;
+    }
+
+    <!-- Aquí añadimos la clase en caso de que haya un error al campo adecuado y deberíamos usar la clase en el HTML con v-bind:class="toggleClassError('')" y v-model="" -->
+    public toggleClassError(id): any {
+        return this.errors.some(error => error.id === id) ? 'has-error' : '';
+    }
+
+    public submitForm(id): Promise<void> {
+        this.errors = [];
+        this.validateForm();
+
+        if (this.errorsNumber) {
+            return;
+        }
+
+        <!-- Aquí enviaremos el formulario al backend usando la función: getDat() -->
+    }
+
+    <!-- Aquí subiríamos la imagen a algún lugar donde almacenarla -->
+
+    private getData(): any {
+        const form = <HTMLFormElement>document.querySelector('.js-upload-form');
+        const formData = new FormData(form);
+
+        return formData;
+    }
+}
+```
+
+Con esto, acabamos de hacer un formulario accesible.
+
+¿Se te ocurre alguna idea para mejorarlo?
