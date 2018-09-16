@@ -10,9 +10,9 @@ tags:
 
 Cuando hablamos de formularios, nos viene inmediatamente a la mente el uso de estos en la web y la interacción con ellos para gestionar información. El problema viene cuando hablamos de formularios accesibles. No siempre nos paramos a panesar que significa hacer un formulario accesible y mucho menos la importancia de hacer partícipe a cualquier persona sin importar sus necesidades.
 
-¿Os suenan los lectores de pantalla? El uso de los mismos es uno del os muchos medios de acceder a la web. La accesibilidad debería ser la base, no un "feature".
+¿Os suenan los lectores de pantalla? El uso de los mismos es uno del os muchos medios de acceder a la web. La accesibilidad debería ser la base, no un "feature", por esto, porque creo que la web debería poder usarse por todo el mundo vamos a crear un formulario accesible.
 
-Vamos a repasar brevemente ciertas cosas importantes de los formularios y luego veremos un ejemplo de un panel de errores accesible.
+Vamos a repasar brevemente ciertas cosas importantes de los formularios y luego veremos un ejemplo.
 
 _Nota:_
 
@@ -20,7 +20,7 @@ Recordar que dar estilos con CSS a campos de formulario como suele suceder con `
 
 <h2>Los formularios han de ser fáciles de usar</h2>
 
-Los formularios deben ser claros e intuitivos. Si se requiere algún campo del formulario debemos asegurarnos de indicarlo. El orden de tabulado entre elementos (o lo que es lo mismo, de acceso a estos) ha de ser sencillo de entender.
+Los formularios deben ser claros e intuitivos. El orden de tabulado entre elementos (o lo que es lo mismo, de acceso a ellos) ha de ser sencillo de entender.
 
 No es recomendable tener un formulario con veinte campos, de los cuales diecinueve son obligatorios y uno opcional. Cuando todo es importante nada lo es.
 
@@ -94,7 +94,7 @@ Hay que recordar que los `id` de cada `<label>` y su etiqueta asociada han ser s
 
 _Nota:_
 
-El uso de `<labels>` tiene la ventaja asociada de que el usuario al hacer clic en éste, hace focus a su etiqueta asociada.
+El uso de `<labels>` tiene la ventaja asociada de que el usuario al hacer click en éste, hace focus a su etiqueta asociada.
 
 <h3>Textareas</h3>
 
@@ -127,9 +127,9 @@ _Código de ejemplo:_
 </fieldset>
 ```
 
-El `<fieldset>` sirve para agrupar `checkboxes`.
+El `<fieldset>` sirve para agrupar elementosscripción la asociación que hemos hecho del gr.
 
-El `<legend>` descripción la asociación que hemos hecho del grupo. En los lectores de pantalla, el texto de la leyenda se lee generalmente para cada control del conjunto de campos, por lo que el texto de la leyenda debe ser breve y descriptivo.
+El `<legend>` describe la asociación que hemos hecho. En los lectores de pantalla, el texto del `<legend>` se lee generalmente para cada control del conjunto de campos, por lo que el texto del `<legend>` debe ser breve y descriptivo.
 
 <h3>Radio buttons</h3>
 
@@ -150,10 +150,6 @@ _Código de ejemplo:_
 </fieldset>
 ```
 
-_Nota:_
-
-`<fieldset>` y `<legend>` únicamente han de utilizarse cuando agrupemos elementos.
-
 <h3>Menús de tipo select</h3>
 
 _Código de ejemplo:_
@@ -167,7 +163,7 @@ _Código de ejemplo:_
 </select>
 ```
 
-No es muy recomendable el uso de menus de tipo `select` por su inconsistencia navegación entre distintos navegadores.
+No es muy recomendable el uso de menus de tipo `select` por su inconsistente navegación entre distintos navegadores.
 
 <h3>Botones</h3>
 
@@ -183,9 +179,7 @@ _Código de ejemplo:_
 
 <h2>Formularios avanzados</h2>
 
-Hay ocasiones en las que la etiqueta `<label>` se queda corta.
-
-La mayoría de las limitaciones de etiquetado pueden solucionarse con tres propiedades ARIA (`aria-labelledby`, `aria-descriptionby`, y `aria-label`).
+Hay ocasiones en las que la etiqueta `<label>` se queda corta, para lo cual podemos solucionar el problema con tres propiedades ARIA (`aria-labelledby`, `aria-descriptionby`, y `aria-label`).
 
 <h3>aria-labelledby</h3>
 
@@ -207,23 +201,15 @@ Cada cabecera de la tabla funciona como una etiqueta visual para los controles d
     <tbody>
         <tr>
             <th id="name">Name</th>
-            <th id="age">Age</th>
-            <th id="weight">Weight</th>
         </tr>
         <tr>
-            <td><input type="text" name="name1" aria-labelledby="name"></td>
-            <td><input type="text" name="age1" aria-labelledby="age"></td>
-            <td><input type="text" name="weight1" aria-labelledby="weight"></td>
+            <td><input type="text" name="nameA" aria-labelledby="name"></td>
         </tr>
         <tr>
-            <td><input type="text" name="name2" aria-labelledby="name"></td>
-            <td><input type="text" name="age2" aria-labelledby="age"></td>
-            <td><input type="text" name="weight2" aria-labelledby="weight"></td>
+            <td><input type="text" name="nameB" aria-labelledby="name"></td>
         </tr>
         <tr>
-            <td><input type="text" name="name2" aria-labelledby="name"></td>
-            <td><input type="text" name="age2" aria-labelledby="age"></td>
-            <td><input type="text" name="weight2" aria-labelledby="weight"></td>
+            <td><input type="text" name="nameC" aria-labelledby="name"></td>
         </tr>
     </tbody>
 </table>
@@ -235,7 +221,7 @@ Si un control tiene tanto un `<label>` como un `aria-labelledby` asociados, el t
 
 <h3>aria-describedby</h3>
 
-Hay ocasiones en las que un formulario necesita información adicional y no se usa para ello una etiqueta. Esta información puede asociarse al campo del formulario con el atributo `aria-describedby`.
+Hay ocasiones en las que un formulario necesita información adicional. Esta información puede asociarse al campo del formulario con el atributo `aria-describedby`.
 
 Código de ejemplo:
 
@@ -249,7 +235,7 @@ Al igual que con `aria-labelledby`, el atributo `aria-describedby` apunta al `id
 
 _Nota:_
 
-Mientras que `aria-labelledby` sobrescribe al `<label>`, `aria-describedby` no lo hace. Así pues, `aria-describedby` debe usarse adicionalmente al `<label>` no en su lugar.
+Mientras que `aria-labelledby` sobrescribe al `<label>`, `aria-describedby` no lo hace. Así pues, `aria-describedby` debe usarse adicionalmente al `<label>`.
 
 <h3>Labels Invisibles</h3>
 
@@ -276,7 +262,7 @@ _Código de ejemplo:_
 <input type="text" id="search" name="search" title="Búsqueda">
 ```
 
-<h2>Panel de Errores</h2>
+<h2>Ejemplo de formulario accesible</h2>
 
 Después de la teoría llega la práctica. Vamos a ver un ejemplo real de lo que podría ser un formulario accesible y otros temas no directamente relacionados con el HTML o ARIA que también son importantes.
 
@@ -285,7 +271,7 @@ En este ejemplo usaré HTML, CSS y TypeScript muy sencillo con [Vue.js](https://
 _Código de ejemplo:_
 
 ```html
-<form class="upload-form js-form">
+<form class="form js-form">
 
     <!-- Panel de errores -->
     <div class="errors-panel">
@@ -307,8 +293,8 @@ _Código de ejemplo:_
     <!-- Body del formulario -->
 
     <!-- Nombre -->
-    <div class="upload-form__item">
-        <label class="upload-form__label" for="name">
+    <div class="form__item">
+        <label class="form__label" for="name">
             Nombre
             <!-- En un proyecto real crearíamos una directiva personalizada que en su lugar -->
             <span tabindex="0"
@@ -317,12 +303,12 @@ _Código de ejemplo:_
                 <span class="u-visually-hidden"> es un campo que no puede estar vacío.</span>
             </span>
         </label>
-        <input class="upload-form__input" type="text" id="name" name="name" required>
+        <input class="form__input" type="text" id="name" name="name" required>
     </div>
 
     <!-- Apellidos -->
-    <div class="upload-form__item">
-        <label class="upload-form__label" for="surname">
+    <div class="form__item">
+        <label class="form__label" for="surname">
             Apellidos
             <!-- En un proyecto real crearíamos una directiva personalizada que en su lugar -->
             <span tabindex="0"
@@ -331,12 +317,12 @@ _Código de ejemplo:_
                 <span class="u-visually-hidden"> es un campo que no puede estar vacío.</span>
             </span>
         </label>
-        <input class="upload-form__input" type="text" id="surname" name="surname" required>
+        <input class="form__input" type="text" id="surname" name="surname" required>
     </div>
 
     <!-- Descripción -->
-    <div class="upload-form__wrapper">
-        <label class="upload-form__title" for="desc">
+    <div class="form__wrapper">
+        <label class="form__title" for="desc">
             Descripción
             <!-- En un proyecto real crearíamos una directiva personalizada que en su lugar -->
             <span tabindex="0"
@@ -345,7 +331,7 @@ _Código de ejemplo:_
                 <span class="u-visually-hidden"> es un campo que no puede estar vacío.</span>
             </span>
         </label>
-        <textarea class="upload-form__textarea" id="desc" name="desc" required></textarea>
+        <textarea class="form__textarea" id="desc" name="desc" required></textarea>
     </div>
 
     <!-- Input File -->
@@ -374,40 +360,40 @@ También sería recomendable añadir una imagen que sea lo más entendible posib
 _Código de ejemplo:_
 
 ```css
-.upload-form__item.has-error,
-.upload-form__wrapper.has-error,
+.form__item.has-error,
+.form__wrapper.has-error,
 .u-flex.has-error,
-.upload-form__item.is-ok,
-.upload-form__wrapper.is-ok,
+.form__item.is-ok,
+.form__wrapper.is-ok,
 .u-flex.is-ok {
     border: 2px solid #ff0000;
     position: relative;
 }
 
-.upload-form__item.has-error,
-.upload-form__wrapper.has-error
+.form__item.has-error,
+.form__wrapper.has-error
 .u-flex.has-error
 
 /* El posicionamiento de este elemento no se ajusta a la realidad */
-.upload-form__item.has-error::after,
-.upload-form__wrapper.has-error::after,
+.form__item.has-error::after,
+.form__wrapper.has-error::after,
 .u-flex.has-error::after,
-.upload-form__item.is-ok::after,
-.upload-form__wrapper.is-ok::after,
+.form__item.is-ok::after,
+.form__wrapper.is-ok::after,
 .u-flex.is-ok::after {
     position: absolute;
     right: 5px;
     top: 5px;
 }
 
-.upload-form__item.has-error::after,
-.upload-form__wrapper.has-error::after,
+.form__item.has-error::after,
+.form__wrapper.has-error::after,
 .u-flex.has-error::after {
     background-image: url("assets/error.jpg");
 }
 
-.upload-form__item.is-ok::after,
-.upload-form__wrapper.is-ok::after,
+.form__item.is-ok::after,
+.form__wrapper.is-ok::after,
 .u-flex.is-ok::after {
     background-image: url("assets/ok.jpg");
 }
