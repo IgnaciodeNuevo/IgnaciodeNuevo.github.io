@@ -502,3 +502,13 @@ export default class UploadComponent extends Vue {
 Con esto, acabamos de hacer un formulario accesible. Si bien, no de es la manera más estricta de usar Vue.js ya que estamos manipulando el `DOM` creo que aclara las cosas para el ejemplo.
 
 ¿Se te ocurre alguna idea para mejorarlo?
+
+Por último os dejo una liste de recursos por si queréis ampliar conocimiento al respecto de como crear mejores formularios.
+
+- [Web Form Design: Filling in the Blanks](https://www.lukew.com/resources/web_form_design.asp)
+- [Advanced CSS-Only Form Styling](https://jonathan-harrell.com/advanced-css-form-styling/)
+- [Happier HTML5 Form Validation](https://daverupert.com/2017/11/happier-html5-forms/)
+- [Design Better Forms](https://uxdesign.cc/design-better-forms-96fadca0f49c)
+- [Use these top 10 tips when you design for forms](https://blog.prototypr.io/use-these-top-10-tips-when-you-design-forms-d095d6e3ab8a)
+- [Dropdown alternatives for better (mobile) forms](https://medium.com/@kollinz/dropdown-alternatives-for-better-mobile-forms-53e40d641b53)
+
