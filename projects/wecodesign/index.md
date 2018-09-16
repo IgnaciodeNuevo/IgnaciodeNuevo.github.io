@@ -15,7 +15,7 @@ Lista a los episodios del Podcast del cual soy creador y Co-Host sobre front-end
     <article class="">
         <a class="" href="{{ podcast.podcast_web }}" target="_blank">
             <h3 class="">{{ podcast.name }}</h3>
-            <time class="">{{ project.project_date }}</time>
+            <time class="">{{ podcast.project_date }}</time>
             <p class="">{{ podcast.description }}</p>
             <img class="" src="/assets/images/logo-WCD.svg" alt="{{ podcast.name }} Image"/>
         </a>
