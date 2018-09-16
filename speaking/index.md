@@ -9,12 +9,10 @@ title: "Speaking"
 
 It does not happen that often! Here are the talks I've given and slides.
 
-If you like invite me to <a href="/faq/#will-i-speak-at-your-conferencecompany">speak</a> at a conference or your company.
-
 <ul class="reset-bullet">
 {% for talk in site.data.speaking %}
   <li class="speaking  container">
-    <article class="article__link"> 
+    <article class="article__link">
       <h3 class="speaking__h3">{{ talk.name }}</h3>
       <time class="speaking__date">{{ talk.speaking_date }}</time>
       <p class="speaking__excerpt">{{ talk.description }}</p>
