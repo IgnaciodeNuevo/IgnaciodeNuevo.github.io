@@ -5,7 +5,6 @@ excerpt: "For me it is time to say what are my New Year's Resolutions and my nex
 tags:
   - Learning
   - Front-end
-  - JavaScript
 ---
 
 # Learning JavaScript

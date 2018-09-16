@@ -30,14 +30,9 @@ to the `site_tags` variable. -->
     <h3 id="{{ this_word | cgi_escape }}">{{ this_word }}</h3>
     {% for post in site.tags[this_word] %}{% if post.title != null %}
       <div>
-        <span style="float: left;">
-          <a href="{{ post.url }}">{{ post.title }}</a>
-        </span>
-        <span style="float: right;">
-          {{ post.date | date_to_string }}
-        </span>
+          <a href="{{ post.url }}">{{ post.title }}</a> - <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d, %Y" }}</time>
+
       </div>
-      <div style="clear: both;"></div>
     {% endif %}{% endfor %}
   {% endunless %}{% endfor %}
 </div>

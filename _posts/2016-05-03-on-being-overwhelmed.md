@@ -3,7 +3,7 @@ layout: post
 title: "On being overwhelmed"
 excerpt: "Let's start at the beginning. I started using the web since the terrible time of 11kb modems. I began playing video games lot of years ago and since then I've been tinkering with old table based layouts."
 tags:
-  - Overwhelmed
+  - Personal
 ---
 
 Let's start at the beginning. I started using the web since the terrible time of 11kb modems. I began playing video games lot of years ago and since then I've been tinkering with old table based layouts.
