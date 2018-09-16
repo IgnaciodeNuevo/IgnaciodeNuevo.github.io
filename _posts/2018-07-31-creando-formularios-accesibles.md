@@ -280,19 +280,19 @@ _Código de ejemplo:_
 
 Después de la teoría llega la práctica. Vamos a ver un ejemplo real de lo que podría ser un formulario accesible y otros temas no directamente relacionados con el HTML o ARIA que también son importantes.
 
-Normalmente trabajo con [Vue.js](https://vuejs.org/), pero en este ejemplo usaré HTML, CSS y TypeScript muy sencillo con Vue.js.
+En este ejemplo usaré HTML, CSS y TypeScript muy sencillo con [Vue.js](https://vuejs.org/).
 
 _Código de ejemplo:_
 
 ```html
-<form class="upload-form js-upload-form">
+<form class="upload-form js-form">
 
     <!-- Panel de errores -->
     <div class="errors-panel">
-        <p class="errors-panel__number" tabindex="0">Revisa los <strong>3</strong> siguientes campos para poder enviar el formulario.</p>
+        <p class="errors-panel__number js-errors-panel" tabindex="0">Revisa los <strong>3</strong> siguientes campos para poder enviar el formulario.</p>
         <ul class="errors-panel__list">
             <li class="errors-panel__item"
-                v-on:click="scrollToElement(error.id)"
+                @click="scrollToElement(error.id)"
                 v-for="error in errors">
                     {{ error.message }}.
                     <span class="u-visually-hidden"
@@ -310,6 +310,7 @@ _Código de ejemplo:_
     <div class="upload-form__item">
         <label class="upload-form__label" for="name">
             Nombre
+            <!-- En un proyecto real crearíamos una directiva personalizada que en su lugar -->
             <span tabindex="0"
                   @keydown.enter="scrollToMandatory()"
                   @keydown.space="scrollToMandatory()">*
@@ -323,6 +324,7 @@ _Código de ejemplo:_
     <div class="upload-form__item">
         <label class="upload-form__label" for="surname">
             Apellidos
+            <!-- En un proyecto real crearíamos una directiva personalizada que en su lugar -->
             <span tabindex="0"
                   @keydown.enter="scrollToMandatory()"
                   @keydown.space="scrollToMandatory()">*
@@ -336,6 +338,7 @@ _Código de ejemplo:_
     <div class="upload-form__wrapper">
         <label class="upload-form__title" for="desc">
             Descripción
+            <!-- En un proyecto real crearíamos una directiva personalizada que en su lugar -->
             <span tabindex="0"
                   @keydown.enter="scrollToMandatory()"
                   @keydown.space="scrollToMandatory()">*
@@ -353,7 +356,7 @@ _Código de ejemplo:_
 
     <p class="upload__text">(*) This is a mandatory field</p>
 
-    <button class="btn js-btn" type="submit" value="Enviar" @click.prevent="submitForm()">Enviar formulario</button>
+    <button class="btn js-btn" type="submit" value="Enviar" @submit.prevent="submitForm()">Enviar formulario</button>
 </form>
 ```
 
@@ -408,6 +411,17 @@ _Código de ejemplo:_
 .u-flex.is-ok::after {
     background-image: url("assets/ok.jpg");
 }
+
+.u-visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
 ```
 
 Después de esto en caso de que haya errores deberemos hacer scroll al panel de errores, hacerle focus y mostrar tantos `<li class="errors-panel__item">` como elementos a revisar.
@@ -420,7 +434,7 @@ export default class ErrorsComponent extends Vue {
     errors: any[];
 
     @Prop()
-    numeroErrores: number;
+    errorsNumber: number;
 
     mounted() {
         if (this.errors) {
@@ -428,6 +442,7 @@ export default class ErrorsComponent extends Vue {
         }
     }
 
+    <!-- Hacemos scroll y focus cuando se hace click al elemento del formulario a revisar -->
     public scrollToElement(id): void {
         let element = document.getElementById(id);
         this.focusElement(id);
@@ -440,8 +455,9 @@ export default class ErrorsComponent extends Vue {
         document.getElementById(id).focus();
     }
 
+    <!-- Hacemos scroll y focus al panel de errores -->
     private scrollToErrors(): void {
-        let errorsPanel = document.getElementById('errors-panel__number');
+        let errorsPanel = document.getElementById('js-errors-panel');
         errorsPanel.scrollIntoView();
         errorsPanel.focus();
     }
@@ -458,15 +474,15 @@ export default class UploadComponent extends Vue {
     public image = ''
 
     public errors = [];
-    public numeroErrores = 0;
+    public errorsNumber = 0;
 
+    <!-- Comprobamos si hay errores en el formulario -->
     private validateForm(): void {
         if (!this.name) this.errors.push({ id: 'name', message: 'Name of the project is a mandatory field.' });
         if (!this.surname) this.errors.push({ id: 'surname', message: 'Surname is a mandatory field.'});
         if (!this.desc) this.errors.push({ id: 'desc', message: 'Description is a mandatory field.'});
 
-        const numeroErrores = this.errors;
-        this.numeroErrores = numeroErrores.length;
+        this.errorsNumber = this.errors.length;
     }
 
     <!-- Aquí añadimos la clase en caso de que haya un error al campo adecuado y deberíamos usar la clase en el HTML con v-bind:class="toggleClassError('')" y v-model="" -->
@@ -474,6 +490,7 @@ export default class UploadComponent extends Vue {
         return this.errors.some(error => error.id === id) ? 'has-error' : '';
     }
 
+    <!-- Enviamos el formulario -->
     public submitForm(id): Promise<void> {
         this.errors = [];
         this.validateForm();
@@ -482,13 +499,13 @@ export default class UploadComponent extends Vue {
             return;
         }
 
-        <!-- Aquí enviaremos el formulario al backend usando la función: getDat() -->
+        <!-- Aquí enviaremos el formulario al backend usando la función: getFormsData() -->
     }
 
     <!-- Aquí subiríamos la imagen a algún lugar donde almacenarla -->
 
-    private getData(): any {
-        const form = <HTMLFormElement>document.querySelector('.js-upload-form');
+    private getFormsData(): any {
+        const form = <HTMLFormElement>document.querySelector('.js-form');
         const formData = new FormData(form);
 
         return formData;
@@ -496,6 +513,6 @@ export default class UploadComponent extends Vue {
 }
 ```
 
-Con esto, acabamos de hacer un formulario accesible.
+Con esto, acabamos de hacer un formulario accesible. Si bien, no de es la manera más estricta de usar Vue.js ya que estamos manipulando el `DOM` creo que aclara las cosas para el ejemplo.
 
 ¿Se te ocurre alguna idea para mejorarlo?
