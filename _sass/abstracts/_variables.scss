@@ -114,52 +114,47 @@ $font-weight-black:      900;
 //
 // #Font-Size
 //
-$font-base: 1rem; // 16px
+$font-base: 1em; // 16px
 
 
 
 //
-// #Sizing
+// #Spacing
 //
-$master-size:     0.5rem;
-$container-width: 50rem; // 800px
-$container-padding: 1.25rem; // 20px
+$container-width: 50em; // 800px
+$container-padding: 1.25em; // 20px
+$space-default: 16px;
 
-// #Size
-$size-s: $master-size / 2;
-$size-m: $master-size; // 8px
-$size-l: $master-size * 2; // 16px
-$size-xl: $master-size * 3; // 24px
-$size-xxl: $master-size * 4; // 32px
-$size-xxxl: $master-size * 5; // 40px
-$size-giant: $master-size * 6; // 48px
+$space-xxs: $space-default / 8; // 2px
+$space-xs: $space-default / 4; // 4px
+$space-s: $space-default / 2; // 8px
+$space-m: $space-default; // 16px
+$space-l: $space-default * 2; // 32px
+$space-xl: $space-default * 4; // 64px
 
 // #Padding
-$padding-s: $master-size / 2; // 2px
-$padding-m: $master-size; // 8px
-$padding-l: $master-size * 2; // 16px
-$padding-xl: $master-size * 3; // 24px
-$padding-xxl: $master-size * 4; // 32px
-$padding-xxxl: $master-size * 5; // 40px
-$padding-giant: $master-size * 6; // 48px
+$padding-xxs: $space-xxs; // 2px
+$padding-xs: $space-xs; // 4px
+$padding-s: $space-s; // 8px
+$padding-m: $space-m; // 16px
+$padding-l: $space-l; // 32px
+$padding-xl: $space-xl; // 64px
 
 // #Margin
-$margin-s: $master-size / 2; // 4px
-$margin-m: $master-size; // 8px
-$margin-l: $master-size * 2; // 16px
-$margin-xl: $master-size * 3; // 24px
-$margin-xxl: $master-size * 4; // 32px
-$margin-xxxl: $master-size * 5; // 40px
-$margin-giant: $master-size * 6; // 48px
+$margin-xxs: $space-xxs; // 2px
+$margin-xs: $space-xs; // 4px
+$margin-s: $space-s; // 8px
+$margin-m: $space-m; // 16px
+$margin-l: $space-l; // 32px
+$margin-xl: $space-xl; // 64px
 
 // #Icon
-$icon-s: $master-size / 2; // 4px
-$icon-m: $master-size; // 8px
-$icon-l: $master-size * 2; // 16px
-$icon-xl: $master-size * 3; // 24px
-$icon-xxl: $master-size * 4; // 32px
-$icon-xxxl: $master-size * 5; // 40px
-$icon-giant: $master-size * 6; // 48px
+$icon-xxs: $space-xxs; // 2px
+$icon-xs: $space-xs; // 4px
+$icon-s: $space-s; // 8px
+$icon-m: $space-m; // 16px
+$icon-l: $space-l; // 32px
+$icon-xl: $space-xl; // 64px
 
 
 
@@ -171,7 +166,7 @@ $scale: 1.61803;
 
 
 //
-// #Z-Index
+// $Z-Index
 //
 $z-index-s: 1;
 $z-index-m: 2;
