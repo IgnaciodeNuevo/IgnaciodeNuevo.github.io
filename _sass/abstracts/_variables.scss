@@ -66,6 +66,16 @@ $font-family-base:
     Arial,
     sans-serif;
 
+$font-family-base-subset:
+    "Brando Regular Sans Subset",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
+
 $font-family-title:
     "Guardian Egyptian",
     -apple-system,
@@ -123,7 +133,7 @@ $font-base: 1em; // 16px
 //
 $container-width: 50em; // 800px
 $container-padding: 1.25em; // 20px
-$space-default: 16px;
+$space-default: $font-base; // Is dependant on $font-base and should be 1em;
 
 $space-xxs: $space-default / 8; // 2px
 $space-xs: $space-default / 4; // 4px
