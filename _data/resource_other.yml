@@ -52,9 +52,6 @@
 - name: A Collective List Of APIs.
   url: http://apilist.fun/
 
-- name: What’s next for CSS?
-  url: https://jonathantneal.github.io/css-db/
-
 - name: Frontend Development Interview Questions
   url: https://github.com/IgnaciodeNuevo/frontend-development-interviews/blob/master/README.md
 
@@ -87,9 +84,6 @@
 
 - name: A11y Resources
   url: http://pauljadam.com/resources.html
-
-- name: What’s next for CSS?
-  url: https://jonathantneal.github.io/css-db/
 
 - name: Everyone has JavaScript, right?
   url: https://kryogenix.org/code/browser/everyonehasjs.html
