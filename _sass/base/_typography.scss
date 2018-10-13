@@ -1,19 +1,15 @@
 //
 // Basic typography style for copy text
 //
-@import "../abstracts/variables.scss";
+@import '../abstracts/variables.scss';
 
 //
 // #Body-Text
 //
 html {
     color: $color-base;
-    font-family: $font-family-base-fallback;;
     font-size: 100%; // 16px
-    font-weight: $font-weight-normal;
-    letter-spacing: -0.009375em; // -0.15px
     line-height: 1.6;
-    word-spacing: -0.04375em; // -0.7px
 
     @media (min-width: $mq-s) {
         font-size: 120%;
@@ -24,17 +20,12 @@ html {
     }
 }
 
+// Body text loaded font-family
 html.fonts-loaded {
-    font-family: $font-family-base;
-    letter-spacing: 0;
-    word-spacing: 0;
+    font-family: $font-family-body;
 }
 
-
-
-//
-// #Headings
-//
+// Headings font-family and font-weight
 h1,
 h2,
 h3,
@@ -45,14 +36,13 @@ h6 {
     font-weight: $font-weight-bold;
 }
 
+// Heading h1 font-size and line-height
 h1 {
     font-size: 2em; // 32px
     line-height: 1.2;
-    word-spacing: -0.04375em; // -0.7px
-    letter-spacing: -0.040625em; // -0.65px
 }
 
-
+// Headings h2-h6 font-size and line-height
 h2,
 h3,
 h4,
@@ -60,10 +50,9 @@ h5,
 h6 {
     font-size: 1.5em; // 24px
     line-height: 1.3;
-    letter-spacing: -0.034375em; // -0.55px
-    word-spacing: -0.05em; // -0.8px
 }
 
+// Headings h1-h6 loaded font-family
 html.fonts-loaded h1,
 html.fonts-loaded h2,
 html.fonts-loaded h3,
@@ -71,8 +60,30 @@ html.fonts-loaded h4,
 html.fonts-loaded h5,
 html.fonts-loaded h6 {
     font-family: $font-family-title;
-    letter-spacing: 0;
-    word-spacing: 0;
+}
+
+// Body text (not loaded) fallback tweaks
+html:not(.fonts-loaded) {
+    font-family: $font-family-body-fallback;
+    font-weight: $font-weight-normal;
+    letter-spacing: -0.009375em; // -0.15px
+    word-spacing: -0.04375em; // -0.7px
+}
+
+// Heading h1 (not loaded) fallback tweaks
+html:not(.fonts-loaded) h1 {
+    word-spacing: -0.04375em; // -0.7px
+    letter-spacing: -0.040625em; // -0.65px
+}
+
+// Headings h2-h6 (not loaded) fallback tweaks
+html:not(.fonts-loaded) h2,
+html:not(.fonts-loaded) h3,
+html:not(.fonts-loaded) h4,
+html:not(.fonts-loaded) h5,
+html:not(.fonts-loaded) h6 {
+    letter-spacing: -0.034375em; // -0.55px
+    word-spacing: -0.05em; // -0.8px
 }
 
 cite {

@@ -58,11 +58,11 @@ $animation-type:          easy-in;
 //
 // #Font-Body
 //
-$font-family-base-fallback:
+$font-family-body-fallback:
     Arial,
     sans-serif;
 
-$font-family-base-subset:
+$font-family-body-subset:
     "Brando Regular Sans Subset",
     -apple-system,
     BlinkMacSystemFont,
@@ -72,7 +72,7 @@ $font-family-base-subset:
     Arial,
     sans-serif;
 
-$font-family-base:
+$font-family-body:
     "Brando Regular Sans",
     -apple-system,
     BlinkMacSystemFont,
