@@ -3,15 +3,65 @@
 //
 @import "../abstracts/variables.scss";
 
+//
+// #Body-Text
+//
 html {
     color: $color-base;
-    font-family: $font-family-base-system;
-    font-size: 100%;
-    line-height: 1.4;
+    font-family: $font-family-base-fallback;;
+    font-size: 100%; // 16px
+    font-weight: $font-weight-normal;
+    letter-spacing: -0.009375em; // -0.15px
+    line-height: 1.6;
+    word-spacing: -0.04375em; // -0.7px
+
+    @media (min-width: $mq-s) {
+        font-size: 120%;
+    }
+
+    @media (min-width: $mq-l) {
+        font-size: 140%;
+    }
 }
 
 html.fonts-loaded {
     font-family: $font-family-base;
+    letter-spacing: 0;
+    word-spacing: 0;
+}
+
+
+
+//
+// #Headings
+//
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font-family-title-fallback;
+    font-weight: $font-weight-bold;
+}
+
+h1 {
+    font-size: 2em; // 32px
+    line-height: 1.2;
+    word-spacing: -0.04375em; // -0.7px
+    letter-spacing: -0.040625em; // -0.65px
+}
+
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 1.5em; // 24px
+    line-height: 1.3;
+    letter-spacing: -0.034375em; // -0.55px
+    word-spacing: -0.05em; // -0.8px
 }
 
 html.fonts-loaded h1,
@@ -21,6 +71,8 @@ html.fonts-loaded h4,
 html.fonts-loaded h5,
 html.fonts-loaded h6 {
     font-family: $font-family-title;
+    letter-spacing: 0;
+    word-spacing: 0;
 }
 
 cite {

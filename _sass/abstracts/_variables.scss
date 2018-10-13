@@ -55,13 +55,10 @@ $animation-type:          easy-in;
 // #Fonts
 //
 
-// #Font-Family
-$font-family-base-system:
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    Helvetica,
+//
+// #Font-Body
+//
+$font-family-base-fallback:
     Arial,
     sans-serif;
 
@@ -85,14 +82,12 @@ $font-family-base:
     Arial,
     sans-serif;
 
-$font-family-title-system:
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    Helvetica,
-    Arial,
-    serif;
+//
+// #Font-Title
+//
+$font-family-title-fallback:
+    Georgia,
+    sans-serif;
 
 $font-family-title-subset:
     "Guardian Bold Egyptian Subset",
@@ -114,6 +109,9 @@ $font-family-title:
     Arial,
     serif;
 
+//
+// #Font-Code
+//
 $font-family-code:
     "Input",
     -apple-system,
@@ -191,6 +189,17 @@ $icon-xl: $space-xl; // 64px
 //
 $scale: 1.61803;
 
+
+
+//
+// #Media-Queries
+//
+$mq-xxs: 20em; // 320px
+$mq-xs: 30em; // 480px
+$mq-s: 48em; // 768px
+$mq-m: 61.25em; // 980px
+$mq-l: 80em; // 1280px
+$mq-xl: 90em; // 1440px
 
 
 //

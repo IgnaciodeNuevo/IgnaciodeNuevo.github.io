@@ -19,7 +19,7 @@ classes: home
 </blockquote>
 
 
-<main class="main">
+<section class="main">
 
     {% for podcast in site.data.podcast limit:1 %}
     <h2 class="article__h2  container">Latest Podcast episode:</h2>
@@ -77,4 +77,4 @@ classes: home
         <p class=""><a href="{{ interview.interview_twitter }}" target="_blank">{{ interview.name }}'s Twitter</a></p>
       </article>
     {% endfor %}
-</main>
+</section>

@@ -2,26 +2,6 @@
 // This file contains all @font-face declarations, if any.
 // -----------------------------------------------------------------------------
 
-// Download Input font here:
-// http://input.fontbureau.com/download/
-//
-// License:
-// - This font software is the property of Font Bureau.
-//
-// - License information is available at http://input.fontbureau.com/license
-// - For more information please visit Font Bureau at https://fontbureau.typenetwork.com/ or email us at input@fontbureau.com
-//
-// - Copyright (C) 2018 The Font Bureau, Inc.
-
-@font-face {
-    font-family: "Input";
-    src: url("/assets/fonts/Input/Input-Mono-Regular.woff2") format("woff2"),
-        url("/assets/fonts/Input/Input-Mono-Regular.woff") format("woff");
-    font-stretch: normal;
-    font-style: normal;
-    font-weight: $font-weight-normal;
-}
-
 // Buy Guardian Egyptian font here:
 // https://commercialtype.com/catalog/guardian_egyptian/guardian_egyptian_headline/bold
 //
@@ -77,6 +57,26 @@
     font-family: "Brando Regular Sans Subset";
     src: url("/assets/fonts/Brando/Brando-Sans-Regular-Subset.woff2") format("woff2"),
          url("/assets/fonts/Brando/Brando-Sans-Regular-Subset.woff") format("woff");
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: $font-weight-normal;
+}
+
+// Download Input font here:
+// http://input.fontbureau.com/download/
+//
+// License:
+// - This font software is the property of Font Bureau.
+//
+// - License information is available at http://input.fontbureau.com/license
+// - For more information please visit Font Bureau at https://fontbureau.typenetwork.com/ or email us at input@fontbureau.com
+//
+// - Copyright (C) 2018 The Font Bureau, Inc.
+
+@font-face {
+    font-family: "Input";
+    src: url("/assets/fonts/Input/Input-Mono-Regular.woff2") format("woff2"),
+        url("/assets/fonts/Input/Input-Mono-Regular.woff") format("woff");
     font-stretch: normal;
     font-style: normal;
     font-weight: $font-weight-normal;
