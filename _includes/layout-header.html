@@ -5,8 +5,27 @@
     <nav class="">
         <ul class="">
             {% for item in site.data.nav %}
-                <li {% if page.url == item.url %}class="is-active"{% endif %}><a href="{{ item.url }}">{{ item.label }}</a></li>
+                <li {% if page.url==item.url %}class="is-active" {% endif %}><a href="{{ item.url }}">{{ item.label }}</a></li>
             {% endfor %}
+        </ul>
+        <ul>
+            <li>
+                <a class="rss" href="{{ site.github }}" target="blank" rel="noopener">Github</a>
+            </li>
+            <li>
+                <a class="rss" href="{{ site.twitter }}" target="blank" rel="noopener">Twitter</a>
+            </li>
+            <li>
+                <a class="rss" href="{{ site.mastodon }}" target="blank" rel="noopener">Mastodon</a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="{{ site.rss }}">RSS Feed</a>
+            </li>
+            <li>
+                <a href="/about/#contact">Contact</a>
+            </li>
         </ul>
     </nav>
 </header>

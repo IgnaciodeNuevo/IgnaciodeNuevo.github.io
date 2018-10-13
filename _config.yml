@@ -3,8 +3,10 @@ description: "Ignacio Villanueva - Front-end Developer focusing front-end archit
 url: "http://ignaciodenuevo.com" # with the https protocol
 # enforce_ssl: www.ignaciodenuevo.com # without any protocol
 email: ignaciodenuevo@gmail.com
-twitter: https://twitter.com/ignaciodenuevo
 github: https://github.com/ignaciodenuevo
+twitter: https://twitter.com/ignaciodenuevo
+mastodon: https://octodon.social/@ignaciodenuevo
+rss: /feed.xml
 baseurl: ""
 
 # Markdown settings
