@@ -1,16 +1,12 @@
 ---
 layout: default
 title: "Ignacio Villanueva - Front-end Developer focusing front-end architecture, front-end performance and responsive web design."
-tags:
-  - writing
-  - css
-  - sass
-classes: home
 ---
-<section class="">
-
-    <h1 class="">I am Ignacio Villanueva a front-end developer focused on architecture, front-end performance and responsive web design.</h1>
-    <p class="">You can follow me on <a href="{{ site.twitter }}" rel="me" target="_blank">Twitter</a>, fork me on <a href="{{ site.github }}" rel="me" target="_blank">Github</a>, subscribe via <a href="/feed.xml">RSS Feed</a> or say hello at <a href="mailto:{{ site.email }}" rel="me">{{ site.email }}</a>.</p>
+<section class="main-section">
+    <p class="">Front-end developer</p>
+    <p class="">You can follow me on <a href="{{ site.twitter }}" rel="me" target="_blank">Twitter</a>, fork me on <a
+            href="{{ site.github }}" rel="me" target="_blank">Github</a>, subscribe via <a href="/feed.xml">RSS Feed</a>
+        or say hello at <a href="mailto:{{ site.email }}" rel="me">{{ site.email }}</a>.</p>
 </section>
 
 <blockquote class="">
@@ -19,62 +15,63 @@ classes: home
 </blockquote>
 
 
-<section class="main">
+<main class="main" role=“main”>
 
     {% for podcast in site.data.podcast limit:1 %}
-    <h2 class="article__h2  container">Latest Podcast episode:</h2>
+    <h2 class="">Latest Podcast episode:</h2>
     <div>
-    <blockquote class="">
-        <span>The Podcast is in Spanish.</span>
-    </blockquote>
+        <blockquote class="">
+            <span>The Podcast is in Spanish.</span>
+        </blockquote>
     </div>
-    <article class="">
-      <a class="" href="/podcast/{{ podcast.podcast_url }}">
-        <h3 class="">{{ podcast.name }}</h3>
-        <time class="" datetime="{{ podcast.date | date: "%Y-%m-%d" }}">{{ podcast.podcast_date }}</time>
-        <p class="">{{ podcast.description }}</p>
-        <img class="" src="{{ podcast.image_url }}" alt="{{ podcast.name }} Image"/>
-      </a>
-    <p class="">
-      <a href="{{ podcast.podcast_web }}" target="_blank">Accede al post del episodio</a>
-    </p>
-    </article>
+
+    <section class="">
+        <a class="" href="/podcast/{{ podcast.podcast_url }}">
+            <h3 class="">{{ podcast.name }}</h3>
+            <time class="" datetime="{{ podcast.date | date: "%Y-%m-%d" }}">{{ podcast.podcast_date }}</time>
+            <p class="">{{ podcast.description }}</p>
+            <img class="" src="{{ podcast.image_url }}" alt="{{ podcast.name }} Image" />
+        </a>
+        <p class="">
+            <a href="{{ podcast.podcast_web }}" target="_blank">Accede al post del episodio</a>
+        </p>
+    </section>
     {% endfor %}
 
     {% for talk in site.data.speaking limit:1 %}
-      <h2 class="article__h2  container">Latest talk:</h2>
-      <article class="">
+    <h2 class="">Latest talk:</h2>
+    <section class="">
         <a class="" href="/speaking/{{ talk.speaking_url }}">
-          <h3 class="speaking__h3">{{ talk.name }}</h3>
-          <time class="speaking__date">{{ talk.speaking_date }}</time>
-          <p class="speaking__excerpt">{{ talk.description }}</p>
+            <h3 class="">{{ talk.name }}</h3>
+            <time class="">{{ talk.speaking_date }}</time>
+            <p class="">{{ talk.description }}</p>
         </a>
-      </article>
+    </section>
     {% endfor %}
 
     {% for post in site.posts limit:1 %}
-      <h2 class="article__h2  container">Latest article:</h2>
-      <article class="">
+    <h2 class="">Latest article:</h2>
+    <section class="">
         <a class="" href="{{ post.url }}">
-          <h3 class="">{{ post.title }}</h3>
-          <time class="" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d, %Y" }}</time>
-          <p class="">{{ post.excerpt }}</p>
+            <h3 class="">{{ post.title }}</h3>
+            <time class="" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d, %Y" }}</time>
+            <p class="">{{ post.excerpt }}</p>
         </a>
-      </article>
+    </section>
     {% endfor %}
 
     {% for interview in site.data.interviews limit:1 %}
-      <h2 class="article__h2  container">Latest interview:</h2>
-      <article class="">
+    <h2 class="">Latest interview:</h2>
+    <section class="">
         <a class="" href="/interviews/{{ interview.interview_url }}">
-          <h3 class="">{{ interview.name }}</h3>
-          <time class="" datetime="{{ interview.date | date: "%Y-%m-%d" }}">{{ interview.interview_date }}</time>
-          <p class="">{{ interview.excerpt }}</p>
-          <img class="" src="{{ interview.image_url }}" alt="{{ interview.interview }} Photography"/>
-          <p class="article__number">{{ interview.interview_number }}</p>
+            <h3 class="">{{ interview.name }}</h3>
+            <time class="" datetime="{{ interview.date | date: "%Y-%m-%d" }}">{{ interview.interview_date }}</time>
+            <p class="">{{ interview.excerpt }}</p>
+            <img class="" src="{{ interview.image_url }}" alt="{{ interview.interview }} Photography" />
+            <p class="">{{ interview.interview_number }}</p>
         </a>
         <p class=""><a href="{{ interview.interview_web }}" target="_blank">{{ interview.name }}'s Web</a></p>
         <p class=""><a href="{{ interview.interview_twitter }}" target="_blank">{{ interview.name }}'s Twitter</a></p>
-      </article>
+    </section>
     {% endfor %}
-</section>
+</main>

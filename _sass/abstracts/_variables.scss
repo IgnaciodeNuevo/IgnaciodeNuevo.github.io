@@ -7,7 +7,7 @@
 //
 
 // #Base-Color
-$color-base: #000000;
+$color-base: #0c0c0c;
 $color-base-darker: lighten($color-base, 20);
 $color-base-dark: lighten($color-base, 40);
 $color-base-light: lighten($color-base, 60);
@@ -21,13 +21,14 @@ $state-ok:      #008022;
 $state-warning: #ffac00;
 $state-error:   #ff1e1e;
 
-// #Text-Colors
-$text-color-base: $color-base-dark;
-$text-color-link: $color-primary;
-
 // #Absolute-colors to avoid linting alerts on hardcoded values
 $color-white: #ffffff;
-$color-black: #000000;
+
+// #Text-Colors
+$text-color-dark: $color-base;
+$text-color-light: $color-white;
+$text-color-link: $color-primary;
+
 
 
 
@@ -143,6 +144,11 @@ $font-weight-black:      900;
 $font-base: 1em; // 16px
 
 
+
+//
+// #Sizing
+//
+$nav-height: 5vh;
 
 //
 // #Spacing

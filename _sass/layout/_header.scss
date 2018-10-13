@@ -1,3 +1,18 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
+.header {
+    height: $nav-height;
+}
+
+.main-section {
+    background-color: $color-base;
+    background-image: url('/assets/images/ignacio-home.jpg');
+    background-repeat: no-repeat;
+    background-position: 60% center;
+    background-size: cover;
+    color: $text-color-light;
+    position: relative;
+    height: calc(100vh - #{$nav-height});
+    padding: $padding-m;
+}
