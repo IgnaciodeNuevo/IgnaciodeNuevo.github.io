@@ -52,7 +52,7 @@ After researching what kind of questions should I make I have made a list of app
 
 So if you are one of those awesome developers of our industry feel free to send me your answer to this questions and they will be published as soon as possible.
 
-<a href="mailto:{{ site.email }}">Send your answers here</a>
+{% include component-email.html %}
 
 Felt disappointed first because I was so excited to intereview people are as passionate as my about web development due to I have been sending emails one afternoon and the morning before and none had responded. But the day before that, people start accepting my requests of interview so when I recived the first email back telling me I was accepted to interview my first interviewee I exploded with joy, this was so amazing for my, intereviewing people I really admire and never ever thought they will accept or even respond my emails that made me very happy.
 

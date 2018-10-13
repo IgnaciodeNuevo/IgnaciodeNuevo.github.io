@@ -1,0 +1,14 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the 404 of the site/application.
+// -----------------------------------------------------------------------------
+.page-404 {
+    background-color: $color-base;
+    background-image: url('/assets/images/ignacio-404.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: $text-color-light;
+    position: relative;
+    height: 100vh;
+    padding: $padding-m;
+}

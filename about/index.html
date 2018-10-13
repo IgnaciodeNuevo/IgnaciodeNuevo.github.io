@@ -45,7 +45,7 @@ responsive web design."
         <a href="{{ site.twitter }}" target="_blank">Twitter</a>, fork me on
         <a href="{{ site.github }}" target="_blank">Github</a>, subscribe via
         <a href="/feed.xml" target="_blank">RSS Feed</a> or say hello at
-        <a href="mailto:{{ site.email }}?Subject=Contact%20from%20IgnaciodeNuevo's%20website">{{ site.email }}</a>
+        {% include component-email.html %}
     </p>
 
     <h2>About this site</h2>
@@ -89,5 +89,5 @@ responsive web design."
         * Soporte de mi web para Safari xx, Internet Explorer xx, Firefox xx, Chrome xx y Edge xx
     4. Mapa de países visitados (Marina Asina)
     <h2 id="contact">Contact</h2>
-    5. Contact Form / <a href="mailto:ignaciodenuevo@gmail.com?Subject=Contact%20from%20IgnaciodeNuevo's%20website">Email</a>
+    5. Contact Form / {% include component-email.html %}
 </section>
