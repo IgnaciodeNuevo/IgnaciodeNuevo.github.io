@@ -3,11 +3,24 @@
 //
 @import "../abstracts/variables.scss";
 
-body {
+html {
     color: $color-base;
-    font-family: $font-family-base;
+    font-family: $font-family-base-system;
     font-size: 100%;
     line-height: 1.4;
+}
+
+html.fonts-loaded {
+    font-family: $font-family-base;
+}
+
+html.fonts-loaded h1,
+html.fonts-loaded h2,
+html.fonts-loaded h3,
+html.fonts-loaded h4,
+html.fonts-loaded h5,
+html.fonts-loaded h6 {
+    font-family: $font-family-title;
 }
 
 cite {

@@ -56,8 +56,7 @@ $animation-type:          easy-in;
 //
 
 // #Font-Family
-$font-family-base:
-    "Brando Regular Sans",
+$font-family-base-system:
     -apple-system,
     BlinkMacSystemFont,
     "Segoe UI",
@@ -76,8 +75,17 @@ $font-family-base-subset:
     Arial,
     sans-serif;
 
-$font-family-title:
-    "Guardian Bold Egyptian",
+$font-family-base:
+    "Brando Regular Sans",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
+
+$font-family-title-system:
     -apple-system,
     BlinkMacSystemFont,
     "Segoe UI",
@@ -88,6 +96,16 @@ $font-family-title:
 
 $font-family-title-subset:
     "Guardian Bold Egyptian Subset",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    serif;
+
+$font-family-title:
+    "Guardian Bold Egyptian",
     -apple-system,
     BlinkMacSystemFont,
     "Segoe UI",

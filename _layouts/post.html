@@ -10,7 +10,7 @@ layout: default
     <p class="">{{ page.date | date: "%B %d, %Y" }}</p>
 {% endif %} -->
     <p>Post publication date: {{ page.date | date: "%B %d, %Y" }}</p>
-	<p>{% include component-reading_time.html content=content %}</p>
+	<p>{% include component-reading.html content=content %}</p>
 
 {{ content }}
 

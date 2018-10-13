@@ -53,7 +53,7 @@ Finally the importance of its modularity helping you follow the [DRY](https://en
     	layout-header.html
     	layout-footer.html
     	section-head.html
-    	component-reading_time.html
+    	component-reading.html
 
 Furthermore, any time I want to make a change to either, I only have to update it in one place and it’s pushed out to the entire site.
 
