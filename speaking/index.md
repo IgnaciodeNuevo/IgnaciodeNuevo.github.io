@@ -20,14 +20,14 @@ It does not happen that often! Here are the talks I've given and slides.
                 <p class="">
                     <a href="/speaking/{{ talk.url }}" target="_blank">
                         Slides
-                        {% include icon-external.html %}
+                        {% include icons/external.html %}
                     </a>
                 </p>
                 {% if talk.video %}
                     <p class="">
                         <a href="{{ talk.video }}" target="_blank">
                             Video
-                            {% include icon-external.html %}
+                            {% include icons/external.html %}
                         </a>
                     </p>
                 {% endif %}
@@ -35,7 +35,7 @@ It does not happen that often! Here are the talks I've given and slides.
                     <p class="">
                         <a href="{{ talk.codepen }}" target="_blank">
                             Codepen
-                            {% include icon-external.html %}
+                            {% include icons/external.html %}
                         </a>
                     </p>
                 {% endif %}
