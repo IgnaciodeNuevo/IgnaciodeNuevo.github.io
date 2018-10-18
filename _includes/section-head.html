@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Ignacio Villanueva &ndash; Front-end Developer focusing front-end architecture, front-end performance and responsive web design.</title>
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.description }}{% endif %}</title>
 
     <!-- StyleSheets & DNS Prefetch -->
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
@@ -21,7 +21,7 @@
     <meta name="revisit-after" content="1 days"> {% endif %}
 
     <!-- Open Graph data -->
-    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.description }}{% endif %}" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
     <meta property="og:image" content="{{ site.url }}/assets/images/logo.jpg" />
@@ -53,7 +53,7 @@
     <meta name="theme-color" content="#0047BB">
 
     <!-- Other -->
-    <meta name="description" content="Articles on CSS, Sass, architecture, front-end performance, and mobile and responsive web design based in Barcelona.">
+    <meta name="description" content="{{ site.title }}">
 
 </head>
 <!--
