@@ -9,7 +9,6 @@
 html {
     color: $color-base;
     font-size: 100%; // 16px
-    line-height: 1.6;
 
     @media (min-width: $mq-s) {
         font-size: 120%;
@@ -36,20 +35,46 @@ h6 {
     font-weight: $font-weight-bold;
 }
 
-// Heading h1 font-size and line-height
-h1 {
-    font-size: 2em; // 32px
-    line-height: 1.2;
-}
-
-// Headings h2-h6 font-size and line-height
+// Headings font-size and line-height
+h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-size: 1.5em; // 24px
-    line-height: 1.3;
+    line-height: 1.1;
+}
+
+p {
+    line-height: 1.4;
+}
+
+h1 {
+    @include heading-h1();
+}
+
+h2 {
+    @include heading-h2();
+}
+
+h3 {
+    @include heading-h3();
+}
+
+h4 {
+    @include heading-h4();
+}
+
+h5 {
+    @include heading-h5();
+}
+
+h6 {
+    @include heading-h6();
+}
+
+p {
+    @include body-text();
 }
 
 // Headings h1-h6 loaded font-family
