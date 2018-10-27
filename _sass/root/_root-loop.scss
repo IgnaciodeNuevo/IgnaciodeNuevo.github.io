@@ -1,0 +1,13 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+
+//
+// #Root Variables
+// This avoids :root variable duplication
+//
+:root {
+    @each $prop, $val in $VariablesMap {
+        --#{$prop}: #{$val};
+    }
+}

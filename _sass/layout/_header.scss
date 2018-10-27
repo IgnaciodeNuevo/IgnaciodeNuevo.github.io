@@ -11,18 +11,10 @@
     background-color: $color-base;
     background-image: url('/assets/images/ignacio-home.jpg');
     background-repeat: no-repeat;
-    background-position: 55% top;
+    background-position: center;
     background-size: cover;
     color: $text-color-light;
     position: relative;
-    height: calc(100vh - #{$nav-height});
+    height: 100vh;
     padding: $padding-m;
-
-    @media (min-width: $mq-s) {
-        background-position: 65% top;
-    }
-
-    @media (min-width: $mq-l) {
-        background-position: center top;
-    }
 }
