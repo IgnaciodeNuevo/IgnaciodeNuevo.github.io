@@ -9,7 +9,7 @@ title: "Stephen Hay"
 
 ## To all those don't meet you yet. How do you describe yourself?
 
-I'm assuming you mean in the "work" sense. :-) I'm a designer who codes. I was schooled as a designer, did print design and later art direction for several years. Then I started doing web design and learned front-end technologies. Currently I use that knowledge and experience to help organisations figure out how to solve web-related problems in the broadest sense. I do this through design and code, but also through workshops and temporarily joining teams on specific projects. The past several years, my projects have dealt mainly with responsive design. I also do quite a bit of speaking and writing about responsive design, design process and UI/UX, CSS, and anything my experiences lead me to.
+I'm assuming you mean in the "work" sense. :-) I'm a designer who codes. I was schooled as a designer, did print design and later art direction for several years. Then I started doing web design and learned frontend technologies. Currently I use that knowledge and experience to help organisations figure out how to solve web-related problems in the broadest sense. I do this through design and code, but also through workshops and temporarily joining teams on specific projects. The past several years, my projects have dealt mainly with responsive design. I also do quite a bit of speaking and writing about responsive design, design process and UI/UX, CSS, and anything my experiences lead me to.
 
 ## When you started developing, what were some common mistakes you made along the way?
 
@@ -19,9 +19,9 @@ As far as development goes, one of the biggest mistakes I made is not insisting 
 
 There are many more mistakes; I could probably fill a book with them.
 
-## Front-end seems to be easy until you start to learning. How do you face the challenge of learning new things?
+## Frontend seems to be easy until you start to learning. How do you face the challenge of learning new things?
 
-Lately, I've been trying to really look at whether something is important for me to learn at all. If you do front-end, what's really important? I would say HTML and CSS. I would also say JavaScript, though I've met plenty of capable JS developers who show insufficient knowledge of even the most basic proper usage of HTML. So: HTML, CSS. Then basic web accessibility, WAI-ARIA. Javascript. Other fundamental technologies like SVG are great, too. If you know these things, you can do front-end. You might not know the newest fad framework, but you have a solid foundation. Also, note that I'm still learning those basics, since they're being added to all the time. I don't know a single person who everything about all of them. Fundamentals first, then whatever you like. But you'll never be done learning the fundamentals.
+Lately, I've been trying to really look at whether something is important for me to learn at all. If you do frontend, what's really important? I would say HTML and CSS. I would also say JavaScript, though I've met plenty of capable JS developers who show insufficient knowledge of even the most basic proper usage of HTML. So: HTML, CSS. Then basic web accessibility, WAI-ARIA. Javascript. Other fundamental technologies like SVG are great, too. If you know these things, you can do frontend. You might not know the newest fad framework, but you have a solid foundation. Also, note that I'm still learning those basics, since they're being added to all the time. I don't know a single person who everything about all of them. Fundamentals first, then whatever you like. But you'll never be done learning the fundamentals.
 
 Accepting that it's okay not to know everything is hard, but necessary.
 
@@ -61,7 +61,7 @@ It took me a whole book to describe that process (Responsive Design Workflow), b
 
 ## What excites you most these days?
 
-Pretty much everything. At the moment SVG really has my attention. I'm also fascinated by animation and also front-end performance, but I see new things every day that I find interesting.
+Pretty much everything. At the moment SVG really has my attention. I'm also fascinated by animation and also frontend performance, but I see new things every day that I find interesting.
 
 ## What is the most important thing you’ve learned?
 

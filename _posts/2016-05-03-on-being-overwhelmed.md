@@ -10,7 +10,7 @@ Let's start at the beginning. I started using the web since the terrible time of
 
 Fifteen years ago was a good time to start on the web, this was easy to learn, there is no new wheel to be reinvented every six months like now.
 
-Approximately one year and a half ago, I started learning Front-end Developement on my own since I've finished the [Master in Graphic Design and Web Development](/2016/02/28/my-interest-in-web-development/) at Trazos.
+Approximately one year and a half ago, I started learning Frontend Developement on my own since I've finished the [Master in Graphic Design and Web Development](/2016/02/28/my-interest-in-web-development/) at Trazos.
 
 After finishing the master I had the wrong idea that I had all the knowledge needed to conquest the world. I couldn't be more wrong. Things change fast and this incredible industry changes faster than you have ever imagined before.
 
@@ -22,7 +22,7 @@ I've heard before that the web is dead. Native apps are going to rule the future
 
 I don't think so. A fact about the web is that with one and only one link or URL, "EVERYONE" can access a site, no need of updating the app via any App Store and with thanks to progressive enhancement users with old devices can have a fine experience and brand new devices can have the best of the best.
 
-<img src="/assets/images/post-front-end-overwhelmed.png" alt="Web Technologies">
+<img src="/assets/images/post-frontend-overwhelmed.png" alt="Web Technologies">
 
 CSS is getting <a href="http://philipwalton.com/articles/why-im-excited-about-native-css-variables/" target="_blank">variables</a> like Sass had years ago, long live <a href="http://postcss.org/" target="_blank">PostCSS</a>.
 
@@ -41,7 +41,7 @@ Finally are you using Angular 1.0? Oh, today I've read Angular 2.0 has become dr
 
 I'm new in web industry. How are we supposed to get up to date with everything while keeps changing?
 
-I love so much the web, I been reading, listening and watching front-end lot of hours a day since one year and a half and it is extremely hard. So many things to learn... I feel overwhelmed.
+I love so much the web, I been reading, listening and watching frontend lot of hours a day since one year and a half and it is extremely hard. So many things to learn... I feel overwhelmed.
 
 It’s going to change, and I hope never stops changing, but when it stops, the web will be dead. New devices are going to be invented, new screen sizes are going to be manufactured and new users are going to join the web.
 

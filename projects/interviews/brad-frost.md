@@ -10,13 +10,13 @@ title: "Brad Frost"
 
 ## To all those don't meet you yet. How do you describe yourself?
 
-That's a good question; I barely know anymore! Generally speaking, I make websites. I'm a front-end web designer by trade, and increasingly I consult with organizations to help them make better web experiences.
+That's a good question; I barely know anymore! Generally speaking, I make websites. I'm a frontend web designer by trade, and increasingly I consult with organizations to help them make better web experiences.
 
 ## When you started developing, what were some common mistakes you made along the way?
 
 My introduction to web development was all table-based layouts and other older techniques. It wasn't until I read Jeffrey Zeldman's Designing with Web Standards that I was introduced to a better way to develop websites.
 
-## Front-end seems to be easy until you start to learning. How do you face the challenge of learning new things?
+## Frontend seems to be easy until you start to learning. How do you face the challenge of learning new things?
 
 It takes a while, but learning where to look when you get stuck is crucial. Learning how to learn is a critical skill in an industry that's constantly changing. Google the things you're stuck on, and take note of the sites that give you the answers. Eventually patterns will emerge and you'll find yourself seeking those resources out first the next time you get stuck.
 

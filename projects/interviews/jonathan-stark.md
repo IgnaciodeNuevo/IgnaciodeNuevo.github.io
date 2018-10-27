@@ -7,7 +7,7 @@ title: "Jonathan Stark"
   <h1 class="">{{ page.title }}</h1>
 {% endif %}
 
-## Front-end seems to be easy until you start to learning. How do you face the challenge of learning new things?
+## Frontend seems to be easy until you start to learning. How do you face the challenge of learning new things?
 
 Front end dev seems to change on a daily basis. It's virtually impossible to keep up with the latest and greatest, and everything has pros and cons. I suggest building an actual project (side project, if you prefer) using an approach/framework/library that looks like it will serve the needs of your particular project.
 

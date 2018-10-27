@@ -1,5 +1,5 @@
 - name: "Harry Roberts"
-  excerpt: "I’m a web developer from England. My actual job title is Consultant Front-end Architect—I travel the world to help clients of all shapes and sizes write better, faster, more scalable, more maintainable CSS."
+  excerpt: "I’m a web developer from England. My actual job title is Consultant Frontend Architect—I travel the world to help clients of all shapes and sizes write better, faster, more scalable, more maintainable CSS."
   image_url: ../assets/images/portrait-harry-roberts.jpg
   interview_date: "January 27, 2017"
   interview_number: 16
@@ -71,7 +71,7 @@
   interview_web: http://www.hanselman.com
 
 - name: "Paul Robert LLoyd"
-  excerpt: "I’m an independent graphic designer and front-end web developer based in Brighton, England. I help responsible organisations like the Guardian, UNICEF and Mozilla create purposeful digital products."
+  excerpt: "I’m an independent graphic designer and frontend web developer based in Brighton, England. I help responsible organisations like the Guardian, UNICEF and Mozilla create purposeful digital products."
   image_url: ../assets/images/portrait-paul-lloyd.jpg
   interview_date: "February 15, 2016"
   interview_number: 8
@@ -89,7 +89,7 @@
   interview_web: http://firt.mobi/
 
 - name: "Stephen Hey"
-  excerpt: "I'm a designer who codes. I was schooled as a designer, did print design and later art direction for several years. Then I started doing web design and learned front-end technologies."
+  excerpt: "I'm a designer who codes. I was schooled as a designer, did print design and later art direction for several years. Then I started doing web design and learned frontend technologies."
   image_url: ../assets/images/portrait-stephen-hay.jpg
   interview_date: "February 1, 2016"
   interview_number: 6
@@ -98,7 +98,7 @@
   interview_web: http://www.the-haystack.com/
 
 - name: "Brad Frost"
-  excerpt: "Generally speaking, I make websites. I'm a front-end web designer by trade, and increasingly I consult with organizations to help them make better web experiences."
+  excerpt: "Generally speaking, I make websites. I'm a frontend web designer by trade, and increasingly I consult with organizations to help them make better web experiences."
   image_url: ../assets/images/portrait-brad-frost.jpg
   interview_date: "January 26, 2016"
   interview_number: 5
@@ -125,7 +125,7 @@
   interview_web: http://germanforblack.com/
 
 - name: "Hugo Giraudel"
-  excerpt: "My name is Hugo. I am a French front-end developer about to turn 24 and living in Berlin, Germany. I am working at Edenspiekermann, where I can play with HTML, CSS (Sass & CSS Modules) and JavaScript (React) on a daily basis."
+  excerpt: "My name is Hugo. I am a French frontend developer about to turn 24 and living in Berlin, Germany. I am working at Edenspiekermann, where I can play with HTML, CSS (Sass & CSS Modules) and JavaScript (React) on a daily basis."
   image_url: ../assets/images/portrait-hugo-giraudel.jpg
   interview_date: "December 14, 2015"
   interview_number: 2

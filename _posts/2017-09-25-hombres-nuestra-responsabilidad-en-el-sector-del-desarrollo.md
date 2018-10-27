@@ -10,7 +10,7 @@ tags:
 
 Cuando abrí esta Web lo planteaba como un lugar donde hablar sobre mi profesión. Hará un par de años se me ocurría que escribiría únicamente en inglés (_por aquello de forzarme a mejorar_), para mostrar mis proyectos personales y profesionales.
 
-Nunca pensaba usar mi <a href="{{ site.twitter }}" target="_blank">Twitter</a> más que para hablar sobre desarrollo front-end y pensaba dejar a un lado temas personales.
+Nunca pensaba usar mi <a href="{{ site.twitter }}" target="_blank">Twitter</a> más que para hablar sobre desarrollo frontend y pensaba dejar a un lado temas personales.
 
 El problema viene cuando, desde hace algún tiempo; (_un año aproximadamente_), empecé a darme cuenta de cosas que no estaban bien en el sector del desarrollo. Como los relacionados con la discriminación o el acoso, por lo que empecé a informarme, aprender y sobre todo a replantearme si todo lo que "nos han enseñado" era correcto.
 

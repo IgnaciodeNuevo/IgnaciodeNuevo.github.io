@@ -9,13 +9,13 @@ title: "Paul Lloyd"
 
 ## To all those don’t meet you yet. How do you describe yourself?
 
-I’m an [independent graphic designer and front-end web developer](https://paulrobertlloyd.com) based in Brighton, England. I help responsible organisations like the Guardian, UNICEF and Mozilla create purposeful digital products.
+I’m an [independent graphic designer and frontend web developer](https://paulrobertlloyd.com) based in Brighton, England. I help responsible organisations like the Guardian, UNICEF and Mozilla create purposeful digital products.
 
 ## When you started developing, what were some common mistakes you made along the way?
 
 A mistake I made when I started, and one I continue to make, is to forget that the best way to solve a tricky problem is to step away from it, and focus on something else. Time and time again, I will spend hours trying to fix a bug or get something to work, but to no avail. Only when, in frustration, I divert my gaze from the screen (go for a walk, do the washing up, have a shower), does the solution usually come to me.
 
-## Front-end seems to be easy until you start to learning. How do you face the challenge of learning new things?
+## Frontend seems to be easy until you start to learning. How do you face the challenge of learning new things?
 
 The best way to learn a new skill is to have a project for which you can apply the resulting lessons. Everything I’ve learnt has been done in pursuit of building something, be it a personal project or a client’s website. Reading endless documentation, or coding something in the abstract, rarely excites me.
 
@@ -49,7 +49,7 @@ Be it HTML, CSS or JavaScript, I tend to start from the most basic representatio
 
 ## What excites you most these days?
 
-Trained as a graphic designer, and enjoying a career as a front-end web developer, it’s where these two disciplines intersect that I find most interesting. It was this that inspired [my recent article on 24 ways](https://24ways.org/2015/beyond-the-style-guide/).
+Trained as a graphic designer, and enjoying a career as a frontend web developer, it’s where these two disciplines intersect that I find most interesting. It was this that inspired [my recent article on 24 ways](https://24ways.org/2015/beyond-the-style-guide/).
 
 ## What is the most important thing you’ve learned?
 
@@ -57,7 +57,7 @@ Not sure if I’ve entirely learned this lesson, but one of my favourite pieces 
 
 ## Do you have any favourite books, videos, or resources that you could share with the readers?
 
-I find the [links posted by Jeremy Keith](https://adactio.com/links/) to be a useful means of keeping up-to-date with the goings on in front-end development. As to design, while I don’t do that much identity design myself, [Brand New](http://www.underconsideration.com/brandnew/) remains one of my favourite blogs.
+I find the [links posted by Jeremy Keith](https://adactio.com/links/) to be a useful means of keeping up-to-date with the goings on in frontend development. As to design, while I don’t do that much identity design myself, [Brand New](http://www.underconsideration.com/brandnew/) remains one of my favourite blogs.
 
 ## Do you have any advice for new developers just starting their career journey?
 

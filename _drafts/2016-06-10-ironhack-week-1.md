@@ -3,7 +3,7 @@ layout: post
 title: "Ironhack journal - Week[0] and Week[1]"
 excerpt: "My Ironhack journal for Week[0] and Week[1]"
 tags:
-  - Front-end
+  - Frontend
   - Ironhack
 published: false
 ---
@@ -41,7 +41,7 @@ I’m not really a blog kind of person, but I try hard to keep my website up to 
 
 I am anxious, extremely anxious. I’m trying not to let it get to me but I have so many doubts about if I'll be able to learn Ruby and JavaScript. I know I’m a smart person but I feel I don't have the logic to face Ruby problems right now but coding generally makes me feel so stupid. Seems so simple for others... Actually, writing this all out makes me realize something. I am not stupid but I don’t know very much, even the basic stuff. I'm quite perfectionist and is hard to realize I need to spend lot of time learning how to program. I need to learn a lot in order to make this experience worth my time and money.
 
-And here is the hard part: sometimes I question myself if I'll be able to be a good front-end soon. To be honest, I love it, so much, I've found two years ago what is my passion. No one tells you how hard was to become a successful developer.
+And here is the hard part: sometimes I question myself if I'll be able to be a good frontend soon. To be honest, I love it, so much, I've found two years ago what is my passion. No one tells you how hard was to become a successful developer.
 
 <img src="/assets/images/post-irnohack-week-one-b.jpg" alt="Ironhack Week 1 - Photo 1">
 

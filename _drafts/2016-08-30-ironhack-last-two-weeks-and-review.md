@@ -56,7 +56,7 @@ Take a look to my [Delivery Food App](https://github.com/IgnaciodeNuevo/app15x15
 
 This new experience has made me think a lot on my future. Within the hiring days, non of us (as far as I know) got a job offer, but things will change soon.
 
-Now, as I was writing this post, one month after Ironhack ended I have lot of new ideas to develop and what I want to do now as front-end developer with a good friend I've made at Campus Madrid.
+Now, as I was writing this post, one month after Ironhack ended I have lot of new ideas to develop and what I want to do now as frontend developer with a good friend I've made at Campus Madrid.
 
 <img src="/assets/images/post-irnohack-conclusions-2.JPG" alt="Hackshow one">
 
@@ -76,7 +76,7 @@ I’ve learned a lot, I now understand lot of new things, how to structure a Rai
 
 I’m always honest about my reviews. This is part of my own opinion of my whole Bootcamp experience. Something that I wish someone would have [told me before joining the Bootcamp](https://medium.com/women-who-code-community/how-to-get-the-most-out-of-a-coding-bootcamp-77f5cadc7867#.sx35l1xrz){:target="_blank"}.
 
-Before deciding to attend Ironhack, I looked a lot for coding Bootcamps around Europe, but mostly in the UK and found one about fullstack JavaScript development (front-end and back-end with Node.js) but unfortunately they have had no remaining spots. Living in Madrid helped me a lot deciding where to apply. Also all the reviews were almost 5 stars, so I decided to prepare for the journey.
+Before deciding to attend Ironhack, I looked a lot for coding Bootcamps around Europe, but mostly in the UK and found one about fullstack JavaScript development (frontend and back-end with Node.js) but unfortunately they have had no remaining spots. Living in Madrid helped me a lot deciding where to apply. Also all the reviews were almost 5 stars, so I decided to prepare for the journey.
 
 My biggest problem was to apply so late. With no experience at all programming I only had twenty-five days to do online tutorials and practice few simple coding challenges. I was surprised that the interview process was so easy, maybe because the main focus of the Bootcamp is to take students from 0% to 70%.
 

@@ -17,7 +17,7 @@ Lots of "mistakes" I made back in the day would have actually been "best practic
 
 I would say whenever I've truly made a bad decision in the past, it nearly always goes back to the same mistake: making assumptions. Whether it's assumptions about the end user (their browsers, devices, and connections) or the client, unfounded assumptions have definitely been at the root of most of my woes.
 
-## Front-end seems to be easy until you start to learning. How do you face the challenge of learning new things?
+## Frontend seems to be easy until you start to learning. How do you face the challenge of learning new things?
 
 If you find something interesting, then learning it isn't a problem—I mean, it might be challenging, but at least you're motivated. The problem is when you're learning something you actually don't have any interest in—then it's simultaneously challenging, and you're not motivated ...a harsh combination.
 In general, I've found that if something doesn't genuinely interest you, it's okay not to learn it.
@@ -27,7 +27,7 @@ That can feel like a cop-out, especially if it's the latest shiny technology tha
 
 ## What would you qualify as the top few problems facing developers today?
 
-There's so much involved in front-end development these days, I think that one of the biggest challenges is deciding where to focus your energy (and again, I would recommend going for what excites you). But even if you decide to deep dive in one area, you still need to at least be aware of what's currently possible in other areas of front-end development. Striking that balance can be really tricky.
+There's so much involved in frontend development these days, I think that one of the biggest challenges is deciding where to focus your energy (and again, I would recommend going for what excites you). But even if you decide to deep dive in one area, you still need to at least be aware of what's currently possible in other areas of frontend development. Striking that balance can be really tricky.
 
 ## How would you recommend somebody to start learning web development?
 
@@ -43,7 +43,7 @@ I kind of like not knowing what the future will bring. That said, after the many
 
 ## When starting a new project, if you feel stuck where do you look for inspiration?
 
-My colleagues are a great source of knowledge and inspiration. The developers at [Clearleft](http://clearleft.com/) have a weekly front-end pow-wow and I'm always amazed by how much I get out of that.
+My colleagues are a great source of knowledge and inspiration. The developers at [Clearleft](http://clearleft.com/) have a weekly frontend pow-wow and I'm always amazed by how much I get out of that.
 
 ## What was your first development job and how you faced it?
 

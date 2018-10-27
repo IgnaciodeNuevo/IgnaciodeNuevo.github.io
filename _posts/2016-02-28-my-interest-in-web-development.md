@@ -4,7 +4,7 @@ title: "My interest in web development"
 excerpt: "When I was young and I don't remember what age I was but I think it was when he was eight I started learning to program with an amazing teacher called Iñaki"
 tags:
   - Learning
-  - Front-end
+  - Frontend
   - Personal
 ---
 
@@ -54,7 +54,7 @@ I had the pleasure to have [Eduardo Fierro](http://eduardofierro.pro/index.php) 
     <cite>Eduardo Fierro, <a href="http://www.trazos.net" target="_blank">Trazos</a></cite>
 </blockquote>
 
-Some months after my real beginnings in Front-end Web Development I sent Trazos an to help them with the academic program, why not if I found what I wanted to be?
+Some months after my real beginnings in Frontend Web Development I sent Trazos an to help them with the academic program, why not if I found what I wanted to be?
 
 The sad thing about my email was, they never changed their academic program with the knowledge that our industry demands. I tryied to help them due real passion about Web Development. I told them to remove some things like Flash, Dreamweaver and to add responsive web design, UX/UI, preprocessors, task runners and version control to help their studens learning real Web Development.
 
@@ -62,7 +62,7 @@ After a year and a half, learning by my self, I had the great opportunity to joi
 
 Now some months after leaving Martin & Young I'm freelancing. I'm now learning JavaScript as I said in my previous [article](/2016/02/18/my-next-step-learning-and-new-years-resolutions/).
 
-I'm happy to say that NOW I know what is to be a Front-end developer.
+I'm happy to say that NOW I know what is to be a Frontend developer.
 
 Whant to know lot of useful tips from some of the best Web Developers, Managers and Creative people in the web industry?
 

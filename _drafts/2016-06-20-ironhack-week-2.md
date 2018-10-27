@@ -3,7 +3,7 @@ layout: post
 title: "Ironhack journal - Week[2]"
 excerpt: "My Ironhack journal for Week[2], Test Driven Development (TDD) with Jake"
 tags:
-  - Front-end
+  - Frontend
   - Ironhack
 published: false
 ---
@@ -48,7 +48,7 @@ We've also been pair programming every day in the afternoon with the help of Pom
     <span>Satwat, Marcos, Reinier, Nacho</span>
 </blockquote>
 
-During this week, we had the pleasure to have [Bryan McEire](https://twitter.com/McEire){:target="_blank"}, [SPORTAHOME](https://www.spotahome.com){:target="_blank"}'s CTO to show us how the've tested Front-end and on Thursday we had a talk by [Emilio García](https://www.linkedin.com/in/emilio-garcia-9622048/es){:target="_blank"} from [CartoDB](https://cartodb.com){:target="_blank"} to show us how they've used Atomic Design to structure CartoDB's website.
+During this week, we had the pleasure to have [Bryan McEire](https://twitter.com/McEire){:target="_blank"}, [SPORTAHOME](https://www.spotahome.com){:target="_blank"}'s CTO to show us how the've tested Frontend and on Thursday we had a talk by [Emilio García](https://www.linkedin.com/in/emilio-garcia-9622048/es){:target="_blank"} from [CartoDB](https://cartodb.com){:target="_blank"} to show us how they've used Atomic Design to structure CartoDB's website.
 
 ### Movie Lovers Exercise
 
@@ -62,4 +62,4 @@ We are going to create a movie quiz web app!! So lets see the main points of our
 
 I have to say that this week we spent 6 days at Ironhack school, so the Saturday we came to do a [JavaScript small recap]({{ site.github }}/Ironhack/tree/master/Week%202/Day%206%20-%20JavaScript%20Recap){:target="_blank"}.
 
-This week we will have Javi Velasco a Front-end Developer to teach us HTML, CSS and JavaScript, so I can't wait this beautiful part of Web Development to start!
+This week we will have Javi Velasco a Frontend Developer to teach us HTML, CSS and JavaScript, so I can't wait this beautiful part of Web Development to start!

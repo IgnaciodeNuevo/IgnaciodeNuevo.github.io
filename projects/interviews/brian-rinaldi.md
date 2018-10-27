@@ -20,7 +20,7 @@ As a young developer, I believed in the ideal of perfectly architecting an appli
 
 The thing is, 6 months later, I would always look back and want to revise what I'd done given what I'd learned since. This experience taught me that there was no way to code a "perfect" application as it is a moving target, and taught me to value getting things done over getting things done perfectly. As they say, don't let perfect be the enemy of good.
 
-## Front-end development seems to be easy until you start to learning. How do you face the challenge of learning new things?
+## Frontend development seems to be easy until you start to learning. How do you face the challenge of learning new things?
 
 I am a voracious reader - mostly of blogs and tutorials around technology and development. So, the first thing is, I stay informed of developments. But, especially today, where my job doesn't always involve day-to-day coding activities, I find that I need to set goals for myself when I want to learn something. For instance, I may commit to an article on a topic or to speak about a topic, but it's not necessarily something that I know deeply at the time. However, by committing to the article or session, I set myself a hard deadline to learn it. Basically, learning requires a desire, but also a commitment - and sometimes that commitment means that you create situations that force yourself to learn something.
 
@@ -46,7 +46,7 @@ I worked for a startup called Latin Trade. I was a very new developer. I'd taken
 
 ## What was the most challenging project you ever faced and why?
 
-I'd say it wasn't a "project" per se, but a need to change course, often quickly. I've done back end development, front end development, Flash to JavaScript, ColdFusion to PHP. I literally had one day, when I worked at Adobe, where I transitioned from the Flash and Flex community manager to a new role focused on JavaScript and front-end web development. It was, obviously, a major shift in directions. I had done a lot of work in JavaScript and web development in the past, but it was still dramatic to try to change course and reacquaint myself with an ecosystem that had changed a lot since I'd left.
+I'd say it wasn't a "project" per se, but a need to change course, often quickly. I've done back end development, front end development, Flash to JavaScript, ColdFusion to PHP. I literally had one day, when I worked at Adobe, where I transitioned from the Flash and Flex community manager to a new role focused on JavaScript and frontend web development. It was, obviously, a major shift in directions. I had done a lot of work in JavaScript and web development in the past, but it was still dramatic to try to change course and reacquaint myself with an ecosystem that had changed a lot since I'd left.
 
 ## Can you describe your workflow when you create HTML, CSS and JavaScript from scratch?
 

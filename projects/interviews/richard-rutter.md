@@ -9,13 +9,13 @@ title: "Richard Rutter"
 
 ## To all those don't meet you yet. How do you describe yourself?
 
-I’m a web person through and through. Day to day I help run <a href="http://clearleft.com/" target="_blank">Clearleft</a>, a digital design consultancy and studio I co-founded. Within that, I’m a user experience designer and a web typography advocate/consultant. In the early days, way before starting <a href="http://clearleft.com/" target="_blank">Clearleft</a>, I was a front-end developer and I still like to keep my hand in.
+I’m a web person through and through. Day to day I help run <a href="http://clearleft.com/" target="_blank">Clearleft</a>, a digital design consultancy and studio I co-founded. Within that, I’m a user experience designer and a web typography advocate/consultant. In the early days, way before starting <a href="http://clearleft.com/" target="_blank">Clearleft</a>, I was a frontend developer and I still like to keep my hand in.
 
 ## When you started developing, what were some common mistakes you made along the way?
 
 I started developing in late 1994. Back then there was no CSS (that did’t arrive until 1996 and it wasn’t used extensively until at least 2000), so there weren’t many mistakes to make. [Not true: code would have massively invalid, but still worked none-the-less]
 
-## Front-end seems to be easy until you start to learning. How do you face the challenge of learning new things?
+## Frontend seems to be easy until you start to learning. How do you face the challenge of learning new things?
 
 Don’t view it as a challenge - it’s a privilege. Learning new things it part of all of our jobs, and that’s a great thing. That said you have to learn to pick your battles. Don’t worry about the huge amount of stuff you’ll never know much about (we all have that problem) just pick the stuff that either piques your interest, that you think might be relevant to what you are currently working on, or that you sense will be handy in the near future. It helps if your company understands that is part of your job, and accommodates self-learners. It also helps if you’re interested enough in this stuff to do it in your spare time too - if not you might be in the wrong job!
 

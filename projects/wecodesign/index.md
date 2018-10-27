@@ -9,7 +9,7 @@ excerpt: "Lista de episodios que hemos publicado del podcast WeCodeSign Podcast"
 <h1 class="">Podcast</h1>
 </div>
 
-Lista a los episodios del Podcast del cual soy creador y Co-Host sobre front-end, diseño web y UX:
+Lista a los episodios del Podcast del cual soy creador y Co-Host sobre frontend, diseño web y UX:
 
 {% for podcast in site.data.wecodesign %}
     <article class="">

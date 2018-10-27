@@ -16,7 +16,7 @@
 
 - name: CSS Grid Layout en un proyecto Real
   description: "Vemos las qué diferencias tiene CSS Grid Layout con Flexbox, las distintas propiedades y un proyecto usando fallbacks."
-  date: "Charla: Septiembre 21, 2017 (Front-end Developers Madrid Meetup)"
+  date: "Charla: Septiembre 21, 2017 (Frontend Developers Madrid Meetup)"
   url: css-grid-en-un-proyecto-real/
   video: https://www.youtube.com/watch?v=ds2Ra3l3-OU
 

@@ -36,7 +36,7 @@ After researching what kind of questions should I make I have made a list of app
 
 - To all those don't meet you yet. How do you describe yourself?
 - When you started developing, what were some common mistakes you made along the way?
-- Front-end seems to be easy until you start to learning. How do you face the challenge of learning new things?
+- Frontend seems to be easy until you start to learning. How do you face the challenge of learning new things?
 - What would you qualify as the top few problems facing developers today?
 - How would you recommend somebody to start learning web development?
 - What are the things you would have known when you first started?

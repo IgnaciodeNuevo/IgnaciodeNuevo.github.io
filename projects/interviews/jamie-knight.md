@@ -27,7 +27,7 @@ I had been developing for the web for almost 10 years before I really took the t
 
 I think its also important to learn javascript itself and not get distracted learning a specific framework, tool, or package.
 
-## Front-end seems to be easy until you start to learning. How do you face the challenge of learning new things?
+## Frontend seems to be easy until you start to learning. How do you face the challenge of learning new things?
 
 I tend to be a slow adopter. For many of the things I am working on we need stable tool and we need to think about the future. This is both a feature and a bug.
 

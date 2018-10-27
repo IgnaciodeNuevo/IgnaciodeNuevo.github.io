@@ -15,9 +15,9 @@ I'm a mobile+web developer, trainer, author and speaker. I'm focused on bringing
 
 I don't think mistakes are something wrong. Every mistake you make, is a new thing you've learnt.
 
-## Front-end seems to be easy until you start to learning. How do you face the challenge of learning new things?
+## Frontend seems to be easy until you start to learning. How do you face the challenge of learning new things?
 
-Front-end involves several technologies that you need to learn and use at the same time. The best way to learn is to do things, that is, create a project and then you'll face every problem. If you just learn in theory, it's not going to work.
+Frontend involves several technologies that you need to learn and use at the same time. The best way to learn is to do things, that is, create a project and then you'll face every problem. If you just learn in theory, it's not going to work.
 
 ## What would you qualify as the top few problems facing developers today?
 

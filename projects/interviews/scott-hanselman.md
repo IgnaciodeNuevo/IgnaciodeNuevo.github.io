@@ -17,7 +17,7 @@ I have [three podcasts](http://www.hanselman.com/podcasts/) and a [YouTube chann
 
 Not asking questions of people who were senior than I.
 
-## Front-end seems to be easy until you start to learning. How do you face the challenge of learning new things?
+## Frontend seems to be easy until you start to learning. How do you face the challenge of learning new things?
 
 Breathe. Set aside quiet time. Read, repeat. Don't be afraid to ask questions.
 

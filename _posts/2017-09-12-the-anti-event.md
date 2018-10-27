@@ -34,7 +34,7 @@ Algo que puedo decir con total franqueza es que no hubo ningún ego rondando el 
 
 ## Vue
 
-¡Cómo no! <a href="https://vuejs.org/v2/guide/">Vue</a> es el nuevo juguete de los Front-end y no podía faltar a una charla sobre esta librería que imparieron <a href="https://twitter.com/Xaviju">Xavi</a> de <a href="http://kaleidos.net/">Kaleidos</a> y <a href="https://twitter.com/sirikon">Carlos</a> de <a href="https://www.plainconcepts.com/">PlainConcepts</a> (Bilbao).
+¡Cómo no! <a href="https://vuejs.org/v2/guide/">Vue</a> es el nuevo juguete de los Frontend y no podía faltar a una charla sobre esta librería que imparieron <a href="https://twitter.com/Xaviju">Xavi</a> de <a href="http://kaleidos.net/">Kaleidos</a> y <a href="https://twitter.com/sirikon">Carlos</a> de <a href="https://www.plainconcepts.com/">PlainConcepts</a> (Bilbao).
 
 Nos estuvieron contanto sobre las ventajas de usarlo frente a otras herramientas del mercado como Angular o React y contaban que el creador se ha decantado por las mejores partes de estos. El sistema de templating, shadow DOM, reactividad...
 

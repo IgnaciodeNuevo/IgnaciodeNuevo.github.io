@@ -1,18 +1,18 @@
 ---
 layout: post
 title: "Hello World, here I am"
-excerpt: "First clarify that this is going to be the blog of my personal trip into Front-end Develpment, where I'll be sharing my thougts on many topics related to Web Industry, CSS and Sass, architecture, front-end performance and responsive web design."
+excerpt: "First clarify that this is going to be the blog of my personal trip into Frontend Develpment, where I'll be sharing my thougts on many topics related to Web Industry, CSS and Sass, architecture, frontend performance and responsive web design."
 tags:
   - Personal
 ---
 
 Hi!
 
-First clarify that this is going to be the blog of my personal trip into Front-end Develpment, where I'll be sharing my thougts on many topics related to Web Industry, CSS and Sass, architecture, front-end performance and responsive web design.
+First clarify that this is going to be the blog of my personal trip into Frontend Develpment, where I'll be sharing my thougts on many topics related to Web Industry, CSS and Sass, architecture, frontend performance and responsive web design.
 
 So lets start.
 
-I've built this site is because I have a problem, a big one and I want to fix it. Really like is to improve my writing skills due to, I am not a native English speaker and think I don't write well enought so, this one week blog post idea might help me to step by step write better every post I'll publish. I'm really trying to do my best to improve as a Front-end and with my writing skills. Besides this another thing that could help me is to fill this blank space, where everyone seems to be scared.
+I've built this site is because I have a problem, a big one and I want to fix it. Really like is to improve my writing skills due to, I am not a native English speaker and think I don't write well enought so, this one week blog post idea might help me to step by step write better every post I'll publish. I'm really trying to do my best to improve as a Frontend and with my writing skills. Besides this another thing that could help me is to fill this blank space, where everyone seems to be scared.
 
 Build the entire site in Spanish, my mother tongue, would of course be easier; but we live as Web Developers on the Internet, where people use to write in English, where Web Documentation use to be in English to and where articles, tutorials, videos, newsletters and much more is also in English so the way to communicate with many others is to write better. (If someone wants to know anything about I've written and don't understand something say hi at {% include component-email.html %}.
 

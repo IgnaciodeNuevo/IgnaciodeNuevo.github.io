@@ -9,13 +9,13 @@ title: "Harry Roberts"
 
 ## To all those don't meet you yet. How do you describe yourself?
 
-I’m a web developer from England. My actual job title is Consultant Front-end Architect—I travel the world to help clients of all shapes and sizes write better, faster, more scalable, more maintainable CSS. I have a huge focus on performance, large-scale applications, and productivity.
+I’m a web developer from England. My actual job title is Consultant Frontend Architect—I travel the world to help clients of all shapes and sizes write better, faster, more scalable, more maintainable CSS. I have a huge focus on performance, large-scale applications, and productivity.
 
 ## When you started developing, what were some common mistakes you made along the way?
 
 Initially, things like false assumptions, designing for today rather than tomorrow, building to known or fixed constraints. This led to very inflexible and rigid code, and lots of hard work trying to make things work. Conversely, as I matured, I started to over-engineer things—making things too flexible, and wasting hours and hours designing for eventualities that may never exist. Classic premature optimisation. Nowadays I try to strike a balance between flexibility and suitability—not designing to fixed constraints, but also not designing for a million-and-one unlikely scenarios. Those scenarios should be dealt with as we encounter them.
 
-## Front-end seems to be easy until you start to learning. How do you face the challenge of learning new things?
+## Frontend seems to be easy until you start to learning. How do you face the challenge of learning new things?
 
 Learn things as and when you need them. Don’t over-face yourself trying to learn everything at once, and right at the beginning.
 

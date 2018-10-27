@@ -20,7 +20,7 @@ We also learnt what is an MVC (model–view–controller) framework:
 - _View:_ generates new output to the user based on changes in the model.
 - _Controller:_ can send commands to the model to update the model's state. It can also send commands to its associated view to change the view's presentation of the model.
 
-It went from 0 to 30, now; a week before I have the feeling that this week was the best one so far, slow but consistently growing. My strategy was to learn the small but unconnected chunks of Rails and in the last few days I put the parts together and make something. That said I'm more a visual person, thats why I like more Front-end but seems that Ruby would be good for side projects.
+It went from 0 to 30, now; a week before I have the feeling that this week was the best one so far, slow but consistently growing. My strategy was to learn the small but unconnected chunks of Rails and in the last few days I put the parts together and make something. That said I'm more a visual person, thats why I like more Frontend but seems that Ruby would be good for side projects.
 
 I still need tons of practice to be able to express what is in my mind, but felt pretty good about myself. Even with a little experience of programming, I found Ruby on Rails powerful and it blew my mind.
 
@@ -40,7 +40,7 @@ One good thing about Monday morning was that we had time to ask lot of questions
 - Path helpers & link_to
 - Lot of exercises
 
-On Tuesday at 18:30h, I went to a non Ironhack Meetup, actually a [Front-end Developers](http://www.meetup.com/Front-end-Developers-Madrid){:target="_blank"} Madrid Meetup. They've talked about [Google Analytics]({{ site.twitter }}/status/747843215663955968){:target="_blank"}, it was such a great event.
+On Tuesday at 18:30h, I went to a non Ironhack Meetup, actually a [Frontend Developers](http://www.meetup.com/Frontend-Developers-Madrid){:target="_blank"} Madrid Meetup. They've talked about [Google Analytics]({{ site.twitter }}/status/747843215663955968){:target="_blank"}, it was such a great event.
 
 #### Tuesday recap
 

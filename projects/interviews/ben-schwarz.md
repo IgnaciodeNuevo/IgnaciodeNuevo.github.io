@@ -16,7 +16,7 @@ Probably over excited about the wrong things! I’m generally really focused on 
 
 Uh, everything! But seriously — Time estimation. God, its the hardest. I’m still rubbish at at it.
 
-## Front-end seems to be easy until you start to learning. How do you face the challenge of learning new things?
+## Frontend seems to be easy until you start to learning. How do you face the challenge of learning new things?
 
 I read a tonne of articles, and spend a lot of time talking to people. Sometimes you’ve gotta build a test page and start exploring.
 

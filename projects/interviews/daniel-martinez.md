@@ -16,7 +16,7 @@ I am an UI Developer very bad at JavaScript.
 
 Not being organised
 
-## Front-end seems to be easy until you start to learning. How do you face the challenge of learning new things?
+## Frontend seems to be easy until you start to learning. How do you face the challenge of learning new things?
 
 It's not a challenge. I love to learn. And there are always things to learn.
 

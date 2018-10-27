@@ -3,14 +3,14 @@ layout: post
 title: "Ironhack journal - Week[3]"
 excerpt: "My Ironhack journal for Week[3], HTML, CSS and JavaScript with Javi Velasco"
 tags:
-  - Front-end
+  - Frontend
   - Ironhack
 published: false
 ---
 
 ### HTML & CSS
 
-We met [Javi Velasco](http://javivelasco.com/){:target="_blank"} on monday morning. He is a front-end developer living in Madrid, he is the developer of [React Toolbox](http://react-toolbox.com){:target="_blank"} an awesome Material Design Tool for React.
+We met [Javi Velasco](http://javivelasco.com/){:target="_blank"} on monday morning. He is a frontend developer living in Madrid, he is the developer of [React Toolbox](http://react-toolbox.com){:target="_blank"} an awesome Material Design Tool for React.
 
 Started learning about box-model and positioning (an easy part for me), fortunately I knew everything. After that we learnt about positioning. Fortunately knowing every topic in this morning class I have been able to help my classmates, wich usually is the oposit, I had the opportunity to help Reinier, Marcos and Satwat which made me proud. This is a really good feeling, helping others was the best thing I've done this week.
 

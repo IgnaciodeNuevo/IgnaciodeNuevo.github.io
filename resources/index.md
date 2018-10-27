@@ -8,7 +8,7 @@ excerpt: "Resouces for Web Developers."
 <h1 class="">Resources for Web Developers</h1>
 </div>
 
-List of resources to learn Front-end Web Design & Development curated by me, that I enjoyed reading, watching, listening to or using.
+List of resources to learn Frontend Web Design & Development curated by me, that I enjoyed reading, watching, listening to or using.
 
 TL; DR
 

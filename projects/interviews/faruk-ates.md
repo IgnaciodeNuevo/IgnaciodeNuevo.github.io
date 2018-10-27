@@ -13,11 +13,11 @@ I’m a product designer and developer, the original creator of the [Modernizr](
 
 ## When you started developing, what were some common mistakes you made along the way?
 
-Well, I started doing basic front-end development while primarily doing back-end programming (PHP, SQL) creating Content Management Systems for clients. One “mistake”, in a sense, was letting the back-end dictate more of the front-end’s architecture than we should have. We didn’t yet rely on using JavaScript to enhance the user experience with, partly because it wasn’t common yet, and partly because we were still thinking too much in a server-to-client model.
+Well, I started doing basic frontend development while primarily doing back-end programming (PHP, SQL) creating Content Management Systems for clients. One “mistake”, in a sense, was letting the back-end dictate more of the frontend’s architecture than we should have. We didn’t yet rely on using JavaScript to enhance the user experience with, partly because it wasn’t common yet, and partly because we were still thinking too much in a server-to-client model.
 
-## Front-end seems to be easy until you start to learning. How do you face the challenge of learning new things?
+## Frontend seems to be easy until you start to learning. How do you face the challenge of learning new things?
 
-It really varies. When starting a new project, I’ll spend a lot more time doing research into new things—frameworks, techniques, best practices—in order to make an as-informed-as-possible decision on how to tackle the project. Other times, I try not to worry too much about the myriad new developments in the front-end world. It’s an endless task, so I try to focus just on the big changes that bubble up through Twitter and blogs.
+It really varies. When starting a new project, I’ll spend a lot more time doing research into new things—frameworks, techniques, best practices—in order to make an as-informed-as-possible decision on how to tackle the project. Other times, I try not to worry too much about the myriad new developments in the frontend world. It’s an endless task, so I try to focus just on the big changes that bubble up through Twitter and blogs.
 
 ## What would you qualify as the top few problems facing developers today?
 
@@ -47,11 +47,11 @@ I started on my 18th birthday as a web development consultant out of an agency. 
 
 ## What was the most challenging project you ever faced and why?
 
-Rewriting the entire set of front-end HTML for the Apple Online Store by myself. It was my first project after I joined Apple, and they were transitioning away from a table-based design and towards a modern, semantic front-end styled with CSS. It was incredibly daunting, but also super exciting and fun. I tested it all out in over 40 different browsers and versions at the time.
+Rewriting the entire set of frontend HTML for the Apple Online Store by myself. It was my first project after I joined Apple, and they were transitioning away from a table-based design and towards a modern, semantic frontend styled with CSS. It was incredibly daunting, but also super exciting and fun. I tested it all out in over 40 different browsers and versions at the time.
 
 ## Can you describe your workflow when you create HTML, CSS and JavaScript from scratch?
 
-Nowadays I do more design work than front-end, so when I do write HTML, CSS and (rarely) JavaScript I generally do so in [Codepen.io](http://codepen.io/) as a prototype or illustration of some interactions, like responsive reflows.
+Nowadays I do more design work than frontend, so when I do write HTML, CSS and (rarely) JavaScript I generally do so in [Codepen.io](http://codepen.io/) as a prototype or illustration of some interactions, like responsive reflows.
 
 ## What excites you most these days?
 

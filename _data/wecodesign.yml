@@ -119,7 +119,7 @@
   web: http://wecodesignpodcast.com/2017/05/02/mini-3/
 
 - name: "Episodio 26 - Design Systems"
-  description: "Naiara Abaroa, Front-end Designer y apasionada por el CSS, nos ayudará a entender los Design Systems."
+  description: "Naiara Abaroa, Frontend Designer y apasionada por el CSS, nos ayudará a entender los Design Systems."
   date: "Abril 25, 2017"
   web: http://wecodesignpodcast.com/2017/04/25/design-systems/
 
@@ -129,7 +129,7 @@
   web: http://wecodesignpodcast.com/2017/04/18/mini-2/
 
 - name: "Episodio 25 - PostCSS"
-  description: "Joan León Front-end y UI Developer y responsable de formación en su empresa nos hablará sobre PostCSS."
+  description: "Joan León Frontend y UI Developer y responsable de formación en su empresa nos hablará sobre PostCSS."
   date: "Abril 11, 2017"
   web: http://wecodesignpodcast.com/2017/04/11/postcss/
 
@@ -143,7 +143,7 @@
   date: "Marzo 28, 2017"
   web: http://wecodesignpodcast.com/2017/03/28/css-grid-layout/
 
-- name: "Episodio 23 - De educadora a Front-end"
+- name: "Episodio 23 - De educadora a Frontend"
   description: "Laetitia Carquet, aprendiz insaciable y colaboradora de proyectos como Semillasocial nos contará su experiencia."
   date: "Marzo 14, 2017"
   web: http://wecodesignpodcast.com/2017/03/14/de-educadora-a-frontend/
@@ -174,7 +174,7 @@
   web: http://wecodesignpodcast.com/2017/01/03/metodologias-de-trabajo/
 
 - name: "Episodio 17 - SVG"
-  description: "Hoy hablamos con Jorge Aznar, front-end designer y autor de Scalable un libro sobre SVG y nos contará trucos y consejos para usar SVG."
+  description: "Hoy hablamos con Jorge Aznar, frontend designer y autor de Scalable un libro sobre SVG y nos contará trucos y consejos para usar SVG."
   date: "Diciembre 20, 2016"
   web: http://wecodesignpodcast.com/2016/12/20/SVG/
 
@@ -199,7 +199,7 @@
   web: http://wecodesignpodcast.com/2016/11/08/accesibilidad-en-la-web/
 
 - name: "Episodio 13 - El ecosistema frontend"
-  description: "Miguel Martín, CTO de Redradix nos cuenta como ve la situación actual del front-end, que herramientas utiliza y cuales no."
+  description: "Miguel Martín, CTO de Redradix nos cuenta como ve la situación actual del frontend, que herramientas utiliza y cuales no."
   date: "Octubre 25, 2016"
   web: http://wecodesignpodcast.com/2016/10/25/el-ecosistema-frontend/
 
@@ -233,8 +233,8 @@
   date: "Agosto 2, 2016"
   web: http://wecodesignpodcast.com/2016/08/02/episodio-7/
 
-- name: "Episodio 6 - Primeros pasos como Front-end Designer"
-  description: "La diseñadora y desarrolladora Front-end Lidia Pescuezo nos explica cómo fue su paso desde Bellas Artes a una Agencia Digital."
+- name: "Episodio 6 - Primeros pasos como Frontend Designer"
+  description: "La diseñadora y desarrolladora Frontend Lidia Pescuezo nos explica cómo fue su paso desde Bellas Artes a una Agencia Digital."
   date: "Julio 19, 2016"
   web: http://wecodesignpodcast.com/2016/07/19/episodio-6/
 

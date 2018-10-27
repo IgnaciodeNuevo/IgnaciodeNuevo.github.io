@@ -16,7 +16,7 @@
 - name: Front End Resources
   url: http://enboard.co/frontend
 
-- name: Front-end Dev Bookmarks
+- name: Frontend Dev Bookmarks
   url: https://github.com/dypsilon/frontend-dev-bookmarks
 
 - name: 'MarkApp: Building apps with HTML'
@@ -104,7 +104,7 @@
   url: https://rachelandrew.co.uk/archives/2016/11/26/should-i-try-to-use-the-ie-implementation-of-css-grid-layout/
 
 - name: Front-End Developer Handbook 2018
-  url: https://frontendmasters.com/books/front-end-handbook/2018/
+  url: https://frontendmasters.com/books/frontend-handbook/2018/
 
 - name: The Front-End Design Checklist
   url: https://frontenddesignchecklist.io/

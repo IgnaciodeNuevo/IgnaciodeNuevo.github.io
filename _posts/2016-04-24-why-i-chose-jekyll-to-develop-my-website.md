@@ -3,7 +3,7 @@ layout: post
 title: "Why I chose Jekyll to develop my website"
 excerpt: "Today I'll be sharing why I chose Jekyll to develop my website and it was not trivial for me."
 tags:
-  - Front-end
+  - Frontend
   - Personal
 ---
 
@@ -11,9 +11,9 @@ tags:
 
 Today I'll be sharing why I chose Jekyll to develop my website and why it wasn't trivial for me.
 
-I had problems, the biggest one was I want to [write more](/2015/11/25/hello-world) in English so I had the idea to start a development blog, where people could find me, read about my [projects](/projects) and my [learning](/blog) on front-end.
+I had problems, the biggest one was I want to [write more](/2015/11/25/hello-world) in English so I had the idea to start a development blog, where people could find me, read about my [projects](/projects) and my [learning](/blog) on frontend.
 
-First I thougt to start blogging in WordPress, but after using it for some projects I felt like my idea of front-end and web development is to make things from scratch when possible.
+First I thougt to start blogging in WordPress, but after using it for some projects I felt like my idea of frontend and web development is to make things from scratch when possible.
 
 I like making things, not using <a href="http://getbootstrap.com/" target="_blank">Boostrap</a> or other frameworks which are good tools for some people or to solve some problems but not for this one. I made a list of things I would like to have after dismissing few ideas:
 

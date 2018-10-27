@@ -15,7 +15,7 @@ I run a distributed agency called [Seven Heads Design](http://www.sevenheadsdesi
 
 Assuming that something was simple when I could conceptualize it before I built it, and as a result underestimating the time it takes to do something well. Relying too heavily on prefabricated frameworks that made things I (we) built too heavy and cumbersome to load.
 
-## Front-end seems to be easy until you start to learning. How do you face the challenge of learning new things?
+## Frontend seems to be easy until you start to learning. How do you face the challenge of learning new things?
 
 Surround myself with really smart, energized people!
 
