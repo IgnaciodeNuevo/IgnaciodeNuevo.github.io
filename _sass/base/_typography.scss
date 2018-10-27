@@ -3,22 +3,6 @@
 //
 @import '../abstracts/variables.scss';
 
-//
-// #Body-Text
-//
-html {
-    color: $color-base;
-    font-size: 100%; // 16px
-
-    @media (min-width: $mq-s) {
-        font-size: 120%;
-    }
-
-    @media (min-width: $mq-l) {
-        font-size: 140%;
-    }
-}
-
 // Body text loaded font-family
 html.fonts-loaded {
     font-family: $font-family-body;

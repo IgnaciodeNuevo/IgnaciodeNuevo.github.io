@@ -7,7 +7,9 @@
 //
 
 // #Base-Color
-$color-base: #0c0c0c;
+// #Absolute-colors to avoid linting alerts on hardcoded values
+$color-white: #ffffff;
+$color-base: #000000;
 $color-base-darker: lighten($color-base, 20);
 $color-base-dark: lighten($color-base, 40);
 $color-base-light: lighten($color-base, 60);
@@ -16,45 +18,26 @@ $color-base-lighter: lighten($color-base, 80);
 // #Primary-Color
 $color-primary: #0047bb;
 
-// #State-Palette
-$state-ok:      #008022;
-$state-warning: #ffac00;
-$state-error:   #ff1e1e;
-
-// #Absolute-colors to avoid linting alerts on hardcoded values
-$color-white: #ffffff;
-
 // #Text-Colors
-$text-color-dark: $color-base;
+$text-color-base: $color-base-dark;
 $text-color-light: $color-white;
 $text-color-link: $color-primary;
-
-
-
 
 //
 // #Box-Shadow
 //
-$box-shaodw-1: 0 1px 2px rgba($color-base-darker, 0.5);
-$box-shaodw-2: 0 1px 2px rgba($color-base-dark, 0.5);
-$box-shaodw-3: 0 1px 2px rgba($color-base-light, 0.5);
-$box-shaodw-4: 0 1px 2px rgba($color-base-lighter, 0.5);
-
-
+$box-shaodw-1: 0 1px 2px rgba($color-base-darker, .5);
+$box-shaodw-2: 0 1px 2px rgba($color-base-dark, .5);
+$box-shaodw-3: 0 1px 2px rgba($color-base-light, .5);
+$box-shaodw-4: 0 1px 2px rgba($color-base-lighter, .5);
 
 //
 // #Animations
 //
-$animation-speed-slow:    0.35s;
-$animation-speed-regular: 0.25s;
-$animation-speed-fast:    0.15s;
-$animation-type:          easy-in;
-
-
-
-//
-// #Fonts
-//
+$animation-speed-slow: .35s;
+$animation-speed-regular: .25s;
+$animation-speed-fast: .15s;
+$animation-type: easy-in;
 
 //
 // #Font-Body
@@ -64,20 +47,20 @@ $font-family-body-fallback:
     sans-serif;
 
 $font-family-body-subset:
-    "Brando Regular Sans Subset",
+    'Brando Regular Sans Subset',
     -apple-system,
     BlinkMacSystemFont,
-    "Segoe UI",
+    'Segoe UI',
     Roboto,
     Helvetica,
     Arial,
     sans-serif;
 
 $font-family-body:
-    "Brando Regular Sans",
+    'Brando Regular Sans',
     -apple-system,
     BlinkMacSystemFont,
-    "Segoe UI",
+    'Segoe UI',
     Roboto,
     Helvetica,
     Arial,
@@ -91,20 +74,20 @@ $font-family-title-fallback:
     sans-serif;
 
 $font-family-title-subset:
-    "Guardian Bold Egyptian Subset",
+    'Guardian Bold Egyptian Subset',
     -apple-system,
     BlinkMacSystemFont,
-    "Segoe UI",
+    'Segoe UI',
     Roboto,
     Helvetica,
     Arial,
     serif;
 
 $font-family-title:
-    "Guardian Bold Egyptian",
+    'Guardian Bold Egyptian',
     -apple-system,
     BlinkMacSystemFont,
-    "Segoe UI",
+    'Segoe UI',
     Roboto,
     Helvetica,
     Arial,
@@ -114,36 +97,26 @@ $font-family-title:
 // #Font-Code
 //
 $font-family-code:
-    "Input",
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    Helvetica,
-    Arial,
+    'Input',
     monospace;
 
 //
 // #Font-Weight
 //
-$font-weight-thin:       100;
+$font-weight-thin: 100;
 $font-weight-extralight: 200;
-$font-weight-light:      300;
-$font-weight-normal:     400;
-$font-weight-medium:     500;
-$font-weight-semibold:   600;
-$font-weight-bold:       700;
-$font-weight-extrabold:  800;
-$font-weight-black:      900;
-
-
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-weight-extrabold: 800;
+$font-weight-black: 900;
 
 //
 // #Font-Size
 //
 $font-base: 1em; // 16px
-
-
 
 //
 // #Sizing
@@ -188,14 +161,10 @@ $icon-m: $space-m; // 16px
 $icon-l: $space-l; // 32px
 $icon-xl: $space-xl; // 64px
 
-
-
 //
 // #Scale
 //
 $scale: 1.25;
-
-
 
 //
 // #Media-Queries
@@ -207,7 +176,6 @@ $mq-m: 61.25em; // 980px
 $mq-l: 80em; // 1280px
 $mq-xl: 90em; // 1440px
 
-
 //
 // $Z-Index
 //
@@ -215,3 +183,22 @@ $z-index-s: 1;
 $z-index-m: 2;
 $z-index-l: 3;
 $z-index-xl: 4;
+
+//
+// #Variables map
+//
+$VariablesMap: (
+    color-base-darker: $color-base-darker,
+    color-base-dark: $color-base-dark,
+    color-base-light: $color-base-light,
+    color-base-lighter: $color-base-lighter,
+);
+
+//
+// #Root Variables
+//
+:root {
+    @each $prop, $val in $VariablesMap {
+        --#{$prop}: #{$val};
+    }
+}

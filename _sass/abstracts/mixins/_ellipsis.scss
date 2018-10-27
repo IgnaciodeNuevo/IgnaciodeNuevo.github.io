@@ -1,6 +1,7 @@
 // Add ellipsis at the end of a line to avoid text overflow
 // @author Ignacio Villanueva
-// @param {String} $width
+// @param {String}: $width
+// Source: https://gist.github.com/IgnaciodeNuevo/d3886497893131f5a244db5aeb58cbb5
 
 @mixin ellipsis($width: 100%) {
   max-width: $width;

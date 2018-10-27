@@ -4,9 +4,22 @@
 
 //
 // Set up a decent box model on the root element
+// 1. Prevent adjustments of font size after orientation changes in iOS.
 //
+
 html {
     box-sizing: border-box;
+    color: $color-base;
+    font-size: 100%; // 16px
+    -webkit-text-size-adjust: 100%; // 1
+
+    @media (min-width: $mq-s) {
+        font-size: 120%;
+    }
+
+    @media (min-width: $mq-l) {
+        font-size: 140%;
+    }
 }
 
 //
