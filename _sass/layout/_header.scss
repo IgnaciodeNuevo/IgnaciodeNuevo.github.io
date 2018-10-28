@@ -5,7 +5,6 @@
     background-color: $background-color-darkest;
     color: $text-color-light;
     overflow: hidden;
-    padding-bottom: $space-m;
     position: relative;
 }
 
@@ -70,6 +69,35 @@
     }
 }
 
+.disclaimer {
+    display: none;
+
+    @media (min-width: $mq-nav-s) {
+        @include small();
+        bottom: $space-m;
+        display: block;
+        margin: 0;
+        right: $space-m;
+        position: absolute;
+        writing-mode: vertical-lr;
+
+        a {
+            color: $text-color-accent;
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: 0.15rem;
+            transition-duration: $animation-speed;
+            transition-property: background-color, color;
+            transition-timing-function: $animation-type;
+
+            &:hover {
+                background-color: $text-color-accent;
+                color: $text-color-darkest;
+            }
+        }
+    }
+}
+
 .nav {
     align-items: center;
     background-color: inherit;
@@ -79,6 +107,7 @@
     justify-content: space-between;
     position: fixed;
     width: 100%;
+    z-index: 1;
 
     @media (min-width: $mq-nav-s) {
         padding-right: $container-space;
@@ -100,7 +129,7 @@
 
             .link:last-child {
                 background-color: $color-accent;
-                color: black;
+                color: $text-color-darkest;
                 padding-left: $space-m;
                 padding-right: $space-m;
                 transition-duration: $animation-speed;
@@ -117,13 +146,13 @@
             }
         }
     }
+    @include small();
 
     &-item {
         list-style-type: none;
     }
 
     .link {
-        @include small();
         color: inherit;
         cursor: pointer;
         display: block;
@@ -173,13 +202,13 @@
     }
 
     .menu {
+        @include small();
         align-items: center;
         background-color: transparent;
         border-radius: $border-radius-xxs;
         border: 2px solid currentColor;
         color: inherit;
         display: flex;
-        font-size: 12px;
         font-weight: $fake-bold;
         justify-content: space-between;
         margin-right: $container-space;
@@ -247,7 +276,6 @@
             //         border-bottom-color: transparent;
             //     }
             // }
-
         }
 
         .menu {
