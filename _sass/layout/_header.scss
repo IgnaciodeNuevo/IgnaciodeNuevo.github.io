@@ -73,12 +73,13 @@
     display: none;
 
     @media (min-width: $mq-nav-s) {
-        @include small();
         bottom: $space-m;
         display: block;
-        margin: 0;
-        right: $space-m;
+        font-size: 12px;
+        margin-left: 0;
+        margin-right: 0;
         position: absolute;
+        right: $space-m;
         writing-mode: vertical-lr;
 
         a {
