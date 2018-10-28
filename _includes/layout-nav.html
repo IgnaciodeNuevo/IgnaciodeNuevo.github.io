@@ -1,15 +1,20 @@
 <div class="logo-wrapper">
     <a href="/">{% include icons/logo-horizontal.html %}</a>
 </div>
+
+
 <button id="js-menu" class="menu">
     {% include icons/hamburguer.html %}
-    <span class="menu-text">Open Menu</span>
+    <span class="menu-text">Menu</span>
 </button>
+
+
 <div id="js-offcanvas" class="offcanvas">
     <button id="js-close" class="menu">
         {% include icons/close.html %}
-        <span class="menu-text">Close Menu</span>
     </button>
+
+
     <div class="nav-items">
         {% for item in site.data.nav %}
         <a class="link" {% if page.url==item.url %}class="is-active" {% endif %} href="{{ item.url }}">
@@ -18,7 +23,8 @@
         {% endfor %}
     </div>
 
-    <div class="offcanvas-rss">
+
+    <div class="nav-rss">
         <a class="link" href="{{ site.github }}" target="_blank" rel="noopener">
             <span class="link-label">Github</span>
         </a>
@@ -30,7 +36,8 @@
         </a>
     </div>
 
-    <div class="offcanvas-contact">
+
+    <div class="nav-contact">
         <a class="link" href="{{ site.rss }}">
             <span class="link-label">RSS Feed</span>
         </a>
