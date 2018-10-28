@@ -85,7 +85,8 @@
             color: $text-color-accent;
             text-decoration: none;
             text-transform: uppercase;
-            padding: 0.15rem;
+            padding-left: 0.15rem;
+            padding-right: 0.15rem;
             transition-duration: $animation-speed;
             transition-property: background-color, color;
             transition-timing-function: $animation-type;
