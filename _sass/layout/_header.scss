@@ -50,7 +50,7 @@
         @supports (grid-auto-columns: 3fr) {
             .title {
                 margin-left: 0;
-                margin-bottom: 0;
+                margin-bottom: 1rem;
 
                 &::after {
                     content: '';
@@ -64,7 +64,7 @@
             }
 
             .subtitle {
-                margin-top: 2rem;
+                margin-bottom: 0;
             }
         }
     }

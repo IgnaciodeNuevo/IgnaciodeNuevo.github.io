@@ -44,7 +44,7 @@ layout: default
             <img class="" src="{{ podcast.image_url }}" alt="{{ podcast.name }} Image" />
         </a>
         <p class="">
-            <a href="{{ podcast.podcast_web }}" target="_blank">Accede al post del episodio</a>
+            <a href="{{ podcast.podcast_web }}" target="_blank" rel="noopener">Accede al post del episodio</a>
         </p>
     </section>
     {% endfor %}
@@ -81,8 +81,8 @@ layout: default
             <img class="" src="{{ interview.image_url }}" alt="{{ interview.interview }} Photography" />
             <p class="">{{ interview.interview_number }}</p>
         </a>
-        <p class=""><a href="{{ interview.interview_web }}" target="_blank">{{ interview.name }}'s Web</a></p>
-        <p class=""><a href="{{ interview.interview_twitter }}" target="_blank">{{ interview.name }}'s Twitter</a></p>
+        <p class=""><a href="{{ interview.interview_web }}" target="_blank" rel="noopener">{{ interview.name }}'s Web</a></p>
+        <p class=""><a href="{{ interview.interview_twitter }}" target="_blank" rel="noopener">{{ interview.name }}'s Twitter</a></p>
     </section>
     {% endfor %}
 </main>
