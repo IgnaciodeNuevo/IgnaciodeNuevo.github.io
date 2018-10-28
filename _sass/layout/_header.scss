@@ -176,7 +176,7 @@
         align-items: center;
         background-color: transparent;
         border-radius: $border-radius-xxs;
-        border: 1px solid currentColor;
+        border: 2px solid currentColor;
         color: inherit;
         display: flex;
         font-size: 12px;
@@ -231,7 +231,23 @@
         }
 
         &.is-opened {
+            // align-items: center;
+            // color: $text-color-darkest;
+            // display: flex;
+            // flex-direction: column;
+            // justify-content: space-evenly;
+            // text-align: center;
             right: 0;
+
+            // .link {
+            //     @include heading-h6();
+            //     font-family: $font-family-title;
+
+            //     &:hover {
+            //         border-bottom-color: transparent;
+            //     }
+            // }
+
         }
 
         .menu {
