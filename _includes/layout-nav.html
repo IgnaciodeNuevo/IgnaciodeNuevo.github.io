@@ -1,13 +1,20 @@
 <div class="logo-wrapper">
     <a href="/">{% include icons/logo-horizontal.html %}</a>
 </div>
-<div class="offcanvas">
+<button id="js-menu" class="menu">
+    {% include icons/hamburguer.html %}
+    <span class="menu-text">Open Menu</span>
+</button>
+<div id="js-offcanvas" class="offcanvas">
+    <button id="js-close" class="menu">
+        {% include icons/close.html %}
+        <span class="menu-text">Close Menu</span>
+    </button>
     <div class="nav-items">
-        {% include icons/hamburguer.html %}
         {% for item in site.data.nav %}
-            <a class="link" {% if page.url==item.url %}class="is-active" {% endif %} href="{{ item.url }}">
-                <span class="link-label">{{ item.label }}</span>
-            </a>
+        <a class="link" {% if page.url==item.url %}class="is-active" {% endif %} href="{{ item.url }}">
+            <span class="link-label">{{ item.label }}</span>
+        </a>
         {% endfor %}
     </div>
 
@@ -32,3 +39,16 @@
         </a> / {% include component-email.html %}
     </div>
 </div>
+
+<script>
+    const menu = document.querySelector('#js-menu');
+    const close = document.querySelector('#js-close');
+    const offcanvas = document.querySelector('#js-offcanvas');
+    menu.addEventListener('click', function () {
+        offcanvas.classList.toggle('is-opened');
+    }, false);
+
+    close.addEventListener('click', function () {
+        offcanvas.classList.toggle('is-opened');
+    }, false);
+</script>

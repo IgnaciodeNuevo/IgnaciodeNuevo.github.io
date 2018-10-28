@@ -45,3 +45,13 @@ $modularscale: (
    font-size: ms(0);
    margin-top: 0;
 }
+
+@mixin body-small() {
+    font-size: ms(-1);
+    margin-top: 0;
+}
+
+@mixin small() {
+    font-size: 12px;
+    margin-top: 0;
+}

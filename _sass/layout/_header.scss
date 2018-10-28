@@ -6,6 +6,7 @@
     color: $text-color-light;
     padding-bottom: $space-m;
     position: relative;
+    overflow: hidden;
 
     &-content {
         background-position: center 0;
@@ -23,18 +24,23 @@
 }
 
 .nav {
+    align-items: center;
     border-bottom: 1px solid $line-color;
     color: inherit;
     display: flex;
     justify-content: space-between;
-    padding-left: $container-padding;
-    padding-right: $container-padding;
+    position: relative;
+
+    @media (min-width: $mq-nav-s) {
+        padding-right: $container-space;
+        padding-left: $container-space;
+    }
 
     .link {
+        @include small();
         color: inherit;
         cursor: pointer;
         display: block;
-        font-size: 12px;
         text-decoration: none;
         text-transform: uppercase;
 
@@ -56,32 +62,34 @@
     }
 
     &-items {
-        display: flex;
-        height: $nav-height;
-        line-height: $nav-height;
-        padding-left: 0;
+        @media (min-width: $mq-nav-s) {
+            display: flex;
+            height: $nav-height;
+            line-height: $nav-height;
+            padding-left: 0;
 
-        .link:not(:last-child)::after {
-            content: '/';
-            padding-left: $space-m;
-            padding-right: $space-m;
-        }
-
-        .link:last-child {
-            background-color: $color-accent;
-            color: black;
-            padding-left: $space-m;
-            padding-right: $space-m;
-            transition-duration: $animation-speed;
-            transition-property: background-color;
-            transition-timing-function: $animation-type;
-
-            &:hover {
-                background-color: $background-color-light;
+            .link:not(:last-child)::after {
+                content: '/';
+                padding-left: $space-m;
+                padding-right: $space-m;
             }
 
-            .link-label:hover {
-                border-bottom-color: transparent;
+            .link:last-child {
+                background-color: $color-accent;
+                color: black;
+                padding-left: $space-m;
+                padding-right: $space-m;
+                transition-duration: $animation-speed;
+                transition-property: background-color;
+                transition-timing-function: $animation-type;
+
+                &:hover {
+                    background-color: $background-color-light;
+                }
+
+                .link-label:hover {
+                    border-bottom-color: transparent;
+                }
             }
         }
     }
@@ -91,30 +99,90 @@
     }
 }
 
-.logo-wrapper{
-    align-items: center;
-    color: inherit;
-    display: flex;
-    height: $nav-height;
-
-    a {
-        color: inherit;
-    }
-}
-
 .logo {
+    &-wrapper {
+        align-items: center;
+        color: inherit;
+        display: flex;
+        height: $nav-height;
+        padding-left: $container-space;
+
+        a {
+            color: inherit;
+        }
+    }
+
     fill: currentColor;
     height: 28.23333px; // Fixed height
     width: 144px; // Fixed width
 }
 
-.offcanvas {
-    &-rss,
-    &-contact {
+.menu {
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid currentColor;
+    border-radius: $border-radius-xxs;
+    color: inherit;
+    display: flex;
+    justify-content: space-between;
+    max-height: 2.75rem; // 44px
+    margin-right: $container-space;
+    opacity: .5;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    @media (min-width: $mq-nav-s) {
         display: none;
+    }
+
+    &-text {
+        padding-right: $space-s;
+    }
+}
+
+.offcanvas {
+    background-color: $background-color-accent;
+    height: 100vh;
+    overflow: hidden;
+    padding-left: $container-space;
+    padding-right: $container-space;
+    position: absolute;
+    right: -100vw;
+    transition-duration: $animation-speed;
+    transition-property: right;
+    transition-timing-function: $animation-type;
+    top: 0;
+    width: 100vw;
+
+    @media (min-width: $mq-nav-s) {
+        background-color: transparent;
+        height: auto;
+        padding-right: 0;
+        padding-left: 0;
+        position: static;
+        width: auto;
+
+        &-rss,
+        &-contact {
+            display: none;
+        }
+    }
+
+    &.is-opened {
+        right: 0;
+    }
+
+    .menu {
+        position: absolute;
+        margin-right: 0;
+        right: $container-space;
+        top: 20px; // Fixed position:
+        color: black;
     }
 }
 
 .icon-menu {
-    display: none;
+    padding: $space-s;
 }

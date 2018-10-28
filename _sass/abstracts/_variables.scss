@@ -24,6 +24,7 @@ $color-accent: #ffd300;
 $background-color-darkest: $color-base-darkest;
 $background-color-light: $color-white;
 $background-color-primary: $color-primary;
+$background-color-accent: $color-accent;
 $line-color: #262626;
 $text-color-darkest: $color-base-darkest;
 $text-color-light: $color-white;
@@ -133,7 +134,7 @@ $font-base: 1rem; // 16px
 // #Spacing
 //
 $container-width: 50em; // 800px
-$container-padding: 1.25em; // 20px
+$container-space: 1.25em; // 20px
 $nav-height: 80px; // Fixed height, do not use REM
 $space-default: $font-base; // Dependant on $font-base, do not change
 
@@ -145,6 +146,17 @@ $space-m: $space-default; // 16px
 $space-l: $space-default * 2; // 32px
 $space-xl: $space-default * 4; // 64px
 $space-xxl: $space-default * 8; // 128px
+
+//
+// #Border-Radius
+//
+$border-radius-xxs: $space-xxs; // 2px
+$border-radius-xs: $space-xs; // 4px
+$border-radius-s: $space-s; // 8px
+$border-radius-m: $space-m; // 16px
+$border-radius-l: $space-l; // 32px
+$border-radius-xl: $space-xl; // 64px
+$border-radius-xxl: $space-xxl; // 128px
 
 // #Icon
 $icon-xxs: $space-xxs; // 2px
@@ -165,6 +177,8 @@ $mq-m: 61.25em; // 980px
 $mq-l: 80em; // 1280px
 $mq-xl: 90em; // 1440px
 $mq-xxl: 160em; // 2650px
+
+$mq-nav-s: 43.75em;
 
 //
 // $Z-Index
