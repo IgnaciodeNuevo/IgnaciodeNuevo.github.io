@@ -2,19 +2,119 @@
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
 .header {
-    height: auto;
-    padding-left: $padding-m;
-    padding-right: $padding-m;;
+    background-color: $background-color-darkest;
+    color: $text-color-light;
+    padding-bottom: $space-m;
+    position: relative;
+
+    &-content {
+        background-position: center 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('/assets/images/ignacio-home.jpg');
+        display: flex;
+        align-items: flex-end;
+        height: calc(100vh - #{$nav-height});
+    }
+
+    .title {
+        margin-left: 0.67em; // 57.25px
+    }
 }
 
-.main-section {
-    background-color: $color-base;
-    background-image: url('/assets/images/ignacio-home.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    color: $text-color-light;
-    position: relative;
-    height: 100vh;
-    padding: $padding-m;
+.nav {
+    border-bottom: 1px solid $line-color;
+    color: inherit;
+    display: flex;
+    justify-content: space-between;
+    padding-left: $container-padding;
+    padding-right: $container-padding;
+
+    .link {
+        color: inherit;
+        cursor: pointer;
+        display: block;
+        font-size: 12px;
+        text-decoration: none;
+        text-transform: uppercase;
+
+        &-label {
+            border-bottom-color: transparent;
+            border-bottom-style: solid;
+            border-bottom-width: 3px;
+            font-weight: $fake-bold;
+            letter-spacing: 0.14rem;
+            padding-bottom: 1.4rem; // 22.4px
+            transition-duration: $animation-speed;
+            transition-property: border-bottom-color;
+            transition-timing-function: $animation-type;
+
+            &:hover {
+                border-bottom-color: currentColor;
+            }
+        }
+    }
+
+    &-items {
+        display: flex;
+        height: $nav-height;
+        line-height: $nav-height;
+        padding-left: 0;
+
+        .link:not(:last-child)::after {
+            content: '/';
+            padding-left: $space-m;
+            padding-right: $space-m;
+        }
+
+        .link:last-child {
+            background-color: $color-accent;
+            color: black;
+            padding-left: $space-m;
+            padding-right: $space-m;
+            transition-duration: $animation-speed;
+            transition-property: background-color;
+            transition-timing-function: $animation-type;
+
+            &:hover {
+                background-color: $background-color-light;
+            }
+
+            .link-label:hover {
+                border-bottom-color: transparent;
+            }
+        }
+    }
+
+    &-item {
+        list-style-type: none;
+    }
+}
+
+.logo-wrapper{
+    align-items: center;
+    color: inherit;
+    display: flex;
+    height: $nav-height;
+
+    a {
+        color: inherit;
+    }
+}
+
+.logo {
+    fill: currentColor;
+    height: 28.23333px; // Fixed height
+    width: 144px; // Fixed width
+}
+
+.offcanvas {
+    &-rss,
+    &-contact {
+        display: none;
+    }
+}
+
+.icon-menu {
+    display: none;
 }

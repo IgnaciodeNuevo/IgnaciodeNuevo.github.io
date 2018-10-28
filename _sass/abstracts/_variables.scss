@@ -10,6 +10,7 @@
 // #Absolute-colors to avoid linting alerts on hardcoded values
 $color-white: #ffffff;
 $color-base: #000000;
+$color-base-darkest: #0b0b0b;
 $color-base-darker: lighten($color-base, 20);
 $color-base-dark: lighten($color-base, 40);
 $color-base-light: lighten($color-base, 60);
@@ -17,11 +18,16 @@ $color-base-lighter: lighten($color-base, 80);
 
 // #Primary-Color
 $color-primary: #0047bb;
+$color-accent: #ffd300;
 
-// #Text-Colors
-$text-color-base: $color-base-dark;
+// #Other-Colors
+$background-color-darkest: $color-base-darkest;
+$background-color-light: $color-white;
+$background-color-primary: $color-primary;
+$line-color: #262626;
+$text-color-darkest: $color-base-darkest;
 $text-color-light: $color-white;
-$text-color-link: $color-primary;
+$text-color-primary: $color-primary;
 
 //
 // #Box-Shadow
@@ -34,10 +40,8 @@ $box-shaodw-4: 0 1px 2px rgba($color-base-lighter, .5);
 //
 // #Animations
 //
-$animation-speed-slow: .35s;
-$animation-speed-regular: .25s;
-$animation-speed-fast: .15s;
-$animation-type: easy-in;
+$animation-speed: 0.25s;
+$animation-type: ease-in;
 
 //
 // #Font-Body
@@ -104,6 +108,7 @@ $font-family-code:
 //
 // $Font-Weight
 //
+$fake-bold: bold;
 $font-weight-thin: 100;
 $font-weight-extralight: 200;
 $font-weight-light: 300;
@@ -122,14 +127,15 @@ $scale: 1.25;
 //
 // #Font-Size
 //
-$font-base: 1em; // 16px
+$font-base: 1rem; // 16px
 
 //
 // #Spacing
 //
 $container-width: 50em; // 800px
 $container-padding: 1.25em; // 20px
-$space-default: $font-base; // Is dependant on $font-base and should be 1em;
+$nav-height: 80px; // Fixed height, do not use REM
+$space-default: $font-base; // Dependant on $font-base, do not change
 
 
 $space-xxs: $space-default / 8; // 2px
@@ -139,24 +145,6 @@ $space-m: $space-default; // 16px
 $space-l: $space-default * 2; // 32px
 $space-xl: $space-default * 4; // 64px
 $space-xxl: $space-default * 8; // 128px
-
-// #Padding
-$padding-xxs: $space-xxs; // 2px
-$padding-xs: $space-xs; // 4px
-$padding-s: $space-s; // 8px
-$padding-m: $space-m; // 16px
-$padding-l: $space-l; // 32px
-$padding-xl: $space-xl; // 64px
-$padding-xxl: $space-xxl; // 128px
-
-// #Margin
-$margin-xxs: $space-xxs; // 2px
-$margin-xs: $space-xs; // 4px
-$margin-s: $space-s; // 8px
-$margin-m: $space-m; // 16px
-$margin-l: $space-l; // 32px
-$margin-xl: $space-xl; // 64px
-$margin-xxl: $space-xxl; // 128px
 
 // #Icon
 $icon-xxs: $space-xxs; // 2px

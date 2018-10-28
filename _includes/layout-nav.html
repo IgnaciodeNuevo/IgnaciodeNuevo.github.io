@@ -1,0 +1,34 @@
+<div class="logo-wrapper">
+    <a href="/">{% include icons/logo-horizontal.html %}</a>
+</div>
+<div class="offcanvas">
+    <div class="nav-items">
+        {% include icons/hamburguer.html %}
+        {% for item in site.data.nav %}
+            <a class="link" {% if page.url==item.url %}class="is-active" {% endif %} href="{{ item.url }}">
+                <span class="link-label">{{ item.label }}</span>
+            </a>
+        {% endfor %}
+    </div>
+
+    <div class="offcanvas-rss">
+        <a class="link" href="{{ site.github }}" target="_blank" rel="noopener">
+            <span class="link-label">Github</span>
+        </a>
+        <a class="link" href="{{ site.twitter }}" target="_blank" rel="noopener">
+            <span class="link-label">Twitter</span>
+        </a>
+        <a class="link" href="{{ site.mastodon }}" target="_blank" rel="noopener">
+            <span class="link-label">Mastodon</span>
+        </a>
+    </div>
+
+    <div class="offcanvas-contact">
+        <a class="link" href="{{ site.rss }}">
+            <span class="link-label">RSS Feed</span>
+        </a>
+        <a class="link" href="/about/#contact">
+            <span class="link-label">Contact</span>
+        </a> / {% include component-email.html %}
+    </div>
+</div>

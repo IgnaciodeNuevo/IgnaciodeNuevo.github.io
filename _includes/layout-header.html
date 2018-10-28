@@ -1,31 +1,9 @@
 <header class="header" role="banner">
-    <p class="header__title{% if page.url == '/' %}  is-active{% endif %}">
-        <a href="/">Ignacio Villanueva</a>
-    </p>
-    <nav class="">
-        <ul class="">
-            {% for item in site.data.nav %}
-                <li {% if page.url==item.url %}class="is-active" {% endif %}><a href="{{ item.url }}">{{ item.label }}</a></li>
-            {% endfor %}
-        </ul>
-        <ul>
-            <li>
-                <a class="rss" href="{{ site.github }}" target="blank" rel="noopener">Github</a>
-            </li>
-            <li>
-                <a class="rss" href="{{ site.twitter }}" target="blank" rel="noopener">Twitter</a>
-            </li>
-            <li>
-                <a class="rss" href="{{ site.mastodon }}" target="blank" rel="noopener">Mastodon</a>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <a href="{{ site.rss }}">RSS Feed</a>
-            </li>
-            <li>
-                <a href="/about/#contact">Contact Form</a> / {% include component-email.html %}
-            </li>
-        </ul>
+    <nav class="nav">
+        {% include layout-nav.html %}
     </nav>
+    <div class="header-content">
+        <h1 class="title">Frontend developer</h1>
+        <!-- <p class="">You can follow me on <a href="{{ site.twitter }}" rel="me" target="_blank">Twitter</a>, fork me on <a href="{{ site.github }}" rel="me" target="_blank">Github</a>, subscribe via <a href="/feed.xml">RSS Feed</a> or say hello at {% include component-email.html %}</p> -->
+    </div>
 </header>
