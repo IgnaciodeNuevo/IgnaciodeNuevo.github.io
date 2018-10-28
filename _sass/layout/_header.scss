@@ -4,18 +4,20 @@
 .header {
     background-color: $background-color-darkest;
     color: $text-color-light;
+    overflow: hidden;
     padding-bottom: $space-m;
     position: relative;
-    overflow: hidden;
 
     &-content {
+        align-items: flex-end;
+        background-image: url('/assets/images/ignacio-home.jpg');
         background-position: center 0;
         background-repeat: no-repeat;
         background-size: cover;
-        background-image: url('/assets/images/ignacio-home.jpg');
         display: flex;
-        align-items: flex-end;
         height: calc(100vh - #{$nav-height});
+        margin-top: $nav-height;
+        padding-top: $nav-height;
     }
 
     .title {
@@ -25,11 +27,13 @@
 
 .nav {
     align-items: center;
+    background-color: inherit;
     border-bottom: 1px solid $line-color;
     color: inherit;
     display: flex;
     justify-content: space-between;
-    position: relative;
+    position: fixed;
+    width: 100%;
 
     @media (min-width: $mq-nav-s) {
         padding-right: $container-space;
@@ -120,14 +124,14 @@
 .menu {
     align-items: center;
     background-color: transparent;
-    border: 1px solid currentColor;
     border-radius: $border-radius-xxs;
+    border: 1px solid currentColor;
     color: inherit;
     display: flex;
     justify-content: space-between;
-    max-height: 2.75rem; // 44px
     margin-right: $container-space;
-    opacity: .5;
+    max-height: 2.75rem; // 44px
+    opacity: 0.5;
 
     &:hover {
         cursor: pointer;
@@ -150,17 +154,17 @@
     padding-right: $container-space;
     position: absolute;
     right: -100vw;
+    top: 0;
     transition-duration: $animation-speed;
     transition-property: right;
     transition-timing-function: $animation-type;
-    top: 0;
     width: 100vw;
 
     @media (min-width: $mq-nav-s) {
         background-color: transparent;
         height: auto;
-        padding-right: 0;
         padding-left: 0;
+        padding-right: 0;
         position: static;
         width: auto;
 
@@ -175,11 +179,11 @@
     }
 
     .menu {
-        position: absolute;
+        color: $text-color-darkest;
         margin-right: 0;
+        position: absolute;
         right: $container-space;
         top: 20px; // Fixed position:
-        color: black;
     }
 }
 
