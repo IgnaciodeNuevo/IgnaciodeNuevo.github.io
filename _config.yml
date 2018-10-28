@@ -1,5 +1,7 @@
 # Site settings
 description: "Ignacio Villanueva - Frontend developer focused on performance, responsive design, web typography and accessibility."
+shortdescription: "Focused on performance, responsive design, web typography and accessibility."
+job: "Frontend developer"
 url: "http://ignaciodenuevo.com" # with the https protocol
 # enforce_ssl: www.ignaciodenuevo.com # without any protocol
 email: ignaciodenuevo@gmail.com
