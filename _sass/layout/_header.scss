@@ -72,29 +72,31 @@
 .disclaimer {
     display: none;
 
-    @media (min-width: $mq-nav-s) {
-        bottom: $space-m;
-        display: block;
-        font-size: 12px;
-        margin-left: 0;
-        margin-right: 0;
-        position: absolute;
-        right: $space-m;
-        writing-mode: vertical-lr;
+    @supports (writing-mode: vertical-lr) {
+        @media (min-width: $mq-nav-s) {
+            bottom: $space-m;
+            display: block;
+            font-size: 12px;
+            margin-left: 0;
+            margin-right: 0;
+            position: absolute;
+            right: $space-m;
+            writing-mode: vertical-lr;
 
-        a {
-            color: $text-color-accent;
-            text-decoration: none;
-            text-transform: uppercase;
-            padding-left: 0.15rem;
-            padding-right: 0.15rem;
-            transition-duration: $animation-speed;
-            transition-property: background-color, color;
-            transition-timing-function: $animation-type;
+            a {
+                color: $text-color-accent;
+                text-decoration: none;
+                text-transform: uppercase;
+                padding-left: 0.15rem;
+                padding-right: 0.15rem;
+                transition-duration: $animation-speed;
+                transition-property: background-color, color;
+                transition-timing-function: $animation-type;
 
-            &:hover {
-                background-color: $text-color-accent;
-                color: $text-color-darkest;
+                &:hover {
+                    background-color: $text-color-accent;
+                    color: $text-color-darkest;
+                }
             }
         }
     }
