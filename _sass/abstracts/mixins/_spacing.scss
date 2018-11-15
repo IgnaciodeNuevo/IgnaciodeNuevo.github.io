@@ -1,0 +1,11 @@
+// Spacings Mixin and Fallback
+// @params {String} $type, $property
+@mixin spacing($type: 's', : 'margin-top') {
+    #{}: map-get($spacings, $type);
+    #{$property}: var(--margin-#{$type});
+}
+
+// Usage
+// .p {
+//     @include spacing(l, margin-bottom);
+// }

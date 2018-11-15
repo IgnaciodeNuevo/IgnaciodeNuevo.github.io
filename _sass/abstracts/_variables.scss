@@ -34,10 +34,10 @@ $text-color-accent: $color-accent;
 //
 // #Box-Shadow
 //
-$box-shaodw-1: 0 1px 2px rgba($color-base-darker, .5);
-$box-shaodw-2: 0 1px 2px rgba($color-base-dark, .5);
-$box-shaodw-3: 0 1px 2px rgba($color-base-light, .5);
-$box-shaodw-4: 0 1px 2px rgba($color-base-lighter, .5);
+$box-shaodw-1: 0 1px 2px rgba($color-base-darker, 0.5);
+$box-shaodw-2: 0 1px 2px rgba($color-base-dark, 0.5);
+$box-shaodw-3: 0 1px 2px rgba($color-base-light, 0.5);
+$box-shaodw-4: 0 1px 2px rgba($color-base-lighter, 0.5);
 
 //
 // #Animations
@@ -62,8 +62,7 @@ $font-family-body-subset:
     Arial,
     sans-serif;
 
-$font-family-body:
-    'Brando Regular Sans',
+$font-family-body: 'Brando Regular Sans',
     -apple-system,
     BlinkMacSystemFont,
     'Segoe UI',
@@ -79,8 +78,7 @@ $font-family-title-fallback:
     Georgia,
     sans-serif;
 
-$font-family-title-subset:
-    'Guardian Bold Egyptian Subset',
+$font-family-title-subset: 'Guardian Bold Egyptian Subset',
     -apple-system,
     BlinkMacSystemFont,
     'Segoe UI',
@@ -89,8 +87,7 @@ $font-family-title-subset:
     Arial,
     serif;
 
-$font-family-title:
-    'Guardian Bold Egyptian',
+$font-family-title: 'Guardian Bold Egyptian',
     -apple-system,
     BlinkMacSystemFont,
     'Segoe UI',
@@ -102,10 +99,7 @@ $font-family-title:
 //
 // #Font-Code
 //
-$font-family-code:
-    'Input',
-    monospace;
-
+$font-family-code: 'Input', monospace;
 
 //
 // $Font-Weight
@@ -137,16 +131,16 @@ $font-base: 1rem; // 16px
 $container-width: 50em; // 800px
 $container-space: 1.25em; // 20px
 $nav-height: 80px; // Fixed height, do not use REM
-$space-default: $font-base; // Dependant on $font-base, do not change
 
-
-$space-xxs: $space-default / 8; // 2px
-$space-xs: $space-default / 4; // 4px
-$space-s: $space-default / 2; // 8px
-$space-m: $space-default; // 16px
-$space-l: $space-default * 2; // 32px
-$space-xl: $space-default * 4; // 64px
-$space-xxl: $space-default * 8; // 128px
+$spacings: (
+    xxs: 0.125rem, // 2px
+    xs: 0.25rem, // 4px
+    s: 0.5rem, // 8px
+    m: 1rem, // 16px
+    l: 2rem, // 32px
+    xl: 4rem, // 64px
+    xxl: 8rem, // 128px
+);
 
 //
 // #Border-Radius
