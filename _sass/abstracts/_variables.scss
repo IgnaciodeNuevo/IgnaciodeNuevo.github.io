@@ -146,7 +146,7 @@ $spacings: (
 );
 
 //
-// #Space
+// #Space Sizes
 //
 $space-xxs: $font-base / 8; // 2px
 $space-xs: $font-base / 4; // 4px
@@ -157,7 +157,7 @@ $space-xl: $font-base * 4; // 64px
 $space-xxl: $font-base * 8; // 128px
 
 //
-// #Border-Radius
+// #Border-Radius Sizes
 //
 $border-radius-xxs: $space-xxs; // 2px
 $border-radius-xs: $space-xs; // 4px
@@ -167,7 +167,7 @@ $border-radius-l: $space-l; // 32px
 $border-radius-xl: $space-xl; // 64px
 $border-radius-xxl: $space-xxl; // 128px
 
-// #Icon
+// #Icon Sizes
 $icon-xxs: $space-xxs; // 2px
 $icon-xs: $space-xs; // 4px
 $icon-s: $space-s; // 8px
