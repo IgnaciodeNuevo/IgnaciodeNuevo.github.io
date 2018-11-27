@@ -132,6 +132,9 @@ $container-width: 50em; // 800px
 $container-space: 1.25em; // 20px
 $nav-height: 80px; // Fixed height, do not use REM
 
+//
+// #Space Map
+//
 $spacings: (
     xxs: 0.125rem, // 2px
     xs: 0.25rem, // 4px
@@ -141,6 +144,17 @@ $spacings: (
     xl: 4rem, // 64px
     xxl: 8rem, // 128px
 );
+
+//
+// #Space
+//
+$space-xxs: $font-base / 8; // 2px
+$space-xs: $font-base / 4; // 4px
+$space-s: $font-base / 2; // 8px
+$space-m: $font-base; // 16px
+$space-l: $font-base * 2; // 32px
+$space-xl: $font-base * 4; // 64px
+$space-xxl: $font-base * 8; // 128px
 
 //
 // #Border-Radius
