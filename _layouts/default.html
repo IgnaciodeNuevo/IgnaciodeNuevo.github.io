@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
     {% include section-head.html %}
 
     <body>
 
-    {% include layout-header.html %}
+        {% include layout-offcanvas.html %}
+        <div class="container">
+            {% include layout-header.html %}
 
-    {{ content }}
+            {{ content }}
 
-    {% include layout-footer.html %}
-    {% include scripts.html %}
+            {% include layout-footer.html %}
+        </div>
+        {% include scripts.html %}
 
     </body>
-
 </html>
