@@ -8,7 +8,6 @@
   'abstracts/functions',
   'abstracts/mixins/arrows',
   'abstracts/mixins/aspect-ratio',
-  'abstracts/mixins/custom-properties',
   'abstracts/mixins/ellipsis',
   'abstracts/mixins/ellipsis-multiline',
   'abstracts/mixins/modular-scale',
@@ -28,6 +27,7 @@
 
 // 4. Layout-related sections
 @import
+  'layout/offcanvas',
   'layout/header',
   'layout/footer';
 
@@ -36,8 +36,3 @@
 // 6. Page-specific styles
 @import
   'pages/home';
-
-
-// 7. Root variables loop
-@import
-  'root/root-loop';

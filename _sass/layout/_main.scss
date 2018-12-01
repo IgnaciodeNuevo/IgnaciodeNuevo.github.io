@@ -2,5 +2,5 @@
 // This file contains all styles related to the main of the site/application.
 // -----------------------------------------------------------------------------
 main {
-    padding: $space-m;
+    padding: var(--space-m, 1rem);
 }

@@ -6,8 +6,8 @@
 @import '../../../node_modules/modularscale-sass/stylesheets/modularscale';
 
 $modularscale: (
-    base: $font-base,
-    ratio: $scale,
+    base: 1rem,
+    ratio: 1.25,
 );
 
 

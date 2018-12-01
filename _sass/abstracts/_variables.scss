@@ -3,180 +3,6 @@
 // -----------------------------------------------------------------------------
 
 //
-// #Colors
-//
-
-// #Base-Color
-// #Absolute-colors to avoid linting alerts on hardcoded values
-$color-white: #ffffff;
-$color-base: #000000;
-$color-base-darkest: #0b0b0b;
-$color-base-darker: lighten($color-base, 20);
-$color-base-dark: lighten($color-base, 40);
-$color-base-light: lighten($color-base, 60);
-$color-base-lighter: lighten($color-base, 80);
-
-// #Primary-Color
-$color-primary: #0047bb;
-$color-accent: #ffd300;
-
-// #Other-Colors
-$background-color-darkest: $color-base-darkest;
-$background-color-light: $color-white;
-$background-color-primary: $color-primary;
-$background-color-accent: $color-accent;
-$line-color: #262626;
-$text-color-darkest: $color-base-darkest;
-$text-color-light: $color-white;
-$text-color-primary: $color-primary;
-$text-color-accent: $color-accent;
-
-//
-// #Box-Shadow
-//
-$box-shaodw-1: 0 1px 2px rgba($color-base-darker, 0.5);
-$box-shaodw-2: 0 1px 2px rgba($color-base-dark, 0.5);
-$box-shaodw-3: 0 1px 2px rgba($color-base-light, 0.5);
-$box-shaodw-4: 0 1px 2px rgba($color-base-lighter, 0.5);
-
-//
-// #Animations
-//
-$animation-speed: 0.25s;
-$animation-type: ease-in;
-
-//
-// #Font-Body
-//
-$font-family-body-fallback:
-    Arial,
-    sans-serif;
-
-$font-family-body-subset:
-    'Brando Regular Sans Subset',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    Helvetica,
-    Arial,
-    sans-serif;
-
-$font-family-body: 'Brando Regular Sans',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    Helvetica,
-    Arial,
-    sans-serif;
-
-//
-// #Font-Title
-//
-$font-family-title-fallback:
-    Georgia,
-    sans-serif;
-
-$font-family-title-subset: 'Guardian Bold Egyptian Subset',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    Helvetica,
-    Arial,
-    serif;
-
-$font-family-title: 'Guardian Bold Egyptian',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    Helvetica,
-    Arial,
-    serif;
-
-//
-// #Font-Code
-//
-$font-family-code: 'Input', monospace;
-
-//
-// $Font-Weight
-//
-$fake-bold: bold;
-$font-weight-thin: 100;
-$font-weight-extralight: 200;
-$font-weight-light: 300;
-$font-weight-normal: 400;
-$font-weight-medium: 500;
-$font-weight-semibold: 600;
-$font-weight-bold: 700;
-$font-weight-extrabold: 800;
-$font-weight-black: 900;
-
-//
-// #Scale
-//
-$scale: 1.25;
-
-//
-// #Font-Size
-//
-$font-base: 1rem; // 16px
-
-//
-// #Spacing
-//
-$container-width: 50em; // 800px
-$container-space: 1.25em; // 20px
-$nav-height: 80px; // Fixed height, do not use REM
-
-//
-// #Space Map
-//
-$spacings: (
-    xxs: 0.125rem, // 2px
-    xs: 0.25rem, // 4px
-    s: 0.5rem, // 8px
-    m: 1rem, // 16px
-    l: 2rem, // 32px
-    xl: 4rem, // 64px
-    xxl: 8rem, // 128px
-);
-
-//
-// #Space Sizes
-//
-$space-xxs: $font-base / 8; // 2px
-$space-xs: $font-base / 4; // 4px
-$space-s: $font-base / 2; // 8px
-$space-m: $font-base; // 16px
-$space-l: $font-base * 2; // 32px
-$space-xl: $font-base * 4; // 64px
-$space-xxl: $font-base * 8; // 128px
-
-//
-// #Border-Radius Sizes
-//
-$border-radius-xxs: $space-xxs; // 2px
-$border-radius-xs: $space-xs; // 4px
-$border-radius-s: $space-s; // 8px
-$border-radius-m: $space-m; // 16px
-$border-radius-l: $space-l; // 32px
-$border-radius-xl: $space-xl; // 64px
-$border-radius-xxl: $space-xxl; // 128px
-
-// #Icon Sizes
-$icon-xxs: $space-xxs; // 2px
-$icon-xs: $space-xs; // 4px
-$icon-s: $space-s; // 8px
-$icon-m: $space-m; // 16px
-$icon-l: $space-l; // 32px
-$icon-xl: $space-xl; // 64px
-$icon-xxl: $space-xxl; // 128px
-
-//
 // #Media-Queries
 //
 $mq-xxs: 20em; // 320px
@@ -187,22 +13,74 @@ $mq-l: 80em; // 1280px
 $mq-xl: 90em; // 1440px
 $mq-xxl: 160em; // 2650px
 
-$mq-nav-s: 43.75em;
+:root {
+    --color-white: #ffffff;
+    --color-base: #000000;
+    --color-base-dark: #0b0b0a;
+    --color-base-medium: #151514;
+    --color-base-light: #2d2d2d;
 
-//
-// $Z-Index
-//
-$z-index-s: 1;
-$z-index-m: 2;
-$z-index-l: 3;
-$z-index-xl: 4;
+    --color-primary: #0047bb;
+    --color-secondary: #ffd300;
+    --line-color: #262626;
 
-//
-// #Variables map
-//
-$VariablesMap: (
-    color-base-darker: $color-base-darker,
-    color-base-dark: $color-base-dark,
-    color-base-light: $color-base-light,
-    color-base-lighter: $color-base-lighter,
-);
+    --box-shaodw: 0 1px 2px rgba(var(--color-base-dark, #0b0b0a), 0.5);
+
+    --animation-speed: 0.25s;
+    --animation-type: ease-in;
+
+    --font-family-body-fallback: Arial, sans-serif;
+    --font-family-body-subset: 'Brando Regular Sans Subset', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    --font-family-body: 'Brando Regular Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    --font-family-title-fallback: Georgia, sans-serif;
+    --font-family-title-subset: 'Guardian Bold Egyptian Subset', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, serif;
+    --font-family-title: 'Guardian Bold Egyptian', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, serif;
+    --font-family-code: 'Input', monospace;
+
+    --fake-bold: bold;
+
+    --font-weight-thin: 100;
+    --font-weight-extralight: 200;
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    --font-weight-extrabold: 800;
+    --font-weight-black: 900;
+
+    --scale: 1.25;
+
+    --font-base: 1rem;
+
+    --nav-height: 80px;
+
+    --space-xxs: calc(var(--font-base) / 8);
+    --space-xs: calc(var(--font-base) / 4);
+    --space-s: calc(var(--font-base) / 2);
+    --space-m: calc(var(--font-base));
+    --space-l: calc(var(--font-base) * 2);
+    --space-xl: calc(var(--font-base) * 4);
+    --space-xxl: calc(var(--font-base) * 8);
+
+    --border-radius-xxs: var(--space-xxs);
+    --border-radius-xs: var(--space-xs);
+    --border-radius-s: var(--space-s);
+    --border-radius-m: var(--space-m);
+    --border-radius-l: var(--space-l);
+    --border-radius-xl: var(--space-xl);
+    --border-radius-xxl: var(--space-xxl);
+
+    --icon-xxs: var(--space-xxs);
+    --icon-xs: var(--space-xs);
+    --icon-s: var(--space-s);
+    --icon-m: var(--space-m);
+    --icon-l: var(--space-l);
+    --icon-xl: var(--space-xl);
+    --icon-xxl: var(--space-xxl);
+
+    --z-index-s: 1;
+    --z-index-m: 2;
+    --z-index-l: 3;
+    --z-index-xl: 4;
+}

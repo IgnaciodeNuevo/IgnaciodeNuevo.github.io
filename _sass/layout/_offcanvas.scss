@@ -1,0 +1,13 @@
+.offcanvas {
+    background-color: var(--color-secondary, #ffd300);
+    bottom: 0;
+    height: 100vh;
+    max-width: 100vw;
+    overflow: auto;
+    position: fixed;
+    right: -100vw;
+    top: 0;
+    transition: all 300ms;
+    width: 100%;
+    z-index: 1;
+}

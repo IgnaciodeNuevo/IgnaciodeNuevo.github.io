@@ -2,5 +2,5 @@
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
 footer {
-    padding: $space-m;
+    padding: var(--space-m, 1rem);
 }
