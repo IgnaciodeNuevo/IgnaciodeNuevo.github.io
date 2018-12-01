@@ -6,7 +6,6 @@
 // Set up a decent box model on the root element
 // 1. Prevent adjustments of font size after orientation changes in iOS.
 //
-
 html {
     box-sizing: border-box;
     color: var(--color-primary, #0047bb);
@@ -23,7 +22,20 @@ html {
 }
 
 body.is-active .offcanvas {
-    transform: translateX(-100vw);
+    transform: translateX(0);
+}
+
+body.is-active .container {
+    transform: translateX(-100%);
+}
+
+.container {
+    position: relative;
+    transition-duration: var(--animation-speed, 0.25s);
+    transition-property: transform;
+    transition-timing-function: var(--animation-type, ease-in);
+    width: 100%;
+    z-index: 1;
 }
 
 //
@@ -34,6 +46,5 @@ body.is-active .offcanvas {
 //
 *,
 *::before,
-*::after {
-    box-sizing: inherit;
+*::after { box-sizing: inherit;
 }
