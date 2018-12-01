@@ -15,7 +15,8 @@
     --box-shaodw: 0 1px 2px rgba(var(--color-base-dark, #0b0b0a), 0.5);
 
     --animation-speed: 0.25s;
-    --animation-type: ease-in;
+    --animation-type-in: ease-in;
+    --animation-type-cubic: cubic-bezier(0, 0, 0.3, 1);
 
     --font-family-body-fallback: Arial, sans-serif;
     --font-family-body-subset: 'Brando Regular Sans Subset', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
