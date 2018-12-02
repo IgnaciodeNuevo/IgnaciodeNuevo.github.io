@@ -1,0 +1,28 @@
+@import "../../../node_modules/modularscale-sass/stylesheets/modularscale";
+$modularscale: (
+    base: 1rem,
+    ratio: 1.2,
+);
+
+@mixin section($section-text) {
+    color: #ffac00;
+    content: $section-text;
+    font-family: var(--font-family-title, "Guardian Bold Egyptian", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, serif);
+    font-size: ms(6);
+    margin-top: 0;
+    white-space: nowrap;
+    position: absolute;
+    right: var(--left-negative, -1rem);
+    bottom: -(ms(6) / 3);
+    overflow: hidden;
+
+    @media (min-width: $mq-s) {
+        font-size: ms(8);
+        bottom: -(ms(8) / 3);
+    }
+
+    @media (min-width: $mq-xl) {
+        font-size: ms(10);
+        bottom: -(ms(10) / 3);
+    }
+}

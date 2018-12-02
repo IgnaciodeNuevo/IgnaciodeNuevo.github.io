@@ -12,7 +12,7 @@
     --color-secondary: #ffd300;
     --line-color: #262626;
 
-    --box-shaodw: 0 1px 2px rgba(var(--color-base-dark, #0b0b0a), 0.5);
+    --box-shaodw: 0px 2px 5px 1px rgba(0, 0, 0, 0.75);
 
     --animation-speed: 0.25s;
     --animation-type-in: ease-in;
@@ -44,8 +44,14 @@
     --font-small: 75%;
 
     --nav-height: 4.5rem;
-    --bottom: 10%;
-    --left: 5%;
+    --bottom: 4rem;
+    --bottom-negative: -4rem;
+    --left: 1rem;
+    --left-negative: -1rem;
+    --right: 1rem;
+    --right-negative: -1rem;
+    --top: 4rem;
+    --top-negative: -4rem;
 
     --space-xxs: calc(var(--font-base) / 8);
     --space-xs: calc(var(--font-base) / 4);

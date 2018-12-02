@@ -3,13 +3,55 @@
 // -----------------------------------------------------------------------------
 .offcanvas {
     background-color: var(--color-secondary, #ffd300);
+    color: var(--color-base-dark, #0b0b0a);
+    display: flex;
+    flex-direction: column;
     height: 100vh;
     max-width: 100vw;
     overflow: auto;
+    padding-bottom: var(--space-l, 2rem);
+    padding-left: var(--space-l, 2rem);
+    padding-right: var(--space-l, 2rem);
+    padding-top: 8rem;
     position: fixed;
     transform: translateX(100%);
     width: 100%;
+    will-change: transform;
     z-index: var(--z-index-s, 1);
 
     @include transition(transform);
+
+    &__header {
+        align-items: center;
+        display: flex;
+        flex-wrap: nowrap;
+        height: var(--nav-height, 4.5rem);
+        justify-content: space-between;
+        line-height: var(--nav-height, 4.5rem);
+        position: absolute;
+        top: 0;
+        width: calc(100% - (var(--space-l, 2rem) * 2));
+    }
+
+    &__logo {
+        align-content: center;
+        display: flex;
+    }
+
+    svg {
+        fill: var(--color-base-dark, #0b0b0a);
+    }
+
+    .nav-items {
+        display: inherit;
+        flex-direction: inherit;
+    }
+
+    .link {
+        @include heading-h6();
+        color: var(--color-base-dark, #0b0b0a);
+        font-family: var(--font-family-title, 'Guardian Bold Egyptian', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, serif);
+        text-decoration: none;
+        margin-bottom: 0.75rem;
+    }
 }

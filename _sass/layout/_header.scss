@@ -3,10 +3,12 @@
 // -----------------------------------------------------------------------------
 .header {
     background-color: var(--color-base-dark, #0b0b0a);
+    box-shadow: var(--box-shaodw, 0px 2px 5px 1px rgba(0, 0, 0, 0.75));
     color: var(--color-white, #ffffff);
     overflow: hidden;
     position: sticky;
     top: 0;
+    z-index: var(--z-index-s, 1);
 }
 
 .masthead {
@@ -31,14 +33,22 @@
     }
 
     &__content {
-        bottom: var(--bottom, 10%);
-        left: var(--left, 5%);
-        padding-right: var(--space-m, 1rem);
+        bottom: 20%;
+        left: var(--left, 1rem);
         position: absolute;
+
+        @media (min-width: $mq-xs) {
+            bottom: var(--bottom, 4rem);
+        }
     }
 
     &__title {
         margin-bottom: 0.5rem;
+        padding-right: var(--space-m, 1rem);
+    }
+
+    &__subtitle {
+        padding-right: var(--space-m, 1rem);
     }
 
     &__divider {
@@ -48,19 +58,17 @@
         width: 10rem;
     }
 
-    &__subtitle {
-        margin-bottom: 0;
-    }
-
     &__disclaimer {
         bottom: var(--space-m, 1rem);
-        font-size: var(--font-small, 75%);
-        left: var(--left, 5%);
+        display: block;
+        left: var(--left, 1rem);
         padding-right: var(--space-m, 1rem);
         position: absolute;
 
+        @include body-small();
+
         @media (min-width: $mq-l) {
-            bottom: var(--bottom, 10%);
+            bottom: var(--bottom, 4rem);
             left: initial;
             padding-right: 0;
             right: 0;

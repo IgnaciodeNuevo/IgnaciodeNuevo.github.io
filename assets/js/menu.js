@@ -27,7 +27,7 @@
         } else {
             document.body.classList.add('is-active');
             enableNavLinks();
-            navLinks[0].focus();
+            navLinks[1].focus();
         }
     }
 

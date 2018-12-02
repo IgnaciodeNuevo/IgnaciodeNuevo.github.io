@@ -1,22 +1,17 @@
 <nav class="offcanvas" id="js-nav" aria-label="Main navigation on small screens">
-    <button id="js-close-menu" class="btn btn--inverted" aria-controls="js-nav">
-        {% include icons/hamburguer.html %}
-        <span>Menu</span>
-    </button>
+    <div class="offcanvas__header">
+        <a class="offcanvas__logo" href="/" aria-hidden="true">{% include icons/logo-horizontal.html %}</a>
+
+        <button id="js-close-menu" class="btn btn--inverted" aria-controls="js-nav">
+            {% include icons/hamburguer.html %} <span>Menu</span>
+        </button>
+    </div>
+
     {% include layout-nav.html %}
 
-    <div class="nav-rss">
-        <a class="link" href="{{ site.github }}" target="_blank" rel="noopener">
-            <span class="link-label">Github</span>
-        </a>
-        <a class="link" href="{{ site.twitter }}" target="_blank" rel="noopener">
-            <span class="link-label">Twitter</span>
-        </a>
-    </div>
+    <a class="link" href="{{ site.github }}" target="_blank" rel="noopener"> Github </a>
+    <a class="link" href="{{ site.twitter }}" target="_blank" rel="noopener"> Twitter </a>
 
-    <div class="nav-contact">
-        <a class="link" href="{{ site.rss }}"> <span class="link-label">RSS Feed</span> </a>
-        <a class="link" href="/about/#contact"> <span class="link-label">Contact</span> </a> {%
-        include component-email.html %}
-    </div>
+    <a class="link" href="{{ site.rss }}">RSS Feed </a>
+    <a class="link" href="/about/#contact">Contact </a> {% include component-email.html %}
 </nav>
