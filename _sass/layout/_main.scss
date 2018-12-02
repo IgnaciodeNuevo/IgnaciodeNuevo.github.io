@@ -1,6 +1,19 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the main of the website.
 // -----------------------------------------------------------------------------
-main {
-    padding: var(--space-m, 1rem);
+.masthead {
+    background-color: var(--color-base-dark, #0b0b0a);
+    color: var(--color-white, #ffffff);
+    height: calc(100vh - var(--nav-height, 4.5rem));
+
+    &__img {
+        display: none;
+
+        @supports (object-fit: cover) {
+            display: block;
+            object-fit: cover;
+            height: calc(100vh - var(--nav-height, 4.5rem));
+            width: 100%;
+        }
+    }
 }
