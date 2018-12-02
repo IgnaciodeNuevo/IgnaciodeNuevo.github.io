@@ -5,12 +5,20 @@
     align-items: center;
     display: flex;
     flex-wrap: nowrap;
-    height: var(--nav-height, 80px);
+    height: var(--nav-height, 4.5rem);
     justify-content: space-between;
-    padding-bottom: var(--space-m, 1rem);
+    line-height: var(--nav-height, 4.5rem);
     padding-left: var(--space-l, 2rem);
     padding-right: var(--space-l, 2rem);
-    padding-top: var(--space-m, 1rem);
+
+    @media (min-width: $mq-s) {
+        padding-right: 0;
+    }
+
+    &__logo {
+        align-content: center;
+        display: flex;
+    }
 
     .btn {
         @media (min-width: $mq-s) {
@@ -25,10 +33,57 @@
     @media (min-width: $mq-s) {
         display: block;
     }
+
+    .link {
+        color: var(--color-white, #ffffff);
+        font-size: var(--font-small, 75%);
+        letter-spacing: 0.125rem;
+        margin-right: var(--space-s, 0.5rem);
+        text-decoration: none;
+        text-transform: uppercase;
+
+        &:hover .link__label {
+            border-bottom: 4px solid var(--color-white, #ffffff);
+            display: inline-block;
+            height: var(--nav-height, 4.5rem);
+            line-height: var(--nav-height, 4.5rem);
+        }
+
+        &:not(:last-of-type):after {
+            content: "/";
+            font-size: var(--font-small, 75%);
+            margin-left: var(--space-s, 0.5rem);
+        }
+
+        &:nth-of-type(4):after {
+            content: "";
+        }
+
+        &:last-of-type {
+            background-color: var(--color-secondary, #ffd300);
+            color: var(--color-base-dark, #0b0b0a);
+            display: inline-block;
+            height: var(--nav-height, 4.5rem);
+            line-height: var(--nav-height, 4.5rem);
+            margin-right: 0;
+            padding-left: var(--space-l, 2rem);
+            padding-right: var(--space-l, 2rem);
+
+            &:hover {
+                background-color: var(--color-white, #ffffff);
+                transition-duration: var(--animation-speed, 0.25s);
+                transition-property: background-color;
+                transition-timing-function: var(--animation-type-cubic, cubic-bezier(0, 0, 0.3, 1));
+            }
+
+            &:hover .link__label {
+                border-bottom-color: transparent;
+            }
+        }
+    }
 }
 
 .logo {
     fill: var(--color-white, #ffffff);
     height: calc(var(--nav-height, 80px) - var(--space-m, 1rem) * 2);
 }
-

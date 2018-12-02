@@ -5,5 +5,6 @@
     background-color: var(--color-base-dark, #0b0b0a);
     color: var(--color-white, #ffffff);
     overflow: hidden;
-    position: relative;
+    position: sticky;
+    top: 0;
 }
