@@ -2,36 +2,55 @@
 // This file contains all styles related to the buttons of the website.
 // -----------------------------------------------------------------------------
 .btn {
-    display: flex;
     align-items: center;
+    border-radius: var(--border-radius-xxs, 0.25rem);
     justify-content: center;
-    border: 1px solid transparent;
-    background-color: var(--color-primary, #0047bb);
-    color: var(--color-white, #ffffff);
-    border-radius: var(--border-radius-xxs);
+    transition-duration: var(--animation-speed, 0.25s);
+    transition-property: all;
+    transition-timing-function: var(--animation-type-cubic, cubic-bezier(0, 0, 0.3, 1));
     padding: var(--space-s, 0.5rem);
+    display: flex;
 
-    > svg {
-        margin-right: var(--space-s, 0.5rem);
+    &:hover {
+        background-color: var(--color-white, #ffffff);
+        color: var(--color-base-dark, #0b0b0a);
+        cursor: pointer;
+    }
+
+    &:focus {
+        border: 2px dotted var(--color-secondary, #ffd300);
+        outline: 0;
+    }
+
+     > svg {
         fill: currentColor;
+        margin-right: var(--space-s, 0.5rem);
     }
 }
 
-.btn-ghost {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid currentColor;
-    background-color: transparent;
+.btn--fill {
+    background-color: var(--color-primary, #0047bb);
+    border: 2px solid transparent;
     color: var(--color-white, #ffffff);
-    border-radius: var(--border-radius-xxs);
-    padding: var(--space-s, 0.5rem);
+
+    &:active {
+        background-color: transparent;
+        border-color: var(--color-primary, #0047bb);
+        color: var(--color-primary, #0047bb);
+    }
+
+
+}
+
+.btn--ghost {
+    background-color: transparent;
+    border: 2px solid currentColor;
+    color: var(--color-white, #ffffff);
     opacity: 0.5;
-    transition-duration: var(--animation-speed, 0.25s);
-    transition-property: opacity;
-    transition-timing-function: var(--animation-type-cubic, cubic-bezier(0, 0, 0.3, 1));
+    padding: var(--space-s, 0.5rem);
 
     &:hover {
+        border: 2px solid var(--color-white, #ffffff);
         opacity: 1;
     }
 
@@ -42,13 +61,20 @@
     }
 
     &:focus {
-        outline: 0;
-        border: 1px dotted var(--color-secondary, #ffd300);
         opacity: 1;
     }
+}
 
-    > svg {
-        margin-right: var(--space-s, 0.5rem);
-        fill: currentColor;
+.btn--inverted {
+    background-color: var(--color-base-dark, #0b0b0a);
+    border: 2px solid var(--color-base-dark, #0b0b0a);
+    color: var(--color-white, #ffffff);
+    padding: var(--space-s, 0.5rem);
+
+    &:hover {
+        background-color: var(--color-secondary, #ffd300);
+        border: 2px solid currentColor;
+        color: var(--color-base-dark, #0b0b0a);
+        opacity: 1;
     }
 }

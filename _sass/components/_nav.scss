@@ -11,8 +11,24 @@
     padding-left: var(--space-l, 2rem);
     padding-right: var(--space-l, 2rem);
     padding-top: var(--space-m, 1rem);
+
+    .btn {
+        @media (min-width: $mq-s) {
+            display: none;
+        }
+    }
+}
+
+.nav-main__items {
+    display: none;
+
+    @media (min-width: $mq-s) {
+        display: block;
+    }
 }
 
 .logo {
-    fill: var(--color-white, #ffffff); height: calc(var(--nav-height, 80px) - var(--space-m, 1rem) * 2);
+    fill: var(--color-white, #ffffff);
+    height: calc(var(--nav-height, 80px) - var(--space-m, 1rem) * 2);
 }
+

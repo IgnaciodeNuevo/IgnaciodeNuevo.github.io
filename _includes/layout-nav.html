@@ -1,4 +1,4 @@
-<div class="nav-items">
+<div class="nav-main__items">
     {% for item in site.data.nav %}
     <a class="link" {% if page.url==item.url %}class="is-active" {% endif %} href="{{ item.url }}">
         <span class="link-label">{{ item.label }}</span>

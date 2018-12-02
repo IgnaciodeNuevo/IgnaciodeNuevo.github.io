@@ -12,11 +12,11 @@ html {
     font-size: 100%; // 16px
     -webkit-text-size-adjust: 100%; // 1
 
-    @media (min-width: $mq-s) {
+    @media (min-width: $mq-m) {
         font-size: 120%;
     }
 
-    @media (min-width: $mq-l) {
+    @media (min-width: $mq-xl) {
         font-size: 140%;
     }
 }
