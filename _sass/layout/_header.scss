@@ -31,8 +31,8 @@
     }
 
     &__content {
-        bottom: 10%;
-        left: 5%;
+        bottom: var(--bottom, 10%);
+        left: var(--left, 5%);
         padding-right: var(--space-m, 1rem);
         position: absolute;
     }
@@ -55,12 +55,12 @@
     &__disclaimer {
         bottom: var(--space-m, 1rem);
         font-size: var(--font-small, 75%);
-        left: 5%;
+        left: var(--left, 5%);
         padding-right: var(--space-m, 1rem);
         position: absolute;
 
         @media (min-width: $mq-l) {
-            bottom: 10%;
+            bottom: var(--bottom, 10%);
             left: initial;
             padding-right: 0;
             right: 0;
