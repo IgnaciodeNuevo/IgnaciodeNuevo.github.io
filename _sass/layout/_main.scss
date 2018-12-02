@@ -5,15 +5,23 @@
     background-color: var(--color-base-dark, #0b0b0a);
     color: var(--color-white, #ffffff);
     height: calc(100vh - var(--nav-height, 4.5rem));
+    position: relative;
 
     &__img {
         display: none;
 
         @supports (object-fit: cover) {
             display: block;
-            object-fit: cover;
             height: calc(100vh - var(--nav-height, 4.5rem));
+            object-fit: cover;
             width: 100%;
         }
+    }
+
+    &__content,
+    &__disclaimer {
+        left: 0;
+        position: absolute;
+        top: 0;
     }
 }
