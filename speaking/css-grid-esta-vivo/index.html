@@ -1,0 +1,1481 @@
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <title>Ignacio Villanueva &ndash; Front-end Developer focusing front-end architecture, front-end performance and responsive web design.</title>
+
+<!-- StyleSheets & DNS Prefetch -->
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  <link rel="dns-prefetch" href="//www.google-analytics.com">
+  <link rel="dns-prefetch" href="https://twitter.com/ignaciodenuevo">
+  <link rel="dns-prefetch" href="//platform.twitter.com">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:700,400|Source+Code+Pro' rel='stylesheet' type='text/css'>
+
+<!-- Open Graph data -->
+  <meta property="og:title" content="Charla: CSS Grid Layout, ¡Está vivo! – Ignacio Villanueva." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="http://ignaciodenuevo.com/speaking/arquitectura-y-buenas-practicas-css" />
+  <meta property="og:image" content="http://ignaciodenuevo.com/assets/images/logo.jpg" />
+  <meta property="og:description" content="Charla: CSS Grid Layout, ¡Está vivo! – Ignacio Villanueva." />
+  <meta property="og:site_name" content="http://ignaciodenuevo.com" />
+
+<!-- Twitter cards -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@IgnaciodeNuevo">
+  <meta name="twitter:domain" content="http://ignaciodenuevo.com/speaking/arquitectura-y-buenas-practicas-css">
+  <meta name="twitter:creator" content="@IgnaciodeNuevo">
+  <meta name="twitter:title" content="Charla: CSS Grid Layout, ¡Está vivo! – Ignacio Villanueva design.">
+  <meta name="twitter:image" content="http://ignaciodenuevo.com/assets/images/logo.jpg">
+  <meta name="twitter:description" content="Charla: CSS Grid Layout, ¡Está vivo! – Ignacio Villanueva design.">
+
+<!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/assets/images/favicon/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/assets/images/favicon/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/assets/images/favicon/manifest.json">
+  <link rel="mask-icon" href="/assets/images/favicon/safari-pinned-tab.svg" color="#0047bb">
+  <meta name="theme-color" content="#ffffff">
+
+<!-- Chrome for Android Toolbar Color-->
+  <meta name="theme-color" content="#0047BB">
+
+<!-- Other -->
+  <meta name="description" content="Articles on CSS, Sass, architecture, front-end performance, and mobile and responsive web design based in Barcelona.">
+
+<!-- CSS Base -->
+  <link rel="stylesheet" type='text/css' media='all' href="webslides/css/base.css">
+
+<!-- CSS Colors -->
+  <link rel="stylesheet" type='text/css' media='all' href="webslides/css/colors.css">
+
+</head>
+<!--
+.___                             .__           .___     ____  ___
+|   | ____ __   ________    ____ |__| ____  ___|  /____ \   \ |  \  __ __   ______    ______
+|   |/ __ \\ \ |  |\__  \ _/ ___\|  |/ _  \/ __  /  __ \|    \|   ||  |  \_/ __ \ \  / /  _ \
+|   / /_/  >  \|  |/ __ \\  \___ |  ( <_> ) /_/ \   ___/  |\      |   |  /\  ___/\ \/ (  <_> )
+|___\___  /|_|\___(____  /\___  >__|\____/\____ |\___  >__| \__  / \____/  \___ > \__/ \____/
+   /_____/             \/     \/               \/    \/        \/             \/
+
+   - Twitter: @IgnaciodeNuevo - GitHub: IgnaciodeNuevo - Email: ignaciodenuevo@gmail.com -
+
+-->
+  </head>
+  <body>
+    <main role="main">
+      <article id="webslides">
+        <!-- Quick Guide
+          - Each parent <section> in the <article id="webslides"> element is an individual slide.
+          - Vertical sliding = <article id="webslides" class="vertical">
+          - <div class="wrap"> = container 90% / <div class="wrap size-50"> = 45%;
+        -->
+
+        <section class="bg-apple aligncenter">
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap aligncenter">
+            <h1>CSS Grid Layout, ¡Está vivo!</h1>
+            <p class="text-intro">Open Source Weekends, Madrid – 10 de Junio, 2017</p>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+
+
+        <section class="fullscreen slide current" id="section-76">
+          <div class="card-50">
+            <figure>
+              <img src="/assets/images/speaking/speaking-grid-me.jpg" alt="Ignacio ;)">
+            </figure>
+            <!-- end figure-->
+            <div class="flex-content">
+              <h4>Ignacio Villanueva</h4>
+              <p>Front-end Developer en especializado en arquitectura, front-end performance y responsive web design.</p>
+              <p class="text-intro">Podcasting en WeCodeSign y organizo Open Source Weekends</p>
+              <p class="myFlex">
+                <img style="max-width: 150px;" src="/assets/images/speaking/speaking-logo-WCD--pink.svg" alt="WeCodeSign Podcast's Logo">
+                <img style="max-width: 150px;" src="/assets/images/speaking/speaking-logo-OSW--blue.svg" alt="Open Source Weekends Podcast's Logo">
+              </p>
+              <p class="aligncenter"><a class="button" href="http://ignaciodenuevo.com/">¿Quiéres saber más?</a></p>
+            </div>
+            <!-- end .flex-content-->
+          </div>
+          <!-- end .card-50-->
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter">¡Antes de empezar!</h1>
+            <p class="aligncenter"><a href="https://codepen.io/collection/DYpVoJ/2/">Ejemplos de la charla (CodePen)</a></p>
+            <p class="aligncenter"><a href="https://github.com/IgnaciodeNuevo/personal-goals#my-css-grid-layout-path">My CSS Grid Layout Path</a></p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/assets/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter">Feature Queries</h1>
+            <p class="aligncenter"><a href="https://hacks.mozilla.org/2016/08/using-feature-queries-in-css/">Documentación: Feature Queries</a></p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/assets/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="slide current bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter">Writing Mode</h1>
+            <ul class="flexblock blink border">
+              <li>
+                <a href="#" title="Block Link = .blink">
+                  <!--div required = padding li or li>a-->
+                  <div>
+                    <h4>Valores globales</h4>
+                    <ol>
+                      <li>writing-mode: inherit;</li>
+                      <li>writing-mode: initial;</li>
+                      <li>writing-mode: unset;</li>
+                    </ol>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#" title="Block Link = .blink">
+                  <!--div required = padding li or li>a-->
+                  <div>
+                    <h4>Valores de la palabra clave</h4>
+                    <ol>
+                      <li>writing-mode: horizontal-tb;</li>
+                      <li>writing-mode: vertical-rl;</li>
+                      <li>writing-mode: vertical-lr;</li>
+                    </ol>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <p class="aligncenter"><a href="https://developer.mozilla.org/es/docs/Web/CSS/writing-mode">Documentación: Writing Mode</a></p>
+          <!-- .end .wrap -->
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/assets/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter">Text Orientation</h1>
+            <p class="aligncenter"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/text-orientation">Documentación: Text Orientation</a></p>
+          </div>
+          <div class="grid vertical-align">
+          <div class="column">
+            <p class="text-intro">Valores</p>
+            <p class="text-intro"><code>mixed;</code></p>
+            <p class="text-intro"><code>upright;</code></p>
+            <p class="text-intro"><code>sideways-right;</code></p>
+            <p class="text-intro"><code>sideways;</code></p>
+            <p class="text-intro"><code>use-glyph-orientation;</code></p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/assets/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter">CSS Box Alignment</h1>
+            <p class="aligncenter"><a href="https://drafts.csswg.org/css-align/">Documentación: CSS Box Alignment</a></p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/assets/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter">Preguntas habituales</h1>
+
+            <h4>1 - ¿Compite con Flexbox?</h4>
+            <p>No: Flexbox: 1 dirección. Grid 2</p>
+            <h4>2 - CSS Grid funciona sobre el contenedor, no sobre el item</h4>
+            <br>
+            <h4>3 - CSS Grid respeta el writing-mode (LTR, RTL...)</h4>
+            <p>Por en grid se escriben cosas como que es grid-column-start ya que no es igual aquí que en otros paises</p>
+            <h4>4 - Autoplacement - https://codepen.io/rachelandrew/pen/Opaopw</h4>
+            <p>Crear elementos que por definición ocupen una cantidad de 2 columnas en especial y se autocoloquen es tan sencillo como lo siguiente</p>
+            <pre>
+              .box {
+                grid-column: auto / span 4;
+              }
+            </pre>
+            <br>
+            <h4>5 - Responsive Grid - https://codepen.io/rachelandrew/pen/gmQdgz</h4>
+            <h4>6 - CSS Fallback - https://codepen.io/rachelandrew/pen/jBQpXv</h4>
+            <p>Float no funciona dentro de grid así que si usamos floats no tenemos que usar feature queries para sobre escribirlo</p>
+            <h4>7 - Feature queries</h4>
+            <p>Lo habitual que hay que sobreescribir dentro de feature queries son widths y margins</p>
+            <h4>8 - Ojo con Autoprefixer y la implementación de Grid en IExplorer y primeras versiones de Edge</h4>
+            <p>¿Y quién ha sido el último en implementar CSS Grid Layout como siempre?</p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/assets/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter">Conceptos Básicos 1/2</h1>
+            <h4 class="aligncenter">Grid Container</h4>
+            <h4 class="aligncenter">Grid Item</h4>
+            <h4 class="aligncenter">Grid Line</h4>
+            <h4 class="aligncenter">Grid Track: Espacio entre dos líneas</h4>
+            <h4 class="aligncenter">Grid Cell: Espacio entre dos líneas de fila adyacentes y dos líneas de columna adyacente.</h4>
+            <h4 class="aligncenter">Grid Area: Espacio rodeado por cuatro lineas.</h4>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/assets/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter">Conceptos Básicos 2/2</h1>
+            <pre style="max-width: 350px; margin: 0 auto;">
+1     2      3      4     5
++----+-+----+-+----+-+----+ 1
+|    | |    | |    | |    |
+|    | |    | |    | |    |
++----+ +----+ +----+ +----+
++----+ +----+ +----+ +----+ 2
+|    | |    | |    | |    |
+|    | |    | |    | |    |
++----+ +----+ +----+ +----+
++----+ +----+ +----+ +----+ 3
+|    | |    | |    | |    |
+|    | |    | |    | |    |
++----+ +----+ +----+ +----+
++----+ +----+ +----+ +----+ 4
+|    | |    | |    | |    |
+|    | |    | |    | |    |
++----+ +----+ +----+ +----+
++----+ +----+ +----+ +----+ 5
+|    | |    | |    | |    |
+|    | |    | |    | |    |
++----+-+----+-+----+-+----+ 6
+            </pre>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/assets/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter">¡Cosas importantes!</h1>
+            <p class="aligncenter">minmax()</p>
+            <p class="aligncenter">auto-fill</p>
+            <p class="aligncenter">auto-fit</p>
+            <p class="aligncenter">.</p>
+            <p class="aligncenter">fr</p>
+            <p class="aligncenter">span</p>
+            <p class="aligncenter">nombre de lineas/areas</p>
+            <p class="aligncenter"><a href="https://github.com/sass/sass/issues/1963">Problemas en Sass</a></p>
+            <p class="aligncenter">z-index</p>
+            <p class="aligncenter">Hay valores que son un shorthand de otros dos. Si se omite uno, el shorthand asignará el valor declarado al segundo (el omitido)</p>
+            <p class="aligncenter">column, float, clear, and vertical-align no afectan al grid container.</p>
+            <p class="aligncenter">Las líneas pueden tener varios nombre [row1-end row2-start]</p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/assets/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter">¿Qué soporte tiene en los navegadores?</h1>
+            <h4 class="aligncenter">CSS Grid Layout support (<a href="http://caniuse.com/#feat=css-grid">caniuse.com</a>)</h4>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/assets/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter">Contenedor</h1>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/assets/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter">Índice</h1>
+          </div>
+          <pre style="margin: 0 auto; max-width: 850px;">
+            display
+            grid-template-columns
+              grid-template-columns: repeat(number-of-times, width);
+              grid-template-columns: number repeat(number-of-times, width) number;
+              grid-template-columns: repeat(number-of-times, width width);
+              grid-template-columns: repeat(number-of-times, [col] width);
+            grid-template-rows
+              grid-template-columns: repeat(number-of-times, [row] width);
+            grid-template-areas
+            grid-template
+            grid-column-gap
+            grid-row-gap
+            grid-gap
+            justify-items
+            align-items
+            justify-content
+            align-content
+            grid-auto-columns
+            grid-auto-rows
+            grid-auto-flow
+            grid
+          </pre>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/assets/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter">display</h1>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">VALORES:</p>
+                <p class="text-intro"><code>grid</code></p>
+                <p class="text-intro"><code>inline-grid</code></p>
+                <p class="text-intro"><code>subgrid</code></p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+                .contenedor {
+                  display: grid | inline-grid | subgrid;
+                }
+                </pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/assets/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter">grid-template-columns - grid-template-rows</h1>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">VALORES:</p>
+                <p class="text-intro">- &lt;track-size&gt;</p>
+                <p class="text-intro">- &lt;line-name&gt;</p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+                .contenedor {
+                  grid-template-columns: &lt;track-size&gt; ... | &lt;line-name&gt; &lt;track-size&gt; ...;
+                  grid-template-rows: &lt;track-size&gt; ... | &lt;line-name&gt; &lt;track-size&gt; ...;
+                }
+
+                .contenedor {
+                  grid-template-columns: 100px 100px 300px 20% 1fr;
+                  grid-template-rows: 100px 100px 100px;
+                }
+                </pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+            <p class="aligncenter"><a href="https://codepen.io/IgnaciodeNuevo/pen/bRVXBQ" target="_blank">Ejemplo en CodePen</a></p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/assets/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter">grid-template-areas</h1>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">VALORES:</p>
+                <p class="text-intro">- &lt;grid-area-name&gt;</p>
+                <p class="text-intro">- .</p>
+                <p class="text-intro">- none</p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+                .item-a {
+                  grid-area: header;
+                }
+                .item-b {
+                  grid-area: main;
+                }
+                .item-c {
+                  grid-area: sidebar;
+                }
+                .item-d {
+                  grid-area: footer;
+                }
+
+                .contenedor {
+                  grid-template-columns: 1fr 1fr 1fr 1fr;
+                  grid-template-rows: auto;
+                  grid-template-areas:
+                    "header header header header"
+                    "main main . sidebar"
+                    "footer footer footer footer";
+                }
+                </pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+            <p class="aligncenter"><a href="https://codepen.io/IgnaciodeNuevo/pen/vZNorj" target="_blank">Ejemplo en CodePen</a></p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/assets/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter">grid-template</h1>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">VALORES:</p>
+                <p class="text-intro">- none</p>
+                <p class="text-intro">- subgrid</p>
+                <p class="text-intro">- grid-template-rows / grid-template-columns</p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+                .contenedor {
+                  grid-template: none | subgrid | grid-template-rows / grid-template-columns;
+                }
+
+                .contenedor {
+                  grid-template-rows: [fila-inicio] 25px [fila-fin row2-inicio] 25px [row2-fin];
+                  grid-template-columns: auto 50px auto;
+                  grid-template-areas:
+                    "header header header"
+                    "footer footer footer";
+                }
+                </pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/assets/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter">grid-column-gap - grid-row-gap</h1>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">VALORES:</p>
+                <p class="text-intro">- tamaño</p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+                .contenedor {
+                  grid-column-gap: &lt;tamaño&gt;;
+                  grid-row-gap: &lt;tamaño&gt;;
+                }
+                </pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+            <p class="aligncenter"><a href="https://codepen.io/IgnaciodeNuevo/pen/MoaNNj" target="_blank">Ejemplo en CodePen</a></p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/assets/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter">grid-gap</h1>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">VALORES:</p>
+                <p class="text-intro">- &lt;grid-row-gap&gt; &lt;grid-column-gap&gt;</p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+                .contenedor {
+                  grid-gap: tamaño;
+                }
+                </pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+            <p class="aligncenter"><a href="https://codepen.io/IgnaciodeNuevo/pen/weKVVV" target="_blank">Ejemplo en CodePen</a></p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/assets/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter">justify-items</h1>
+            <p class="aligncenter">fila</p>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">VALORES:</p>
+                <p class="text-intro">- start</p>
+                <p class="text-intro">- end</p>
+                <p class="text-intro">- center</p>
+                <p class="text-intro">- stretch</p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+                .contenedor {
+                  justify-items: start | end | center | stretch;
+                }
+                </pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/assets/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter">align-items</h1>
+            <p class="aligncenter">columna</p>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">VALORES:</p>
+                <p class="text-intro">- start</p>
+                <p class="text-intro">- end</p>
+                <p class="text-intro">- center</p>
+                <p class="text-intro">- stretch</p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+                .contenedor {
+                  align-items: start | end | center | stretch;
+                }
+                </pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/assets/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter">justify-content</h1>
+            <p class="aligncenter">fila</p>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">VALORES:</p>
+                <p class="text-intro">- start</p>
+                <p class="text-intro">- end</p>
+                <p class="text-intro">- center</p>
+                <p class="text-intro">- stretch</p>
+                <p class="text-intro">- space-around</p>
+                <p class="text-intro">- space-between</p>
+                <p class="text-intro">- space-evenly</p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+                .contenedor {
+                  justify-content: start | end | center | stretch | space-around | space-between | space-evenly;
+                }
+                </pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/assets/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter">align-content</h1>
+            <p class="aligncenter">columna</p>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">VALORES:</p>
+                <p class="text-intro">- start</p>
+                <p class="text-intro">- end</p>
+                <p class="text-intro">- center</p>
+                <p class="text-intro">- stretch</p>
+                <p class="text-intro">- space-around</p>
+                <p class="text-intro">- space-between</p>
+                <p class="text-intro">- space-evenly</p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+                .contenedor {
+                  align-content: start | end | center | stretch | space-around | space-between | space-evenly;
+                }
+                </pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/assets/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter">grid-auto-columns y grid-auto-rows</h1>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">VALORES:</p>
+                <p class="text-intro">- tamaño del track</p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+                .contenedor {
+                  grid-auto-columns: tamaño del track ...;
+                  grid-auto-rows: tamaño del track ...;
+                }
+
+                .contenedor {
+                  grid-template-columns: 60px 60px;
+                  grid-template-rows: 90px 90px
+                }
+                </pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+            <p class="aligncenter"><a href="https://codepen.io/IgnaciodeNuevo/pen/vZLByb" target="_blank">Ejemplo en CodePen</a></p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/assets/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter">grid-auto-flow</h1>
+            <p class="aligncenter">Dense puede causar que el orden de los items no sea el mismo que en el DOM</p>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">VALORES:</p>
+                <p class="text-intro">- row</p>
+                <p class="text-intro">- column</p>
+                <p class="text-intro">- dense</p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+                .contenedor {
+                  grid-auto-flow: row | column | row dense | column dense
+                }
+
+                &lt;section class="contenedor"
+                   &lt;div class="item-a"&gt;item-a&lt;/div&gt;
+                   &lt;div class="item-b"&gt;item-b&lt;/div&gt;
+                   &lt;div class="item-c"&gt;item-c&lt;/div&gt;
+                   &lt;div class="item-d"&gt;item-d&lt;/div&gt;
+                   &lt;div class="item-e"&gt;item-e&lt;/div&gt;
+                &lt;/section>
+
+                .contenedor {
+                  display: grid;
+                  grid-template-columns: 1fr 200px 200px 200px 1fr;
+                  grid-template-rows: repeat(2, 200px);
+                  grid-auto-flow: row;
+                }
+                </pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+            <p class="aligncenter"><a href="https://codepen.io/IgnaciodeNuevo/pen/vZLBjq" target="_blank">Ejemplo en CodePen</a></p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/assets/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter">grid</h1>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">VALORES:</p>
+                <p class="text-intro">- none</p>
+                <p class="text-intro">- grid-template-rows / grid-template-columns</p>
+                <p class="text-intro">- grid-auto-flow [grid-auto-rows [ / grid-auto-columns] ]</p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+                .contenedor {
+                  grid: none | grid-template-rows / grid-template-columns | grid-auto-flow [grid-auto-rows [ / grid-auto-columns]];
+                }
+
+                .contenedor {
+                  grid-template-rows: 200px auto;
+                  grid-template-columns: 1fr auto 1fr;
+                  grid-template-areas: none;
+                }
+                </pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+            <p class="aligncenter"><a href="https://css-tricks.com/snippets/css/complete-guide-grid/#article-header-id-24" target="_blank">Ejemplo en CSS-Tricks</a></p>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/assets/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter">Items</h1>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/assets/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter">Índice</h1>
+          </div>
+          <pre style="margin: 0 auto; max-width: 850px;">
+            grid-column-start
+            grid-column-end
+            grid-row-start
+            grid-row-end
+            grid-column
+            grid-row
+            grid-area
+            justify-self
+            align-self
+          </pre>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/assets/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter">grid-column-start - grid-column-end<br>grid-row-start - grid-row-end</h1>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">VALORES:</p>
+                <p class="text-intro">- &lt;línea&gt;</p>
+                <p class="text-intro">- span &lt;número&gt;</p>
+                <p class="text-intro">- span &lt;nombre&gt;</p>
+                <p class="text-intro">- auto dense</p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+                .item-a {
+                  grid-column-start: 2;
+                  grid-column-end: five;
+                  grid-row-start: row1-start
+                  grid-row-end: 3
+                }
+                </pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/assets/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter">grid-column - grid-row</h1>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">VALORES:</p>
+                <p class="text-intro">- &lt;start-line&gt; / &lt;end-line&gt;</p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+                .item-c {
+                  grid-column: 3 / span 2;
+                  grid-row: third-line / 4;
+                }
+                </pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/assets/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter">grid-area</h1>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">VALORES:</p>
+                <p class="text-intro">- &lt;name&gt;</p>
+                <p class="text-intro">- &lt;row-start&gt; / &lt;column-start&gt; / &lt;row-start&gt; / &lt;column-end&gt;</p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+                .item {
+                  grid-area: &lt;name&gt; | &lt;row-start&gt; / &lt;column-start&gt; / &lt;row-end&gt; / &lt;column-end&gt;;
+                }
+
+                item-d {
+                  grid-area: header
+                }
+                </pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/assets/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter">justify-self</h1>
+            <p class="aligncenter">fila</p>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">VALORES:</p>
+                <p class="text-intro">- start</p>
+                <p class="text-intro">- end</p>
+                <p class="text-intro">- center</p>
+                <p class="text-intro">- stretch</p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+                .item {
+                  justify-self: start | end | center | stretch;
+                }
+
+                .item-a {
+                  justify-self: start;
+                }
+                </pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/assets/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <h1 class="aligncenter">align-self</h1>
+            <p class="aligncenter">columna</p>
+            <div class="grid vertical-align">
+              <div class="column">
+                <p class="text-intro">VALORES:</p>
+                <p class="text-intro">- start</p>
+                <p class="text-intro">- end</p>
+                <p class="text-intro">- center</p>
+                <p class="text-intro">- stretch</p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>
+                .item {
+                  align-self: start | end | center | stretch;
+                }
+
+                .item-a {
+                  align-self: start;
+                }
+                </pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/assets/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap aligncenter">
+            <h1>Recursos</h1>
+            <p class="text-intro">Recursos para profundizar en CSS Grid Layout</p>
+            <ul class="flexblock features">
+              <li>
+                <a href="https://www.w3.org/TR/css-grid-1/" target="_blank"><h4 class="aligncenter">CSS Grid Layout Module Level 1</h4></a>
+              </li>
+              <li>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout" target="_blank"><h4 class="aligncenter">CSS Grid Layout MDN</h4></a>
+              </li>
+              <li>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/CSS_Grid_and_Progressive_Enhancement" target="_blank"><h4 class="aligncenter">Grid Progressive Enhancement</h4></a>
+              </li>
+              <li>
+                <a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank"><h4 class="aligncenter">CSS Grid Layout CSS-Tricks</h4></a>
+              </li>
+              <li>
+                <a href="https://gridbyexample.com/" target="_blank"><h4 class="aligncenter">Grid by Example</h4></a>
+              </li>
+              <li>
+                <a href="https://rachelandrew.co.uk/css/cheatsheets/grid-fallbacks" target="_blank"><h4 class="aligncenter">Grid Fallbacks</h4></a>
+              </li>
+              <li>
+                <a href="https://alialaa.github.io/css-grid-cheat-sheet/" target="_blank"><h4 class="aligncenter">CSS Grid Cheat Sheet</h4></a>
+              </li>
+              <li>
+                <a href="http://griddy.io/" target="_blank"><h4 class="aligncenter">Griddy</h4></a>
+              </li>
+              <li>
+                <a href="http://learncssgrid.com/" target="_blank"><h4 class="aligncenter">Learn CSS Grid</h4></a>
+              </li>
+              <li>
+                <a href="https://codepen.io/collection/DEPOzv/" target="_blank"><h4 class="aligncenter">CSS Grid Examples - Rachel</h4></a>
+              </li>
+              <li>
+                <a href="https://codepen.io/collection/DgwjNL/" target="_blank"><h4 class="aligncenter">CSS Grid Examples - Gabi</h4></a>
+              </li>
+              <li>
+                <a href="https://codepen.io/collection/XRRJGq/" target="_blank"><h4 class="aligncenter">CSS Grid Examples - Stacy</h4></a>
+              </li>
+            </ul>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/assets/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+
+        <section class="bg-apple">
+          <div class="wrap aligncenter">
+            <h1>¿A quién seguir?</h1>
+            <p class="text-intro">Gente que habla habitualmente de CSS.</p>
+            <ul class="flexblock features">
+              <li>
+                <a href="https://twitter.com/rachelandrew" target="_blank"><h4 class="aligncenter">Rachel Andrew</h4></a>
+              </li>
+               <li>
+                <a href="https://twitter.com/jensimmons" target="_blank"><h4 class="aligncenter">Jen Simmons</h4></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/LeaVerou" target="_blank"><h4 class="aligncenter">Lea Verou</h4></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/nabaroa" target="_blank"><h4 class="aligncenter">Naiara Abaroa</h4></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/diana_aceves_" target="_blank"><h4 class="aligncenter">Diana Aceves</h4></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/ancoar" target="_blank"><h4 class="aligncenter">Ángel Corral</h4></a>
+              </li>
+            </ul>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/assets/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <div class="wrap aligncenter">
+            <h1>¡Gracias!</h1><br><br>
+            <p class="text-symbols">* * *</p>
+            <a href="http://ignaciodenuevo.com/" target="_blank">IgnaciodeNuevo.com</a><br><br>
+            <a href="http://wecodesignpodcast.com/" target="_blank">WeCodeSign Podcast</a><br><br>
+            <a href="http://osweekends.com/" target="_blank">Open Source Weekends</a>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/assets/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+
+
+        <section class="bg-apple">
+          <span class="background" style="background-image: url('https://media.giphy.com/media/sB7cTkLm0xzXO/giphy.gif')"></span>
+          <div class="wrap aligncenter">
+            <h1>¿Alguna pregunta?</h1>
+          </div>
+          <footer>
+            <p>
+              <span class="alignleft">
+              <a href="https://twitter.com/IgnaciodeNuevo" target="_blank">@IgnaciodeNuevo</a>
+              </span>
+            </p>
+            <p>
+              <span class="alignright">
+                <img style="max-width: 100px;" src="/assets/images/speaking/speaking-logo.svg" alt="IgnaciodeNuevo's Logo"><a href="http://ignaciodenuevo.com/" target="_blank">ignaciodenuevo.com</a>
+              </span>
+            </p>
+          </footer>
+        </section>
+
+      </article>
+    </main>
+    <!--main-->
+
+
+
+
+
+
+      </article>
+      <!-- end article -->
+    </main>
+    <!-- end main -->
+
+   <!-- A global footer
+
+     <footer role="contentinfo">
+      <div class="wrap">
+        <p>An <a href="https://github.com/webslides/webslides">open source solution</a>, by <a href="https://twitter.com/webslides">@webslides</a>.</p>
+      </div>
+    </footer>  -->
+
+    <!-- Required -->
+    <script src="webslides/js/webslides.min.js"></script>
+    <script>
+      window.ws = new WebSlides();
+    </script>
+
+  </body>
+  </html>

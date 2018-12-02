@@ -1,0 +1,74 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the masthead of the website.
+// -----------------------------------------------------------------------------
+.masthead {
+    background-color: var(--color-base-dark, #0b0b0a);
+    color: var(--color-white, #ffffff);
+    height: calc(100vh - var(--nav-height, 4.5rem));
+    position: relative;
+
+    &__img {
+        display: none;
+
+        @supports (object-fit: cover) {
+            display: block;
+            height: calc(100vh - var(--nav-height, 4.5rem));
+            object-fit: cover;
+            width: 100%;
+
+            @media (min-width: 125em) {
+                object-position: left top;
+            }
+        }
+    }
+
+    &__content {
+        bottom: 20%;
+        left: var(--left, 1rem);
+        position: absolute;
+
+        @media (min-width: $mq-xs) {
+            bottom: var(--bottom, 4rem);
+        }
+    }
+
+    &__title {
+        margin-bottom: 0.5rem;
+        padding-right: var(--space-m, 1rem);
+    }
+
+    &__subtitle {
+        padding-right: var(--space-m, 1rem);
+    }
+
+    &__disclaimer {
+        bottom: var(--space-m, 1rem);
+        display: block;
+        left: var(--left, 1rem);
+        padding-right: var(--space-m, 1rem);
+        position: absolute;
+
+        @include body-small();
+
+        @media (min-width: $mq-l) {
+            bottom: var(--bottom, 4rem);
+            left: initial;
+            padding-right: 0;
+            right: 0;
+            writing-mode: vertical-lr;
+        }
+
+        .link {
+            color: var(--color-secondary, #ffd300);
+            padding: var(--space-xxs, 0.125rem);
+            text-decoration: none;
+
+            @include transition();
+
+            &:hover {
+                background-color: var(--color-secondary, #ffd300);
+                color: var(--color-base-dark, #0b0b0a);
+            }
+        }
+    }
+}

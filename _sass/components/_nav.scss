@@ -36,7 +36,7 @@
 
     .link {
         color: var(--color-white, #ffffff);
-        letter-spacing: 0.125rem;
+        letter-spacing: var(--letter-spacing, 0.125rem);
         margin-right: var(--space-s, 0.5rem);
         text-decoration: none;
         text-transform: uppercase;

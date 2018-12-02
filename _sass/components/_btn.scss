@@ -3,10 +3,14 @@
 // -----------------------------------------------------------------------------
 .btn {
     align-items: center;
-    border-radius: var(--border-radius-xxs, 0.25rem);
     display: flex;
+    font-weight: var(--fake-bold, bold);
     justify-content: center;
+    letter-spacing: var(--letter-spacing, 0.125rem);
+    max-width: 12.5rem;
     padding: var(--space-s, 0.5rem);
+    text-decoration: none;
+    text-transform: uppercase;
 
     @include transition();
 
@@ -23,6 +27,25 @@
 
      > svg {
         fill: currentColor;
+        margin-right: var(--space-s, 0.5rem);
+    }
+}
+
+.btn--regular {
+    background-color: transparent;
+    border: 2px solid var(--color-primary, #0047bb);
+    color: var(--color-primary, #0047bb);
+    padding-bottom: var(--space-m, 1rem);
+    padding-top: var(--space-m, 1rem);
+
+    &:active,
+    &:hover {
+        background-color: var(--color-primary, #0047bb);
+        border-color: var(--color-primary, #0047bb);
+        color: var(--color-white, #ffffff);
+    }
+
+    > span {
         margin-right: var(--space-s, 0.5rem);
     }
 }

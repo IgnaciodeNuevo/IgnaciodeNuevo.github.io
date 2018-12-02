@@ -12,6 +12,16 @@
 }
 
 //
+// Line Divider
+//
+.u-divider {
+    background-color: currentColor;
+    height: 4px;
+    margin-bottom: 1rem;
+    width: 4rem;
+}
+
+//
 // Hide text while making it readable for screen readers
 // 1. Needed in WebKit-based browsers because of an implementation bug;
 //    See: https://code.google.com/p/chromium/issues/detail?id=457146

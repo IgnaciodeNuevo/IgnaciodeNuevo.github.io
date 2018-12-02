@@ -10,13 +10,39 @@ layout: default
                     /assets/images/ignacio-home-extralarge@3x.jpg 3x">
         <div class="masthead__content">
             <h1 class="masthead__title">{{ site.job }}</h1>
-            <div class="masthead__divider"></div>
+            <div class="u-divider"></div>
             <p class="masthead__subtitle">{{ site.shortdescription }}</p>
         </div>
         <p class="masthead__disclaimer">Follow me on <a class="link" href="{{ site.twitter }}" rel="me" target="_blank" rel="noopener">Twitter</a>, fork me on <a class="link" href="{{ site.github }}" rel="me" target="_blank" rel="noopener">Github</a>, subscribe via <a class="link" href="/feed.xml">RSS Feed</a> or say hello at {% include component-email.html %}</p>
     </section>
 
-    {% for podcast in site.data.podcast limit:1 %}
+    <section class="content">
+        <div class="content__writing">
+            <h2>Writing</h2>
+            <div class="u-divider"></div>
+            <p>I use to write from time to time. If you are looking for something specific, hit <a class="link" href="/search">the search</a> in the footer of the page, or check all <a class="link" href="/interviews">Developer Interviews</a>.</p>
+            <a class="btn btn--regular" href="/blog/">
+                <span>Blog</span>
+                {% include icons/arrow-enter.html %}
+            </a>
+        </div>
+        <div class="content__speaking">
+            <h2>Speaking</h2>
+            <div class="u-divider"></div>
+            {% for talk in site.data.speaking limit: 10 %}
+                <a class="" href="/speaking/{{ talk.url }}">
+                    <time class="">{{ talk.date }}</time>
+                    <h3 class="content__subtitle">{{ talk.name }}</h3>
+                </a>
+            {% endfor %}
+        </div>
+        <div class="content__podcast">
+            <h2>Podcast</h2>
+            <div class="u-divider"></div>
+        </div>
+    </section>
+
+    <!-- {% for podcast in site.data.podcast limit:1 %}
     <h2 class="">Latest Podcast episode:</h2>
     <div>
         <blockquote class="">
@@ -37,16 +63,7 @@ layout: default
     </section>
     {% endfor %}
 
-    {% for talk in site.data.speaking limit:1 %}
-    <h2 class="">Latest talk:</h2>
-    <section class="">
-        <a class="" href="/speaking/{{ talk.speaking_url }}">
-            <h3 class="">{{ talk.name }}</h3>
-            <time class="">{{ talk.speaking_date }}</time>
-            <p class="">{{ talk.description }}</p>
-        </a>
-    </section>
-    {% endfor %}
+
 
     {% for post in site.posts limit:1 %}
     <h2 class="">Latest article:</h2>
@@ -72,5 +89,5 @@ layout: default
         <p class=""><a href="{{ interview.interview_web }}" target="_blank" rel="noopener">{{ interview.name }}'s Web</a></p>
         <p class=""><a href="{{ interview.interview_twitter }}" target="_blank" rel="noopener">{{ interview.name }}'s Twitter</a></p>
     </section>
-    {% endfor %}
+    {% endfor %} -->
 </main>
