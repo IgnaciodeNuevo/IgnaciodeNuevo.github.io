@@ -71,9 +71,8 @@
 
             &:hover {
                 background-color: var(--color-white, #ffffff);
-                transition-duration: var(--animation-speed, 0.25s);
-                transition-property: background-color;
-                transition-timing-function: var(--animation-type-cubic, cubic-bezier(0, 0, 0.3, 1));
+
+                @include transition(background-color);
             }
 
             &:hover .link__label {
@@ -86,4 +85,9 @@
 .logo {
     fill: var(--color-white, #ffffff);
     height: calc(var(--nav-height, 80px) - var(--space-m, 1rem) * 2);
+    max-width: 140px;
+
+    @media (min-width: 23.4375em) {
+        min-width: auto;
+    }
 }

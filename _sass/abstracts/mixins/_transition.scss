@@ -1,0 +1,12 @@
+// Transition Mixin
+// @params {String} $prop
+@mixin transition($prop: all) {
+    transition-duration: var(--animation-speed, 0.25s);
+    transition-property: $prop;
+    transition-timing-function: var(--animation-type-cubic, cubic-bezier(0, 0, 0.3, 1));
+}
+
+// Usage
+// .p {
+//     @include transition(transform);
+// }

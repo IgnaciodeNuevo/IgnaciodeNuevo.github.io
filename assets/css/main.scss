@@ -13,6 +13,7 @@
   'abstracts/mixins/ellipsis-multiline',
   'abstracts/mixins/modular-scale',
   'abstracts/mixins/underline',
+  'abstracts/mixins/transition',
   'abstracts/mixins/spacing';
 
 // 2. Vendors
@@ -34,6 +35,7 @@
 
 // 5. Components
 @import
+  'components/link',
   'components/btn',
   'components/nav',
   'components/offcanvas';

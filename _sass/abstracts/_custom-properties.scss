@@ -10,7 +10,6 @@
 
     --color-primary: #0047bb;
     --color-secondary: #ffd300;
-    --color-secondary-hover: #ffac00;
     --line-color: #262626;
 
     --box-shaodw: 0 1px 2px rgba(var(--color-base-dark, #0b0b0a), 0.5);
@@ -20,10 +19,10 @@
     --animation-type-cubic: cubic-bezier(0, 0, 0.3, 1);
 
     --font-family-body-fallback: Arial, sans-serif;
-    --font-family-body-subset: 'Brando Regular Sans Subset', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    // --font-family-body-subset: 'Brando Regular Sans Subset', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     --font-family-body: 'Brando Regular Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     --font-family-title-fallback: Georgia, sans-serif;
-    --font-family-title-subset: 'Guardian Bold Egyptian Subset', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, serif;
+    // --font-family-title-subset: 'Guardian Bold Egyptian Subset', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, serif;
     --font-family-title: 'Guardian Bold Egyptian', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, serif;
     --font-family-code: 'Input', monospace;
 

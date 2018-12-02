@@ -10,9 +10,10 @@ layout: default
                     /assets/images/ignacio-home-extralarge@3x.jpg 3x">
         <div class="masthead__content">
             <h1 class="masthead__title">{{ site.job }}</h1>
+            <div class="masthead__divider"></div>
             <p class="masthead__subtitle">{{ site.shortdescription }}</p>
         </div>
-        <p class="masthead__disclaimer">Follow me on <a href="{{ site.twitter }}" rel="me" target="_blank" rel="noopener">Twitter</a>, fork me on <a href="{{ site.github }}" rel="me" target="_blank" rel="noopener">Github</a>, subscribe via <a href="/feed.xml">RSS Feed</a> or say hello at {% include component-email.html %}</p>
+        <p class="masthead__disclaimer">Follow me on <a class="link" href="{{ site.twitter }}" rel="me" target="_blank" rel="noopener">Twitter</a>, fork me on <a class="link" href="{{ site.github }}" rel="me" target="_blank" rel="noopener">Github</a>, subscribe via <a class="link" href="/feed.xml">RSS Feed</a> or say hello at {% include component-email.html %}</p>
     </section>
 
     {% for podcast in site.data.podcast limit:1 %}

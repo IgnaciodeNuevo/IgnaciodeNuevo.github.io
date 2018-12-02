@@ -4,12 +4,11 @@
 .btn {
     align-items: center;
     border-radius: var(--border-radius-xxs, 0.25rem);
-    justify-content: center;
-    transition-duration: var(--animation-speed, 0.25s);
-    transition-property: all;
-    transition-timing-function: var(--animation-type-cubic, cubic-bezier(0, 0, 0.3, 1));
-    padding: var(--space-s, 0.5rem);
     display: flex;
+    justify-content: center;
+    padding: var(--space-s, 0.5rem);
+
+    @include transition();
 
     &:hover {
         background-color: var(--color-white, #ffffff);
@@ -38,8 +37,6 @@
         border-color: var(--color-primary, #0047bb);
         color: var(--color-primary, #0047bb);
     }
-
-
 }
 
 .btn--ghost {

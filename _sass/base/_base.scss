@@ -31,11 +31,10 @@ body.is-active .container {
 
 .container {
     position: relative;
-    transition-duration: var(--animation-speed, 0.25s);
-    transition-property: transform;
-    transition-timing-function: var(--animation-type-cubic, cubic-bezier(0, 0, 0.3, 1));
     width: 100%;
     z-index: 1;
+
+    @include transition(transform);
 }
 
 //
