@@ -26,7 +26,7 @@
     }
 
     .link {
-        color: var(--color-base-dark, #0b0b0a);
+        color: var(--color-primary, #0047bb);
         padding: var(--space-xxs, 0.125rem);
 
         @include transition();

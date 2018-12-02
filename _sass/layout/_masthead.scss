@@ -24,11 +24,11 @@
 
     &__content {
         bottom: 20%;
-        left: var(--left, 1rem);
+        left: var(--horizontal, 1rem);
         position: absolute;
 
         @media (min-width: $mq-xs) {
-            bottom: var(--bottom, 4rem);
+            bottom: var(--vertical, 4rem);
         }
     }
 
@@ -44,14 +44,14 @@
     &__disclaimer {
         bottom: var(--space-m, 1rem);
         display: block;
-        left: var(--left, 1rem);
+        left: var(--horizontal, 1rem);
         padding-right: var(--space-m, 1rem);
         position: absolute;
 
         @include body-small();
 
         @media (min-width: $mq-l) {
-            bottom: var(--bottom, 4rem);
+            bottom: var(--vertical, 4rem);
             left: initial;
             padding-right: 0;
             right: 0;

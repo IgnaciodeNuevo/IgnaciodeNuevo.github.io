@@ -10,6 +10,7 @@ html {
     box-sizing: border-box;
     color: var(--color-primary, #0047bb);
     font-size: 100%; // 16px
+
     -webkit-text-size-adjust: 100%; // 1
 
     @media (min-width: $mq-m) {
@@ -37,6 +38,11 @@ body.is-active .container {
     @include transition(transform);
 }
 
+.icon {
+    height: 24px;
+    width: 24px;
+}
+
 //
 // Make all elements from the DOM inherit from the parent box-sizing
 // Since `*` has a specificity of 0, it does not override the `html` value
@@ -45,5 +51,6 @@ body.is-active .container {
 //
 *,
 *::before,
-*::after { box-sizing: inherit;
+*::after {
+    box-sizing: inherit;
 }

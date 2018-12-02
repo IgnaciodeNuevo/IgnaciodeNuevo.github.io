@@ -12,7 +12,7 @@ $modularscale: (
     margin-top: 0;
     white-space: nowrap;
     position: absolute;
-    right: var(--left-negative, -1rem);
+    right: calc(#{var(--horizontal, 1rem)} * -1);
     bottom: -(ms(6) / 3);
     overflow: hidden;
 
