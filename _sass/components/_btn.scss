@@ -1,0 +1,54 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the buttons of the website.
+// -----------------------------------------------------------------------------
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    background-color: var(--color-primary, #0047bb);
+    color: var(--color-white, #ffffff);
+    border-radius: var(--border-radius-xxs);
+    padding: var(--space-s, 0.5rem);
+
+    > svg {
+        margin-right: var(--space-s, 0.5rem);
+        fill: currentColor;
+    }
+}
+
+.btn-ghost {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid currentColor;
+    background-color: transparent;
+    color: var(--color-white, #ffffff);
+    border-radius: var(--border-radius-xxs);
+    padding: var(--space-s, 0.5rem);
+    opacity: 0.5;
+    transition-duration: var(--animation-speed, 0.25s);
+    transition-property: opacity;
+    transition-timing-function: var(--animation-type-cubic, cubic-bezier(0, 0, 0.3, 1));
+
+    &:hover {
+        opacity: 1;
+    }
+
+    &:active {
+        background-color: var(--color-white, #ffffff);
+        color: var(--color-base-dark, #0b0b0a);
+        opacity: 1;
+    }
+
+    &:focus {
+        outline: 0;
+        border: 1px dotted var(--color-secondary, #ffd300);
+        opacity: 1;
+    }
+
+    > svg {
+        margin-right: var(--space-s, 0.5rem);
+        fill: currentColor;
+    }
+}

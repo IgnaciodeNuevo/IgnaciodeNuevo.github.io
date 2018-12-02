@@ -1,17 +1,11 @@
 <header class="header" role="banner">
     <nav class="nav-main">
-        <div class="logo-wrapper">
-            <a href="/">{% include icons/logo-horizontal.html %}</a>
-        </div>
+        <a href="/">{% include icons/logo-horizontal.html %}</a>
         {% include layout-nav.html %}
 
-        <button id="js-open-menu" class="btn" aria-controls="js-nav">
-            <svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true">
-                <rect width="30" height="3" />
-                <rect y="24" width="30" height="3" />
-                <rect y="12" width="30" height="3" />
-            </svg>
-            <span class="menu-text">Open Menu</span>
+        <button id="js-open-menu" class="btn-ghost" aria-controls="js-nav">
+            {% include icons/hamburguer.html %}
+            <span>Menu</span>
         </button>
     </nav>
 </header>

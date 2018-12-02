@@ -28,11 +28,15 @@
 
 // 4. Layout-related sections
 @import
-  'layout/offcanvas',
   'layout/header',
   'layout/footer';
 
 // 5. Components
+@import
+  'components/btn',
+  'components/nav',
+  'components/offcanvas';
+
 
 // 6. Page-specific styles
 @import

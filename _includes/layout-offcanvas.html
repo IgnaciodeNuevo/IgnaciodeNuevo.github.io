@@ -1,11 +1,7 @@
 <aside class="offcanvas" id="js-nav" aria-label="Main navigation">
     <button id="js-close-menu" class="btn" aria-controls="js-nav">
-        <svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true">
-            <rect width="30" height="3" />
-            <rect y="24" width="30" height="3" />
-            <rect y="12" width="30" height="3" />
-        </svg>
-        <span class="menu-text">Close Menu</span>
+        {% include icons/hamburguer.html %}
+        <span>Menu</span>
     </button>
     {% include layout-nav.html %}
 

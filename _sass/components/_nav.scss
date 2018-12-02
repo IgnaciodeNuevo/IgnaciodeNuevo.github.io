@@ -1,0 +1,18 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the nav of the website.
+// -----------------------------------------------------------------------------
+.nav-main {
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    height: var(--nav-height, 80px);
+    justify-content: space-between;
+    padding-bottom: var(--space-m, 1rem);
+    padding-left: var(--space-l, 2rem);
+    padding-right: var(--space-l, 2rem);
+    padding-top: var(--space-m, 1rem);
+}
+
+.logo {
+    fill: var(--color-white, #ffffff); height: calc(var(--nav-height, 80px) - var(--space-m, 1rem) * 2);
+}
