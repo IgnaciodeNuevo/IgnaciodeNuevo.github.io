@@ -77,4 +77,12 @@
         color: var(--color-base-dark, #0b0b0a);
         opacity: 1;
     }
+
+    &:active {
+        opacity: 0.9;
+    }
+
+    &:focus {
+        border: 2px dotted var(--color-white, #ffffff);
+    }
 }

@@ -14,7 +14,7 @@
 
     function handleKeydown(event) {
         if (event.keyCode === escapeCode) {
-            document.body.classList.toggle('is-active');
+            document.body.classList.remove('is-active');
             disableNavLinks();
             navOpenButton.focus();
         }
@@ -33,7 +33,8 @@
 
     function enableNavLinks() {
         navOpenButton.setAttribute('aria-label', 'Menu expanded');
-        navCloseButton.tabindex = 1;
+        navCloseButton.setAttribute('aria-label', 'Menu expanded');
+        navCloseButton.removeAttribute('tabIndex');
         navMenu.removeAttribute('aria-hidden');
         for (let i = 0; i < navLinks.length; ++i) {
             navLinks[i].removeAttribute('tabIndex');
@@ -42,6 +43,8 @@
 
     function disableNavLinks() {
         navOpenButton.setAttribute('aria-label', 'Menu collapsed');
+        navCloseButton.setAttribute('aria-label', 'Menu collapsed');
+        navCloseButton.tabIndex = -1;
         navMenu.setAttribute('aria-hidden', 'true');
         for (let i = 0; i < navLinks.length; ++i) {
             navLinks[i].tabIndex = -1;
