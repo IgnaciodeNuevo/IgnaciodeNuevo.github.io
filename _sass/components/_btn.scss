@@ -16,7 +16,7 @@
 
     &:hover {
         background-color: var(--color-white, #ffffff);
-        color: var(--color-base-dark, #0b0b0a);
+        color: var(--color-base-dark, #141414);
         cursor: pointer;
     }
 
@@ -76,7 +76,7 @@
 
     &:active {
         background-color: var(--color-white, #ffffff);
-        color: var(--color-base-dark, #0b0b0a);
+        color: var(--color-base-dark, #141414);
         opacity: 1;
     }
 
@@ -86,15 +86,15 @@
 }
 
 .btn--inverted {
-    background-color: var(--color-base-dark, #0b0b0a);
-    border: 2px solid var(--color-base-dark, #0b0b0a);
+    background-color: var(--color-base-dark, #141414);
+    border: 2px solid var(--color-base-dark, #141414);
     color: var(--color-white, #ffffff);
     padding: var(--space-s, 0.5rem);
 
     &:hover {
         background-color: var(--color-secondary, #ffd300);
         border: 2px solid currentColor;
-        color: var(--color-base-dark, #0b0b0a);
+        color: var(--color-base-dark, #141414);
         opacity: 1;
     }
 

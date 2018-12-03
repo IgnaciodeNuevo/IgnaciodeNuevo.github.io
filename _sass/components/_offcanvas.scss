@@ -3,7 +3,7 @@
 // -----------------------------------------------------------------------------
 .offcanvas {
     background-color: var(--color-secondary, #ffd300);
-    color: var(--color-base-dark, #0b0b0a);
+    color: var(--color-base-dark, #141414);
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -39,7 +39,7 @@
     }
 
     svg {
-        fill: var(--color-base-dark, #0b0b0a);
+        fill: var(--color-base-dark, #141414);
     }
 
     .nav-items {
@@ -49,7 +49,7 @@
 
     .link {
         @include heading-h6();
-        color: var(--color-base-dark, #0b0b0a);
+        color: var(--color-base-dark, #141414);
         font-family: var(--font-family-title, 'Guardian Bold Egyptian', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, serif);
         text-decoration: none;
         margin-bottom: 0.75rem;
