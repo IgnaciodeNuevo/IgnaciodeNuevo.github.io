@@ -6,7 +6,7 @@
     text-decoration-line: underline;
     text-decoration-skip: ink;
     text-decoration-style: dotted;
-    padding-right: 1rem;
+    padding-right: var(--space-s, 0.5rem);
     white-space: nowrap;
 
     &:hover {
