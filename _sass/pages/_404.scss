@@ -3,12 +3,12 @@
 // -----------------------------------------------------------------------------
 .page-404 {
     background-color: var(--color-primary, #0047bb);
-    background-image: url('/assets/images/ignacio-404.jpg');
-    background-repeat: no-repeat;
+    background-image: url("/assets/images/ignacio-404.jpg");
     background-position: center center;
+    background-repeat: no-repeat;
     background-size: cover;
     color: var(--color-white, #ffffff);
-    position: relative;
     height: 100vh;
     padding: var(--space-m, 1rem);
+    position: relative;
 }

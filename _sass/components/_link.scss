@@ -2,11 +2,11 @@
 // This file contains all styles related to the link component of the website.
 // -----------------------------------------------------------------------------
 .link {
+    padding-right: var(--space-s, 0.5rem);
     text-decoration-color: currentColor;
     text-decoration-line: underline;
     text-decoration-skip: ink;
     text-decoration-style: dotted;
-    padding-right: var(--space-s, 0.5rem);
     white-space: nowrap;
 
     &:hover {
