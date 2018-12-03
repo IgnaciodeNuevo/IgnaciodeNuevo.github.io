@@ -3,7 +3,7 @@ layout: default
 ---
 
 <main class="main" role="“main”">
-    <section class="masthead">
+    <section class="hero">
         <picture>
             <!-- Extra Large -->
             <source
@@ -59,19 +59,19 @@ layout: default
 
             <!-- Regular IMG -->
             <img
-                class="masthead__img"
+                class="hero__img"
                 src="/assets/images/hero/ignacio-home.jpg"
                 alt="Photography of Ignacio in a dark background"
                 srcset="/assets/images/hero/ignacio-home-extralarge.jpg    1x,
                         /assets/images/hero/ignacio-home-extralarge@2x.jpg 2x,
                         /assets/images/hero/ignacio-home-extralarge@3x.jpg 3x" />
         </picture>
-        <div class="masthead__content">
-            <h1 class="masthead__title">{{ site.job }}</h1>
+        <div class="hero__content">
+            <h1 class="hero__title">{{ site.job }}</h1>
             <div class="u-divider"></div>
-            <p class="masthead__subtitle">{{ site.shortdescription }}</p>
+            <p class="hero__subtitle">{{ site.shortdescription }}</p>
         </div>
-        <p class="masthead__disclaimer">
+        <p class="hero__disclaimer">
             Follow me on
             <a class="link" href="{{ site.twitter }}" rel="me" target="_blank" rel="noopener"
                 >Twitter</a
