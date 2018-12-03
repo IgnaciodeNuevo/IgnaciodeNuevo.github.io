@@ -2,38 +2,111 @@
 layout: default
 ---
 
-<main class="main" role=“main”>
+<main class="main" role="“main”">
     <section class="masthead">
-        <img class="masthead__img"
-            src="/assets/images/hero/ignacio-home.jpg"
-            srcset="/assets/images/hero/ignacio-home-extralarge@2x.jpg 2x,
-                    /assets/images/hero/ignacio-home-extralarge@3x.jpg 3x">
+        <picture>
+            <!-- Extra Large -->
+            <source
+                media="(min-width: 1440px)"
+                srcset="/assets/images/hero/ignacio-home-extralarge.webp    1x,
+                        /assets/images/hero/ignacio-home-extralarge@2x.webp 2x,
+                        /assets/images/hero/ignacio-home-extralarge@3x.webp 3x"
+                type="image/webp"/>
+            <source
+                media="(min-width: 1440px)"
+                srcset="/assets/images/hero/ignacio-home-extralarge.jpg    1x,
+                        /assets/images/hero/ignacio-home-extralarge@2x.jpg 2x,
+                        /assets/images/hero/ignacio-home-extralarge@3x.jpg 3x" />
+
+            <!-- Large -->
+            <source
+                media="(min-width: 1280px)"
+                srcset="/assets/images/hero/ignacio-home-large.webp    1x,
+                        /assets/images/hero/ignacio-home-large@2x.webp 2x,
+                        /assets/images/hero/ignacio-home-large@3x.webp 3x"
+                type="image/webp"/>
+            <source
+                media="(min-width: 1280px)"
+                srcset="/assets/images/hero/ignacio-home-large.jpg    1x,
+                        /assets/images/hero/ignacio-home-large@2x.jpg 2x,
+                        /assets/images/hero/ignacio-home-large@3x.jpg 3x" />
+
+            <!-- Medium -->
+            <source
+                media="(min-width: 768px)"
+                srcset="/assets/images/hero/ignacio-home-medium.webp    1x,
+                        /assets/images/hero/ignacio-home-medium@2x.webp 2x,
+                        /assets/images/hero/ignacio-home-medium@3x.webp 3x"
+                type="image/webp"/>
+            <source
+                media="(min-width: 768px)"
+                srcset="/assets/images/hero/ignacio-home-medium.jpg    1x,
+                        /assets/images/hero/ignacio-home-medium@2x.jpg 2x,
+                        /assets/images/hero/ignacio-home-medium@3x.jpg 3x" />
+
+            <!-- Small -->
+            <source
+                media="(min-width: 0px)"
+                srcset="/assets/images/hero/ignacio-home-small.webp    1x,
+                        /assets/images/hero/ignacio-home-small@2x.webp 2x,
+                        /assets/images/hero/ignacio-home-small@3x.webp 3x"
+                type="image/webp"/>
+            <source
+                media="(min-width: 0px)"
+                srcset="/assets/images/hero/ignacio-home-small.jpg    1x,
+                        /assets/images/hero/ignacio-home-small@2x.jpg 2x,
+                        /assets/images/hero/ignacio-home-small@3x.jpg 3x" />
+
+            <!-- Regular IMG -->
+            <img
+                class="masthead__img"
+                src="/assets/images/hero/ignacio-home.jpg"
+                alt="Photography of Ignacio in a dark background"
+                srcset="/assets/images/hero/ignacio-home-extralarge.jpg    1x,
+                        /assets/images/hero/ignacio-home-extralarge@2x.jpg 2x,
+                        /assets/images/hero/ignacio-home-extralarge@3x.jpg 3x" />
+        </picture>
         <div class="masthead__content">
             <h1 class="masthead__title">{{ site.job }}</h1>
             <div class="u-divider"></div>
             <p class="masthead__subtitle">{{ site.shortdescription }}</p>
         </div>
-        <p class="masthead__disclaimer">Follow me on <a class="link" href="{{ site.twitter }}" rel="me" target="_blank" rel="noopener">Twitter</a>, fork me on <a class="link" href="{{ site.github }}" rel="me" target="_blank" rel="noopener">Github</a>, subscribe via <a class="link" href="/feed.xml">RSS Feed</a> or say hello at {% include component-email.html %}</p>
+        <p class="masthead__disclaimer">
+            Follow me on
+            <a class="link" href="{{ site.twitter }}" rel="me" target="_blank" rel="noopener"
+                >Twitter</a
+            >, fork me on
+            <a class="link" href="{{ site.github }}" rel="me" target="_blank" rel="noopener"
+                >Github</a
+            >, subscribe via <a class="link" href="/feed.xml">RSS Feed</a> or say hello at {%
+            include component-email.html %}
+        </p>
     </section>
 
     <section class="content">
         <div class="content__writing">
             <h2>Writing</h2>
             <div class="u-divider"></div>
-            <p>I use to write from time to time. If you are looking for something specific, hit <a class="link" href="/search">the search {% include icons/arrow-enter.html %}</a> in the footer of the page, or check all <a class="link" href="/interviews">Developer Interviews {% include icons/arrow-enter.html %}</a>.</p>
+            <p>
+                I use to write from time to time. If you are looking for something specific, hit
+                <a class="link" href="/search">the search {% include icons/arrow-enter.html %}</a>
+                in the footer of the page, or check all
+                <a class="link" href="/interviews"
+                    >Developer Interviews {% include icons/arrow-enter.html %}</a
+                >.
+            </p>
             <a class="btn btn--regular" href="/blog/">
-                <span>Blog</span>
-                {% include icons/arrow-enter.html %}
+                <span>Blog</span> {% include icons/arrow-enter.html %}
             </a>
         </div>
         <div class="content__speaking">
             <h2>Speaking</h2>
             <div class="u-divider"></div>
             {% for talk in site.data.speaking limit: 10 %}
-                <a class="" href="/speaking/{{ talk.url }}">
-                    <time class="">{{ talk.date }}</time>
-                    <h3 class="content__subtitle">{{ talk.name }}</h3>
-                </a>
+            <a class="" href="/speaking/{{ talk.url }}">
+                <time class="">{{ talk.date }}</time>
+                <h3 class="content__subtitle">{{ talk.name }}</h3>
+            </a>
             {% endfor %}
         </div>
         <div class="content__podcast">
@@ -42,52 +115,54 @@ layout: default
         </div>
     </section>
 
-    <!-- {% for podcast in site.data.podcast limit:1 %}
-    <h2 class="">Latest Podcast episode:</h2>
-    <div>
-        <blockquote class="">
-            <span>The Podcast is in Spanish.</span>
-        </blockquote>
-    </div>
+    <!--
+        {% for podcast in site.data.podcast limit:1 %}
+        <h2 class="">Latest Podcast episode:</h2>
+        <div>
+            <blockquote class="">
+                <span>The Podcast is in Spanish.</span>
+            </blockquote>
+        </div>
 
-    <section class="">
-        <a class="" href="/podcast/{{ podcast.podcast_url }}">
-            <h3 class="">{{ podcast.name }}</h3>
-            <time class="" datetime="{{ podcast.date | date: "%Y-%m-%d" }}">{{ podcast.podcast_date }}</time>
-            <p class="">{{ podcast.description }}</p>
-            <img class="" src="{{ podcast.image_url }}" alt="{{ podcast.name }} Image" />
-        </a>
-        <p class="">
-            <a href="{{ podcast.podcast_web }}" target="_blank" rel="noopener">Accede al post del episodio</a>
-        </p>
-    </section>
-    {% endfor %}
+        <section class="">
+            <a class="" href="/podcast/{{ podcast.podcast_url }}">
+                <h3 class="">{{ podcast.name }}</h3>
+                <time class="" datetime="{{ podcast.date | date: "%Y-%m-%d" }}">{{ podcast.podcast_date }}</time>
+                <p class="">{{ podcast.description }}</p>
+                <img class="" src="{{ podcast.image_url }}" alt="{{ podcast.name }} Image" />
+            </a>
+            <p class="">
+                <a href="{{ podcast.podcast_web }}" target="_blank" rel="noopener">Accede al post del episodio</a>
+            </p>
+        </section>
+        {% endfor %}
 
 
 
-    {% for post in site.posts limit:1 %}
-    <h2 class="">Latest article:</h2>
-    <section class="">
-        <a class="" href="{{ post.url }}">
-            <h3 class="">{{ post.title }}</h3>
-            <time class="" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d, %Y" }}</time>
-            <p class="">{{ post.excerpt }}</p>
-        </a>
-    </section>
-    {% endfor %}
+        {% for post in site.posts limit:1 %}
+        <h2 class="">Latest article:</h2>
+        <section class="">
+            <a class="" href="{{ post.url }}">
+                <h3 class="">{{ post.title }}</h3>
+                <time class="" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d, %Y" }}</time>
+                <p class="">{{ post.excerpt }}</p>
+            </a>
+        </section>
+        {% endfor %}
 
-    {% for interview in site.data.interviews limit:1 %}
-    <h2 class="">Latest interview:</h2>
-    <section class="">
-        <a class="" href="/interviews/{{ interview.interview_url }}">
-            <h3 class="">{{ interview.name }}</h3>
-            <time class="" datetime="{{ interview.date | date: "%Y-%m-%d" }}">{{ interview.interview_date }}</time>
-            <p class="">{{ interview.excerpt }}</p>
-            <img class="" src="{{ interview.image_url }}" alt="{{ interview.interview }} Photography" />
-            <p class="">{{ interview.interview_number }}</p>
-        </a>
-        <p class=""><a href="{{ interview.interview_web }}" target="_blank" rel="noopener">{{ interview.name }}'s Web</a></p>
-        <p class=""><a href="{{ interview.interview_twitter }}" target="_blank" rel="noopener">{{ interview.name }}'s Twitter</a></p>
-    </section>
-    {% endfor %} -->
+        {% for interview in site.data.interviews limit:1 %}
+        <h2 class="">Latest interview:</h2>
+        <section class="">
+            <a class="" href="/interviews/{{ interview.interview_url }}">
+                <h3 class="">{{ interview.name }}</h3>
+                <time class="" datetime="{{ interview.date | date: "%Y-%m-%d" }}">{{ interview.interview_date }}</time>
+                <p class="">{{ interview.excerpt }}</p>
+                <img class="" src="{{ interview.image_url }}" alt="{{ interview.interview }} Photography" />
+                <p class="">{{ interview.interview_number }}</p>
+            </a>
+            <p class=""><a href="{{ interview.interview_web }}" target="_blank" rel="noopener">{{ interview.name }}'s Web</a></p>
+            <p class=""><a href="{{ interview.interview_twitter }}" target="_blank" rel="noopener">{{ interview.name }}'s Twitter</a></p>
+        </section>
+        {% endfor %}
+    -->
 </main>
