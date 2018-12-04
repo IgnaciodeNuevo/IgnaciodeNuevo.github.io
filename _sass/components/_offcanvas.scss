@@ -23,7 +23,7 @@
 
     &__header {
         align-items: center;
-        display: flex;
+        display: inherit;
         flex-wrap: nowrap;
         height: var(--nav-height, 4.5rem);
         justify-content: space-between;
@@ -35,7 +35,7 @@
 
     &__logo {
         align-content: center;
-        display: flex;
+        display: inherit;
     }
 
     svg {
