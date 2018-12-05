@@ -349,6 +349,7 @@
             "grid-column-end",
             "grid-column-gap",
             "grid-column-start",
+            "grid-gap",
             "grid-row-end",
             "grid-row-gap",
             "grid-row-start",

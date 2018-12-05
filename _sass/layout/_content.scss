@@ -2,24 +2,34 @@
 // This file contains all styles related to the content section of the home page
 // -----------------------------------------------------------------------------
 .content {
-    min-height: 100vh;
     padding-bottom: var(--space-xl, 4rem);
     padding-left: var(--space-l, 2rem);
     padding-right: var(--space-l, 2rem);
     padding-top: var(--space-xl, 4rem);
 
     @supports (grid-gap: 1rem) {
-        display: grid;
-        // Fits as much colums of a minimum 320px - (padding-left + padding-right)
-        grid-template-columns: repeat(auto-fit, minmax(calc(20rem - (var(--space-l, 2rem) * 2)), 1fr));
-        grid-gap: var(--space-l, 2rem);
+        @media (min-width: 688px) {
+            display: grid;
+            grid-gap: var(--space-l, 2rem);
+            grid-template-columns: repeat(auto-fit, calc(22rem - (var(--space-l, 2rem) * 2)));
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 42.18rem;
+        }
+
+        @media (min-width: 1206px) {
+            // 3 colums + vertical grid-gaps + (padding-left + padding-right)
+            max-width: 62.15rem;
+        }
     }
 
     &__item {
         margin-bottom: var(--space-xl, 4rem);
 
         @supports (grid-gap: 1rem) {
-            margin-bottom: 0;
+            @media (min-width: 688px) {
+                margin-bottom: 0;
+            }
         }
     }
 
