@@ -62,6 +62,24 @@
     font-weight: var(--font-weight-normal, 400);
 }
 
+@font-face {
+    font-family: "Brando Semibold Sans";
+    src: url("/assets/fonts/Brando/Brando-Sans-Semibold.woff2") format("woff2"),
+         url("/assets/fonts/Brando/Brando-Sans-Semibold.woff") format("woff");
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: var(--font-weight-normal, 600);
+}
+
+@font-face {
+    font-family: "Brando Semibold Sans Subset";
+    src: url("/assets/fonts/Brando/Brando-Sans-Semibold-Subset.woff2") format("woff2"),
+         url("/assets/fonts/Brando/Brando-Sans-Semibold-Subset.woff") format("woff");
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: var(--font-weight-normal, 600);
+}
+
 // Download Input font here:
 // http://input.fontbureau.com/download/
 //

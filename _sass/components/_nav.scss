@@ -79,6 +79,10 @@
             }
         }
     }
+
+    .link__label {
+        font-family: var(--font-family-body-semibold, "Brando Semibold Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif);
+    }
 }
 
 .logo {
