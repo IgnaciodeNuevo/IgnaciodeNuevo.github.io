@@ -50,7 +50,8 @@
     .link {
         color: var(--color-base-dark, #141414);
         font-family: var(--font-family-title, "Guardian Bold Egyptian", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, serif);
-        margin-bottom: 0.75rem;
+        padding-bottom: 0.75rem;
+        padding-top: 0.75rem;
         text-decoration: none;
 
         @include heading-h6();

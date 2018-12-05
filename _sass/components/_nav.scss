@@ -36,7 +36,10 @@
 
     .link {
         color: var(--color-white, #ffffff);
+        display: inline-block;
+        height: inherit;
         letter-spacing: var(--letter-spacing, 0.125rem);
+        line-height: inherit;
         text-decoration: none;
         text-transform: uppercase;
 
