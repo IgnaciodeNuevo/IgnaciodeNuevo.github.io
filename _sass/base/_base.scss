@@ -39,8 +39,16 @@ body.is-active .container {
 }
 
 .icon {
-    height: 24px;
-    width: 24px;
+    fill: currentColor;
+    flex-shrink: 0;
+    height: var(--icon-special, 1.5rem);
+    // Prevent the icon from shrinking inside a flex container.
+    width: var(--icon-special, 1.5rem);
+
+    &-stroke {
+        fill: none;
+        stroke: currentColor;
+    }
 }
 
 //
