@@ -83,35 +83,39 @@ layout: default
         </p>
     </section>
 
+    <h2>Media</h2>
     <section class="content">
-        <div class="content__writing">
-            <h2>Writing</h2>
+        <div class="content__item">
+            <h3>Writing</h3>
             <div class="u-divider"></div>
-            <p>
-                I use to write from time to time. If you are looking for something specific, hit
-                <a class="link" href="/search">the search {% include icons/arrow-enter.html %}</a>
-                in the footer of the page, or check all
-                <a class="link" href="/interviews"
-                    >Developer Interviews {% include icons/arrow-enter.html %}</a
-                >.
+            <p>I use to write from time to time. If you are looking for something specific, hit<a class="link" href="/search">the search {% include icons/arrow-enter.html %}</a>in the footer of the page, or check all<a class="link" href="/interviews">Developer Interviews {% include icons/arrow-enter.html %}</a>.
             </p>
+            <div class="u-divider"></div>
             <a class="btn btn--regular" href="/blog/">
                 <span>Blog</span> {% include icons/arrow-enter.html %}
             </a>
         </div>
-        <div class="content__speaking">
-            <h2>Speaking</h2>
+        <div class="content__item">
+            <h3>Speaking</h3>
             <div class="u-divider"></div>
-            {% for talk in site.data.speaking limit: 10 %}
+            {% for talk in site.data.speaking limit: 5 %}
             <a class="" href="/speaking/{{ talk.url }}">
                 <time class="">{{ talk.date }}</time>
-                <h3 class="content__subtitle">{{ talk.name }}</h3>
+                <h4 class="content__subtitle">{{ talk.name }}</h4>
             </a>
             {% endfor %}
         </div>
-        <div class="content__podcast">
-            <h2>Podcast</h2>
+        <div class="content__item">
+            <h3>Collaborations</h3>
             <div class="u-divider"></div>
+            <p>I have had the pleasure of having been invited to collaborate with some Spanish media/publications of the web development sector, here I leave you some links.</p>
+            <div class="u-divider"></div>
+            {% for collaboration in site.data.collaborations limit: 5 %}
+            <a class="" href="{{ collaboration.url }}" target="_blank" rel="noopener">
+                <time class="">{{ collaboration.date }}</time>
+                <h4 class="content__subtitle">{{ collaboration.name }}</h4>
+            </a>
+            {% endfor %}
         </div>
     </section>
 

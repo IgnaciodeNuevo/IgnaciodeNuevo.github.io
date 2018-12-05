@@ -10,13 +10,12 @@
 
     @supports (grid-gap: 1rem) {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        // Fits as much colums of a minimum 320px - (padding-left + padding-right)
+        grid-template-columns: repeat(auto-fit, minmax(calc(20rem - (var(--space-l, 2rem) * 2)), 1fr));
         grid-gap: var(--space-l, 2rem);
     }
 
-    &__writing,
-    &__speaking,
-    &__podcast {
+    &__item {
         margin-bottom: var(--space-xl, 4rem);
 
         @supports (grid-gap: 1rem) {
