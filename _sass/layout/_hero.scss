@@ -7,9 +7,9 @@
     height: calc(100vh - var(--nav-height, 4.5rem));
     position: relative;
 
-    @media (-webkit-min-device-pixel-ratio: 1) {
-        height: calc(95vh - var(--nav-height, 4.5rem)); // Fix iOS devices VH problem
-    }
+    // @media (-webkit-min-device-pixel-ratio: 1) {
+    //     height: calc(95vh - var(--nav-height, 4.5rem)); // Fix iOS devices VH problem
+    // }
 
     &__img {
         display: none;
@@ -19,10 +19,6 @@
             height: calc(100vh - var(--nav-height, 4.5rem));
             object-fit: cover;
             width: 100%;
-
-            @media (min-width: 125em) {
-                object-position: left top;
-            }
         }
     }
 

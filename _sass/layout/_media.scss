@@ -39,7 +39,7 @@
         margin-bottom: var(--space-m, 1rem);
     }
 
-    &__item {
+    &__item:not(:last-of-type) {
         margin-bottom: var(--space-xl, 4rem);
 
         @supports (grid-gap: 1rem) {
