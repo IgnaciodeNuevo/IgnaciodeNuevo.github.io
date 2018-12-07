@@ -1,7 +1,5 @@
-<div class="nav-items">
-    {% for item in site.data.nav %}
-    <a class="link" {% if page.url==item.url %}class="is-active" {% endif %} href="{{ item.url }}">
-        <span class="link__label">{{ item.label }}</span>
-    </a>
-    {% endfor %}
-</div>
+{% for item in site.data.nav %}
+<a class="link" {% if page.url==item.url %}class="is-active" {% endif %} href="{{ item.url }}">
+    <span class="link__label">{{ item.label }}</span>
+</a>
+{% endfor %}
