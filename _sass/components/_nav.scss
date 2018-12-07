@@ -8,10 +8,11 @@
     height: var(--nav-height, 4.5rem);
     justify-content: space-between;
     line-height: var(--nav-height, 4.5rem);
-    padding-left: var(--space-l, 2rem);
-    padding-right: var(--space-l, 2rem);
+    padding-left: var(--space-m, 1rem);
+    padding-right: var(--space-m, 1rem);
 
     @media (min-width: $mq-s) {
+        padding-left: var(--space-l, 2rem);
         padding-right: 0;
     }
 
@@ -91,7 +92,7 @@
 .logo {
     fill: var(--color-base-lightest, #efefef);
     height: calc(var(--nav-height, 80px) - var(--space-m, 1rem) * 2);
-    max-width: 140px;
+    max-width: 8.75rem;
 
     @media (min-width: $mq-special) {
         min-width: auto;
