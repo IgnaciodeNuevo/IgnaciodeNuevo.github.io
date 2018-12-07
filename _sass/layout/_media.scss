@@ -62,7 +62,7 @@
             background-color: var(--color-base-lightest, #efefef);
             color: var(--color-base-dark, #141414);
 
-            .content__subtitle {
+            .media__subtitle {
                 color: inherit;
             }
         }
@@ -86,8 +86,6 @@
     }
 
     .link {
-        padding: 0;
-
         @include transition();
 
         &:hover {

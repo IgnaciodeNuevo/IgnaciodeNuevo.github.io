@@ -43,10 +43,6 @@
     --font-small: 75%;
     --letter-spacing: 0.125rem;
 
-    --nav-height: 4.5rem;
-    --horizontal: 1rem;
-    --vertical: 4rem;
-
     --space-xxs: calc(var(--font-base) / 8);  // 2px
     --space-xs: calc(var(--font-base) / 4);  // 4px
     --space-s: calc(var(--font-base) / 2);  // 8px
@@ -54,6 +50,10 @@
     --space-l: calc(var(--font-base) * 2);  // 32px
     --space-xl: calc(var(--font-base) * 4);  // 64px
     --space-xxl: calc(var(--font-base) * 8);  // 128px
+
+    --nav-height: 4.5rem;
+    --horizontal: var(--space-l, 2rem);
+    --vertical: var(--space-xl, 4rem);
 
     --border-radius-xxs: var(--space-xxs); // 2px
     --border-radius-xs: var(--space-xs); // 4px

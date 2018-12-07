@@ -23,13 +23,9 @@
     }
 
     &__content {
-        bottom: 20%;
-        left: var(--horizontal, 1rem);
+        bottom: var(--vertical, 4rem);
+        left: var(--horizontal, 2rem);
         position: absolute;
-
-        @media (min-width: $mq-xs) {
-            bottom: var(--vertical, 4rem);
-        }
     }
 
     &__title {
@@ -39,12 +35,17 @@
 
     &__subtitle {
         padding-right: var(--space-m, 1rem);
+
+        @media (min-width: $mq-special) {
+            margin-bottom: 0;
+        }
     }
 
     &__disclaimer {
         bottom: var(--space-m, 1rem);
         display: block;
-        left: var(--horizontal, 1rem);
+        left: var(--horizontal, 2rem);
+        margin-bottom: 0;
         padding-right: var(--space-m, 1rem);
         position: absolute;
 
@@ -60,7 +61,6 @@
 
         .link {
             color: var(--color-secondary, #ffd300);
-            padding: var(--space-xxs, 0.125rem);
             text-decoration: none;
 
             @include transition();

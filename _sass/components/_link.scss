@@ -4,12 +4,15 @@
 .link {
     color: currentColor;
     font-family: var(--font-family-body-semibold, "Brando Semibold Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif);
-    padding-right: var(--space-s, 0.5rem);
+    padding-bottom: var(--space-xxs, 0.125rem);
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: var(--space-xxs, 0.125rem);
     text-decoration-color: currentColor;
     text-decoration-line: underline;
     text-decoration-skip: ink;
     text-decoration-style: dotted;
-    white-space: nowrap;
+    white-space: nowrap;;
 
     &:hover {
         text-decoration-style: solid;
