@@ -88,3 +88,16 @@
         opacity: 1;
     }
 }
+
+.btn--inverted {
+    background-color: transparent;
+    border: 2px solid currentColor;
+    color: var(--color-base-medium, #262626);
+    padding: var(--space-s, 0.5rem);
+
+    &:hover {
+        color: var(--color-white, #ffffff);
+        background-color: var(--color-base-medium, #262626);
+        border-color: var(--color-base-medium, #262626);
+    }
+}

@@ -6,7 +6,7 @@
     position: relative;
 
     &::after {
-        @include section("/Media", var(--color-base-medium, #262625));
+        @include section("/Media", var(--color-base-medium, #262626));
     }
 }
 

@@ -3,7 +3,7 @@
 // -----------------------------------------------------------------------------
 .offcanvas {
     background-color: var(--color-secondary, #ffd300);
-    color: var(--color-base-dark, #141414);
+    color: var(--color-base-medium, #262626);
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -38,8 +38,8 @@
         display: inherit;
     }
 
-    svg {
-        fill: var(--color-base-dark, #141414);
+    .logo {
+        fill: var(--color-base-medium, #262626);
     }
 
     .nav-items {
@@ -48,7 +48,7 @@
     }
 
     .link {
-        color: var(--color-base-dark, #141414);
+        color: var(--color-base-medium, #262626);
         font-family: var(--font-family-title, "Guardian Bold Egyptian", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, serif);
         padding-bottom: 0.75rem;
         padding-top: 0.75rem;
