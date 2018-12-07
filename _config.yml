@@ -28,7 +28,4 @@ sass:
   style: :compressed
 
 # GEMS
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-paginate
+
