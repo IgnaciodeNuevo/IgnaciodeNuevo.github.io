@@ -7,7 +7,7 @@
     font-weight: var(--fake-bold, bold);
     justify-content: center;
     letter-spacing: var(--letter-spacing, 0.125rem);
-    max-width: 12.5rem;
+    max-width: 10rem;
     padding: var(--space-s, 0.5rem);
     text-decoration: none;
     text-transform: uppercase;
@@ -33,20 +33,24 @@
 
 .btn--regular {
     background-color: transparent;
-    border: 2px solid var(--color-primary, #0047bb);
-    color: var(--color-primary, #0047bb);
+    border: 2px solid currentColor;
+    color: currentColor;
     padding-bottom: var(--space-m, 1rem);
     padding-top: var(--space-m, 1rem);
 
     &:active,
     &:hover {
-        background-color: var(--color-primary, #0047bb);
-        border-color: var(--color-primary, #0047bb);
-        color: var(--color-white, #ffffff);
+        background-color: var(--color-white, #ffffff);
+        border-color: var(--color-white, #ffffff);
+        color: var(--color-base-dark, #141414);
     }
 
-    > span {
+    span:first-child {
         margin-right: var(--space-s, 0.5rem);
+    }
+
+    > span + svg {
+        margin-right: 0;
     }
 }
 
@@ -82,27 +86,5 @@
 
     &:focus {
         opacity: 1;
-    }
-}
-
-.btn--inverted {
-    background-color: var(--color-base-dark, #141414);
-    border: 2px solid var(--color-base-dark, #141414);
-    color: var(--color-white, #ffffff);
-    padding: var(--space-s, 0.5rem);
-
-    &:hover {
-        background-color: var(--color-secondary, #ffd300);
-        border: 2px solid currentColor;
-        color: var(--color-base-dark, #141414);
-        opacity: 1;
-    }
-
-    &:active {
-        opacity: 0.9;
-    }
-
-    &:focus {
-        border: 2px dotted var(--color-white, #ffffff);
     }
 }

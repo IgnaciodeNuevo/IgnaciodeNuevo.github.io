@@ -4,25 +4,19 @@ $modularscale: (
     ratio: 1.2,
 );
 
-@mixin section($section-text) {
-    color: #ffac00;
-    content: $section-text;
-    font-family: var(--font-family-title, "Guardian Bold Egyptian", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, serif);
-    font-size: ms(6);
-    margin-top: 0;
-    white-space: nowrap;
-    position: absolute;
-    right: calc(#{var(--horizontal, 1rem)} * -1);
-    bottom: -(ms(6) / 3);
-    overflow: hidden;
+@mixin section($section-text, $color: currentColor) {
+    display: none;
 
-    @media (min-width: $mq-s) {
-        font-size: ms(8);
-        bottom: -(ms(8) / 3);
-    }
-
-    @media (min-width: $mq-xl) {
-        font-size: ms(10);
-        bottom: -(ms(10) / 3);
+    @media (min-width: $mq-l) {
+        bottom: -(ms(14) / 3);
+        color: $color;
+        content: "#{$section-text}";
+        display: block;
+        font-family: var(--font-family-title, "Guardian Bold Egyptian", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, serif);
+        font-size: ms(14);
+        margin-top: 0;
+        position: absolute;
+        right: 0;
+        white-space: nowrap;
     }
 }

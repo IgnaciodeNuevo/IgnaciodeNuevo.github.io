@@ -1,0 +1,99 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the media section of the home page
+// -----------------------------------------------------------------------------
+.media-wrapper {
+    overflow: hidden;
+    position: relative;
+
+    &::after {
+        @include section("/Media", var(--color-base-medium, #262625));
+    }
+}
+
+.media {
+    color: inherit;
+    padding-bottom: var(--space-xl, 4rem);
+    padding-left: var(--space-l, 2rem);
+    padding-right: var(--space-l, 2rem);
+    padding-top: var(--space-xl, 4rem);
+
+    @supports (grid-gap: 1rem) {
+        @media (min-width: $mq-s) {
+            display: grid;
+            grid-gap: var(--space-l, 2rem);
+            grid-template-columns: repeat(auto-fit, minmax(294px, 1fr));
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 52rem;
+        }
+
+        @media (min-width: $mq-l) {
+            padding-bottom: var(--space-xxl, 8rem);
+            padding-top: var(--space-xxl, 8rem);
+        }
+    }
+
+    .btn {
+        margin-bottom: var(--space-m, 1rem);
+    }
+
+    &__item {
+        margin-bottom: var(--space-xl, 4rem);
+
+        @supports (grid-gap: 1rem) {
+            @media (min-width: $mq-s) {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    &__link {
+        border-bottom: 1px solid currentColor;
+        color: inherit;
+        display: block;
+        padding-bottom: var(--space-m, 1rem);
+        padding-left: var(--space-xs, 0.5rem);
+        padding-top: var(--space-m, 1rem);
+        text-decoration: none;
+
+        @include transition();
+
+        &:hover {
+            background-color: var(--color-base-lightest, #efefef);
+            color: var(--color-base-dark, #141414);
+
+            .content__subtitle {
+                color: inherit;
+            }
+        }
+    }
+
+    &__time {
+        display: block;
+        font-variant: small-caps;
+        margin-bottom: var(--space-s, 0.5rem);
+    }
+
+    &__subtitle {
+        color: var(--color-secondary, #ffd300);
+        margin-bottom: 0;
+
+        @include body-text();
+
+        .icon {
+            margin-bottom: calc(#{var(--space-xs, 0.25rem)} * -1); // Visual correction to align the text
+        }
+    }
+
+    .link {
+        padding: 0;
+
+        @include transition();
+
+        &:hover {
+            background-color: var(--color-secondary, #ffd300);
+            color: var(--color-base-dark, #141414);
+            text-decoration: none;
+        }
+    }
+}

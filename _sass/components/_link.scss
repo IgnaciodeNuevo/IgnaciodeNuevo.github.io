@@ -2,6 +2,7 @@
 // This file contains all styles related to the link component of the website.
 // -----------------------------------------------------------------------------
 .link {
+    color: currentColor;
     font-family: var(--font-family-body-semibold, "Brando Semibold Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif);
     padding-right: var(--space-s, 0.5rem);
     text-decoration-color: currentColor;

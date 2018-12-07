@@ -1,12 +1,7 @@
 // -----------------------------------------------------------------------------
-// This file contains all styles related to the header of the website.
+// This file contains all styles related to the home of the website.
 // -----------------------------------------------------------------------------
-.header {
+.main-home {
     background-color: var(--color-base-dark, #141414);
-    box-shadow: var(--box-shaodw, 0px 2px 5px 1px rgba(0, 0, 0, 0.75));
     color: var(--color-base-lightest, #efefef);
-    overflow: hidden;
-    position: sticky;
-    top: 0;
-    z-index: var(--z-index-s, 1);
 }

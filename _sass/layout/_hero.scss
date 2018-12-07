@@ -3,7 +3,7 @@
 // -----------------------------------------------------------------------------
 .hero {
     background-color: var(--color-base-dark, #141414);
-    color: var(--color-white, #ffffff);
+    color: var(--color-base-lightest, #efefef);
     height: calc(100vh - var(--nav-height, 4.5rem));
     position: relative;
 

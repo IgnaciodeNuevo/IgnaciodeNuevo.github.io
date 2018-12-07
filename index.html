@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<main class="main" role="“main”">
+<main class="main-home" role="main">
     <section class="hero">
         <picture>
             <!-- Extra Large: 1440px -->
@@ -72,45 +72,52 @@ layout: default
             <p class="hero__subtitle">{{ site.shortdescription }}</p>
         </div>
         <p class="hero__disclaimer">
-            Follow me on<a class="link" href="{{ site.twitter }}" rel="me" target="_blank" rel="noopener">Twitter</a>, fork me on<a class="link" href="{{ site.github }}" rel="me" target="_blank" rel="noopener">Github</a>, subscribe via <a class="link" href="/feed.xml">RSS Feed</a> or say hello at {%include component-email.html %}
+            Follow me on <a class="link" href="{{ site.twitter }}" rel="me" target="_blank" rel="noopener">Twitter</a>, fork me on <a class="link" href="{{ site.github }}" rel="me" target="_blank" rel="noopener">Github</a>, subscribe via <a class="link" href="/feed.xml">RSS Feed</a> or say hello at {%include component-email.html %}
         </p>
     </section>
 
-    <h2>Media</h2>
-    <section class="content">
-        <div class="content__item">
-            <h3>Writing</h3>
-            <div class="u-divider"></div>
-            <p>I use to write from time to time. If you are looking for something specific, hit<a class="link" href="/search">the search {% include icons/arrow-enter.html %}</a>, or check all<a class="link" href="/interviews">Developer Interviews {% include icons/arrow-enter.html %}</a>.
-            </p>
-            <div class="u-divider"></div>
-            <a class="btn btn--regular" href="/blog/">
-                <span>Blog</span> {% include icons/arrow-enter.html %}
-            </a>
-        </div>
-        <div class="content__item">
-            <h3>Speaking</h3>
-            <div class="u-divider"></div>
-            {% for talk in site.data.speaking limit: 5 %}
-            <a class="" href="/speaking/{{ talk.url }}">
-                <time class="">{{ talk.date }}</time>
-                <h4 class="content__subtitle">{{ talk.name }}</h4>
-            </a>
-            {% endfor %}
-        </div>
-        <div class="content__item">
-            <h3>Collaborations</h3>
-            <div class="u-divider"></div>
-            <p>I have had the pleasure of having been invited to collaborate with some Spanish media/publications of the web development sector, here I leave you some links.</p>
-            <div class="u-divider"></div>
-            {% for collaboration in site.data.collaborations limit: 5 %}
-            <a class="" href="{{ collaboration.url }}" target="_blank" rel="noopener">
-                <time class="">{{ collaboration.date }}</time>
-                <h4 class="content__subtitle">{{ collaboration.name }}</h4>
-            </a>
-            {% endfor %}
-        </div>
-    </section>
+    <div class="media-wrapper">
+        <section class="media">
+            <div class="media__item">
+                <h3>Writing</h3>
+                <div class="u-divider"></div>
+                <p>I use to write from time to time. If you are looking for something specific, hit <a class="link" href="/search">the search</a>, or check all <a class="link" href="/interviews">Developer Interviews</a>.</p>
+                <a class="btn btn--regular" href="/blog/">
+                    <span>Blog</span>
+                    {% include icons/arrow-enter.html %}
+                </a>
+                <div class="u-divider"></div>
+                {% for post in site.posts limit: 3 %}
+                <a class="media__link" href="{{ post.url }}" lang="es">
+                    <time class="media__time">{{ post.date | date: "%b %-d %Y"}}</time>
+                    <h4 class="media__subtitle">{{ post.title }}</h4>
+                </a>
+                {% endfor %}
+            </div>
+            <div class="media__item">
+                <h3>Speaking</h3>
+                <div class="u-divider"></div>
+                {% for talk in site.data.speaking limit: 5 %}
+                <a class="media__link" href="/speaking/{{ talk.url }}" lang="es">
+                    <time class="media__time">{{ talk.date }}</time>
+                    <h4 class="media__subtitle">{{ talk.name }}</h4>
+                </a>
+                {% endfor %}
+            </div>
+            <div class="media__item">
+                <h3>Collaborations</h3>
+                <div class="u-divider"></div>
+                <p>I have had the pleasure of having been invited to collaborate with some Spanish media/publications of the web development sector.</p>
+                <div class="u-divider"></div>
+                {% for collaboration in site.data.collaborations limit: 5 %}
+                <a class="media__link" href="{{ collaboration.url }}" lang="es" target="_blank" rel="noopener">
+                    <time class="media__time">{{ collaboration.date }}</time>
+                    <h4 class="media__subtitle">{{ collaboration.name }} {% include icons/external.html %}</h4>
+                </a>
+                {% endfor %}
+            </div>
+        </section>
+    </div>
 
     <!--
         {% for podcast in site.data.podcast limit:1 %}
