@@ -28,4 +28,5 @@ sass:
   style: :compressed
 
 # GEMS
-
+plugins:
+  - jekyll-paginate
