@@ -7,10 +7,6 @@
     height: calc(100vh - var(--nav-height, 4.5rem));
     position: relative;
 
-    // @media (-webkit-min-device-pixel-ratio: 1) {
-    //     height: calc(95vh - var(--nav-height, 4.5rem)); // Fix iOS devices VH problem
-    // }
-
     &__img {
         display: none;
 

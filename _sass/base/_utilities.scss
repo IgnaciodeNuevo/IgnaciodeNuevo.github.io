@@ -16,7 +16,7 @@
 //
 .u-divider {
     background-color: currentColor;
-    height: 4px;
+    height: var(--border-width-xs, 0.25rem);
     margin-bottom: 1rem;
     width: 4rem;
 }

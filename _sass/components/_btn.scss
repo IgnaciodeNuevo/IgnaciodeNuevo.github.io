@@ -49,7 +49,7 @@
         margin-right: var(--space-s, 0.5rem);
     }
 
-    > span + svg {
+     > span + svg {
         margin-right: 0;
     }
 }
@@ -96,8 +96,8 @@
     padding: var(--space-s, 0.5rem);
 
     &:hover {
-        color: var(--color-white, #ffffff);
         background-color: var(--color-base-medium, #262626);
         border-color: var(--color-base-medium, #262626);
+        color: var(--color-white, #ffffff);
     }
 }

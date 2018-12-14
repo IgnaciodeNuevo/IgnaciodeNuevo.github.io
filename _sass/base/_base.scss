@@ -9,8 +9,8 @@
 html {
     box-sizing: border-box;
     color: var(--color-primary, #0047bb);
-    line-height: 1.5;
     font-size: 100%; // 16px
+    line-height: 1.5;
 
     -webkit-text-size-adjust: 100%; // 1
 
@@ -33,17 +33,16 @@ body.is-active .container {
 
 .container {
     position: relative;
-    width: 100%;
-    z-index: 1;
+    z-index: var(--z-index-s 1);
 
     @include transition(transform);
 }
 
 .icon {
     fill: currentColor;
+    // Prevent the icon from shrinking inside a flex container.
     flex-shrink: 0;
     height: var(--icon-special, 1.5rem);
-    // Prevent the icon from shrinking inside a flex container.
     width: var(--icon-special, 1.5rem);
 
     &-stroke {
