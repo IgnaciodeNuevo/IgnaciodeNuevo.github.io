@@ -1,0 +1,15 @@
+.banner {
+    display: none;
+
+    @supports not (--border: 1px) {
+        background-color: #0047bb;
+        bottom: 0;
+        color: #ffffff;
+        display: block;
+        padding: 1rem;
+        position: fixed;
+        text-align: center;
+        width: 100%;
+        z-index: 4;
+    }
+}
