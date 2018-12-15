@@ -26,11 +26,11 @@
             ".   .            .            .            .            .            .            .            .            right"
             ".   .            .            .            .            .            .            .            .            right"
             ".   .            .            .            .            .            .            .            .            right"
-            ".   .            .            .            .            .            .            .            .            right"
             ".   content      content      content      content      content      content      content      content      right"
-            ".   disclaimer   disclaimer   disclaimer   disclaimer   disclaimer   disclaimer   disclaimer   disclaimer   .";
+            ".   disclaimer   disclaimer   disclaimer   disclaimer   disclaimer   disclaimer   disclaimer   disclaimer   right"
+            ".   .            .            .            .            .            .            .            .            .";
         grid-template-columns: repeat(10, 1fr);
-        grid-template-rows: repeat(10, 1fr);
+        grid-template-rows: repeat(9, 1fr) var(--space-l, 2rem);
         height: calc(100vh - var(--nav-height, 4.5rem));
         padding: 0;
 
