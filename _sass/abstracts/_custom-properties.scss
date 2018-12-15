@@ -51,11 +51,12 @@
     --space-xl: calc(var(--font-base) * 4);  // 64px
     --space-xxl: calc(var(--font-base) * 8);  // 128px
 
-    --nav-height: 4.5rem;
-    --horizontal: var(--space-l, 2rem);
-    --vertical: var(--space-xl, 4rem);
     --border-width-xxs: 0.125rem;
     --border-width-xs: 0.25rem;
+    --hero-height: 60rem;
+    --horizontal: var(--space-l, 2rem);
+    --nav-height: 4.5rem;
+    --vertical: var(--space-xl, 4rem);
 
     --border-radius-xxs: var(--space-xxs); // 2px
     --border-radius-xs: var(--space-xs); // 4px
