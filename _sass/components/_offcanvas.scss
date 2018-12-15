@@ -26,20 +26,11 @@
         display: inherit;
         flex-wrap: nowrap;
         height: var(--nav-height, 4.5rem);
-        justify-content: space-between;
+        justify-content: flex-end;
         line-height: var(--nav-height, 4.5rem);
         position: absolute;
         top: 0;
         width: calc(100% - (var(--space-l, 2rem) * 2));
-    }
-
-    &__logo {
-        align-content: center;
-        display: inherit;
-    }
-
-    .logo {
-        fill: var(--color-base-medium, #262626);
     }
 
     .nav-items {
