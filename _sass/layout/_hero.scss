@@ -31,7 +31,8 @@
             ".   .            .            .            .            .            .            .            .            .";
         grid-template-columns: var(--space-m, 1rem) repeat(8, 1fr) var(--space-m, 1rem);
         grid-template-rows: var(--space-m, 1rem) repeat(8, 1fr) var(--space-m, 1rem);
-        height: calc(100vh - var(--nav-height, 4.5rem));
+        height: 100%;
+        min-height: calc(100vh - var(--nav-height, 4.5rem));
         padding: 0;
 
         @media (min-width: $mq-s) {
