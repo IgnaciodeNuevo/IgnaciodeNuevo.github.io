@@ -4,11 +4,18 @@
 .hero {
     background-color: var(--color-base-dark, #141414);
     color: var(--color-base-lightest, #efefef);
-    padding: var(--space-l, 2rem);
+    padding-left: var(--space-m, 1rem);
+    padding-right: var(--space-m, 1rem);
+    padding-top: var(--space-l, 2rem);
     position: relative;
     width: 100%;
 
-    @supports (grid-gap: 1rem) {
+    @media (min-width: $mq-s) {
+        padding-left: var(--space-l, 2rem);
+        padding-right: var(--space-l, 2rem);
+    }
+
+    @supports not (grid-gap: 1rem) {
         display: grid;
         grid-gap: var(--space-m, 1rem);
         grid-template-areas:
@@ -37,14 +44,14 @@
     &__img {
         display: none;
 
-        @supports (object-fit: cover) {
+        @supports not (object-fit: cover) {
             display: block;
             height: calc(100vh - var(--nav-height, 4.5rem));
             object-fit: cover;
             width: 100%;
         }
 
-        @supports (grid-gap: 1rem) {
+        @supports not (grid-gap: 1rem) {
             grid-column: 1 / -1;
             grid-row: 1 / -1;
         }
@@ -53,7 +60,7 @@
     &__content {
         margin-bottom: var(--space-l, 2rem);
 
-        @supports (grid-gap: 1rem) {
+        @supports not (grid-gap: 1rem) {
             margin-bottom: 0;
 
             grid-area: content;
@@ -78,7 +85,7 @@
 
         @include body-small();
 
-        @supports (grid-gap: 1rem) {
+        @supports not (grid-gap: 1rem) {
             grid-area: disclaimer;
 
             @media (min-width: $mq-l) {
@@ -89,7 +96,7 @@
         }
 
 
-        @supports (grid-gap: 1rem) {
+        @supports not (grid-gap: 1rem) {
             @media (min-width: $mq-l) {
                 grid-area: right;
             }
