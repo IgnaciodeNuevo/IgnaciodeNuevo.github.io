@@ -11,16 +11,17 @@
     @supports (grid-gap: 1rem) {
         display: grid;
         grid-gap: var(--space-m, 1rem);
-        grid-template-areas: ".   .            .            .            .            .            .            .            .            right"
-        ".   .            .            .            .            .            .            .            .            right"
-        ".   .            .            .            .            .            .            .            .            right"
-        ".   .            .            .            .            .            .            .            .            right"
-        ".   .            .            .            .            .            .            .            .            right"
-        ".   .            .            .            .            .            .            .            .            right"
-        ".   .            .            .            .            .            .            .            .            right"
-        ".   .            .            .            .            .            .            .            .            right"
-        ".   content      content      content      content      content      content      content      content      right"
-        ".   disclaimer   disclaimer   disclaimer   disclaimer   disclaimer   disclaimer   disclaimer   disclaimer   .";
+        grid-template-areas:
+            ".   .            .            .            .            .            .            .            .            right"
+            ".   .            .            .            .            .            .            .            .            right"
+            ".   .            .            .            .            .            .            .            .            right"
+            ".   .            .            .            .            .            .            .            .            right"
+            ".   .            .            .            .            .            .            .            .            right"
+            ".   .            .            .            .            .            .            .            .            right"
+            ".   .            .            .            .            .            .            .            .            right"
+            ".   .            .            .            .            .            .            .            .            right"
+            ".   content      content      content      content      content      content      content      content      right"
+            ".   disclaimer   disclaimer   disclaimer   disclaimer   disclaimer   disclaimer   disclaimer   disclaimer   .";
         grid-template-columns: repeat(10, 1fr);
         grid-template-rows: repeat(10, 1fr);
         height: calc(100vh - var(--nav-height, 4.5rem));
