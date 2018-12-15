@@ -31,8 +31,13 @@
             ".   .            .            .            .            .            .            .            .            .";
         grid-template-columns: var(--space-m, 1rem) repeat(8, 1fr) var(--space-m, 1rem);
         grid-template-rows: var(--space-m, 1rem) repeat(8, 1fr) var(--space-m, 1rem);
-        height: calc(var(--hero-height, 60rem) - var(--nav-height, 4.5rem));
+        height: calc(100vh - var(--nav-height, 4.5rem));
         padding: 0;
+
+        // PX units to make it work on Phones
+        @media (max-width: 540px) and (orientation: portrait) {
+            height: calc(736px - var(--nav-height, 4.5rem));
+        }
 
         @media (min-width: $mq-s) {
             grid-gap: initial;
@@ -50,9 +55,14 @@
 
         @supports (object-fit: cover) {
             display: block;
-            height: calc(var(--hero-height, 60rem) - var(--nav-height, 4.5rem));
+            height: calc(100vh - var(--nav-height, 4.5rem));
             object-fit: cover;
             width: 100%;
+
+            // PX units to make it work on Phones
+            @media (max-width: 540px) and (orientation: portrait) {
+                height: calc(736px - var(--nav-height, 4.5rem));
+            }
         }
 
         @supports (grid-gap: 1rem) {
