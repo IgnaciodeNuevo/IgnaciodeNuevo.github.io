@@ -15,7 +15,7 @@
         padding-right: var(--space-l, 2rem);
     }
 
-    @supports not (grid-gap: 1rem) {
+    @supports (grid-gap: 1rem) {
         display: grid;
         grid-gap: var(--space-m, 1rem);
         grid-template-areas:
@@ -44,14 +44,14 @@
     &__img {
         display: none;
 
-        @supports not (object-fit: cover) {
+        @supports (object-fit: cover) {
             display: block;
             height: calc(100vh - var(--nav-height, 4.5rem));
             object-fit: cover;
             width: 100%;
         }
 
-        @supports not (grid-gap: 1rem) {
+        @supports (grid-gap: 1rem) {
             grid-column: 1 / -1;
             grid-row: 1 / -1;
         }
@@ -60,7 +60,7 @@
     &__content {
         margin-bottom: var(--space-l, 2rem);
 
-        @supports not (grid-gap: 1rem) {
+        @supports (grid-gap: 1rem) {
             margin-bottom: 0;
 
             grid-area: content;
@@ -85,7 +85,7 @@
 
         @include body-small();
 
-        @supports not (grid-gap: 1rem) {
+        @supports (grid-gap: 1rem) {
             grid-area: disclaimer;
 
             @media (min-width: $mq-l) {
@@ -96,7 +96,7 @@
         }
 
 
-        @supports not (grid-gap: 1rem) {
+        @supports (grid-gap: 1rem) {
             @media (min-width: $mq-l) {
                 grid-area: right;
             }
