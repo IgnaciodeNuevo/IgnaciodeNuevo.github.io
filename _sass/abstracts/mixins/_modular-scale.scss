@@ -51,7 +51,7 @@ $modularscale: (
     margin-top: 0;
 }
 
-@mixin small() {
-    font-size: 12px;
+@mixin body-smaller() {
+    font-size: ms(-2);
     margin-top: 0;
 }

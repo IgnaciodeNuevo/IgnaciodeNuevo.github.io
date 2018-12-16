@@ -65,9 +65,10 @@
         &:not(:last-of-type):after {
             content: "/";
             color: var(--color-base-light, #808080);
-            font-size: var(--font-small, 75%);
             margin-left: var(--space-s, 0.5rem);
             margin-right: var(--space-s, 0.5rem);
+
+            @include body-smaller();
         }
 
         &:nth-of-type(4):after {
