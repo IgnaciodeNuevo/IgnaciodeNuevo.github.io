@@ -5,10 +5,37 @@ layout: default
 <main class="main-home" role="main">
     <section class="hero">
         <picture class="hero__picture">
+            <!-- Portrait -->
+            <!-- Large: 1280px -->
+            <source
+                media="(min-width: 80em) and (orientation: portrait)"
+                srcset="/assets/images/hero/ignacio-home-large-portrait.jpg     1x,
+                        /assets/images/hero/ignacio-home-large-portrait@2x.jpg  2x,
+                        /assets/images/hero/ignacio-home-large-portrait@3x.jpg  3x"
+                type="image/jpg" />
+
+            <!-- Medium: 768px -->
+            <source
+                media="(min-width: 48em) and (orientation: portrait)"
+                srcset="/assets/images/hero/ignacio-home-medium-portrait.jpg    1x,
+                        /assets/images/hero/ignacio-home-medium-portrait@2x.jpg 2x,
+                        /assets/images/hero/ignacio-home-medium-portrait@3x.jpg 3x"
+                type="image/jpg" />
+
+            <!-- Small: 0 -->
+            <source
+                media="(min-width: 0em) and (orientation: portrait)"
+                srcset="/assets/images/hero/ignacio-home-small-portrait.jpg     1x,
+                        /assets/images/hero/ignacio-home-small-portrait@2x.jpg  2x,
+                        /assets/images/hero/ignacio-home-small-portrait@3x.jpg  3x"
+                type="image/jpg" />
+            <!-- End of Portrait -->
+
+            <!-- Landscape -->
             <!-- Extra Large: 1440px -->
             <source
                 media="(min-width: 90em)"
-                srcset="/assets/images/hero/ignacio-home-extralarge.jpg    1x,
+                srcset="/assets/images/hero/ignacio-home-extralarge-portrait,
                         /assets/images/hero/ignacio-home-extralarge@2x.jpg 2x,
                         /assets/images/hero/ignacio-home-extralarge@3x.jpg 3x"
                 type="image/jpg" />
@@ -36,6 +63,7 @@ layout: default
                         /assets/images/hero/ignacio-home-small@2x.jpg      2x,
                         /assets/images/hero/ignacio-home-small@3x.jpg      3x"
                 type="image/jpg" />
+            <!-- End of Landscape -->
 
             <!-- Regular IMG -->
             <img
