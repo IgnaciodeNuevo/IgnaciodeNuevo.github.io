@@ -1,50 +1,50 @@
 - name: Workshop - CSS Grid Layout con fallbacks y a lo loco
   description: Mediante Live Coding vimos de manera sencilla como CSS Grid Layout es capaz de solucionarnos estructuras de maquetación que requerían de trucos.
-  date: Jul 7 2018
+  date: 2018-07-07 00:00:00 +0200
   venue: JSCoders Meetup
   url: css-grid-layout-con-fallbacks-y-a-lo-loco/
 
 - name: CSS Grid Layout - ¡Se acabaron los hacks, larga vida al CSS!
   description: ¿Qué ha ocurrido todos estos años en el CSS? ¿Qué hemos estado usando en nuestro día a día? ¡Grid ha llegado para salvarnos del uso de hacks!
-  date: Dec 20 2017
+  date: 2017-10-20 00:00:00 +0200
   venue: Plain Concepts Tech Day
   url: css-grid-plainconcepts/
 
 - name: CSS architectures - It's alive!
   description: Veremos ejemplos prácticos de lo que se debe y no se debe hacer en diferentes arquitectura, buenas prácticas y como se estructuran la 7-1 o ITCSS
-  date: Sep 25 2017
+  date: 2017-09-25 00:00:00 +0200
   venue: Codemotion Madrid - Track 1
   url: codemotion2017/
   video: https://www.youtube.com/watch?v=qnSbqv6rqx4
 
 - name: CSS Grid Layout en un proyecto Real
   description: Vemos las qué diferencias tiene CSS Grid Layout con Flexbox, las distintas propiedades y un proyecto usando fallbacks.
-  date: Sep 21 2017
+  date: 2017-09-21 00:00:00 +0200
   venue: Frontend Developers Madrid Meetup
   url: css-grid-en-un-proyecto-real
   video: https://www.youtube.com/watch?v=ds2Ra3l3-OU
 
 - name: Arquitecturas CSS Escalables
   description: El CSS en proyectos grandes puede ser inmanejable por ello veremos ejemplos prácticos de uso para solucionar estos problemas
-  date: Jun 19 2017
+  date: 2017-06-19 00:00:00 +0200
   venue: Ironhack
   url: arquitecturas-css-escalables/
 
 - name: CSS Grid Layout, ¡Está vivo!
   description: Nos adentramos en la especificación de CSS Grid Layout con ejemplos de uso
-  date: Jun 10 2017
+  date: 2017-06-10 00:00:00 +0200
   venue: Open Source Weekends Meetup
   url: css-grid-esta-vivo/
   codepen: https://codepen.io/collection/DYpVoJ/
 
 - name: Arquitectura y buenas prácticas CSS
   description: Nociones básicas de como comenzar a usar un CSS escalable y buenas prácticas de uso
-  date: May 5 2017
+  date: 2017-05-05 00:00:00 +0200
   venue: Adalab
   url: arquitectura-y-buenas-practicas-css/
 
 - name: Jekyll al rescate
   description: Jekyll al rescate, uso exhaustivo de Jekyll, el generador de páginas web estáticas
-  date: Jan 14 2017
+  date: 2017-01-14 00:00:00 +0200
   venue: Open Source Weekends Meetup
   url: jekyll-al-rescate/

@@ -97,7 +97,7 @@ layout: default
                 <div class="u-divider"></div>
                 {% for post in site.posts limit: 3 %}
                 <a class="media__link" href="{{ post.url }}" lang="es">
-                    <time class="media__time">{{ post.date | date: "%b %-d %Y"}}</time>
+                    <time class="media__time" datetime="{{ post.date }}">{{ post.date | date: "%b %-d %Y" }}</time>
                     <h4 class="media__subtitle">{{ post.title }}</h4>
                 </a>
                 {% endfor %}
@@ -107,7 +107,7 @@ layout: default
                 <div class="u-divider"></div>
                 {% for talk in site.data.speaking limit: 5 %}
                 <a class="media__link" href="/speaking/{{ talk.url }}" lang="es">
-                    <time class="media__time">{{ talk.date }}</time>
+                    <time class="media__time" datetime="{{ talk.date}}">{{ talk.date | date: "%b %-d %Y" }}</time>
                     <h4 class="media__subtitle">{{ talk.name }}</h4>
                 </a>
                 {% endfor %}
