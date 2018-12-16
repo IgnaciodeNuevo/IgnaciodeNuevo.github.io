@@ -48,7 +48,7 @@ You'll need to get Jekyll running every time you make changes to the project.
 
 ## Color and Type measurements
 
--   line-height
+-   Line-height
     -   Headings 1.1
     -   Body 1.5
 -   Body color
@@ -57,3 +57,8 @@ You'll need to get Jekyll running every time you make changes to the project.
 -   Body color secondary
     -   Light backgrounds:
     -   Dark backgrounds: --color-base-light: #808080
+-   Backgrounds
+    -   Light background
+    -   Off light background
+    -   Dark background: --color-base-dark, #141414
+    -   Off dark background: --color-base-medium, #262626
