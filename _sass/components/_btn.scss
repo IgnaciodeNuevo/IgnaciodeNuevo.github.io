@@ -17,7 +17,7 @@
     @include transition();
 
     &:hover {
-        background-color: var(--color-white, #ffffff);
+        background-color: var(--color-base-lightest, #efefef);
         color: var(--color-base-medium, #262626);
         cursor: pointer;
     }
@@ -42,8 +42,8 @@
 
     &:active,
     &:hover {
-        background-color: var(--color-white, #ffffff);
-        border-color: var(--color-white, #ffffff);
+        background-color: var(--color-base-lightest, #efefef);
+        border-color: var(--color-base-lightest, #efefef);
         color: var(--color-base-medium, #262626);
     }
 
@@ -59,7 +59,7 @@
 .btn--fill {
     background-color: var(--color-primary, #0047bb);
     border: 2px solid transparent;
-    color: var(--color-white, #ffffff);
+    color: var(--color-base-lightest, #efefef);
 
     &:active {
         background-color: transparent;
@@ -71,17 +71,17 @@
 .btn--ghost {
     background-color: transparent;
     border: 2px solid currentColor;
-    color: var(--color-white, #ffffff);
+    color: var(--color-base-lightest, #efefef);
     opacity: 0.5;
     padding: var(--space-s, 0.5rem);
 
     &:hover {
-        border: 2px solid var(--color-white, #ffffff);
+        border: 2px solid var(--color-base-lightest, #efefef);
         opacity: 1;
     }
 
     &:active {
-        background-color: var(--color-white, #ffffff);
+        background-color: var(--color-base-lightest, #efefef);
         color: var(--color-base-medium, #262626);
         opacity: 1;
     }
@@ -100,6 +100,6 @@
     &:hover {
         background-color: var(--color-base-medium, #262626);
         border-color: var(--color-base-medium, #262626);
-        color: var(--color-white, #ffffff);
+        color: var(--color-base-lightest, #efefef);
     }
 }
