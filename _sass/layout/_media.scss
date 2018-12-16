@@ -74,6 +74,7 @@
     }
 
     &__time {
+        color: var(--color-base-light, #808080);
         display: block;
         font-variant: small-caps;
         margin-bottom: var(--space-s, 0.5rem);

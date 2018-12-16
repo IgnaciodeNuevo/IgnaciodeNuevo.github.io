@@ -82,7 +82,7 @@
     }
 
     &__title {
-        margin-bottom: 0.5rem;
+        margin-bottom: var(--space-s, 0.5rem);
         padding-right: var(--space-m, 1rem);
     }
 
