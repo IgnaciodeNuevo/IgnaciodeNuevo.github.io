@@ -48,7 +48,12 @@ You'll need to get Jekyll running every time you make changes to the project.
 
 ## Color and Type measurements
 
--   Headings line-height - *1.1* (the bigger the font-size, the smaller the line-height): 1 to 1.2
--   Body line-height - *1.5* (the smaller the font-size, the bigger the line-height): 1.25 to 1.7
--   Body and light backgrounds - color: var(--color-base-medium, #262626);
--   Color over dark backgrounds - color: var(--color-base-lightest, #efefef);
+-   line-height
+    -   Headings 1.1
+    -   Body 1.5
+-   Body color
+    -   Light backgrounds: --color-base-medium, #262626
+    -   Dark backgrounds: --color-base-lightest, #efefef
+-   Body color secondary
+    -   Light backgrounds:
+    -   Dark backgrounds: --color-base-light: #808080
