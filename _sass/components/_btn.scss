@@ -3,12 +3,14 @@
 // -----------------------------------------------------------------------------
 .btn {
     align-items: center;
-    display: flex;
+    display: inline-flex;
     font-weight: var(--fake-bold, bold);
     justify-content: center;
     letter-spacing: var(--letter-spacing, 0.125rem);
-    max-width: 10rem;
-    padding: var(--space-s, 0.5rem);
+    padding-right: var(--space-l, 2rem);
+    padding-top: var(--space-xs, 0.25rem);
+    padding-bottom: var(--space-xs, 0.25rem);
+    padding-left: var(--space-l, 2rem);
     text-decoration: none;
     text-transform: uppercase;
 
