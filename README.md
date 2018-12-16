@@ -45,3 +45,10 @@ You'll need to get Jekyll running every time you make changes to the project.
 -   [stylelint-order](https://github.com/hudochenkov/stylelint-order)
 -   [stylelint-scss](https://github.com/kristerkari/stylelint-scss)
 -   [stylelint](https://github.com/stylelint/stylelint)
+
+## Color and Type measurements
+
+-   Headings line-height - *1.1* (the bigger the font-size, the smaller the line-height): 1 to 1.2
+-   Body line-height - *1.5* (the smaller the font-size, the bigger the line-height): 1.25 to 1.7
+-   Body and light backgrounds - color: var(--color-base-medium, #262626);
+-   Color over dark backgrounds - color: var(--color-base-lightest, #efefef);
