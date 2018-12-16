@@ -62,3 +62,16 @@ You'll need to get Jekyll running every time you make changes to the project.
     -   Offset light background
     -   Dark background: --color-base-dark, #141414
     -   Offset dark background: --color-base-medium, #262626
+-   Greys
+    -   Dark: #141414
+    -   Medium: #262626
+    -   Light: #808080
+-   Colour Palettes
+    -   [Accesible blues, medium grey and secondary](https://toolness.github.io/accessible-color-matrix/?n=white&n=medium&n=primary&n=primary-darker&n=primary-darkest&n=accent&v=FFFFFF&v=262626&v=0047BB&v=002F7B&v=00173B&v=FFD300)
+    -   [Accessible greys, primary and secondary](https://toolness.github.io/accessible-color-matrix/?n=white&n=primary&n=secondary&n=dark&n=medium&n=light&v=FFFFFF&v=0047BB&v=FFD300&v=141414&v=262626&v=808080)
+    -   Blues
+        -   #0047BB - Pantone 2728 C
+        -   #002f7b
+        -   #00173b
+    -   Yellow
+        -   #FFAC00 - Pantone 130 C
