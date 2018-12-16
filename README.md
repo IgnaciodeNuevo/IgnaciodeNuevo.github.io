@@ -54,11 +54,11 @@ You'll need to get Jekyll running every time you make changes to the project.
 -   Body color
     -   Light backgrounds: --color-base-medium, #262626
     -   Dark backgrounds: --color-base-lightest, #efefef
--   Body color secondary
+-   Body color offset
     -   Light backgrounds:
-    -   Dark backgrounds: --color-base-light: #808080
+    -   Dark backgrounds: --color-base-light, #808080
 -   Backgrounds
     -   Light background
-    -   Off light background
+    -   Offset light background
     -   Dark background: --color-base-dark, #141414
-    -   Off dark background: --color-base-medium, #262626
+    -   Offset dark background: --color-base-medium, #262626
