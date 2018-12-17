@@ -75,9 +75,12 @@
         margin-bottom: var(--space-l, 2rem);
 
         @supports (grid-gap: 1rem) {
+            grid-area: content;
             margin-bottom: 0;
 
-            grid-area: content;
+            @media (min-width: $mq-l) {
+                align-self: end;
+            }
         }
     }
 
