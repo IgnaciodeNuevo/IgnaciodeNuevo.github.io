@@ -67,12 +67,9 @@
             background-color: var(--color-base-lightest, #efefef);
             color: var(--color-base-medium, #262626);
 
-            .media__subtitle {
-                color: inherit;
-            }
-
+            .media__subtitle,
             .media__time {
-                color: var(--color-base-medium, #262626);
+                color: inherit;
             }
         }
     }
