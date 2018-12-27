@@ -67,7 +67,7 @@
             margin-left: var(--space-s, 0.5rem);
             margin-right: var(--space-s, 0.5rem);
 
-            @include body-smaller();
+            @include caption();
         }
 
         &:nth-of-type(4):after {
