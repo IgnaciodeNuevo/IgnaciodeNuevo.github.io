@@ -6,8 +6,9 @@
     color: var(--color-base-dark, #262626);
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
     max-width: 100vw;
+    min-height: 100vh;
     overflow: auto;
     padding-bottom: var(--space-l, 2rem);
     padding-left: var(--space-l, 2rem);
