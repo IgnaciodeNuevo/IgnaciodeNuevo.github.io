@@ -50,8 +50,7 @@
     --space-xl: calc(var(--font-base) * 4);  // 64px
     --space-xxl: calc(var(--font-base) * 8);  // 128px
 
-    --border-width-xxs: 0.125rem;
-    --border-width-xs: 0.25rem;
+    --border-width-xxs: 0.1875rem; // 3px
     --hero-height: 60rem;
     --horizontal: var(--space-l, 2rem);
     --nav-height: 4.5rem;

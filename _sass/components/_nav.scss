@@ -55,7 +55,7 @@
 
         &:hover .link__label,
         &.is-active .link__label {
-            border-bottom: var(--border-width-xs, 0.25rem) solid var(--color-base-lightest, #efefef);
+            border-bottom: var(--border-width-xxs, 0.1875rem) solid var(--color-base-lightest, #efefef);
             display: inherit;
             height: var(--nav-height, 4.5rem);
             line-height: var(--nav-height, 4.5rem);
@@ -77,7 +77,7 @@
         &:last-of-type {
             background-color: var(--color-secondary, #ffd300);
             color: var(--color-base-medium, #262626);
-            height: calc(var(--nav-height, 4.5rem) + var(--border-width-xs, 0.25rem));
+            height: calc(var(--nav-height, 4.5rem) + var(--border-width-xxs, 0.1875rem));
             line-height: var(--nav-height, 4.5rem);
             margin-right: 0;
             padding-left: var(--space-l, 2rem);
