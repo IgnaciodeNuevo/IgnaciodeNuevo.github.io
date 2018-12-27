@@ -42,8 +42,8 @@ body.is-active .container {
     fill: currentColor;
     // Prevent the icon from shrinking inside a flex container.
     flex-shrink: 0;
-    height: var(--icon-special, 1.5rem);
-    width: var(--icon-special, 1.5rem);
+    height: var(--icon-m, 1rem);
+    width: var(--icon-m, 1rem);
 
     &-stroke {
         fill: none;
