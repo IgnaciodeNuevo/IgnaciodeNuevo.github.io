@@ -76,9 +76,9 @@
     &__time {
         color: var(--color-base-light, #808080);
         display: block;
-        font-variant: small-caps;
         margin-bottom: var(--space-xs, 0.25rem);
 
+        @include all-small-caps();
         @include body-small();
     }
 

@@ -47,11 +47,10 @@
         color: var(--color-base-lightest, #efefef);
         display: inline-block;
         height: inherit;
-        letter-spacing: var(--letter-spacing, 0.05em);
         line-height: inherit;
         text-decoration: none;
-        text-transform: uppercase;
 
+        @include all-small-caps();
         @include body-small();
 
         &:hover .link__label,
@@ -63,8 +62,8 @@
         }
 
         &:not(:last-of-type):after {
-            content: "/";
             color: var(--color-base-light, #808080);
+            content: "/";
             margin-left: var(--space-s, 0.5rem);
             margin-right: var(--space-s, 0.5rem);
 
@@ -97,7 +96,7 @@
     }
 
     .link__label {
-        font-family: var(--font-family-body-semibold, "Brando Semibold Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif);
+        font-family: var(--font-family-body-regular, 'Brando Regular Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif);
     }
 }
 
