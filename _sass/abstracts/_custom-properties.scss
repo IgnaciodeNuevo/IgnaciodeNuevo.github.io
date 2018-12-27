@@ -2,8 +2,9 @@
 // This file contains all application-wide Custom Properties
 // -----------------------------------------------------------------------------
 :root {
-    --color-base-dark: #141414;
-    --color-base-medium: #262626;
+    --color-base-darkest: #141414;
+    --color-base-dark: #262626;
+    --color-base-medium: #4c4c4c;
     --color-base-light: #808080;
     --color-base-lightest: #efefef;
 
@@ -49,6 +50,14 @@
     --space-l: calc(var(--font-base) * 2);  // 32px
     --space-xl: calc(var(--font-base) * 4);  // 64px
     --space-xxl: calc(var(--font-base) * 8);  // 128px
+
+    --size-xxs: calc(var(--font-base) / 8);  // 2px
+    --size-xs: calc(var(--font-base) / 4);  // 4px
+    --size-s: calc(var(--font-base) / 2);  // 8px
+    --size-m: calc(var(--font-base));  // 16px
+    --size-l: calc(var(--font-base) * 2);  // 32px
+    --size-xl: calc(var(--font-base) * 4);  // 64px
+    --size-xxl: calc(var(--font-base) * 8);  // 128px
 
     --border-width-xxs: 0.1875rem; // 3px
     --hero-height: 60rem;

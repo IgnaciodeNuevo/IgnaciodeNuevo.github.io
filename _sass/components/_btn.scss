@@ -18,7 +18,7 @@
 
     &:hover {
         background-color: var(--color-base-lightest, #efefef);
-        color: var(--color-base-medium, #262626);
+        color: var(--color-base-dark, #262626);
         cursor: pointer;
     }
 
@@ -44,7 +44,7 @@
     &:hover {
         background-color: var(--color-base-lightest, #efefef);
         border-color: var(--color-base-lightest, #efefef);
-        color: var(--color-base-medium, #262626);
+        color: var(--color-base-dark, #262626);
     }
 
     span:first-child {
@@ -82,7 +82,7 @@
 
     &:active {
         background-color: var(--color-base-lightest, #efefef);
-        color: var(--color-base-medium, #262626);
+        color: var(--color-base-dark, #262626);
         opacity: 1;
     }
 
@@ -94,12 +94,12 @@
 .btn--inverted {
     background-color: transparent;
     border: 2px solid currentColor;
-    color: var(--color-base-medium, #262626);
+    color: var(--color-base-dark, #262626);
     padding: var(--space-s, 0.5rem);
 
     &:hover {
-        background-color: var(--color-base-medium, #262626);
-        border-color: var(--color-base-medium, #262626);
+        background-color: var(--color-base-dark, #262626);
+        border-color: var(--color-base-dark, #262626);
         color: var(--color-base-lightest, #efefef);
     }
 }

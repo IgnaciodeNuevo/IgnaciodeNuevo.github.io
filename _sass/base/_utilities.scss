@@ -17,8 +17,12 @@
 .u-divider {
     background-color: currentColor;
     height: var(--border-width-xxs, 0.1875rem);
-    margin-bottom: 1rem;
-    width: 4rem;
+    margin-bottom: var(--space-m, 1rem);
+    width: var(--size-xl, 4rem);
+
+    &--small {
+        width: var(--size-l, 2rem);
+    }
 }
 
 //

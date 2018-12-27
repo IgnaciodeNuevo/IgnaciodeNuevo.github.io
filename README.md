@@ -52,7 +52,7 @@ You'll need to get Jekyll running every time you make changes to the project.
     -   Headings 1.1
     -   Body 1.5
 -   Body color
-    -   Light backgrounds: --color-base-medium, #262626
+    -   Light backgrounds: --color-base-dark, #262626
     -   Dark backgrounds: --color-base-lightest, #efefef
 -   Body color offset
     -   Light backgrounds:
@@ -60,8 +60,8 @@ You'll need to get Jekyll running every time you make changes to the project.
 -   Backgrounds
     -   Light background
     -   Offset light background
-    -   Dark background: --color-base-dark, #141414
-    -   Offset dark background: --color-base-medium, #262626
+    -   Dark background: --color-base-darkest, #141414
+    -   Offset dark background: --color-base-dark, #262626
 -   Greys
     -   Dark: #141414
     -   Medium: #262626
