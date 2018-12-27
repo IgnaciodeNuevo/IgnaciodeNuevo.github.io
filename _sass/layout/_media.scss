@@ -70,6 +70,10 @@
             .media__subtitle {
                 color: inherit;
             }
+
+            .media__time {
+                color: var(--color-base-medium, #262626);
+            }
         }
     }
 
