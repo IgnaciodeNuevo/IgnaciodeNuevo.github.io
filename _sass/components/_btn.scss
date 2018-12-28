@@ -3,6 +3,7 @@
 // -----------------------------------------------------------------------------
 .btn {
     align-items: center;
+    border-radius: var(--border-radius-xxs, 0.125rem);
     display: inline-flex;
     font-weight: var(--fake-bold, bold);
     justify-content: center;
