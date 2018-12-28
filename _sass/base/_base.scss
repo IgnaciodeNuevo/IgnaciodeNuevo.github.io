@@ -27,12 +27,8 @@ body.is-active .offcanvas {
     transform: translateX(0);
 }
 
-body.is-active {
-    overflow: hidden;
-
-    .container {
-        transform: translateX(-100%);
-    }
+body.is-active .container {
+    transform: translateX(-100%);
 }
 
 .container {

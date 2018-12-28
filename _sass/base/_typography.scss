@@ -74,6 +74,14 @@ p {
     @include body-text();
 }
 
+.small {
+    @include body-small();
+}
+
+.caption {
+    @include caption();
+}
+
 // Headings h1-h6 loaded font-family
 html.fonts-loaded h1,
 html.fonts-loaded .h1-like,
@@ -99,17 +107,23 @@ html:not(.fonts-loaded) {
 }
 
 // Heading h1 (not loaded) fallback tweaks
-html:not(.fonts-loaded) h1 {
+html:not(.fonts-loaded) h1,
+html:not(.fonts-loaded) .h1-like, {
     letter-spacing: -0.040625em; // -0.65px
     word-spacing: -0.04375em; // -0.7px
 }
 
 // Headings h2-h6 (not loaded) fallback tweaks
 html:not(.fonts-loaded) h2,
+html:not(.fonts-loaded) .h2-like,
 html:not(.fonts-loaded) h3,
+html:not(.fonts-loaded) .h3-like,
 html:not(.fonts-loaded) h4,
+html:not(.fonts-loaded) .h4-like,
 html:not(.fonts-loaded) h5,
-html:not(.fonts-loaded) h6 {
+html:not(.fonts-loaded) .h5-like,
+html:not(.fonts-loaded) h6,
+html:not(.fonts-loaded) .h6-like, {
     letter-spacing: -0.034375em; // -0.55px
     word-spacing: -0.05em; // -0.8px
 }
