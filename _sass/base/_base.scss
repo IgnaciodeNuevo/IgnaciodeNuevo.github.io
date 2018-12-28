@@ -79,6 +79,11 @@ body.is-active {
     margin-bottom: 0;
     margin-top: var(--space-l, 2rem);
     max-width: 80%;
+    white-space: nowrap;
 
     @include all-small-caps();
+
+    span {
+        white-space: inherit;
+    }
 }
