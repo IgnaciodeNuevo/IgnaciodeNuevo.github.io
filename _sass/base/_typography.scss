@@ -13,7 +13,13 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.h1-like,
+.h2-like,
+.h3-like,
+.h4-like,
+.h5-like,
+.h6-like {
     font-family: var(--font-family-title-fallback, Georgia, sans-serif);
     font-weight: var(--font-weight-bold, 700);
 }
@@ -24,31 +30,43 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.h1-like,
+.h2-like,
+.h3-like,
+.h4-like,
+.h5-like,
+.h6-like {
     line-height: 1.1;
 }
 
-h1 {
+h1,
+.h1-like {
     @include heading-h1();
 }
 
-h2 {
+h2,
+.h2-like {
     @include heading-h2();
 }
 
-h3 {
+h3,
+.h3-like {
     @include heading-h3();
 }
 
-h4 {
+h4,
+.h4-like {
     @include heading-h4();
 }
 
-h5 {
+h5,
+.h5-like {
     @include heading-h5();
 }
 
-h6 {
+h6,
+.h6-like {
     @include heading-h6();
 }
 
@@ -58,11 +76,17 @@ p {
 
 // Headings h1-h6 loaded font-family
 html.fonts-loaded h1,
+html.fonts-loaded .h1-like,
 html.fonts-loaded h2,
+html.fonts-loaded .h2-like,
 html.fonts-loaded h3,
+html.fonts-loaded .h3-like,
 html.fonts-loaded h4,
+html.fonts-loaded .h4-like,
 html.fonts-loaded h5,
-html.fonts-loaded h6 {
+html.fonts-loaded .h5-like,
+html.fonts-loaded h6,
+html.fonts-loaded .h6-like {
     font-family: var(--font-family-title, "Guardian Bold Egyptian", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, serif);
 }
 

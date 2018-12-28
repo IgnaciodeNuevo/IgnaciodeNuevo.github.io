@@ -30,18 +30,17 @@
     }
 
     &__content {
-        font-size: 1rem;
         margin-bottom: var(--space-l, 2rem);
         margin-left: auto;
         margin-right: auto;
-        min-width: var(--footer-content-small, 12rem);
+        min-width: var(--footer-content-small, 8rem);
 
-        @media (min-width: $mq-l) {
+        // @media (min-width: $mq-l) {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             max-width: var(--footer-content-big, 24rem);
-        }
+        // }
     }
 
     &__half {

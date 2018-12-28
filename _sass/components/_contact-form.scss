@@ -1,0 +1,35 @@
+.contact-form {
+    background-color: var(--color-base-lightest, #efefef);
+    border-radius: var(--border-radius-xxs, 0.125rem);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: var(--space-l, 2rem);
+    padding: var(--space-l, 2rem);
+    color: var(--color-base-dark, #262626);
+
+    input,
+    textarea {
+        border-radius: var(--border-radius-xxs, 0.125rem);
+        border: 2px solid transparent;
+        margin-bottom: var(--space-l, 2rem);
+        padding: var(--space-s, 0.5rem);
+
+        &:focus {
+            border: 2px solid var(--color-base-dark, #262626);;
+        }
+    }
+
+    textarea {
+        resize: none;
+    }
+
+    .h4-like:last-of-type {
+        margin-bottom: var(--space-xs, 0.25rem);
+    }
+
+    .label-desc {
+        margin-bottom: var(--space-xs, 0.25rem);
+
+        @include body-small();
+    }
+}
