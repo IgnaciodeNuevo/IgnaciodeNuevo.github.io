@@ -4,26 +4,38 @@
 
         <p class="foo__description">{{ site.shortdescription }}</p>
 
-        <h3 class="section-caption">
-            <span class="u-divider-small"></span>
-            <span>Social Networks</span>
-        </h3>
+        <div class="foo__content">
+            <div class="foo__half">
+                <h3 class="section-caption">
+                    <span class="u-divider-small"></span>
+                    <span>Social Networks</span>
+                </h3>
 
-        {% include component-rrss.html %}
+                {% include component-rrss.html %}
 
-        <h3 class="section-caption">
-            <span class="u-divider-small"></span>
-            <span>Suscribe</span>
-        </h3>
+                <h3 class="section-caption">
+                    <span class="u-divider-small"></span>
+                    <span>Suscribe</span>
+                </h3>
 
-        <a class="link" href="{{ site.rss }}">RSS Feed </a>
+                <a class="link" href="{{ site.rss }}">RSS Feed</a>
 
-        <h3 class="section-caption">
-            <span class="u-divider-small"></span>
-            <span>Contact</span>
-        </h3>
+                <h3 class="section-caption">
+                    <span class="u-divider-small"></span>
+                    <span>Contact</span>
+                </h3>
 
-        <a class="link" href="/about/#contact">Contact</a>
-        {% include component-email.html %}
+                <a class="link" href="/about/#contact">Contact</a>
+            </div>
+
+            <div class="foo__half">
+                <h3 class="section-caption">
+                    <span class="u-divider-small"></span>
+                    <span>Navigation</span>
+                </h3>
+
+                <div class="offcanvas__counter">{% include layout-nav.html %}</div>
+            </div>
+        </div>
     </footer>
 </div>

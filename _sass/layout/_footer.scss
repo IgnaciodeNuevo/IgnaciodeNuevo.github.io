@@ -6,7 +6,7 @@
     position: relative;
 
     &::after {
-        @include section("/Contact", var(--color-secondary--darker, #f7a700));
+        @include section("/Info", var(--color-secondary--darker, #f7a700));
     }
 }
 
@@ -30,6 +30,26 @@
         padding-top: var(--space-xxl, 8rem);
     }
 
+    &__content {
+        @media (min-width: $mq-l) {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: var(--footer-content, 24rem);
+        }
+    }
+
+    &__half {
+        display: flex;
+        flex-direction: column;
+
+        @media (min-width: $mq-l) {
+            min-width: var(--footer-half, 16rem);
+        }
+    }
+
 
     &__title,
     &__description {
@@ -38,7 +58,6 @@
 
     .link {
         color: inherit;
-        font-family: var(--font-family-title, "Guardian Bold Egyptian", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, serif);
         padding-bottom: var(--space-s, 0.5rem);
         padding-top: var(--space-s, 0.5rem);
         text-decoration: none;
