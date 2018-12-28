@@ -59,9 +59,16 @@
         text-align: center;
     }
 
-    &__description:last-of-type {
-        margin-bottom: var(--space-xl, 4rem);
+    &__description {
+        margin-bottom: 0;
+
+        &:last-of-type {
+            @media (min-width: $mq-l) {
+                margin-bottom: var(--space-xl, 4rem);
+            }
+        }
     }
+
 
     .link {
         color: inherit;
