@@ -6,11 +6,8 @@
     display: inline-flex;
     font-weight: var(--fake-bold, bold);
     justify-content: center;
-    letter-spacing: var(--letter-spacing, 0.05em);
-    padding-right: var(--space-l, 2rem);
-    padding-top: var(--space-xs, 0.25rem);
-    padding-bottom: var(--space-xs, 0.25rem);
-    padding-left: var(--space-l, 2rem);
+    line-height: initial;
+    padding: var(--space-s, 0.5rem);
     text-decoration: none;
 
     @include all-small-caps();
@@ -37,8 +34,6 @@
     background-color: transparent;
     border: 2px solid currentColor;
     color: currentColor;
-    padding-bottom: var(--space-m, 1rem);
-    padding-top: var(--space-m, 1rem);
 
     &:active,
     &:hover {
@@ -73,7 +68,6 @@
     border: 2px solid currentColor;
     color: var(--color-base-lightest, #efefef);
     opacity: 0.5;
-    padding: var(--space-s, 0.5rem);
 
     &:hover {
         border: 2px solid var(--color-base-lightest, #efefef);
