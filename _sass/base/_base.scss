@@ -67,6 +67,11 @@ body.is-active {
     box-sizing: inherit;
 }
 
+::selection {
+    background-color: var(--color-primary, #0047bb);
+    color: var(--color-base-lightest, #efefef);
+}
+
 //
 // Section Caption
 //
