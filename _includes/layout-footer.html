@@ -1,42 +1,29 @@
-<footer class="" role="contentinfo">
-    <h2 class="">Always Learning</h2>
-    <div class="">
-        <ul class="">
-            <li>
-                {% include /icons/twitter.html %}
-                <a href="{{ site.twitter }}" rel="me" target="blank">Twitter</a>
-            </li>
-            <li>
-                {% include icons/github.html %}
-                <a href="{{ site.github }}" rel="me" target="blank">Github</a>
-            </li>
-            <li>
-                {% include icons/rss.html %}
-                <a href="/feed.xml">RSS Feed</a>
-            </li>
-        </ul>
-        <ul class="">
-            <li>
-                {% include icons/email.html %}
-                {% include component-email.html %}
-            </li>
-            <li>
-                {% include icons/resources.html %}
-                <a href="/resources/">Resources</a>
-            </li>
-            <li>
-                {% include icons/cv.html %}
-                <a href="/cv/">CV</a>
-            </li>
-        </ul>
-    </div>
+<div class="foo-wrapper">
+    <footer class="foo" role="contentinfo">
+        <h2 class="foo__title">Always Learning</h2>
 
-    <hr>
+        <p class="foo__description">{{ site.shortdescription }}</p>
 
-    <p>Articles licenced under
-        <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a>
-    </p>
-    <p>Code licensed under
-        <a href="/license" target="_blank" rel="noopener">The MIT License (MIT)</a>
-    </p>
-</footer>
+        <h3 class="section-caption">
+            <span class="u-divider-small"></span>
+            <span>Social Networks</span>
+        </h3>
+
+        {% include component-rrss.html %}
+
+        <h3 class="section-caption">
+            <span class="u-divider-small"></span>
+            <span>Suscribe</span>
+        </h3>
+
+        <a class="link" href="{{ site.rss }}">RSS Feed </a>
+
+        <h3 class="section-caption">
+            <span class="u-divider-small"></span>
+            <span>Contact</span>
+        </h3>
+
+        <a class="link" href="/about/#contact">Contact</a>
+        {% include component-email.html %}
+    </footer>
+</div>

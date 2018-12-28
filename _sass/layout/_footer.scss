@@ -1,6 +1,50 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the footer of the website.
 // -----------------------------------------------------------------------------
-footer {
-    padding: var(--space-m, 1rem);
+.foo-wrapper {
+    overflow: hidden;
+    position: relative;
+
+    &::after {
+        @include section("/Contact", var(--color-secondary--darker, #f7a700));
+    }
+}
+
+.foo {
+    background-color: var(--color-secondary, #ffd300);
+    color: var(--color-base-dark, #262626);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: var(--space-xl, 4rem);
+    padding-left: var(--space-m, 1rem);
+    padding-right: var(--space-m, 1rem);
+    padding-top: var(--space-xl, 4rem);
+
+    @media (min-width: $mq-s) {
+        padding-left: var(--space-l, 2rem);
+        padding-right: var(--space-l, 2rem);
+    }
+
+    @media (min-width: $mq-l) {
+        padding-bottom: var(--space-xxl, 8rem);
+        padding-top: var(--space-xxl, 8rem);
+    }
+
+
+    &__title,
+    &__description {
+        text-align: center;
+    }
+
+    .link {
+        color: inherit;
+        font-family: var(--font-family-title, "Guardian Bold Egyptian", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, serif);
+        padding-bottom: var(--space-s, 0.5rem);
+        padding-top: var(--space-s, 0.5rem);
+        text-decoration: none;
+    }
+
+    h3.section-caption {
+        font-family: var(--font-family-body-regular, "Brando Regular Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif);
+    }
 }

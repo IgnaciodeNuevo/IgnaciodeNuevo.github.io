@@ -6,7 +6,6 @@
     color: var(--color-base-dark, #262626);
     display: flex;
     flex-direction: column;
-    font-size: 1rem;
     max-width: 100vw;
     min-height: 50.75rem; // 812px: iPhone X height
     padding-bottom: var(--space-l, 2rem);
@@ -54,7 +53,7 @@
     }
 
     .link {
-        color: var(--color-base-dark, #262626);
+        color: inherit;
         font-family: var(--font-family-title, "Guardian Bold Egyptian", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, serif);
         padding-bottom: var(--space-s, 0.5rem);
         padding-top: var(--space-s, 0.5rem);
@@ -65,10 +64,5 @@
 
     h2.section-caption {
         font-family: var(--font-family-body-regular, "Brando Regular Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif);
-    }
-
-    .u-divider {
-        margin-bottom: 0;
-        margin-right: var(--space-s, 0.5rem);
     }
 }
