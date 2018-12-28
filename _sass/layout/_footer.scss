@@ -69,7 +69,7 @@
     }
 
 
-    .link {
+    .link:not(.link--foo) {
         color: inherit;
         padding-bottom: var(--space-s, 0.5rem);
         padding-top: var(--space-s, 0.5rem);
