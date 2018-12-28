@@ -59,6 +59,10 @@
         text-decoration: none;
 
         @include heading-h6();
+
+        &:hover {
+            text-decoration: underline;
+        }
     }
 
     h2.section-caption {

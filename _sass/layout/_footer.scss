@@ -59,11 +59,19 @@
         text-align: center;
     }
 
+    &__description:last-of-type {
+        margin-bottom: var(--space-xl, 4rem);
+    }
+
     .link {
         color: inherit;
         padding-bottom: var(--space-s, 0.5rem);
         padding-top: var(--space-s, 0.5rem);
         text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
     }
 
     h3.section-caption {
