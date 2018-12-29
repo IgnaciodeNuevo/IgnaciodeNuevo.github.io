@@ -26,7 +26,6 @@
     }
 
      > svg {
-        fill: currentColor;
         margin-right: var(--space-s, 0.5rem);
     }
 }
@@ -43,7 +42,7 @@
         color: var(--color-base-dark, #262626);
     }
 
-    span:first-child {
+    span {
         margin-right: var(--space-s, 0.5rem);
     }
 
@@ -67,6 +66,14 @@
         background-color: var(--color-primary-darkest, #00173b);
         border-color: var(--color-primary-darkest, #00173b);
         color: var(--color-base-lightest, #efefef);
+    }
+
+    .btn__text:first-child {
+        margin-right: var(--space-s, 0.5rem);
+    }
+
+     > svg:last-child {
+        margin-right: 0;
     }
 }
 

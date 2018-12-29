@@ -5,17 +5,33 @@
         <p class="foo__description">{{ site.shortdescription }}</p>
 
         <!-- <div class="foo__content"> -->
-            <h3 class="section-caption">
+            <h4 class="section-caption">
                 <span class="u-divider-small"></span>
                 <span>Social</span>
-            </h3>
+            </h4>
+
+
+            {% include icons/arrow-enter.html %}
+            {% include icons/send.html %}
+            {% include icons/cv.html %}
+            {% include icons/email.html %}
+            {% include icons/bookmark.html %}
+            {% include icons/external.html %}
+            {% include icons/github.html %}
+            {% include icons/hamburguer.html %}
+            {% include icons/info.html %}
+            {% include icons/link.html %}
+            {% include icons/resources.html %}
+            {% include icons/rss.html %}
+            {% include icons/search.html %}
+            {% include icons/twitter.html %}
 
             {% include component-rrss.html %}
 
-            <h3 class="section-caption">
+            <h4 class="section-caption">
                 <span class="u-divider-small"></span>
                 <span>Suscribe</span>
-            </h3>
+            </h4>
 
             <a class="link" href="{{ site.rss }}">RSS Feed</a>
         <!-- </div> -->

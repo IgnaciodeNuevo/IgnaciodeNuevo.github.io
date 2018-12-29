@@ -43,6 +43,9 @@ body.is-active .container {
     // Prevent the icon from shrinking inside a flex container.
     flex-shrink: 0;
     height: var(--icon-m, 1em);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2;
     width: var(--icon-m, 1em);
 
     &-stroke {
