@@ -1,12 +1,15 @@
 .contact-form {
     background-color: var(--color-base-lightest, #efefef);
     border-radius: var(--border-radius-xxs, 0.125rem);
+    color: var(--color-base-dark, #262626);
     display: flex;
     flex-direction: column;
     margin-bottom: var(--space-l, 2rem);
     padding: var(--space-l, 2rem);
-    color: var(--color-base-dark, #262626);
-    max-width: 50%;
+
+    @media (min-width: $mq-xs) {
+        max-width: 50%;
+    }
 
     input,
     textarea {
@@ -30,7 +33,7 @@
     }
 
     .small {
-        margin-bottom: var(--space-xl, 4rem);
+        margin-bottom: var(--space-l, 2rem);
     }
 
     .label-desc {
