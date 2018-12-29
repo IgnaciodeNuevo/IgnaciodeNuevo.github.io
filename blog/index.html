@@ -18,10 +18,20 @@ title: "Writing"
 
 <ul class="pagination">
     {% if paginator.previous_page %}
-        <li><a href="{{ paginator.previous_page_path }}"><span class="pagination__icon">◀</span> Previous</a></li>
+        <li>
+            <a class="btn btn--fill" href="{{ paginator.previous_page_path }}">
+                {% include icons/arrow-prev.html %}
+                <span>Previous</span>
+            </a>
+        </li>
     {% endif %}
 
     {% if paginator.next_page %}
-        <li><a href="{{ paginator.next_page_path }}">Next <span class="pagination__icon">►</span></a></li>
+        <li>
+            <a class="btn btn--fill" href="{{ paginator.next_page_path }}">
+                <span class="btn__text">Next</span>
+                {% include icons/arrow-next.html %}
+            </a>
+        </li>
     {% endif %}
 </ul>

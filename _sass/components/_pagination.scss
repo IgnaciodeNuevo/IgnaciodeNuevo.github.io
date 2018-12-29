@@ -2,5 +2,18 @@
 // This file contains all styles related to the pagination component.
 // -----------------------------------------------------------------------------
 .pagination {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: var(--space-l, 2rem);
+    max-width: calc(var(--btn-width, 8.75rem) * 2 + 1rem);
+    padding-bottom: var(--space-l, 2rem);
+    padding-left: 0;
 
+    .btn {
+        width: var(--btn-width, 8.75rem);
+    }
 }
