@@ -6,22 +6,26 @@
 
         <div class="foo__content">
             <div class="foo__social">
-                <h4 class="section-caption">
-                    <span class="u-divider-small"></span>
-                    <span>Social</span>
-                </h4>
+                <div class="foo__social-item">
+                    <h4 class="section-caption">
+                        <span class="u-divider-small"></span>
+                        <span>Social</span>
+                    </h4>
 
-                {% include component-rrss.html %}
+                    {% include component-rrss.html %}
+                </div>
 
-                <h4 class="section-caption">
-                    <span class="u-divider-small"></span>
-                    <span>Suscribe</span>
-                </h4>
+                <div class="foo__social-item">
+                    <h4 class="section-caption">
+                        <span class="u-divider-small"></span>
+                        <span>Suscribe</span>
+                    </h4>
 
-                <a class="link" href="{{ site.rss }}">
-                    {% include icons/rss.html %}
-                    RSS Feed
-                </a>
+                    <a class="link" href="{{ site.rss }}">
+                        {% include icons/rss.html %}
+                        RSS Feed
+                    </a>
+                </div>
             </div>
 
             {% include component-contact.html %}

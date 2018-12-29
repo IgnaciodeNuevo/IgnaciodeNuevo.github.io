@@ -44,6 +44,34 @@
         }
     }
 
+    &__content {
+        @media (min-width: $mq-xs) {
+            display: flex;
+        }
+    }
+
+    &__social {
+        @media (min-width: $mq-xs) {
+            width: 30%;
+        }
+    }
+
+    .contact-form {
+        @media (min-width: $mq-xs) {
+            margin-top: var(--space-l, 2rem);
+            width: 70%;
+        }
+    }
+
+    &__social-item {
+        display: flex;
+        flex-direction: column;
+
+        &:last-child {
+            margin-bottom: var(--space-l, 2rem);
+        }
+    }
+
 
     .link:not(.link--foo) {
         color: inherit;

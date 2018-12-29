@@ -7,10 +7,6 @@
     margin-bottom: var(--space-l, 2rem);
     padding: var(--space-l, 2rem);
 
-    @media (min-width: $mq-xs) {
-        max-width: 50%;
-    }
-
     input,
     textarea {
         border-radius: var(--border-radius-xxs, 0.125rem);
