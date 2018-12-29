@@ -1,0 +1,45 @@
+// -------------------------------------------------------------------------------------------------------
+// This file contains all styles related to the article item to iterate in /blog, /speaking and /projects.
+// -------------------------------------------------------------------------------------------------------
+.article {
+    &__link {
+        border-bottom: 1px solid currentColor;
+        color: inherit;
+        display: block;
+        padding-bottom: var(--space-m, 1rem);
+        padding-left: var(--space-xs, 0.5rem);
+        padding-top: var(--space-m, 1rem);
+        text-decoration: none;
+
+        @include transition();
+
+        &:hover {
+            background-color: var(--color-base-lightest, #efefef);
+            color: var(--color-base-dark, #262626);
+
+            .media__subtitle,
+            .media__time {
+                color: inherit;
+            }
+        }
+    }
+    &__time {
+        color: var(--color-base-light, #808080);
+        display: block;
+        margin-bottom: var(--space-xs, 0.25rem);
+
+        @include all-small-caps();
+        @include body-small();
+    }
+
+    &__subtitle {
+        color: var(--color-primary, #0047bb);
+        margin-bottom: 0;
+
+        @include body-text();
+
+        .icon {
+            margin-bottom: calc(#{var(--space-xxs, 0.125rem)} * -1); // Visual correction to align the text
+        }
+    }
+}

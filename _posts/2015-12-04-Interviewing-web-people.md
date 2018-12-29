@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Interviewing Web People"
-excerpt: "I am starting an awesome project wich I never thought it would be possible. I am interviewing the most awesome people of the Web Industry."
 tags:
   - Interviews
 ---

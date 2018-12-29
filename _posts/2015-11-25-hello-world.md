@@ -1,14 +1,11 @@
 ---
 layout: post
 title: "Hello World, here I am"
-excerpt: "First clarify that this is going to be the blog of my personal trip into Frontend Develpment, where I'll be sharing my thougts on many topics related to Web Industry, CSS and Sass, architecture, frontend performance and responsive web design."
 tags:
   - Personal
 ---
 
-Hi!
-
-First clarify that this is going to be the blog of my personal trip into Frontend Develpment, where I'll be sharing my thougts on many topics related to Web Industry, CSS and Sass, architecture, frontend performance and responsive web design.
+Hi! First clarify that this is going to be the blog of my personal trip into Frontend Develpment, where I'll be sharing my thougts on many topics related to Web Industry, CSS and Sass, architecture, frontend performance and responsive web design.
 
 So lets start.
 

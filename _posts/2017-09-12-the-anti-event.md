@@ -1,12 +1,9 @@
 ---
 layout: post
 title: "The AntiEvent 2017"
-excerpt: "Mi experiencia en The AntiEvent 2017, un Open Space de nivel"
 tags:
   - Event
 ---
-
-# The Anti Event
 
 Parece mentira que haga tanto tiempo que no me pongo a escribir en el blog, pero esta vez merece enormemente la pena. El año pasado tuve la oportunidad de asistir a mi primer evento internacional, <a href="/2016/10/06/indie-web-camp-brighton-2016/">Indie Web Camp Brighton 2016</a> que tuvo lugar en las oficinas de <a href="https://clearleft.com/">Clearleft</a>.
 

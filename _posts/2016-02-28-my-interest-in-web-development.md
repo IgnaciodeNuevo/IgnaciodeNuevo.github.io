@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "My interest in web development"
-excerpt: "When I was young and I don't remember what age I was but I think it was when he was eight I started learning to program with an amazing teacher called Iñaki"
 tags:
   - Learning
   - Frontend

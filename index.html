@@ -84,7 +84,7 @@ layout: default
 
     <div class="media-wrapper">
         <section class="media">
-            <div class="media__item">
+            <article class="media__item">
                 <h3>Writing</h3>
                 <div class="u-divider"></div>
                 <p>I use to write from time to time. If you are looking for something specific, hit <a class="link" href="/search">the search</a>, or check all <a class="link" href="/interviews">Developer Interviews</a>.</p>
@@ -99,8 +99,8 @@ layout: default
                     <h4 class="media__subtitle">{{ post.title }}</h4>
                 </a>
                 {% endfor %}
-            </div>
-            <div class="media__item">
+            </article>
+            <article class="media__item">
                 <h3>Speaking</h3>
                 <div class="u-divider"></div>
                 {% for talk in site.data.speaking limit: 5 %}
@@ -109,8 +109,8 @@ layout: default
                     <h4 class="media__subtitle">{{ talk.name }}</h4>
                 </a>
                 {% endfor %}
-            </div>
-            <div class="media__item">
+            </article>
+            <article class="media__item">
                 <h3>Collaborations</h3>
                 <div class="u-divider"></div>
                 <p>I have had the pleasure of having been invited to collaborate with some Spanish media/publications of the web development sector.</p>
@@ -121,7 +121,7 @@ layout: default
                     <h4 class="media__subtitle">{{ collaboration.name }} {% include icons/external.html %}</h4>
                 </a>
                 {% endfor %}
-            </div>
+            </article>
         </section>
     </div>
 

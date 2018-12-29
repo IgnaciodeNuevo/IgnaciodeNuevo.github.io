@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Passion for Web Development"
-excerpt: "Frontend seems to be easy until you start learning it. This feeling took me a year to get this conclusion."
 tags:
   - Learning
   - Frontend

@@ -1,16 +1,15 @@
 ---
 layout: post
 title: "Indie Web Camp Brighton 2016"
-excerpt: "My experience going to the Indie Web Camp Brighton"
 tags:
   - Event
 ---
 
-<img src="/assets/images/post-IWC-Brighton-2016-1.gif" alt="Photo by Julie Anne Noying CC-BY/Flickr">
-
 It was a meeting for independent web creators (everyone from newbies to hackers) to share ideas and actively create things for our personal websites.
 
 [Recording](http://wecodesignpodcast.com/2016/09/27/web-audio/){:target="_blank"} a Podast with [Soledad Penadés](https://soledadpenades.com) a Mozilla's devrel and then attending the amazing [IndieWebCamp Brighton 2016](https://indieweb.org/2016/Brighton){:target="_blank"} has made me feel superpowers. Being surrounded by a community committed to develop the web without being part of social media services (aka. “silos”) where you can't excape their ecosystem and using the open web for social interaction and knowledge sharing was really inspiring.
+
+<img src="/assets/images/post-IWC-Brighton-2016-1.gif" alt="Photo by Julie Anne Noying CC-BY/Flickr">
 
 IndieWebCamp Brighton 2016 was held September 24/25 at [68middle](http://68middle.st){:target="_blank"} and for me has been a great opportunity to get out of my comfort zone, traveling to the UK and forcing me to speak in [english](/2015/11/25/hello-world/) was a great experience.
 
