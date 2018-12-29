@@ -77,13 +77,13 @@
     --border-radius-xl: var(--space-xl); // 64px
     --border-radius-xxl: var(--space-xxl); // 128px
 
-    --icon-xxs: var(--space-xxs); // 2px
-    --icon-xs: var(--space-xs); // 4px
-    --icon-s: var(--space-s); // 8px
-    --icon-m: var(--space-m); // 16px
-    --icon-l: var(--space-l); // 32px
-    --icon-xl: var(--space-xl); // 64px
-    --icon-xxl: var(--space-xxl); // 128px
+    --icon-xxs: 0.125em; // 2px
+    --icon-xs: 0.25em; // 4px
+    --icon-s: 0.5em; // 8px
+    --icon-m: 1em; // 16px
+    --icon-l: 2em; // 32px
+    --icon-xl: 4em; // 64px
+    --icon-xxl: 8em; // 128px
 
     --z-index-s: 1;
     --z-index-m: 2;

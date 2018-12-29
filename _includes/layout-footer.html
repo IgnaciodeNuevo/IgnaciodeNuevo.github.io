@@ -4,25 +4,21 @@
 
         <p class="foo__description">{{ site.shortdescription }}</p>
 
-        <div class="foo__content">
-            <div class="foo__half">
-                <h3 class="section-caption">
-                    <span class="u-divider-small"></span>
-                    <span>Social</span>
-                </h3>
+        <!-- <div class="foo__content"> -->
+            <h3 class="section-caption">
+                <span class="u-divider-small"></span>
+                <span>Social</span>
+            </h3>
 
-                {% include component-rrss.html %}
-            </div>
+            {% include component-rrss.html %}
 
-            <div class="foo__half">
-                <h3 class="section-caption">
-                    <span class="u-divider-small"></span>
-                    <span>Suscribe</span>
-                </h3>
+            <h3 class="section-caption">
+                <span class="u-divider-small"></span>
+                <span>Suscribe</span>
+            </h3>
 
-                <a class="link" href="{{ site.rss }}">RSS Feed</a>
-            </div>
-        </div>
+            <a class="link" href="{{ site.rss }}">RSS Feed</a>
+        <!-- </div> -->
 
         {% include component-contact.html %}
 
