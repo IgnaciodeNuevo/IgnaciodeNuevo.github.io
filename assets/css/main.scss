@@ -32,7 +32,7 @@
 // 4. Layout-related sections
 @import
   'layout/header',
-  'layout/home',
+  'layout/main',
   'layout/hero',
   'layout/media',
   'layout/footer';
@@ -46,10 +46,12 @@
   'components/banner',
   'components/article',
   'components/contact-form',
-  'components/get-in-touch';
+  'components/get-in-touch',
+  'components/pagination';
 
 
 // 6. Page-specific styles
 @import
+  'pages/home',
   'pages/success',
   'pages/404';

@@ -1,0 +1,18 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the .main of the website.
+// -----------------------------------------------------------------------------
+.main {
+    background-color: var(--color-background, #fafafa);
+    padding-top: var(--space-xl, 4rem);
+    padding-left: var(--space-m, 1rem);
+    padding-right: var(--space-m, 1rem);
+
+    @media (min-width: $mq-s) {
+        padding-left: var(--space-l, 2rem);
+        padding-right: var(--space-l, 2rem);
+    }
+
+    h1 {
+        text-align: center;
+    }
+}

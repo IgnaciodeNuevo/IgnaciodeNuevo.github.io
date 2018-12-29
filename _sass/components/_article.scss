@@ -14,12 +14,15 @@
         @include transition();
 
         &:hover {
-            background-color: var(--color-base-lightest, #efefef);
+            background-color: var(--color-base-dark, #262626);
             color: var(--color-base-dark, #262626);
 
-            .media__subtitle,
-            .media__time {
-                color: inherit;
+            .article__time {
+                color: var(--color-base-lightest, #efefef);
+            }
+
+            .article__subtitle {
+                color: var(--color-secondary, #ffd300);
             }
         }
     }
