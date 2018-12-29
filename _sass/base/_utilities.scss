@@ -30,6 +30,13 @@
     width: var(--size-l, 2rem);
 }
 
+//
+// Reset margin-bottom
+//
+.u-reset-mb {
+    margin-bottom: 0;
+}
+
 
 //
 // Hide text while making it readable for screen readers

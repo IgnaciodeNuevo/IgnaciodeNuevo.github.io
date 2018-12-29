@@ -30,17 +30,13 @@
     }
 
     &__title,
-    &__description {
+    p {
         text-align: center;
     }
 
-    &__description {
-        margin-bottom: 0;
-
-        &:last-of-type {
-            @media (min-width: $mq-l) {
-                margin-bottom: var(--space-l, 2rem);
-            }
+    p:last-of-type {
+        @media (min-width: $mq-l) {
+            margin-bottom: var(--space-l, 2rem);
         }
     }
 
@@ -64,6 +60,7 @@
     }
 
     .contact-form {
+        margin-bottom: 3rem;
         margin-top: var(--space-l, 2rem);
 
         @media (min-width: $mq-xs) {
