@@ -11,27 +11,13 @@
 
     <div class="offcanvas__counter">{% include layout-nav.html %}</div>
 
-    <h2 class="section-caption">
+
+    {% include component-get-in-touch.html %}
+
+    <h3 class="section-caption">
         <span class="u-divider-small"></span>
-        <span>Social</span>
-    </h2>
-
-    {% include component-rrss.html %}
-
-    <h2 class="section-caption">
-        <span class="u-divider-small"></span>
-        <span>Suscribe</span>
-    </h2>
-
-    <a class="link" href="{{ site.rss }}">
-        {% include icons/rss.html %}
-        RSS Feed
-    </a>
-
-    <h2 class="section-caption">
-        <span class="u-divider-small"></span>
-        <span>Contact</span>
-    </h2>
+        <span>Get in touch</span>
+    </h3>
 
     <a class="link" href="/about/#contact">
         {% include icons/contact.html %}
