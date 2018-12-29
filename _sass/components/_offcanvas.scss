@@ -54,6 +54,7 @@
 
     .link {
         color: inherit;
+        font-family: var(--font-family-title, "Guardian Bold Egyptian", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif);
         padding-bottom: var(--space-s, 0.5rem);
         padding-top: var(--space-s, 0.5rem);
         text-decoration: none;
