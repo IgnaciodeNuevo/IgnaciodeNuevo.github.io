@@ -39,7 +39,7 @@
 
         &:last-of-type {
             @media (min-width: $mq-l) {
-                margin-bottom: var(--space-xl, 4rem);
+                margin-bottom: var(--space-l, 2rem);
             }
         }
     }
