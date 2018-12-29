@@ -4,27 +4,31 @@
 
         <p class="foo__description">{{ site.shortdescription }}</p>
 
-        <!-- <div class="foo__content"> -->
-            <h4 class="section-caption">
-                <span class="u-divider-small"></span>
-                <span>Social</span>
-            </h4>
+        <div class="foo__content">
+            <div class="foo__social">
+                <h4 class="section-caption">
+                    <span class="u-divider-small"></span>
+                    <span>Social</span>
+                </h4>
 
-            {% include component-rrss.html %}
+                {% include component-rrss.html %}
 
-            <h4 class="section-caption">
-                <span class="u-divider-small"></span>
-                <span>Suscribe</span>
-            </h4>
+                <h4 class="section-caption">
+                    <span class="u-divider-small"></span>
+                    <span>Suscribe</span>
+                </h4>
 
-            <a class="link" href="{{ site.rss }}">
-                {% include icons/rss.html %}
-                RSS Feed
-            </a>
-        <!-- </div> -->
+                <a class="link" href="{{ site.rss }}">
+                    {% include icons/rss.html %}
+                    RSS Feed
+                </a>
+            </div>
 
-        {% include component-contact.html %}
+            {% include component-contact.html %}
+        </div>
 
-        <p class="foo__description">This site is built with <a class="link link--foo" href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a> and hosted on <a class="link link--foo" href="https://www.netlify.com/" target="_blank" rel="noopener">Netlify</a>. The source code is hosted on <a class="link link--foo" href="{{ site.github }}" target="_blank" rel="noopener">Github</a>.</p>
+        <p class="foo__description">
+            This site is built with <a class="link link--foo" href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a> and hosted on <a class="link link--foo" href="https://www.netlify.com/" target="_blank" rel="noopener">Netlify</a>. The source code is hosted on <a class="link link--foo" href="{{ site.github }}" target="_blank" rel="noopener">Github</a>.
+        </p>
     </footer>
 </div>
