@@ -51,8 +51,8 @@
         padding-top: var(--space-s, 0.5rem);
         text-decoration: none;
 
-        &:hover {
-            text-decoration: underline;
+        .icon {
+            stroke: var(--color-primary, #0047bb);
         }
     }
 

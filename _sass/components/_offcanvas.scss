@@ -60,8 +60,8 @@
 
         @include heading-h6();
 
-        &:hover {
-            text-decoration: underline;
+        .icon {
+            stroke: var(--color-primary, #0047bb);
         }
     }
 
