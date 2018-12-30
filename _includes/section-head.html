@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>{% if page.title %}{{ page.title }} - {{ site.head_description }}{% else %}{{ site.long_description }}{% endif %}</title>
+    <title>{% if page.title %}{{ page.title }} - {{ site.metatag_description }}{% else %}{{ site.long_description }}{% endif %}</title>
 
     <!-- StyleSheets & DNS Prefetch -->
     <link rel="dns-prefetch" href="{{ site.twitter }}">
@@ -51,7 +51,7 @@
     <meta name="theme-color" content="#0047BB">
 
     <!-- Other -->
-    <meta name="description" content="{% if page.title %}{{ page.title }} - {{ site.head_description }}{% else %}{{ site.long_description }}{% endif %}">
+    <meta name="description" content="{% if page.title %}{{ page.title }} - {{ site.metatag_description }}{% else %}{{ site.long_description }}{% endif %}">
 
 </head>
 <!--
