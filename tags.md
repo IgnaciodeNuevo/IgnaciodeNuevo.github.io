@@ -16,7 +16,7 @@ to the `site_tags` variable. -->
 <h2>Topics I've written about:</h2>
 
 <!-- List of all tags -->
-<div class="index u-clearfix">
+<div class="tags__list">
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
     {% capture this_word %}{{ tag_words[item] }}{% endcapture %}
       <a class="btn btn--fill" href="#{{ this_word | cgi_escape }}">
