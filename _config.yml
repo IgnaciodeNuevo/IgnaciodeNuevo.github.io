@@ -1,6 +1,7 @@
 # Site settings
-description: "Ignacio Villanueva - Frontend developer focused on performance, responsive design, web typography and accessibility."
-shortdescription: "Focused on performance, responsive design, web typography and accessibility."
+long_description: "Ignacio Villanueva - Frontend developer focused on performance, responsive design, web typography and accessibility."
+short_description: "Focused on performance, responsive design, web typography and accessibility."
+head_description: "Performance, responsive design, web typography and accessibility by Ignacio Villanueva."
 job: "Frontend developer"
 url: "http://ignaciodenuevo.com" # with the https protocol
 # enforce_ssl: www.ignaciodenuevo.com # without any protocol
