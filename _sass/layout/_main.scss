@@ -3,9 +3,10 @@
 // -----------------------------------------------------------------------------
 .main {
     background-color: var(--color-background, #fafafa);
-    padding-top: var(--space-xl, 4rem);
+    padding-bottom: var(--space-xl, 4rem);
     padding-left: var(--space-m, 1rem);
     padding-right: var(--space-m, 1rem);
+    padding-top: var(--space-xl, 4rem);
 
     @media (min-width: $mq-s) {
         padding-left: var(--space-l, 2rem);

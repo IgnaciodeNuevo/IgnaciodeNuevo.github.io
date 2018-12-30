@@ -1,25 +1,54 @@
 ---
 layout: default
 title: "Search"
-excerpt: "Search page for all articles aggregated on the blog."
 ---
 
-<h1>Search</h1>
+{% if page.page_class %}
+    <main class="main {{ page.page_class }}" role="main">
+{% else %}
+    <main class="main" role="main">
+{% endif %}
+    <h1>Search</h1>
 
-<p>I like writing. So, if you are looking for something specific, what about giving it a search?</p>
+    <p>I like writing. So, if you are looking for something specific, what about giving it a search?</p>
 
-<p>You can also look for other topics in my <a href="/tags">TAGS</a> system.</p>
+    <p>You can also look for other topics in my <a class="link" href="/tags">tags</a> system.</p>
 
-<blockquote class="">
-    <span>Currently the search engine only works for searching posts, no projects and no developers interviews.</span>
-</blockquote>
+    <!-- Get the tag name for every tag on the site and set them
+    to the `site_tags` variable. -->
 
-<noscript>Unfortunately this site has no search available, so please enable JavaScript in your browser to be able to use the search engine.</noscript>
+    {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 
-<div class="" id="search-container">
-    <input class="" type="text" id="search-input" placeholder="Search..." role="search">
-    <ul class="" id="results-container"></ul>
-</div>
+    <!-- `tag_words` is a sorted array of the tag names. -->
+
+    {% assign tag_words = site_tags | split:',' | sort %}
+
+    <!-- List of all tags -->
+    <div class="index u-clearfix">
+    {% for item in (0..site.tags.size) %}{% unless forloop.last %}
+        {% capture this_word %}{{ tag_words[item] }}{% endcapture %}
+        <a class="btn btn--fill" href="/tags/#{{ this_word | cgi_escape }}">
+            {% include icons/tag.html %}
+            <span>{{ this_word }} ({{ site.tags[this_word].size }})</span>
+        </a>
+    {% endunless %}{% endfor %}
+    </div>
+
+    <blockquote class="">
+        <span>Currently the search engine only works for searching posts, no projects and no developers interviews.</span>
+    </blockquote>
+
+    <noscript>Unfortunately this site has no search available, so please enable JavaScript in your browser to be able to use the search engine.</noscript>
+
+
+        <!-- <input class="" type="text" id="search-input" placeholder="Search..." role="search"> -->
+
+    <form class="form">
+        <label class="h3-like" for="search-input">What would you like to look for?</label>
+        <input type="text" id="search-input" placeholder="Resumen del 2017..." role="search">
+    </form>
+    <ul class="articles-list" id="results-container"></ul>
+</main>
 
 <script src="/assets/js/jekyll-search.js"></script>
 <script>
@@ -28,14 +57,12 @@ document.addEventListener('DOMContentLoaded', function() {
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('results-container'),
     json: 'data.json',
-    searchResultTemplate: '<li class="article  reset-bullet  container">\
-      <a class="" href="{url}">\
-        <h3 class="">{title}</h3>\
-        <time class="">{date}</time>\
-        <p class="">{excerpt}</p>\
-        <p class="">{number}</p>\
+    searchResultTemplate: '<article class="article">\
+      <a class="article__link" href="{url}">\
+        <time class="article__time" datetime="{date}">{date}</time>\
+        <h4 class="article__subtitle">{title}</h4>\
       </a>\
-    </li>',
+    </article>',
     noResultsText: 'Sorry, I could not find any result for your search. Perhaps because I have not written anything on this subject.'
   });
 });

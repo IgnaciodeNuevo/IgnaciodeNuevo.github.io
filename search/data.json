@@ -5,9 +5,9 @@
     {
       "title"    : "{{ post.title | escape }}",
       "tags"     : "{{ post.tags | join: ', ' }}",
+      "lang"     : "{{ post.lang }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "date"     : "{{ post.date|date: '%B %d, %Y' }}",
-      "excerpt"  : "{{ post.excerpt }}"
+      "date"     : "{{ post.date | date: '%Y-%m-%d' }}",
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
