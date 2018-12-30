@@ -3,6 +3,7 @@ layout: post
 title: "Hombres: Nuestra responsabilidad en el sector del desarrollo."
 tags:
   - Diversity
+lang: es
 ---
 
 Cuando abrí esta Web lo planteaba como un lugar donde hablar sobre mi profesión. Hará un par de años se me ocurría que escribiría únicamente en inglés (por aquello de forzarme a mejorar), para mostrar mis proyectos personales y profesionales.

@@ -4,6 +4,7 @@ title: "Why I chose Jekyll to develop my website"
 tags:
   - Frontend
   - Personal
+lang: en
 ---
 
 Today I'll be sharing why I chose Jekyll to develop my website and why it wasn't trivial for me.

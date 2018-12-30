@@ -5,6 +5,7 @@ tags:
   - Learning
   - Frontend
   - Personal
+lang: en
 ---
 
 When I was young, approximately when was eight years old I started learning to program with an amazing teacher called Iñaki. He started teaching me and old programming language called Turbo Pascal, long long time ago, but as every kid I did something worng and I was punished with no more programming classes.

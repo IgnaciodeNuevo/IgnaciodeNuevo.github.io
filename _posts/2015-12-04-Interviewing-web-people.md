@@ -3,6 +3,7 @@ layout: post
 title: "Interviewing Web People"
 tags:
   - Interviews
+lang: en
 ---
 
 Today is a very exciting day, a really one.

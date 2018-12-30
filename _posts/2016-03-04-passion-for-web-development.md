@@ -5,6 +5,7 @@ tags:
   - Learning
   - Frontend
   - Personal
+lang: en
 ---
 
 Frontend seems to be easy until you start learning it. This feeling took me a year to get this conclusion, after the Master of Web Development and Graphic Design I did from December (2013) to May (2014) in [Trazos](/2016/02/28/my-interest-in-web-development/) where I had no idea how to guide my way in this long effor of learning frontend Web Development, digging up many websites to learn lot of new technologies and more I've discovered one important fact: "learn new topics every day and maintain to date" is the best way in the road to success.

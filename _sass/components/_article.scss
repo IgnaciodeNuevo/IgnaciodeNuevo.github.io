@@ -1,17 +1,44 @@
 // -------------------------------------------------------------------------------------------------------
 // This file contains all styles related to the article item to iterate in /blog, /speaking and /projects.
 // -------------------------------------------------------------------------------------------------------
-.article {
-    &__link {
-        border-bottom: 1px solid currentColor;
-        color: inherit;
-        display: block;
-        padding-bottom: var(--space-m, 1rem);
-        padding-left: var(--space-xs, 0.5rem);
-        padding-top: var(--space-m, 1rem);
-        text-decoration: none;
+.articles {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+}
 
-        @include transition();
+.article {
+    border-bottom: 1px solid currentColor;
+    color: inherit;
+    padding-bottom: var(--space-m, 1rem);
+    padding-left: var(--space-xs, 0.5rem);
+    padding-top: var(--space-m, 1rem);
+
+    @include transition();
+
+    &.is-active {
+        display: block;
+    }
+
+    &.is-hidden {
+        display: none;
+    }
+
+    &:hover {
+        background-color: var(--color-base-dark, #262626);
+        color: var(--color-base-dark, #262626);
+
+        .article__time {
+            color: var(--color-base-lightest, #efefef);
+        }
+
+        .article__subtitle {
+            color: var(--color-secondary, #ffd300);
+        }
+    }
+
+    &__link {
+        text-decoration: none;
 
         &:hover {
             background-color: var(--color-base-dark, #262626);

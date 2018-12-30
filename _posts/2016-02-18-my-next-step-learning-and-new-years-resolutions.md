@@ -4,6 +4,7 @@ title: "My next step learning and New Year's Resolutions"
 tags:
   - Learning
   - Frontend
+lang: en
 ---
 
 I know, I know, we are in the middle of February and New Year's Resolutions are not something to talk about now, but I've been quite busy with a big project, (so I couldn't have time to update my WebSite and blog a lot). For me it is time to say what are my New Year's Resolutions and my next step learning Frontend Development is to start learning <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a>.

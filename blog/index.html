@@ -1,20 +1,31 @@
 ---
 layout: list
-title: "Writing"
+title: "Blog"
 ---
 <h1>Latest articles</h1>
 
 <p>I use to write a lot. If you are looking for something specific, <a class="link" href="/search">hit the search</a>.</p>
 
-{% for post in paginator.posts %}
-    <article class="article">
-        <a class="article__link" href="{{ post.url }}" lang="es">
-            <time class="article__time" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %-d %Y" }}</time>
-            <h4 class="article__subtitle">{{ post.title }}</h4>
-        </a>
-    </article>
-{% endfor %}
+<div class="u-mb-2">
+    <button class="btn btn--fill js-lang-all">All</button>
+    <button class="btn btn--fill js-lang-es">Spanish</button>
+    <button class="btn btn--fill js-lang-en">English</button>
+</div>
 
+<ul class="articles">
+    {% for post in paginator.posts %}
+        {% if post.lang %}
+            <article class="article is-active" data-lang="{{ post.lang }}">
+        {% else %}
+            <article class="article is-active">
+        {% endif %}
+                <a class="article__link" href="{{ post.url }}" lang="es">
+                    <time class="article__time" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %-d %Y" }}</time>
+                    <h4 class="article__subtitle">{{ post.title }}</h4>
+                </a>
+            </article>
+    {% endfor %}
+</ul>
 
 <ul class="pagination">
     {% if paginator.previous_page %}
@@ -35,3 +46,39 @@ title: "Writing"
         </li>
     {% endif %}
 </ul>
+
+<script>
+    const SELECT_ALL = document.querySelector('.js-lang-all');
+    const SELECT_SPANISH = document.querySelector('.js-lang-es');
+    const SELECT_ENGLISH = document.querySelector('.js-lang-en');
+
+    let allArticles = document.querySelectorAll('article');
+    let spanishArticles = document.querySelectorAll('[data-lang="es"]');
+    let englishArticles = document.querySelectorAll('[data-lang="en"]');
+
+    SELECT_ALL.addEventListener('click', () => {
+        allArticles.forEach(element => {
+            element.classList.remove("is-hidden");
+        });
+    });
+
+    SELECT_SPANISH.addEventListener('click', () => {
+        spanishArticles.forEach(element => {
+            element.classList.remove("is-hidden");
+        });
+
+        englishArticles.forEach(element => {
+            element.classList.add("is-hidden");
+        });
+    });
+
+    SELECT_ENGLISH.addEventListener('click', () => {
+        englishArticles.forEach(element => {
+            element.classList.remove("is-hidden");
+        });
+
+        spanishArticles.forEach(element => {
+            element.classList.add("is-hidden");
+        });
+    });
+</script>
