@@ -3,7 +3,7 @@ layout: post
 title: "Indie Web Camp Brighton 2016"
 tags:
   - Event
-lang: es
+lang: en
 ---
 
 It was a meeting for independent web creators (everyone from newbies to hackers) to share ideas and actively create things for our personal websites.
