@@ -2,7 +2,7 @@
 // This file contains all styles related to the /tags page of the website.
 // -----------------------------------------------------------------------------
 .tags {
-    .articles-list {
-        margin-bottom: var(--space-xl, 4rem);
+    .articles-list:last-of-type {
+        margin-bottom: var(--space-l, 2rem);
     }
 }

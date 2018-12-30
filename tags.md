@@ -16,24 +16,24 @@ to the `site_tags` variable. -->
 <h2>Topics I've written about:</h2>
 
 <!-- List of all tags -->
-<ul class="tags">
+<div class="index u-clearfix">
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
     {% capture this_word %}{{ tag_words[item] }}{% endcapture %}
-    <li>
-      <a href="#{{ this_word | cgi_escape }}" class="tag">{{ this_word }}
-        <span>({{ site.tags[this_word].size }})</span>
+      <a class="btn btn--fill" href="#{{ this_word | cgi_escape }}">
+        {% include icons/tag.html %}
+        <span>{{ this_word }} ({{ site.tags[this_word].size }})</span>
       </a>
-    </li>
   {% endunless %}{% endfor %}
 
-</ul>
+</div>
 <!-- Posts by Tag -->
 
 
 {% for item in (0..site.tags.size) %}{% unless forloop.last %}
 {% capture this_word %}{{ tag_words[item] }}{% endcapture %}
 <ul class="articles-list">
-    <h3 id="{{ this_word | cgi_escape }}">{{ this_word }}</h3>
+    <div class="u-hook" id="{{ this_word | cgi_escape }}"></div>
+    <h3>{{ this_word }}</h3>
     {% for post in site.tags[this_word] %}
         {% if post.title != null %}
             {% if post.lang %}

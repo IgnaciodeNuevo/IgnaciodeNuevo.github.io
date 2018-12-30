@@ -31,6 +31,14 @@
 }
 
 //
+// Tag's hook
+// Helps to see the heading after scrolling
+//
+.u-hook {
+    height: var(--hook-height, 6rem);
+}
+
+//
 // Reset margin-bottom
 //
 .u-reset-mb {
