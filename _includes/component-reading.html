@@ -1,11 +1,9 @@
-<blockquote class="">
-    <span class="reading-time">
-        Estimated reading time:
-            {% assign words = include.content | number_of_words %}
-            {% if words < 360 %}
-                ~1 min
-            {% else %}
-                ~{{ words | divided_by: 180 }} mins
-            {% endif %} read.
-    </span>
-</blockquote>
+<span class="name">Estimated reading time:</span>
+<span class="value">
+    {% assign words = include.content | number_of_words %}
+    {% if words < 360 %}
+        ~1 min
+    {% else %}
+        ~{{ words | divided_by: 180 }} mins
+    {% endif %}
+</span>

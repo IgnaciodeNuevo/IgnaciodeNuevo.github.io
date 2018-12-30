@@ -18,7 +18,7 @@ When I can, I try to invest a lot of time in open-source projects. Here are a fe
     <li class="">
         <a class="" href="/projects/{{ project.url }}">
             <h3 class="">{{ project.name }}</h3>
-            <time class="" datetime="{{ project.date | date: "%Y-%m-%d" }}">{{ project.date }}</time>
+            <time class="" datetime="{{ project.date }}">{{ project.date | date: "%b %-d %Y" }} }}</time>
             <p class="">{{ project.description }}</p>
             <img class="" src="/assets/images/logo-WCD.svg" alt="{{ project.name }} Image" />
         </a>

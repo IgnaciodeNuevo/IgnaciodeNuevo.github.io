@@ -41,7 +41,7 @@ to the `site_tags` variable. -->
                     <article class="article">
                 {% endif %}
                         <a class="article__link" href="{{ post.url }}" lang="es">
-                            <time class="article__time" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %-d %Y" }}</time>
+                            <time class="article__time" datetime="{{ post.date }}">{{ post.date | date: "%b %-d %Y" }}</time>
                             <h4 class="article__subtitle">{{ post.title }}</h4>
                         </a>
                     </article>

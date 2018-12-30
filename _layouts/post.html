@@ -11,19 +11,28 @@ layout: default
     <h1>{{ page.title }}</h1>
 {% endif %}
 
-<!-- {% if page.date %}
-    <p class="">{{ page.date | date: "%B %d, %Y" }}</p>
-{% endif %} -->
-    <p>Post publication date: {{ page.date | date: "%B %d, %Y" }}</p>
-	<p>{% include component-reading.html content=content %}</p>
+<ul class="meta">
+    {% if page.date %}
+    <li class="last-updated">
+        <span class="name">Post publication date:</span>
+        <span class="value">{{ page.date | date: "%b %-d %Y" }}</span>
+    </li>
+    {% endif %}
+    <li>
+        {% include component-reading.html content=content %}
+    </li>
+    <li class="tags">
+        <span class="name">Tagged under:</span>
+        <ul class="value">
+            {% for tag in page.tags %}
+                <li>
+                    <a href="/tags#{{ tag }}">{{ tag }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </li>
+</ul>
 
 {{ content }}
 
-<p>This post was written under:</p>
-
-<ul class="">
-	{% for tag in page.tags %}
-		<li><a href="/tags#{{ tag }}">{{ tag }}</a></li>
-	{% endfor %}
-</ul>
 </main>

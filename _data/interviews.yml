@@ -1,143 +1,127 @@
 - name: "Harry Roberts"
   excerpt: "I’m a web developer from England. My actual job title is Consultant Frontend Architect—I travel the world to help clients of all shapes and sizes write better, faster, more scalable, more maintainable CSS."
-  image_url: ../assets/images/portrait-harry-roberts.jpg
-  interview_date: "January 27, 2017"
-  interview_number: 16
+  image_url: /assets/images/portrait-harry-roberts.jpg
+  date: 2017-01-27T00:00:00+0200
   interview_twitter: https://twitter.com/csswizardry
   interview_url: harry-roberts
   interview_web: https://csswizardry.com/
 
 - name: "Richard Rutter"
   excerpt: "I’m a web person through and through. Day to day I help run Clearleft, a digital design consultancy and studio I co-founded. Within that, I’m a user experience designer and a web typography advocate/consultant."
-  image_url: ../assets/images/portrait-richard-rutter.jpg
-  interview_date: "May 11, 2016"
-  interview_number: 15
+  image_url: /assets/images/portrait-richard-rutter.jpg
+  date: 2016-05-11T00:00:00+0200
   interview_twitter: https://twitter.com/clagnut
   interview_url: richard-rutter
   interview_web: http://clagnut.com
 
 - name: "Brian Rinaldi"
   excerpt: "I have spent over 20 years as a developer, but today my focus is on the developer community. I write, speak, manage sites and programs all focused on developers."
-  image_url: ../assets/images/portrait-brian-rinaldi.jpg
-  interview_date: "March 28, 2016"
-  interview_number: 14
+  image_url: /assets/images/portrait-brian-rinaldi.jpg
+  date: 2016-03-28T00:00:00+0200
   interview_twitter: https://twitter.com/remotesynth
   interview_url: brian-rinaldi
   interview_web: http://remotesynthesis.com
 
 - name: "Kevin M. Hoffman"
   excerpt: "I run a distributed agency called Seven Heads Design that builds project teams from highly experienced independent designers."
-  image_url: ../assets/images/portrait-kevin-m-hoffman.jpg
-  interview_date: "March 22, 2016"
-  interview_number: 13
+  image_url: /assets/images/portrait-kevin-m-hoffman.jpg
+  date: 2016-03-22T00:00:00+0200
   interview_twitter: https://twitter.com/kevinmhoffman
   interview_url: kevin-m-hoffman
   interview_web: http://kevinmhoffman.com
 
 - name: "Daniel Martinez"
   excerpt: "I am an UI Developer very bad at JavaScript."
-  image_url: ../assets/images/portrait-daniel-martinez.jpg
-  interview_date: "March 15, 2016"
-  interview_number: 12
+  image_url: /assets/images/portrait-daniel-martinez.jpg
+  date: 2016-03-15T00:00:00+0200
   interview_twitter: https://twitter.com/Wakkos
   interview_url: daniel-martinez
   interview_web: http://coolvillage.es
 
 - name: "Faruk Ateş"
   excerpt: "I’m a product designer and developer, the original creator of the Modernizr JavaScript library, a writer, and an occasional public speaker."
-  image_url: ../assets/images/portrait-faruk-ates.jpg
-  interview_date: "March 03, 2016"
-  interview_number: 11
+  image_url: /assets/images/portrait-faruk-ates.jpg
+  date: 2016-03-03T00:00:00+0200
   interview_twitter: https://twitter.com/KuraFire
   interview_url: faruk-ates
   interview_web: http://farukat.es
 
 - name: "Jeremy Keith"
   excerpt: "My name is Jeremy and do web ...stuff. I'm not sure whether to call myself a web designer or web developer or something else. I usually like to just say 'I make websites'."
-  image_url: ../assets/images/portrait-jeremy-keith.jpg
-  interview_date: "February 28, 2016"
-  interview_number: 10
+  image_url: /assets/images/portrait-jeremy-keith.jpg
+  date: 2016-02-28T00:00:00+0200
   interview_twitter: https://twitter.com/adactio
   interview_url: jeremy-keith
   interview_web: https://adactio.com
 
 - name: "Scott Hanselman"
   excerpt: "My name is Scott Hanselman. I'm a programmer, teacher, and speaker. I work out of my home office in Portland, Oregon for the Web Platform Team at Microsoft."
-  image_url: ../assets/images/portrait-scott-hanselman.jpg
-  interview_date: "February 22, 2016"
-  interview_number: 9
+  image_url: /assets/images/portrait-scott-hanselman.jpg
+  date: 2016-02-22T00:00:00+0200
   interview_twitter: https://twitter.com/shanselman
   interview_url: scott-hanselman
   interview_web: http://www.hanselman.com
 
 - name: "Paul Robert LLoyd"
   excerpt: "I’m an independent graphic designer and frontend web developer based in Brighton, England. I help responsible organisations like the Guardian, UNICEF and Mozilla create purposeful digital products."
-  image_url: ../assets/images/portrait-paul-lloyd.jpg
-  interview_date: "February 15, 2016"
-  interview_number: 8
+  image_url: /assets/images/portrait-paul-lloyd.jpg
+  date: 2016-02-15T00:00:00+0200
   interview_twitter: https://twitter.com/paulrobertlloyd
   interview_url: paul-lloyd
   interview_web: https://paulrobertlloyd.com
 
 - name: "Maximiliano Firtman"
   excerpt: "I'm a mobile+web developer, trainer, author and speaker. I'm focused on bringing great experiences on mobile devices, both with native and web technologies."
-  image_url: ../assets/images/portrait-maximiliano-firtman.jpg
-  interview_date: "February 9, 2016"
-  interview_number: 7
+  image_url: /assets/images/portrait-maximiliano-firtman.jpg
+  date: 2016-02-09T00:00:00+0200
   interview_twitter: https://twitter.com/firt
   interview_url: maximiliano-firtman
   interview_web: http://firt.mobi/
 
 - name: "Stephen Hey"
   excerpt: "I'm a designer who codes. I was schooled as a designer, did print design and later art direction for several years. Then I started doing web design and learned frontend technologies."
-  image_url: ../assets/images/portrait-stephen-hay.jpg
-  interview_date: "February 1, 2016"
-  interview_number: 6
+  image_url: /assets/images/portrait-stephen-hay.jpg
+  date: 2016-02-01T00:00:00+0200
   interview_twitter: https://twitter.com/stephenhay
   interview_url: stephen-hay
   interview_web: http://www.the-haystack.com/
 
 - name: "Brad Frost"
   excerpt: "Generally speaking, I make websites. I'm a frontend web designer by trade, and increasingly I consult with organizations to help them make better web experiences."
-  image_url: ../assets/images/portrait-brad-frost.jpg
-  interview_date: "January 26, 2016"
-  interview_number: 5
+  image_url: /assets/images/portrait-brad-frost.jpg
+  date: 2016-01-26T00:00:00+0200
   interview_twitter: https://twitter.com/brad_frost
   interview_url: brad-frost
   interview_web: http://bradfrost.com
 
 - name: "Jonathan Stark"
   excerpt: "Front end dev seems to change on a daily basis. It's virtually impossible to keep up with the latest and greatest, and everything has pros and cons."
-  image_url: ../assets/images/portrait-jonathan-stark.jpg
-  interview_date: "January 18, 2016"
-  interview_number: 4
+  image_url: /assets/images/portrait-jonathan-stark.jpg
+  date: 2016-01-18T00:00:00+0200
   interview_twitter: https://twitter.com/jonathanstark
   interview_url: jonathan-stark
   interview_web: https://jonathanstark.com/
 
 - name: "Ben Schwarz"
   excerpt: "Probably over excited about the wrong things! I’m generally really focused on whatever my brain leads me to — and I’m really great at neglecting (important) things that aren’t interesting to me."
-  image_url: ../assets/images/portrait-ben-schwarz.jpg
-  interview_date: "January 12, 2016"
-  interview_number: 3
+  image_url: /assets/images/portrait-ben-schwarz.jpg
+  date: 2016-01-12T00:00:00+0200
   interview_twitter: https://twitter.com/BenSchwarz
   interview_url: ben-schwarz
   interview_web: http://germanforblack.com/
 
 - name: "Hugo Giraudel"
   excerpt: "My name is Hugo. I am a French frontend developer about to turn 24 and living in Berlin, Germany. I am working at Edenspiekermann, where I can play with HTML, CSS (Sass & CSS Modules) and JavaScript (React) on a daily basis."
-  image_url: ../assets/images/portrait-hugo-giraudel.jpg
-  interview_date: "December 14, 2015"
-  interview_number: 2
+  image_url: /assets/images/portrait-hugo-giraudel.jpg
+  date: 2015-12-14T00:00:00+0200
   interview_twitter: https://twitter.com/HugoGiraudel
   interview_url: hugo-giraudel
   interview_web: http://hugogiraudel.com
 
 - name: "Jamie Knight"
   excerpt: "I am Jamie, I am autistic, 26 and have been coding for the web since I was 9. I am never seen far from a large plushie lion named “Lion”."
-  image_url: ../assets/images/portrait-jamie-knight.jpg
-  interview_date: "December 5, 2015"
-  interview_number: 1
+  image_url: /assets/images/portrait-jamie-knight.jpg
+  date: 2015-12-05T00:00:00+0200
   interview_twitter: https://twitter.com/JamieKnight
   interview_url: jamie-knight
   interview_web: http://jkg3.com

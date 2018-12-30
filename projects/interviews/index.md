@@ -18,10 +18,9 @@ Many will realize that I haven't interviewed any woman but as far as I have trie
         <li class="">
             <a class="" href="/interviews/{{ interview.interview_url }}">
                 <h3 class="">{{ interview.name }}</h3>
-                <time class="" datetime="{{ interview.date | date: "%Y-%m-%d" }}">{{ interview.interview_date }}</time>
+                <time class="" datetime="{{ interview.date }}">{{ interview.date | date: "%b %-d %Y" }}</time>
                 <p class="">{{ interview.excerpt }}</p>
                     <img class="" src="{{ interview.image_url }}" alt="{{ interview.interview }} Photography"/>
-                <p class="">{{ interview.interview_number }}</p>
             </a>
             <p class="">
                 <svg style="width:15px;height:15px; margin-right: 3px;" xmlns="http://www.w3.org/2000/svg" viewBox="-187 61.7 24 24">

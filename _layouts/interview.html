@@ -3,8 +3,8 @@ layout: default
 ---
 
 {% if page.date %}
-    <p class="">{{ page.date | date: "%B %d, %Y" }}</p>
-    <p>{% include component-reading.html content=content %}</p>
+    <p class="">{{ page.date | date: "%b %-d %Y" }}</p>
 {% endif %}
+{% include component-reading.html content=content %}
 
 {{ content }}
