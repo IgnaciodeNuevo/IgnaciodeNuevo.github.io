@@ -37,18 +37,19 @@ title: "Search"
     <noscript>Unfortunately this site has no search available, so please enable JavaScript in your browser to be able to use the search engine.</noscript>
 
     <form class="form">
-        <label class="h3-like" for="search-input">What would you like to look for?</label>
-        <input type="text" id="search-input" placeholder="Resumen del 2017..." role="search">
+        <label class="h3-like" for="search">What would you like to look for?</label>
+        <input type="text" class="js-search" id="search" placeholder="Resumen del 2017..." role="search">
     </form>
-    <ul class="articles-list" id="results-container"></ul>
+
+    <ul class="articles-list js-results"></ul>
 </main>
 
 <script src="/assets/js/jekyll-search.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   SimpleJekyllSearch({
-    searchInput: document.getElementById('search-input'),
-    resultsContainer: document.getElementById('results-container'),
+    searchInput: document.querySelector('.js-search'),
+    resultsContainer: document.querySelector('.js-results'),
     json: '/assets/js/search-data.json',
     searchResultTemplate: '<article class="article">\
       <a class="article__link" href="{url}">\
