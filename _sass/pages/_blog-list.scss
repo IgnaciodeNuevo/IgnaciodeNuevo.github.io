@@ -10,13 +10,16 @@
 .language {
     align-items: center;
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: var(--space-l, 2rem);
 
-    &__text {
-        margin-bottom: 0;
+    @media (min-width: 24.25em) {
+        p {
+            margin-bottom: 0;
+        }
     }
 
-    &__text,
+    p,
     .btn:not(:last-of-type) {
         margin-right: var(--space-s, 0.5rem);
     }
