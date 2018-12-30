@@ -6,17 +6,18 @@
     <title>{% if page.title %}{{ page.title }} - {{ site.head_description }}{% else %}{{ site.long_description }}{% endif %}</title>
 
     <!-- StyleSheets & DNS Prefetch -->
-    <link rel="dns-prefetch" href="//www.google-analytics.com">
     <link rel="dns-prefetch" href="{{ site.twitter }}">
     <link rel="dns-prefetch" href="//platform.twitter.com">
     <link rel="stylesheet" href="/assets/css/main.css">
 
     <!-- Robots & indexing -->
     {% if page.external %}
-    <meta name="robots" content="noindex,nofollow">
-    <meta http-equiv="refresh" content="0;url={{ page.external.url }}" /> {% else %}
-    <meta name="robots" content="index,follow">
-    <meta name="revisit-after" content="1 days"> {% endif %}
+        <meta name="robots" content="noindex,nofollow">
+        <meta http-equiv="refresh" content="0;url={{ page.external.url }}" />
+    {% else %}
+        <meta name="robots" content="index,follow">
+        <meta name="revisit-after" content="1 days">
+    {% endif %}
 
     <!-- Open Graph data -->
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.long_description }}{% endif %}" />
@@ -50,7 +51,7 @@
     <meta name="theme-color" content="#0047BB">
 
     <!-- Other -->
-    <meta name="description" content="{{ site.title }}">
+    <meta name="description" content="{% if page.title %}{{ page.title }} - {{ site.head_description }}{% else %}{{ site.long_description }}{% endif %}">
 
 </head>
 <!--
