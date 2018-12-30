@@ -4,15 +4,16 @@ title: "Blog"
 ---
 <h1>Latest articles</h1>
 
-<p>I use to write a lot. If you are looking for something specific, <a class="link" href="/search">hit the search</a>.</p>
+<p>I write from time to time. If you are looking for something specific, <a class="link" href="/search">hit the search</a>.</p>
 
-<div class="u-mb-2">
+<div class="language">
+    <p class="language__text">Select the language of the articles</p>
     <button class="btn btn--fill js-lang-all">All</button>
     <button class="btn btn--fill js-lang-es">Spanish</button>
     <button class="btn btn--fill js-lang-en">English</button>
 </div>
 
-<ul class="articles">
+<ul class="articles-list">
     {% for post in paginator.posts %}
         {% if post.lang %}
             <article class="article is-active" data-lang="{{ post.lang }}">

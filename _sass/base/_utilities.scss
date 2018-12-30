@@ -38,14 +38,6 @@
 }
 
 //
-// Set margin-bottom of 2rem
-//
-.u-mb-2 {
-    margin-bottom: var(--space-l, 2rem);
-}
-
-
-//
 // Hide text while making it readable for screen readers
 // 1. Needed in WebKit-based browsers because of an implementation bug;
 //    See: https://code.google.com/p/chromium/issues/detail?id=457146

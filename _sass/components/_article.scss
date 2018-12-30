@@ -1,12 +1,6 @@
-// -------------------------------------------------------------------------------------------------------
-// This file contains all styles related to the article item to iterate in /blog, /speaking and /projects.
-// -------------------------------------------------------------------------------------------------------
-.articles {
-    margin-bottom: 0;
-    margin-top: 0;
-    padding-left: 0;
-}
-
+// ----------------------------------------------------------------
+// This file contains all styles related to the .article component.
+// ----------------------------------------------------------------
 .article {
     border-bottom: 1px solid currentColor;
     color: inherit;
