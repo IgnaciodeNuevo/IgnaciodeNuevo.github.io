@@ -1,7 +1,10 @@
 ---
 layout: default
 ---
-
-<main class="main" role="main">
-    {{ content }}
-</main>
+{% if page.page_class %}
+    <main class="main {{ page.page_class }}" role="main">
+{% else %}
+    <main class="main" role="main">
+{% endif %}
+        {{ content }}
+    </main>

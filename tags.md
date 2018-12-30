@@ -1,16 +1,20 @@
 ---
-layout: default
+layout: list
+page_class: tags
 ---
 
 <!-- Get the tag name for every tag on the site and set them
 to the `site_tags` variable. -->
+
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 
 <!-- `tag_words` is a sorted array of the tag names. -->
+
 {% assign tag_words = site_tags | split:',' | sort %}
 
 <!-- Build the Page -->
 <h2>Topics I've written about:</h2>
+
 <!-- List of all tags -->
 <ul class="tags">
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
@@ -21,18 +25,30 @@ to the `site_tags` variable. -->
       </a>
     </li>
   {% endunless %}{% endfor %}
+
 </ul>
-
 <!-- Posts by Tag -->
-<div>
-  {% for item in (0..site.tags.size) %}{% unless forloop.last %}
-    {% capture this_word %}{{ tag_words[item] }}{% endcapture %}
-    <h3 id="{{ this_word | cgi_escape }}">{{ this_word }}</h3>
-    {% for post in site.tags[this_word] %}{% if post.title != null %}
-      <div>
-          <a href="{{ post.url }}">{{ post.title }}</a> - <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d, %Y" }}</time>
 
-      </div>
-    {% endif %}{% endfor %}
-  {% endunless %}{% endfor %}
-</div>
+
+{% for item in (0..site.tags.size) %}{% unless forloop.last %}
+{% capture this_word %}{{ tag_words[item] }}{% endcapture %}
+<ul class="articles-list">
+    <h3 id="{{ this_word | cgi_escape }}">{{ this_word }}</h3>
+    {% for post in site.tags[this_word] %}
+        {% if post.title != null %}
+            {% if post.lang %}
+                    <article class="article is-active" data-lang="{{ post.lang }}">
+                {% else %}
+                    <article class="article is-active">
+                {% endif %}
+                        <a class="article__link" href="{{ post.url }}" lang="es">
+                            <time class="article__time" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %-d %Y" }}</time>
+                            <h4 class="article__subtitle">{{ post.title }}</h4>
+                        </a>
+                    </article>
+            {% endif %}
+        {% endfor %}
+</ul>
+    {% endunless %}
+{% endfor %}
+
