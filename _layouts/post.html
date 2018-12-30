@@ -11,27 +11,32 @@ layout: default
     <h1>{{ page.title }}</h1>
 {% endif %}
 
-<ul class="meta">
+<aside class="meta">
     {% if page.date %}
-    <li class="last-updated">
-        <span class="name">Post publication date:</span>
-        <span class="value">{{ page.date | date: "%b %-d %Y" }}</span>
-    </li>
+    <div class="last-updated">
+        <p class="h4-like">Post publication date:</p>
+        <p class="value">{{ page.date | date: "%b %-d %Y" }}</p>
+    </div>
     {% endif %}
-    <li>
+    <div class="meta__reading">
         {% include component-reading.html content=content %}
-    </li>
-    <li class="tags">
-        <span class="name">Tagged under:</span>
-        <ul class="value">
+    </div>
+    <div class="meta__tags">
+        <p class="h4-like">Tagged under:</p>
+        <div class="value">
             {% for tag in page.tags %}
-                <li>
-                    <a href="/tags#{{ tag }}">{{ tag }}</a>
-                </li>
+                <a class="btn btn--regular" href="/tags/#{{ tag }}">
+                    {% include icons/tag.html %}
+                    <span>{{ tag }}</span>
+                </a>
             {% endfor %}
-        </ul>
-    </li>
-</ul>
+            <a class="btn btn--regular" href="/tags/#{{ tag }}">
+                {% include icons/tag.html %}
+                <span>Test de tag</span>
+            </a>
+        </div>
+    </div>
+</aside>
 
 {{ content }}
 

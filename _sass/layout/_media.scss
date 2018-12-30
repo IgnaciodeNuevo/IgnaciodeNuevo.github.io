@@ -20,7 +20,6 @@
     @supports (grid-gap: 1rem) {
         @media (min-width: $mq-s) {
             display: grid;
-            font-size: 1rem;
             grid-gap: var(--space-l, 2rem);
             grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
             margin-left: auto;

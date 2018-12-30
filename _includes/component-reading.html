@@ -1,9 +1,9 @@
-<span class="name">Estimated reading time:</span>
-<span class="value">
+<p class="h4-like">Estimated reading time:</p>
+<p class="value">
     {% assign words = include.content | number_of_words %}
     {% if words < 360 %}
         ~1 min
     {% else %}
         ~{{ words | divided_by: 180 }} mins
     {% endif %}
-</span>
+</p>

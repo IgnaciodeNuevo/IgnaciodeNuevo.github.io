@@ -1,9 +1,31 @@
 .meta {
-    color: #fff;
-    background: #222;
-    border-radius: 5px;
-    padding: 20px;
-    margin: -70px 0 30px 0;
-    z-index: 6;
-    max-width: 678px;
+    background-color: var(--color-base-darkest, #141414);
+    border-radius: var(--border-radius-xs, 0.25rem);
+    color: var(--color-base-lightest, #efefef);
+    list-style-type: none;
+    padding: var(--space-m, 1rem);
+    z-index: var(--z-index-s, 1);
+
+    li {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .h4-like {
+        color: var(--color-secondary, #ffd300);
+        font-size: ms(0);
+        margin-bottom: var(--space-xs, 0.25rem);
+
+        &:last-of-type {
+            margin-bottom: var(--space-s, 0.5rem);
+        }
+    }
+
+    .value:not(:last-of-type) {
+        margin-right: var(--space-l, 1rem);
+    }
+
+    .btn:not(:last-of-type) {
+        margin-right: var(--space-s, 0.5rem);
+    }
 }
