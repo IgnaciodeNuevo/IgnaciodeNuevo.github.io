@@ -24,7 +24,6 @@ to the `site_tags` variable. -->
         <span>{{ this_word }} ({{ site.tags[this_word].size }})</span>
       </a>
   {% endunless %}{% endfor %}
-
 </div>
 <!-- Posts by Tag -->
 
@@ -37,9 +36,9 @@ to the `site_tags` variable. -->
     {% for post in site.tags[this_word] %}
         {% if post.title != null %}
             {% if post.lang %}
-                    <article class="article is-active" data-lang="{{ post.lang }}">
+                    <article class="article" data-lang="{{ post.lang }}">
                 {% else %}
-                    <article class="article is-active">
+                    <article class="article">
                 {% endif %}
                         <a class="article__link" href="{{ post.url }}" lang="es">
                             <time class="article__time" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %-d %Y" }}</time>

@@ -1,0 +1,15 @@
+input,
+textarea {
+    border-radius: var(--border-radius-xxs, 0.125rem);
+    border: 2px solid transparent;
+    margin-bottom: var(--space-l, 2rem);
+    padding: var(--space-s, 0.5rem);
+
+    &:focus {
+        border: 2px solid currentColor;
+    }
+}
+
+textarea {
+    resize: none;
+}

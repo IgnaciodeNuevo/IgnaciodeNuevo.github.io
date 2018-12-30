@@ -67,8 +67,8 @@
             background-color: var(--color-base-lightest, #efefef);
             color: var(--color-base-dark, #262626);
 
-            .media__subtitle,
-            .media__time {
+            .media__time,
+            .media__subtitle {
                 color: inherit;
             }
         }
@@ -76,7 +76,6 @@
 
     &__time {
         color: var(--color-base-light, #808080);
-        display: block;
         margin-bottom: var(--space-xs, 0.25rem);
 
         @include all-small-caps();

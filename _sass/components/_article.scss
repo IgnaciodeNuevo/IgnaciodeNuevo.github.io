@@ -10,10 +10,6 @@
 
     @include transition();
 
-    &.is-active {
-        display: block;
-    }
-
     &.is-hidden {
         display: none;
     }
@@ -47,9 +43,9 @@
             }
         }
     }
+
     &__time {
         color: var(--color-base-light, #808080);
-        display: block;
         margin-bottom: var(--space-xs, 0.25rem);
 
         @include all-small-caps();
