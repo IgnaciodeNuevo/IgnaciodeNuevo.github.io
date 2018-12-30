@@ -14,7 +14,7 @@ layout: default
 <aside class="meta">
     {% if page.date %}
     <div class="last-updated">
-        <p class="h4-like">Post publication date:</p>
+        <p class="h2-like">Publication date</p>
         <p class="value">{{ page.date | date: "%b %-d %Y" }}</p>
     </div>
     {% endif %}
@@ -22,7 +22,7 @@ layout: default
         {% include component-reading.html content=content %}
     </div>
     <div class="meta__tags">
-        <p class="h4-like">Tagged under:</p>
+        <p class="h4-like">Tagged under</p>
         <div class="value">
             {% for tag in page.tags %}
                 <a class="btn btn--regular" href="/tags/#{{ tag }}">
