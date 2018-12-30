@@ -7,21 +7,21 @@
     z-index: var(--z-index-s, 1);
 
     @media (min-width: $mq-l) {
+        max-width: var(--meta-width, 21.4rem);
+        padding: var(--space-l, 2rem);
         position: relative;
 
         &:after {
             background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTA4IiBoZWlnaHQ9IjUwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJ2ZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSI1NCIgeTE9IjUwIiB4Mj0iNTQiIHkyPSIwIj4KICAgIDxzdG9wIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6IzMzMzMzMyIvPgogICAgPHN0b3Agb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojMDAwMDAwIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cG9seWdvbiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZmlsbD0idXJsKCN2ZykiIHBvaW50cz0iMCwwIDEwOCwwIDAsNTAgIi8+Cjwvc3ZnPgo=);
-            bottom: -50px;
+            bottom: -50px; // Fixed value needed, do not remove/change
             content: "";
-            height: 50px;
-            opacity: 0.6;
+            height: 50px; // Fixed value needed, do not remove/change
+            opacity: var(--opacity, 0.5);
             position: absolute;
-            right: 3px;
-            width: 108px;
+            right: 3px; // Fixed value needed, do not remove/change
+            width: 108px; // Fixed value needed, do not remove/change
         }
     }
-
-
 
     li {
         display: flex;

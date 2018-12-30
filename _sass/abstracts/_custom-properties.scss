@@ -62,15 +62,6 @@
     --size-xl: calc(var(--font-base) * 4);  // 64px
     --size-xxl: calc(var(--font-base) * 8);  // 128px
 
-    --border-width-xxs: 0.1875rem; // 3px
-    --footer-content-small: 8rem;
-    --btn-width: 8.75rem;
-    --hero-height: 60rem;
-    --hook-height: 6rem;
-    --horizontal: var(--space-l, 2rem);
-    --nav-height: 4.5rem;
-    --vertical: var(--space-xl, 4rem);
-
     --border-radius-xxs: var(--space-xxs); // 2px
     --border-radius-xs: var(--space-xs); // 4px
     --border-radius-s: var(--space-s); // 8px
@@ -87,8 +78,20 @@
     --icon-xl: 4em; // 64px
     --icon-xxl: 8em; // 128px
 
+    --opacity: 0.5;
+
     --z-index-s: 1;
     --z-index-m: 2;
     --z-index-l: 3;
     --z-index-xl: 4;
+
+    --border-width-xxs: 0.1875rem; // 3px
+    --footer-content-small: 8rem;
+    --btn-width: 8.75rem;
+    --hero-height: 60rem;
+    --hook-height: 6rem;
+    --horizontal: var(--space-l, 2rem);
+    --meta-width: 21.4rem;
+    --nav-height: 4.5rem;
+    --vertical: var(--space-xl, 4rem);
 }
