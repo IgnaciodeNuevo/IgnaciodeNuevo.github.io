@@ -29,7 +29,7 @@
         line-height: var(--nav-height);
         position: absolute;
         top: 0;
-        width: calc(100% - (var(--space-l) * 2));
+        width: calc(100% - var(--space-l) * 2);
     }
 
     .nav-items {
@@ -55,8 +55,8 @@
     .link {
         color: inherit;
         font-family: var(--font-family-title);
-        padding-bottom: var(--space-xs);
-        padding-top: var(--space-xs);
+        padding-bottom: var(--space-s);
+        padding-top: var(--space-s);
         text-decoration: none;
 
         @include heading-h6();

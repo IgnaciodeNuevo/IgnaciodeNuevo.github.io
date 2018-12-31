@@ -88,6 +88,9 @@
         @include body-text();
 
         .icon {
+            // TODO: Remove
+            // fill: purple !important;
+            // border: 4px solid purple !important;
             margin-bottom: calc(#{var(--space-xxs)} * -1); // Visual correction to align the text
         }
     }

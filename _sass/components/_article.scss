@@ -58,9 +58,5 @@
         margin-bottom: 0;
 
         @include body-text();
-
-        .icon {
-            margin-bottom: calc(#{var(--space-xxs)} * -1); // Visual correction to align the text
-        }
     }
 }
