@@ -5,14 +5,14 @@
     align-items: center;
     display: flex;
     flex-wrap: nowrap;
-    height: var(--nav-height, 4.5rem);
+    height: var(--nav-height);
     justify-content: space-between;
-    line-height: var(--nav-height, 4.5rem);
-    padding-left: var(--space-m, 1rem);
-    padding-right: var(--space-m, 1rem);
+    line-height: var(--nav-height);
+    padding-left: var(--space-m);
+    padding-right: var(--space-m);
 
     @media (min-width: $mq-s) {
-        padding-left: var(--space-l, 2rem);
+        padding-left: var(--space-l);
         padding-right: 0;
     }
 
@@ -25,7 +25,7 @@
         @include transition(fill);
 
         &:hover {
-            fill: var(--color-primary, #0047bb);
+            fill: var(--color-primary);
         }
     }
 
@@ -44,7 +44,7 @@
     }
 
     .link {
-        color: var(--color-base-lightest, #efefef);
+        color: var(--color-base-lightest);
         display: inline-block;
         height: inherit;
         line-height: inherit;
@@ -55,17 +55,17 @@
 
         &:hover .link__label,
         &.is-active .link__label {
-            border-bottom: var(--border-width-xxs, 0.1875rem) solid var(--color-base-lightest, #efefef);
+            border-bottom: var(--border-width-xxs) solid var(--color-base-lightest);
             display: inherit;
-            height: var(--nav-height, 4.5rem);
-            line-height: var(--nav-height, 4.5rem);
+            height: var(--nav-height);
+            line-height: var(--nav-height);
         }
 
         &:not(:last-of-type):after {
-            color: var(--color-base-light, #808080);
+            color: var(--color-base-light);
             content: "/";
-            margin-left: var(--space-s, 0.5rem);
-            margin-right: var(--space-s, 0.5rem);
+            margin-left: var(--space-s);
+            margin-right: var(--space-s);
 
             @include caption();
         }
@@ -75,16 +75,16 @@
         }
 
         &:last-of-type {
-            background-color: var(--color-secondary, #ffd300);
-            color: var(--color-base-dark, #262626);
-            height: calc(var(--nav-height, 4.5rem) + var(--border-width-xxs, 0.1875rem));
-            line-height: var(--nav-height, 4.5rem);
+            background-color: var(--color-secondary);
+            color: var(--color-base-dark);
+            height: calc(var(--nav-height) + var(--border-width-xxs));
+            line-height: var(--nav-height);
             margin-right: 0;
-            padding-left: var(--space-l, 2rem);
-            padding-right: var(--space-l, 2rem);
+            padding-left: var(--space-l);
+            padding-right: var(--space-l);
 
             &:hover {
-                background-color: var(--color-base-lightest, #efefef);
+                background-color: var(--color-base-lightest);
 
                 @include transition(background-color);
             }
@@ -96,13 +96,13 @@
     }
 
     .link__label {
-        font-family: var(--font-family-body-regular, "Brando Regular Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif);
+        font-family: var(--font-family-body-regular);
     }
 }
 
 .logo {
-    fill: var(--color-base-lightest, #efefef);
-    height: calc(var(--nav-height, 80px) - var(--space-m, 1rem) * 2);
+    fill: var(--color-base-lightest);
+    height: calc(var(--nav-height) - var(--space-m) * 2);
     max-width: 8.75rem;
 
     @media (min-width: $mq-special) {

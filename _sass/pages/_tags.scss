@@ -3,19 +3,19 @@
 // -----------------------------------------------------------------------------
 .tags {
     .articles-list:last-of-type {
-        margin-bottom: var(--space-l, 2rem);
+        margin-bottom: var(--space-l);
     }
 
     &__list {
         list-style-type: none;
-        margin-bottom: var(--space-l, 2rem);
+        margin-bottom: var(--space-l);
         overflow: hidden;
         padding: 0;
 
         .btn {
             &:not(:last-of-type) {
-                margin-bottom: var(--space-s, 0.5rem);
-                margin-right: var(--space-s, 0.5rem);
+                margin-bottom: var(--space-s);
+                margin-right: var(--space-s);
             }
         }
     }

@@ -3,11 +3,11 @@
 // -----------------------------------------------------------------------------
 .link {
     color: currentColor;
-    font-family: var(--font-family-body-semibold, "Brando Semibold Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif);
-    padding-bottom: var(--space-xxs, 0.125rem);
+    font-family: var(--font-family-body-semibold);
+    padding-bottom: var(--space-xxs);
     padding-left: 0;
     padding-right: 0;
-    padding-top: var(--space-xxs, 0.125rem);
+    padding-top: var(--space-xxs);
     text-decoration-color: currentColor;
     text-decoration-line: underline;
     text-decoration-skip: ink;
@@ -19,6 +19,6 @@
     }
 
     .icon {
-        margin-bottom: calc(#{var(--space-xs, 0.25rem)} * -1); // Visual correction to align the text
+        margin-bottom: calc(#{var(--space-xs)} * -1); // Visual correction to align the text
     }
 }

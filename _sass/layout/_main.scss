@@ -2,15 +2,15 @@
 // This file contains all styles related to the .main of the website.
 // -----------------------------------------------------------------------------
 .main {
-    background-color: var(--color-background, #fafafa);
-    padding-bottom: var(--space-xl, 4rem);
-    padding-left: var(--space-m, 1rem);
-    padding-right: var(--space-m, 1rem);
-    padding-top: var(--space-xl, 4rem);
+    background-color: var(--color-background);
+    padding-bottom: var(--space-xl);
+    padding-left: var(--space-m);
+    padding-right: var(--space-m);
+    padding-top: var(--space-xl);
 
     @media (min-width: $mq-s) {
-        padding-left: var(--space-l, 2rem);
-        padding-right: var(--space-l, 2rem);
+        padding-left: var(--space-l);
+        padding-right: var(--space-l);
     }
 
     h1 {

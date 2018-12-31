@@ -12,55 +12,55 @@
     }
 
     &:hover {
-        background-color: var(--color-base-dark, #262626);
-        color: var(--color-base-dark, #262626);
+        background-color: var(--color-base-dark);
+        color: var(--color-base-dark);
 
         .article__time {
-            color: var(--color-base-lightest, #efefef);
+            color: var(--color-base-lightest);
         }
 
         .article__subtitle {
-            color: var(--color-secondary, #ffd300);
+            color: var(--color-secondary);
         }
     }
 
     &__link {
         display: block;
-        padding-bottom: var(--space-m, 1rem);
-        padding-left: var(--space-xs, 0.5rem);
-        padding-top: var(--space-m, 1rem);
+        padding-bottom: var(--space-m);
+        padding-left: var(--space-xs);
+        padding-top: var(--space-m);
         text-decoration: none;
 
         &:hover {
-            background-color: var(--color-base-dark, #262626);
-            color: var(--color-base-dark, #262626);
+            background-color: var(--color-base-dark);
+            color: var(--color-base-dark);
 
             .article__time {
-                color: var(--color-base-lightest, #efefef);
+                color: var(--color-base-lightest);
             }
 
             .article__subtitle {
-                color: var(--color-secondary, #ffd300);
+                color: var(--color-secondary);
             }
         }
     }
 
     &__time {
-        color: var(--color-base-light, #808080);
-        padding-bottom: var(--space-xs, 0.25rem);
+        color: var(--color-base-light);
+        padding-bottom: var(--space-xs);
 
         @include all-small-caps();
         @include body-small();
     }
 
     &__subtitle {
-        color: var(--color-primary, #0047bb);
+        color: var(--color-primary);
         margin-bottom: 0;
 
         @include body-text();
 
         .icon {
-            margin-bottom: calc(#{var(--space-xxs, 0.125rem)} * -1); // Visual correction to align the text
+            margin-bottom: calc(#{var(--space-xxs)} * -1); // Visual correction to align the text
         }
     }
 }

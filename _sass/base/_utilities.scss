@@ -17,17 +17,17 @@
 .u-divider,
 .u-divider-small {
     background-color: currentColor;
-    height: var(--border-width-xxs, 0.1875rem);
+    height: var(--border-width-xxs);
 }
 
 .u-divider {
-    margin-bottom: var(--space-m, 1rem);
+    margin-bottom: var(--space-m);
     width: var(--size-xl, 4rem);
 }
 
 .u-divider-small {
-    margin-right: var(--space-s, 0.5rem);
-    width: var(--size-l, 2rem);
+    margin-right: var(--space-s);
+    width: var(--size-l);
 }
 
 //
@@ -35,7 +35,7 @@
 // Helps to see the heading after scrolling
 //
 .u-hook {
-    height: var(--hook-height, 6rem);
+    height: var(--hook-height);
 }
 
 //

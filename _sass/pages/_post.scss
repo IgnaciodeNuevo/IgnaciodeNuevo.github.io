@@ -6,7 +6,7 @@
     position: relative;
 
     &:after {
-        background: linear-gradient(to right, var(--color-secondary, #ffd300) 0, var(--color-primary, #0047bb) 66%, var(--color-base-darkest, #141414) 100%);
+        background: linear-gradient(to right, var(--color-secondary) 0, var(--color-primary) 66%, var(--color-base-darkest) 100%);
         bottom: 0;
         content: "";
         height: 5px;

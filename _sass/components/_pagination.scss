@@ -8,12 +8,12 @@
     margin-bottom: 0;
     margin-left: auto;
     margin-right: auto;
-    margin-top: var(--space-l, 2rem);
-    max-width: calc(var(--btn-width, 8.75rem) * 2 + 1rem);
-    padding-bottom: var(--space-l, 2rem);
+    margin-top: var(--space-l);
+    max-width: calc(var(--btn-width) * 2 + 1rem);
+    padding-bottom: var(--space-l);
     padding-left: 0;
 
     .btn {
-        width: var(--btn-width, 8.75rem);
+        width: var(--btn-width);
     }
 }

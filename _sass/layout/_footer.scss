@@ -6,27 +6,27 @@
     position: relative;
 
     &::after {
-        @include section("/Info", var(--color-secondary--darker, #f7a700));
+        @include section("/Info", var(--color-secondary--darker));
     }
 }
 
 .foo {
-    background-color: var(--color-secondary, #ffd300);
+    background-color: var(--color-secondary);
     display: flex;
     flex-direction: column;
-    padding-bottom: var(--space-xl, 4rem);
-    padding-left: var(--space-m, 1rem);
-    padding-right: var(--space-m, 1rem);
-    padding-top: var(--space-xl, 4rem);
+    padding-bottom: var(--space-xl);
+    padding-left: var(--space-m);
+    padding-right: var(--space-m);
+    padding-top: var(--space-xl);
 
     @media (min-width: $mq-s) {
-        padding-left: var(--space-l, 2rem);
-        padding-right: var(--space-l, 2rem);
+        padding-left: var(--space-l);
+        padding-right: var(--space-l);
     }
 
     @media (min-width: $mq-l) {
-        padding-bottom: var(--space-xxl, 8rem);
-        padding-top: var(--space-xxl, 8rem);
+        padding-bottom: var(--space-xxl);
+        padding-top: var(--space-xxl);
     }
 
     &__title,
@@ -36,7 +36,7 @@
 
     p:last-of-type {
         @media (min-width: $mq-l) {
-            margin-bottom: var(--space-l, 2rem);
+            margin-bottom: var(--space-l);
         }
     }
 
@@ -51,7 +51,7 @@
         flex-direction: column;
 
         &:last-child {
-            margin-bottom: var(--space-l, 2rem);
+            margin-bottom: var(--space-l);
         }
 
         @media (min-width: $mq-xs) {
@@ -61,7 +61,7 @@
 
     .form {
         margin-bottom: 3rem;
-        margin-top: var(--space-l, 2rem);
+        margin-top: var(--space-l);
 
         @media (min-width: $mq-xs) {
             width: 70%;
@@ -70,13 +70,13 @@
 
     .link:not(.link--foo) {
         color: inherit;
-        font-family: var(--font-family-title, "Guardian Bold Egyptian", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif);
-        padding-bottom: var(--space-s, 0.5rem);
-        padding-top: var(--space-s, 0.5rem);
+        font-family: var(--font-family-title);
+        padding-bottom: var(--space-s);
+        padding-top: var(--space-s);
         text-decoration: none;
 
         .icon {
-            stroke: var(--color-primary, #0047bb);
+            stroke: var(--color-primary);
         }
     }
 }

@@ -3,30 +3,30 @@
 // -----------------------------------------------------------------------------
 .btn {
     align-items: center;
-    border-radius: var(--border-radius-xxs, 0.125rem);
+    border-radius: var(--border-radius-xxs);
     display: inline-flex;
-    font-weight: var(--fake-bold, bold);
+    font-weight: var(--font-weight-bold);
     justify-content: center;
     line-height: initial;
-    padding: var(--space-s, 0.5rem);
+    padding: var(--space-s);
     text-decoration: none;
 
     @include all-small-caps();
     @include transition();
 
     &:hover {
-        background-color: var(--color-base-lightest, #efefef);
-        color: var(--color-base-dark, #262626);
+        background-color: var(--color-base-lightest);
+        color: var(--color-base-dark);
         cursor: pointer;
     }
 
     &:focus {
-        border: 2px dotted var(--color-secondary, #ffd300);
+        border: 2px dotted var(--color-secondary);
         outline: 0;
     }
 
      > svg {
-        margin-right: var(--space-s, 0.5rem);
+        margin-right: var(--space-s);
     }
 }
 
@@ -37,13 +37,13 @@
 
     &:active,
     &:hover {
-        background-color: var(--color-base-lightest, #efefef);
-        border-color: var(--color-base-lightest, #efefef);
-        color: var(--color-base-dark, #262626);
+        background-color: var(--color-base-lightest);
+        border-color: var(--color-base-lightest);
+        color: var(--color-base-dark);
     }
 
     span {
-        margin-right: var(--space-s, 0.5rem);
+        margin-right: var(--space-s);
     }
 
      > span + svg {
@@ -52,24 +52,24 @@
 }
 
 .btn--fill {
-    background-color: var(--color-primary, #0047bb);
-    border: 2px solid var(--color-primary, #0047bb);
-    color: var(--color-base-lightest, #efefef);
+    background-color: var(--color-primary);
+    border: 2px solid var(--color-primary);
+    color: var(--color-base-lightest);
 
     &:hover {
-        background-color: var(--color-primary-darker, #002f7b);
-        border: 2px solid var(--color-primary-darker, #002f7b);
-        color: var(--color-base-lightest, #efefef);
+        background-color: var(--color-primary-darker);
+        border: 2px solid var(--color-primary-darker);
+        color: var(--color-base-lightest);
     }
 
     &:active {
-        background-color: var(--color-primary-darkest, #00173b);
-        border-color: var(--color-primary-darkest, #00173b);
-        color: var(--color-base-lightest, #efefef);
+        background-color: var(--color-primary-darkest);
+        border-color: var(--color-primary-darkest);
+        color: var(--color-base-lightest);
     }
 
     .btn__text:first-child {
-        margin-right: var(--space-s, 0.5rem);
+        margin-right: var(--space-s);
     }
 
      > svg:last-child {
@@ -80,17 +80,17 @@
 .btn--ghost {
     background-color: transparent;
     border: 2px solid currentColor;
-    color: var(--color-base-lightest, #efefef);
+    color: var(--color-base-lightest);
     opacity: 0.5;
 
     &:hover {
-        border: 2px solid var(--color-base-lightest, #efefef);
+        border: 2px solid var(--color-base-lightest);
         opacity: 1;
     }
 
     &:active {
-        background-color: var(--color-base-lightest, #efefef);
-        color: var(--color-base-dark, #262626);
+        background-color: var(--color-base-lightest);
+        color: var(--color-base-dark);
         opacity: 1;
     }
 
@@ -102,12 +102,12 @@
 .btn--inverted {
     background-color: transparent;
     border: 2px solid currentColor;
-    color: var(--color-base-dark, #262626);
-    padding: var(--space-s, 0.5rem);
+    color: var(--color-base-dark);
+    padding: var(--space-s);
 
     &:hover {
-        background-color: var(--color-base-dark, #262626);
-        border-color: var(--color-base-dark, #262626);
-        color: var(--color-base-lightest, #efefef);
+        background-color: var(--color-base-dark);
+        border-color: var(--color-base-dark);
+        color: var(--color-base-lightest);
     }
 }

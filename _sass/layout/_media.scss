@@ -6,43 +6,43 @@
     position: relative;
 
     &::after {
-        @include section("/Media", var(--color-base-dark, #262626));
+        @include section("/Media", var(--color-base-dark));
     }
 }
 
 .media {
     color: inherit;
-    padding-bottom: var(--space-xl, 4rem);
-    padding-left: var(--space-m, 1rem);
-    padding-right: var(--space-m, 1rem);
-    padding-top: var(--space-xl, 4rem);
+    padding-bottom: var(--space-xl);
+    padding-left: var(--space-m);
+    padding-right: var(--space-m);
+    padding-top: var(--space-xl);
 
     @supports (grid-gap: 1rem) {
         @media (min-width: $mq-s) {
             display: grid;
-            grid-gap: var(--space-l, 2rem);
+            grid-gap: var(--space-l);
             grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
             margin-left: auto;
             margin-right: auto;
             max-width: 60rem;
-            padding-left: var(--space-l, 2rem);
-            padding-right: var(--space-l, 2rem);
+            padding-left: var(--space-l);
+            padding-right: var(--space-l);
         }
 
         @media (min-width: $mq-l) {
-            padding-bottom: var(--space-xxl, 8rem);
+            padding-bottom: var(--space-xxl);
             padding-left: initial;
             padding-right: initial;
-            padding-top: var(--space-xxl, 8rem);
+            padding-top: var(--space-xxl);
         }
     }
 
     .btn {
-        margin-bottom: var(--space-m, 1rem);
+        margin-bottom: var(--space-m);
     }
 
     &__item:not(:last-of-type) {
-        margin-bottom: var(--space-xl, 4rem);
+        margin-bottom: var(--space-xl);
 
         @supports (grid-gap: 1rem) {
             @media (min-width: $mq-s) {
@@ -55,16 +55,16 @@
         border-bottom: 1px solid currentColor;
         color: inherit;
         display: block;
-        padding-bottom: var(--space-m, 1rem);
-        padding-left: var(--space-xs, 0.5rem);
-        padding-top: var(--space-m, 1rem);
+        padding-bottom: var(--space-m);
+        padding-left: var(--space-xs);
+        padding-top: var(--space-m);
         text-decoration: none;
 
         @include transition();
 
         &:hover {
-            background-color: var(--color-base-lightest, #efefef);
-            color: var(--color-base-dark, #262626);
+            background-color: var(--color-base-lightest);
+            color: var(--color-base-dark);
 
             .media__time,
             .media__subtitle {
@@ -74,21 +74,21 @@
     }
 
     &__time {
-        color: var(--color-base-light, #808080);
-        padding-bottom: var(--space-xs, 0.25rem);
+        color: var(--color-base-light);
+        padding-bottom: var(--space-xs);
 
         @include all-small-caps();
         @include body-small();
     }
 
     &__subtitle {
-        color: var(--color-secondary, #ffd300);
+        color: var(--color-secondary);
         margin-bottom: 0;
 
         @include body-text();
 
         .icon {
-            margin-bottom: calc(#{var(--space-xxs, 0.125rem)} * -1); // Visual correction to align the text
+            margin-bottom: calc(#{var(--space-xxs)} * -1); // Visual correction to align the text
         }
     }
 
@@ -96,8 +96,8 @@
         @include transition();
 
         &:hover {
-            background-color: var(--color-secondary, #ffd300);
-            color: var(--color-base-dark, #262626);
+            background-color: var(--color-secondary);
+            color: var(--color-base-dark);
             text-decoration: none;
         }
     }

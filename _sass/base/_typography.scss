@@ -4,7 +4,7 @@
 
 // Body text loaded font-family
 html.fonts-loaded {
-    font-family: var(--font-family-body-regular, "Brando Regular Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif);
+    font-family: var(--font-family-body-regular);
 }
 
 // Headings font-family and font-weight
@@ -20,8 +20,8 @@ h6,
 .h4-like,
 .h5-like,
 .h6-like {
-    font-family: var(--font-family-title-fallback, Georgia, sans-serif);
-    font-weight: var(--font-weight-bold, 700);
+    font-family: var(--font-family-title-fallback);
+    font-weight: var(--font-weight-bold);
 }
 
 // Headings font-size and line-height
@@ -95,13 +95,13 @@ html.fonts-loaded h5,
 html.fonts-loaded .h5-like,
 html.fonts-loaded h6,
 html.fonts-loaded .h6-like {
-    font-family: var(--font-family-title, "Guardian Bold Egyptian", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, serif);
+    font-family: var(--font-family-title);
 }
 
 // Body text (not loaded) fallback tweaks
 html:not(.fonts-loaded) {
-    font-family: var(--font-family-body-regular, "Brando Regular Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif);
-    font-weight: var(--font-weight-normal, 400);
+    font-family: var(--font-family-body-regular);
+    font-weight: var(--font-weight-normal);
     letter-spacing: -0.009375em; // -0.15px
     word-spacing: -0.04375em; // -0.7px
 }

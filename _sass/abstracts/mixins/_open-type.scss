@@ -3,5 +3,5 @@
     font-feature-settings: "c2sc", "smcp";
     -webkit-font-feature-settings: "c2sc", "smcp";
        -moz-font-feature-settings: "c2sc", "smcp";
-    letter-spacing: var(--letter-spacing, 0.05em); // Equals 5%
+    letter-spacing: var(--letter-spacing); // Equals 5%
 }

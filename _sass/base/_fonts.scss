@@ -20,7 +20,7 @@
          url("/assets/fonts/Guardian/GuardianEgyp-Bold-Web.woff") format("woff");
     font-stretch: normal;
     font-style: normal;
-    font-weight: var(--font-weight-bold, 700);
+    font-weight: var(--font-weight-bold);
 }
 
 @font-face {
@@ -29,7 +29,7 @@
          url("/assets/fonts/Guardian/GuardianEgyp-Bold-Web-Subset.woff") format("woff");
     font-stretch: normal;
     font-style: normal;
-    font-weight: var(--font-weight-bold, 700);
+    font-weight: var(--font-weight-bold);
 }
 
 // Buy Brando Regular Sans font here:
@@ -50,7 +50,7 @@
          url("/assets/fonts/Brando/Brando-Sans-Regular.woff") format("woff");
     font-stretch: normal;
     font-style: normal;
-    font-weight: var(--font-weight-normal, 400);
+    font-weight: var(--font-weight-normal);
 }
 
 @font-face {
@@ -59,7 +59,7 @@
          url("/assets/fonts/Brando/Brando-Sans-Regular-Subset.woff") format("woff");
     font-stretch: normal;
     font-style: normal;
-    font-weight: var(--font-weight-normal, 400);
+    font-weight: var(--font-weight-normal);
 }
 
 @font-face {
@@ -68,7 +68,7 @@
          url("/assets/fonts/Brando/Brando-Sans-Semibold.woff") format("woff");
     font-stretch: normal;
     font-style: normal;
-    font-weight: var(--font-weight-normal, 600);
+    font-weight: var(--font-weight-normal);
 }
 
 @font-face {
@@ -77,7 +77,7 @@
          url("/assets/fonts/Brando/Brando-Sans-Semibold-Subset.woff") format("woff");
     font-stretch: normal;
     font-style: normal;
-    font-weight: var(--font-weight-normal, 600);
+    font-weight: var(--font-weight-normal);
 }
 
 // Download Input font here:
@@ -97,5 +97,5 @@
         url("/assets/fonts/Input/Input-Mono-Regular.woff") format("woff");
     font-stretch: normal;
     font-style: normal;
-    font-weight: var(--font-weight-normal, 400);
+    font-weight: var(--font-weight-normal);
 }

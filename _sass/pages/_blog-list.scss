@@ -11,7 +11,7 @@
     align-items: center;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: var(--space-l, 2rem);
+    margin-bottom: var(--space-l);
 
     @media (min-width: 24.25em) {
         p {
@@ -21,6 +21,6 @@
 
     p,
     .btn:not(:last-of-type) {
-        margin-right: var(--space-s, 0.5rem);
+        margin-right: var(--space-s);
     }
 }

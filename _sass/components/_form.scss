@@ -1,23 +1,23 @@
 .form {
-    background-color: var(--color-base-lightest, #efefef);
-    border-radius: var(--border-radius-xxs, 0.125rem);
-    color: var(--color-base-dark, #262626);
+    background-color: var(--color-base-lightest);
+    border-radius: var(--border-radius-xxs);
+    color: var(--color-base-dark);
     display: flex;
     flex-direction: column;
-    margin-bottom: var(--space-l, 2rem);
-    padding: var(--space-l, 2rem);
+    margin-bottom: var(--space-l);
+    padding: var(--space-l);
 
     .h3-like,
     .h4-like {
-        margin-bottom: var(--space-xs, 0.25rem);
+        margin-bottom: var(--space-xs);
     }
 
     .small {
-        margin-bottom: var(--space-l, 2rem);
+        margin-bottom: var(--space-l);
     }
 
     .label-desc {
-        margin-bottom: var(--space-xs, 0.25rem);
+        margin-bottom: var(--space-xs);
 
         @include body-small();
     }
