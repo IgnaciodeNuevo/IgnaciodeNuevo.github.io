@@ -1,0 +1,39 @@
+// -----------------------------------------------------------------
+// This file contains all styles related to the .masthead component.
+// -----------------------------------------------------------------
+.masthead {
+    background-color: var(--color-base-medium);
+    background-image: url("/assets/images/pattern.svg");
+    margin-bottom: var(--space-l);
+    margin-left: calc(#{var(--space-m)} * -1); // Helps element grow moving out its container, delimited by paddings
+    margin-right: calc(#{var(--space-m)} * -1); // Helps element grow moving out its container, delimited by paddings
+    padding-bottom: var(--space-xl);
+    padding-left: var(--space-m);
+    padding-right: var(--space-m);
+    padding-top: var(--space-xl);
+    position: relative;
+    width: calc(100% + #{var(--space-m)} * 2); // Makes the element 100vw: Sums padding-right + padding-left
+
+    @media (min-width: $mq-s) {
+        margin-bottom: var(--space-xl);
+        margin-left: calc(#{var(--space-l)} * -1);
+        margin-right: calc(#{var(--space-l)} * -1);
+        padding-bottom: var(--space-xl);
+        padding-left: var(--space-m);
+        padding-right: var(--space-m);
+        padding-top: var(--space-xl);
+    }
+
+    &:after {
+        @include linear-gradient-line-after();
+    }
+
+    &__title {
+        color: var(--color-secondary);
+    }
+
+    &__description {
+        color: var(--color-base-lightest);
+        margin-bottom: 0;
+    }
+}
