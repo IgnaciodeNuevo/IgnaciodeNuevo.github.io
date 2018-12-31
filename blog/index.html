@@ -21,12 +21,12 @@ title: "Blog"
     </div>
 </div>
 
-<ul class="articles-list">
+<section class="articles-list">
     {% for post in paginator.posts %}
         {% if post.lang %}
-            <article class="article is-active" data-lang="{{ post.lang }}">
+            <article class="article" data-lang="{{ post.lang }}">
         {% else %}
-            <article class="article is-active">
+            <article class="article">
         {% endif %}
                 <a class="article__link" href="{{ post.url }}" lang="es">
                     <time class="article__time" datetime="{{ post.date }}">{{ post.date | date: "%b %-d %Y" }}</time>
@@ -34,7 +34,7 @@ title: "Blog"
                 </a>
             </article>
     {% endfor %}
-</ul>
+</section>
 
 {% include component-paginator.html %}
 

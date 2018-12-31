@@ -84,7 +84,7 @@ layout: default
 
     <div class="media-wrapper">
         <section class="media">
-            <article class="media__item">
+            <div class="media__item">
                 <h3>Writing</h3>
                 <div class="u-divider"></div>
                 <p>I use to write from time to time. If you are looking for something specific, hit <a class="link" href="/search">the search</a>, or check all <a class="link" href="/interviews">Developer Interviews</a>.</p>
@@ -94,34 +94,44 @@ layout: default
                 </a>
                 <div class="u-divider"></div>
                 {% for post in site.posts limit: 3 %}
-                <a class="media__link" href="{{ post.url }}" lang="es">
-                    <time class="media__time" datetime="{{ post.date }}">{{ post.date | date: "%b %-d %Y" }}</time>
-                    <h4 class="media__subtitle">{{ post.title }}</h4>
-                </a>
+                    {% if post.lang %}
+                            <article lang="{{ post.lang }}">
+                        {% else %}
+                            <article lang="en">
+                        {% endif %}
+                            <a class="media__link" href="{{ post.url }}">
+                                <time class="media__time" datetime="{{ post.date }}">{{ post.date | date: "%b %-d %Y" }}</time>
+                                <h4 class="media__subtitle">{{ post.title }}</h4>
+                            </a>
+                        </article>
                 {% endfor %}
-            </article>
-            <article class="media__item">
+            </div>
+            <div class="media__item">
                 <h3>Speaking</h3>
                 <div class="u-divider"></div>
                 {% for talk in site.data.speaking limit: 5 %}
-                <a class="media__link" href="/speaking/{{ talk.url }}" lang="es">
-                    <time class="media__time" datetime="{{ talk.date }}">{{ talk.date | date: "%b %-d %Y" }}</time>
-                    <h4 class="media__subtitle">{{ talk.name }}</h4>
-                </a>
+                    <article lang="es">
+                        <a class="media__link" href="/speaking/{{ talk.url }}" lang="es">
+                            <time class="media__time" datetime="{{ talk.date }}">{{ talk.date | date: "%b %-d %Y" }}</time>
+                            <h4 class="media__subtitle">{{ talk.name }}</h4>
+                        </a>
+                    </article>
                 {% endfor %}
-            </article>
-            <article class="media__item">
+            </div>
+            <div class="media__item">
                 <h3>Collaborations</h3>
                 <div class="u-divider"></div>
                 <p>I have had the pleasure of having been invited to collaborate with some Spanish media/publications of the web development sector.</p>
                 <div class="u-divider"></div>
                 {% for collaboration in site.data.collaborations limit: 5 %}
-                <a class="media__link" href="{{ collaboration.url }}" lang="es" target="_blank" rel="noopener">
-                    <time class="media__time">{{ collaboration.date }}</time>
-                    <h4 class="media__subtitle">{{ collaboration.name }} {% include icons/external.html %}</h4>
-                </a>
+                <article lang="es">
+                    <a class="media__link" href="{{ collaboration.url }}" target="_blank" rel="noopener">
+                        <time class="media__time">{{ collaboration.date }}</time>
+                        <h4 class="media__subtitle">{{ collaboration.name }} {% include icons/external.html %}</h4>
+                    </a>
+                </article>
                 {% endfor %}
-            </article>
+            </div>
         </section>
     </div>
 </main>

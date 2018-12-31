@@ -75,7 +75,7 @@
 
     &__time {
         color: var(--color-base-light, #808080);
-        margin-bottom: var(--space-xs, 0.25rem);
+        padding-bottom: var(--space-xs, 0.25rem);
 
         @include all-small-caps();
         @include body-small();

@@ -4,9 +4,6 @@
 .article {
     border-bottom: 1px solid currentColor;
     color: inherit;
-    padding-bottom: var(--space-m, 1rem);
-    padding-left: var(--space-xs, 0.5rem);
-    padding-top: var(--space-m, 1rem);
 
     @include transition();
 
@@ -28,6 +25,10 @@
     }
 
     &__link {
+        display: block;
+        padding-bottom: var(--space-m, 1rem);
+        padding-left: var(--space-xs, 0.5rem);
+        padding-top: var(--space-m, 1rem);
         text-decoration: none;
 
         &:hover {
@@ -46,7 +47,7 @@
 
     &__time {
         color: var(--color-base-light, #808080);
-        margin-bottom: var(--space-xs, 0.25rem);
+        padding-bottom: var(--space-xs, 0.25rem);
 
         @include all-small-caps();
         @include body-small();
