@@ -42,6 +42,10 @@
             .article__subtitle {
                 color: var(--color-secondary);
             }
+
+            .article__tags {
+                color: var(--color-base-lightest);
+            }
         }
     }
 
@@ -56,7 +60,25 @@
     &__subtitle {
         color: var(--color-primary);
         margin-bottom: 0;
+        margin-bottom: var(--space-xs);
 
         @include body-text();
+    }
+
+    &__tags {
+        align-items: center;
+        color: var(--color-base-dark);
+        display: inline-flex;
+        text-transform: lowercase;
+
+        @include body-small();
+
+        svg {
+            margin-right: var(--space-xxs);
+        }
+
+        span {
+            margin-right: var(--space-xs);
+        }
     }
 }

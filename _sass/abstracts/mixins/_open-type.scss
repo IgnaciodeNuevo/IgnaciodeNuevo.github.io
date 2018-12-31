@@ -5,3 +5,11 @@
        -moz-font-feature-settings: "c2sc", "smcp";
     letter-spacing: var(--letter-spacing); // Equals 5%
 }
+
+@mixin small-caps() {
+    font-variant-caps: small-caps;
+    font-feature-settings: "onum", "smcp", "c2sc" 0;
+    -webkit-font-feature-settings: "onum", "smcp", "c2sc" 0;
+       -moz-font-feature-settings: "onum", "smcp", "c2sc" 0;
+    letter-spacing: var(--letter-spacing); // Equals 5%
+}
