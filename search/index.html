@@ -24,7 +24,7 @@ title: "Search"
     {% assign tag_words = site_tags | split:',' | sort %}
 
     <!-- List of all tags -->
-    <div class="index u-clearfix">
+    <div class="tags__list">
     {% for item in (0..site.tags.size) %}{% unless forloop.last %}
         {% capture this_word %}{{ tag_words[item] }}{% endcapture %}
         <a class="btn btn--fill" href="/tags/#{{ this_word | cgi_escape }}">

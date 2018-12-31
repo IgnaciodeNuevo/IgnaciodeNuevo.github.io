@@ -1,6 +1,18 @@
 // ----------------------------------------------------------------
 // This file contains all styles related to the blog post page.
 // ----------------------------------------------------------------
-.blog-post {
 
+
+.page__title {
+    position: relative;
+
+    &:after {
+        background: linear-gradient(to right, var(--color-secondary, #ffd300) 0, var(--color-primary, #0047bb) 66%, var(--color-base-darkest, #141414) 100%);
+        bottom: 0;
+        content: "";
+        height: 5px;
+        left: 0;
+        position: absolute;
+        width: 100%;
+    }
 }
