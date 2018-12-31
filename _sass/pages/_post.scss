@@ -1,17 +1,48 @@
 // ----------------------------------------------------------------
 // This file contains all styles related to the blog post page.
 // ----------------------------------------------------------------
+.post {
+    img {
+        max-width: 100%;
+    }
+}
 
-.page__title {
-    position: relative;
 
-    &:after {
-        background: linear-gradient(to right, var(--color-secondary) 0, var(--color-primary) 66%, var(--color-base-darkest) 100%);
-        bottom: 0;
-        content: "";
-        height: 5px;
-        left: 0;
-        position: absolute;
-        width: 100%;
+.page {
+    &__masthead {
+        background-color: var(--color-base-medium);
+        background-image: url("/assets/images/pattern.svg");
+        margin-bottom: var(--space-l);
+        margin-left: calc(#{var(--space-m)} * -1);
+        margin-right: calc(#{var(--space-m)} * -1);
+        padding-bottom: var(--space-xl);
+        padding-left: var(--space-m);
+        padding-right: var(--space-m);
+        padding-top: var(--space-xl);
+        position: relative;
+        width: calc(100% + #{var(--space-m)} * 2);
+
+        @media (min-width: $mq-s) {
+            margin-bottom: var(--space-xl);
+            margin-left: calc(#{var(--space-l)} * -1);
+            margin-right: calc(#{var(--space-l)} * -1);
+            padding-bottom: var(--space-xl);
+            padding-left: var(--space-m);
+            padding-right: var(--space-m);
+            padding-top: var(--space-xl);
+        }
+
+        &:after {
+            @include linear-gradient-line-after();
+        }
+    }
+
+    &__title {
+        color: var(--color-secondary);
+    }
+
+    &__description {
+        color: var(--color-base-lightest);
+        margin-bottom: 0;
     }
 }

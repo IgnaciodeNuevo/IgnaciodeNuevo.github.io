@@ -13,7 +13,7 @@
         padding-right: var(--space-l);
     }
 
-    h1 {
+    h1:not(.page__title) {
         text-align: center;
     }
 }

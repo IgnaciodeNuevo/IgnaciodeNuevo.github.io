@@ -3,8 +3,9 @@
     border-radius: var(--border-radius-xs);
     color: var(--color-base-lightest);
     list-style-type: none;
+    margin-top: calc(#{var(--space-xl)} * -1);
+    opacity: var(--opacity-hack);
     padding: var(--space-m);
-    z-index: var(--z-index-s);
 
     @media (min-width: $mq-l) {
         max-width: var(--meta-width);
