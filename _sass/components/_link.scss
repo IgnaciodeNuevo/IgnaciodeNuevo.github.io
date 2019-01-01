@@ -21,7 +21,7 @@
     &--special {
         @supports (background-clip: text) {
             background-clip: text;
-            background-image: linear-gradient(to right, var(--color-primary) 0, var(--color-primary-darkest) 100%);
+            background-image: var(--linear-gradient);
             border-bottom: 1px solid rgba(var(--color-primary-rgb), 0.2);
             color: transparent;
             text-decoration: none;

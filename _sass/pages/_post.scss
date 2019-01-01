@@ -14,6 +14,18 @@
         }
     }
 
+    .meta + p::first-letter {
+        background-color: var(--color-primary);
+        background-image: var(--linear-gradient);
+        color: var(--color-base-lightest);
+        float: left;
+        font-family: var(--font-family-title);
+        font-size: 3em;
+        margin-right: var(--space-s);
+        margin-top: var(--space-xs);
+        padding: var(--space-m);
+    }
+
     img {
         max-width: 100%;
     }

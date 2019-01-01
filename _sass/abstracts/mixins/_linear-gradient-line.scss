@@ -1,6 +1,6 @@
 @mixin linear-gradient-line-after() {
     background-color: var(--color-primary);
-    background-image: linear-gradient(to right, var(--color-base-lightest) 0, var(--color-primary) 66%, var(--color-base-dark) 100%);
+    background-image: var(--linear-gradient);
     bottom: 0;
     content: "";
     height: 6px;
@@ -11,7 +11,7 @@
 
 @mixin linear-gradient-line-before() {
     background-color: var(--color-primary);
-    background-image: linear-gradient(to right, var(--color-base-lightest) 0, var(--color-primary) 66%, var(--color-base-dark) 100%);
+    background-image: var(--linear-gradient);
     content: "";
     height: 6px;
     left: 0;

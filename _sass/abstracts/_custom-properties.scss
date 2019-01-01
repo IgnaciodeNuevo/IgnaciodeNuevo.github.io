@@ -19,6 +19,8 @@
 
     --box-shaodw: 0 2px 5px 1px rgba(0, 0, 0, 0.75);
 
+    --linear-gradient: linear-gradient(to right, var(--color-primary) 0, var(--color-primary-darkest) 100%);
+
     --animation-speed: 0.25s;
     --animation-type-in: ease-in;
     --animation-type-cubic: cubic-bezier(0, 0, 0.3, 1);
