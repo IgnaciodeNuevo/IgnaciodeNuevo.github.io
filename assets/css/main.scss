@@ -5,7 +5,7 @@
 // 1. Configuration and helpers
 @import
   'abstracts/custom-properties',
-  'abstracts/media-queries',
+  'abstracts/variables',
   'abstracts/functions',
   'abstracts/mixins/linear-gradient-line',
   'abstracts/mixins/arrows',
@@ -65,3 +65,8 @@
   'pages/success',
   'pages/404',
   'pages/debug';
+
+
+// 7. Theme styles
+@import
+  'theme/syntax-highlighter';
