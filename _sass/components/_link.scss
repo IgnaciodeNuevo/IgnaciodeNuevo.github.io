@@ -19,8 +19,9 @@
     }
 
     &--special {
-        @supports (background-clip: text) {
-            background-clip: text;
+        @supports (background-clip: text) or (-webkit-background-clip: text) {
+            -webkit-background-clip: text;
+                    background-clip: text;
             background-image: var(--linear-gradient);
             border-bottom: 1px solid rgba(var(--color-primary-rgb), 0.2);
             color: transparent;
@@ -30,7 +31,7 @@
         &:hover {
             text-decoration-style: solid;
 
-            @supports (background-clip: text) {
+            @supports (background-clip: text) or (-webkit-background-clip: text) {
                 border-bottom: 1px solid rgba(var(--color-primary-rgb), 1);
             }
         }
