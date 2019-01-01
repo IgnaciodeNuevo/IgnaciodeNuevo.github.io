@@ -68,7 +68,7 @@
         }
     }
 
-    .link:not(.link--foo) {
+    .link:not(.link--special) {
         color: inherit;
         font-family: var(--font-family-title);
         padding-bottom: var(--space-s);

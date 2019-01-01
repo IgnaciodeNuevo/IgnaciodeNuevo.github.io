@@ -18,6 +18,24 @@
         text-decoration-style: solid;
     }
 
+    &--special {
+        @supports (background-clip: text) {
+            background-clip: text;
+            background-image: linear-gradient(to right, var(--color-primary) 0, var(--color-primary-darkest) 100%);
+            border-bottom: 1px solid rgba(var(--color-primary-rgb), 0.2);
+            color: transparent;
+            text-decoration: none;
+        }
+
+        &:hover {
+            text-decoration-style: solid;
+
+            @supports (background-clip: text) {
+                border-bottom: 1px solid rgba(var(--color-primary-rgb), 1);
+            }
+        }
+    }
+
     .icon {
         // TODO: Remove
         // fill: purple !important;
