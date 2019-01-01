@@ -5,12 +5,13 @@
     // padding-right: var(--meta-width);
 
     .content {
-        position: relative;
-        width: 85%;
-        max-width: 1265px;
-        margin: 0 auto;
-        // max-width: 750px;
-        padding-right: calc(1265px - 750px);
+        @media (min-width: $mq-l) {
+            margin: 0 auto;
+            max-width: var(--content-max-width);
+            padding-right: calc(#{var(--content-max-width)} - #{var(--content-width)});
+            position: relative;
+            width: 85%;
+        }
     }
 
     img {

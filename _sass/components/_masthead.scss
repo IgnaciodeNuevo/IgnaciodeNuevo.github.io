@@ -16,14 +16,15 @@
     width: calc(100% + #{var(--space-m)} * 2); // Makes the element 100vw: Sums padding-left (--space-m) + padding-right (--space-m)
 
     @media (min-width: $mq-s) {
-        margin-bottom: var(--space-xl);
-        margin-bottom: 120px;
-        margin-left: calc(#{var(--space-l)} * -1);
-        margin-right: calc(#{var(--space-l)} * -1);
+        margin-left: calc(#{var(--space-l)} * -1); // Helps element grow moving out its container, delimited by paddings
+        margin-right: calc(#{var(--space-l)} * -1); // Helps element grow moving out its container, delimited by paddings
+        width: calc(100% + #{var(--space-l)} * 2); // Makes the element 100vw: Sums padding-left (--space-l) + padding-right (--space-l)
+    }
+
+    @media (min-width: $mq-l) {
+        margin-bottom: 5.3125rem; // Magic String: Do not change/remove
         padding-bottom: var(--space-xl);
         padding-left: var(--space-m);
-        padding-right: calc(#{var(--meta-width)} + #{var(--space-l)});
-        width: calc(100% + #{var(--space-l)} * 2); // Makes the element 100vw: Sums padding-left (--space-l) + padding-right (--space-l)
     }
 
     &:after {

@@ -84,14 +84,16 @@
     --z-index-l: 3;
     --z-index-xl: 4;
 
-    --border-width-xxs: 0.1875rem; // 3px
+    --border-width-xxs: 0.1875rem;
+    --content-width: 33.75rem;
+    --content-max-width: 56.25rem;
     --footer-content-small: 8rem;
     --btn-width: 8.75rem;
     --hero-height: 60rem;
     --hook-height: 6rem;
     --horizontal: var(--space-l, 2rem);
     --meta-width: 21.4rem;
-    --meta-position: -13.6rem;
+    --meta-position: -15rem;
     --nav-height: 4.5rem;
     --vertical: var(--space-xl, 4rem);
 }
