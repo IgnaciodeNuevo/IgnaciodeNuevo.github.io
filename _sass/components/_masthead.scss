@@ -7,21 +7,23 @@
     margin-bottom: var(--space-l);
     margin-left: calc(#{var(--space-m)} * -1); // Helps element grow moving out its container, delimited by paddings
     margin-right: calc(#{var(--space-m)} * -1); // Helps element grow moving out its container, delimited by paddings
+    overflow: hidden;
     padding-bottom: var(--space-xl);
     padding-left: var(--space-m);
     padding-right: var(--space-m);
     padding-top: var(--space-xl);
     position: relative;
-    width: calc(100% + #{var(--space-m)} * 2); // Makes the element 100vw: Sums padding-right + padding-left
+    width: calc(100% + #{var(--space-m)} * 2); // Makes the element 100vw: Sums padding-left (--space-m) + padding-right (--space-m)
 
     @media (min-width: $mq-s) {
         margin-bottom: var(--space-xl);
+        margin-bottom: 120px;
         margin-left: calc(#{var(--space-l)} * -1);
         margin-right: calc(#{var(--space-l)} * -1);
         padding-bottom: var(--space-xl);
         padding-left: var(--space-m);
-        padding-right: var(--space-m);
-        padding-top: var(--space-xl);
+        padding-right: var(--meta-width);
+        width: calc(100% + #{var(--space-l)} + #{var(--meta-width)}); // Makes the element 100vw: Sums padding-left (--space-l) + padding-right (--meta-width)
     }
 
     &:after {

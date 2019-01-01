@@ -24,7 +24,7 @@
     <meta property="og:type" content="article" />
     <meta property="og:url" content="{{ page.url | replace:'index.html','' }}"/>
     <meta property="og:image" content="{{ site.url }}/assets/images/logo.jpg" />
-    <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 280 }}{% else %}{{ site.long_description }}{% endif %}" />
+    <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.long_description }}{% endif %}" />
     <meta property="og:site_name" content="{{ site.url }}" />
 
     <!-- Twitter cards -->
@@ -34,7 +34,7 @@
     <meta name="twitter:creator" content="@IgnaciodeNuevo">
     <meta name="twitter:title" content="{{ page.title }}">
     <meta name="twitter:image" content="{{ site.url }}/assets/images/logo.jpg">
-    <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 280 }}{% else %}{{ site.long_description }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.long_description }}{% endif %}">
 
     <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" title="{{ site.short_descriptions }}" href="{{ site.url}}/feed.xml" />
