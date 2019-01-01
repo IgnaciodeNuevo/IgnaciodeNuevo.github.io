@@ -4,11 +4,10 @@ title: "Interviewing Web People"
 tags:
   - Interviews
 lang: en
+page_class: post
 ---
 
-Today is a very exciting day, a really one.
-
-I talked with a friend of mine to do a pocast. Why? Because we thought, why not to talk about our interests and our hobbies, wich are crafting things, testing new technologies, new platforms and why not share our experiences with others... but, after a few hours chatting about this and researching how to start a podcast I thought why not to make it in English, because as I mentiones before [here]({{ site.url }}/2015/11/25/hello-world/) I am not a native English speaker so apart from knowing I do not write well enought and my friend's speaking skills and mine are also not so good this project will be difficult for us.
+Today is a very exciting day, a really one. I talked with a friend of mine to do a pocast. Why? Because we thought, why not to talk about our interests and our hobbies, wich are crafting things, testing new technologies, new platforms and why not share our experiences with others... but, after a few hours chatting about this and researching how to start a podcast I thought why not to make it in English, because as I mentiones before <a class="link link--special" href="{{ site.url }}/2015/11/25/hello-world/">here</a> I am not a native English speaker so apart from knowing I do not write well enought and my friend's speaking skills and mine are also not so good this project will be difficult for us.
 
 So first things first, lets practice our speaking skills and in a few months we will be ready to make this possible and now, because I follow some of the most amazing people in our industry, I am starting to interview them and because I know my speaking skills are not so good by a written interview.
 
@@ -22,7 +21,7 @@ When one of the first developers told me he/she is not comfortable with his/her 
 
 I only follow people I admire their work, what they are doing in our industry or by what they share. So if you, reader, want to learn something one of the most important things you could do is to follow developers you find interesting and read what they share, because one of the most amazing things in Web Industry is that people share a lot of awesome things, articles about what they have learnt, posts about our industry, technical posts, things they build to solve a problem and lots of other things.
 
-I started sending a few emails to some of the developers I follow on this [Twitter's list]({{ site.twitter }}/lists/web-development) and first I thought, why if most of them do not know who I am are going to answer my emails and we do not talk of accepting my interview, I thought that because we only feel like this kind of people are so busy that when they recive an email like mine requesting an interview by someone they do not know will be instant deleted.
+I started sending a few emails to some of the developers I follow on this <a class="link link--special" href="{{ site.twitter }}/lists/web-development">Twitter's list</a> and first I thought, why if most of them do not know who I am are going to answer my emails and we do not talk of accepting my interview, I thought that because we only feel like this kind of people are so busy that when they recive an email like mine requesting an interview by someone they do not know will be instant deleted.
 
 Note I was trying to send emails as many people I can because I thought none will respond this and by copy/pasting my first few emails I made a mistake, I copy/pasted the email I sent to someone I met in Madrid in the Google HQ where he gave a talk and made me feel terribly stupid. So I sent to everyone I sent this an apology email.
 
@@ -52,12 +51,10 @@ After researching what kind of questions should I make I have made a list of app
 
 So if you are one of those awesome developers of our industry feel free to send me your answer to this questions and they will be published as soon as possible.
 
-{% include component-email.html %}
-
 Felt disappointed first because I was so excited to intereview people are as passionate as my about web development due to I have been sending emails one afternoon and the morning before and none had responded. But the day before that, people start accepting my requests of interview so when I recived the first email back telling me I was accepted to interview my first interviewee I exploded with joy, this was so amazing for my, intereviewing people I really admire and never ever thought they will accept or even respond my emails that made me very happy.
 
 Now, I have been recieving more emails accepting my requests of interview I in the future I will send more emails to more awesome web development people.
 
 At last I want to say thank you, to every single person that respond me, to accept my interview or to say the can not accept it. And for those who I have not recived back any email, I will be requesting you again an interview.
 
-<a href="/interviews">Read the Interviews I have maded</a>
+<a class="link link--special" href="/projects/interviews/">Read the Interviews I have maded</a>

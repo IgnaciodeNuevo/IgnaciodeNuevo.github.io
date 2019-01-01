@@ -2,8 +2,6 @@
 // This file contains all styles related to the blog post page.
 // ----------------------------------------------------------------
 .post {
-    // padding-right: var(--meta-width);
-
     .content {
         @media (min-width: $mq-l) {
             margin: 0 auto;
