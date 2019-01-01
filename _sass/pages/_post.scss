@@ -2,7 +2,16 @@
 // This file contains all styles related to the blog post page.
 // ----------------------------------------------------------------
 .post {
-    padding-right: var(--meta-width);
+    // padding-right: var(--meta-width);
+
+    .content {
+        position: relative;
+        width: 85%;
+        max-width: 1265px;
+        margin: 0 auto;
+        // max-width: 750px;
+        padding-right: calc(1265px - 750px);
+    }
 
     img {
         max-width: 100%;
