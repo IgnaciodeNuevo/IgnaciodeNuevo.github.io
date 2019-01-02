@@ -13,6 +13,10 @@
     padding-bottom: var(--space-l);
     padding-left: 0;
 
+    li::before {
+        background-color: initial;
+    }
+
     .btn {
         width: var(--btn-width);
     }

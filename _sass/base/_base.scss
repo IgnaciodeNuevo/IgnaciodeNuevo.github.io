@@ -53,11 +53,26 @@ body.is-active .container {
 //
 ul,
 ol {
-    list-style-position: inside;
-    padding-left: 0;
+    // list-style-position: inside;
+    list-style-type: none;
+    padding-left: var(--space-m);
 
     @media (min-width: $mq-l) {
-        list-style-position: outside;
+        padding-left: 0;
+    }
+
+    li {
+        position: relative;
+
+        &::before {
+            background-color: var(--color-primary);
+            content: "";
+            height: 0.3em; // Magic String: Do not change/remove
+            left: -0.8em; // Magic String: Do not change/remove
+            position: absolute;
+            top: 0.55em; // Magic String: Do not change/remove
+            width: 0.3em; // Magic String: Do not change/remove
+        }
     }
 }
 
