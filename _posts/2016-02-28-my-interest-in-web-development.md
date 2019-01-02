@@ -29,7 +29,7 @@ You might ask wy I'm saying that Trazos is an overprized academy if it was one o
 
 Well, this is the academy with the best with the best facilities in Madrid, they have the newest computers and best software.
 
-I thought as I did a couple of projects in GL Creaciones to master graphic design and learn some of the most used programs in the industry and why not, to learn some HTML and CSS would be a great idea. So I started what they called a Master in Graphic Design and Web Development. Now when I'm writing this I looked to link the academic program but their <a class="link link--special" href="http://www.trazos.net/cursos/curso-de-diseno-web/">program has changed</a>.
+I thought as I did a couple of projects in GL Creaciones to master graphic design and learn some of the most used programs in the industry and why not, to learn some HTML and CSS would be a great idea. So I started what they called a Master in Graphic Design and Web Development. Now when I'm writing this I looked to link the academic program but their <a class="link link--special" href="http://www.trazos.net/cursos/curso-de-diseno-web/" target="_blank" rel="noopener">program has changed</a>.
 
 I remember that I learnt about the following:
 
@@ -46,13 +46,13 @@ I remember that I learnt about the following:
 
 The worst thing about Trazos is that they sell so many ads that you feel like there is no other place to learn, that they would give you the best of the best but this is not true. Having the best computers and software doesn't matter if the don't teach you what our industry demands and they don't.
 
-After ending the course, I felt like I could do everything and be what ever I want. I'll be waiting while lots of companies would ask me if I want to work for them but, I was so wrong... As I said, I was unemployed so I had the time to start learning by my own. I looked one of my teachers <a class="link link--special" href="https://twitter.com/eduardofierrogo">Twitter</a> and found one or two spanish web developers, I started following them and found the free course <a class="link link--special" href="https://www.udemy.com/less-de-cero-a-experto/">Less de cero a experto</a> by <a class="link link--special" href="https://twitter.com/Wakkos">Daniel Martinez</a> which I recommend.
+After ending the course, I felt like I could do everything and be what ever I want. I'll be waiting while lots of companies would ask me if I want to work for them but, I was so wrong... As I said, I was unemployed so I had the time to start learning by my own. I looked one of my teachers <a class="link link--special" href="https://twitter.com/eduardofierrogo" target="_blank" rel="noopener">Twitter</a> and found one or two spanish web developers, I started following them and found the free course <a class="link link--special" href="https://www.udemy.com/less-de-cero-a-experto/" target="_blank" rel="noopener">Less de cero a experto</a> by <a class="link link--special" href="https://twitter.com/Wakkos" target="_blank" rel="noopener">Daniel Martinez</a> which I recommend.
 
-I had the pleasure to have <a class="link link--special" href="http://eduardofierro.pro/index.php">Eduardo Fierro</a> as Web Development teacher, he is the kind of teacher who manages to give the best of you and his greatest virtue, is his ability to motivate the student.
+I had the pleasure to have <a class="link link--special" href="http://eduardofierro.pro/index.php" target="_blank" rel="noopener">Eduardo Fierro</a> as Web Development teacher, he is the kind of teacher who manages to give the best of you and his greatest virtue, is his ability to motivate the student.
 
 <blockquote class="">
     <p>He is a great professional who besides of being effective is resposible and I work with him in some freelance projects. I would recommend him without delay.</p>
-    <cite>Eduardo Fierro, <a class="link link--special" href="http://www.trazos.net">Trazos</a></cite>
+    <cite>Eduardo Fierro, <a class="link link--special" href="http://www.trazos.net" target="_blank" rel="noopener">Trazos</a></cite>
 </blockquote>
 
 Some months after my real beginnings in Frontend Web Development I sent Trazos an to help them with the academic program, why not if I found what I wanted to be?
@@ -61,7 +61,7 @@ The sad thing about my email was, they never changed their academic program with
 
 After a year and a half, learning by my self, I had the great opportunity to join Martin & Young, a small digital agency in Madrid to work on client projects.
 
-Now some months after leaving Martin & Young I'm freelancing. I'm now learning JavaScript as I said in my previous <a class="link link--special" href="/2016/02/18/my-next-step-learning-and-new-years-resolutions/">article</a>.
+Now some months after leaving Martin & Young I'm freelancing. I'm now learning JavaScript as I said in my previous <a class="link link--special" href="/2016/02/18/my-next-step-learning-and-new-years-resolutions/" target="_blank" rel="noopener">article</a>.
 
 I'm happy to say that NOW I know what is to be a Frontend developer.
 

@@ -11,7 +11,7 @@ Let's start at the beginning. I started using the web since the terrible time of
 
 Fifteen years ago was a good time to start on the web, this was easy to learn, there is no new wheel to be reinvented every six months like now.
 
-Approximately one year and a half ago, I started learning Frontend Developement on my own since I've finished the <a class="link link--special" href="/2016/02/28/my-interest-in-web-development/" target="_blank" rel="noopener">Master in Graphic Design and Web Development</a> at Trazos.
+Approximately one year and a half ago, I started learning Frontend Developement on my own since I've finished the <a class="link link--special" href="/2016/02/28/my-interest-in-web-development/">Master in Graphic Design and Web Development</a> at Trazos.
 
 After finishing the master I had the wrong idea that I had all the knowledge needed to conquest the world. I couldn't be more wrong. Things change fast and this incredible industry changes faster than you have ever imagined before.
 
@@ -77,7 +77,7 @@ Things are always going to change and that's fantastic news for our industry. Ke
 
 ## Newsletters
 
-Subscribe to weekly <a class="link link--special" href="/resources/#newsletters" target="_blank" rel="noopener">newsletters</a> and keep reading about new topics in the industry.
+Subscribe to weekly <a class="link link--special" href="/resources/#newsletters/">newsletters</a> and keep reading about new topics in the industry.
 
 ## Recreate
 

@@ -27,7 +27,8 @@
     h5,
     h6,
     p,
-    ul {
+    ul,
+    ol {
         @media (min-width: $mq-l) {
             margin-left: auto;
             margin-right: auto;
