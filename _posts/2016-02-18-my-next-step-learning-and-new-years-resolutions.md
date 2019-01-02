@@ -63,16 +63,16 @@ I decided to publish one <a class="link link--special" href="/projects/interview
 
 See you next week.
 
-<div>
-    <h4>Recommended JavaScript Books</h4>
-    <ul>
+<div class="related">
+    <h4 class="related__title">Recommended JavaScript Books</h4>
+    <ul class="related__list">
         <li><a class="link link--special" id="JSBookOne" href="https://www.nostarch.com/javascriptforkids" target="_blank" rel="noopener">JavaScript for Kids</a></li>
         <li><a class="link link--special" id="JSBookTwo" href="http://eloquentjavascript.net" target="_blank" rel="noopener">Eloquent JavaScript</a></li>
         <li><a class="link link--special" id="JSBookThree" href="https://github.com/getify/You-Dont-Know-JS" target="_blank" rel="noopener">You Don't Know JS (book series)</a></li>
         <li><a class="link link--special" id="JSBookFour" href="http://jsbooks.revolunet.com/" target="_blank" rel="noopener">JS Books</a></li>
     </ul>
-    <h4 id="twitterAccounts">Recommended Twitter Accounts</h4>
-    <ul>
+    <h4 class="related__title" id="twitterAccounts">Recommended Twitter Accounts</h4>
+    <ul class="related__list">
         <li><a class="link link--special" href="https://twitter.com/addyosmani" target="_blank" rel="noopener">Addy Osmani</a></li>
         <li><a class="link link--special" href="https://twitter.com/rauschma" target="_blank" rel="noopener">Axel Rauschmayer</a></li>
         <li><a class="link link--special" href="https://twitter.com/_ericelliott" target="_blank" rel="noopener">Eric Elliott</a></li>

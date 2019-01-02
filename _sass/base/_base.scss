@@ -85,15 +85,15 @@ ol {
 }
 
 .content {
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
+    h1:not(.related__title),
+    h2:not(.related__title),
+    h3:not(.related__title),
+    h4:not(.related__title),
+    h5:not(.related__title),
+    h6:not(.related__title),
     p,
-    ul,
-    ol {
+    ul:not(.related__list),
+    ol:not(.related__list) {
         @media (min-width: $mq-l) {
             margin-left: auto;
             margin-right: auto;

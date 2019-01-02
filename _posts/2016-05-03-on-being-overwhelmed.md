@@ -93,9 +93,9 @@ That’s it, That’s all.
 
 TLDR; Yes our industry is fast, it moves quickly, this is inspiring, because it’s getting better and better.
 
-<div>
-    <h4>Further reading</h4>
-    <ul>
+<div class="related">
+    <h4 class="related__title">Further reading</h4>
+    <ul class="related__list">
         <li><a class="link link--special" href="http://wesbos.com/overwhelmed-with-web-development/" target="_blank" rel="noopener">On being overwhelmed with our fast paced industry</a></li>
         <li><a class="link link--special" href="http://ashleynolan.co.uk/blog/frontend-tooling-survey-2015-results" target="_blank" rel="noopener">The State of Front-End Tooling – 2015</a></li>
     </ul>

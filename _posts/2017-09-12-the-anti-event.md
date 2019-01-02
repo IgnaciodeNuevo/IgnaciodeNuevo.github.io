@@ -173,9 +173,9 @@ Como conclusión decir que ha sido el mejor evento tecnológico al que he podido
 
 PD.: Se me olvidaba mencionar que sortearon 15 tazas y me tocó una en la segunda ronda que le regalé a <a class="link link--special" href="https://twitter.com/carmenansio" target="_blank" rel="noopener">Carmen</a> ya que a ella le hacía especial ilusión.
 
-<div>
-    <h4>Artículos y videos sobre TheAntiEvent  2017</h4>
-    <ul>
+<div class="related">
+    <h4 class="related__title">Artículos y videos sobre TheAntiEvent 2017</h4>
+    <ul class="related__list">
         <li><a class="link link--special" href="https://elenatorro.github.io/theantievent-notes/" target="_blank" rel="noopener">Notas</a> por Elena Torró</li>
         <li><a class="link link--special" href="https://melies-hugo.js.org/post/experiencia-theantievent/" target="_blank" rel="noopener">Experiencia</a> por Cristina Fernández</li>
         <li><a class="link link--special" href="http://jorgeatgu.com/blog/retroespecter-theantievent-17/" target="_blank" rel="noopener">Retrospectiva</a> por Jorge</li>

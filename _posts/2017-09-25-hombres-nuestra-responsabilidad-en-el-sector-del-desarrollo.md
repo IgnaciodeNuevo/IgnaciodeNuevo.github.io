@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hombres, nuestra responsabilidad en el sector."
+title: "Hombres, nuestra responsabilidad en el sector"
 tags:
   - Diversity
 lang: es
@@ -121,9 +121,9 @@ Por último dar las gracias a quienes me han dado feedback antes de publicar el 
 
 ¡Espero que no haya sido muy largo!
 
-<div>
-    <h4>Documentación para aprender sobre diversidad</h4>
-    <ul>
+<div class="related">
+    <h4 class="related__title">Documentación para aprender sobre diversidad</h4>
+    <ul class="related__list">
         <li><a class="link link--special" href="https://github.com/folkswhocode/awesome-diversity" target="_blank" rel="noopener">Awesome Diversity</a></li>
         <li><a class="link link--special" href="https://github.com/folkswhocode/diversifaq/blob/master/FAQ.md" target="_blank" rel="noopener">Folks Who Code FAQ</a></li>
         <li><a class="link link--special" href="https://github.com/larahogan/ally-resources" target="_blank" rel="noopener">Allie resources by Lara Hogan</a></li>

@@ -86,9 +86,9 @@ I have lot of things to do:
 
 <a class="link link--special" href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fignaciodenuevo.com&tab=desktop" target="_blank" rel="noopener">100/100 on Google Pagespeed</a> which I have not.
 
-<div>
-    <h4>Jekyll resources and further reading</h4>
-    <ul>
+<div class="related">
+    <h4 class="related__title">Jekyll resources and further reading</h4>
+    <ul class="related__list">
         <li><a class="link link--special" href="http://jekyllrb.com" target="_blank" rel="noopener">Jekyll Official Website</a></li>
         <li><a class="link link--special" href="http://jekyll-windows.juthilo.com" target="_blank" rel="noopener">Jekyll on Windows</a></li>
         <li><a class="link link--special" href="http://yaml.org" target="_blank" rel="noopener">YAML</a></li>
