@@ -57,7 +57,7 @@ Lo primero que podemos hacer y más obvio es no tener sesgos de ningún tipo o a
 
 No con todo el mundo tenemos la misma confianza y por tanto deberíamos actuar de manera diferente según con que personas. A mis amigas les doy dos besos para saludarlas, pero quizá con una compañera nueva podríamos actuar de otro modo, por ejemplo dándole la mano y en un futuro si ella se siente cómoda podremos saludarla de otro modo.
 
-Esta situación precisamente la comentaba en el tren camino a <a class="link link--special" href="/2017/09/12/the-anti-event/" target="_blank" rel="noopener">The Anti Event</a> ya que no sabía como actuar y muy amablemente me dijeron que quizá dar la mano podría ser la solución.
+Esta situación precisamente la comentaba en el tren camino a <a class="link link--special" href="/2017/09/12/the-anti-event/" target="_blank" rel="noopener">TheAntiEvent </a> ya que no sabía como actuar y muy amablemente me dijeron que quizá dar la mano podría ser la solución.
 
 ### WhatsApps de "tíos"
 

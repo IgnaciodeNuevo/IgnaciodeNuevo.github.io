@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "The AntiEvent 2017"
+title: "TheAntiEvent 2017"
 tags:
   - Event
 lang: es
 page_class: post
 ---
 
-Parece mentira que haga tanto tiempo que no me pongo a escribir en el blog, pero esta vez merece enormemente la pena. El año pasado tuve la oportunidad de asistir a mi primer evento internacional, <a class="link link--special" href="/2016/10/06/indie-web-camp-brighton-2016/" target="_blank" rel="noopener">Indie Web Camp Brighton 2016</a> que tuvo lugar en las oficinas de <a class="link link--special" href="https://clearleft.com/" target="_blank" rel="noopener">Clearleft</a>.
+Parece mentira que haga tanto tiempo que no me pongo a escribir en el blog, pero esta vez merece enormemente la pena. El año pasado tuve la oportunidad de asistir a mi primer evento internacional, <a class="link link--special" href="/2016/10/06/indie-web-camp-brighton-2016/" target="_blank" rel="noopener">IndieWebCamp Brighton 2016</a> que tuvo lugar en las oficinas de <a class="link link--special" href="https://clearleft.com/" target="_blank" rel="noopener">Clearleft</a>.
 
 En éste evento la organización era diferente a las conferencias y meetups a los que acostumbro a asistir ya que fueron los propios asistentes quienes se ofrecían a dar una charla o a debatir sobre un tema y hacer de moderadores. Fue una experiencia increible, jamás había salido tan inspirado de un evento y esta vez íbamos a asistir a uno muy especial en Bilbao.
 
-The Anti Event es un Open Space y como tal las dinámicas funcionan de otro modo, la gente tiene unas ganas enormes de compartir y la tarea principal es conocer a gente.
+TheAntiEvent  es un Open Space y como tal las dinámicas funcionan de otro modo, la gente tiene unas ganas enormes de compartir y la tarea principal es conocer a gente.
 
 Las espectativas eran enormes y no podía ser menos puesto que el evento lo organizaban <a class="link link--special" href="https://twitter.com/nabaroa" target="_blank" rel="noopener">Naiara Abaroa</a>, <a class="link link--special" href="https://twitter.com/jontorrado" target="_blank" rel="noopener">Jon Torrado</a>, y <a class="link link--special" href="https://twitter.com/cataflu" target="_blank" rel="noopener">Cata</a>.
 
@@ -33,7 +33,7 @@ Algo que puedo decir con total franqueza es que no hubo ningún ego rondando el 
 
 ## Vue
 
-¡Cómo no! <a class="link link--special" href="https://vuejs.org/v2/guide/" target="_blank" rel="noopener">Vue</a> es el nuevo juguete de los Frontend y no podía faltar a una charla sobre esta librería que imparieron <a class="link link--special" href="https://twitter.com/Xaviju" target="_blank" rel="noopener">Xavi</a> de <a class="link link--special" href="http://kaleidos.net/" target="_blank" rel="noopener">Kaleidos</a> y <a class="link link--special" href="https://twitter.com/sirikon" target="_blank" rel="noopener">Carlos</a> de <a class="link link--special" href="https://www.plainconcepts.com/" target="_blank" rel="noopener">PlainConcepts</a> (Bilbao).
+¡Cómo no! <a class="link link--special" href="https://vuejs.org/v2/guide/" target="_blank" rel="noopener">Vue</a> es el nuevo juguete de los Frontend y no podía faltar a una charla sobre esta librería que imparieron <a class="link link--special" href="https://twitter.com/Xaviju" target="_blank" rel="noopener">Xavi</a> de <a class="link link--special" href="http://kaleidos.net/" target="_blank" rel="noopener">Kaleidos</a> y <a class="link link--special" href="https://twitter.com/sirikon" target="_blank" rel="noopener">Carlos</a> de <a class="link link--special" href="https://www.plainconcepts.com/" target="_blank" rel="noopener">Plain Concepts</a> (Bilbao).
 
 Nos estuvieron contanto sobre las ventajas de usarlo frente a otras herramientas del mercado como Angular o React y contaban que el creador se ha decantado por las mejores partes de estos. El sistema de templating, shadow DOM, reactividad...
 
@@ -57,7 +57,7 @@ Estuvimos cenando y charlando un tranquilamente. La verdad que me lo pasé genia
     <img src="/assets/images/post-antievent-1.jpg" alt="">
     <figcaption class="caption">
         <b title="encima">Encima</b>
-        —¡Empieza The Anti Event 2017!
+        —¡Empieza TheAntiEvent  2017!
     </figcaption>
 </figure>
 
@@ -161,7 +161,7 @@ Para acabar fuimos 34 de los 50 asistentes de cena y luego a tomar algo. Nos íb
 
 Como conclusión decir que ha sido el mejor evento tecnológico al que he podido asistir. Todo ha salido orgánicamente, he tenido el placer de conocer a gente increible, aprender mucho y donde la calidad humana de los orgaizadores ha sido de diez.
 
-¡Espero no perderme The Anti Event el año que viene, ha sido increible!
+¡Espero no perderme TheAntiEvent  el año que viene, ha sido increible!
 
 <figure class="picture">
     <img src="/assets/images/post-antievent-3.jpg" alt="">
@@ -174,12 +174,12 @@ Como conclusión decir que ha sido el mejor evento tecnológico al que he podido
 PD.: Se me olvidaba mencionar que sortearon 15 tazas y me tocó una en la segunda ronda que le regalé a <a class="link link--special" href="https://twitter.com/carmenansio" target="_blank" rel="noopener">Carmen</a> ya que a ella le hacía especial ilusión.
 
 <div>
-    <h4>Artículos y videos sobre The Anti Event 2017</h4>
+    <h4>Artículos y videos sobre TheAntiEvent  2017</h4>
     <ul>
-        <li><a class="link link--special" href="https://elenatorro.github.io/theantievent-notes/" target="_blank" rel="noopener">Notas de Elena Torró</a></li>
-        <li><a class="link link--special" href="https://melies-hugo.js.org/post/experiencia-theantievent/" target="_blank" rel="noopener">Experiencia de Cristina Fernández</a></li>
-        <li><a class="link link--special" href="http://jorgeatgu.com/blog/retroespecter-theantievent-17/" target="_blank" rel="noopener">Retrospectiva de Jorge</a></li>
-        <li><a class="link link--special" href="https://medium.com/@dmarchena/una-retro-personal-del-theantievent-2017-4bd31f4712fa" target="_blank" rel="noopener">Una retro personal del TheAntiEvent 2017 de David Marchena</a></li>
-        <li><a class="link link--special" href="https://robertogarrido.com/theantievent-2017/" target="_blank" rel="noopener">TheAntiEvent 2017 o como mejorar como profesional en un fin de semana de Roberto Garrido</a></li>
+        <li><a class="link link--special" href="https://elenatorro.github.io/theantievent-notes/" target="_blank" rel="noopener">Notas</a> por Elena Torró</li>
+        <li><a class="link link--special" href="https://melies-hugo.js.org/post/experiencia-theantievent/" target="_blank" rel="noopener">Experiencia</a> por Cristina Fernández</li>
+        <li><a class="link link--special" href="http://jorgeatgu.com/blog/retroespecter-theantievent-17/" target="_blank" rel="noopener">Retrospectiva</a> por Jorge</li>
+        <li><a class="link link--special" href="https://medium.com/@dmarchena/una-retro-personal-del-theantievent-2017-4bd31f4712fa" target="_blank" rel="noopener">Una retro personal del TheAntiEvent 2017</a> por David Marchena</li>
+        <li><a class="link link--special" href="https://robertogarrido.com/theantievent-2017/" target="_blank" rel="noopener">Como mejorar como profesional en un fin de semana</a> por Roberto Garrido</li>
     </ul>
 </div>
