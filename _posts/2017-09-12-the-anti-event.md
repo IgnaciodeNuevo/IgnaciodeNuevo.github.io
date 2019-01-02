@@ -57,7 +57,7 @@ Estuvimos cenando y charlando un tranquilamente. La verdad que me lo pasé genia
     <img src="/assets/images/post-antievent-1.jpg" alt="">
     <figcaption class="caption">
         <b title="encima">Encima</b>
-        —¡Empieza TheAntiEvent  2017!
+        &mdash;¡Empieza TheAntiEvent  2017!
     </figcaption>
 </figure>
 
@@ -73,7 +73,7 @@ Nada mejor que empezar la mañana relajadamente que de la mano de <a class="link
     <img src="/assets/images/post-antievent-4.jpg" alt="">
     <figcaption class="caption">
         <b title="encima">Encima</b>
-        —Posando para foto en el taller de Acuarelas
+        &mdash;Posando para foto en el taller de Acuarelas
     </figcaption>
 </figure>
 
@@ -85,7 +85,7 @@ Se nos pasó tan rápido el taller que nos saltamos una charla, estuvimos dos ho
     <img src="/assets/images/post-antievent-2.jpg" alt="">
     <figcaption class="caption">
         <b title="encima">Encima</b>
-        —Tablero de Anti Charlas
+        &mdash;Tablero de Anti Charlas
     </figcaption>
 </figure>
 
@@ -115,7 +115,7 @@ Fue super entretenido contar todos los entresijos, incluso hicimos un pequeño s
     <img src="/assets/images/post-antievent-5.jpg" alt="">
     <figcaption class="caption">
         <b title="encima">Encima</b>
-        —Carmen y yo hablando sobre WeCodeSign
+        &mdash;Carmen y yo hablando sobre WeCodeSign
     </figcaption>
 </figure>
 
@@ -167,7 +167,7 @@ Como conclusión decir que ha sido el mejor evento tecnológico al que he podido
     <img src="/assets/images/post-antievent-3.jpg" alt="">
     <figcaption class="caption">
         <b title="encima">Encima</b>
-        —Una preciosa Anti Taza
+        &mdash;Una preciosa Anti Taza
     </figcaption>
 </figure>
 

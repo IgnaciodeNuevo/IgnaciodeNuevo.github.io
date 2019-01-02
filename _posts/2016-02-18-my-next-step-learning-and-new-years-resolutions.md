@@ -14,7 +14,7 @@ I know, I know, we are in the middle of February and New Year's Resolutions are 
     <img src="/assets/images/resource-javascript-for-kids.jpg" alt="">
     <figcaption class="caption">
         <b title="encima">Encima</b>
-        —<a class="link link--special" href="#JSBookOne">JavaScript for Kids' book</a>
+        &mdash;<a class="link link--special" href="#JSBookOne">JavaScript for Kids' book</a>
     </figcaption>
 </figure>
 
@@ -43,7 +43,7 @@ Here are the things you'll learn in <a class="link link--special" href="http://w
     <img src="/assets/images/resource-eloquent-javascript.jpg" alt="">
     <figcaption class="caption">
         <b title="encima">Encima</b>
-        —<a class="link link--special" href="#JSBookTwo">Eloquent JavaScript's book</a>
+        &mdash;<a class="link link--special" href="#JSBookTwo">Eloquent JavaScript's book</a>
     </figcaption>
 </figure>
 

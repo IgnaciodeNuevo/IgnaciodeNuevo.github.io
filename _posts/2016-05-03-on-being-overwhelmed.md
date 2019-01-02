@@ -27,7 +27,7 @@ I don't think so. A fact about the web is that with one and only one link or URL
     <img src="/assets/images/post-front-end-overwhelmed.png" alt="">
     <figcaption class="caption">
         <b title="encima">Encima</b>
-        —Web Technologies
+        &mdash;Web Technologies
     </figcaption>
 </figure>
 
@@ -43,7 +43,7 @@ Finally are you using Angular 1.0? Oh, today I've read Angular 2.0 has become dr
 
 <blockquote class="quote">
     <span>Whenever a new framework, tool or technique comes out, I hear more groans than celebrations.</span>
-    <cite>Wes Bos</cite>
+    <cite>&mdash;Wes Bos</cite>
 </blockquote>
 
 I'm new in web industry. How are we supposed to get up to date with everything while keeps changing?
@@ -58,7 +58,7 @@ Working on the web means that things change quickly. A need to readapt yourself 
 
 <blockquote class="quote">
     <span>We will always see innovation, people pushing the envelope on both what is possible and the best way to get things done.</span>
-    <cite>Wes Bos</cite>
+    <cite>&mdash;Wes Bos</cite>
 </blockquote>
 
 It’s not changing that fast. Why you might ask?

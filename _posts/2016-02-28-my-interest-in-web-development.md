@@ -52,7 +52,7 @@ I had the pleasure to have <a class="link link--special" href="http://eduardofie
 
 <blockquote class="quote">
     <span>He is a great professional who besides of being effective is resposible and I work with him in some freelance projects. I would recommend him without delay.</span>
-    <cite>Eduardo Fierro, <a class="link link--special" href="http://www.trazos.net" target="_blank" rel="noopener">Trazos</a></cite>
+    <cite>&mdash;Eduardo Fierro, profesor de <a class="link link--special" href="http://www.trazos.net" target="_blank" rel="noopener">Trazos</a></cite>
 </blockquote>
 
 Some months after my real beginnings in Frontend Web Development I sent Trazos an to help them with the academic program, why not if I found what I wanted to be?

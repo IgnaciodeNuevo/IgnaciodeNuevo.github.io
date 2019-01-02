@@ -16,7 +16,7 @@ It was a meeting for independent web creators (everyone from newbies to hackers)
     <img src="/assets/images/post-IWC-Brighton-2016-1.gif" alt="">
     <figcaption class="caption">
         <b title="encima">Encima</b>
-        —Photo of the IndieWebCamp Brighton 2016's attendees by Julie Anne Noying CC-BY/Flickr
+        &mdash;Photo of the IndieWebCamp Brighton 2016's attendees by Julie Anne Noying CC-BY/Flickr
     </figcaption>
 </figure>
 
@@ -35,7 +35,7 @@ I was astonished by the variety topics and software used.
     <img src="/assets/images/post-IWC-Brighton-2016-2.jpg" alt="">
     <figcaption class="caption">
         <b title="encima">Encima</b>
-        —Photo of the IndieWebCamp Brighton 2016's attendees talking and eating by Julie Anne Noying CC-BY/Flickr
+        &mdash;Photo of the IndieWebCamp Brighton 2016's attendees talking and eating by Julie Anne Noying CC-BY/Flickr
     </figcaption>
 </figure>
 
@@ -66,7 +66,7 @@ Now I can say that being part of <a class="link link--special" href="https://ind
     <img src="/assets/images/post-IWC-Brighton-2016-4.jpg" alt="">
     <figcaption class="caption">
         <b title="encima">Encima</b>
-        —Photo of the IndieWebCamp Brighton 2016's attendees all together by Julie Anne Noying CC-BY/Flickr
+        &mdash;Photo of the IndieWebCamp Brighton 2016's attendees all together by Julie Anne Noying CC-BY/Flickr
     </figcaption>
 </figure>
 

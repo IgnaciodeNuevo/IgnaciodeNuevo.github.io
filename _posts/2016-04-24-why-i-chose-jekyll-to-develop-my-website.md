@@ -64,7 +64,7 @@ Furthermore, any time I want to make a change to either, I only have to update i
     <img src="/assets/images/post-sublimetext-2.jpg" alt="">
     <figcaption class="caption">
         <b title="encima">Encima</b>
-        —<a class="link link--special" href="/assets/images/post-sublimetext-2--fullscreen.jpg" target="_blank" rel="noopener">Sublime Text Editor</a>
+        &mdash;<a class="link link--special" href="/assets/images/post-sublimetext-2--fullscreen.jpg" target="_blank" rel="noopener">Sublime Text Editor</a>
     </figcaption>
 </figure>
 
