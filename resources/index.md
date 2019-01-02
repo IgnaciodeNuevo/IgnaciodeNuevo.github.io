@@ -19,7 +19,7 @@ TL; DR
             <h3 class="">{{ resource.name }}</h3>
             <p class="">
                 {% include icons/external.html %}
-                <a href="{{ resource.url }}" target="_blank">{{ resource.name }}'s Web</a>
+                <a class="link link--special" href="{{ resource.url }}" target="_blank" rel="noopener">{{ resource.name }}'s Web</a>
             </p>
         {% endfor %}
     </li>
@@ -29,7 +29,7 @@ TL; DR
             <h3 class="">{{ resource.name }}</h3>
             <p class="">
                 {% include icons/external.html %}
-                <a href="{{ resource.url }}" target="_blank">{{ resource.name }}</a>
+                <a class="link link--special" href="{{ resource.url }}" target="_blank" rel="noopener">{{ resource.name }}</a>
             </p>
         {% endfor %}
     </li>
@@ -39,7 +39,7 @@ TL; DR
             <h3 class="">{{ resource.name }}</h3>
             <p class="">
                 {% include icons/external.html %}
-                <a href="{{ resource.url }}" target="_blank">{{ resource.name }}'s Web</a>
+                <a class="link link--special" href="{{ resource.url }}" target="_blank" rel="noopener">{{ resource.name }}'s Web</a>
             </p>
         {% endfor %}
     </li>
@@ -49,7 +49,7 @@ TL; DR
             <h3 class="">{{ resource.name }}</h3>
             <p class="">
                 {% include icons/external.html %}
-                <a href="{{ resource.url }}" target="_blank">{{ resource.name }}'s Slack Channel</a>
+                <a class="link link--special" href="{{ resource.url }}" target="_blank" rel="noopener">{{ resource.name }}'s Slack Channel</a>
             </p>
         {% endfor %}
     </li>
@@ -59,7 +59,7 @@ TL; DR
             <h3 class="">{{ resource.name }}</h3>
             <p class="">
                 {% include icons/external.html %}
-                <a href="{{ resource.url }}" target="_blank">{{ resource.name }}'s Web</a>
+                <a class="link link--special" href="{{ resource.url }}" target="_blank" rel="noopener">{{ resource.name }}'s Web</a>
             </p>
         {% endfor %}
     </li>
