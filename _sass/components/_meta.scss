@@ -1,3 +1,15 @@
+.meta-wrapper {
+    position: relative;
+
+    @media (min-width: $mq-l) {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: var(--content-max-width);
+        padding-right: calc(#{var(--content-max-width)} - #{var(--content-width)});
+        width: 85%;
+    }
+}
+
 .meta {
     background-color: var(--color-base-dark);
     border-radius: var(--border-radius-xs);
@@ -14,7 +26,7 @@
         max-width: var(--meta-width);
         padding: var(--space-l);
         position: absolute;
-        right: -1px; // Magic String: Do not change/remove
+        right: 0;
 
         &:after {
             background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTA4IiBoZWlnaHQ9IjUwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJ2ZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSI1NCIgeTE9IjUwIiB4Mj0iNTQiIHkyPSIwIj4KICAgIDxzdG9wIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6IzMzMzMzMyIvPgogICAgPHN0b3Agb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojMDAwMDAwIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cG9seWdvbiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZmlsbD0idXJsKCN2ZykiIHBvaW50cz0iMCwwIDEwOCwwIDAsNTAgIi8+Cjwvc3ZnPgo=);

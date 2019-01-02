@@ -17,28 +17,29 @@ layout: default
         </div>
         {% endif %}
 
-        <aside class="meta">
-            {% if page.date %}
-            <div class="last-updated">
-                <p class="h2-like">Publication date</p>
-                <p>{{ page.date | date: '%b %-d %Y' }}</p>
-            </div>
-            {% endif %}
-            <div class="meta__reading">{% include component-reading.html content=content %}</div>
-            <div>
-                {% if page.tags %}
-                <p class="h4-like">Tagged under</p>
-                <div class="tag">
-                    {% include icons/tag.html %} {% for tag in page.tags %}
-                    <a href="/tags/#{{ tag }}">
-                        <span>#{{ tag }}</span>
-                    </a>
-                    {% endfor %}
+        <div class="meta-wrapper">
+            <aside class="meta">
+                {% if page.date %}
+                <div class="last-updated">
+                    <p class="h2-like">Publication date</p>
+                    <p>{{ page.date | date: '%b %-d %Y' }}</p>
                 </div>
                 {% endif %}
-            </div>
-        </aside>
-
-        {{ content }}
+                <div class="meta__reading">{% include component-reading.html content=content %}</div>
+                <div>
+                    {% if page.tags %}
+                    <p class="h4-like">Tagged under</p>
+                    <div class="tag">
+                        {% include icons/tag.html %} {% for tag in page.tags %}
+                        <a href="/tags/#{{ tag }}">
+                            <span>#{{ tag }}</span>
+                        </a>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
+            </aside>
+        </div>
+        <div class="content">{{ content }}</div>
     </main>
 </main>

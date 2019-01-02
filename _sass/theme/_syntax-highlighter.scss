@@ -5,25 +5,36 @@
     background-color: var(--color-base-medium);
     background-image: url("/assets/images/pattern.svg");
     color: var(--color-base-lightest);
-    margin-left: calc(var(--space-l) * -1);
-    margin-right: calc(var(--space-l) * -1);
+    margin-left: calc(var(--space-m) * -1);
+    margin-right: calc(var(--space-m) * -1);
+    overflow-x: scroll;
     position: relative;
-    width: calc(100% + var(--space-l) * 2);
+    width: calc(100% + var(--space-m) * 2);
+
+    @media (min-width: $mq-s) {
+        margin-left: calc(var(--space-l) * -1);
+        margin-right: calc(var(--space-l) * -1);
+        width: calc(100% + var(--space-l) * 2);
+    }
 
     &:after {
         @include linear-gradient-line-after();
     }
 
     pre {
+        padding-bottom: var(--space-l);
+        padding-left: var(--space-m);
+        padding-right: var(--space-m);
+        padding-top: var(--space-l);
+
         @media (min-width: $mq-l) {
             margin-left: auto;
             margin-right: auto;
             max-width: var(--content-max-width);
-            overflow-x: scroll;
-            padding-bottom: var(--space-l);
+            padding-bottom: var(--space-xl);
             padding-left: var(--space-l);
             padding-right: calc(#{var(--content-max-width)} - #{var(--content-width)});
-            padding-top: var(--space-l);
+            padding-top: var(--space-xl);
             width: 85%;
         }
     }
