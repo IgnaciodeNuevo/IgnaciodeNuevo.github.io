@@ -10,10 +10,11 @@ page_class: post
 
 I know, I know, we are in the middle of February and New Year's Resolutions are not something to talk about now, but I've been quite busy with a big project, (so I couldn't have time to update my WebSite and blog a lot). For me it is time to say what are my New Year's Resolutions and my next step learning Frontend Development is to start learning <a class="link link--special" href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" rel="noopener">JavaScript</a>.
 
-<figure class="">
-    <img src="/assets/images/resource-javascript-for-kids.jpg" alt="JavaScript for Kids (book)">
-    <figcaption>
-        <a class="link link--special" href="#JSBookOne">JavaScript for Kids</a>
+<figure class="picture">
+    <img src="/assets/images/resource-javascript-for-kids.jpg" alt="">
+    <figcaption class="caption">
+        <b title="encima">Encima</b>
+        —<a class="link link--special" href="#JSBookOne">JavaScript for Kids' book</a>
     </figcaption>
 </figure>
 
@@ -38,9 +39,12 @@ Here are the things you'll learn in <a class="link link--special" href="http://w
   <li><a class="link link--special" href="https://d3js.org/" target="_blank" rel="noopener">D3.js</a></li>
 </ul>
 
-<figure class="">
-  <img src="/assets/images/resource-eloquent-javascript.jpg" alt="Eloquent JavaScript (book)">
-  <figcaption><a class="link link--special" href="#JSBookTwo">Eloquent JavaScript</a></figcaption>
+<figure class="picture">
+    <img src="/assets/images/resource-eloquent-javascript.jpg" alt="">
+    <figcaption class="caption">
+        <b title="encima">Encima</b>
+        —<a class="link link--special" href="#JSBookTwo">Eloquent JavaScript's book</a>
+    </figcaption>
 </figure>
 
 I started the Frontend path first, and took me only six days to get to the point where I am now.

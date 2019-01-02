@@ -11,7 +11,14 @@ It was a meeting for independent web creators (everyone from newbies to hackers)
 
 <a class="link link--special" href="http://wecodesignpodcast.com/2016/09/27/web-audio/" target="_blank" rel="noopener">Recording</a> a Podast with <a class="link link--special" href="https://soledadpenades.com" target="_blank" rel="noopener">Soledad Penadés</a> a Mozilla's devrel and then attending the amazing <a class="link link--special" href="https://indieweb.org/2016/Brighton" target="_blank" rel="noopener">IndieWebCamp Brighton 2016</a> has made me feel superpowers. Being surrounded by a community committed to develop the web without being part of social media services (aka. “silos”) where you can't excape their ecosystem and using the open web for social interaction and knowledge sharing was really inspiring.
 
-<img src="/assets/images/post-IWC-Brighton-2016-1.gif" alt="Photo by Julie Anne Noying CC-BY/Flickr">
+
+<figure class="picture">
+    <img src="/assets/images/post-IWC-Brighton-2016-1.gif" alt="">
+    <figcaption class="caption">
+        <b title="encima">Encima</b>
+        —Photo of the Indie Web Camp Brighton 2016's attendees by Julie Anne Noying CC-BY/Flickr
+    </figcaption>
+</figure>
 
 IndieWebCamp Brighton 2016 was held September 24/25 at <a class="link link--special" href="http://68middle.st" target="_blank" rel="noopener">68middle</a> and for me has been a great opportunity to get out of my comfort zone, traveling to the UK and forcing me to speak in <a class="link link--special" href="/2015/11/25/hello-world/">english</a> was a great experience.
 
@@ -23,7 +30,14 @@ After the introduction, we showed our websites and show what we've been working 
 
 I was astonished by the variety topics and software used.
 
-<img src="/assets/images/post-IWC-Brighton-2016-2.jpg" alt="Photo by Julie Anne Noying CC-BY/Flickr">
+
+<figure class="picture">
+    <img src="/assets/images/post-IWC-Brighton-2016-2.jpg" alt="">
+    <figcaption class="caption">
+        <b title="encima">Encima</b>
+        —Photo of the Indie Web Camp Brighton 2016's attendees talking and eating by Julie Anne Noying CC-BY/Flickr
+    </figcaption>
+</figure>
 
 ### Shareing knowledge
 
@@ -47,7 +61,14 @@ At 5:30pm we went to the pub again to keep talking about The Web for two hours a
 
 Now I can say that being part of <a class="link link--special" href="https://indieweb.org/2016/Brighton" target="_blank" rel="noopener">IndieWebCamp Brighton 2016</a> this year has been one of the most inspiring experiences I've ever had.
 
-<img src="/assets/images/post-IWC-Brighton-2016-4.jpg" alt="Photo by Julie Anne Noying CC-BY/Flickr">
+
+<figure class="picture">
+    <img src="/assets/images/post-IWC-Brighton-2016-4.jpg" alt="">
+    <figcaption class="caption">
+        <b title="encima">Encima</b>
+        —Photo of the Indie Web Camp Brighton 2016's attendees all together by Julie Anne Noying CC-BY/Flickr
+    </figcaption>
+</figure>
 
 I also want to say thanks to the organizers. Such an amazing experience, see you next year Brighton!
 

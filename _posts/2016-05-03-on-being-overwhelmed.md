@@ -23,7 +23,13 @@ I've heard before that the web is dead. Native apps are going to rule the future
 
 I don't think so. A fact about the web is that with one and only one link or URL, "EVERYONE" can access a site, no need of updating the app via any App Store and with thanks to progressive enhancement users with old devices can have a fine experience and brand new devices can have the best of the best.
 
-<img src="/assets/images/post-front-end-overwhelmed.png" alt="Web Technologies">
+<figure class="picture">
+    <img src="/assets/images/post-front-end-overwhelmed.png" alt="">
+    <figcaption class="caption">
+        <b title="encima">Encima</b>
+        —Web Technologies
+    </figcaption>
+</figure>
 
 CSS is getting <a class="link link--special" href="http://philipwalton.com/articles/why-im-excited-about-native-css-variables/" target="_blank" rel="noopener">variables</a> like Sass had years ago, long live <a class="link link--special" href="http://postcss.org/" target="_blank" rel="noopener">PostCSS</a>.
 

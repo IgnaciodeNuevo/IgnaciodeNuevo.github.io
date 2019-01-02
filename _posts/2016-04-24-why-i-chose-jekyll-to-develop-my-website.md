@@ -60,9 +60,13 @@ _includes
 
 Furthermore, any time I want to make a change to either, I only have to update it in one place and it’s pushed out to the entire site.
 
-<a class="link link--special" href="/assets/images/post-sublimetext-2--fullscreen.jpg" target="_blank" rel="noopener">
-	<img src="/assets/images/post-sublimetext-2.jpg" alt="Sublime Text Editor">
-</a>
+<figure class="picture">
+    <img src="/assets/images/post-sublimetext-2.jpg" alt="">
+    <figcaption class="caption">
+        <b title="encima">Encima</b>
+        —<a class="link link--special" href="/assets/images/post-sublimetext-2--fullscreen.jpg" target="_blank" rel="noopener">Sublime Text Editor</a>
+    </figcaption>
+</figure>
 
 Of course, dynamic sites have their advantages as well, with no back-end GUI tu manage updates, plugins and for no tech-savvy people would be more difficult to admin the website, write content and push changes to the server.
 
