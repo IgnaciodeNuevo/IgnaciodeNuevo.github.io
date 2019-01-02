@@ -2,6 +2,32 @@
 // This file contains all styles related to the syntax highlighter
 // ----------------------------------------------------------------
 .highlight {
+    background-color: var(--color-base-medium);
+    background-image: url("/assets/images/pattern.svg");
+    color: var(--color-base-lightest);
+    margin-left: calc(var(--space-l) * -1);
+    margin-right: calc(var(--space-l) * -1);
+    position: relative;
+    width: calc(100% + var(--space-l) * 2);
+
+    &:after {
+        @include linear-gradient-line-after();
+    }
+
+    pre {
+        @media (min-width: $mq-l) {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: var(--content-max-width);
+            overflow-x: scroll;
+            padding-bottom: var(--space-l);
+            padding-left: var(--space-l);
+            padding-right: calc(#{var(--content-max-width)} - #{var(--content-width)});
+            padding-top: var(--space-l);
+            width: 85%;
+        }
+    }
+
     .c {
         color: #999988;
         font-style: italic;
@@ -43,12 +69,12 @@
 
     .gd {
         background-color: #ffdddd;
-        color: #000000;
+        color: var(--color-base-lightest);
     }
 
     .gd .x {
         background-color: #ffaaaa;
-        color: #000000;
+        color: var(--color-base-lightest);
     }
 
     .ge {
@@ -65,12 +91,12 @@
 
     .gi {
         background-color: #ddffdd;
-        color: #000000;
+        color: var(--color-base-lightest);
     }
 
     .gi .x {
         background-color: #aaffaa;
-        color: #000000;
+        color: var(--color-base-lightest);
     }
 
     .go {
