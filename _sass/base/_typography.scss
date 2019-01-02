@@ -127,3 +127,26 @@ html:not(.fonts-loaded) .h6-like, {
     letter-spacing: -0.034375em; // -0.55px
     word-spacing: -0.05em; // -0.8px
 }
+
+//
+// 1. Correct the inheritance and scaling of font size in all browsers.
+// 2. Correct the odd `em` font sizing in all browsers.
+//
+code,
+kbd,
+samp {
+    font-family: var(--font-family-code); // 1
+
+    @include body-small(); // 2
+}
+
+//
+// 1. Correct the inheritance and scaling of font size in all browsers.
+// 2. Correct the odd `em` font sizing in all browsers.
+//
+
+pre {
+    font-family: var(--font-family-code); // 1
+
+    @include body-small(); // 2
+}
