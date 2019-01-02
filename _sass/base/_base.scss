@@ -6,7 +6,7 @@
 // Set up a decent box model on the root element
 // 1. Prevent adjustments of font size after orientation changes in iOS.
 //
-html {
+:root {
     box-sizing: border-box;
     color: var(--color-base-dark);
     font-size: 100%; // 16px
@@ -20,37 +20,6 @@ html {
 
     @media (min-width: $mq-xl) {
         font-size: 140%;
-    }
-}
-
-body.is-active .offcanvas {
-    transform: translateX(0);
-}
-
-body.is-active .container {
-    transform: translateX(-100%);
-}
-
-.container {
-    position: relative;
-    z-index: var(--z-index-s);
-
-    @include transition(transform);
-}
-
-.icon {
-    fill: currentColor;
-    // Prevent the icon from shrinking inside a flex container.
-    flex-shrink: 0;
-    height: var(--icon-m);
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-width: 2;
-    width: var(--icon-m);
-
-    &-stroke {
-        fill: none;
-        stroke: currentColor;
     }
 }
 
@@ -69,6 +38,74 @@ body.is-active .container {
 ::selection {
     background-color: var(--color-primary);
     color: var(--color-base-lightest);
+}
+
+body.is-active .offcanvas {
+    transform: translateX(0);
+}
+
+body.is-active .container {
+    transform: translateX(-100%);
+}
+
+//
+// Basic UL and OL styles
+//
+ul,
+ol {
+    list-style-position: inside;
+    padding-left: 0;
+
+    @media (min-width: $mq-l) {
+        list-style-position: outside;
+    }
+}
+
+
+.container {
+    position: relative;
+    z-index: var(--z-index-s);
+
+    @include transition(transform);
+}
+
+.content {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    ul,
+    ol {
+        @media (min-width: $mq-l) {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: var(--content-max-width);
+            padding-right: calc(#{var(--content-max-width)} - #{var(--content-width)});
+            width: 85%;
+        }
+    }
+}
+
+//
+// Basic icon styles
+//
+.icon {
+    fill: currentColor;
+    // Prevent the icon from shrinking inside a flex container.
+    flex-shrink: 0;
+    height: var(--icon-m);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2;
+    width: var(--icon-m);
+
+    &-stroke {
+        fill: none;
+        stroke: currentColor;
+    }
 }
 
 //
