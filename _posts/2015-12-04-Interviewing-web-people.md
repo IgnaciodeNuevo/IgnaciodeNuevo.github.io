@@ -13,7 +13,7 @@ So first things first, lets practice our speaking skills and in a few months we 
 
 
 <blockquote class="quote">
-    <p>I really am not that comfortable with my public image and speaking, especially in English, is hard. It might not look like it, but it is.</p>
+    <span>I really am not that comfortable with my public image and speaking, especially in English, is hard. It might not look like it, but it is.</span>
     <cite>Anonymous Developer</cite>
 </blockquote>
 
@@ -23,13 +23,13 @@ I only follow people I admire their work, what they are doing in our industry or
 
 I started sending a few emails to some of the developers I follow on this <a class="link link--special" href="{{ site.twitter }}/lists/web-development" target="_blank" rel="noopener">Twitter's list</a> and first I thought, why if most of them do not know who I am are going to answer my emails and we do not talk of accepting my interview, I thought that because we only feel like this kind of people are so busy that when they recive an email like mine requesting an interview by someone they do not know will be instant deleted.
 
-Note I was trying to send emails as many people I can because I thought none will respond this and by copy/pasting my first few emails I made a mistake, I copy/pasted the email I sent to someone I met in Madrid in the Google HQ where he gave a talk and made me feel terribly stupid. So I sent to everyone I sent this an apology email.
-
 <blockquote class="quote">
-    <p>I am so sorry about this email, I was writing to XXXXX XXXXX and I literally pasted the email that just send him, because I am sending some emails about this. I want to say sorry.</p>
-    <p>I still want to interview you.</p>
-    <cite>Ignacio Villanueva</cite>
+    <span>I am so sorry about this email, I was writing to XXXXX XXXXX and I literally pasted the email that just send him, because I am sending some emails about this. I want to say sorry.</span>
+    <span>I still want to interview you.</span>
+    <cite>-Ignacio Villanueva</cite>
 </blockquote>
+
+Note I was trying to send emails as many people I can because I thought none will respond this and by copy/pasting my first few emails I made a mistake, I copy/pasted the email I sent to someone I met in Madrid in the Google HQ where he gave a talk and made me feel terribly stupid. So I sent to everyone I sent this an apology email.
 
 After researching what kind of questions should I make I have made a list of approximately forty questions that were obviously too many so I reduced them to only fifteen wich will be the same for every interviewee. You will notice how different answers and how many aproaches could be:
 

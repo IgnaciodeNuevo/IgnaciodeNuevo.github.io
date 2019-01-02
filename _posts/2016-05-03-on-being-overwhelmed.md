@@ -42,7 +42,7 @@ Oh and jQuery, are you using jQuery right now? It is dead my friend.
 Finally are you using Angular 1.0? Oh, today I've read Angular 2.0 has become draft recommendation, shouldn’t you be using React by Facebook?
 
 <blockquote class="quote">
-    <p>Whenever a new framework, tool or technique comes out, I hear more groans than celebrations.</p>
+    <span>Whenever a new framework, tool or technique comes out, I hear more groans than celebrations.</span>
     <cite>Wes Bos</cite>
 </blockquote>
 
@@ -57,7 +57,7 @@ It is known that Africa and India are going to join the web, but there is no goo
 Working on the web means that things change quickly. A need to readapt yourself every couple of months and keep learning, and learning fast. If not you are a dead developer.
 
 <blockquote class="quote">
-    <p>We will always see innovation, people pushing the envelope on both what is possible and the best way to get things done.</p>
+    <span>We will always see innovation, people pushing the envelope on both what is possible and the best way to get things done.</span>
     <cite>Wes Bos</cite>
 </blockquote>
 
