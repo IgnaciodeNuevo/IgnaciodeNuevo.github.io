@@ -50,7 +50,7 @@ After ending the course, I felt like I could do everything and be what ever I wa
 
 I had the pleasure to have <a class="link link--special" href="http://eduardofierro.pro/index.php" target="_blank" rel="noopener">Eduardo Fierro</a> as Web Development teacher, he is the kind of teacher who manages to give the best of you and his greatest virtue, is his ability to motivate the student.
 
-<blockquote class="">
+<blockquote class="quote">
     <p>He is a great professional who besides of being effective is resposible and I work with him in some freelance projects. I would recommend him without delay.</p>
     <cite>Eduardo Fierro, <a class="link link--special" href="http://www.trazos.net" target="_blank" rel="noopener">Trazos</a></cite>
 </blockquote>

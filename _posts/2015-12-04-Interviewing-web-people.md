@@ -12,7 +12,7 @@ Today is a very exciting day, a really one. I talked with a friend of mine to do
 So first things first, lets practice our speaking skills and in a few months we will be ready to make this possible and now, because I follow some of the most amazing people in our industry, I am starting to interview them and because I know my speaking skills are not so good by a written interview.
 
 
-<blockquote class="">
+<blockquote class="quote">
     <p>I really am not that comfortable with my public image and speaking, especially in English, is hard. It might not look like it, but it is.</p>
     <cite>Anonymous Developer</cite>
 </blockquote>
@@ -25,7 +25,7 @@ I started sending a few emails to some of the developers I follow on this <a cla
 
 Note I was trying to send emails as many people I can because I thought none will respond this and by copy/pasting my first few emails I made a mistake, I copy/pasted the email I sent to someone I met in Madrid in the Google HQ where he gave a talk and made me feel terribly stupid. So I sent to everyone I sent this an apology email.
 
-<blockquote class="">
+<blockquote class="quote">
     <p>I am so sorry about this email, I was writing to XXXXX XXXXX and I literally pasted the email that just send him, because I am sending some emails about this. I want to say sorry.</p>
     <p>I still want to interview you.</p>
     <cite>Ignacio Villanueva</cite>

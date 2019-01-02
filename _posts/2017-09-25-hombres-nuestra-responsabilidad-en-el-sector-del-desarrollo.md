@@ -39,7 +39,7 @@ Aunque parezca mentira creo que podemos hacer pequeños gestos en nuestro día a
 
 Por desgracia algunos compañeros, amigos, familiares y conocidos (hombres), no todos son así por supuesto, solamente hacen caso a otros hombres cuando se les dicen según que cosas.
 
-<blockquote class="" >La verdad que me resulta muy complicado pensar como plantear las siguientes situaciones y espero no ofender a nadie, que si se diese el caso ruego me escribáis a <a class="link link--special" href="mailto:{{ site.email }}" target="_blank" rel="noopener">{{ site.email }}</a> para hacérmelo saber.
+<blockquote class="quote" >La verdad que me resulta muy complicado pensar como plantear las siguientes situaciones y espero no ofender a nadie, que si se diese el caso ruego me escribáis a <a class="link link--special" href="mailto:{{ site.email }}" target="_blank" rel="noopener">{{ site.email }}</a> para hacérmelo saber.
 </blockquote>
 
 ## Charlando sobre diversidad y discriminación con amigas y conocidas

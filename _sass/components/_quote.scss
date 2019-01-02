@@ -18,6 +18,12 @@
         width: 50%;
     }
 
+    &::after {
+        clear: both;
+        content: "";
+        display: table;
+    }
+
     &:hover {
         background-color: var(--color-base-lightest);
     }
