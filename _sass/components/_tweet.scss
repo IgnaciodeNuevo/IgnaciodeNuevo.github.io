@@ -1,0 +1,14 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the .tweet component of the website.
+// -----------------------------------------------------------------------------
+.tweet {
+    background-color: var(--color-base-lightest);
+    border-radius: var(--border-radius-xxs);
+    cursor: pointer;
+    overflow: hidden;
+
+    .link {
+        display: block;
+        padding: var(--space-l);
+    }
+}

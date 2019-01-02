@@ -99,7 +99,11 @@ Fue super entretenido contar todos los entresijos, incluso hicimos un pequeño s
 
 ### Automatización con Bash y Gulp
 
-La charla que más esperaba por sus posibilidades técnicas era la de <a class="link link--special" href="https://twitter.com/jorgeatgu" target="_blank" rel="noopener">Jorge</a> sobre automatización de tareas con Bash. Nos dejó <a class="link link--special" href="https://twitter.com/jorgeATGU/status/906542557362081792" target="_blank" rel="noopener">una recopilación en Twitter</a> de los enlaces de la charla.
+La charla que más esperaba por sus posibilidades técnicas era la de <a class="link link--special" href="https://twitter.com/jorgeatgu" target="_blank" rel="noopener">Jorge</a> sobre automatización de tareas con Bash.
+
+<p class="tweet" lang="es">
+    <a class="link" href="https://twitter.com/jorgeATGU/status/906542557362081792" target="_blank" rel="noopener">Tweet: ⚡️ @jorgeATGU: Enlaces de la charla de automatización con bash y gulp.</a>
+</p>
 
 La verdad es que tengo que meterme a fondo con el tema. Vistas las posibilidades que ofrece creo que se puede mejorar enormemente la pructividad, algo que nos encanta a los/as desarrolladores/as. Terminó <a class="link link--special" href="https://twitter.com/viroide" target="_blank" rel="noopener">Jon (Viroide)</a> contándonos algunos truquis sobre bash.
 
