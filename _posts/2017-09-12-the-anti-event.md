@@ -149,9 +149,13 @@ Para finalizar el evento, en grupos estuvimos viendo un punto negativo a mejorar
 
 Creo que hubo gran diversidad, sin duda es el evento al que más mujeres han asistido de en cuantos he participado y eso demuestra que espacios donde todos/as somos iguales y nadie es disriminado atrae a mayor diveridad de personas.
 
-<iframe width="100%" height="450px" src="https://www.youtube.com/embed/pGaKf1bekO0" frameborder="0" allowfullscreen></iframe>
+<p>
+    <iframe width="100%" height="450px" src="https://www.youtube.com/embed/pGaKf1bekO0" frameborder="0" allowfullscreen></iframe>
+</p>
 
-<iframe src="https://player.vimeo.com/video/233208532" width="100%" height="450px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p>
+    <iframe src="https://player.vimeo.com/video/233208532" width="100%" height="450px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</p>
 
 Para acabar fuimos 34 de los 50 asistentes de cena y luego a tomar algo. Nos íbamos a ir pronto a dormir pero esto que te vas despidiendo de gente y llegas a las 4:30 al Airbnb.
 
