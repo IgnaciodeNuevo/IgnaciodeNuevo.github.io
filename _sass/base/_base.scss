@@ -102,6 +102,84 @@ ol {
             width: 85%;
         }
     }
+
+    .picture + h1,
+    .picture + .h1-like1,
+    iframe + h1,
+    iframe + .h1-like,
+    ul + h1,
+    ul + .h1-like,
+    ol + h1,
+    ol + .h1-like,
+    p + h1,
+    p + .h1-like {
+        margin-top: 1.67em; // 0.67em + 1em (To hace more space above than below the heading)
+    }
+
+    .picture + h2,
+    .picture + .h2-like,
+    iframe + h2,
+    iframe + .h2-like,
+    ul + h2,
+    ul + .h2-like,
+    ol + h2,
+    ol + .h2-like,
+    p + h2,
+    p + .h2-like {
+        margin-top: 1.83em; // 0.83em + 1em (To hace more space above than below the heading)
+    }
+
+    .picture + h3,
+    .picture + .h3-like,
+    iframe + h3,
+    iframe + .h3-like,
+    ul + h3,
+    ul + .h3-like,
+    ol + h3,
+    ol + .h3-like,
+    p + h3,
+    p + .h3-like {
+        margin-top: 2em; // 1em + 1em (To hace more space above than below the heading)
+    }
+
+    .picture + h4,
+    .picture + .h4-like,
+    iframe + h4,
+    iframe + .h4-like,
+    ul + h4,
+    ul + .h4-like,
+    ol + h4,
+    ol + .h4-like,
+    p + h4,
+    p + .h4-like {
+        margin-top: 2.33em; // 1.33em + 1em (To hace more space above than below the heading)
+    }
+
+    .picture + h5,
+    .picture + .h5-like1,
+    iframe + h5,
+    iframe + .h5-like,
+    ul + h5,
+    ul + .h5-like,
+    ol + h5,
+    ol + .h5-like,
+    p + h5,
+    p + .h5-like {
+        margin-top: 2.67em; // 1.67em + 1em (To hace more space above than below the heading)
+    }
+
+    .picture + h6,
+    .picture + .h6-like,
+    iframe + h6,
+    iframe + .h6-like,
+    ul + h6,
+    ul + .h6-like,
+    ol + h6,
+    ol + .h6-like,
+    p + h6,
+    p + .h6-like {
+        margin-top: 3.33em; // 2.33em + 1em (To hace more space above than below the heading)
+    }
 }
 
 //
