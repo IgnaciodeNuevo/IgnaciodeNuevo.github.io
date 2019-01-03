@@ -26,9 +26,9 @@ When I can, I try to invest my in <a class="link link--special" href="{{ site.gi
                             {% include icons/external.html %}
                         </a>
                         {% if project.case_study %}
-                            <a class="btn btn--fill" href="{{ project.url }}" target="_blank" rel="noopener">
+                            <a class="btn btn--fill" href="/projects/{{ project.case_study }}">
                                 <span class="btn__text">Case Study</span>
-                                {% include icons/external.html %}
+                                {% include icons/arrow-enter.html %}
                             </a>
                         {% endif %}
                     </div>
