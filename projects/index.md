@@ -1,30 +1,32 @@
 ---
-layout: default
+layout: list
 title: 'Projects'
 excerpt: 'A list of all my open-sourced projects, all hosted on GitHub. Fair warning: some of them are not maintained
 anymore.'
 ---
 
+<h1>Development Projects</h1>
 
-<div class="">
-    <img src="/assets/images/section-projects.jpg" alt="Photography by Negative Space" />
-    <h1 class="">Development Projects</h1>
-</div>
+When I can, I try to invest my in <a class="link link--special" href="{{ site.github }}">open-source projects</a>. Here are a few of them I initiated myself:
 
-When I can, I try to invest a lot of time in open-source projects. Here are a few of them I initiated myself:
-
-<ul class="">
+<section class="articles-list">
     {% for project in site.data.projects %}
-    <li class="">
-        <a class="" href="/projects/{{ project.url }}">
-            <h3 class="">{{ project.name }}</h3>
-            <time class="" datetime="{{ project.date }}">{{ project.date | date: "%b %-d %Y" }} }}</time>
-            <p class="">{{ project.description }}</p>
-            <img class="" src="/assets/images/logo-WCD.svg" alt="{{ project.name }} Image" />
-        </a>
-        <p class="">
-            <a href="{{ project.web }}" target="_blank">{{ project.name }}'s Web</a>
-        </p>
-    </li>
+    {% if page.lang %}
+            <article class="article" lang="{{ page.lang }}">
+        {% else %}
+            <article class="article" lang="en">
+        {% endif %}
+                <div class="article__item">
+                    <time class="article__time" datetime="{{ project.date }}">{{ project.date | date: "%b %-d %Y"}}</time>
+                    <h2 class="article__subtitle">{{ project.name }}</h2>
+                    <p class="article__description">{{ project.description }}</p>
+                    <div class="article__links">
+                        <a class="btn btn--fill" href="{{ project.web }}" target="_blank" rel="noopener">
+                            <span class="btn__text">Web</span>
+                            {% include icons/external.html %}
+                        </a>
+                    </div>
+                </div>
+            </article>
     {% endfor %}
-</ul>
+</section>
