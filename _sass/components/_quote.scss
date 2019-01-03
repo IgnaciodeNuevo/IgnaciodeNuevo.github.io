@@ -3,7 +3,7 @@
 // ------------------------------------------------------------------
 .quote {
     background-color: var(--color-background-lightest);
-    border-left: var(--border-width-xxs) solid var(--color-primary);
+    border-left: var(--size-xs) solid var(--color-primary);
     color: var(--color-primary);
     font-family: var(--font-family-title);
     margin-left: 0;
@@ -14,7 +14,7 @@
 
     @media (min-width: $mq-l) {
         border-left: initial;
-        border-right: var(--border-width-xxs) solid var(--color-primary);
+        border-right: var(--size-xs) solid var(--color-primary);
         float: right;
         margin-left: var(--space-xl);
         margin-right: var(--space-xl);
