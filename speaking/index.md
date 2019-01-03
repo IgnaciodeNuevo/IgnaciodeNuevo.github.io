@@ -29,6 +29,12 @@ It does not happen that often! Here are the talks I've given and slides.
                                 {% include icons/external.html %}
                             </a>
                         {% endif %}
+                        {% if talk.workshop %}
+                            <a class="btn btn--fill" href="{{ talk.workshop }}" target="_blank" rel="noopener">
+                                <span class="btn__text">Workshop</span>
+                                {% include icons/external.html %}
+                            </a>
+                        {% endif %}
                         {% if talk.codepen %}
                             <a class="btn btn--fill" href="{{ talk.codepen }}" target="_blank" rel="noopener">
                                 <span class="btn__text">Codepen</span>
