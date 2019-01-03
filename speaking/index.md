@@ -1,45 +1,42 @@
 ---
-layout: default
+layout: list
 title: "Speaking"
 ---
 
-<div class="">
-    <img src="/assets/images/section-speaking.jpg" alt="Photography by Jeremy Yap" />
-    <h1 class="">Speaking</h1>
-</div>
+<h1>Speaking</h1>
 
 It does not happen that often! Here are the talks I've given and slides.
 
-<ul class="">
+<section class="articles-list">
     {% for talk in site.data.speaking %}
-        <li class="">
-            <article class="">
-                <h3 class="">{{ talk.name }}</h3>
-                <time class="">{{ talk.date }}</time>
-                <p class="">{{ talk.description }}</p>
-                <p class="">
-                    <a href="/speaking/{{ talk.url }}" target="_blank">
-                        Slides
-                        {% include icons/external.html %}
-                    </a>
-                </p>
-                {% if talk.video %}
-                    <p class="">
-                        <a href="{{ talk.video }}" target="_blank">
-                            Video
+        {% if page.lang %}
+            <article class="article" lang="{{ page.lang }}">
+        {% else %}
+            <article class="article" lang="en">
+        {% endif %}
+                <div class="article__item">
+                    <time class="article__time" datetime="{{ page.date }}">{{ talk.date | date: "%b %-d %Y"}}</time>
+                    <h2 class="article__subtitle">{{ talk.name }}</h2>
+                    <p class="article__description">{{ talk.description }}</p>
+                    <div class="article__links">
+                        <a class="btn btn--fill" href="/speaking/{{ talk.url }}">
+                            <span class="btn__text">Slides</span>
                             {% include icons/external.html %}
                         </a>
-                    </p>
-                {% endif %}
-                {% if talk.codepen %}
-                    <p class="">
-                        <a href="{{ talk.codepen }}" target="_blank">
-                            Codepen
-                            {% include icons/external.html %}
-                        </a>
-                    </p>
-                {% endif %}
+                        {% if talk.video %}
+                            <a class="btn btn--fill" href="{{ talk.video }}" target="_blank" rel="noopener">
+                                <span class="btn__text">Video</span>
+                                {% include icons/external.html %}
+                            </a>
+                        {% endif %}
+                        {% if talk.codepen %}
+                            <a class="btn btn--fill" href="{{ talk.codepen }}" target="_blank" rel="noopener">
+                                <span class="btn__text">Codepen</span>
+                                {% include icons/external.html %}
+                            </a>
+                        {% endif %}
+                    </div>
+                </div>
             </article>
-        </li>
     {% endfor %}
-</ul>
+</section>

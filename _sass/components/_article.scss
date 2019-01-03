@@ -24,7 +24,7 @@
         }
     }
 
-    &__link {
+    &__item {
         display: block;
         padding-bottom: var(--space-m);
         padding-left: var(--space-xs);
@@ -43,7 +43,8 @@
                 color: var(--color-secondary);
             }
 
-            .tag {
+            .tag,
+            .article__description {
                 color: var(--color-base-lightest);
             }
         }
@@ -63,5 +64,15 @@
         margin-bottom: var(--space-xs);
 
         @include body-text();
+    }
+
+    &__description {
+        @include body-small();
+    }
+
+    .btn--fill:hover {
+        background-color: var(--color-base-lightest);
+        border: 2px solid var(--color-base-lightest); // Magic String: Do not change/remove
+        color: var(--color-base-dark);
     }
 }
