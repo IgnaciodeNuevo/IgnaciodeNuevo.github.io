@@ -5,10 +5,15 @@
     background-color: var(--color-base-lightest);
     border-radius: var(--border-radius-xxs);
     margin-bottom: var(--space-l);
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
+    margin-right: 0;
     margin-top: 0;
     max-width: var(--content-max-width);
     padding: var(--space-l);
-    width: 85%;
+
+    @media (min-width: $mq-l) {
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+    }
 }

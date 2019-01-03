@@ -4,6 +4,8 @@
 .quote {
     background-color: var(--color-background-lightest);
     border-left: var(--border-width-xxs) solid var(--color-primary);
+    color: var(--color-primary);
+    font-family: var(--font-family-title);
     padding: var(--space-l);
 
     @include transition(background-color);
@@ -31,5 +33,12 @@
     span {
         display: block;
         margin-bottom: 1em;
+    }
+
+    cite {
+        color: var(--color-base-dark);
+        font-family: var(--font-family-body-regular);
+
+        @include caption();
     }
 }
