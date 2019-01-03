@@ -1,11 +1,10 @@
 - name: WeCodeSign Podcast
   description: "The Design and Development Podcast in Spanish by Ignacio Villanueva and Carmen Ansio."
   date: 2016-06-01T00:00:00+0200
-  url: project-wecodesign/
   web: http://wecodesignpodcast.com
+  case_study: project-wecodesign/
 
 - name: Web Developer's Interviews
   description: "It does not happen that often, but sometimes I have the pleasure to interview some of the most amazing web developers arround the globe!"
   date: 2015-12-05T00:00:00+0200
-  url: interviews/
   web: interviews/

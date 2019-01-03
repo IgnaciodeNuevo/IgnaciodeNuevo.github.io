@@ -11,7 +11,7 @@ When I can, I try to invest my in <a class="link link--special" href="{{ site.gi
 
 <section class="articles-list">
     {% for project in site.data.projects %}
-    {% if page.lang %}
+        {% if page.lang %}
             <article class="article" lang="{{ page.lang }}">
         {% else %}
             <article class="article" lang="en">
@@ -25,6 +25,12 @@ When I can, I try to invest my in <a class="link link--special" href="{{ site.gi
                             <span class="btn__text">Web</span>
                             {% include icons/external.html %}
                         </a>
+                        {% if project.case_study %}
+                            <a class="btn btn--fill" href="{{ project.url }}" target="_blank" rel="noopener">
+                                <span class="btn__text">Case Study</span>
+                                {% include icons/external.html %}
+                            </a>
+                        {% endif %}
                     </div>
                 </div>
             </article>
