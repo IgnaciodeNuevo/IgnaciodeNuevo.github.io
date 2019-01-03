@@ -2,18 +2,6 @@
 // This file contains all styles related to the blog post page.
 // ----------------------------------------------------------------
 .post {
-    .meta + p::first-letter {
-        background-color: var(--color-primary);
-        background-image: var(--linear-gradient);
-        color: var(--color-base-lightest);
-        float: left;
-        font-family: var(--font-family-title);
-        font-size: 3em; // TODO: Review in small screens
-        margin-right: var(--space-s);
-        margin-top: var(--space-xs);
-        padding: var(--space-m);
-    }
-
     img {
         max-width: 100%;
     }
@@ -22,4 +10,16 @@
         background-color: var(--color-base-lightest);
         border-radius: var(--border-radius-xxs);
     }
+}
+
+.meta-wrapper + .content p:first-child::first-letter {
+    background-color: var(--color-primary);
+    background-image: var(--linear-gradient);
+    color: var(--color-base-lightest);
+    float: left;
+    font-family: var(--font-family-title);
+    font-size: 3em; // TODO: Review in small screens
+    margin-right: var(--space-s);
+    margin-top: var(--space-xs);
+    padding: var(--space-m);
 }
