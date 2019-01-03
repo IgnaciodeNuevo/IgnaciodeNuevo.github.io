@@ -21,7 +21,7 @@
     font-size: 2em; // TODO: Review in small screens
     margin-right: var(--space-xs);
     margin-top: var(--space-xxs);
-    padding: var(--space-s);
+    padding: var(--space-s) var(--space-m);
 
     @media (min-width: $mq-l) {
         font-size: 3em; // TODO: Review in small screens
