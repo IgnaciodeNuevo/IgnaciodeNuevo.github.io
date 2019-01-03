@@ -6,6 +6,8 @@
     border-left: var(--border-width-xxs) solid var(--color-primary);
     color: var(--color-primary);
     font-family: var(--font-family-title);
+    margin-left: 0;
+    margin-right: 0;
     padding: var(--space-l);
 
     @include transition(background-color);
