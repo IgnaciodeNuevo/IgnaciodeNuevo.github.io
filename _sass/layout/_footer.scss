@@ -55,7 +55,7 @@
         }
 
         @media (min-width: $mq-xs) {
-            width: 30%;
+            width: 30%; // See 70% below
         }
     }
 
@@ -64,7 +64,7 @@
         margin-top: var(--space-l);
 
         @media (min-width: $mq-xs) {
-            width: 70%;
+            width: 70%; // See 30% above
         }
     }
 
