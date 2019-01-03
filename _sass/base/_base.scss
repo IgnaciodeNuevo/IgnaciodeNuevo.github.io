@@ -225,7 +225,7 @@ ol {
     color: var(--color-primary);
     display: flex;
     font-family: var(--font-family-body-regular);
-    font-size: ms(-1); // Same as @mixin body-small() but cant use due to margin-bottom: 0
+    font-size: ms(-1); // Same as @mixin body-small(). Do not change/move
     margin-bottom: 0;
     margin-top: var(--space-l);
     max-width: 80%;
