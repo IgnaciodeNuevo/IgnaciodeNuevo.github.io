@@ -8,5 +8,8 @@
     margin-right: auto;
     max-width: var(--content-max-width);
     padding: var(--space-l);
-    width: 85%;
+
+    @media (min-width: $mq-l) {
+        width: 85%;
+    }
 }
