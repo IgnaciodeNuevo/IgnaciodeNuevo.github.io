@@ -113,7 +113,7 @@ ol {
     ol + .h1-like,
     p + h1,
     p + .h1-like {
-        margin-top: 1.67em; // 0.67em + 1em (To hace more space above than below the heading)
+        margin-top: 1.17em; // 0.67em + 0.5em (To hace more space above than below the heading)
     }
 
     .picture + h2,
@@ -126,7 +126,7 @@ ol {
     ol + .h2-like,
     p + h2,
     p + .h2-like {
-        margin-top: 1.83em; // 0.83em + 1em (To hace more space above than below the heading)
+        margin-top: 1.33em; // 0.83em + 0.5em (To hace more space above than below the heading)
     }
 
     .picture + h3,
@@ -139,7 +139,7 @@ ol {
     ol + .h3-like,
     p + h3,
     p + .h3-like {
-        margin-top: 2em; // 1em + 1em (To hace more space above than below the heading)
+        margin-top: 1.5em; // 1em + 0.5em (To hace more space above than below the heading)
     }
 
     .picture + h4,
@@ -152,7 +152,7 @@ ol {
     ol + .h4-like,
     p + h4,
     p + .h4-like {
-        margin-top: 2.33em; // 1.33em + 1em (To hace more space above than below the heading)
+        margin-top: 1.83em; // 1.33em + 0.5em (To hace more space above than below the heading)
     }
 
     .picture + h5,
@@ -165,7 +165,7 @@ ol {
     ol + .h5-like,
     p + h5,
     p + .h5-like {
-        margin-top: 2.67em; // 1.67em + 1em (To hace more space above than below the heading)
+        margin-top: 2.17em; // 1.67em + 0.5em (To hace more space above than below the heading)
     }
 
     .picture + h6,
@@ -178,7 +178,7 @@ ol {
     ol + .h6-like,
     p + h6,
     p + .h6-like {
-        margin-top: 3.33em; // 2.33em + 1em (To hace more space above than below the heading)
+        margin-top: 2.83em; // 2.33em + 0.5em (To hace more space above than below the heading)
     }
 }
 
