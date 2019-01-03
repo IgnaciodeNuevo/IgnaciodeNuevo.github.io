@@ -58,6 +58,12 @@
         @include body-small();
     }
 
+    &__data {
+        align-items: center;
+        display: flex;
+        margin-bottom: var(--space-s);
+    }
+
     &__subtitle {
         color: var(--color-primary);
         margin-bottom: 0;
@@ -67,7 +73,13 @@
     }
 
     &__description {
+        margin-bottom: 0;
+
         @include body-small();
+    }
+
+    .portrait {
+        margin-right: var(--space-s);
     }
 
     .btn--fill:hover {

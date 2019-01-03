@@ -12,25 +12,31 @@ Many will realize that I haven't interviewed any woman but as far as I have trie
 
 <section class="articles-list">
     {% for interview in site.data.interviews %}
-        <li class="">
-            <a class="" href="/interviews/{{ interview.interview_url }}">
-                <h3 class="">{{ interview.name }}</h3>
-                <time class="" datetime="{{ interview.date }}">{{ interview.date | date: "%b %-d %Y" }}</time>
-                <p class="">{{ interview.excerpt }}</p>
-                    <img class="" src="{{ interview.image_url }}" alt="{{ interview.interview }} Photography"/>
-            </a>
-            <p class="">
-                <svg style="width:15px;height:15px; margin-right: 3px;" xmlns="http://www.w3.org/2000/svg" viewBox="-187 61.7 24 24">
-                    <path fill="#0047BB" d="M-172.3 61.7v2.7h4.8l-13.1 13.1 1.9 1.9 13.1-13.1v4.8h2.7v-9.3m-2.8 21.3h-18.7V64.4h9.3v-2.7h-9.3c-1.5 0-2.7 1.2-2.7 2.7v18.7c0 1.5 1.2 2.7 2.7 2.7h18.7c1.5 0 2.7-1.2 2.7-2.7v-9.3h-2.7v9.3z"/>
-                </svg>
-                <a href="{{ interview.interview_web }}" target="_blank">{{ interview.name }}'s Web</a>
-            </p>
-            <p class="">
-                <svg style="width:15px;height:15px; margin-right: 3px;" xmlns="http://www.w3.org/2000/svg" viewBox="-187 61.7 24 24">
-                    <path fill="#0047BB" d="M-172.3 61.7v2.7h4.8l-13.1 13.1 1.9 1.9 13.1-13.1v4.8h2.7v-9.3m-2.8 21.3h-18.7V64.4h9.3v-2.7h-9.3c-1.5 0-2.7 1.2-2.7 2.7v18.7c0 1.5 1.2 2.7 2.7 2.7h18.7c1.5 0 2.7-1.2 2.7-2.7v-9.3h-2.7v9.3z"/>
-                </svg>
-                <a href="{{ interview.interview_twitter }}" target="_blank">{{ interview.name }}'s Twitter</a>
-            </p>
-        </li>
+        {% if page.lang %}
+                <article class="article" lang="{{ page.lang }}">
+            {% else %}
+                <article class="article" lang="en">
+            {% endif %}
+                    <div class="article__item">
+                        <time class="article__time" datetime="{{ interview.date }}">{{ interview.date | date: "%b %-d %Y"}}</time>
+                        <div class="article__data">
+                            <img class="portrait" src="{{ interview.portrait }}" />
+                            <div>
+                                <h2 class="article__subtitle">{{ interview.name }}</h2>
+                                <p class="article__description">{{ interview.excerpt }}</p>
+                            </div>
+                        </div>
+                        <div class="article__links">
+                            <a class="btn btn--fill" href="/projects/interviews/{{ interview.url }}">
+                                <span class="btn__text">Interview</span>
+                                {% include icons/arrow-enter.html %}
+                            </a>
+                            <a class="btn btn--fill" href="{{ interview.twitter }}" target="_blank" rel="noopener">
+                                <span class="btn__text">Twitter</span>
+                                {% include icons/twitter.html %}
+                            </a>
+                        </div>
+                    </div>
+                </article>
     {% endfor %}
 </section>

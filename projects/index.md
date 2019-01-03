@@ -27,7 +27,7 @@ When I can, I try to invest my in <a class="link link--special" href="{{ site.gi
                                 {% include icons/external.html %}
                             </a>
                         {% else %}
-                            <a class="btn btn--fill" href="{{ project.web }}" target="_blank" rel="noopener">
+                            <a class="btn btn--fill" href="{{ project.web }}">
                                 <span class="btn__text">Web</span>
                                 {% include icons/arrow-enter.html %}
                             </a>

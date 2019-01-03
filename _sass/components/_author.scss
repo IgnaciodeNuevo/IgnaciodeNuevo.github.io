@@ -39,19 +39,15 @@
         text-transform: lowercase;
     }
 
-    &__portrait {
-        border-radius: 50%;
-        display: block;
-        height: var(--size-xl);
-        margin-bottom: var(--space-s);
-        margin-left: auto;
-        margin-right: var(--space-m);
-        margin-right: auto;
-        width: var(--size-xl);
-    }
-
     &__follow {
         margin-bottom: 0;
         text-align: center;
+    }
+
+    .portrait {
+        display: block;
+        margin-bottom: var(--space-s);
+        margin-left: auto;
+        margin-right: auto;
     }
 }
