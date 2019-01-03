@@ -21,7 +21,10 @@
     font-size: 2em; // Magic String: Do not change/remove
     margin-right: var(--space-s);
     margin-top: var(--space-s);
-    padding: var(--space-s);
+    padding-top: var(--space-s);
+    padding-bottom: var(--space-s);
+    padding-right: var(--space-m);
+    padding-left: var(--space-m);
 
     @media (min-width: $mq-l) {
         font-size: 3em; // Magic String: Do not change/remove
