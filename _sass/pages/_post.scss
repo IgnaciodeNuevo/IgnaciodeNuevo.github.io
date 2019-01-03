@@ -26,5 +26,6 @@
     @media (min-width: $mq-l) {
         font-size: 3em; // Magic String: Do not change/remove
         padding: var(--space-m);
+        margin-bottom: -2px;
     }
 }
