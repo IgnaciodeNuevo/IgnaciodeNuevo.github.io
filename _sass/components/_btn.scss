@@ -21,7 +21,7 @@
     }
 
     &:focus {
-        border: 2px dotted var(--color-secondary);
+        border: 2px dotted var(--color-secondary); // Magic String: Do not change/remove
         outline: 0;
     }
 
@@ -32,7 +32,7 @@
 
 .btn--regular {
     background-color: transparent;
-    border: 2px solid currentColor;
+    border: 2px solid currentColor; // Magic String: Do not change/remove
     color: currentColor;
 
     &:active,
@@ -53,12 +53,12 @@
 
 .btn--fill {
     background-color: var(--color-primary);
-    border: 2px solid var(--color-primary);
+    border: 2px solid var(--color-primary); // Magic String: Do not change/remove
     color: var(--color-base-lightest);
 
     &:hover {
         background-color: var(--color-primary-darker);
-        border: 2px solid var(--color-primary-darker);
+        border: 2px solid var(--color-primary-darker); // Magic String: Do not change/remove
         color: var(--color-base-lightest);
     }
 
@@ -79,12 +79,12 @@
 
 .btn--ghost {
     background-color: transparent;
-    border: 2px solid currentColor;
+    border: 2px solid currentColor; // Magic String: Do not change/remove
     color: var(--color-base-lightest);
     opacity: 0.5;
 
     &:hover {
-        border: 2px solid var(--color-base-lightest);
+        border: 2px solid var(--color-base-lightest); // Magic String: Do not change/remove
         opacity: 1;
     }
 
@@ -101,7 +101,7 @@
 
 .btn--inverted {
     background-color: transparent;
-    border: 2px solid currentColor;
+    border: 2px solid currentColor; // Magic String: Do not change/remove
     color: var(--color-base-dark);
     padding: var(--space-s);
 

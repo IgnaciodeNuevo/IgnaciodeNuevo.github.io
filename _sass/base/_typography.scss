@@ -102,15 +102,15 @@ html.fonts-loaded .h6-like {
 html:not(.fonts-loaded) {
     font-family: var(--font-family-body-regular);
     font-weight: var(--font-weight-normal);
-    letter-spacing: -0.009375em; // -0.15px
-    word-spacing: -0.04375em; // -0.7px
+    letter-spacing: -0.009375em; // -0.15px, Magic String: Do not change/remove
+    word-spacing: -0.04375em; // -0.7px, Magic String: Do not change/remove
 }
 
 // Heading h1 (not loaded) fallback tweaks
 html:not(.fonts-loaded) h1,
 html:not(.fonts-loaded) .h1-like, {
-    letter-spacing: -0.040625em; // -0.65px
-    word-spacing: -0.04375em; // -0.7px
+    letter-spacing: -0.040625em; // -0.65px, Magic String: Do not change/remove
+    word-spacing: -0.04375em; // -0.7px, Magic String: Do not change/remove
 }
 
 // Headings h2-h6 (not loaded) fallback tweaks
@@ -124,8 +124,8 @@ html:not(.fonts-loaded) h5,
 html:not(.fonts-loaded) .h5-like,
 html:not(.fonts-loaded) h6,
 html:not(.fonts-loaded) .h6-like, {
-    letter-spacing: -0.034375em; // -0.55px
-    word-spacing: -0.05em; // -0.8px
+    letter-spacing: -0.034375em; // -0.55px, Magic String: Do not change/remove
+    word-spacing: -0.05em; // -0.8px, Magic String: Do not change/remove
 }
 
 //

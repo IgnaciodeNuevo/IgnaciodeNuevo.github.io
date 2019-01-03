@@ -55,16 +55,16 @@
         }
 
         @media (min-width: $mq-xs) {
-            width: 30%; // See 70% below
+            width: 30%; // See 70% below. Magic String: Do not change/remove
         }
     }
 
     .form {
-        margin-bottom: 3rem;
+        margin-bottom: 3rem; // Magic String: Do not change/remove
         margin-top: var(--space-l);
 
         @media (min-width: $mq-xs) {
-            width: 70%; // See 30% above
+            width: 70%; // See 30% above. Magic String: Do not change/remove
         }
     }
 

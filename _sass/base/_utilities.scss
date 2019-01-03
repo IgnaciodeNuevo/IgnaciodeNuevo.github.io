@@ -65,10 +65,10 @@
 .u-visually-hidden {
     border: 0;
     clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
+    height: 1px; // Magic String: Do not change/remove
+    margin: -1px; // Magic String: Do not change/remove
     overflow: hidden;
     padding: 0;
     position: absolute;
-    width: 1px;
+    width: 1px; // Magic String: Do not change/remove
 }

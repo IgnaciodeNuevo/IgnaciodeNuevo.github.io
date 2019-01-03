@@ -34,8 +34,8 @@
         padding: 0;
 
         // PX units to make it work on Phones
-        @media (max-width: 540px) and (orientation: portrait) {
-            height: calc(736px - var(--nav-height));
+        @media (max-width: 540px) and (orientation: portrait) { // Magic String: Do not change/remove
+            height: calc(736px - var(--nav-height)); // Magic String: Do not change/remove
         }
 
         @media (min-width: $mq-s) {
@@ -59,8 +59,8 @@
             width: 100%;
 
             // PX units to make it work on Phones
-            @media (max-width: 540px) and (orientation: portrait) {
-                height: calc(736px - var(--nav-height));
+            @media (max-width: 540px) and (orientation: portrait) { // Magic String: Do not change/remove
+                height: calc(736px - var(--nav-height)); // Magic String: Do not change/remove
             }
         }
 

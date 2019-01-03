@@ -103,7 +103,7 @@
 .logo {
     fill: var(--color-base-lightest);
     height: calc(var(--nav-height) - var(--space-m) * 2);
-    max-width: 8.75rem;
+    max-width: 8.75rem; // Magic String: Do not change/remove
 
     @media (min-width: $mq-special) {
         min-width: auto;
