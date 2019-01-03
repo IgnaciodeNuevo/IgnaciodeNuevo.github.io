@@ -26,13 +26,6 @@
   twitter: https://twitter.com/kevinmhoffman
   url: kevin-m-hoffman
 
-- name: "Daniel Martinez"
-  excerpt: "I am an UI Developer very bad at JavaScript."
-  portrait: /assets/images/portrait-daniel-martinez.jpg
-  date: 2016-03-15T00:00:00+0200
-  twitter: https://twitter.com/Wakkos
-  url: daniel-martinez
-
 - name: "Faruk Ateş"
   excerpt: "I’m a product designer and developer, the original creator of the Modernizr JavaScript library, a writer, and an occasional public speaker."
   portrait: /assets/images/portrait-faruk-ates.jpg

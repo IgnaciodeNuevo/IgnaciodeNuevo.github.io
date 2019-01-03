@@ -1,12 +1,11 @@
 ---
-layout: interview
+layout: post
+page_class: interview
 title: "Ben Schwarz"
 ---
 
-<img class="" src="/assets/images/portrait-ben-schwarz.jpg" alt="Photo Ben Schwarz"  />
-{% if page.title %}
-  <h1 class="">{{ page.title }}</h1>
-{% endif %}
+<img class="portrait portrait--xxl" src="/assets/images/portrait-ben-schwarz.jpg" alt="Photo Ben Schwarz"  />
+
 
 ## To all those don't meet you yet. How do you describe yourself?
 
@@ -52,7 +51,7 @@ It really depends on the project. The first thing I’d do in any situation is g
 
 ## What excites you most these days?
 
-[Calibre](https://calibreapp.com)
+<a class="link link--special" href="https://calibreapp.com" target="_blank" rel="noopener">Calibre</a>
 
 ## What is the most important thing you’ve learned?
 

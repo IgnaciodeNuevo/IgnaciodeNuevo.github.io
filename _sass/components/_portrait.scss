@@ -5,4 +5,9 @@
     border-radius: 50%;
     height: var(--size-xl);
     width: var(--size-xl);
+
+    &--xxl {
+        height: var(--size-xxl);
+        width: var(--size-xxl);
+    }
 }

@@ -1,12 +1,10 @@
 ---
-layout: interview
+layout: post
+page_class: interview
 title: "Brad Frost"
 ---
 
-<img class="" src="/assets/images/portrait-brad-frost.jpg" alt="Photo Brad Frost"  />
-{% if page.title %}
-  <h1 class="">{{ page.title }}</h1>
-{% endif %}
+<img class="portrait portrait--xxl" src="/assets/images/portrait-brad-frost.jpg" alt="Photo Brad Frost"  />
 
 ## To all those don't meet you yet. How do you describe yourself?
 
@@ -22,11 +20,11 @@ It takes a while, but learning where to look when you get stuck is crucial. Lear
 
 ## What would you qualify as the top few problems facing developers today?
 
-There's an over-abundance of tools, technologies, and opinions out there for developers to learn. I touched on this [in a recent talk](http://bradfrost.com/blog/post/i-have-no-idea-what-the-hell-i-am-doing/), but the fact is the Web is too big for any one person to master.
+There's an over-abundance of tools, technologies, and opinions out there for developers to learn. I touched on this <a class="link link--special" href="http://bradfrost.com/blog/post/i-have-no-idea-what-the-hell-i-am-doing/" target="_blank" rel="noopener">in a recent talk</a>, but the fact is the Web is too big for any one person to master.
 
 ## How would you recommend somebody to start learning web development?
 
-I've answered this question in detail [over here](http://bradfrost.com/faq/#industry).
+I've answered this question in details <a class="link link--special" href="http://bradfrost.com/faq/#industry" target="_blank" rel="noopener">over here</a>.
 
 ## What are the things you would have known when you first started?
 
@@ -46,7 +44,7 @@ I step away from the computer and spend some time in my back yard. I also travel
 
 ## Can you describe your workflow when you create HTML, CSS and JavaScript from scratch?
 
-Generally speaking, I start with structured content (HTML) first, then begin layering on styles, and ultimately move onto laying on functionality. I try to solve problems lower in the stack whenever possible. I'm a firm proponent of [progressive enhancement](https://en.wikipedia.org/wiki/Progressive_enhancement), and this layered workflow helps me created more accessible experiences.
+Generally speaking, I start with structured content (HTML) first, then begin layering on styles, and ultimately move onto laying on functionality. I try to solve problems lower in the stack whenever possible. I'm a firm proponent of <a class="link link--special" href="https://en.wikipedia.org/wiki/Progressive_enhancement" target="_blank" rel="noopener">progressive enhancement</a>, and this layered workflow helps me created more accessible experiences.
 
 ## What excites you most these days?
 
@@ -58,8 +56,8 @@ Work hard. Don't be an asshole. Share what you know.
 
 ## Do you have any favorite books, videos, or resources that you could share with the readers?
 
-Again, I'll redirect people [over here](http://bradfrost.com/faq/#industry). Those are the resources that I find really helpful.
+Again, I'll redirect people <a class="link link--special" href="http://bradfrost.com/faq/#industry" target="_blank" rel="noopener">over here</a>. Those are the resources that I find really helpful.
 
 ## What can we expect from Brad in the future? Anything you want to share?
 
-More stuff! Again, I'm working on something that I'm looking forward to sharing over the next year. I'm also finishing up [my book called Atomic Design](http://atomicdesign.bradfrost.com/).
+More stuff! Again, I'm working on something that I'm looking forward to sharing over the next year. I'm also finishing up <a class="link link--special" href="http://atomicdesign.bradfrost.com/" target="_blank" rel="noopener">my book called Atomic Design</a>.

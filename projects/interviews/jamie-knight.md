@@ -1,11 +1,10 @@
 ---
-layout: interview
+layout: post
+page_class: interview
 title: "Jamie Knight"
 ---
-<img class="" src="/assets/images/portrait-jamie-knight.jpg" alt="Photo Jamie Knight"  />
-{% if page.title %}
-  <h1 class="">{{ page.title }}</h1>
-{% endif %}
+
+<img class="portrait portrait--xxl" src="/assets/images/portrait-jamie-knight.jpg" alt="Photo Jamie Knight"  />
 
 ## To all those don't meet you yet. How do you describe yourself?
 

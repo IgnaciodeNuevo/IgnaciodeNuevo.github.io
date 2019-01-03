@@ -1,11 +1,10 @@
 ---
-layout: interview
+layout: post
+page_class: interview
 title: "Harry Roberts"
 ---
-<img class="" src="/assets/images/portrait-harry-roberts.jpg" alt="Photo Harry Roberts"  />
-{% if page.title %}
-  <h1 class="">{{ page.title }}</h1>
-{% endif %}
+
+<img class="portrait portrait--xxl" src="/assets/images/portrait-harry-roberts.jpg" alt="Photo Harry Roberts"  />
 
 ## To all those don't meet you yet. How do you describe yourself?
 
@@ -43,7 +42,9 @@ I worked for a small web development company in my local town when I was about 1
 
 ## What was the most challenging project you ever faced and why?
 
-Err… I think my work at [Sky](https://csswizardry.com/case-studies/bskyb/) was quite challenging because it was the first time I’d worked somewhere so huge! It wasn’t hard or unenjoyably challenging, but it did require a fairly large shift in approaches: working at scale, working on products rather than simple websites, performance concerns, etc. It was a great challenge! I really enjoyed it.
+Err… I think my work at
+
+<a class="link link--special" href="https://csswizardry.com/case-studies/bskyb/" target="_blank" rel="noopener">Sky</a> was quite challenging because it was the first time I’d worked somewhere so huge! It wasn’t hard or unenjoyably challenging, but it did require a fairly large shift in approaches: working at scale, working on products rather than simple websites, performance concerns, etc. It was a great challenge! I really enjoyed it.
 
 ## Can you describe your workflow when you create HTML, CSS and JavaScript from scratch?
 
@@ -59,7 +60,7 @@ As soon as you finish any project, you will immediately think of five things you
 
 ## Do you have any favorite books, videos, or resources that you could share with the readers?
 
-Souders’ [performance books](https://www.amazon.com/High-Performance-Web-Sites-Essential/dp/0596529309/ref=pd_sim_14_1?_encoding=UTF8&pd_rd_i=0596529309&pd_rd_r=X0E83Y6ASKEQYPMX1PYD&pd_rd_w=7Uk2k&pd_rd_wg=IozuG&psc=1&refRID=X0E83Y6ASKEQYPMX1PYD) are great, as is Ilya’s [High Performance Browser Networking](https://www.amazon.com/High-Performance-Browser-Networking-performance/dp/1449344763/). I don’t really have fixed resources: I normally just rely on [Twitter](https://twitter.com/csswizardry) and Hacker News.
+Souders’ <a class="link link--special" href="https://www.amazon.com/High-Performance-Web-Sites-Essential/dp/0596529309/ref=pd_sim_14_1?_encoding=UTF8&pd_rd_i=0596529309&pd_rd_r=X0E83Y6ASKEQYPMX1PYD&pd_rd_w=7Uk2k&pd_rd_wg=IozuG&psc=1&refRID=X0E83Y6ASKEQYPMX1PYD" target="_blank" rel="noopener">performance books</a> are great, as is Ilya’s <a class="link link--special" href="https://www.amazon.com/High-Performance-Browser-Networking-performance/dp/1449344763/" target="_blank" rel="noopener">High Performance Browser Networking</a>. I don’t really have fixed resources: I normally just rely on <a class="link link--special" href="https://twitter.com/csswizardry" target="_blank" rel="noopener">Twitter</a> and Hacker News.
 
 ## Do you have any advice for new developers just starting their career journey?
 

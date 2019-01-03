@@ -1,11 +1,10 @@
 ---
-layout: interview
+layout: post
+page_class: interview
 title: "Jonathan Stark"
 ---
-<img class="" src="/assets/images/portrait-jonathan-stark.jpg" alt="Photo Jamie Knight"  />
-{% if page.title %}
-  <h1 class="">{{ page.title }}</h1>
-{% endif %}
+
+<img class="portrait portrait--xxl" src="/assets/images/portrait-jonathan-stark.jpg" alt="Photo Jamie Knight"  />
 
 ## Frontend seems to be easy until you start to learning. How do you face the challenge of learning new things?
 
@@ -25,7 +24,7 @@ I wish I was a little less dogmatic. If you're 100% sure about something, you're
 
 ## What excites you most these days?
 
-These days I'm most excited about the effects that technology is having on the way we interact with the world. With the advent of powerful cloud computing, nearly ubiquitous connectivity, and affordable smartphones, the opportunity for disruption from upstarts has never been better. I and co-host Kelli Shaver talk about things that this enables - like virtual reality, drones, conversational computing, and more - on our podcast: [Terrifying Robot Dog](http://terrifyingrobotdog.com).
+These days I'm most excited about the effects that technology is having on the way we interact with the world. With the advent of powerful cloud computing, nearly ubiquitous connectivity, and affordable smartphones, the opportunity for disruption from upstarts has never been better. I and co-host Kelli Shaver talk about things that this enables - like virtual reality, drones, conversational computing, and more - on our podcast: <a class="link link--special" href="http://terrifyingrobotdog.com" target="_blank" rel="noopener">Terrifying Robot Dog</a>.
 
 ## Do you have any advice for new developers just starting their career journey?
 

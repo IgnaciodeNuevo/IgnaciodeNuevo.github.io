@@ -1,15 +1,14 @@
 ---
-layout: interview
+layout: post
+page_class: interview
 title: "Kevin M. Hoffman"
 ---
-<img class="" src="/assets/images/portrait-kevin-m-hoffman.jpg" alt="Photo Kevin M. Hoffman by Michelle Gray"  />
-{% if page.title %}
-  <h1 class="">{{ page.title }}</h1>
-{% endif %}
+
+<img class="portrait portrait--xxl" src="/assets/images/portrait-kevin-m-hoffman.jpg" alt="Photo Kevin M. Hoffman by Michelle Gray"  />
 
 ## To all those don't meet you yet. How do you describe yourself?
 
-I run a distributed agency called [Seven Heads Design](http://www.sevenheadsdesign.com) that builds project teams from highly experienced independent designers. I have over 20 years of experience working in digital media, including websites, applications, and product strategies. I've worked and taught in universities, and also worked in an agency as a UX Director. I watch probably too much television and live with my wife and son outside of Philadelphia, PA.
+I run a distributed agency called <a class="link link--special" href="http://www.sevenheadsdesign.com" target="_blank" rel="noopener">Seven Heads Design</a> that builds project teams from highly experienced independent designers. I have over 20 years of experience working in digital media, including websites, applications, and product strategies. I've worked and taught in universities, and also worked in an agency as a UX Director. I watch probably too much television and live with my wife and son outside of Philadelphia, PA.
 
 ## When you started developing, what were some common mistakes you made along the way?
 
@@ -45,7 +44,7 @@ Every project is a unique challenge. I would say that a recent challenge was dev
 
 ## Can you describe your workflow when you create HTML, CSS and JavaScript from scratch?
 
-The developers I hire often use [patterlab.io](http://patternlab.io) with various grunt tasks automating a Git repo to collect and publish new and updated styles, semantic markup, and behaviors.
+The developers I hire often use <a class="link link--special" href="http://patternlab.io" target="_blank" rel="noopener">patterlab.io</a> with various grunt tasks automating a Git repo to collect and publish new and updated styles, semantic markup, and behaviors.
 
 ## What excites you most these days?
 
@@ -57,7 +56,9 @@ Standards and best practices are necessary, but fleeting in the long term. It's 
 
 ## Do you have any favorite books, videos, or resources that you could share with the readers?
 
-[AListApart.com](http://alistapart.com) continues to be excellent. [StackExchange.com](http://stackexchange.com) seems to be filled with a lot of value.
+<a class="link link--special" href="http://alistapart.com" target="_blank" rel="noopener">AListApart.com</a> continues to be excellent.
+
+<a class="link link--special" href="http://stackexchange.com" target="_blank" rel="noopener">StackExchange.com</a> seems to be filled with a lot of value.
 
 ## Do you have any advice for new developers just starting their career journey?
 
@@ -65,4 +66,4 @@ Every year, think about what you want to accomplish for that year. Then make sur
 
 ## What can we expect from Kevin in the future? Anything you want to share?
 
-[My book](http://rosenfeldmedia.com/books/meeting-design)  will be coming out this year! I'd love to hear what you think of it. We just launched [Seton Hill](http://www.setonhill.edu), and we think it is a fantastic responsive site designed to a number of important jobs for the school. We've got sites launching every few months or so, so keep an eye out!
+<a class="link link--special" href="http://rosenfeldmedia.com/books/meeting-design" target="_blank" rel="noopener">My book</a> will be coming out this year! I'd love to hear what you think of it. We just launched <a class="link link--special" href="http://www.setonhill.edu" target="_blank" rel="noopener">Seton Hill</a>, and we think it is a fantastic responsive site designed to a number of important jobs for the school. We've got sites launching every few months or so, so keep an eye out!

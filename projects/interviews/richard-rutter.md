@@ -1,15 +1,14 @@
 ---
-layout: interview
+layout: post
+page_class: interview
 title: "Richard Rutter"
 ---
-<img class="" src="/assets/images/portrait-richard-rutter.jpg" alt="Photo Richard Rutter"  />
-{% if page.title %}
-  <h1 class="">{{ page.title }}</h1>
-{% endif %}
+
+<img class="portrait portrait--xxl" src="/assets/images/portrait-richard-rutter.jpg" alt="Photo Richard Rutter"  />
 
 ## To all those don't meet you yet. How do you describe yourself?
 
-I’m a web person through and through. Day to day I help run <a href="http://clearleft.com/" target="_blank">Clearleft</a>, a digital design consultancy and studio I co-founded. Within that, I’m a user experience designer and a web typography advocate/consultant. In the early days, way before starting <a href="http://clearleft.com/" target="_blank">Clearleft</a>, I was a frontend developer and I still like to keep my hand in.
+I’m a web person through and through. Day to day I help run <a class="link link--special" href="http://clearleft.com/"  target="_blank" rel="noopener">Clearleft</a>, a digital design consultancy and studio I co-founded. Within that, I’m a user experience designer and a web typography advocate/consultant. In the early days, way before starting <a class="link link--special" href="http://clearleft.com/"  target="_blank" rel="noopener">Clearleft</a>, I was a frontend developer and I still like to keep my hand in.
 
 ## When you started developing, what were some common mistakes you made along the way?
 

@@ -1,11 +1,10 @@
 ---
-layout: interview
+layout: post
+page_class: interview
 title: "Stephen Hay"
 ---
-<img class="" src="/assets/images/portrait-stephen-hay.jpg" alt="Photo Stephen Hay"/>
-{% if page.title %}
-  <h1 class="">{{ page.title }}</h1>
-{% endif %}
+
+<img class="portrait portrait--xxl" src="/assets/images/portrait-stephen-hay.jpg" alt="Photo Stephen Hay"/>
 
 ## To all those don't meet you yet. How do you describe yourself?
 

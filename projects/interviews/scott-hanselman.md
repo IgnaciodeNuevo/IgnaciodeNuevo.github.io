@@ -1,17 +1,16 @@
 ---
-layout: interview
+layout: post
+page_class: interview
 title: "Scott Hanselman"
 ---
-<img class="" src="/assets/images/portrait-scott-hanselman.jpg" alt="Photo Scott Hanselman"  />
-{% if page.title %}
-  <h1 class="">{{ page.title }}</h1>
-{% endif %}
+
+<img class="portrait portrait--xxl" src="/assets/images/portrait-scott-hanselman.jpg" alt="Photo Scott Hanselman"  />
 
 ## To all those don't meet you yet. How do you describe yourself?
 
-My name is Scott Hanselman. I'm a [programmer](http://github.com/shanselman), [teacher](http://www.hanselman.com/blog/), and [speaker](http://www.hanselman.com/speaking/). I work out of my home office in Portland, Oregon for the Web Platform Team at Microsoft, but my blog, its content and opinions are my own. I blog about technology, culture, gadgets, diversity, code, the web, where we're going and where we've been. I'm excited about community, social equity, media, entrepreneurship and above all, the open web.
+My name is Scott Hanselman. I'm a <a class="link link--special" href="http://github.com/shanselman" target="_blank" rel="noopener">programmer</a>, <a class="link link--special" href="http://www.hanselman.com/blog/" target="_blank" rel="noopener">teacher</a>, and <a class="link link--special" href="http://www.hanselman.com/speaking/" target="_blank" rel="noopener">speaker</a>. I work out of my home office in Portland, Oregon for the Web Platform Team at Microsoft, but my blog, its content and opinions are my own. I blog about technology, culture, gadgets, diversity, code, the web, where we're going and where we've been. I'm excited about community, social equity, media, entrepreneurship and above all, the open web.
 
-I have [three podcasts](http://www.hanselman.com/podcasts/) and a [YouTube channel](https://www.youtube.com/user/shanselman). One podcast is a weekly talk show on tech, one [an occasional one hour essay on developer's lives, and one a social media and tech culture show](http://thisdeveloperslife.com/) with my friend [Luvvie](http://www.awesomelyluvvie.com/).
+I have <a class="link link--special" href="http://www.hanselman.com/podcasts/" target="_blank" rel="noopener">three podcasts</a> and a <a class="link link--special" href="https://www.youtube.com/user/shanselman" target="_blank" rel="noopener">YouTube channel</a>. One podcast is a weekly talk show on tech, one <a class="link link--special" href="http://thisdeveloperslife.com/" target="_blank" rel="noopener">an occasional one hour essay on developer's lives</a>, and one a social media and tech culture show with my friend <a class="link link--special" href="http://www.awesomelyluvvie.com/" target="_blank" rel="noopener">Luvvie</a>.
 
 ## When you started developing, what were some common mistakes you made along the way?
 
@@ -23,7 +22,7 @@ Breathe. Set aside quiet time. Read, repeat. Don't be afraid to ask questions.
 
 ## What would you qualify as the top few problems facing developers today?
 
-Folks today don't really understand how things work. They just google or stack overflow and [copy/paste](http://www.hanselman.com/blog/AmIReallyADeveloperOrJustAGoodGoogler.aspx).
+Folks today don't really understand how things work. They just google or stack overflow and <a class="link link--special" href="http://www.hanselman.com/blog/AmIReallyADeveloperOrJustAGoodGoogler.aspx" target="_blank" rel="noopener">copy/paste</a>.
 
 ## How would you recommend somebody to start learning web development?
 
@@ -31,7 +30,7 @@ Now's the perfect time to buy your kids/nieces/cousins some robots. Robots are a
 
 If you're not careful you can spent hundreds on robots. However, I'm notoriously frugal and I believe that you can build some amazing stuff with children with a reasonable budget.
 
-- Continue reading [here](http://www.hanselman.com/blog/GettingStartedWithRobotsForKidsAndChildrenInSTEMThisHolidaySeason.aspx).
+- Continue reading <a class="link link--special" href="http://www.hanselman.com/blog/GettingStartedWithRobotsForKidsAndChildrenInSTEMThisHolidaySeason.aspx" target="_blank" rel="noopener">here</a>.
 
 ## What are the things you would have known when you first started?
 
@@ -63,11 +62,11 @@ To phone a friend when you are stuck.
 
 ## Do you have any favorite books, videos, or resources that you could share with the readers?
 
-[See here](http://www.hanselman.com/blog/SixEssentialLanguageAgnosticProgrammingBooks.aspx).
+<a class="link link--special" href="http://www.hanselman.com/blog/SixEssentialLanguageAgnosticProgrammingBooks.aspx" target="_blank" rel="noopener">See here</a>.
 
 ## Do you have any advice for new developers just starting their career journey?
 
-[Getting involved](http://www.codenewbie.org/podcast/getting-involved).
+<a class="link link--special" href="http://www.codenewbie.org/podcast/getting-involved" target="_blank" rel="noopener">Getting involved</a>.
 
 ## What can we expect from Scott in the future? Anything you want to share?
 

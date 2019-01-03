@@ -1,15 +1,15 @@
 ---
-layout: interview
+layout: post
+page_class: interview
 title: "Faruk Ateş"
 ---
-<img class="" src="/assets/images/portrait-faruk-ates.jpg" alt="Photo Faruk Ateş"  />
-{% if page.title %}
-  <h1 class="">{{ page.title }}</h1>
-{% endif %}
+
+<img class="portrait portrait--xxl" src="/assets/images/portrait-faruk-ates.jpg" alt="Photo Faruk Ateş"  />
+
 
 ## To all those don't meet you yet. How do you describe yourself?
 
-I’m a product designer and developer, the original creator of the [Modernizr](https://modernizr.com/) JavaScript library, a writer, and an occasional public speaker.
+I’m a product designer and developer, the original creator of the <a class="link link--special" href="https://modernizr.com/" target="_blank" rel="noopener">Modernizr</a> JavaScript library, a writer, and an occasional public speaker.
 
 ## When you started developing, what were some common mistakes you made along the way?
 
@@ -51,7 +51,7 @@ Rewriting the entire set of frontend HTML for the Apple Online Store by myself. 
 
 ## Can you describe your workflow when you create HTML, CSS and JavaScript from scratch?
 
-Nowadays I do more design work than frontend, so when I do write HTML, CSS and (rarely) JavaScript I generally do so in [Codepen.io](http://codepen.io/) as a prototype or illustration of some interactions, like responsive reflows.
+Nowadays I do more design work than frontend, so when I do write HTML, CSS and (rarely) JavaScript I generally do so in <a class="link link--special" href="http://codepen.io/" target="_blank" rel="noopener">Codepen.io</a> as a prototype or illustration of some interactions, like responsive reflows.
 
 ## What excites you most these days?
 
@@ -71,4 +71,4 @@ Try and remember that the most valuable thing you can do is to help solve real p
 
 ## What can we expect from Faruk in the future? Anything you want to share?
 
-I’m starting a new blog/publication about all things Product Design, called Product Matters. You can follow it at [Product Matters](https://productmatters.design) or on [@ProductMatters](https://twitter.com/ProductMatters) at Twitter, to get notified when it launches in the next few weeks.
+I’m starting a new blog/publication about all things Product Design, called Product Matters. You can follow it at <a class="link link--special" href="https://productmatters.design" target="_blank" rel="noopener">Product Matters</a> or on <a class="link link--special" href="https://twitter.com/ProductMatters" target="_blank" rel="noopener">@ProductMatters</a> at Twitter, to get notified when it launches in the next few weeks.
