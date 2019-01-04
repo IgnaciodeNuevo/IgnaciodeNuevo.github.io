@@ -1,10 +1,10 @@
-- name: "Creando formularios accesibles"
+- name: "Creando formularios <span class='u-nowrap'>accesibles <svg class='icon icon-stroke' role='img' aria-hidden='true' focusable='false' viewBox='0 0 24 24'><path d='M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3'/></svg>"
   description: ¿Os suenan los lectores de pantalla? El uso de los mismos es uno de los muchos medios de acceder a la web. La accesibilidad debería ser la base, no un "feature", por esto, porque creo que la web debería poder usarse por todo el mundo vamos a crear un formulario accesible.
   date: Oct 17 2018
   publication: Octuweb
   url: https://octuweb.com/creando-formularios-accesibles/
 
-- name: "CSS Grid: La BBC como ejemplo"
+- name: "CSS Grid: La BBC como <span class='u-nowrap'>ejemplo <svg class='icon icon-stroke' role='img' aria-hidden='true' focusable='false' viewBox='0 0 24 24'><path d='M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3'/></svg>"
   description: Resulta curioso como la inmensa mayoría de las personas que trabajamos en la web hemos tenido que maquetar alguna vez, pero hasta ahora, tras tantos años no ha habido ningún módulo de CSS especialmente dedicado a ordenar nuestras estructuras HTML para crear layouts complejos sin usar «hacks».
   date: Oct 18 2017
   publication: Octuweb

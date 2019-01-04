@@ -127,7 +127,9 @@ layout: default
                 <article lang="es">
                     <a class="media__link" href="{{ collaboration.url }}" target="_blank" rel="noopener">
                         <time class="media__time">{{ collaboration.date }}</time>
-                        <h4 class="media__subtitle">{{ collaboration.name }}&nbsp;{% include icons/external.html %}</h4>
+                        <h4 class="media__subtitle">
+                            {{ collaboration.name }}
+                        </h4>
                     </a>
                 </article>
                 {% endfor %}
