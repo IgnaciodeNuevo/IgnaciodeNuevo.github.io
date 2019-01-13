@@ -16,13 +16,11 @@
     color: var(--color-base-lightest);
     list-style-type: none;
     margin-bottom: var(--space-xl);
-    margin-top: calc(#{var(--space-xl)} * -1);
     opacity: var(--opacity-hack);
     padding: var(--space-m);
     width: 100%;
 
     @media (min-width: $mq-l) {
-        margin-top: var(--meta-position);
         max-width: var(--meta-width);
         padding: var(--space-l);
         position: absolute;
