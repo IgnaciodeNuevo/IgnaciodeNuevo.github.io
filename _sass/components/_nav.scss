@@ -92,6 +92,10 @@
             &:hover .link__label {
                 border-bottom-color: transparent;
             }
+
+            &.is-active .link__label {
+                border-bottom: var(--border-width-xxs) solid transparent;
+            }
         }
     }
 
