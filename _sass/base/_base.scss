@@ -75,6 +75,19 @@ ol {
     }
 }
 
+//
+// Add greyscale filter to every image in the website
+//
+img:not(.hero__img) {
+    filter: grayscale(100%);
+
+    @include transition(filter);
+
+    &:hover {
+        filter: initial;
+    }
+}
+
 
 .container {
     position: relative;
