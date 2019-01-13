@@ -3,9 +3,10 @@ layout: post
 page_class: interview
 title: "Jeremy Keith"
 ---
-<img class="portrait portrait--xxl" src="/assets/images/portrait-jeremy-keith.jpg" alt="Photo Jeremy Keith"  />
 
 ## To all those don't meet you yet. How do you describe yourself?
+
+<img class="portrait portrait--xxl" src="/assets/images/portrait-jeremy-keith.jpg" alt="Photo Jeremy Keith"  />
 
 My name is Jeremy and do web ...stuff. I'm not sure whether to call myself a web designer or web developer or something else. I usually like to just say "I make websites" ...although that isn't necessarily true either; I spend most of my time trying to help other people make websites.
 

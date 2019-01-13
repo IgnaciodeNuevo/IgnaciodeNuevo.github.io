@@ -3,9 +3,10 @@ layout: post
 page_class: interview
 title: "Hugo Giraudel"
 ---
-<img class="portrait portrait--xxl" src="/assets/images/portrait-hugo-giraudel.jpg" alt="Photo Hugo Giraudel"/>
 
 ## To all those who have not meet you yet, how do you describe yourself?
+
+<img class="portrait portrait--xxl" src="/assets/images/portrait-hugo-giraudel.jpg" alt="Photo Hugo Giraudel"/>
 
 My name is Hugo. I am a French frontend developer about to turn 24 and living in Berlin, Germany. I am working at <a class="link link--special" href="http://edenspiekermann.com" target="_blank" rel="noopener">Edenspiekermann</a>, where I can play with HTML, CSS (Sass & CSS Modules) and JavaScript (React) on a daily basis.
 

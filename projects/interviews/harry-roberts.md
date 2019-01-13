@@ -4,9 +4,10 @@ page_class: interview
 title: "Harry Roberts"
 ---
 
-<img class="portrait portrait--xxl" src="/assets/images/portrait-harry-roberts.jpg" alt="Photo Harry Roberts"  />
 
 ## To all those don't meet you yet. How do you describe yourself?
+
+<img class="portrait portrait--xxl" src="/assets/images/portrait-harry-roberts.jpg" alt="Photo Harry Roberts"  />
 
 I’m a web developer from England. My actual job title is Consultant Frontend Architect—I travel the world to help clients of all shapes and sizes write better, faster, more scalable, more maintainable CSS. I have a huge focus on performance, large-scale applications, and productivity.
 

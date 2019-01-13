@@ -4,9 +4,10 @@ page_class: interview
 title: "Paul Lloyd"
 ---
 
-<img class="portrait portrait--xxl" src="/assets/images/portrait-paul-lloyd.jpg" alt="Photo Paul Lloyd"/>
 
 ## To all those don’t meet you yet. How do you describe yourself?
+
+<img class="portrait portrait--xxl" src="/assets/images/portrait-paul-lloyd.jpg" alt="Photo Paul Lloyd"/>
 
 I’m an <a class="link link--special" href="https://paulrobertlloyd.com" target="_blank" rel="noopener">independent graphic designer and frontend web developer</a> based in Brighton, England. I help responsible organisations like the Guardian, UNICEF and Mozilla create purposeful digital products.
 
