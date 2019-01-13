@@ -96,6 +96,7 @@ img:not(.hero__img) {
     @include transition(transform);
 }
 
+.about,
 .content {
     h1:not(.related__title),
     h2:not(.related__title),

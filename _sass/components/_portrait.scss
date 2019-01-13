@@ -7,11 +7,7 @@
     width: var(--size-xl);
 
     &--xxl {
-        float: left;
         height: var(--size-xxl);
-        margin-right: var(--space-m);
-        shape-margin: var(--space-s);
-        shape-outside: circle();
         width: var(--size-xxl);
     }
 }

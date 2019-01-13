@@ -3,21 +3,22 @@ layout: default
 title: "About"
 ---
 
-<main class="about" role="main">
-    <img class="portrait portrait--xxl" src="/assets/images/ignacio-portrait.jpg" alt="Photo Ignacio Villanueva" />
+<main class="main about" role="main">
     <p>
+        <img class="portrait portrait--xxl" src="/assets/images/ignacio-portrait.jpg" alt="Photo Ignacio Villanueva" />
+
         I am Ignacio Villanueva, a spanish frontend developer focused on architecture, frontend performance and
         mobile and
-        <a href="https://en.wikipedia.org/wiki/Responsive_web_design" target="_blank" rel="noopener">responsive web design</a>.
+        <a class="link link--special" href="https://en.wikipedia.org/wiki/Responsive_web_design" target="_blank" rel="noopener">responsive web design</a>.
     </p>
 
     <p>
         I co-host
-        <a href="http://wecodesignpodcast.com">WeCodeSign</a>, a weekly podcast about frontend, UX and web design.
+        <a class="link link--special" href="http://wecodesignpodcast.com">WeCodeSign</a>, a weekly podcast about frontend, UX and web design.
         Co-organize
-        <a href="https://www.meetup.com/Open-Source-Weekends/" target="_blank" rel="noopener">Open Source Weekends</a>, a monthly Open
+        <a class="link link--special" href="https://www.meetup.com/Open-Source-Weekends/" target="_blank" rel="noopener">Open Source Weekends</a>, a monthly Open
         Source meetup and also co-founded
-        <a href="http://frontfest.es/" target="_blank" rel="noopener">FrontFest.es</a> (one of the biggest conferences about frontend
+        <a class="link link--special" href="http://frontfest.es/" target="_blank" rel="noopener">FrontFest.es</a> (one of the biggest conferences about frontend
         development in Spain).
     </p>
 
@@ -28,7 +29,7 @@ title: "About"
 
     <p>So I work harder every day, learning to be up to date.</p>
 
-    <p>{% include component-follow.html %}</p>
+    <p>Follow me on <a class="link link--special" href="{{ site.twitter }}" rel="me" target="_blank" rel="noopener">Twitter</a>, fork me on <a class="link link--special" href="{{ site.github }}" rel="me" target="_blank" rel="noopener">Github</a> or subscribe via <a class="link link--special" href="/feed.xml">RSS Feed</a>.</p>
 
     <h2>About this site</h2>
 
@@ -36,42 +37,31 @@ title: "About"
 
     <p>
         This site is built on
-        <a href="http://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a>, an static site generator and hosted on
-        <a href="https://pages.github.com/" target="_blank" rel="noopener">Github Pages</a> under the
-        <a href="{{ site.github }}/ignaciodenuevo.github.io" target="_blank" rel="noopener">IgnaciodeNuevo / ignaciodenuevo.github.io</a>
+        <a class="link link--special" href="http://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a>, an static site generator and hosted on
+        <a class="link link--special" href="https://pages.github.com/" target="_blank" rel="noopener">Github Pages</a> under the
+        <a class="link link--special" href="{{ site.github }}/ignaciodenuevo.github.io" target="_blank" rel="noopener">IgnaciodeNuevo / ignaciodenuevo.github.io</a>
         repository.
     </p>
 
     <p>
         The site is written in
-        <a href="http://sass-lang.com" target="_blank" rel="noopener">Sass</a>, and built from scratch.
+        <a class="link link--special" href="http://sass-lang.com" target="_blank" rel="noopener">Sass</a>, and built from scratch.
     </p>
 
     <p>
         The font used is
-        <a href="https://www.google.com/fonts/specimen/Roboto" target="_blank" rel="noopener">Roboto</a>, and is served via
-        <a href="https://www.google.com/fonts" target="_blank" rel="noopener">Google Fonts</a>. The photograph used on the homepage’s
+        <a class="link link--special" href="https://www.google.com/fonts/specimen/Roboto" target="_blank" rel="noopener">Roboto</a>, and is served via
+        <a class="link link--special" href="https://www.google.com/fonts" target="_blank" rel="noopener">Google Fonts</a>. The photograph used on the homepage’s
         hero is of me and was taken by
-        <a href="http://adft.es/" target="_blank" rel="noopener">Damián Fernández</a>.
+        <a class="link link--special" href="http://adft.es/" target="_blank" rel="noopener">Damián Fernández</a>.
     </p>
 
     <p>
         The icons used are
-        <a href="https://materialdesignicons.com" target="_blank" rel="noopener">Material Design Icons</a> or are maded by me.
+        <a class="link link--special" href="https://materialdesignicons.com" target="_blank" rel="noopener">Material Design Icons</a> or are maded by me.
     </p>
 
-    1. About paragraph
-    * Andy Clarke
-    * Stephanie Walter
-    * Una Kravets
-    * Wes Bos
-    2. Skills (como Wes Bos)
-    3. Web Colophon
-        * <p>Last update: {{ site.time | date: "%b %-d %Y" }}</p>
-        * Soporte de mi web para Safari xx, Internet Explorer xx, Firefox xx, Chrome xx y Edge xx
-    4. Mapa de países visitados (Marina Asina)
     <h2 id="contact">Contact</h2>
-    5. Contact Form / {% include component-email.html %}
-
+    <p><a class="link link--special" href="mailto:{{ site.email }}?Subject=Contact%20from%20IgnaciodeNuevo's%20website" rel="me">{{ site.email }}</a></p>
 
 </main>

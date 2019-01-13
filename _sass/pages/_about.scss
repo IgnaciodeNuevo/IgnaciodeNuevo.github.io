@@ -1,17 +1,9 @@
 .about {
-    @media (min-width: $mq-l) {
-        margin-left: auto;
-        margin-right: auto;
-        max-width: var(--content-max-width);
-        width: 85%;
+    .portrait {
+        float: left;
+        margin-right: var(--space-m);
+        shape-margin: var(--space-s);
+        shape-outside: circle();
     }
 }
 
-.content h2 {
-    overflow: auto;
-}
-
-
-img + h2 {
-    margin-bottom: 20px;
-}
