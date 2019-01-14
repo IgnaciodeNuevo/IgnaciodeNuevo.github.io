@@ -251,3 +251,14 @@ img:not(.hero__img) {
         white-space: inherit;
     }
 }
+
+//
+// Beta Badge
+//
+.beta {
+    background-color: var(--color-base-lightest);
+    border-radius: var(--border-radius-xs);
+    color: var(--color-warning);
+    font-family: var(--font-family-body-semibold);
+    padding: var(--space-xs);
+}
