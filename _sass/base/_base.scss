@@ -260,5 +260,9 @@ img:not(.hero__img) {
     border-radius: var(--border-radius-xs);
     color: var(--color-warning);
     font-family: var(--font-family-body-semibold);
-    padding: var(--space-xs);
+    line-height: 1;
+    padding-bottom: var(--space-xs);
+    padding-left: var(--space-s);
+    padding-right: var(--space-s);
+    padding-top: var(--space-s);
 }
