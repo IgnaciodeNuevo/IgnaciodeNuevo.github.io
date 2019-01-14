@@ -41,16 +41,16 @@ title: "Search"
         <input type="text" class="js-search" id="search" placeholder="Resumen del 2017..." role="search">
     </form>
 
-    <ul class="articles-list js-results"></ul>
+    <ul class="articles-list" id="results-container"></ul>
 </main>
 
 <script src="/assets/js/jekyll-search.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   SimpleJekyllSearch({
-    searchInput: document.querySelector('.js-search'),
-    resultsContainer: document.querySelector('.js-results'),
-    json: './search-data.json',
+    searchInput: document.getElementById('search'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/assets/js/data.json',
     searchResultTemplate: '<article class="article">\
       <a class="article__item" href="{url}">\
         <time class="article__time" datetime="{date}">{date}</time>\
