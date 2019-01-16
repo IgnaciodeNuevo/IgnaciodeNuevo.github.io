@@ -3,7 +3,7 @@ long_description: "Ignacio Villanueva - Frontend developer focused on performanc
 short_description: "Focused on performance, responsive design, web typography and accessibility."
 metatag_description: "Performance, responsive design, web typography and accessibility by Ignacio Villanueva."
 job: "Frontend developer"
-url: "http://ignaciodenuevo.com" # with the https protocol
+url: "https://ignaciodenuevo.com" # with the https protocol
 # enforce_ssl: www.ignaciodenuevo.com # without any protocol
 email: ignaciodenuevo@posteo.net
 github: https://github.com/ignaciodenuevo
