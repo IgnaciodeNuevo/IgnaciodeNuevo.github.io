@@ -315,6 +315,7 @@
             "filter:progid:DXImageTransform.Microsoft.Alpha(Opacity",
             "filter:progid:DXImageTransform.Microsoft.AlphaImageLoader",
             "filter:progid:DXImageTransform.Microsoft.gradient",
+            "flex",
             "flex-basis",
             "flex-direction",
             "flex-grow",
