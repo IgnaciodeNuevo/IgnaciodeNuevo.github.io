@@ -19,6 +19,7 @@
     &__logo-link {
         align-items: center;
         display: inherit;
+        text-decoration: none; // TODO: Remove when the .beta is removed
     }
 
     .logo {
