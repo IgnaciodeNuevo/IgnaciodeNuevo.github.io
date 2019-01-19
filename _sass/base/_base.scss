@@ -90,6 +90,7 @@ img:not(.hero__img) {
 
 
 .container {
+    overflow: hidden;
     position: relative;
     z-index: var(--z-index-s);
 
