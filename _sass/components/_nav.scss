@@ -7,7 +7,6 @@
     flex-wrap: nowrap;
     height: var(--nav-height);
     justify-content: space-between;
-    // line-height: var(--nav-height);
     padding-left: var(--space-m);
     padding-right: var(--space-m);
 
@@ -40,18 +39,19 @@
         display: none;
 
         @media (min-width: $mq-s) {
+            align-items: center;
             display: flex;
-            height: var(--nav-height);
-            line-height: var(--nav-height);
         }
     }
 
     .link {
+        align-items: inherit;
         border-bottom: var(--border-width-xxs) solid transparent;
+        border-top: var(--border-width-xxs) solid transparent;
         color: var(--color-base-lightest);
+        display: inherit;
         font-family: var(--font-family-body-regular);
-        height: inherit;
-        line-height: inherit;
+        height: var(--nav-height);
         position: relative;
         text-decoration: none;
 
@@ -67,11 +67,12 @@
             margin-right: var(--space-l);
 
             &:after {
+                align-items: var(--nav-height);
                 color: var(--color-base-light);
                 content: "/";
+                display: var(--nav-height);
                 position: absolute;
                 right: calc(((var(--space-l) / 2) + var(--space-xxs)) * -1);  // Magic String: Do not change/remove: Half of the margin-right + half of its width multiplied by -1 tu be negative value
-                top: 3px;  // Magic String: Do not change/remove
                 width: var(--space-xs);
 
                 @include caption();
@@ -83,10 +84,10 @@
         }
 
         &:last-of-type {
+            align-items: inherit;
             background-color: var(--color-secondary);
             color: var(--color-base-dark);
-            height: calc(var(--nav-height) + var(--border-width-xxs));
-            line-height: var(--nav-height);
+            display: inherit;
             margin-right: 0;
             padding-left: var(--space-l);
             padding-right: var(--space-l);
