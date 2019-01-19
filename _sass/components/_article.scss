@@ -52,7 +52,7 @@
 
     &__time {
         color: var(--color-base-light);
-        padding-bottom: var(--space-xs);
+        margin-bottom: var(--space-xs);
 
         @include all-small-caps();
         @include body-small();
@@ -66,14 +66,13 @@
 
     &__subtitle {
         color: var(--color-primary);
-        margin-bottom: 0;
         margin-bottom: var(--space-xs);
 
         @include body-text();
     }
 
     &__description {
-        margin-bottom: 0;
+        margin-bottom: var(--space-xs);
 
         @include body-small();
     }
