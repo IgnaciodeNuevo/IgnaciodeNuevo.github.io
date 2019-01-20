@@ -22,16 +22,30 @@
             -webkit-background-clip: text;
                     background-clip: text;
             background-image: var(--linear-gradient);
-            border-bottom: 1px solid rgba(var(--color-primary-rgb), 0.2); // Magic String: Do not change/remove
             color: transparent;
+            position: relative;
             text-decoration: none;
+
+            &:focus {
+                border: 1px dotted var(--color-primary); // Magic String: Do not change/remove
+            }
+
+            &::after {
+                background: var(--linear-gradient);
+                border-radius: var(--border-radius-xxs);
+                bottom: 0;
+                content: "";
+                height: 2px; // Magic String: Do not change/remove
+                left: 0;
+                opacity: var(--opacity);
+                position: absolute;
+                width: 100%;
+            }
         }
 
-        &:hover {
-            text-decoration-style: solid;
-
+        &:hover::after {
             @supports (background-clip: text) or (-webkit-background-clip: text) {
-                border-bottom: 1px solid rgba(var(--color-primary-rgb), 1); // Magic String: Do not change/remove
+                opacity: 1;
             }
         }
     }

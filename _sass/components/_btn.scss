@@ -81,7 +81,7 @@
     background-color: transparent;
     border: 2px solid currentColor; // Magic String: Do not change/remove
     color: var(--color-base-lightest);
-    opacity: 0.5;
+    opacity: var(--opacity);
 
     &:hover {
         border: 2px solid var(--color-base-lightest); // Magic String: Do not change/remove
