@@ -330,3 +330,16 @@ template {
 [hidden] {
     display: none;
 }
+
+
+//
+// Prefers reduced motion
+// https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion
+//
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0s !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
