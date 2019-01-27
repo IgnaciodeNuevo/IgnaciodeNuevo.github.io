@@ -23,13 +23,14 @@
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
+        max-width: var(--a4-width);
         padding-bottom: var(--space-xl);
         padding-left: var(--space-m);
         padding-right: var(--space-m);
         padding-top: var(--space-xl);
         padding: var(--space-m);
         position: relative;
-        width: var(--a4-width);
+        width: 100%;
 
         @media (min-width: $mq-l) {
             padding: var(--space-xl);
@@ -53,7 +54,9 @@
 
     &__title,
     &__subtitle {
-        text-align: center;
+        @media (min-width: $mq-print) {
+            text-align: center;
+        }
 
         @media print {
             color: var(--color-primary);
@@ -65,20 +68,30 @@
     }
 
     &__section-title {
-        max-width: var(--cv-column-width);
-        text-align: right;
+        @media (min-width: $mq-print) {
+            max-width: var(--cv-column-width);
+            text-align: right;
+        }
     }
 
     &__row {
-        display: grid;
-        grid-gap: 2rem;
-        grid-template-columns: var(--cv-column-width) 1fr;
+        margin-bottom: var(--space-l);
+
+        @media (min-width: $mq-print) {
+            display: grid;
+            grid-gap: 2rem;
+            grid-template-columns: var(--cv-column-width) 1fr;
+            margin-bottom: 0;
+        }
     }
 
     &__row-title {
-        max-width: var(--cv-column-width);
-        text-align: right;
         width: 100%;
+
+        @media (min-width: $mq-print) {
+            max-width: var(--cv-column-width);
+            text-align: right;
+        }
     }
 
     &__content {
