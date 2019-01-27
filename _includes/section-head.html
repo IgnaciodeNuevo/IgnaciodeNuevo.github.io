@@ -11,9 +11,8 @@
     <link rel="stylesheet" href="/assets/css/main.css">
 
     <!-- Robots & indexing -->
-    {% if page.external %}
+    {% if page.norobots %}
         <meta name="robots" content="noindex,nofollow">
-        <meta http-equiv="refresh" content="0;url={{ page.external.url }}" />
     {% else %}
         <meta name="robots" content="index,follow">
         <meta name="revisit-after" content="1 days">
