@@ -1,31 +1,31 @@
 - name: Accessibility Weekly
   url: http://a11yweekly.com
 
-- name: CSS Layout Newsletter
+- name: CSS Layout
   url: http://csslayout.news
 
 - name: CSS Wizardry (Harry Roberts)
   url: http://csswizardry.com/2016/11/css-wizardry-newsletter/
 
-- name: CSS Weekly Newsletter
+- name: CSS Weekly
   url: http://css-weekly.com
 
-- name: CSS-Tricks Newsletter
+- name: CSS-Tricks
   url: https://css-tricks.com
 
-- name: Full Web Newsletter
+- name: Full Web
   url: http://fullweb.io
 
-- name: Ponyfoo Newsletter
+- name: Ponyfoo
   url: https://ponyfoo.com
 
-- name: Smashing Magazine Newsletter
+- name: Smashing Magazine
   url: https://www.smashingmagazine.com/the-smashing-newsletter
 
-- name: UI Animation Newsletter
+- name: UI Animation
   url: http://valhead.com/newsletter
 
-- name: Web Animation Weekly Newsletter
+- name: Web Animation Weekly
   url: http://rachelnabors.com/newsletters/
 
 - name: Web Design Weekly

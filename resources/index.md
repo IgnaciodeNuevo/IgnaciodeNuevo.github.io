@@ -1,8 +1,8 @@
 ---
-layout: default
-title: "Resources"
-excerpt: "Resouces for Web Developers."
+layout: list
+title: 'Resources'
 ---
+
 <h1>Resources for Web Developers</h1>
 
 List of resources to learn Frontend Web Design & Development curated by me, that I enjoyed reading, watching, listening to or using.
@@ -10,54 +10,64 @@ List of resources to learn Frontend Web Design & Development curated by me, that
 TL; DR
 
 <section class="articles-list">
-    <article class="article">
-        <p id="books">Books</p>
+        <h2 id="books">Books</h2>
         {% for resource in site.data.books %}
-            <h3>{{ resource.name }}</h3>
-            <p>
-                {% include icons/external.html %}
-                <a class="link link--special" href="{{ resource.url }}" target="_blank" rel="noopener">{{ resource.name }}'s Web</a>
-            </p>
+            <article class="article">
+                <div class="article__item" href="{{ resource.url }}" target="_blank" rel="noopener">
+                    <h3 class="article__subtitle">{{ resource.name }}</h3>
+                    <a class="btn btn--fill" href="{{ project.web }}">
+                        <span class="btn__text"><span class="u-visually-hidden">{{ resource.name }}'s</span> Book</span>
+                        {% include icons/external.html %}
+                    </a>
+                </div>
+            </article>
         {% endfor %}
-    </article>
-    <article class="article">
-        <p id="newsletters">Newsletters</p>
+        <h2 id="newsletters">Newsletters</h2>
         {% for resource in site.data.newsletters %}
-            <h3>{{ resource.name }}</h3>
-            <p>
-                {% include icons/external.html %}
-                <a class="link link--special" href="{{ resource.url }}" target="_blank" rel="noopener">{{ resource.name }}</a>
-            </p>
+            <article class="article">
+                <div class="article__item" href="{{ resource.url }}" target="_blank" rel="noopener">
+                    <h3 class="article__subtitle">{{ resource.name }}</h3>
+                    <a class="btn btn--fill" href="{{ project.web }}">
+                        <span class="btn__text"><span class="u-visually-hidden">{{ resource.name }}'s</span> Newsletter</span>
+                        {% include icons/external.html %}
+                    </a>
+                </div>
+            </article>
         {% endfor %}
-    </article>
-    <article class="article">
-        <p id="podcasts">Podcasts</p>
+        <h2 id="podcasts">Podcasts</h2>
         {% for resource in site.data.podcasts %}
-            <h3>{{ resource.name }}</h3>
-            <p>
-                {% include icons/external.html %}
-                <a class="link link--special" href="{{ resource.url }}" target="_blank" rel="noopener">{{ resource.name }}'s Web</a>
-            </p>
+            <article class="article">
+                <div class="article__item" href="{{ resource.url }}" target="_blank" rel="noopener">
+                    <h3 class="article__subtitle">{{ resource.name }}</h3>
+                    <a class="btn btn--fill" href="{{ project.web }}">
+                        <span class="btn__text"><span class="u-visually-hidden">{{ resource.name }}' </span>Web</span>
+                        {% include icons/external.html %}
+                    </a>
+                </div>
+            </article>
         {% endfor %}
-    </article>
-    <article class="article">
-        <p>Slack Channels</p>
+        <h2>Slack Channels</h2>
         {% for resource in site.data.slacks %}
-            <h3>{{ resource.name }}</h3>
-            <p>
-                {% include icons/external.html %}
-                <a class="link link--special" href="{{ resource.url }}" target="_blank" rel="noopener">{{ resource.name }}'s Slack Channel</a>
-            </p>
+            <article class="article">
+                <div class="article__item" href="{{ resource.url }}" target="_blank" rel="noopener">
+                    <h3 class="article__subtitle">{{ resource.name }}</h3>
+                    <a class="btn btn--fill" href="{{ project.web }}">
+                        <span class="btn__text"><span class="u-visually-hidden">{{ resource.name }}'s </span>Slack Channel</span>
+                        {% include icons/external.html %}
+                    </a>
+                </div>
+            </article>
         {% endfor %}
-    </article>
-    <article class="article">
-        <p>Webs of Resources</p>
+        <h2>Webs of Resources</h2>
         {% for resource in site.data.resources %}
-            <h3>{{ resource.name }}</h3>
-            <p>
-                {% include icons/external.html %}
-                <a class="link link--special" href="{{ resource.url }}" target="_blank" rel="noopener">{{ resource.name }}'s Web</a>
-            </p>
+            <article class="article">
+                <div class="article__item" href="{{ resource.url }}" target="_blank" rel="noopener">
+                    <h3 class="article__subtitle">{{ resource.name }}</h3>
+                    <a class="btn btn--fill" href="{{ project.web }}">
+                        <span class="btn__text"><span class="u-visually-hidden">{{ resource.name }}'s </span>Web</span>
+                        {% include icons/external.html %}
+                    </a>
+                </div>
+            </article>
         {% endfor %}
-    </article>
 </section>
