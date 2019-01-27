@@ -4,8 +4,8 @@
 
 // 1. Configuration and helpers
 @import
-  'abstracts/custom-properties',
   'abstracts/variables',
+  'abstracts/mq',
   'abstracts/functions',
   'abstracts/mixins/linear-gradient-line',
   'abstracts/mixins/arrows',
