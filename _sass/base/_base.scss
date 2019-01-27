@@ -99,8 +99,7 @@ img:not(.hero__img) {
 }
 
 .about,
-.content,
-.articles-list {
+.content {
     h1:not(.related__title),
     h2:not(.related__title),
     h3:not(.related__title),
@@ -128,8 +127,6 @@ img:not(.hero__img) {
     .picture + .h1-like,
     .highlight + h1,
     .highlight + .h1-like,
-    .article + h1,
-    .article + .h1-like,
     iframe + h1,
     iframe + .h1-like,
     ul + h1,
@@ -145,8 +142,6 @@ img:not(.hero__img) {
     .picture + .h2-like,
     .highlight + h2,
     .highlight + .h2-like,
-    .article + h2,
-    .article + .h2-like,
     iframe + h2,
     iframe + .h2-like,
     ul + h2,
@@ -162,8 +157,6 @@ img:not(.hero__img) {
     .picture + .h3-like,
     .highlight + h3,
     .highlight + .h3-like,
-    .article + h3,
-    .article + .h3-like,
     iframe + h3,
     iframe + .h3-like,
     ul + h3,
@@ -179,8 +172,6 @@ img:not(.hero__img) {
     .picture + .h4-like,
     .highlight + h4,
     .highlight + .h4-like,
-    .article + h4,
-    .article + .h4-like,
     iframe + h4,
     iframe + .h4-like,
     ul + h4,
@@ -196,8 +187,6 @@ img:not(.hero__img) {
     .picture + .h5-like,
     .highlight + h5,
     .highlight + .h5-like,
-    .article + h5,
-    .article + .h5-like,
     iframe + h5,
     iframe + .h5-like,
     ul + h5,
@@ -213,8 +202,6 @@ img:not(.hero__img) {
     .picture + .h6-like,
     .highlight + h6,
     .highlight + .h6-like,
-    .article + h6,
-    .article + .h6-like,
     iframe + h6,
     iframe + .h6-like,
     ul + h6,
@@ -225,6 +212,53 @@ img:not(.hero__img) {
     p + .h6-like {
         margin-top: 2.83em; // 2.33em + 0.5em (To hace more space above than below the heading)
     }
+}
+
+
+//
+// Same as above but avoiding the code below, can't be merged due to this MQ with the code above
+// @media (min-width: $mq-l) {
+//     margin-left: auto;
+//     margin-right: auto;
+//     max-width: var(--content-max-width);
+//     padding-right: calc(#{var(--content-max-width)} - #{var(--content-width)});
+//     width: 85%;
+// }
+// Paragraph + Heaing styles
+// To see heading default values see:
+// https://stackoverflow.com/questions/30980873/what-are-the-default-css-styling-of-heading-tags-h1-h2-h3-h4-h5
+//
+.articles-list {
+    .article + h1,
+    .article + .h1-like {
+        margin-top: 1.17em; // 0.67em + 0.5em (To hace more space above than below the heading)
+    }
+
+    .article + h2,
+    .article + .h2-like {
+        margin-top: 1.33em; // 0.83em + 0.5em (To hace more space above than below the heading)
+    }
+
+    .article + h3,
+    .article + .h3-like {
+        margin-top: 1.5em; // 1em + 0.5em (To hace more space above than below the heading)
+    }
+
+    .article + h4,
+    .article + .h4-like {
+        margin-top: 1.83em; // 1.33em + 0.5em (To hace more space above than below the heading)
+    }
+
+    .article + h5,
+    .article + .h5-like {
+        margin-top: 2.17em; // 1.67em + 0.5em (To hace more space above than below the heading)
+    }
+
+    .article + h6,
+    .article + .h6-like {
+        margin-top: 2.83em; // 2.33em + 0.5em (To hace more space above than below the heading)
+    }
+
 }
 
 //
