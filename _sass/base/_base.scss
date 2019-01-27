@@ -300,8 +300,8 @@ img:not(.hero__img) {
     color: var(--color-base-lightest);
     display: flex;
     flex-direction: column;
+    height: calc(100vh - var(--nav-height));
     justify-content: center;
-    min-height: calc(100vh - var(--nav-height));
     padding: var(--space-m);
     position: relative;
 
