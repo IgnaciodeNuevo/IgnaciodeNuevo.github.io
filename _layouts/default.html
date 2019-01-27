@@ -7,7 +7,11 @@
 
     {% include section-head.html %}
 
-    <body>
+    {% if page.page_class %}
+        <body class="{{ page.page_class }}">
+    {% else %}
+        <body>
+    {% endif %}
 
         {% include layout-offcanvas.html %}
         <div class="container">
