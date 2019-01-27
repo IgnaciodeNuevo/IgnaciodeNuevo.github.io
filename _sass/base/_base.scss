@@ -44,9 +44,10 @@ body.is-active .offcanvas {
     transform: translateX(0);
 }
 
-body.is-active .container {
-    transform: translateX(-100%);
-}
+// TOOD: Removed if not needed
+// body.is-active .container {
+//     transform: translateX(-100%);
+// }
 
 //
 // Basic UL and OL styles
