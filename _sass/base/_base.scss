@@ -311,6 +311,18 @@ img:not(.hero__img) {
 }
 
 //
+// Print media query
+//
+.print {
+    @media print {
+        .header,
+        .foo-wrapper {
+            display: none;
+        }
+    }
+}
+
+//
 // Prefers reduced motion
 // https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion
 //
