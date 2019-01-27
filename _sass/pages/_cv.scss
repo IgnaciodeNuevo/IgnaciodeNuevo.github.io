@@ -1,0 +1,8 @@
+.cv {
+    overflow: hidden;
+    position: relative;
+
+    &::after {
+        @include section("/Curriculum", var(--color-base-dark));
+    }
+}

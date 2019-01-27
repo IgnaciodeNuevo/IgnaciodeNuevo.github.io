@@ -1,5 +1,11 @@
 ---
 layout: default
+title: "Curriculum Vitae"
 ---
 
-# CV Ignacio Villanueva - Last Update: 02/08/2018
+<div class="cv">
+    <main class="page">
+        <h1>Ignacio's Curriculum Vitae</h1>
+        <p>I'm working on a responsive Curriculum Vitae!</p>
+    </main>
+</div>
