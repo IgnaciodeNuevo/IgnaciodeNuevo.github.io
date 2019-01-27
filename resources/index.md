@@ -3,10 +3,7 @@ layout: default
 title: "Resources"
 excerpt: "Resouces for Web Developers."
 ---
-<div>
-<img src="/assets/images/section-resources.jpg" alt="Photography by Todd Quackenbush" />
 <h1>Resources for Web Developers</h1>
-</div>
 
 List of resources to learn Frontend Web Design & Development curated by me, that I enjoyed reading, watching, listening to or using.
 
