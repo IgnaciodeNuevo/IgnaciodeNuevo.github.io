@@ -380,7 +380,7 @@ nav li.email a:hover {
 }
 
 /*=========================================
-Features & Clients List 
+Features & Clients List
 =========================================== */
 
 .features li,.clients li  {
@@ -416,7 +416,7 @@ box-shadow: 0 8px 16px rgba(0,20,80,.02),0 4px 16px rgba(0,0,0,.08);
 }
 
 /*===========================================
-flexblock.steps 
+flexblock.steps
 ============================================= */
 
 .steps li:nth-child(1) {
@@ -709,7 +709,7 @@ background-color: rgba(0, 20, 80, 0.06);
     border-image: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.4) 50%, transparent) 1 100%;
     -webkit-border-image: -webkit-linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.4) 50%, transparent) 1 100%;
     -moz-border-image: -moz-linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.4) 50%, transparent) 1 100%;
-    
+
   }
 }
 
@@ -743,7 +743,7 @@ tr:nth-child(even)>td:hover {
 
 
 /*============================
-Browser (Screenshots) 
+Browser (Screenshots)
 ============================== */
 
 .browser {
@@ -792,7 +792,7 @@ input:focus::-webkit-input-placeholder {
 a.button,[class*="badge-"]
 button[type="submit"],
 input {
-  box-shadow: 0px 10px 16px -8px rgba(0, 20, 80, 0.3);
+  box-shadow: 0 10px 16px -8px rgba(0, 20, 80, 0.3);
 }
 
 button,
@@ -803,7 +803,7 @@ button[type="submit"],
 input[type="submit"],
 .button,.button:hover,
 button[type="submit"]:hover,
-input[type="submit"]:hover 
+input[type="submit"]:hover
 {
   border: 1px solid #0047BB;
 }
@@ -824,7 +824,7 @@ background-color: #17d;
 .bg-primary .button,
 .bg-primary button,.bg-primary button:hover,
 .bg-primary input,
-[class*="bg-gradient-"] .button,[class*="bg-"] a.button.ghost 
+[class*="bg-gradient-"] .button,[class*="bg-"] a.button.ghost
 {
   border-color: #fff;
 }

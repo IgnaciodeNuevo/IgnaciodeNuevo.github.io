@@ -339,7 +339,7 @@ body {
 	.reveal .progress span {
 		display: block;
 		height: 100%;
-		width: 0px;
+		width: 0;
 
 		background-color: white;
 		transition: width 800ms cubic-bezier(0.260, 0.860, 0.440, 0.985);
@@ -405,7 +405,7 @@ body {
 	display: none;
 	position: absolute;
 	width: 100%;
-	padding: 20px 0px;
+	padding: 20px 0;
 
 	z-index: 10;
 	transform-style: preserve-3d;
@@ -635,7 +635,7 @@ body {
 		z-index: 1;
 
 		border-radius: 4px;
-		box-shadow: 0px 95px 25px rgba(0,0,0,0.2);
+		box-shadow: 0 95px 25px rgba(0,0,0,0.2);
 		transform: translateZ(-90px) rotateX( 65deg );
 	}
 
@@ -705,7 +705,7 @@ body {
 		z-index: 1;
 
 		border-radius: 4px;
-		box-shadow: 0px 95px 25px rgba(0,0,0,0.2);
+		box-shadow: 0 95px 25px rgba(0,0,0,0.2);
 
 		-webkit-transform: translateZ(-90px) rotateX( 65deg );
 	}
@@ -1313,7 +1313,7 @@ body {
 }
 	.reveal .roll:hover span {
 	    background: rgba(0,0,0,0.5);
-	    transform: translate3d( 0px, 0px, -45px ) rotateX( 90deg );
+	    transform: translate3d( 0, 0, -45px ) rotateX( 90deg );
 	}
 .reveal .roll span:after {
 	content: attr(data-title);
@@ -1325,7 +1325,7 @@ body {
 	padding: 0 2px;
 	backface-visibility: hidden;
 	transform-origin: 50% 0%;
-	transform: translate3d( 0px, 110%, 0px ) rotateX( -90deg );
+	transform: translate3d( 0, 110%, 0 ) rotateX( -90deg );
 }
 
 

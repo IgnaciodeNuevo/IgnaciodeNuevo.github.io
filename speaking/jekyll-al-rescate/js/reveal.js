@@ -1340,7 +1340,7 @@
 
 			// Change the .stretch element height to 0 in order find the height of all
 			// the other elements
-			element.style.height = '0px';
+			element.style.height = '0';
 			newHeight = height - element.parentNode.offsetHeight;
 
 			// Restore the old height, just in case
