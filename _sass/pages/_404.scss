@@ -1,0 +1,8 @@
+.error-404 {
+    overflow: hidden;
+    position: relative;
+
+    &::after {
+        @include section("/Error 404", var(--color-base-dark));
+    }
+}

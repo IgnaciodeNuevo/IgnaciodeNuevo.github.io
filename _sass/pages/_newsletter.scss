@@ -1,0 +1,8 @@
+.newsletter {
+    overflow: hidden;
+    position: relative;
+
+    &::after {
+        @include section("/Ñewsletter", var(--color-base-dark));
+    }
+}

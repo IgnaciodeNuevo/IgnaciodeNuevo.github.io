@@ -1,0 +1,8 @@
+.curso-css {
+    overflow: hidden;
+    position: relative;
+
+    &::after {
+        @include section("/Curso CSS", var(--color-base-dark));
+    }
+}
