@@ -1,8 +1,110 @@
 .cv {
+    background-color: var(--color-base-dark);
+    background-image: url("/assets/images/pattern.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     overflow: hidden;
     position: relative;
 
+    @media print {
+        background-color: initial;
+        background-image: initial;
+    }
+
     &::after {
         @include section("/Curriculum", var(--color-base-dark));
+    }
+
+    &__page {
+        color: var(--color-base-lightest);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        min-height: calc(100vh - var(--nav-height));
+        padding-bottom: var(--space-xl);
+        padding-left: var(--space-m);
+        padding-right: var(--space-m);
+        padding-top: var(--space-xl);
+        padding: var(--space-m);
+        position: relative;
+        width: var(--a4-width);
+
+        @media (min-width: $mq-l) {
+            padding: var(--space-xl);
+        }
+
+        @media (min-width: $mq-s) {
+            padding-left: var(--space-l);
+            padding-right: var(--space-l);
+        }
+
+        @media (min-width: $mq-l) {
+            padding-bottom: var(--space-xxl);
+            padding-top: var(--space-xxl);
+        }
+
+        @media print {
+            color: var(--color-base-dark);
+            padding: 0;
+        }
+    }
+
+    &__title,
+    &__subtitle {
+        text-align: center;
+
+        @media print {
+            color: var(--color-primary);
+        }
+    }
+
+    &__section {
+        margin-bottom: var(--space-l);
+    }
+
+    &__section-title {
+        max-width: var(--cv-column-width);
+        text-align: right;
+    }
+
+    &__row {
+        display: grid;
+        grid-gap: 2rem;
+        grid-template-columns: var(--cv-column-width) 1fr;
+    }
+
+    &__row-title {
+        max-width: var(--cv-column-width);
+        text-align: right;
+        width: 100%;
+    }
+
+    &__content {
+        margin-bottom: var(--space-l);
+    }
+
+    &__list {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .h5-like,
+    .h6-like {
+        margin-bottom: 0.67em;
+    }
+
+    h3,
+    h4,
+    p {
+        margin-bottom: 0;
+    }
+
+    @media print {
+        .link {
+            text-decoration: none;
+        }
     }
 }
