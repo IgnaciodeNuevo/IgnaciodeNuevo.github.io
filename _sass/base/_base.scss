@@ -229,6 +229,10 @@ img:not(.hero__img) {
 // https://stackoverflow.com/questions/30980873/what-are-the-default-css-styling-of-heading-tags-h1-h2-h3-h4-h5
 //
 .articles-list {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--container-max-width);
+
     .article + h1,
     .article + .h1-like {
         margin-top: 1.17em; // 0.67em + 0.5em (To hace more space above than below the heading)
@@ -258,7 +262,6 @@ img:not(.hero__img) {
     .article + .h6-like {
         margin-top: 2.83em; // 2.33em + 0.5em (To hace more space above than below the heading)
     }
-
 }
 
 //
@@ -334,8 +337,8 @@ img:not(.hero__img) {
     color: var(--color-base-lightest);
     display: flex;
     flex-direction: column;
-    min-height: 30rem; // Magic String: Do not change/remove
     justify-content: center;
+    min-height: 30rem; // Magic String: Do not change/remove
     padding: var(--space-m);
     position: relative;
 
