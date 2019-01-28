@@ -5,6 +5,7 @@ tags:
   - Event
 lang: es
 page_class: post
+description: Do you know when you think you've found the kind of event you like best? Well after the IndieWebCamp Brighton 2016 (an Open Space), I can say that it is clearly the event where I feel more comfortable, I suppose it is because of its informality and desire to share.
 ---
 
 Parece mentira que haga tanto tiempo que no me pongo a escribir en el blog, pero esta vez merece enormemente la pena. El año pasado tuve la oportunidad de asistir a mi primer evento internacional, <a class="link link--special" href="/2016/10/06/indie-web-camp-brighton-2016/" target="_blank" rel="noopener">IndieWebCamp Brighton 2016</a> que tuvo lugar en las oficinas de <a class="link link--special" href="https://clearleft.com/" target="_blank" rel="noopener">Clearleft</a>.

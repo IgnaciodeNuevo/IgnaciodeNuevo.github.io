@@ -5,6 +5,7 @@ tags:
   - Diversity
 lang: es
 page_class: post
+description: He sido machista, bueno, lo soy, pero creo que están en todos mejorar como personas e intentar hacerle lo más fácil posible la vida a quienes nos rodean, no por palabrearía, si no, ¿para qué estar todo el día a malas? Somos gran parte del problema, toca cambiarlo.
 ---
 
 Cuando abrí esta Web lo planteaba como un lugar donde hablar sobre mi profesión. Hará un par de años se me ocurría que escribiría únicamente en inglés (por aquello de forzarme a mejorar), para mostrar mis proyectos personales y profesionales.

@@ -5,6 +5,7 @@ tags:
   - Personal
 lang: en
 page_class: post
+description: You know that feeling where you think everything's going faster than you'd like? It's happened to me, well, I really suppose it happens to many of us, there are so many new things that you won't be able to learn everything. I had the feeling that I'll never know enough.
 ---
 
 Let's start at the beginning. I started using the web since the terrible time of 11kb modems. I began playing video games lot of years ago and since then I've been tinkering with old table based layouts.

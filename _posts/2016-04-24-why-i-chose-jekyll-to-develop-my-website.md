@@ -6,6 +6,7 @@ tags:
   - Personal
 lang: en
 page_class: post
+description: When you start in the sector you don't know what to use to create your projects... There are so many different tools that you go crazy! It happened to me, I didn't know if to use a WordPress, to do everything by hand without help... So I decided on Jekyll.
 ---
 
 Today I'll be sharing why I chose Jekyll to develop my website and why it wasn't trivial for me.

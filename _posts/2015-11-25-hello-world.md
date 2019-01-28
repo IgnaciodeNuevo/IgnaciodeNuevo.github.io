@@ -5,11 +5,10 @@ tags:
   - Personal
 lang: en
 page_class: post
+description: Hi! First clarify that this is going to be the blog of my personal trip into Frontend Develpment, where I'll be sharing my thougts on many topics related to Web Industry, CSS and Sass, architecture, frontend performance, accessibility, typography and responsive web design.
 ---
 
-Hi! First clarify that this is going to be the blog of my personal trip into Frontend Develpment, where I'll be sharing my thougts on many topics related to Web Industry, CSS and Sass, architecture, frontend performance and responsive web design.
-
-So lets start.
+Lets start.
 
 I've built this site is because I have a problem, a big one and I want to fix it. Really like is to improve my writing skills due to, I am not a native English speaker and think I don't write well enought so, this one week blog post idea might help me to step by step write better every post I'll publish. I'm really trying to do my best to improve as a Frontend and with my writing skills. Besides this another thing that could help me is to fill this blank space, where everyone seems to be scared.
 

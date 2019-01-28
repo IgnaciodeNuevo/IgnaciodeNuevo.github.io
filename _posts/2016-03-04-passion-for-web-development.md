@@ -7,6 +7,7 @@ tags:
   - Personal
 lang: en
 page_class: post
+description: I always wanted to devote myself to the graphic arts industry, they made me happy, unfortunately for some time now, my old sector was not going well. The company he worked for went broke, so I decided to change. I have arrived to stay! Someday, I'll be a senior.
 ---
 
 Frontend seems to be easy until you start learning it. This feeling took me a year to get this conclusion, after the Master of Web Development and Graphic Design I did from December (2013) to May (2014) in <a class="link link--special" href="/2016/02/28/my-interest-in-web-development/" target="_blank" rel="noopener">Trazos</a> where I had no idea how to guide my way in this long effor of learning frontend Web Development, digging up many websites to learn lot of new technologies and more I've discovered one important fact: "learn new topics every day and maintain to date" is the best way in the road to success.

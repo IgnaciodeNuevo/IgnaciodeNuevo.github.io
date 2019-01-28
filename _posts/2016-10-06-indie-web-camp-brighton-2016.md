@@ -5,6 +5,7 @@ tags:
   - Event
 lang: en
 page_class: post
+description: Since I'm in the Web industry I've already been to several events, although it is true that there are things I like more of some than others this time has been incredible, going to meet people whom I admire professionally, to another country has been spectacular.
 ---
 
 It was a meeting for independent web creators (everyone from newbies to hackers) to share ideas and actively create things for our personal websites.

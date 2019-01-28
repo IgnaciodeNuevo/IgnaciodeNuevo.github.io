@@ -6,6 +6,7 @@ tags:
   - Frontend
 lang: en
 page_class: post
+description: You start in this industry, knowing almost nothing. So, for this year I have made decisions on how to focus my future and what to learn. For that reason, I thought that the next clear step will be to start learning JavaScript well. Here are some ideas about it.
 ---
 
 I know, I know, we are in the middle of February and New Year's Resolutions are not something to talk about now, but I've been quite busy with a big project, (so I couldn't have time to update my WebSite and blog a lot). For me it is time to say what are my New Year's Resolutions and my next step learning Frontend Development is to start learning <a class="link link--special" href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" rel="noopener">JavaScript</a>.

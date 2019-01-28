@@ -7,6 +7,7 @@ tags:
   - Personal
 lang: en
 page_class: post
+description: Everyone has a clear interest in their job, some people are just a means to survive and pay bills, which, flatter, is completely normal, to other people, we happen to love our profession (let's not fall into the classicism with this, please). Do you like your job?
 ---
 
 When I was young, approximately when was eight years old I started learning to program with an amazing teacher called Iñaki. He started teaching me and old programming language called Turbo Pascal, long long time ago, but as every kid I did something worng and I was punished with no more programming classes.

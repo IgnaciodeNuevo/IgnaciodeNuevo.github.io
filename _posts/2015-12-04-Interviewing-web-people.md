@@ -5,6 +5,7 @@ tags:
   - Interviews
 lang: en
 page_class: post
+description: I've started in the industry not knowing a lot, so I've decided to ask people I admire if they would like to answer a small interview for my web, so I can know what you can do as junior developer to start learning, what things are more importand and so on. Here is the why.
 ---
 
 Today is a very exciting day, a really one. I talked with a friend of mine to do a pocast. Why? Because we thought, why not to talk about our interests and our hobbies, wich are crafting things, testing new technologies, new platforms and why not share our experiences with others... but, after a few hours chatting about this and researching how to start a podcast I thought why not to make it in English, because as I mentiones before <a class="link link--special" href="{{ site.url }}/2015/11/25/hello-world/">here</a> I am not a native English speaker so apart from knowing I do not write well enought and my friend's speaking skills and mine are also not so good this project will be difficult for us.
