@@ -18,7 +18,13 @@
         text-align: center;
     }
 
-    h1,
+    // TOOD: Review if it works something
+    h1:not(.post h1),
+    h2:not(.post h2),
+    h3:not(.post h3),
+    h4:not(.post h4),
+    h5:not(.post h5),
+    h6:not(.post h6),
     p:not(.language__text),
     .language {
         margin-left: auto;
