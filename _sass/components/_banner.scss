@@ -2,17 +2,17 @@
 // This file contains all styles related to the "Update Browser" banner component.
 // -------------------------------------------------------------------------------
 .banner {
-    display: none;
+    background-color: #0047bb;
+    bottom: 0;
+    color: #ffffff;
+    display: block;
+    padding: 1rem; // Magic String: Do not change/remove
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    z-index: 4; // Magic String: Do not change/remove
 
-    @supports not (--border: 1px) {
-        background-color: #0047bb;
-        bottom: 0;
-        color: #ffffff;
-        display: block;
-        padding: 1rem; // Magic String: Do not change/remove
-        position: fixed;
-        text-align: center;
-        width: 100%;
-        z-index: 4; // Magic String: Do not change/remove
+    @supports (--border: 1px) {
+        display: none;
     }
 }
