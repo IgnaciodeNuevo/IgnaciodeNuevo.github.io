@@ -3,11 +3,11 @@ layout: list
 title: 'Resources'
 ---
 
-<h1>Resources for Web Developers</h1>
+<h1 class="main__title">Resources for Web Developers</h1>
 
-List of resources to learn Frontend Web Design & Development curated by me, that I enjoyed reading, watching, listening to or using.
+<p class="main__text">List of resources to learn Frontend Web Design & Development curated by me, that I enjoyed reading, watching, listening to or using.</p>
 
-TL; DR
+<p class="main__title">TL; DR</p>
 
 <section class="articles-list">
         <h2 id="books">Books</h2>

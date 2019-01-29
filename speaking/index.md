@@ -3,9 +3,9 @@ layout: list
 title: "Speaking"
 ---
 
-<h1>Speaking</h1>
+<h1 class="main__title">Speaking</h1>
 
-It does not happen that often! Here are the talks I've given and slides.
+<p class="main__text">It does not happen that often! Here are the talks I've given and slides.</p>
 
 <section class="articles-list">
     {% for talk in site.data.speaking %}

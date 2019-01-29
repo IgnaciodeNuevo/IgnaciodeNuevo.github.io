@@ -5,9 +5,9 @@ excerpt: 'A list of all my open-sourced projects, all hosted on GitHub. Fair war
 anymore.'
 ---
 
-<h1>Development Projects</h1>
+<h1 class="main__title">Development Projects</h1>
 
-When I can, I try to invest my in <a class="link link--special" href="{{ site.github }}">open-source projects</a>. Here are a few of them I initiated myself:
+<p class="main__text">When I can, I try to invest my in <a class="link link--special" href="{{ site.github }}">open-source projects</a>. Here are a few of them I initiated myself:</p>
 
 <section class="articles-list">
     {% for project in site.data.projects %}

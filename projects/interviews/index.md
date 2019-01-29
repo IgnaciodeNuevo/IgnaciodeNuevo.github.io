@@ -4,11 +4,11 @@ title: 'Interviews'
 excerpt: 'Interviews with the most influential developers of the industry and people think interesting to follow because of their work.'
 ---
 
-<h1>Interviews with Developers</h1>
+<h1 class="main__title">Interviews with Developers</h1>
 
-It does not happen _that_ often, but sometimes I have the pleasure to interview some of the most amazing web developers arround the globe!
+<p class="main__text">It does not happen <em>that</em> often, but sometimes I have the pleasure to interview some of the most amazing web developers arround the globe!</p>
 
-Many will realize that I haven't interviewed any woman but as far as I have tried, no woman has accepted, so if you are one, let me interview you! We need #womenintech
+<p class="main__text">Many will realize that I haven't interviewed any woman but as far as I have tried, no woman has accepted, so if you are one, let me interview you! We need #womenintech</p>
 
 <section class="articles-list">
     {% for interview in site.data.interviews %}
