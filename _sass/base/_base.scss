@@ -80,12 +80,14 @@ ol {
 // Add greyscale filter to every image in the website
 //
 img:not(.hero__img) {
-    filter: grayscale(75%);
+    @media (min-width: $mq-l) {
+        filter: grayscale(75%);
 
-    @include transition(filter);
+        @include transition(filter);
 
-    &:hover {
-        filter: initial;
+        &:hover {
+            filter: initial;
+        }
     }
 }
 
