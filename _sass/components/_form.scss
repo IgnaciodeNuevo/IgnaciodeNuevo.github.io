@@ -32,8 +32,8 @@
         @include caption();
     }
 
-    input,
-    textarea {
+    &__input,
+    &__textarea {
         &:focus {
             &:valid {
                 background-image: url("/assets/images/icon-valid.svg");
