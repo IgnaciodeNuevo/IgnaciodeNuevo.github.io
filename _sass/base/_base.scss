@@ -331,11 +331,8 @@ img:not(.hero__img) {
 // Page design: /404, /newsletter and /curso-css (without content)
 //
 .page {
-    background-color: var(--color-base-dark);
-    background-image: url("/assets/images/pattern.svg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    @include pattern();
+
     color: var(--color-base-lightest);
     display: flex;
     flex-direction: column;

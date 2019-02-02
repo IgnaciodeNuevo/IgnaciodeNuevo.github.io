@@ -2,8 +2,8 @@
 // This file contains all styles related to the syntax highlighter
 // ----------------------------------------------------------------
 .highlight {
-    background-color: var(--color-base-medium);
-    background-image: url("/assets/images/pattern.svg");
+    @include pattern();
+
     color: var(--color-base-lightest);
     margin-left: calc(var(--space-m) * -1);
     margin-right: calc(var(--space-m) * -1);

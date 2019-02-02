@@ -2,8 +2,8 @@
 // This file contains all styles related to the .masthead component.
 // -----------------------------------------------------------------
 .masthead {
-    background-color: var(--color-base-medium);
-    background-image: url("/assets/images/pattern.svg");
+    @include pattern();
+
     margin-bottom: var(--space-l);
     margin-left: calc(#{var(--space-m)} * -1); // Helps element grow moving out its container, delimited by paddings
     margin-right: calc(#{var(--space-m)} * -1); // Helps element grow moving out its container, delimited by paddings
