@@ -1,17 +1,20 @@
 <form class="form" name="contact" action="/success/" method="POST" data-netlify="true">
     <p class="h3-like">Get in touch</p>
-    <p class="small">(All fields are required)</p>
 
     <label class="h4-like" for="name">Who are you?</label>
     <span class="label-desc">Name, company, how should I call you.</span>
     <input id="name" type="text" name="name" placeholder="J. Doe" required />
+    <span class="help-text">* Who are you is a required field</span>
 
     <label class="h4-like" for="email">Your email address</label>
     <span class="label-desc">So that I can recontact you.</span>
     <input id="email" type="email" name="email" placeholder="j.doe@mail.com" required />
+    <span class="help-text">* Your email a required field</span>
 
     <label class="h4-like" for="message">Your message</label>
+    <span class="label-desc">What can I do for you?</span>
     <textarea id="message" name="message" rows="8" placeholder="I would like to contact you..." required></textarea>
+    <span class="help-text">* Your message a required field</span>
 
     <button class="btn btn--fill" type="submit">
         <span class="btn__text">Send</span>
