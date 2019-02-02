@@ -21,24 +21,24 @@ wrapper_class: speaking-wrapper
                     <p class="article__description">{{ talk.description }}</p>
                     <div class="article__links">
                         <a class="btn btn--fill" href="/speaking/{{ talk.url }}">
-                            <span class="btn__text">Slides</span>
+                            <span class="btn__text"><span class="u-visually-hidden">{{ talk.name }}'s</span> Slides</span>
                             {% include icons/external.html %}
                         </a>
                         {% if talk.video %}
                             <a class="btn btn--fill" href="{{ talk.video }}" target="_blank" rel="noopener">
-                                <span class="btn__text">Video</span>
+                                <span class="btn__text"><span class="u-visually-hidden">{{ talk.name }}'s</span> Video</span>
                                 {% include icons/external.html %}
                             </a>
                         {% endif %}
                         {% if talk.workshop %}
                             <a class="btn btn--fill" href="{{ talk.workshop }}" target="_blank" rel="noopener">
-                                <span class="btn__text">Workshop</span>
+                                <span class="btn__text"><span class="u-visually-hidden">{{ talk.name }}'s</span> Workshop</span>
                                 {% include icons/external.html %}
                             </a>
                         {% endif %}
                         {% if talk.codepen %}
                             <a class="btn btn--fill" href="{{ talk.codepen }}" target="_blank" rel="noopener">
-                                <span class="btn__text">Codepen</span>
+                                <span class="btn__text"><span class="u-visually-hidden">{{ talk.name }}'s</span> Codepen</span>
                                 {% include icons/external.html %}
                             </a>
                         {% endif %}

@@ -28,11 +28,11 @@ wrapper_class: interviews-wrapper
                         </div>
                         <div class="article__links">
                             <a class="btn btn--fill" href="/projects/interviews/{{ interview.url }}">
-                                <span class="btn__text">Interview</span>
+                                <span class="btn__text"><span class="u-visually-hidden">{{ interview.name }}'s</span> Interview</span>
                                 {% include icons/arrow-enter.html %}
                             </a>
                             <a class="btn btn--fill" href="{{ interview.twitter }}" target="_blank" rel="noopener">
-                                <span class="btn__text">Twitter</span>
+                                <span class="btn__text"><span class="u-visually-hidden">{{ interview.name }}'s</span> Twitter</span>
                                 {% include icons/twitter.html %}
                             </a>
                         </div>

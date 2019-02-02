@@ -23,18 +23,18 @@ wrapper_class: projects-wrapper
                     <div class="article__links">
                         {% if project.external %}
                             <a class="btn btn--fill" href="{{ project.web }}" target="_blank" rel="noopener">
-                                <span class="btn__text">Web</span>
+                                <span class="btn__text"><span class="u-visually-hidden">{{ project.name }}'s</span> Web</span>
                                 {% include icons/external.html %}
                             </a>
                         {% else %}
                             <a class="btn btn--fill" href="{{ project.web }}">
-                                <span class="btn__text">Web</span>
+                                <span class="btn__text"><span class="u-visually-hidden">{{ project.name }}'s</span> Web</span>
                                 {% include icons/arrow-enter.html %}
                             </a>
                         {% endif %}
                         {% if project.case_study %}
                             <a class="btn btn--fill" href="/projects/{{ project.case_study }}">
-                                <span class="btn__text">Case Study</span>
+                                <span class="btn__text"><span class="u-visually-hidden">{{ project.name }}'s</span> Case Study</span>
                                 {% include icons/arrow-enter.html %}
                             </a>
                         {% endif %}
