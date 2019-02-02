@@ -57,6 +57,7 @@
 
         @include all-small-caps();
         @include body-small();
+        @include transition(border-bottom);
 
         &:hover,
         &.is-active {
