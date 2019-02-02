@@ -1,6 +1,7 @@
 ---
 layout: list
 title: 'Resources'
+wrapper_class: resources-wrapper
 ---
 
 <h1 class="main__title">Resources for Web Developers</h1>

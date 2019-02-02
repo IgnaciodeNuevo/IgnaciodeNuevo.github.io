@@ -1,18 +1,12 @@
 .cv {
     @include pattern();
 
-    overflow: hidden;
-    position: relative;
-
-
     @media print {
         background-color: initial;
         background-image: initial;
     }
 
-    &:after {
-        @include section("/Curriculum", var(--color-base-dark));
-    }
+    @include section("/Curriculum", var(--color-base-dark));
 
     &__page {
         color: var(--color-base-lightest);

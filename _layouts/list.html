@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+{% if page.wrapper_class %}
+    <div class="{{ page.wrapper_class }}">
+{% endif %}
 {% if page.page_class %}
     <main class="main {{ page.page_class }}" role="main">
 {% else %}
@@ -8,3 +11,6 @@ layout: default
 {% endif %}
         {{ content }}
     </main>
+{% if page.wrapper_class %}
+</div>
+{% endif %}

@@ -1,48 +1,42 @@
 ---
-layout: default
+layout: list
 title: "Search"
+wrapper_class: search-wrapper
 ---
+<h1 class="main__title">Search</h1>
 
-{% if page.page_class %}
-    <main class="main {{ page.page_class }}" role="main">
-{% else %}
-    <main class="main" role="main">
-{% endif %}
-    <h1 class="main__title">Search</h1>
+<p class="main__text">If you are looking for something specific, what about giving it a search?</p>
 
-    <p class="main__text">If you are looking for something specific, what about giving it a search?</p>
+<p class="main__text">You can also look for other topics in my <a class="link link--special" href="/tags">tags</a> system.</p>
 
-    <p class="main__text">You can also look for other topics in my <a class="link link--special" href="/tags">tags</a> system.</p>
+<!-- Get the tag name for every tag on the site and set them
+to the `site_tags` variable. -->
 
-    <!-- Get the tag name for every tag on the site and set them
-    to the `site_tags` variable. -->
+{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 
-    {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+<!-- `tag_words` is a sorted array of the tag names. -->
 
-    <!-- `tag_words` is a sorted array of the tag names. -->
+{% assign tag_words = site_tags | split:',' | sort %}
 
-    {% assign tag_words = site_tags | split:',' | sort %}
+<!-- List of all tags -->
+<div class="tags__list">
+{% for item in (0..site.tags.size) %}{% unless forloop.last %}
+    {% capture this_word %}{{ tag_words[item] }}{% endcapture %}
+    <a class="btn btn--fill" href="/tags/#{{ this_word | cgi_escape }}">
+        {% include icons/tag.html %}
+        <span>{{ this_word }} ({{ site.tags[this_word].size }})</span>
+    </a>
+{% endunless %}{% endfor %}
+</div>
 
-    <!-- List of all tags -->
-    <div class="tags__list">
-    {% for item in (0..site.tags.size) %}{% unless forloop.last %}
-        {% capture this_word %}{{ tag_words[item] }}{% endcapture %}
-        <a class="btn btn--fill" href="/tags/#{{ this_word | cgi_escape }}">
-            {% include icons/tag.html %}
-            <span>{{ this_word }} ({{ site.tags[this_word].size }})</span>
-        </a>
-    {% endunless %}{% endfor %}
-    </div>
+<noscript>Unfortunately this site has no search available, so please enable JavaScript in your browser to be able to use the search engine.</noscript>
 
-    <noscript>Unfortunately this site has no search available, so please enable JavaScript in your browser to be able to use the search engine.</noscript>
+<form class="form">
+    <label class="h3-like" for="search">What would you like to look for?</label>
+    <input type="text" class="js-search" id="search" placeholder="Resumen del 2017..." role="search">
+</form>
 
-    <form class="form">
-        <label class="h3-like" for="search">What would you like to look for?</label>
-        <input type="text" class="js-search" id="search" placeholder="Resumen del 2017..." role="search">
-    </form>
-
-    <ul class="articles-list" id="results-container"></ul>
-</main>
+<ul class="articles-list" id="results-container"></ul>
 
 <script src="/assets/js/jekyll-search.js"></script>
 <script>

@@ -2,12 +2,7 @@
 // This file contains all styles related to the media section of the home page
 // -----------------------------------------------------------------------------
 .media-wrapper {
-    overflow: hidden;
-    position: relative;
-
-    &:after {
-        @include section("/Media", var(--color-base-dark));
-    }
+    @include section("/Media", var(--color-base-dark));
 }
 
 .media {

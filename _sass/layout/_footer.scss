@@ -2,12 +2,7 @@
 // This file contains all styles related to the footer of the website.
 // -----------------------------------------------------------------------------
 .foo-wrapper {
-    overflow: hidden;
-    position: relative;
-
-    &:after {
-        @include section("/Info", var(--color-secondary--darker));
-    }
+    @include section("/Info", var(--color-secondary--darker));
 }
 
 .foo {

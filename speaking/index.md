@@ -1,6 +1,7 @@
 ---
 layout: list
 title: "Speaking"
+wrapper_class: speaking-wrapper
 ---
 
 <h1 class="main__title">Speaking</h1>

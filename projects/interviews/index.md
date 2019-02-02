@@ -1,7 +1,7 @@
 ---
 layout: list
-title: 'Interviews'
-excerpt: 'Interviews with the most influential developers of the industry and people think interesting to follow because of their work.'
+title: 'Projects'
+wrapper_class: interviews-wrapper
 ---
 
 <h1 class="main__title">Interviews with Developers</h1>

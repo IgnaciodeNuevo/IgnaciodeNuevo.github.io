@@ -1,8 +1,8 @@
 ---
 layout: list
+layout: list
 title: 'Projects'
-excerpt: 'A list of all my open-sourced projects, all hosted on GitHub. Fair warning: some of them are not maintained
-anymore.'
+wrapper_class: projects-wrapper
 ---
 
 <h1 class="main__title">Development Projects</h1>
