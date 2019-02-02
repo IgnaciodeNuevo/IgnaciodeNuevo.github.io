@@ -1,6 +1,7 @@
 ---
 layout: list
 page_class: tags
+wrapper_class: tags-wrapper
 ---
 
 <!-- Get the tag name for every tag on the site and set them
