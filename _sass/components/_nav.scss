@@ -21,14 +21,6 @@
         text-decoration: none; // TODO: Remove when the .beta is removed
     }
 
-    .logo {
-        @include transition(fill);
-
-        &:hover {
-            fill: var(--color-primary);
-        }
-    }
-
     .btn {
         @media (min-width: $mq-s) {
             display: none;
