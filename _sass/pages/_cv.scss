@@ -12,7 +12,7 @@
         background-image: initial;
     }
 
-    &::after {
+    &:after {
         @include section("/Curriculum", var(--color-base-dark));
     }
 

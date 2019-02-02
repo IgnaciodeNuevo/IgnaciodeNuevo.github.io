@@ -5,7 +5,7 @@
     overflow: hidden;
     position: relative;
 
-    &::after {
+    &:after {
         @include section("/Media", var(--color-base-dark));
     }
 }

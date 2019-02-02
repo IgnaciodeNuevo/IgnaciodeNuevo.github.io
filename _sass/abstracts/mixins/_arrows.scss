@@ -2,7 +2,7 @@
     position: relative;
     z-index: 10;
 
-    &::after {
+    &:after {
         content: '';
         width: 0;
         height: 0;

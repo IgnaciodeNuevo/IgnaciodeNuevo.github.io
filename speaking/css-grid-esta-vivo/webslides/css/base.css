@@ -184,7 +184,7 @@ html {
 
 *,
 *::before,
-*::after {
+*:after {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
   box-sizing: inherit;
@@ -284,7 +284,7 @@ p + hr {
 }
 
 /*
-hr::after {
+hr:after {
     position: relative;
     top: -2.4rem;
     font-size: 2.4rem;

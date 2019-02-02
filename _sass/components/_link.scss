@@ -30,7 +30,7 @@
                 border: 1px dotted var(--color-primary); // Magic String: Do not change/remove
             }
 
-            &::after {
+            &:after {
                 background: var(--linear-gradient);
                 border-radius: var(--border-radius-xxs);
                 bottom: 0;
@@ -43,7 +43,7 @@
             }
         }
 
-        &:hover::after {
+        &:hover:after {
             @supports (background-clip: text) or (-webkit-background-clip: text) {
                 opacity: 1;
             }

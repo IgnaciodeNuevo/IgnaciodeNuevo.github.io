@@ -2,7 +2,7 @@
     overflow: hidden;
     position: relative;
 
-    &::after {
+    &:after {
         @include section("/Ñewsletter", var(--color-base-dark));
     }
 }

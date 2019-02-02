@@ -2,7 +2,7 @@
     overflow: hidden;
     position: relative;
 
-    &::after {
+    &:after {
         @include section("/Error 404", var(--color-base-dark));
     }
 }

@@ -22,7 +22,7 @@
         width: 50%;
     }
 
-    &::after {
+    &:after {
         clear: both;
         content: "";
         display: table;
