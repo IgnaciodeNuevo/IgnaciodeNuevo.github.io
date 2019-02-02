@@ -1,0 +1,7 @@
+@mixin pattern() {
+    background-color: var(--color-base-dark);
+    background-image: url("/assets/images/pattern.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
