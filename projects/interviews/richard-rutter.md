@@ -6,7 +6,7 @@ title: "Richard Rutter"
 
 ## To all those don't meet you yet. How do you describe yourself?
 
-<img class="portrait portrait--xxl" src="/assets/images/portrait-richard-rutter.jpg" alt="Photo Richard Rutter"  />
+<img class="portrait portrait--xxl" src="/assets/images/portrait-richard-rutter.jpg" alt="Richard Rutter's prtrait"  />
 
 I’m a web person through and through. Day to day I help run <a class="link link--special" href="http://clearleft.com/"  target="_blank" rel="noopener">Clearleft</a>, a digital design consultancy and studio I co-founded. Within that, I’m a user experience designer and a web typography advocate/consultant. In the early days, way before starting <a class="link link--special" href="http://clearleft.com/"  target="_blank" rel="noopener">Clearleft</a>, I was a frontend developer and I still like to keep my hand in.
 

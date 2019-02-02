@@ -6,7 +6,7 @@ title: "Stephen Hay"
 
 ## To all those don't meet you yet. How do you describe yourself?
 
-<img class="portrait portrait--xxl" src="/assets/images/portrait-stephen-hay.jpg" alt="Photo Stephen Hay"/>
+<img class="portrait portrait--xxl" src="/assets/images/portrait-stephen-hay.jpg" alt="Stephen Hay's prtrait"/>
 
 I'm assuming you mean in the "work" sense. :-) I'm a designer who codes. I was schooled as a designer, did print design and later art direction for several years. Then I started doing web design and learned frontend technologies. Currently I use that knowledge and experience to help organisations figure out how to solve web-related problems in the broadest sense. I do this through design and code, but also through workshops and temporarily joining teams on specific projects. The past several years, my projects have dealt mainly with responsive design. I also do quite a bit of speaking and writing about responsive design, design process and UI/UX, CSS, and anything my experiences lead me to.
 

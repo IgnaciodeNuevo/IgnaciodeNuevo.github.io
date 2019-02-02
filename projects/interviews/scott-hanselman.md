@@ -6,7 +6,7 @@ title: "Scott Hanselman"
 
 ## To all those don't meet you yet. How do you describe yourself?
 
-<img class="portrait portrait--xxl" src="/assets/images/portrait-scott-hanselman.jpg" alt="Photo Scott Hanselman"  />
+<img class="portrait portrait--xxl" src="/assets/images/portrait-scott-hanselman.jpg" alt="Scott Hanselman's prtrait"  />
 
 My name is Scott Hanselman. I'm a <a class="link link--special" href="http://github.com/shanselman" target="_blank" rel="noopener">programmer</a>, <a class="link link--special" href="http://www.hanselman.com/blog/" target="_blank" rel="noopener">teacher</a>, and <a class="link link--special" href="http://www.hanselman.com/speaking/" target="_blank" rel="noopener">speaker</a>. I work out of my home office in Portland, Oregon for the Web Platform Team at Microsoft, but my blog, its content and opinions are my own. I blog about technology, culture, gadgets, diversity, code, the web, where we're going and where we've been. I'm excited about community, social equity, media, entrepreneurship and above all, the open web.
 

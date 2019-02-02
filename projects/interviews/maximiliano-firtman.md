@@ -7,7 +7,7 @@ title: "Maximiliano Firtman"
 
 ## To all those don't meet you yet. How do you describe yourself?
 
-<img class="portrait portrait--xxl" src="/assets/images/portrait-maximiliano-firtman.jpg" alt="Photo Maximiliano Firtman"/>
+<img class="portrait portrait--xxl" src="/assets/images/portrait-maximiliano-firtman.jpg" alt="Maximiliano Firtman's prtrait"/>
 
 I'm a mobile+web developer, trainer, author and speaker. I'm focused on bringing great experiences on mobile devices, both with native and web technologies.
 

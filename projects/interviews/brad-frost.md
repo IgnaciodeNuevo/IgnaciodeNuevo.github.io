@@ -7,7 +7,7 @@ title: "Brad Frost"
 
 ## To all those don't meet you yet. How do you describe yourself?
 
-<img class="portrait portrait--xxl" src="/assets/images/portrait-brad-frost.jpg" alt="Photo Brad Frost"  />
+<img class="portrait portrait--xxl" src="/assets/images/portrait-brad-frost.jpg" alt="Brad Frost's prtrait"  />
 
 That's a good question; I barely know anymore! Generally speaking, I make websites. I'm a frontend web designer by trade, and increasingly I consult with organizations to help them make better web experiences.
 

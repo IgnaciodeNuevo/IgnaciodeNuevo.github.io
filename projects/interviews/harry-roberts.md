@@ -7,7 +7,7 @@ title: "Harry Roberts"
 
 ## To all those don't meet you yet. How do you describe yourself?
 
-<img class="portrait portrait--xxl" src="/assets/images/portrait-harry-roberts.jpg" alt="Photo Harry Roberts"  />
+<img class="portrait portrait--xxl" src="/assets/images/portrait-harry-roberts.jpg" alt="Harry Roberts's prtrait"  />
 
 I’m a web developer from England. My actual job title is Consultant Frontend Architect—I travel the world to help clients of all shapes and sizes write better, faster, more scalable, more maintainable CSS. I have a huge focus on performance, large-scale applications, and productivity.
 

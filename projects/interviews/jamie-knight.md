@@ -6,7 +6,7 @@ title: "Jamie Knight"
 
 ## To all those don't meet you yet. How do you describe yourself?
 
-<img class="portrait portrait--xxl" src="/assets/images/portrait-jamie-knight.jpg" alt="Photo Jamie Knight"  />
+<img class="portrait portrait--xxl" src="/assets/images/portrait-jamie-knight.jpg" alt="Jamie Knight's prtrait"  />
 
 I am Jamie, I am autistic, 26 and have been coding for the web since I was 9. I am never seen far from a large plushie lion named “Lion”.
 

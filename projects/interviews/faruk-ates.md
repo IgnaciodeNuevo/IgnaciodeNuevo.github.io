@@ -7,7 +7,7 @@ title: "Faruk Ateş"
 
 ## To all those don't meet you yet. How do you describe yourself?
 
-<img class="portrait portrait--xxl" src="/assets/images/portrait-faruk-ates.jpg" alt="Photo Faruk Ateş"  />
+<img class="portrait portrait--xxl" src="/assets/images/portrait-faruk-ates.jpg" alt="Faruk Ateş's prtrait"  />
 
 I’m a product designer and developer, the original creator of the <a class="link link--special" href="https://modernizr.com/" target="_blank" rel="noopener">Modernizr</a> JavaScript library, a writer, and an occasional public speaker.
 

@@ -7,7 +7,7 @@ title: "Ben Schwarz"
 
 ## To all those don't meet you yet. How do you describe yourself?
 
-<img class="portrait portrait--xxl" src="/assets/images/portrait-ben-schwarz.jpg" alt="Photo Ben Schwarz"  />
+<img class="portrait portrait--xxl" src="/assets/images/portrait-ben-schwarz.jpg" alt="Ben Schwarz's prtrait"  />
 
 Probably over excited about the wrong things! I’m generally really focused on whatever my brain leads me to — and I’m really great at neglecting (important) things that aren’t interesting to me.
 

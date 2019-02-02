@@ -5,7 +5,7 @@ excerpt: "Lista de episodios que hemos publicado del podcast WeCodeSign Podcast"
 ---
 
 <div class="">
-<img src="/assets/images/section-podcast.jpg" alt="Photography by Kai Oberhäuser" />
+<img src="/assets/images/section-podcast.jpg" alt="Podcast's microphone by Kai Oberhäuser" />
 <h1 class="">Podcast</h1>
 </div>
 

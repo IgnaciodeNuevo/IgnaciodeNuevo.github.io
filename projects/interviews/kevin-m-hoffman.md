@@ -7,7 +7,7 @@ title: "Kevin M. Hoffman"
 
 ## To all those don't meet you yet. How do you describe yourself?
 
-<img class="portrait portrait--xxl" src="/assets/images/portrait-kevin-m-hoffman.jpg" alt="Photo Kevin M. Hoffman by Michelle Gray"  />
+<img class="portrait portrait--xxl" src="/assets/images/portrait-kevin-m-hoffman.jpg" alt="Kevin M. Hoffman by Michelle Gray's prtrait"  />
 
 I run a distributed agency called <a class="link link--special" href="http://www.sevenheadsdesign.com" target="_blank" rel="noopener">Seven Heads Design</a> that builds project teams from highly experienced independent designers. I have over 20 years of experience working in digital media, including websites, applications, and product strategies. I've worked and taught in universities, and also worked in an agency as a UX Director. I watch probably too much television and live with my wife and son outside of Philadelphia, PA.
 

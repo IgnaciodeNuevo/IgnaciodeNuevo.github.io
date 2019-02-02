@@ -7,7 +7,7 @@ title: "Brian Rinaldi"
 
 ## To all those who haven't met you yet. How do you describe yourself?
 
-<img class="portrait portrait--xxl" src="/assets/images/portrait-brian-rinaldi.jpg" alt="Photo Brian Rinaldi"  />
+<img class="portrait portrait--xxl" src="/assets/images/portrait-brian-rinaldi.jpg" alt="Brian Rinaldi's prtrait"  />
 
 I have spent over 20 years as a developer, but today my focus is on the developer community. I write, speak, manage sites and programs all focused on developers. Most of this I do through my role as the Developer Programs Manager at <a class="link link--special" href="http://www.telerik.com" target="_blank" rel="noopener">Telerik</a>, but I continue to do a lot of work outside of my official duties.
 

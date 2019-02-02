@@ -7,7 +7,7 @@ title: "Jonathan Stark"
 
 ## Frontend seems to be easy until you start to learning. How do you face the challenge of learning new things?
 
-<img class="portrait portrait--xxl" src="/assets/images/portrait-jonathan-stark.jpg" alt="Photo Jamie Knight"  />
+<img class="portrait portrait--xxl" src="/assets/images/portrait-jonathan-stark.jpg" alt="Jonathan Stark's prtrait"  />
 
 Front end dev seems to change on a daily basis. It's virtually impossible to keep up with the latest and greatest, and everything has pros and cons. I suggest building an actual project (side project, if you prefer) using an approach/framework/library that looks like it will serve the needs of your particular project.
 
