@@ -39,7 +39,6 @@
 
     cite {
         color: var(--color-base-dark);
-        font-family: var(--font-family-body-regular);
 
         @include caption();
     }
