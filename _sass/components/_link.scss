@@ -25,6 +25,7 @@
             color: transparent;
             position: relative;
             text-decoration: none;
+            white-space: nowrap;
 
             &:focus {
                 border: 1px dotted var(--color-primary); // Magic String: Do not change/remove
