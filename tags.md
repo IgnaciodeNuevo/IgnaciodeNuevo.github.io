@@ -14,7 +14,7 @@ to the `site_tags` variable. -->
 {% assign tag_words = site_tags | split:',' | sort %}
 
 <!-- Build the Page -->
-<h2>Topics I've written about:</h2>
+<h1 class="main__title">Topics I've written about:</h1>
 
 <!-- List of all tags -->
 <div class="tags__list">
@@ -33,7 +33,7 @@ to the `site_tags` variable. -->
 {% capture this_word %}{{ tag_words[item] }}{% endcapture %}
 <ul class="articles-list">
     <div class="u-hook" id="{{ this_word | cgi_escape }}"></div>
-    <h3>{{ this_word }}</h3>
+    <h2>{{ this_word }}</h2>
     {% for post in site.tags[this_word] %}
         {% if post.title != null %}
             {% if post.lang %}
