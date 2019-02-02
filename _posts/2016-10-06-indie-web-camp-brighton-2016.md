@@ -12,6 +12,9 @@ It was a meeting for independent web creators (everyone from newbies to hackers)
 
 <a class="link link--special" href="http://wecodesignpodcast.com/2016/09/27/web-audio/" target="_blank" rel="noopener">Recording</a> a Podast with <a class="link link--special" href="https://soledadpenades.com" target="_blank" rel="noopener">Soledad Penadés</a> a Mozilla's devrel and then attending the amazing <a class="link link--special" href="https://indieweb.org/2016/Brighton" target="_blank" rel="noopener">IndieWebCamp Brighton 2016</a> has made me feel superpowers. Being surrounded by a community committed to develop the web without being part of social media services (aka. “silos”) where you can't excape their ecosystem and using the open web for social interaction and knowledge sharing was really inspiring.
 
+IndieWebCamp Brighton 2016 was held September 24/25 at <a class="link link--special" href="http://68middle.st" target="_blank" rel="noopener">68middle</a> and for me has been a great opportunity to get out of my comfort zone, traveling to the UK and forcing me to speak in <a class="link link--special" href="/2015/11/25/hello-world/">english</a> was a great experience.
+
+I've first learnt about this Indie movement two months ago and now I can say that this people where really supportive.
 
 <figure class="picture">
     <img src="/assets/images/post-IWC-Brighton-2016-1.gif" alt="">
@@ -20,10 +23,6 @@ It was a meeting for independent web creators (everyone from newbies to hackers)
         &mdash;Photo of the IndieWebCamp Brighton 2016's attendees by Julie Anne Noying CC-BY/Flickr
     </figcaption>
 </figure>
-
-IndieWebCamp Brighton 2016 was held September 24/25 at <a class="link link--special" href="http://68middle.st" target="_blank" rel="noopener">68middle</a> and for me has been a great opportunity to get out of my comfort zone, traveling to the UK and forcing me to speak in <a class="link link--special" href="/2015/11/25/hello-world/">english</a> was a great experience.
-
-I've first learnt about this Indie movement two months ago and now I can say that this people where really supportive.
 
 ### The community
 

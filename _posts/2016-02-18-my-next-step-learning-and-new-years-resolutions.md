@@ -11,6 +11,10 @@ description: You start in this industry, knowing almost nothing. So, for this ye
 
 I know, I know, we are in the middle of February and New Year's Resolutions are not something to talk about now, but I've been quite busy with a big project, (so I couldn't have time to update my WebSite and blog a lot). For me it is time to say what are my New Year's Resolutions and my next step learning Frontend Development is to start learning <a class="link link--special" href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" rel="noopener">JavaScript</a>.
 
+Cause as we all know one of the best things in our industry is to learn new things everyday.
+
+As many of my coworkers know, I've been writing <a class="link link--special" href="https://en.wikipedia.org/wiki/HTML" target="_blank" rel="noopener">HTML</a> and <a class="link link--special" href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank" rel="noopener">CSS</a> a couple of years in my <a class="link link--special" href="/projects/">projects</a> so, after my last permanent job in <a class="link link--special" href="http://www.martin-young.com" target="_blank" rel="noopener">Martin & Young</a>, a small digital agency in Madrid I had the time to start reading several books such as <a class="link link--special" href="#JSBookOne">JavaScript for Kids</a> & <a class="link link--special" href="#JSBookTwo">Eloquent JavaScript</a> but as they have exercises to do, I left them halfway.
+
 <figure class="picture">
     <img src="/assets/images/resource-javascript-for-kids.jpg" alt="">
     <figcaption class="caption">
@@ -18,10 +22,6 @@ I know, I know, we are in the middle of February and New Year's Resolutions are 
         &mdash;<a class="link link--special" href="#JSBookOne">JavaScript for Kids' book</a>
     </figcaption>
 </figure>
-
-Cause as we all know one of the best things in our industry is to learn new things everyday.
-
-As many of my coworkers know, I've been writing <a class="link link--special" href="https://en.wikipedia.org/wiki/HTML" target="_blank" rel="noopener">HTML</a> and <a class="link link--special" href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank" rel="noopener">CSS</a> a couple of years in my <a class="link link--special" href="/projects/">projects</a> so, after my last permanent job in <a class="link link--special" href="http://www.martin-young.com" target="_blank" rel="noopener">Martin & Young</a>, a small digital agency in Madrid I had the time to start reading several books such as <a class="link link--special" href="#JSBookOne">JavaScript for Kids</a> & <a class="link link--special" href="#JSBookTwo">Eloquent JavaScript</a> but as they have exercises to do, I left them halfway.
 
 Frontend is more than writing CSS and HTML, I thought is time now to learn JavaScript and the last <a class="link link--special" href="http://www.ecma-international.org/" target="_blank" rel="noopener">ECMAScript 6</a> specification so I started looking for an online course or an affordable Bootcamp and my research took me to <a class="link link--special" href="http://www.freecodecamp.com/" target="_blank" rel="noopener">FreeCodeCamp</a> a place where you can learn full-stak Web Development.
 

@@ -87,6 +87,12 @@ I have lot of things to do:
 
 <a class="link link--special" href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fignaciodenuevo.com&tab=desktop" target="_blank" rel="noopener">100/100 on Google Pagespeed</a> which I have not.
 
+## What now?
+
+Well, you can grab the <a class="link link--special" href="/feed.xml">RSS feed</a>, follow me on <a class="link link--special" href="{{ site.twitter }}" target="_blank" rel="noopener">Twitter</a> and keep an eye on the project on <a class="link link--special" href="{{ site.github }}/ignaciodenuevo.github.io" target="_blank" rel="noopener">GitHub</a>.
+
+Thanks, Ignacio.
+
 <div class="related">
     <h4 class="related__title">Jekyll resources and further reading</h4>
     <ul class="related__list">
@@ -106,9 +112,3 @@ I have lot of things to do:
         <li><a class="link link--special" href="https://help.github.com/articles/troubleshooting-jekyll-builds" target="_blank" rel="noopener">Troubleshooting Jekyll builds</a></li>
     </ul>
 </div>
-
-## What now?
-
-Well, you can grab the <a class="link link--special" href="/feed.xml">RSS feed</a>, follow me on <a class="link link--special" href="{{ site.twitter }}" target="_blank" rel="noopener">Twitter</a> and keep an eye on the project on <a class="link link--special" href="{{ site.github }}/ignaciodenuevo.github.io" target="_blank" rel="noopener">GitHub</a>.
-
-Thanks, Ignacio.
