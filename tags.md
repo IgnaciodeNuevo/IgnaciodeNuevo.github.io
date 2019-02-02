@@ -37,17 +37,15 @@ to the `site_tags` variable. -->
     {% for post in site.tags[this_word] %}
         {% if post.title != null %}
             {% if post.lang %}
-                    <article class="article" data-lang="{{ post.lang }}">
-                {% else %}
-                    <article class="article">
-                {% endif %}
-                        <a class="article__item" href="{{ post.url }}" lang="es">
-                            <time class="article__time" datetime="{{ post.date }}">{{ post.date | date: "%b %-d %Y" }}</time>
-                            <h4 class="article__subtitle">{{ post.title }}</h4>
-                        </a>
-                    </article>
+                <article class="article" lang="{{ post.lang }}">
+                    <a class="article__item" href="{{ post.url }}">
+                        <time class="article__time" datetime="{{ post.date }}">{{ post.date | date: "%b %-d %Y" }}</time>
+                        <h4 class="article__subtitle">{{ post.title }}</h4>
+                    </a>
+                </article>
             {% endif %}
-        {% endfor %}
+        {% endif %}
+    {% endfor %}
 </ul>
     {% endunless %}
 {% endfor %}
