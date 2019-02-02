@@ -78,8 +78,9 @@
 
             &:hover {
                 background-color: var(--color-base-lightest);
-
-                @include transition(background-color);
+                transition-duration: var(--animation-speed);
+                transition-property: background-color, border-bottom;
+                transition-timing-function: var(--animation-type-cubic);
             }
 
             &.is-active {
