@@ -1,12 +1,21 @@
 .cv {
     @include pattern();
+    @include section("/Curriculum", var(--color-base-dark));
+
 
     @media print {
         background-color: initial;
         background-image: initial;
     }
 
-    @include section("/Curriculum", var(--color-base-dark));
+    p,
+    a {
+        font-size: 90%;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
 
     &__page {
         color: var(--color-base-lightest);
@@ -44,50 +53,37 @@
         }
     }
 
-    &__title,
-    &__subtitle {
-        @media (min-width: $mq-print) {
-            text-align: center;
-        }
+    .cv__title {
+        margin-bottom: var(--space-m);
 
-        @media print {
-            color: var(--color-primary);
+        @media (min-width: $mq-print) {
+            max-width: var(--cv-column-width);
+            text-align: right;
         }
     }
 
     &__section {
-        margin-bottom: var(--space-l);
-    }
-
-    &__section-title {
-        @media (min-width: $mq-print) {
-            max-width: var(--cv-column-width);
-            text-align: right;
-        }
+        margin-bottom: var(--space-m);
     }
 
     &__row {
-        margin-bottom: var(--space-l);
+        margin-bottom: var(--space-m);
 
         @media (min-width: $mq-print) {
             display: grid;
-            grid-gap: 2rem;
+            grid-column-gap: var(--space-l);
             grid-template-columns: var(--cv-column-width) 1fr;
             margin-bottom: 0;
         }
-    }
 
-    &__row-title {
-        width: 100%;
+        &-title {
+            width: 100%;
 
-        @media (min-width: $mq-print) {
-            max-width: var(--cv-column-width);
-            text-align: right;
+            @media (min-width: $mq-print) {
+                max-width: var(--cv-column-width);
+                text-align: right;
+            }
         }
-    }
-
-    &__content {
-        margin-bottom: var(--space-l);
     }
 
     &__list {
@@ -95,20 +91,21 @@
         margin-top: 0;
     }
 
-    .h5-like,
-    .h6-like {
-        margin-bottom: 0.67em;
-    }
+    .h5-like {
+        margin-bottom: var(--space-m);
+        text-align: center;
 
-    h3,
-    h4,
-    p {
-        margin-bottom: 0;
-    }
-
-    @media print {
-        .link {
-            text-decoration: none;
+        @media print {
+            color: var(--color-primary);
         }
+    }
+
+    .h6-like:not(.h6-like.cv__row-title) {
+        margin-bottom: var(--space-s);
+    }
+
+    .link {
+        font-family: var(--font-family-body-regular);
+        padding: 0;
     }
 }
