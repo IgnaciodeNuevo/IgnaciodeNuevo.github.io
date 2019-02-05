@@ -12,8 +12,6 @@
     font-size: 100%; // 16px
     line-height: 1.5;
 
-    -webkit-text-size-adjust: 100%; // 1
-
     @media (min-width: $mq-m) {
         font-size: 120%;
     }
