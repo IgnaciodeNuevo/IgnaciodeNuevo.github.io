@@ -12,7 +12,14 @@ h1,
 h2,
 h3,
 h4,
-h5, h6, .h1-like, .h2-like, .h3-like, .h4-like, .h5-like, .h6-like {
+h5,
+h6,
+.h1-like,
+.h2-like,
+.h3-like,
+.h4-like,
+.h5-like,
+.h6-like {
     font-family: var(--font-family-title-fallback);
     font-weight: var(--font-weight-bold);
 }
@@ -64,6 +71,18 @@ h6,
 }
 
 p {
+    // IE doesn’t support @supports; explicitly use the prefixed version.
+    @supports not (font-variant-ligatures: common-ligatures) {
+        font-feature-settings: "liga";
+    }
+
+    // IE doesn’t support @supports; explicitly use the prefixed version.
+    -ms-font-feature-settings: "liga";
+    hyphens: auto;
+    font-kerning: normal;
+    // Best case scenario, just use `font-variant-*`.
+    font-variant-ligatures: common-ligatures;
+
     @include body-text();
 }
 
