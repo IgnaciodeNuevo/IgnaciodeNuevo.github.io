@@ -56,7 +56,7 @@ I don't have one. Every project is challenging in a different way. But the most 
 
 ## Can you describe your workflow when you create HTML, CSS and JavaScript from scratch?
 
-It took me a whole book to describe that process (Responsive Design Workflow), but in short: get real content, structure it with HTML, slowly build up styles based on small screens first, then add layout and changes for larger screens, then add behavior/logic/whatever with JavaScript. This works for web "apps" as well as web "documents".
+It took me a whole book to describe that process (Responsive Design Workflow), but in description: get real content, structure it with HTML, slowly build up styles based on small screens first, then add layout and changes for larger screens, then add behavior/logic/whatever with JavaScript. This works for web "apps" as well as web "documents".
 
 ## What excites you most these days?
 

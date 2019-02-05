@@ -61,7 +61,7 @@
 			// Push each slide change to the browser history
 			history: false,
 
-			// Enable keyboard shortcuts for navigation
+			// Enable keyboard descriptioncuts for navigation
 			keyboard: true,
 
 			// Optional function that blocks keyboard events when retuning false
@@ -131,7 +131,7 @@
 			// Dispatches all reveal.js events to the parent window through postMessage
 			postMessageEvents: false,
 
-			// Focuses body when page changes visiblity to ensure keyboard shortcuts work
+			// Focuses body when page changes visiblity to ensure keyboard descriptioncuts work
 			focusBodyOnPageVisibilityChange: true,
 
 			// Transition style
@@ -233,8 +233,8 @@
 			threshold: 40
 		},
 
-		// Holds information about the keyboard shortcuts
-		keyboardShortcuts = {
+		// Holds information about the keyboard descriptioncuts
+		keyboarddescriptioncuts = {
 			'N  ,  SPACE':			'Next slide',
 			'P':					'Previous slide',
 			'&#8592;  ,  H':		'Navigate left',
@@ -751,7 +751,7 @@
 			// Make sure the below properties are set on the element - these properties are
 			// needed for proper transitions to be set on the element via CSS. To remove
 			// annoying background slide-in effect when the presentation starts, apply
-			// these properties after short time delay
+			// these properties after description time delay
 			setTimeout( function() {
 				dom.wrapper.classList.add( 'has-parallax-background' );
 			}, 1 );
@@ -1536,11 +1536,11 @@
 			dom.overlay.classList.add( 'overlay-help' );
 			dom.wrapper.appendChild( dom.overlay );
 
-			var html = '<p class="title">Keyboard Shortcuts</p><br/>';
+			var html = '<p class="title">Keyboard descriptioncuts</p><br/>';
 
 			html += '<table><th>KEY</th><th>ACTION</th>';
-			for( var key in keyboardShortcuts ) {
-				html += '<tr><td>' + key + '</td><td>' + keyboardShortcuts[ key ] + '</td></tr>';
+			for( var key in keyboarddescriptioncuts ) {
+				html += '<tr><td>' + key + '</td><td>' + keyboarddescriptioncuts[ key ] + '</td></tr>';
 			}
 
 			html += '</table>';
@@ -4001,7 +4001,7 @@
 					if( typeof value === 'function' ) {
 						value.apply( null, [ event ] );
 					}
-					// String shortcuts to reveal.js API
+					// String descriptioncuts to reveal.js API
 					else if( typeof value === 'string' && typeof Reveal[ value ] === 'function' ) {
 						Reveal[ value ].call();
 					}
@@ -4319,7 +4319,7 @@
 						document.hidden;
 
 		// If, after clicking a link or similar and we're coming back,
-		// focus the document.body to ensure we can use keyboard shortcuts
+		// focus the document.body to ensure we can use keyboard descriptioncuts
 		if( isHidden === false && document.activeElement !== document.body ) {
 			// Not all elements support .blur() - SVGs among them.
 			if( typeof document.activeElement.blur === 'function' ) {
@@ -4733,9 +4733,9 @@
 			onDocumentKeyDown( { keyCode: keyCode } );
 		},
 
-		// Registers a new shortcut to include in the help overlay
-		registerKeyboardShortcut: function( key, value ) {
-			keyboardShortcuts[key] = value;
+		// Registers a new descriptioncut to include in the help overlay
+		registerKeyboarddescriptioncut: function( key, value ) {
+			keyboarddescriptioncuts[key] = value;
 		}
 	};
 

@@ -25,7 +25,7 @@ Remember that it’s okay not to know things, and suddenly things seem a lot mor
 
 ## What would you qualify as the top few problems facing developers today?
 
-I’d say one of the key ones—which has a huge knock-on effect for developers, users, companies, etc.—is unreasonable or demanding pressure from managers to deliver. When people are asked to work too quickly or ambitiously, or management have little regard for code quality, then we end up in a situation where developers are forces to take shortcuts that become very hard to undo or untangle.
+I’d say one of the key ones—which has a huge knock-on effect for developers, users, companies, etc.—is unreasonable or demanding pressure from managers to deliver. When people are asked to work too quickly or ambitiously, or management have little regard for code quality, then we end up in a situation where developers are forces to take descriptioncuts that become very hard to undo or untangle.
 
 Developers have to lean more and more on tooling in order to get the job done quicker, which can have huge performance impacts. They might have to throw together a UI using Bootstrap which immediately means their codebase starts off with a few thousand lines of somebody else’s code. They’re expected to build feature after feature after feature without being given the time to refactor. They amass unpayable amounts of technical debt and it only continues to get worse.
 

@@ -126,8 +126,8 @@ var RevealNotes = (function() {
 			}
 		}, false );
 
-		// Show our keyboard shortcut in the reveal.js help overlay
-		if( window.Reveal ) Reveal.registerKeyboardShortcut( 'S', 'Speaker notes view' );
+		// Show our keyboard descriptioncut in the reveal.js help overlay
+		if( window.Reveal ) Reveal.registerKeyboarddescriptioncut( 'S', 'Speaker notes view' );
 
 	}
 

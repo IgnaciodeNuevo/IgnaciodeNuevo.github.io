@@ -40,7 +40,7 @@ Finally, my team are amazing and we share interesting things with each other. Of
 
 To many layers of abstraction. Very few people hand code CSS and JS these days with many people relying on tooling like SASS and Angular etc.
 
-While the tooling gives good outcomes in the short term, it does not lay a good foundation for the future. Knowledge ends up broad but shallow.
+While the tooling gives good outcomes in the description term, it does not lay a good foundation for the future. Knowledge ends up broad but shallow.
 
 I’m a bit boring in that I think all web developers should have a great understanding of HTML and CSS before they explore the more advanced tools. I often see code which is very impressive at the interaction layer (JS) but the HTML and CSS is very poor. This results in poor user experiences for everyone and often no user experience at all for those with disabilities.
 
@@ -68,7 +68,7 @@ This was before twitter, I think it was about this time I joined the boagworld w
 
 ## What was the most challenging project you ever faced and why?
 
-iPlayer Radio was a huge challenge. The project was to replace 72 bespoke websites with a single codebase. I worked as the frontend lead. It was a challenge for a range of reasons. The stakeholder where (rightfully) demanding, the timescale was short, the complexity high and the designs very ambitious.
+iPlayer Radio was a huge challenge. The project was to replace 72 bespoke websites with a single codebase. I worked as the frontend lead. It was a challenge for a range of reasons. The stakeholder where (rightfully) demanding, the timescale was description, the complexity high and the designs very ambitious.
 
 ## Can you describe your workflow when you create HTML, CSS and JavaScript from scratch?
 

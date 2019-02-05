@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>{% if page.title %}{{ page.title }} - {{ site.metatag_description }}{% else %}{{ site.long_description }}{% endif %}</title>
+    <title>{% if page.title %}{{ page.title }} - {{ site.metatag }}{% else %}{{ site.title }}{% endif %}</title>
 
     <!-- StyleSheets & DNS Prefetch -->
     <link rel="dns-prefetch" href="{{ site.twitter }}">
@@ -19,11 +19,11 @@
     {% endif %}
 
     <!-- Open Graph data -->
-    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.long_description }}{% endif %}" />
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="{{ page.url | replace:'index.html','' }}"/>
     <meta property="og:image" content="{{ site.url }}/assets/images/logo.jpg" />
-    <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.long_description }}{% endif %}" />
+    <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.title }}{% endif %}" />
     <meta property="og:site_name" content="{{ site.url }}" />
 
     <!-- Twitter cards -->
@@ -33,10 +33,10 @@
     <meta name="twitter:creator" content="@IgnaciodeNuevo">
     <meta name="twitter:title" content="{{ page.title }}">
     <meta name="twitter:image" content="{{ site.url }}/assets/images/logo.jpg">
-    <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.long_description }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.title }}{% endif %}">
 
     <!-- RSS -->
-    <link rel="alternate" type="application/rss+xml" title="{{ site.short_descriptions }}" href="{{ site.url}}/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.descriptions }}" href="{{ site.url}}/feed.xml" />
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
@@ -50,7 +50,7 @@
     <meta name="theme-color" content="#0047BB">
 
     <!-- Other -->
-    <meta name="description" content="{% if page.title %}{{ page.title }} - {{ site.metatag_description }}{% else %}{{ site.long_description }}{% endif %}">
+    <meta name="description" content="{% if page.title %}{{ page.title }} - {{ site.metatag }}{% else %}{{ site.title }}{% endif %}">
 
 </head>
 <!--

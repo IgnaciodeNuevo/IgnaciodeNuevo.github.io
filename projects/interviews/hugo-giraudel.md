@@ -58,7 +58,7 @@ I have litterally no idea. I guess all projects are challenging in one way or th
 
 ## Can you describe your workflow when you create HTML, CSS and JavaScript from scratch?
 
-It really depends on what I am trying / asked to build. At Edenspiekermann, we usually go with Sass (node-sass powered) for the CSS layer (although I would like to try to push CSS Modules a bit more) compiled with Gulp. When then use Gulp for other things as well, such as SVG spriting, code linting, test running, and so on. On the JavaScript side, most of our projects are running React, through webpack. Long story short: a Gulpfile (or simply npm scripts if I can skip Gulp altogether) and npm dependencies is usually my way to go.
+It really depends on what I am trying / asked to build. At Edenspiekermann, we usually go with Sass (node-sass powered) for the CSS layer (although I would like to try to push CSS Modules a bit more) compiled with Gulp. When then use Gulp for other things as well, such as SVG spriting, code linting, test running, and so on. On the JavaScript side, most of our projects are running React, through webpack. Long story description: a Gulpfile (or simply npm scripts if I can skip Gulp altogether) and npm dependencies is usually my way to go.
 
 ## What excites you most these days?
 
