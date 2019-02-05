@@ -13,7 +13,7 @@
         font-size: 90%;
     }
 
-    p {
+    p:not(.cv__row-title):not(.cv__title) {
         margin-bottom: 0;
     }
 
@@ -21,7 +21,6 @@
         color: var(--color-base-lightest);
         display: flex;
         flex-direction: column;
-        justify-content: center;
         margin-left: auto;
         margin-right: auto;
         max-width: var(--a4-width);
@@ -29,13 +28,8 @@
         padding-left: var(--space-m);
         padding-right: var(--space-m);
         padding-top: var(--space-xl);
-        padding: var(--space-m);
         position: relative;
         width: 100%;
-
-        @media (min-width: $mq-l) {
-            padding: var(--space-xl);
-        }
 
         @media (min-width: $mq-s) {
             padding-left: var(--space-l);
@@ -53,8 +47,8 @@
         }
     }
 
-    .cv__title {
-        margin-bottom: var(--space-m);
+    &__title {
+        margin-bottom: var(--space-l);
 
         @media (min-width: $mq-print) {
             max-width: var(--cv-column-width);
@@ -64,6 +58,10 @@
 
     &__section {
         margin-bottom: var(--space-m);
+    }
+
+    &__content {
+        margin-bottom: 1.5rem;
     }
 
     &__row {
@@ -77,6 +75,7 @@
         }
 
         &-title {
+            margin-bottom: var(--space-s);
             width: 100%;
 
             @media (min-width: $mq-print) {
@@ -91,17 +90,26 @@
         margin-top: 0;
     }
 
+    .h4-like,
     .h5-like {
-        margin-bottom: var(--space-m);
         text-align: center;
+
 
         @media print {
             color: var(--color-primary);
         }
     }
 
-    .h6-like:not(.h6-like.cv__row-title) {
-        margin-bottom: var(--space-s);
+    .h4-like {
+        margin-bottom: var(--space-l);
+    }
+
+    .h5-like {
+        margin-bottom: var(--space-m);
+
+        @media (min-width: $mq-print) {
+            text-align: right;
+        }
     }
 
     .link {
