@@ -30,7 +30,7 @@ wrapper_class: blog-wrapper
             <article class="article">
         {% endif %}
                 <a class="article__item" href="{{ post.url }}" lang="es">
-                    <time class="article__time" datetime="{{ post.date | date_to_rfc822 }}">{{ post.date | date: "%b %-d %Y" }}</time>
+                    <time class="article__time" datetime="{{ post.date | date: '%F' }}">{{ post.date | date: "%b %-d %Y" }}</time>
                     <h4 class="article__subtitle">{{ post.title }}</h4>
                     {% if post.tags %}
                         <span class="tag">
