@@ -31,4 +31,3 @@ sass:
 # GEMS
 plugins:
   - jekyll-paginate
-  - jekyll-feed
