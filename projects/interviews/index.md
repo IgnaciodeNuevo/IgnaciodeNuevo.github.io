@@ -18,7 +18,7 @@ wrapper_class: interviews-wrapper
                 <article class="article" lang="en">
             {% endif %}
                     <div class="article__item">
-                        <time class="article__time" datetime="{{ interview.date }}">{{ interview.date | date: "%b %-d %Y"}}</time>
+                        <time class="article__time" datetime="{{ interview.date | date: '%F' }}">{{ interview.date | date: "%b %-d %Y"}}</time>
                         <div class="article__data">
                             <img class="portrait" src="{{ interview.portrait }}" />
                             <div>

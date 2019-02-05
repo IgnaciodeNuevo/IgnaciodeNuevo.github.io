@@ -16,7 +16,7 @@ wrapper_class: speaking-wrapper
             <article class="article" lang="en">
         {% endif %}
                 <div class="article__item">
-                    <time class="article__time" datetime="{{ page.date }}">{{ talk.date | date: "%b %-d %Y"}}</time>
+                    <time class="article__time" datetime="{{ page.date | date: '%F' }}">{{ talk.date | date: "%b %-d %Y"}}</time>
                     <h2 class="article__subtitle">{{ talk.name }}</h2>
                     <p class="article__description">{{ talk.description }}</p>
                     <div class="article__links">

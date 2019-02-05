@@ -17,7 +17,7 @@ wrapper_class: projects-wrapper
             <article class="article" lang="en">
         {% endif %}
                 <div class="article__item">
-                    <time class="article__time" datetime="{{ project.date }}">{{ project.date | date: "%b %-d %Y"}}</time>
+                    <time class="article__time" datetime="{{ project.date | date: '%F' }}">{{ project.date | date: "%b %-d %Y"}}</time>
                     <h2 class="article__subtitle">{{ project.name }}</h2>
                     <p class="article__description">{{ project.description }}</p>
                     <div class="article__links">

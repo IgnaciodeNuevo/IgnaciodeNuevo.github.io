@@ -100,7 +100,7 @@ layout: default
                             <article lang="en">
                         {% endif %}
                             <a class="media__link" href="{{ post.url }}">
-                                <time class="media__time" datetime="{{ post.date }}">{{ post.date | date: "%b %-d %Y" }}</time>
+                                <time class="media__time" datetime="{{ post.date | date: '%F' }}">{{ post.date | date: "%b %-d %Y" }}</time>
                                 <h4 class="media__subtitle">{{ post.title }}</h4>
                             </a>
                         </article>
@@ -112,7 +112,7 @@ layout: default
                 {% for talk in site.data.speaking limit: 5 %}
                     <article lang="es">
                         <a class="media__link" href="/speaking/{{ talk.url }}" lang="es">
-                            <time class="media__time" datetime="{{ talk.date }}">{{ talk.date | date: "%b %-d %Y" }}</time>
+                            <time class="media__time" datetime="{{ talk.date | date: '%F' }}">{{ talk.date | date: "%b %-d %Y" }}</time>
                             <h4 class="media__subtitle">{{ talk.name }}</h4>
                         </a>
                     </article>
@@ -126,7 +126,7 @@ layout: default
                 {% for collaboration in site.data.collaborations limit: 5 %}
                 <article lang="es">
                     <a class="media__link" href="{{ collaboration.url }}" target="_blank" rel="noopener">
-                        <time class="media__time">{{ collaboration.date }}</time>
+                        <time class="media__time" datetime="{{ collaboration.date | date: '%F' }}">{{ collaboration.date }}</time>
                         <h4 class="media__subtitle">
                             {{ collaboration.name }}
                         </h4>
