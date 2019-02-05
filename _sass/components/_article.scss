@@ -54,7 +54,7 @@
         color: var(--color-base-light);
         margin-bottom: var(--space-xs);
 
-        @include all-small-caps();
+        @include opentype-all-opentype-small-caps();
         @include body-small();
     }
 

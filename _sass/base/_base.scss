@@ -297,7 +297,7 @@ img:not(.hero__img) {
     max-width: 80%;
     white-space: nowrap;
 
-    @include all-small-caps();
+    @include opentype-all-opentype-small-caps();
 
     span {
         white-space: inherit;
@@ -322,7 +322,7 @@ img:not(.hero__img) {
     padding-right: var(--space-s);
     padding-top: var(--space-xxs);
 
-    @include all-small-caps();
+    @include opentype-all-opentype-small-caps();
 }
 
 //

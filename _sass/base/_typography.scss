@@ -22,6 +22,8 @@ h6,
 .h6-like {
     font-family: var(--font-family-title-fallback);
     font-weight: var(--font-weight-bold);
+
+    @include opentype-liga();
 }
 
 // Headings font-size and line-height
@@ -71,18 +73,10 @@ h6,
 }
 
 p {
-    // IE doesn’t support @supports; explicitly use the prefixed version.
-    @supports not (font-variant-ligatures: common-ligatures) {
-        font-feature-settings: "liga";
-    }
-
-    // IE doesn’t support @supports; explicitly use the prefixed version.
-    -ms-font-feature-settings: "liga";
     hyphens: auto;
     font-kerning: normal;
-    // Best case scenario, just use `font-variant-*`.
-    font-variant-ligatures: common-ligatures;
 
+    @include opentype-liga();
     @include body-text();
 }
 

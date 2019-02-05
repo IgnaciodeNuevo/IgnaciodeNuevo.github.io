@@ -48,7 +48,7 @@
             counter-increment: offcanvas;
             font-family: var(--font-family-body-regular);
 
-            @include all-small-caps();
+            @include opentype-all-opentype-small-caps();
         }
     }
 
