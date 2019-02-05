@@ -20,7 +20,7 @@ wrapper_class: interviews-wrapper
                     <div class="article__item">
                         <time class="article__time" datetime="{{ interview.date | date: '%F' }}">{{ interview.date | date: "%b %-d %Y"}}</time>
                         <div class="article__data">
-                            <img class="portrait" src="{{ interview.portrait }}" />
+                            <img class="portrait" src="{{ interview.portrait }}" alt="{{ interview.name }}'s portrait" />
                             <div>
                                 <h2 class="article__subtitle">{{ interview.name }}</h2>
                                 <p class="article__description">{{ interview.excerpt }}</p>
