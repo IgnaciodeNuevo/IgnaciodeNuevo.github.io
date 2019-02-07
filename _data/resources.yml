@@ -150,3 +150,6 @@
 
 - name: 30 seconds of CSS
   url: https://30-seconds.github.io/30-seconds-of-css/
+
+- name: What’s next for CSS?
+  url: https://cssdb.org/
