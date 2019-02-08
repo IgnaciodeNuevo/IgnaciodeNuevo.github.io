@@ -11,7 +11,7 @@
     padding: var(--space-s);
     text-decoration: none;
 
-    @include opentype-all-opentype-small-caps();
+    @include opentype-all-small-caps();
     @include transition();
 
     &:hover {

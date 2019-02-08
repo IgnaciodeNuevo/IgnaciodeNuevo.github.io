@@ -1,4 +1,4 @@
-@mixin opentype-all-opentype-small-caps() {
+@mixin opentype-all-small-caps() {
     font-variant-caps: opentype-all-opentype-small-caps;
     font-feature-settings: "c2sc", "smcp";
     -webkit-font-feature-settings: "c2sc", "smcp";

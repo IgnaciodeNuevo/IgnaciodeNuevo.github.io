@@ -72,7 +72,7 @@
         color: var(--color-base-light);
         padding-bottom: var(--space-xs);
 
-        @include opentype-all-opentype-small-caps();
+        @include opentype-all-small-caps();
         @include body-small();
     }
 
