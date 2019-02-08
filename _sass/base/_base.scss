@@ -38,8 +38,12 @@
     color: var(--color-base-lightest);
 }
 
-body.is-active .offcanvas {
-    transform: translateX(0);
+body.is-blocked {
+    overflow: hidden;
+
+    .offcanvas {
+        transform: translateX(0);
+    }
 }
 
 // TOOD: Removed if not needed

@@ -14,18 +14,18 @@
 
     function handleKeydown(event) {
         if (event.keyCode === escapeCode) {
-            document.body.classList.remove('is-active');
+            document.body.classList.remove('is-blocked');
             disableNavLinks();
             navOpenButton.focus();
         }
     }
 
     function handleClick() {
-        if (document.body.classList.contains('is-active')) {
-            document.body.classList.remove('is-active');
+        if (document.body.classList.contains('is-blocked')) {
+            document.body.classList.remove('is-blocked');
             disableNavLinks();
         } else {
-            document.body.classList.add('is-active');
+            document.body.classList.add('is-blocked');
             enableNavLinks();
             navLinks[0].focus();
         }
