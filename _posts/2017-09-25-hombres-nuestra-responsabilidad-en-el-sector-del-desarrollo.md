@@ -39,7 +39,7 @@ Yo soy machista, no intencionadamente, pero si por como te "educa" esta sociedad
 Aunque parezca mentira creo que podemos hacer pequeños gestos en nuestro día a día que ni siquiera nos planteamos para mejorar esta situación. Si cada uno de nosotros contribuimos con un granito de arena haremos sin duda de nuestra sociedad un mejor lugar.
 
 <blockquote class="quote">
-Espero no ofender a nadie. Si se diese el caso ruego me escribáis a <a class="link link--special" href="mailto:{{ site.email }}" target="_blank" rel="noopener">{{ site.email }}</a>.
+Espero no ofender a nadie. Si se diese el caso ruego me escribáis a <a class="link" href="mailto:{{ site.email }}" target="_blank" rel="noopener">{{ site.email }}</a>.
 </blockquote>
 
 Por desgracia algunos compañeros, amigos, familiares y conocidos (hombres), no todos son así por supuesto, solamente hacen caso a otros hombres cuando se les dicen según que cosas.
