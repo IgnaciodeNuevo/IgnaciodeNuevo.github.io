@@ -1,5 +1,5 @@
 @mixin opentype-all-small-caps() {
-    font-variant-caps: opentype-all-opentype-small-caps;
+    font-variant-caps: all-small-caps;
     font-feature-settings: "c2sc", "smcp";
     -webkit-font-feature-settings: "c2sc", "smcp";
        -moz-font-feature-settings: "c2sc", "smcp";
@@ -7,7 +7,7 @@
 }
 
 @mixin opentype-small-caps() {
-    font-variant-caps: opentype-small-caps;
+    font-variant-caps: small-caps;
     font-feature-settings: "onum", "smcp", "c2sc" 0;
     -webkit-font-feature-settings: "onum", "smcp", "c2sc" 0;
        -moz-font-feature-settings: "onum", "smcp", "c2sc" 0;
