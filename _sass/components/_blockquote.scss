@@ -2,8 +2,8 @@
 // This file contains all styles related to the blockquote component.
 // ------------------------------------------------------------------
 .quote {
-    border-left: var(--size-xs) solid var(--color-primary);
-    // color: var(--color-primary);
+    background-color: var(--color-base-lightest);
+    border-radius: var(--border-radius-xxs);
     font-family: var(--font-family-title);
     margin-left: 0;
     margin-right: 0;
@@ -13,27 +13,36 @@
     @include transition(background-color);
 
     @media (min-width: $mq-l) {
-        border-left: initial;
-        // border-top: var(--size-m) solid var(--color-primary);
+        background-color: initial;
+        border-radius: initial;
         float: right;
         margin-left: var(--space-l);
         margin-right: 15rem;
         margin-top: 0.5em; // Visual correction. Magic String: Do not change/remove
-        padding-right: initial;
         padding-bottom: initial;
         padding-left: initial;
+        padding-right: initial;
         padding-top: var(--space-m);
         width: 30%;
-    }
 
-    &::before {
-        @include linear-gradient-line-before();
+        &::before {
+            @include linear-gradient-line-before();
+        }
     }
 
     &:after {
-        clear: both;
-        content: "";
-        display: table;
+        color: var(--color-primary);
+        content: open-quote;
+        font-family: var(--font-family-body-semibold);
+        font-size: 6rem; // Magic String: Do not change/remove
+        left: 0;
+        opacity: var(--opacity-m);
+        position: absolute;
+        top: calc(var(--space-m) * -1);
+
+        @media (min-width: $mq-l) {
+            opacity: var(--opacity-s);
+        }
     }
 
     span {
