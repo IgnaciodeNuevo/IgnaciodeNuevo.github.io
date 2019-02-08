@@ -12,6 +12,7 @@
     text-decoration-line: underline;
     text-decoration-skip: ink;
     text-decoration-style: dotted;
+    white-space: nowrap;
 
     &:hover {
         text-decoration-style: solid;
@@ -25,20 +26,28 @@
             color: transparent;
             position: relative;
             text-decoration: none;
-            white-space: nowrap;
 
             &:focus {
                 border: 1px dotted var(--color-primary); // Magic String: Do not change/remove
             }
 
+            // &:after {
+            //     background: var(--linear-gradient);
+            //     border-radius: var(--border-radius-xxs);
+            //     bottom: 0;
+            //     content: "";
+            //     height: 2px; // Magic String: Do not change/remove
+            //     left: 0;
+            //     opacity: var(--opacity-s);
+            //     position: absolute;
+            //     width: 100%;
+            // }
+
             &:after {
-                background: var(--linear-gradient);
-                border-radius: var(--border-radius-xxs);
-                bottom: 0;
-                content: "";
-                height: 2px; // Magic String: Do not change/remove
+                content: "Debugging";
+                top: 0;
                 left: 0;
-                opacity: var(--opacity-s);
+                border: 1px solid red;
                 position: absolute;
                 width: 100%;
             }
