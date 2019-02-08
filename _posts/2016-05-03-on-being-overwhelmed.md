@@ -32,11 +32,11 @@ I don't think so. A fact about the web is that with one and only one link or URL
     </figcaption>
 </figure>
 
-CSS is getting <a class="link link--special" href="http://philipwalton.com/articles/why-im-excited-about-native-css-variables/" target="_blank" rel="noopener">variables</a> like Sass had years ago, long live <a class="link link--special" href="http://postcss.org/" target="_blank" rel="noopener">PostCSS</a>.
+CSS is getting <a class="link link--special" href="http://philipwalton.com/articles/why-im-excited-about-native-css-variables/" target="_blank" rel="noopener noreferrer">variables</a> like Sass had years ago, long live <a class="link link--special" href="http://postcss.org/" target="_blank" rel="noopener noreferrer">PostCSS</a>.
 
 Just learned Grunt? Oh you should use the brand new Gulp – wait no, Webpack.
 
-What, are you still using table based or float layouts? Flexbox is here! But... <a class="link link--special" href="http://caniuse.com/#search=grid" target="_blank" rel="noopener">Grid is coming</a>.
+What, are you still using table based or float layouts? Flexbox is here! But... <a class="link link--special" href="http://caniuse.com/#search=grid" target="_blank" rel="noopener noreferrer">Grid is coming</a>.
 
 Oh and jQuery, are you using jQuery right now? It is dead my friend.
 
@@ -70,7 +70,7 @@ Can a big company like a newspaper use Angular 2.0 for example since the first d
 
 Am I going to start using CSS variables or Grid today? No way! I am going to keep reading, listening podcasts, reading new blog posts and watching conference videos and tutorials. I like to play with new things like Grid but we need to stop yelling about the new _hot topics_ right now and let browsers implement whatever it comes.
 
-Now it is time to use flexbox for example, it is a CSS Module <a class="link link--special" href="https://www.w3.org/TR/css-flexbox-1/" target="_blank" rel="noopener">W3C Candidate Recommendation</a>. I hope Google will launch Angular 2.0 in 2016 Google I/O. Wait for the community to test and embrace it.
+Now it is time to use flexbox for example, it is a CSS Module <a class="link link--special" href="https://www.w3.org/TR/css-flexbox-1/" target="_blank" rel="noopener noreferrer">W3C Candidate Recommendation</a>. I hope Google will launch Angular 2.0 in 2016 Google I/O. Wait for the community to test and embrace it.
 
 Same goes for PostCSS – Should you use it today? Probably not. But you should read and play with it.
 
@@ -78,7 +78,7 @@ Same goes for PostCSS – Should you use it today? Probably not. But you should 
 
 Making stuff is how you get better, so just build websites said Chris Coyier. Don’t get me wrong, what you use to build sites is important, and you should feel comfortable with it, but it’s even more important to build things and improve on your skills. This is how you get better.
 
-I would like to be in a team like <a class="link link--special" href="https://twitter.com/gdndevelopers" target="_blank" rel="noopener">Guardian Developers</a>. So I've started recreating The Times. Recreate old printed layouts or at least try it. Sometimes printed layouts can't be replicated via CSS.
+I would like to be in a team like <a class="link link--special" href="https://twitter.com/gdndevelopers" target="_blank" rel="noopener noreferrer">Guardian Developers</a>. So I've started recreating The Times. Recreate old printed layouts or at least try it. Sometimes printed layouts can't be replicated via CSS.
 
 Things are always going to change and that's fantastic news for our industry. Keep up to date and don't let your anxiety kill you. Keep your ear to the ground, try whatever new technology comes and just build websites.
 
@@ -97,7 +97,7 @@ TLDR; Yes our industry is fast, it moves quickly, this is inspiring, because it�
 <div class="related">
     <h4 class="related__title">Further reading</h4>
     <ul class="related__list">
-        <li><a class="link link--special" href="http://wesbos.com/overwhelmed-with-web-development/" target="_blank" rel="noopener">On being overwhelmed with our fast paced industry</a></li>
-        <li><a class="link link--special" href="http://ashleynolan.co.uk/blog/frontend-tooling-survey-2015-results" target="_blank" rel="noopener">The State of Front-End Tooling – 2015</a></li>
+        <li><a class="link link--special" href="http://wesbos.com/overwhelmed-with-web-development/" target="_blank" rel="noopener noreferrer">On being overwhelmed with our fast paced industry</a></li>
+        <li><a class="link link--special" href="http://ashleynolan.co.uk/blog/frontend-tooling-survey-2015-results" target="_blank" rel="noopener noreferrer">The State of Front-End Tooling – 2015</a></li>
     </ul>
 </div>

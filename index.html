@@ -125,7 +125,7 @@ layout: default
                 <div class="u-divider"></div>
                 {% for collaboration in site.data.collaborations limit: 5 %}
                 <article lang="es">
-                    <a class="media__link" href="{{ collaboration.url }}" target="_blank" rel="noopener">
+                    <a class="media__link" href="{{ collaboration.url }}" target="_blank" rel="noopener noreferrer">
                         <time class="media__time" datetime="{{ collaboration.date | date: '%F' }}">{{ collaboration.date }}</time>
                         <h4 class="media__subtitle">
                             {{ collaboration.name }}

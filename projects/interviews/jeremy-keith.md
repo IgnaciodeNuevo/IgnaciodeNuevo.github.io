@@ -54,7 +54,7 @@ I kind of like not knowing what the future will bring. That said, after the many
 
 ## When starting a new project, if you feel stuck where do you look for inspiration?
 
-My colleagues are a great source of knowledge and inspiration. The developers at <a class="link link--special" href="http://clearleft.com/" target="_blank" rel="noopener">Clearleft</a> have a weekly frontend pow-wow and I'm always amazed by how much I get out of that.
+My colleagues are a great source of knowledge and inspiration. The developers at <a class="link link--special" href="http://clearleft.com/" target="_blank" rel="noopener noreferrer">Clearleft</a> have a weekly frontend pow-wow and I'm always amazed by how much I get out of that.
 
 ## What was your first development job and how you faced it?
 
@@ -62,7 +62,7 @@ I was playing in a band (this was in the mid nineties) and we decided we should 
 
 ## What was the most challenging project you ever faced and why?
 
-I run <a class="link link--special" href="https://thesession.org" target="_blank" rel="noopener">The Session</a> — a community website for traditional Irish music. It's challenging not so much from a technical perspective, but from a human angle: trying to create and sustain a healthy online environment has definitely had its challenges. But it's also the project that has given me the greatest reward.
+I run <a class="link link--special" href="https://thesession.org" target="_blank" rel="noopener noreferrer">The Session</a> — a community website for traditional Irish music. It's challenging not so much from a technical perspective, but from a human angle: trying to create and sustain a healthy online environment has definitely had its challenges. But it's also the project that has given me the greatest reward.
 
 ## Can you describe your workflow when you create HTML, CSS and JavaScript from scratch?
 
@@ -80,7 +80,7 @@ I've come to realise that the real power of the web lies in its ubiquity. Just a
 ## Do you have any favorite books, videos, or resources that you could share with the readers?
 
 When it comes to books, it's hard to wrong with the books from A Book Apart. Except for that first one, they're all really good, and they won't take too long to read either.
-As for other resources, I find fantastic stuff on the web just about every single day. That's why I've got a <a class="link link--special" href="https://adactio.com/links/" target="_blank" rel="noopener">"links"</a> section on my site.
+As for other resources, I find fantastic stuff on the web just about every single day. That's why I've got a <a class="link link--special" href="https://adactio.com/links/" target="_blank" rel="noopener noreferrer">"links"</a> section on my site.
 
 ## Do you have any advice for new developers just starting their career journey?
 
@@ -90,6 +90,6 @@ Oh, and share what you learn. Have a website. Write a little something there whe
 
 ## What can we expect from Jeremy in the future? Anything you want to share?
 
-I have some ideas for some new projects, but I really need to knuckle down and overhaul some existing long-term projects. I already mentioned the Irish music site, The Session. There's also a site I built called Huffduffer that's long overdue a redesign: <a class="link link--special" href="https://huffduffer.com/" target="_blank" rel="noopener">huffduffer</a>
+I have some ideas for some new projects, but I really need to knuckle down and overhaul some existing long-term projects. I already mentioned the Irish music site, The Session. There's also a site I built called Huffduffer that's long overdue a redesign: <a class="link link--special" href="https://huffduffer.com/" target="_blank" rel="noopener noreferrer">huffduffer</a>
 
-As ever, I'll be writing my thoughts on my website, <a class="link link--special" href="https://adactio.com/" target="_blank" rel="noopener">Adactio</a>.
+As ever, I'll be writing my thoughts on my website, <a class="link link--special" href="https://adactio.com/" target="_blank" rel="noopener noreferrer">Adactio</a>.

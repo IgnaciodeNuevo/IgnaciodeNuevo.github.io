@@ -9,7 +9,7 @@ title: "Paul Lloyd"
 
 <img class="portrait portrait--xxl" src="/assets/images/portrait-paul-lloyd.jpg" alt="Paul Lloyd's prtrait"/>
 
-I’m an <a class="link link--special" href="https://paulrobertlloyd.com" target="_blank" rel="noopener">independent graphic designer and frontend web developer</a> based in Brighton, England. I help responsible organisations like the Guardian, UNICEF and Mozilla create purposeful digital products.
+I’m an <a class="link link--special" href="https://paulrobertlloyd.com" target="_blank" rel="noopener noreferrer">independent graphic designer and frontend web developer</a> based in Brighton, England. I help responsible organisations like the Guardian, UNICEF and Mozilla create purposeful digital products.
 
 ## When you started developing, what were some common mistakes you made along the way?
 
@@ -37,7 +37,7 @@ I’m always on the look out for interesting examples of design, particularly th
 
 ## What was your first development job and how you faced it?
 
-My first job was at a small web design agency, primarily building websites for local estate agents. This presented me with an opportunity to build my first commercial website using web standards and CSS for layout. I spoke about what happened next a few years ago, and you can <a class="link link--special" href="https://paulrobertlloyd.com/talks/aquent_gumnasium_uk_launch" target="_blank" rel="noopener">read the transcript here</a>.
+My first job was at a small web design agency, primarily building websites for local estate agents. This presented me with an opportunity to build my first commercial website using web standards and CSS for layout. I spoke about what happened next a few years ago, and you can <a class="link link--special" href="https://paulrobertlloyd.com/talks/aquent_gumnasium_uk_launch" target="_blank" rel="noopener noreferrer">read the transcript here</a>.
 
 ## What was the most challenging project you ever faced and why?
 
@@ -49,15 +49,15 @@ Be it HTML, CSS or JavaScript, I tend to start from the most basic representatio
 
 ## What excites you most these days?
 
-Trained as a graphic designer, and enjoying a career as a frontend web developer, it’s where these two disciplines intersect that I find most interesting. It was this that inspired <a class="link link--special" href="https://24ways.org/2015/beyond-the-style-guide/" target="_blank" rel="noopener">my recent article on 24 ways</a>.
+Trained as a graphic designer, and enjoying a career as a frontend web developer, it’s where these two disciplines intersect that I find most interesting. It was this that inspired <a class="link link--special" href="https://24ways.org/2015/beyond-the-style-guide/" target="_blank" rel="noopener noreferrer">my recent article on 24 ways</a>.
 
 ## What is the most important thing you’ve learned?
 
-Not sure if I’ve entirely learned this lesson, but one of my favourite pieces of advice is from Jason Fried. When wanting to give your opinion on something, <a class="link link--special" href="https://signalvnoise.com/posts/3124-give-it-five-minutes" target="_blank" rel="noopener">give it five minutes</a>.
+Not sure if I’ve entirely learned this lesson, but one of my favourite pieces of advice is from Jason Fried. When wanting to give your opinion on something, <a class="link link--special" href="https://signalvnoise.com/posts/3124-give-it-five-minutes" target="_blank" rel="noopener noreferrer">give it five minutes</a>.
 
 ## Do you have any favourite books, videos, or resources that you could share with the readers?
 
-I find the <a class="link link--special" href="https://adactio.com/links/" target="_blank" rel="noopener">links posted by Jeremy Keith</a> to be a useful means of keeping up-to-date with the goings on in frontend development. As to design, while I don’t do that much identity design myself, <a class="link link--special" href="http://www.underconsideration.com/brandnew/" target="_blank" rel="noopener">Brand New</a> remains one of my favourite blogs.
+I find the <a class="link link--special" href="https://adactio.com/links/" target="_blank" rel="noopener noreferrer">links posted by Jeremy Keith</a> to be a useful means of keeping up-to-date with the goings on in frontend development. As to design, while I don’t do that much identity design myself, <a class="link link--special" href="http://www.underconsideration.com/brandnew/" target="_blank" rel="noopener noreferrer">Brand New</a> remains one of my favourite blogs.
 
 ## Do you have any advice for new developers just starting their career journey?
 
@@ -65,4 +65,4 @@ I’d encourage people to follow your lead, Ignacio! Don’t be afraid to reach 
 
 ## What can we expect from Paul in the future? Anything you want to share?
 
-I’m hoping this year will see me have more time to spend on a somewhat neglected side-project: <a class="link link--special" href="http://bradshawsguide.org" target="_blank" rel="noopener">Bradshaw’s Guide</a>. It’s a digitised version of a victorian railway travel guide, but I’ve only transcribed the first of four sections, so far. I’d like to add the remaining three sections, as well as update its design and revisit my implementation.
+I’m hoping this year will see me have more time to spend on a somewhat neglected side-project: <a class="link link--special" href="http://bradshawsguide.org" target="_blank" rel="noopener noreferrer">Bradshaw’s Guide</a>. It’s a digitised version of a victorian railway travel guide, but I’ve only transcribed the first of four sections, so far. I’d like to add the remaining three sections, as well as update its design and revisit my implementation.

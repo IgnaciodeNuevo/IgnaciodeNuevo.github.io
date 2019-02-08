@@ -39,8 +39,8 @@ img:not([src]) {
 // }
 
 //
-// TODO: Check if every external link has rel="noopener" attribute
+// TODO: Check if every external link has rel="noopener noreferrer" attribute
 //
-// a:not([rel="noopener"]) {
+// a:not([rel="noopener noreferrer"]) {
 //     background-color: green !important;
 // }
