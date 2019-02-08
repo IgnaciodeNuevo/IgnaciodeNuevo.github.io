@@ -15,7 +15,7 @@ So first things first, lets practice our speaking skills and in a few months we 
 
 <blockquote class="quote">
     <span>I really am not that comfortable with my public image and speaking, especially in English, is hard. It might not look like it, but it is.</span>
-    &mdash;&thinsp;Anonymous Developer</cite>
+    <cite>&mdash;&thinsp;Anonymous Developer</cite>
 </blockquote>
 
 When one of the first developers told me he/she is not comfortable with his/her public image and speaking I thought if someone I really admire, who I think he/se has a great talent made me think I am not the only one with this feeling.
@@ -26,7 +26,7 @@ I started sending a few emails to some of the developers I follow on this <a cla
 
 <blockquote class="quote">
     <span>I am so sorry about this email, I was writing to XXXXX XXXXX and I literally pasted the email that just send him, because I am sending some emails about this. I want to say sorry.</span>
-    &mdash;&thinsp;Ignacio Villanueva</cite>
+    <cite>&mdash;&thinsp;Ignacio Villanueva</cite>
 </blockquote>
 
 Note I was trying to send emails as many people I can because I thought none will respond this and by copy/pasting my first few emails I made a mistake, I copy/pasted the email I sent to someone I met in Madrid in the Google HQ where he gave a talk and made me feel terribly stupid. So I sent to everyone I sent this an apology email.

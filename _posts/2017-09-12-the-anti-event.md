@@ -180,7 +180,7 @@ PD.: Se me olvidaba mencionar que sortearon 15 tazas y me tocó una en la segund
         <li><a class="link link--special" href="https://elenatorro.github.io/theantievent-notes/" target="_blank" rel="noopener noreferrer">Notas</a> por Elena Torró</li>
         <li><a class="link link--special" href="https://melies-hugo.js.org/post/experiencia-theantievent/" target="_blank" rel="noopener noreferrer">Experiencia</a> por Cristina Fernández</li>
         <li><a class="link link--special" href="http://jorgeatgu.com/blog/retroespecter-theantievent-17/" target="_blank" rel="noopener noreferrer">Retrospectiva</a> por Jorge</li>
-        <li><a class="link link--special" href="https://medium.com/@dmarchena/una-retro-personal-del-theantievent-2017-4bd31f4712fa" target="_blank" rel="noopener noreferrer">Una retro personal del TheAntiEvent 2017</a> por David Marchena</li>
-        <li><a class="link link--special" href="https://robertogarrido.com/theantievent-2017/" target="_blank" rel="noopener noreferrer">Como mejorar como profesional en un fin de semana</a> por Roberto Garrido</li>
+        <li><a class="link link--special" href="https://medium.com/@dmarchena/una-retro-personal-del-theantievent-2017-4bd31f4712fa" target="_blank" rel="noopener noreferrer">Una retro personal</a> del TheAntiEvent 2017 por David Marchena</li>
+        <li><a class="link link--special" href="https://robertogarrido.com/theantievent-2017/" target="_blank" rel="noopener noreferrer">Como mejorar como profesional</a>  en un fin de semana por Roberto Garrido</li>
     </ul>
 </div>

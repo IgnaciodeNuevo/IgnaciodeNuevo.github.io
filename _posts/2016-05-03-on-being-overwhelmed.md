@@ -12,7 +12,7 @@ Let's start at the beginning. I started using the web since the terrible time of
 
 Fifteen years ago was a good time to start on the web, this was easy to learn, there is no new wheel to be reinvented every six months like now.
 
-Approximately one year and a half ago, I started learning Frontend Developement on my own since I've finished the <a class="link link--special" href="/2016/02/28/my-interest-in-web-development/">Master in Graphic Design and Web Development</a> at Trazos.
+Approximately one year and a half ago, I started learning Frontend Developement on my own since I've finished the Master in <a class="link link--special" href="/2016/02/28/my-interest-in-web-development/">Graphic Design and Web</a> Development at Trazos.
 
 After finishing the master I had the wrong idea that I had all the knowledge needed to conquest the world. I couldn't be more wrong. Things change fast and this incredible industry changes faster than you have ever imagined before.
 
@@ -44,7 +44,7 @@ Finally are you using Angular 1.0? Oh, today I've read Angular 2.0 has become dr
 
 <blockquote class="quote">
     <span>Whenever a new framework, tool or technique comes out, I hear more groans than celebrations.</span>
-    &mdash;&thinsp;Wes Bos</cite>
+    <cite>&mdash;&thinsp;Wes Bos</cite>
 </blockquote>
 
 I'm new in web industry. How are we supposed to get up to date with everything while keeps changing?
@@ -59,7 +59,7 @@ Working on the web means that things change quickly. A need to readapt yourself 
 
 <blockquote class="quote">
     <span>We will always see innovation, people pushing the envelope on both what is possible and the best way to get things done.</span>
-    &mdash;&thinsp;Wes Bos</cite>
+    <cite>&mdash;&thinsp;Wes Bos</cite>
 </blockquote>
 
 It’s not changing that fast. Why you might ask?
@@ -70,7 +70,7 @@ Can a big company like a newspaper use Angular 2.0 for example since the first d
 
 Am I going to start using CSS variables or Grid today? No way! I am going to keep reading, listening podcasts, reading new blog posts and watching conference videos and tutorials. I like to play with new things like Grid but we need to stop yelling about the new _hot topics_ right now and let browsers implement whatever it comes.
 
-Now it is time to use flexbox for example, it is a CSS Module <a class="link link--special" href="https://www.w3.org/TR/css-flexbox-1/" target="_blank" rel="noopener noreferrer">W3C Candidate Recommendation</a>. I hope Google will launch Angular 2.0 in 2016 Google I/O. Wait for the community to test and embrace it.
+Now it is time to use flexbox for example, it is a CSS Module <a class="link link--special" href="https://www.w3.org/TR/css-flexbox-1/" target="_blank" rel="noopener noreferrer">W3C Candidate</a> Recommendation. I hope Google will launch Angular 2.0 in 2016 Google I/O. Wait for the community to test and embrace it.
 
 Same goes for PostCSS – Should you use it today? Probably not. But you should read and play with it.
 
@@ -97,7 +97,7 @@ TLDR; Yes our industry is fast, it moves quickly, this is inspiring, because it�
 <div class="related">
     <h4 class="related__title">Further reading</h4>
     <ul class="related__list">
-        <li><a class="link link--special" href="http://wesbos.com/overwhelmed-with-web-development/" target="_blank" rel="noopener noreferrer">On being overwhelmed with our fast paced industry</a></li>
-        <li><a class="link link--special" href="http://ashleynolan.co.uk/blog/frontend-tooling-survey-2015-results" target="_blank" rel="noopener noreferrer">The State of Front-End Tooling – 2015</a></li>
+        <li><a class="link link--special" href="http://wesbos.com/overwhelmed-with-web-development/" target="_blank" rel="noopener noreferrer">On being overwhelmed</a> with our fast paced industry</li>
+        <li><a class="link link--special" href="http://ashleynolan.co.uk/blog/frontend-tooling-survey-2015-results" target="_blank" rel="noopener noreferrer">The State of Front-End Tooling</a> – 2015</li>
     </ul>
 </div>

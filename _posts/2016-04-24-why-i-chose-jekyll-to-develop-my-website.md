@@ -108,7 +108,8 @@ Thanks, Ignacio.
         <li><a class="link link--special" href="http://jekyllsnippets.com/" target="_blank" rel="noopener noreferrer">Jekyll Snippets</a></li>
         <li><a class="link link--special" href="https://www.smashingmagazine.com/2016/02/content-modeling-with-jekyll" target="_blank" rel="noopener noreferrer">Content Modeling With Jekyll</a></li>
         <li><a class="link link--special" href="https://pages.github.com/versions" target="_blank" rel="noopener noreferrer">Dependency Versions</a></li>
-        <li><a class="link link--special" href="https://help.github.com/articles/using-a-custom-domain-with-github-pages" target="_blank" rel="noopener noreferrer">Using a custom domain with GitHub Pages</a></li>
+        <li><a class="link link--special" href="https://help.github.com/articles/using-a-custom-domain-with-github-pages" target="_blank" rel="noopener noreferrer">Using a custom domain</a> with GitHub Pages</li>
+        <li><a class="link link--special" href="https://help.github.com/articles/using-a-custom-domain-with-github-pages" target="_blank" rel="noopener noreferrer">Using a custom domain</a> with GitHub Pages</li>
         <li><a class="link link--special" href="https://help.github.com/articles/troubleshooting-jekyll-builds" target="_blank" rel="noopener noreferrer">Troubleshooting Jekyll builds</a></li>
     </ul>
 </div>

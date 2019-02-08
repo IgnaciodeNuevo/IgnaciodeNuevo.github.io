@@ -128,7 +128,7 @@ Por último dar las gracias a quienes me han dado feedback antes de publicar el 
         <li><a class="link link--special" href="https://github.com/folkswhocode/awesome-diversity" target="_blank" rel="noopener noreferrer">Awesome Diversity</a></li>
         <li><a class="link link--special" href="https://github.com/folkswhocode/diversifaq/blob/master/FAQ.md" target="_blank" rel="noopener noreferrer">Folks Who Code FAQ</a></li>
         <li><a class="link link--special" href="https://github.com/larahogan/ally-resources" target="_blank" rel="noopener noreferrer">Allie resources by Lara Hogan</a></li>
-        <li><a class="link link--special" href="https://www.slideshare.net/txipi/identidad-digital-y-feminismo2015" target="_blank" rel="noopener noreferrer">Identidad digital y feminismo por Pablo Garaizar</a></li>
+        <li><a class="link link--special" href="https://www.slideshare.net/txipi/identidad-digital-y-feminismo2015" target="_blank" rel="noopener noreferrer">Identidad digital y feminismo</a></li>
         <li><a class="link link--special" href="https://www.youtube.com/channel/UC7Z9bj7ibznsY1ty9ca0rBw" target="_blank" rel="noopener noreferrer">asadaf</a></li>
         <li><a class="link link--special" href="https://www.youtube.com/channel/UCLKaFQcM40WTfvRyy3T05Mg" target="_blank" rel="noopener noreferrer">SpanishQueens</a></li>
         <li><a class="link link--special" href="https://www.youtube.com/channel/UCXwXB7a3cq9AERiWF4-dK9g" target="_blank" rel="noopener noreferrer">Ash Hardell</a></li>
