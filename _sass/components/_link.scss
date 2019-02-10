@@ -31,26 +31,26 @@
                 border: 1px dotted var(--color-primary); // Magic String: Do not change/remove
             }
 
-            // &:after {
-            //     background: var(--linear-gradient);
-            //     border-radius: var(--border-radius-xxs);
-            //     bottom: 0;
-            //     content: "";
-            //     height: 2px; // Magic String: Do not change/remove
-            //     left: 0;
-            //     opacity: var(--opacity-s);
-            //     position: absolute;
-            //     width: 100%;
-            // }
-
             &:after {
-                content: "Debugging";
-                top: 0;
+                background: var(--linear-gradient);
+                border-radius: var(--border-radius-xxs);
+                bottom: 0;
+                content: "";
+                height: 2px; // Magic String: Do not change/remove
                 left: 0;
-                border: 1px solid red;
+                opacity: var(--opacity-s);
                 position: absolute;
                 width: 100%;
             }
+
+            // &:after {
+            //     content: "";
+            //     top: 0;
+            //     left: 0;
+            //     border: 1px solid red;
+            //     position: absolute;
+            //     width: 100%;
+            // }
         }
 
         &:hover:after {
