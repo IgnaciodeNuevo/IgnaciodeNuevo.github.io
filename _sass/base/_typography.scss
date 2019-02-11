@@ -79,6 +79,12 @@ p {
     @include body-text();
 }
 
+b,
+cite,
+em {
+    font-family: var(--font-family-body-italic);
+}
+
 .small {
     @include body-small();
 }

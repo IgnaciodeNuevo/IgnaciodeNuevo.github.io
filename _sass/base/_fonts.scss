@@ -63,6 +63,14 @@
 }
 
 @font-face {
+  font-family: "Brando Italic Sans";
+  src: url("/assets/fonts/Brando/Brando-Sans-Italic.woff2") format("woff2"),
+       url("/assets/fonts/Brando/Brando-Sans-Italic.woff") format("woff");
+  font-stretch: normal;
+  font-weight: var(--font-weight-normal);
+}
+
+@font-face {
     font-family: "Brando Semibold Sans";
     src: url("/assets/fonts/Brando/Brando-Sans-Semibold.woff2") format("woff2"),
          url("/assets/fonts/Brando/Brando-Sans-Semibold.woff") format("woff");
