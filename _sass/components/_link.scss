@@ -22,13 +22,14 @@
             -webkit-background-clip: text;
                     background-clip: text;
             background-image: var(--linear-gradient);
+            border: 1px dotted transparent;
             color: transparent;
             position: relative;
             text-decoration: none;
             white-space: nowrap;
 
             &:focus {
-                border: 1px dotted var(--color-primary); // Magic String: Do not change/remove
+                border-color: var(--color-primary); // Magic String: Do not change/remove
             }
 
             &:after {
