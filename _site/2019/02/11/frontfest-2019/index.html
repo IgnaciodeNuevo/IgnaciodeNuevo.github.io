@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+
+    <html lang="es">
+
+
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>FrontFest 2019 - Performance, responsive design, web typography and accessibility by Ignacio Villanueva.</title>
+
+    <!-- StyleSheets & DNS Prefetch -->
+    <link rel="dns-prefetch" href="https://twitter.com/ignaciodenuevo">
+    <link rel="dns-prefetch" href="//platform.twitter.com">
+    <link rel="stylesheet" href="/assets/css/main.css">
+
+    <!-- Robots & indexing -->
+    
+        <meta name="robots" content="index,follow">
+        <meta name="revisit-after" content="1 days">
+    
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="FrontFest 2019" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="/2019/02/11/frontfest-2019/"/>
+    <meta property="og:image" content="http://localhost:4000/assets/images/logo.jpg" />
+    <meta property="og:description" content="Como cada año, y esta es la tercera edición, hemos asistido al FrontFest, un evento para la comunidad. Esta vez no ha sido menos. En este post voy a hablaros..." />
+    <meta property="og:site_name" content="http://localhost:4000" />
+
+    <!-- Twitter cards -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@IgnaciodeNuevo">
+    <meta name="twitter:domain" content="/2019/02/11/frontfest-2019/">
+    <meta name="twitter:creator" content="@IgnaciodeNuevo">
+    <meta name="twitter:title" content="FrontFest 2019">
+    <meta name="twitter:image" content="http://localhost:4000/assets/images/logo.jpg">
+    <meta name="twitter:description" content="Como cada año, y esta es la tercera edición, hemos asistido al FrontFest, un evento para la comunidad. Esta vez no ha sido menos. En este post voy a hablaros...">
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" title="Bakery Store RSS" href="/feed.xml">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/assets/images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/assets/images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/assets/images/favicon/manifest.json">
+    <link rel="mask-icon" href="/assets/images/favicon/safari-pinned-tab.svg" color="#0047bb">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Chrome for Android Toolbar Color-->
+    <meta name="theme-color" content="#0047BB">
+
+    <!-- Other -->
+    <meta name="description" content="FrontFest 2019 - Performance, responsive design, web typography and accessibility by Ignacio Villanueva.">
+
+</head>
+<!--
+.___                            .__           .___      _______
+|   | ____   ____ _____    ____ |__| ____   __| _/____  \      \  __ __   _______  ______
+|   |/ ___\ /    \\__  \ _/ ___\|  |/  _ \ / __ |/ __ \ /   |   \|  |  \_/ __ \  \/ /  _ \
+|   / /_/  >   |  \/ __ \\  \___|  (  <_> ) /_/ \  ___//    |    \  |  /\  ___/\   (  <_> )
+|___\___  /|___|  (____  /\___  >__|\____/\____ |\___  >____|__  /____/  \___  >\_/ \____/
+   /_____/      \/     \/     \/               \/    \/        \/            \/
+
+   - Twitter: @IgnaciodeNuevo - GitHub: IgnaciodeNuevo - Email: ignaciodenuevo@posteo.net -
+
+-->
+
+
+    
+        <body class="post">
+    
+
+        <nav class="offcanvas" id="js-nav" aria-label="Main navigation on small screens">
+    <div class="offcanvas__header">
+        <button id="js-close-menu" class="btn btn--inverted" aria-controls="js-nav">
+            <svg class="icon icon-stroke" role="img" aria-hidden="true" focusable="false" viewBox="0 0 24 24">
+    <path d="M3 12h18M3 6h18M3 18h18"/>
+</svg>
+
+
+
+            <span>
+                <span class="u-visually-hidden">Close</span>
+                <span>Menu</span>
+            </span>
+        </button>
+    </div>
+
+    <div class="offcanvas__counter">
+    <a class="link" href="/blog/">
+        Blog
+    </a>
+
+    <a class="link" href="/speaking/">
+        Speaking
+    </a>
+
+    <a class="link" href="/projects/">
+        Projects
+    </a>
+
+    <a class="link" href="/search/">
+        Search
+    </a>
+
+    <a class="link" href="/about/">
+        About
+    </a>
+
+</div>
+
+
+    <h3 class="section-caption">
+    <span class="u-divider-small"></span>
+    <span>Social</span>
+</h3>
+
+<a class="link" href="https://github.com/ignaciodenuevo" target="_blank" rel="noopener">
+    <svg class="icon icon-stroke" role="img" aria-hidden="true" focusable="false" viewBox="0 0 24 24">
+    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg>
+
+    Github
+</a>
+<a class="link" href="https://twitter.com/ignaciodenuevo" target="_blank" rel="noopener">
+    <svg class="icon icon-stroke" role="img" aria-hidden="true" focusable="false" viewBox="0 0 28 28">
+    <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+</svg>
+
+    Twitter
+</a>
+
+<h3 class="section-caption">
+    <span class="u-divider-small"></span>
+    <span>Suscribe</span>
+</h3>
+
+<a class="link" href="/feed.xml">
+    <svg class="icon icon-stroke" role="img" aria-hidden="true" focusable="false" viewBox="0 0 28 28">
+    <path d="M4 11a9 9 0 0 1 9 9"></path>
+    <path d="M4 4a16 16 0 0 1 16 16"></path>
+    <circle cx="5" cy="19" r="1"></circle>
+</svg>
+
+    RSS Feed
+</a>
+
+<h3 class="section-caption">
+    <span class="u-divider-small"></span>
+    <span>Resources</span>
+</h3>
+
+<a class="link" href="/resources/">
+    <svg class="icon icon-stroke" role="img" aria-hidden="true" focusable="false" viewBox="0 0 24 24">
+    <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+</svg>
+
+    Bookmarks
+</a>
+
+
+    <h3 class="section-caption">
+        <span class="u-divider-small"></span>
+        <span>Get in touch</span>
+    </h3>
+
+    <a class="link" href="/about/#email">
+        <svg class="icon icon-stroke" role="img" aria-hidden="true" focusable="false" aria-labelledby="icon-email" viewBox="0 0 24 24">
+    <title id="icon-email">Send an me email</title>
+    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline>
+</svg>
+
+        Email
+    </a>
+</nav>
+
+        <div class="container">
+            <header class="header" role="banner">
+    <nav class="nav-main" aria-label="Main navigation on big screens">
+        <a class="nav-main__logo-link" href="/"><svg class="logo" role="img" aria-labelledby="icon-logo-horizontal" viewBox="0 0 816 160">
+    <title id="icon-logo-horizontal">Go to the home page</title>
+    <path d="M24.002 0L0 12.23v101.468h28.194V44.284l5.171-2.629L70.26 68.457l17.13-22.408L24.001-.001zm70.871 46.049v69.414l-5.167 2.637L52.813 91.29 35.68 113.698l63.394 46.05 24-12.22V46.048h-28.2zm705.8 51.592c-1.08 3.341-3.734 5.11-7.37 5.11s-6.288-1.769-7.37-5.11c-.687-2.162-.884-4.126-.884-8.155 0-4.029.197-5.991.884-8.154 1.082-3.34 3.734-5.109 7.37-5.109s6.29 1.769 7.37 5.11c.687 2.162.883 4.124.883 8.153 0 4.029-.196 5.993-.883 8.155zm13.265-19.649c-2.75-8.646-10.611-13.363-20.635-13.363-10.023 0-17.883 4.717-20.634 13.363-1.081 3.438-1.573 6.779-1.573 11.494 0 4.717.492 8.057 1.573 11.496 2.75 8.647 10.611 13.362 20.634 13.362 10.024 0 17.884-4.715 20.635-13.362 1.08-3.44 1.573-6.78 1.573-11.496 0-4.715-.492-8.056-1.573-11.494zM769.54 65.711h-12.186c-.688 0-1.081.295-1.277.983l-8.844 28.196h-.196l-9.236-28.196c-.197-.688-.591-.983-1.278-.983h-12.381c-.688 0-.982.393-.785.983l16.9 45.587c.197.589.59.982 1.179.982h10.808c.59 0 .984-.393 1.18-.982l16.902-45.587c.196-.59-.1-.983-.786-.983zm-61.694 18.764h-15.721c-.395 0-.59-.196-.59-.589 0-1.473.195-2.554.49-3.537 1.082-3.242 4.03-5.207 7.96-5.207 3.93 0 6.878 1.965 7.959 5.207.294.983.491 2.064.491 3.537 0 .393-.197.59-.59.59zm-7.959-19.846c-10.12 0-17.686 4.914-20.438 13.46-.982 2.948-1.572 6.386-1.572 11.397 0 4.913.687 8.352 1.671 11.3 2.75 8.548 10.218 13.558 21.027 13.558 8.745 0 15.72-3.145 20.241-7.96.395-.392.395-.981-.097-1.373l-6.487-6.092c-.392-.49-.882-.393-1.375 0-2.751 2.554-6.19 4.225-10.906 4.225-4.913 0-8.55-2.162-9.826-6.288-.295-.786-.492-1.67-.59-2.653 0-.394.195-.59.59-.59h28.79c.688 0 1.08-.392 1.08-.983 0-8.056-.587-11.495-1.571-14.638-2.752-8.353-10.023-13.363-20.537-13.363zm-29.659 1.082h-11.79c-.591 0-.984.393-.984.983v27.312c0 5.207-2.554 8.647-7.27 8.647-4.816 0-7.272-3.538-7.272-8.647V66.694c0-.59-.393-.983-.982-.983H630.14c-.59 0-.983.393-.983.983v29.964c0 10.317 5.502 17.686 16.017 17.686 5.993 0 9.727-2.261 12.184-5.502h.097v3.439c0 .589.393.982.984.982h11.79c.59 0 .984-.393.984-.982V66.694c0-.59-.394-.983-.984-.983zm-50.785-19.258h-11.103c-.59 0-.984.395-.984.983v42.05h-.49l-23.584-42.05c-.393-.687-.982-.983-1.67-.983h-11.79c-.591 0-.985.395-.985.983v64.845c0 .589.394.982.984.982h11.103c.59 0 .983-.393.983-.982V70.329h.492l23.681 41.952c.393.688.883.982 1.67.982h11.693c.59 0 .982-.393.982-.982V47.436c0-.588-.392-.983-.982-.983zm-71.616 38.022h-15.722c-.393 0-.59-.196-.59-.589 0-1.473.197-2.554.492-3.537 1.08-3.242 4.028-5.207 7.96-5.207 3.93 0 6.878 1.965 7.958 5.207.295.983.491 2.064.491 3.537 0 .393-.196.59-.589.59zm-7.96-19.846c-10.12 0-17.687 4.914-20.437 13.46-.984 2.948-1.573 6.386-1.573 11.397 0 4.913.689 8.352 1.67 11.3 2.753 8.548 10.22 13.558 21.029 13.558 8.745 0 15.721-3.145 20.242-7.96.392-.392.392-.981-.1-1.373l-6.484-6.092c-.393-.49-.885-.393-1.375 0-2.752 2.554-6.19 4.225-10.909 4.225-4.913 0-8.547-2.162-9.825-6.288-.296-.786-.492-1.67-.59-2.653 0-.394.197-.59.59-.59h28.79c.688 0 1.081-.392 1.081-.983 0-8.056-.589-11.495-1.572-14.638-2.751-8.353-10.023-13.363-20.537-13.363zM496.55 97.641c-1.081 3.341-3.635 5.11-7.271 5.11-3.733 0-6.289-1.769-7.37-5.11-.59-1.866-.885-3.93-.885-8.155 0-4.223.296-6.289.885-8.154 1.081-3.438 3.637-5.109 7.37-5.109 3.636 0 6.19 1.67 7.271 5.11.59 1.864.885 3.93.885 8.153 0 4.225-.295 6.289-.885 8.155zm13.659-51.188h-11.792c-.589 0-.982.395-.982.983v22.696h-.1c-2.26-3.242-6.19-5.503-12.478-5.503-7.958 0-13.658 3.833-16.114 11.398-1.18 3.732-1.671 7.27-1.671 13.46 0 6.092.492 9.726 1.67 13.459 2.457 7.468 8.157 11.398 16.115 11.398 6.288 0 10.218-2.261 12.478-5.502h.1v3.439c0 .589.393.982.982.982h11.792c.589 0 .983-.393.983-.982V47.436c0-.588-.394-.983-.983-.983zm-62.282 51.188c-1.081 3.341-3.735 5.11-7.37 5.11-3.634 0-6.29-1.769-7.368-5.11-.69-2.162-.885-4.126-.885-8.155 0-4.029.196-5.991.885-8.154 1.079-3.34 3.734-5.109 7.368-5.109 3.635 0 6.289 1.769 7.37 5.11.688 2.162.885 4.124.885 8.153 0 4.029-.197 5.993-.885 8.155zm-7.37-33.012c-10.022 0-17.882 4.717-20.634 13.363-1.082 3.438-1.572 6.779-1.572 11.494 0 4.717.49 8.057 1.572 11.496 2.752 8.647 10.612 13.362 20.634 13.362s17.884-4.715 20.636-13.362c1.081-3.44 1.571-6.78 1.571-11.496 0-4.715-.49-8.056-1.571-11.494-2.752-8.646-10.614-13.363-20.636-13.363zm-29.856-18.176h-11.79c-.59 0-.982.395-.982.983v9.727c0 .59.392.982.982.982h11.79c.59 0 .982-.393.982-.982v-9.727c0-.588-.392-.983-.982-.983zm0 19.258h-11.79c-.59 0-.982.393-.982.983v45.587c0 .589.392.982.982.982h11.79c.59 0 .982-.393.982-.982V66.694c0-.59-.392-.983-.982-.983zm-36.831 10.512c3.44 0 5.503 1.277 7.567 4.126.393.491.883.59 1.474.197l8.548-5.6c.491-.394.491-.884.196-1.375-3.438-5.208-9.825-8.942-17.982-8.942-10.022 0-17.686 4.62-20.536 13.46-.982 2.85-1.474 6.386-1.474 11.397 0 5.012.492 8.548 1.474 11.397 2.85 8.844 10.514 13.46 20.536 13.46 8.157 0 14.544-3.734 17.982-8.94.295-.491.295-.982-.196-1.376l-8.548-5.599c-.59-.394-1.08-.295-1.474.196-2.064 2.85-4.127 4.127-7.567 4.127-3.636 0-6.288-1.671-7.37-5.11-.687-1.965-.884-4.224-.884-8.155 0-3.928.197-6.19.884-8.154 1.082-3.438 3.734-5.109 7.37-5.109zm-41.646 21.221c0 4.422-2.948 6.583-8.845 6.583-4.52 0-6.877-1.67-6.877-5.01 0-3.733 2.652-5.404 8.45-5.404h6.68c.395 0 .592.196.592.59v3.241zm-8.057-32.815c-7.861 0-13.659 1.868-17.689 4.717-.49.293-.59.786-.293 1.375l4.42 7.762c.296.49.787.59 1.279.197 2.259-1.67 5.797-3.046 10.612-3.046 7.565 0 9.728 2.063 9.728 6.484v1.768c0 .393-.197.59-.591.59h-8.45c-11.791 0-19.75 4.814-19.75 15.326 0 10.12 7.368 14.542 15.82 14.542 6.485 0 10.613-2.063 13.069-5.208h.099v3.145c0 .589.392.982.982.982h10.907c.589 0 .982-.393.982-.982V81.824c0-11.889-5.602-17.195-21.125-17.195zm-43.516 0c-6.09 0-10.119 2.456-12.282 5.404h-.096v-3.34c0-.589-.396-.982-.985-.982h-11.792c-.589 0-.982.393-.982.983v45.587c0 .589.393.982.982.982h11.792c.59 0 .985-.393.985-.982V84.967c0-5.208 2.75-8.647 7.465-8.647 4.913 0 7.371 3.439 7.371 8.647v27.314c0 .589.393.982.983.982h11.79c.59 0 .983-.393.983-.982V82.313c0-10.413-5.7-17.684-16.214-17.684zM230.85 94.693c-1.081 3.34-3.242 5.109-7.075 5.109-3.734 0-5.896-1.768-7.074-5.11-.49-1.767-.787-3.731-.787-6.679 0-2.947.296-4.913.787-6.68 1.178-3.341 3.34-5.11 7.074-5.11 3.833 0 5.994 1.769 7.075 5.11.59 1.767.885 3.733.885 6.68 0 2.948-.295 4.912-.885 6.68zM244.51 65.71h-11.791c-.59 0-.983.393-.983.983v3.438h-.098c-2.065-3.34-6.192-5.503-12.185-5.503-7.862 0-13.461 3.93-15.918 11.497-1.08 3.438-1.573 6.777-1.573 11.887s.492 8.351 1.573 11.888c2.457 7.565 8.056 11.495 15.918 11.495 5.993 0 10.12-2.16 12.185-5.501h.098v4.027c0 6.976-2.948 10.513-9.53 10.513-3.736 0-6.88-1.473-9.827-4.128-.492-.49-.984-.49-1.474 0l-6.977 7.076c-.492.491-.492.982-.098 1.473 3.438 4.127 10.906 7.172 17.982 7.172 15.623 0 23.68-7.957 23.68-23.874v-41.46c0-.59-.394-.983-.982-.983zm-49.724-19.003h-12.879c-.61 0-1.014.393-1.014.98v64.625c0 .588.405.979 1.014.979h12.879c.61 0 1.015-.391 1.015-.979V47.688c0-.587-.405-.98-1.015-.98z" fill-rule="evenodd"/>
+</svg>
+ <span class="beta">BETA</span></a>
+
+        <div class="nav-items">
+            
+    <a class="link" href="/blog/">
+        Blog
+    </a>
+
+    <a class="link" href="/speaking/">
+        Speaking
+    </a>
+
+    <a class="link" href="/projects/">
+        Projects
+    </a>
+
+    <a class="link" href="/search/">
+        Search
+    </a>
+
+    <a class="link" href="/about/">
+        About
+    </a>
+
+
+        </div>
+
+        <button id="js-open-menu" class="btn btn--ghost" aria-controls="js-nav">
+            <svg class="icon icon-stroke" role="img" aria-hidden="true" focusable="false" viewBox="0 0 24 24">
+    <path d="M3 12h18M3 6h18M3 18h18"/>
+</svg>
+
+
+
+            <span>
+                <span class="u-visually-hidden">Open</span>
+                <span>Menu</span>
+            </span>
+        </button>
+    </nav>
+</header>
+
+
+            
+<main class="main post" role="main">
+     
+        <div class="masthead">
+            <div class="content">
+                <h1 class="masthead__title" id="pattern">FrontFest 2019</h1>
+                
+                <p class="masthead__description">Como cada año, y esta es la tercera edición, hemos asistido al FrontFest, un evento para la comunidad. Esta vez no ha sido menos. En este post voy a hablaros sobre todo de lo que significa para mi y lo que he vivido como organizador. Casi todo ha sido bueno, pero aún podemos mejorar cosas.</p>
+                
+            </div>
+        </div>
+        
+
+        <div class="meta-wrapper">
+            <aside class="meta">
+                
+                <div class="last-updated">
+                    <p class="h2-like">Publication date</p>
+                    <p>Feb 11 2019</p>
+                </div>
+                
+                <div class="meta__reading"><p class="h4-like">Estimated reading time</p>
+<p class="value">
+    
+    
+        ~8 mins
+    
+</p>
+</div>
+                <div>
+                    
+                    <p class="h4-like">Tagged under</p>
+                    <div class="tag">
+                        <svg class="icon icon-stroke" role="img" aria-hidden="true" focusable="false" viewBox="0 0 24 24">
+        <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
+        <line x1="7" y1="7" x2="7" y2="7"></line>
+</svg>
+ 
+                        <a href="/tags/#Event">
+                            <span>#Event</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </aside>
+        </div>
+        <div class="content"><h2 id="qué-es-el-frontfest">¿Qué es el FrontFest?</h2>
+
+<p>No somos muy originales, <a class="link link--special" href="https://frontfest.es" target="_blank" rel="noopener noreferrer">FrontFest</a> es Frontend + Festival, un evento para la comunidad que hacemos <a class="link link--special" href="https://twitter.com/LuisCalvoDiaz" target="_blank" rel="noopener noreferrer">Luis Calvo</a>, <a class="link link--special" href="https://twitter.com/luisddm_" target="_blank" rel="noopener noreferrer">Luis de Dios</a>, <a class="link link--special" href="https://twitter.com/n03m1ms" target="_blank" rel="noopener noreferrer">Noemi Medina</a>, <a class="link link--special" href="https://twitter.com/v4n3ss4ms" target="_blank" rel="noopener noreferrer">Vanessa Medina</a>, <a class="link link--special" href="https://twitter.com/marinalopezyap" target="_blank" rel="noopener noreferrer">Marina López</a>, <a class="link link--special" href="https://twitter.com/JuanRioPacheco" target="_blank" rel="noopener noreferrer">Juan del Río</a>, <a class="link link--special" href="https://twitter.com/rubnvp" target="_blank" rel="noopener noreferrer">Rubén Valseca</a> y yo desde hace tres años con ponentes (hasta ahora), del sector de desarrollo en España.</p>
+
+<p>Cuando decimos para la comunidad, como dijo Noe al final del evento, en ningún caso lo hacemos para ponernos en un pedestal, generarnos ego, ni por sacar rédito de ningún tipo. Dedicamos <em>muchas horas</em> a prepararlo y tenemos más nervios y preocupaciones que alegrías durante los meses previos.</p>
+
+<p>Cada lunes desde septiembre (si no me equivoco), cada quince días y desde enero cada semana, nos reunimos por internet durante 2-3h para preparar cosas o lidiar con fuegos que van surgiendo durante cada nueva edición.</p>
+
+<p>Decía que esta es la tercera vez, pero no por ello todo va rodado.</p>
+
+<p>Tenemos mucho, mucho que agradecer a mucha gente, a los patrocinadores, porque un evento así es un gasto económico muy grande, y sin ellos aunque suene a coletilla, no sería posible. Obviamente no podemos pagar de nuestro bolsillo lo que vale montar algo de este calibre. Para que veáis en números os dejo las <a class="link link--special" href="https://blog.frontfest.es/las-cuentas-de-2018.html" target="_blank" rel="noopener noreferrer">cuentas del evento del 2018</a> (y este año hemos crecido en unas/os 60 asistentes). También tenemos que agradecer a todos los proveedores porque trabajan muy duro. A tanta gente que envía charlas y de las cuales, muy pocos son ponentes finalmente. A las/os ayudantes (3) este año que nos hacen más fácil el día del evento con su ayuda y también, a la gente que asiste, porque sin ellas/os, ¿para qué ibamos a montar algo?.</p>
+
+<h2 id="la-agenda">La agenda</h2>
+
+<p>Otros años, durante el evento he tenido la oportunidad de ver un par de charlas en directo, ya que nos vamos turnando para estar con diferentes tareas, aún así pude ver media charla, el resto las veré cuando las publiquemos en <a class="link link--special" href="https://www.youtube.com/frontfest" target="_blank" rel="noopener noreferrer">nuestro canal de YouTube</a> 😊</p>
+
+<p>Una vez más, las/os ponentes que han aportado mucho, cada uno en un área del frontend:</p>
+
+<ul>
+  <li><a class="link link--special" href="https://twitter.com/Zurribulle" target="_blank" rel="noopener noreferrer">Paqui Calabria</a> e <a class="link link--special" href="https://twitter.com/ismanapa" target="_blank" rel="noopener noreferrer">Ismael Navarro</a>.</li>
+  <li><a class="link link--special" href="https://twitter.com/CristinaGrim" target="_blank" rel="noopener noreferrer">Cristina Ponce</a>.</li>
+  <li><a class="link link--special" href="https://twitter.com/posva" target="_blank" rel="noopener noreferrer">Eduardo San Martín</a>.</li>
+  <li><a class="link link--special" href="https://twitter.com/EcosDeGenero" target="_blank" rel="noopener noreferrer">José Antonio Vela</a>.</li>
+  <li><a class="link link--special" href="https://twitter.com/JamesHedaWeng" target="_blank" rel="noopener noreferrer">James Heda Weng</a>.</li>
+  <li><a class="link link--special" href="https://twitter.com/vlucendo" target="_blank" rel="noopener noreferrer">Vicente Lucendo</a>.</li>
+  <li><a class="link link--special" href="https://twitter.com/goiblas" target="_blank" rel="noopener noreferrer">Jesús Olazagoitia</a>.</li>
+  <li><a class="link link--special" href="https://twitter.com/serabe" target="_blank" rel="noopener noreferrer">Sergio Arbeo</a>.</li>
+</ul>
+
+<p>Y dos suplentes de lujo (que ya habían estado como ponentes en otra edición):</p>
+
+<ul>
+  <li><a class="link link--special" href="https://twitter.com/aeroalquimia" target="_blank" rel="noopener noreferrer">Eduardo Sada</a>.</li>
+  <li><a class="link link--special" href="https://twitter.com/soyguijarro" target="_blank" rel="noopener noreferrer">Ramón Guijarro</a>.</li>
+</ul>
+
+<p>Todo fue bastante bien, salvo, algo que para mi empaña el buen ambiente del evento.</p>
+
+<p>Quiero mencionarlo porque no somos conscientes de lo importante que son este tipo de cosas. Iba a empezar la charla de <a class="link link--special" href="https://twitter.com/EcosDeGenero" target="_blank" rel="noopener noreferrer">José Antonio Vela</a> y vi salir un grupo de gente de unas setenta personas (calculado a ojo) y pregunté a un compañero de la organización si ocurría algo, a lo que comentó que se salían porque algunos se iban a comer y a otros no les interesaba la charla. Me quedé extrañado, la verdad, así que cuando acabó, mientras estaba en la puerta viendo si había alguna otra persona que quisiese entrar para validarle la entrada leí dos o tres Tweets que me llamaron la atención, ¿algún troll en las preguntas de José Antonio?</p>
+
+<p>Por desgracia fue peor, hubo gente que se dedicó a soltar mierda sobre la charla en las preguntas, algo que me parece muy triste.</p>
+
+<p>Si alguno/a lee esto, les quiero dejar un mensaje claro, es una charla super necesaria, nos habéis demostrado, que en 2019, aún es necesario seguir haciéndolas, sois el motivo de hacer conferencias así. Espero que algún día veáis esto como una anécdota pero hayáis recapacitado. Lo primero porque estéis de acuerdo o no con un ponente, un sociólogo super profesional, está muy feo meter mierda ocultándose tras un móvil y lo segundo porque creo que la diversidad y cambiar ciertos comportamientos es más que necesario que nunca.</p>
+
+<p>Dicho esto, me hace especial ilusión que en este evento, gracias a que una frontend nos escribió por privado en Twitter hemos tenido la oportunidad de que tres personas sordas puedan acudir, también, a un evento como éste. Gracias a <a class="link link--special" href="https://twitter.com/FeSorCam" target="_blank" rel="noopener noreferrer">FeSorCam</a> por el trabajo.</p>
+
+<h1 id="la-comunidad">La comunidad</h1>
+
+<p>Precisamente como decía más arriba, esto es un evento por y para la comunidad. Viene gente de muchos sitios para compartir un rato junto a otras/os compañeras/os del sector.</p>
+
+<p>Un grupo de mujeres que son toda una inspiración para muchas/os de nosotras/os son las <a class="link link--special" href="https://twitter.com/hashtag/adalabers?src=hash" target="_blank" rel="noopener noreferrer">#Adalabers</a>. Vinieron muchas que ni siquiera tengo la suerte de conocer de varias ediciones distintas.</p>
+
+<p>Me parece super bonito ver a tanta mujer talentosa junta y que hagan grupo así. Tanto es así, que durante la comida de navidad mi prima, de 16 años me dijo que quería estudiar ingeniería informática.</p>
+
+<p class="tweet" lang="es">
+    <a class="link" href="https://twitter.com/IgnaciodeNuevo/status/1077636028863823873" target="_blank" rel="noopener noreferrer">Tweet: ⚡️ «Quiero estudiar ingeniería informática»</a>
+</p>
+
+<p>Lo primero que pensé fue en presentárselas y no se me ocurrió más que decirlo en Twitter.</p>
+
+<p class="tweet" lang="es">
+    <a class="link" href="https://twitter.com/IgnaciodeNuevo/status/1083075094212198400" target="_blank" rel="noopener noreferrer">Tweet: ⚡️ «Una de mis primas va a venir al @frontfest»</a>
+</p>
+
+<p>Así que cuando estábamos con las entradas vino un grupo de Adalabers y me dice una (<a class="link link--special" href="https://twitter.com/garcaplay" target="_blank" rel="noopener noreferrer">Silvia</a>), ¿Ha venido tu prima? Me paro, me giro, y digo, ésa es. Ven Victoria (obviaré su nombre por motivos de privacidad, es un nombre falso). Acto seguido me dice Silvia (espero no equivocarme de nombre, que sois muchas y me confundo), <em>«me la llevo»</em>, y así fue, pasó todo el día con ellas.</p>
+
+<p>Me ha dicho que se lo ha pasado genial ❤️😍.</p>
+
+<figure class="picture">
+    <img src="/assets/images/post-frontfest19-adalabers.jpg" alt="" />
+    <figcaption class="caption">
+        <b title="encima">Encima</b>
+        &mdash;Un grupo <a class="link link--special" href="https://twitter.com/IgnaciodeNuevo/status/1083075094212198400" target="_blank" rel="noopener noreferrer">de Adalabers</a>
+    </figcaption>
+</figure>
+
+<p>Tuve la suerte de ver a gente increíble y volver a encontrarme con amigas/os del sector, <a class="link link--special" href="https://twitter.com/L_Troublemakers" target="_blank" rel="noopener noreferrer">Icía</a>, <a class="link link--special" href="https://twitter.com/leyla1603" target="_blank" rel="noopener noreferrer">Leyla</a>, <a class="link link--special" href="https://twitter.com/cristinafsanz" target="_blank" rel="noopener noreferrer">Cristina Fernández</a>, <a class="link link--special" href="https://twitter.com/Jennifer__Drago" target="_blank" rel="noopener noreferrer">Jennifer Drago</a>, <a class="link link--special" href="https://twitter.com/josheriff" target="_blank" rel="noopener noreferrer">José</a>, <a class="link link--special" href="https://twitter.com/jdonsan" target="_blank" rel="noopener noreferrer">José Dongil</a>, <a class="link link--special" href="https://twitter.com/midudev" target="_blank" rel="noopener noreferrer">Miguel Ángel</a>, <a class="link link--special" href="https://twitter.com/carlosvillu" target="_blank" rel="noopener noreferrer">Carlos Villuendas</a>, <a class="link link--special" href="https://twitter.com/JS_TUREEY" target="_blank" rel="noopener noreferrer">Victor</a> (aunque seguro que me dejo a alguien).</p>
+
+<p>Y conocer a gente que me hacía mucha ilusión desvirtualizar desde hacía tiempo.</p>
+
+<p class="tweet" lang="es">
+    <a class="link" href="https://twitter.com/IgnaciodeNuevo/status/1094368604982857728" target="_blank" rel="noopener noreferrer">Tweet: ⚡️ «Hoy he conocido a gente genial»</a>
+</p>
+
+<ul>
+  <li><a class="link link--special" href="https://twitter.com/Cyber_20" target="_blank" rel="noopener noreferrer">Paula Q</a>.</li>
+  <li><a class="link link--special" href="https://twitter.com/paul_melero" target="_blank" rel="noopener noreferrer">Paul Melero</a>.</li>
+  <li><a class="link link--special" href="https://twitter.com/Elena_in_code" target="_blank" rel="noopener noreferrer">Elena</a>.</li>
+  <li><a class="link link--special" href="https://twitter.com/CristinaGrim" target="_blank" rel="noopener noreferrer">Cristina Ponce</a>.</li>
+  <li><a class="link link--special" href="https://twitter.com/EcosDeGenero" target="_blank" rel="noopener noreferrer">José Antonio Vela</a>.</li>
+</ul>
+
+<p>Lo único que me faltó es saludar a <a class="link link--special" href="https://twitter.com/AnuskaZinWas" target="_blank" rel="noopener noreferrer">Anuska</a> 😊.</p>
+
+<p>Quería agradecer a varias personas de la comunidad por el cariño que han mostrado en varios Tweets, perdonad, que se que me dejo varias/os.</p>
+
+<p>El hilo de Twitter de <a class="link link--special" href="https://twitter.com/jdonsan" target="_blank" rel="noopener noreferrer">José Dongil</a>:</p>
+
+<p class="tweet" lang="es">
+    <a class="link" href="https://twitter.com/jdonsan/status/1094524855603642368" target="_blank" rel="noopener noreferrer">Tweet: ⚡️ «Me gustó muchísimo el evento de ayer...»</a>
+</p>
+
+<p>El hilo de Twitter de <a class="link link--special" href="https://twitter.com/sailormerqury" target="_blank" rel="noopener noreferrer">Nerea Luis</a>:</p>
+
+<p class="tweet" lang="es">
+    <a class="link" href="https://twitter.com/sailormerqury/status/1094580747598479361" target="_blank" rel="noopener noreferrer">Tweet: ⚡️ «👏👏👏 Enhorabuena @frontfest no es fácil conseguir todo esto 😊»</a>
+</p>
+
+<p>En definitiva, ha sido un evento con mucha preparación, en el que hemos trabajado mucho, pero por todo esto y muchos otros pequeños detalles; ha merecido muchísimo la pena dedicar tanto tiempo con mis estupendas/os compañeras/os del <a class="link link--special" href="https://frontfest.es" target="_blank" rel="noopener noreferrer">FrontFest</a>.</p>
+
+<p>Para concluir este post, si creéis que hay algo que podamos hacer por mejorar el evento no dudéis en dejarnos <a class="link link--special" href="mailto:frontfest@gmail.com" target="_blank" rel="noopener noreferrer">feedback por email</a>.</p>
+
+<p>Hasta el próximo año 😊.</p>
+
+<figure class="picture">
+    <img src="/assets/images/post-frontfest19-networking.jpg" alt="" />
+    <figcaption class="caption">
+        <b title="encima">Encima</b>
+        &mdash;Asistentes de networking, se acabó el FrontFest 2019
+    </figcaption>
+</figure>
+</div>
+    </main>
+    <div class="author" lang="en">
+    <img class="portrait" src="/assets/images/ignacio-portrait.jpg" alt="Ignacio Villanueva's photo" />
+    <p class="author__info">
+        Ignacio Villanueva is a Frontend developer
+        <span class="author__description">Focused on performance, responsive design, web typography and accessibility.</span>
+    </p>
+    <p class="author__follow">
+            Follow me on <a class="link link--special" href="https://twitter.com/ignaciodenuevo" target="_blank" rel="noopener">Twitter</a>, fork me on <a class="link link--special" href="https://github.com/ignaciodenuevo" target="_blank" rel="noopener">Github</a> or subscribe via <a class="link link--special" href="/feed.xml">RSS Feed</a>.
+    </p>
+</div>
+
+</main>
+
+
+            <div class="foo-wrapper">
+    <footer class="foo" role="contentinfo">
+        <h2 class="foo__title">Always Learning</h2>
+
+        <p class="u-reset-mb">Focused on performance, responsive design, web typography and accessibility.</p>
+
+        <div class="foo__content">
+            <div class="foo__social">
+
+                <h3 class="section-caption">
+    <span class="u-divider-small"></span>
+    <span>Social</span>
+</h3>
+
+<a class="link" href="https://github.com/ignaciodenuevo" target="_blank" rel="noopener">
+    <svg class="icon icon-stroke" role="img" aria-hidden="true" focusable="false" viewBox="0 0 24 24">
+    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg>
+
+    Github
+</a>
+<a class="link" href="https://twitter.com/ignaciodenuevo" target="_blank" rel="noopener">
+    <svg class="icon icon-stroke" role="img" aria-hidden="true" focusable="false" viewBox="0 0 28 28">
+    <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+</svg>
+
+    Twitter
+</a>
+
+<h3 class="section-caption">
+    <span class="u-divider-small"></span>
+    <span>Suscribe</span>
+</h3>
+
+<a class="link" href="/feed.xml">
+    <svg class="icon icon-stroke" role="img" aria-hidden="true" focusable="false" viewBox="0 0 28 28">
+    <path d="M4 11a9 9 0 0 1 9 9"></path>
+    <path d="M4 4a16 16 0 0 1 16 16"></path>
+    <circle cx="5" cy="19" r="1"></circle>
+</svg>
+
+    RSS Feed
+</a>
+
+<h3 class="section-caption">
+    <span class="u-divider-small"></span>
+    <span>Resources</span>
+</h3>
+
+<a class="link" href="/resources/">
+    <svg class="icon icon-stroke" role="img" aria-hidden="true" focusable="false" viewBox="0 0 24 24">
+    <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+</svg>
+
+    Bookmarks
+</a>
+
+
+                <h3 class="section-caption">
+                    <span class="u-divider-small"></span>
+                    <span>Navigation</span>
+                </h3>
+                <div class="offcanvas__counter">
+    <a class="link" href="/blog/">
+        Blog
+    </a>
+
+    <a class="link" href="/speaking/">
+        Speaking
+    </a>
+
+    <a class="link" href="/projects/">
+        Projects
+    </a>
+
+    <a class="link" href="/search/">
+        Search
+    </a>
+
+    <a class="link" href="/about/">
+        About
+    </a>
+
+</div>
+            </div>
+
+            <form class="form" name="contact" action="/success/" method="POST" data-netlify="true">
+    <p class="h3-like">Get in touch</p>
+
+    <label class="h4-like form__label" for="name">Who are you?</label>
+    <span class="label-desc">Name, company, how should I call you.</span>
+    <input class="form__input" id="name" type="text" name="name" placeholder="J. Doe" required />
+    <span class="help-text">* Who are you is a required field</span>
+
+    <label class="h4-like form__label" for="email">Your email address</label>
+    <span class="label-desc">So that I can recontact you.</span>
+    <input class="form__input" id="email" type="email" name="email" placeholder="j.doe@mail.com" required />
+    <span class="help-text">* Your email a required field</span>
+
+    <label class="h4-like form__label" for="message">Your message</label>
+    <span class="label-desc">What can I do for you?</span>
+    <textarea class="form__textarea" id="message" name="message" rows="8" placeholder="I would like to contact you..." required></textarea>
+    <span class="help-text">* Your message a required field</span>
+
+    <button class="btn btn--fill" type="submit">
+        <span class="btn__text">Send</span>
+        <svg class="icon icon-stroke" role="img" aria-hidden="true" focusable="false" aria-labelledby="icon-send" viewBox="0 0 24 24">
+    <title id="icon-send">email</title>
+    <line x1="22" y1="2" x2="11" y2="13"></line>
+    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+</svg>
+
+    </button>
+</form>
+
+        </div>
+
+        <p>Articles licenced under <a class="link link--special" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a></p>
+
+        <p>Code licensed under <a class="link link--special" href="/license" target="_blank" rel="noopener">The MIT License (MIT)</a></p>
+
+        <p class="u-reset-mb">This website is built with <a class="link link--special" href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a> and hosted on <a class="link link--special" href="https://www.netlify.com/" target="_blank" rel="noopener">Netlify</a>. The source code is hosted on <a class="link link--special" href="https://github.com/ignaciodenuevo" target="_blank" rel="noopener">Github</a>.</p>
+    </footer>
+</div>
+
+        </div>
+        <script src="/assets/js/fontfaceobserver.js"></script>
+<script src="/assets/js/offcanvas.js" async></script>
+
+        <div class="banner" role="banner">
+    Please <a class="link" href="http://outdatedbrowser.com/en" target="_blank" rel="noopener">update your browser</a>, I support browsers since October 2017 and yours seems to be older. You may have security issues because of it.
+</div>
+
+
+    </body>
+</html>
