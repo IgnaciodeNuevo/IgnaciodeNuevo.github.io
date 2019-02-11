@@ -1,0 +1,16 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the /about of the website.
+// -----------------------------------------------------------------------------
+.about {
+    .portrait {
+        float: left;
+        margin-right: var(--space-m);
+        shape-margin: var(--space-s);
+        shape-outside: circle();
+    }
+
+    &__desc {
+        text-transform: lowercase;
+    }
+}
+

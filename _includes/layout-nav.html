@@ -1,0 +1,5 @@
+{% for item in site.data.nav %}
+    <a class="link{% if page.url == item.url %}  is-active{% endif %}" href="{{ item.url }}">
+        {{ item.label }}
+    </a>
+{% endfor %}

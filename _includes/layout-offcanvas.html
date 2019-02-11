@@ -1,0 +1,26 @@
+<nav class="offcanvas" id="js-nav" aria-label="Main navigation on small screens">
+    <div class="offcanvas__header">
+        <button id="js-close-menu" class="btn btn--inverted" aria-controls="js-nav">
+            {% include icons/hamburguer.html %}
+            <span>
+                <span class="u-visually-hidden">Close</span>
+                <span>Menu</span>
+            </span>
+        </button>
+    </div>
+
+    <div class="offcanvas__counter">{% include layout-nav.html %}</div>
+
+
+    {% include component-get-in-touch.html %}
+
+    <h3 class="section-caption">
+        <span class="u-divider-small"></span>
+        <span>Get in touch</span>
+    </h3>
+
+    <a class="link" href="/about/#email">
+        {% include icons/email.html %}
+        Email
+    </a>
+</nav>

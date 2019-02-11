@@ -1,0 +1,110 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Custom Properties
+// -----------------------------------------------------------------------------
+:root {
+    --color-base-darkest: #141414;
+    --color-base-dark: #262626;
+    --color-base-medium: #333333;
+    --color-base-light: #808080;
+    --color-base-lightest: #efefef;
+
+    --color-background-light: #fafafa;
+    --color-background-lightest: #ffffff;
+
+    --color-primary: #0047bb;
+    --color-primary-rgb: 0, 71, 187;
+    --color-primary-darker: #002f7b;
+    --color-primary-darkest: #00173b;
+    --color-secondary: #ffd300;
+    --color-secondary--darker: #f7a700;
+
+    --color-warning: #C90000;
+    --color-success: #007C23;
+
+    --box-shaodw: 0 2px 5px 1px rgba(0, 0, 0, 0.75);
+
+    --linear-gradient: linear-gradient(to right, var(--color-primary) 0, var(--color-primary-darkest) 100%);
+
+    --animation-speed: 0.25s;
+    --animation-type-in: ease-in;
+    --animation-type-cubic: cubic-bezier(0, 0, 0.3, 1);
+
+    --font-family-body-fallback: Arial, sans-serif;
+    --font-family-title-fallback: Georgia, sans-serif;
+    --font-family-body-regular: 'Brando Regular Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    --font-family-body-italic: 'Brando Italic Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    --font-family-body-semibold: 'Brando Semibold Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    --font-family-title: 'Guardian Bold Egyptian', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, serif;
+    --font-family-code: 'Input', monospace;
+
+    --font-weight-thin: 100;
+    --font-weight-extralight: 200;
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    --font-weight-extrabold: 800;
+    --font-weight-black: 900;
+
+    --scale: 1.25;
+
+    --font-base: 1rem;
+    --letter-spacing: 0.05em;
+
+    --space-xxs: calc(var(--font-base) / 8);  // 2px
+    --space-xs: calc(var(--font-base) / 4);  // 4px
+    --space-s: calc(var(--font-base) / 2);  // 8px
+    --space-m: calc(var(--font-base));  // 16px
+    --space-l: calc(var(--font-base) * 2);  // 32px
+    --space-xl: calc(var(--font-base) * 4);  // 64px
+    --space-xxl: calc(var(--font-base) * 8);  // 128px
+
+    --size-xxs: calc(var(--font-base) / 8);  // 2px
+    --size-xs: calc(var(--font-base) / 4);  // 4px
+    --size-s: calc(var(--font-base) / 2);  // 8px
+    --size-m: calc(var(--font-base));  // 16px
+    --size-l: calc(var(--font-base) * 2);  // 32px
+    --size-xl: calc(var(--font-base) * 4);  // 64px
+    --size-xxl: calc(var(--font-base) * 8);  // 128px
+
+    --border-radius-xxs: var(--space-xxs); // 2px
+    --border-radius-xs: var(--space-xs); // 4px
+    --border-radius-s: var(--space-s); // 8px
+    --border-radius-m: var(--space-m); // 16px
+    --border-radius-l: var(--space-l); // 32px
+    --border-radius-xl: var(--space-xl); // 64px
+    --border-radius-xxl: var(--space-xxl); // 128px
+
+    --icon-xxs: 0.125em; // 2px
+    --icon-xs: 0.25em; // 4px
+    --icon-s: 0.5em; // 8px
+    --icon-m: 1em; // 16px
+    --icon-l: 2em; // 32px
+    --icon-xl: 4em; // 64px
+    --icon-xxl: 8em; // 128px
+
+    --opacity: 0.5;
+    --opacity-hack: 0.99;
+
+    --z-index-s: 1;
+    --z-index-m: 2;
+    --z-index-l: 3;
+    --z-index-xl: 4;
+
+    --border-width-xxs: 0.1875rem;
+    --content-width: 33.75rem;
+    --container-max-width: 60rem;
+    --content-max-width: 56.25rem;
+    --footer-content-small: 8rem;
+    --btn-width: 8.75rem;
+    --hero-height: 60rem;
+    --hook-height: var(--space-l);
+    --horizontal: var(--space-l, 2rem);
+    --meta-width: 21.4rem;
+    --meta-position: -15rem;
+    --nav-height: 4.5rem;
+    --vertical: var(--space-xl, 4rem);
+    --a4-width: 297mm;
+    --cv-column-width: 400px;
+}

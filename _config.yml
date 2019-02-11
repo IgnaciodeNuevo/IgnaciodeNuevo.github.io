@@ -1,0 +1,33 @@
+# Site settings
+title: "Ignacio Villanueva - Frontend developer focused on performance, responsive design, web typography and accessibility."
+description: "Focused on performance, responsive design, web typography and accessibility"
+metatag: "Performance, responsive design, web typography and accessibility by Ignacio Villanueva."
+job: "Frontend developer"
+url: "https://ignaciodenuevo.com" # with the https protocol
+# enforce_ssl: www.ignaciodenuevo.com # without any protocol
+email: ignaciodenuevo@posteo.net
+github: https://github.com/ignaciodenuevo
+twitter: https://twitter.com/ignaciodenuevo
+rss: /feed.xml
+baseurl: ""
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Pagination settings
+paginate_path: /blog/page:num
+paginate: 10
+
+# Permalink
+permalink: pretty
+
+# Sass settings
+sass:
+  style: :compressed
+
+# GEMS
+plugins:
+  - jekyll-paginate

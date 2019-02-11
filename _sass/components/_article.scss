@@ -1,0 +1,89 @@
+// ----------------------------------------------------------------
+// This file contains all styles related to the .article component.
+// ----------------------------------------------------------------
+.article {
+    border-bottom: 1px solid currentColor;
+    color: inherit;
+
+    @include transition();
+
+    &.is-hidden {
+        display: none;
+    }
+
+    &:hover {
+        background-color: var(--color-base-dark);
+        color: var(--color-base-dark);
+
+        .article__time {
+            color: var(--color-base-lightest);
+        }
+
+        .article__subtitle {
+            color: var(--color-secondary);
+        }
+    }
+
+    &__item {
+        display: block;
+        padding-bottom: var(--space-m);
+        padding-left: var(--space-xs);
+        padding-top: var(--space-m);
+        text-decoration: none;
+
+        &:hover {
+            background-color: var(--color-base-dark);
+            color: var(--color-base-dark);
+
+            .article__time {
+                color: var(--color-base-lightest);
+            }
+
+            .article__subtitle {
+                color: var(--color-secondary);
+            }
+
+            .tag,
+            .article__description {
+                color: var(--color-base-lightest);
+            }
+        }
+    }
+
+    &__time {
+        color: var(--color-base-light);
+        margin-bottom: var(--space-xs);
+
+        @include opentype-all-opentype-small-caps();
+        @include body-small();
+    }
+
+    &__data {
+        align-items: center;
+        display: flex;
+        margin-bottom: var(--space-s);
+    }
+
+    &__subtitle {
+        color: var(--color-primary);
+        margin-bottom: var(--space-xs);
+
+        @include body-text();
+    }
+
+    &__description {
+        margin-bottom: var(--space-s);
+
+        @include body-small();
+    }
+
+    .portrait {
+        margin-right: var(--space-s);
+    }
+
+    .btn--fill:hover {
+        background-color: var(--color-base-lightest);
+        border: 2px solid var(--color-base-lightest); // Magic String: Do not change/remove
+        color: var(--color-base-dark);
+    }
+}

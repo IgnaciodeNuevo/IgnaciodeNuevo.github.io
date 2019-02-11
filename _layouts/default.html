@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+{% if page.lang %}
+    <html lang="{{ page.lang }}">
+{% else %}
+    <html lang="en">
+{% endif %}
+
+    {% include section-head.html %}
+
+    {% if page.page_class %}
+        <body class="{{ page.page_class }}">
+    {% else %}
+        <body>
+    {% endif %}
+
+        {% include layout-offcanvas.html %}
+        <div class="container">
+            {% include layout-header.html %}
+
+            {{ content }}
+
+            {% include layout-footer.html %}
+        </div>
+        {% include scripts.html %}
+        {% include component-banner.html %}
+
+    </body>
+</html>

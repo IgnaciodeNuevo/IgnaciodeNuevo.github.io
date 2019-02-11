@@ -1,0 +1,163 @@
+//
+// Basic typography style for copy text
+//
+
+// Body text loaded font-family
+html.fonts-loaded {
+    font-family: var(--font-family-body-regular);
+}
+
+// Headings font-family and font-weight
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1-like,
+.h2-like,
+.h3-like,
+.h4-like,
+.h5-like,
+.h6-like {
+    font-family: var(--font-family-title-fallback);
+    font-weight: var(--font-weight-bold);
+
+    @include opentype-liga();
+}
+
+// Headings font-size and line-height
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1-like,
+.h2-like,
+.h3-like,
+.h4-like,
+.h5-like,
+.h6-like {
+    line-height: 1.1;
+}
+
+h1,
+.h1-like {
+    @include heading-h1();
+}
+
+h2,
+.h2-like {
+    @include heading-h2();
+}
+
+h3,
+.h3-like {
+    @include heading-h3();
+}
+
+h4,
+.h4-like {
+    @include heading-h4();
+}
+
+h5,
+.h5-like {
+    @include heading-h5();
+}
+
+h6,
+.h6-like {
+    @include heading-h6();
+}
+
+p {
+    font-kerning: normal;
+
+    @include opentype-liga();
+    @include body-text();
+}
+
+b,
+cite,
+em {
+    font-family: var(--font-family-body-italic);
+}
+
+.small {
+    @include body-small();
+}
+
+.caption {
+    @include caption();
+}
+
+// Headings h1-h6 loaded font-family
+html.fonts-loaded h1,
+html.fonts-loaded .h1-like,
+html.fonts-loaded h2,
+html.fonts-loaded .h2-like,
+html.fonts-loaded h3,
+html.fonts-loaded .h3-like,
+html.fonts-loaded h4,
+html.fonts-loaded .h4-like,
+html.fonts-loaded h5,
+html.fonts-loaded .h5-like,
+html.fonts-loaded h6,
+html.fonts-loaded .h6-like {
+    font-family: var(--font-family-title);
+}
+
+// Body text (not loaded) fallback tweaks
+html:not(.fonts-loaded) {
+    font-family: var(--font-family-body-regular);
+    font-weight: var(--font-weight-normal);
+    letter-spacing: -0.009375em; // -0.15px, Magic String: Do not change/remove
+    word-spacing: -0.04375em; // -0.7px, Magic String: Do not change/remove
+}
+
+// Heading h1 (not loaded) fallback tweaks
+html:not(.fonts-loaded) h1,
+html:not(.fonts-loaded) .h1-like, {
+    letter-spacing: -0.040625em; // -0.65px, Magic String: Do not change/remove
+    word-spacing: -0.04375em; // -0.7px, Magic String: Do not change/remove
+}
+
+// Headings h2-h6 (not loaded) fallback tweaks
+html:not(.fonts-loaded) h2,
+html:not(.fonts-loaded) .h2-like,
+html:not(.fonts-loaded) h3,
+html:not(.fonts-loaded) .h3-like,
+html:not(.fonts-loaded) h4,
+html:not(.fonts-loaded) .h4-like,
+html:not(.fonts-loaded) h5,
+html:not(.fonts-loaded) .h5-like,
+html:not(.fonts-loaded) h6,
+html:not(.fonts-loaded) .h6-like, {
+    letter-spacing: -0.034375em; // -0.55px, Magic String: Do not change/remove
+    word-spacing: -0.05em; // -0.8px, Magic String: Do not change/remove
+}
+
+//
+// 1. Correct the inheritance and scaling of font size in all browsers.
+// 2. Correct the odd `em` font sizing in all browsers.
+//
+code,
+kbd,
+samp {
+    font-family: var(--font-family-code); // 1
+
+    @include body-small(); // 2
+}
+
+//
+// 1. Correct the inheritance and scaling of font size in all browsers.
+// 2. Correct the odd `em` font sizing in all browsers.
+//
+
+pre {
+    font-family: var(--font-family-code); // 1
+
+    @include body-small(); // 2
+}

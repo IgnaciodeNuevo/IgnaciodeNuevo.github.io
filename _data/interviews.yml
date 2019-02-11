@@ -1,0 +1,104 @@
+- name: "Harry Roberts"
+  excerpt: "I’m a web developer from England. My actual job title is Consultant Frontend Architect—I travel the world to help clients of all shapes and sizes write better, faster, more scalable, more maintainable CSS."
+  portrait: /assets/images/portrait-harry-roberts.jpg
+  date: 2017-01-27T00:00:00+0200
+  twitter: https://twitter.com/csswizardry
+  url: harry-roberts
+
+- name: "Richard Rutter"
+  excerpt: "I’m a web person through and through. Day to day I help run Clearleft, a digital design consultancy and studio I co-founded. Within that, I’m a user experience designer and a web typography advocate/consultant."
+  portrait: /assets/images/portrait-richard-rutter.jpg
+  date: 2016-05-11T00:00:00+0200
+  twitter: https://twitter.com/clagnut
+  url: richard-rutter
+
+- name: "Brian Rinaldi"
+  excerpt: "I have spent over 20 years as a developer, but today my focus is on the developer community. I write, speak, manage sites and programs all focused on developers."
+  portrait: /assets/images/portrait-brian-rinaldi.jpg
+  date: 2016-03-28T00:00:00+0200
+  twitter: https://twitter.com/remotesynth
+  url: brian-rinaldi
+
+- name: "Kevin M. Hoffman"
+  excerpt: "I run a distributed agency called Seven Heads Design that builds project teams from highly experienced independent designers."
+  portrait: /assets/images/portrait-kevin-m-hoffman.jpg
+  date: 2016-03-22T00:00:00+0200
+  twitter: https://twitter.com/kevinmhoffman
+  url: kevin-m-hoffman
+
+- name: "Faruk Ateş"
+  excerpt: "I’m a product designer and developer, the original creator of the Modernizr JavaScript library, a writer, and an occasional public speaker."
+  portrait: /assets/images/portrait-faruk-ates.jpg
+  date: 2016-03-03T00:00:00+0200
+  twitter: https://twitter.com/KuraFire
+  url: faruk-ates
+
+- name: "Jeremy Keith"
+  excerpt: "My name is Jeremy and do web ...stuff. I'm not sure whether to call myself a web designer or web developer or something else. I usually like to just say 'I make websites'."
+  portrait: /assets/images/portrait-jeremy-keith.jpg
+  date: 2016-02-28T00:00:00+0200
+  twitter: https://twitter.com/adactio
+  url: jeremy-keith
+
+- name: "Scott Hanselman"
+  excerpt: "My name is Scott Hanselman. I'm a programmer, teacher, and speaker. I work out of my home office in Portland, Oregon for the Web Platform Team at Microsoft."
+  portrait: /assets/images/portrait-scott-hanselman.jpg
+  date: 2016-02-22T00:00:00+0200
+  twitter: https://twitter.com/shanselman
+  url: scott-hanselman
+
+- name: "Paul Robert LLoyd"
+  excerpt: "I’m an independent graphic designer and frontend web developer based in Brighton, England. I help responsible organisations like the Guardian, UNICEF and Mozilla create purposeful digital products."
+  portrait: /assets/images/portrait-paul-lloyd.jpg
+  date: 2016-02-15T00:00:00+0200
+  twitter: https://twitter.com/paulrobertlloyd
+  url: paul-lloyd
+
+- name: "Maximiliano Firtman"
+  excerpt: "I'm a mobile+web developer, trainer, author and speaker. I'm focused on bringing great experiences on mobile devices, both with native and web technologies."
+  portrait: /assets/images/portrait-maximiliano-firtman.jpg
+  date: 2016-02-09T00:00:00+0200
+  twitter: https://twitter.com/firt
+  url: maximiliano-firtman
+
+- name: "Stephen Hey"
+  excerpt: "I'm a designer who codes. I was schooled as a designer, did print design and later art direction for several years. Then I started doing web design and learned frontend technologies."
+  portrait: /assets/images/portrait-stephen-hay.jpg
+  date: 2016-02-01T00:00:00+0200
+  twitter: https://twitter.com/stephenhay
+  url: stephen-hay
+
+- name: "Brad Frost"
+  excerpt: "Generally speaking, I make websites. I'm a frontend web designer by trade, and increasingly I consult with organizations to help them make better web experiences."
+  portrait: /assets/images/portrait-brad-frost.jpg
+  date: 2016-01-26T00:00:00+0200
+  twitter: https://twitter.com/brad_frost
+  url: brad-frost
+
+- name: "Jonathan Stark"
+  excerpt: "Front end dev seems to change on a daily basis. It's virtually impossible to keep up with the latest and greatest, and everything has pros and cons."
+  portrait: /assets/images/portrait-jonathan-stark.jpg
+  date: 2016-01-18T00:00:00+0200
+  twitter: https://twitter.com/jonathanstark
+  url: jonathan-stark
+
+- name: "Ben Schwarz"
+  excerpt: "Probably over excited about the wrong things! I’m generally really focused on whatever my brain leads me to — and I’m really great at neglecting (important) things that aren’t interesting to me."
+  portrait: /assets/images/portrait-ben-schwarz.jpg
+  date: 2016-01-12T00:00:00+0200
+  twitter: https://twitter.com/BenSchwarz
+  url: ben-schwarz
+
+- name: "Hugo Giraudel"
+  excerpt: "My name is Hugo. I am a French frontend developer about to turn 24 and living in Berlin, Germany. I am working at Edenspiekermann, where I can play with HTML, CSS (Sass & CSS Modules) and JavaScript (React) on a daily basis."
+  portrait: /assets/images/portrait-hugo-giraudel.jpg
+  date: 2015-12-14T00:00:00+0200
+  twitter: https://twitter.com/HugoGiraudel
+  url: hugo-giraudel
+
+- name: "Jamie Knight"
+  excerpt: "I am Jamie, I am autistic, 26 and have been coding for the web since I was 9. I am never seen far from a large plushie lion named “Lion”."
+  portrait: /assets/images/portrait-jamie-knight.jpg
+  date: 2015-12-05T00:00:00+0200
+  twitter: https://twitter.com/JamieKnight
+  url: jamie-knight

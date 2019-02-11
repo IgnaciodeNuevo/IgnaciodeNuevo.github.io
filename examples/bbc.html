@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article:
+http://ogp.me/ns/article#">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Ignacio Villanueva - BBC Example</title>
+
+<!-- Robots & indexing -->
+  <meta name="robots" content="index,follow">
+  <meta name="revisit-after" content="1 days">
+
+
+<!-- Open Graph data -->
+  <meta property="og:title" content="Ignacio Villanueva - BBC Example">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="http://ignaciodenuevo.com/">
+  <meta property="og:image" content="http://ignaciodenuevo.com/assets/images/logo.jpg">
+  <meta property="og:description" content="Ignacio Villanueva - BBC Example">
+  <meta property="og:site_name" content="http://ignaciodenuevo.com">
+
+<!-- Twitter cards -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@IgnaciodeNuevo">
+  <meta name="twitter:domain" content="http://ignaciodenuevo.com">
+  <meta name="twitter:creator" content="@IgnaciodeNuevo">
+  <meta name="twitter:title" content="Ignacio Villanueva - BBC Example">
+  <meta name="twitter:image" content="http://ignaciodenuevo.com/assets/images/logo.jpg">
+  <meta name="twitter:description" content="Ignacio Villanueva - BBC Example">
+
+<!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="IgnaciodeNuevo.github.io" href="http://ignaciodenuevo.com/feed.xml">
+
+<!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="http://ignaciodenuevo.com/assets/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="http://ignaciodenuevo.com/assets/images/favicon/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="http://ignaciodenuevo.com/assets/images/favicon/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="http://ignaciodenuevo.com/assets/images/favicon/manifest.json">
+  <link rel="mask-icon" href="http://ignaciodenuevo.com/assets/images/favicon/safari-pinned-tab.svg" color="#0047bb">
+  <meta name="theme-color" content="#ffffff">
+
+<!-- Chrome for Android Toolbar Color-->
+  <meta name="theme-color" content="#0047BB">
+
+<!-- Other -->
+  <meta name="description" content="Articles on CSS, Sass, architecture, frontend performance, and mobile and responsive web design based in Barcelona.">
+
+	<style>
+
+    html {
+      -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+              box-sizing: border-box;
+      font-family: sans-serif;
+    }
+
+    *, *::before, *:after {
+      -webkit-box-sizing: inherit;
+         -moz-box-sizing: inherit;
+              box-sizing: inherit;
+    }
+
+    * {
+      border: 0;
+      margin: 0;
+      padding: 0;
+    }
+
+    .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+
+
+    /*************************
+    * Header
+    *************************/
+    header {
+      background-color: black;
+      color: white;
+      height: 200px;
+    }
+
+    /* 640px */
+    @media (min-width: 40em) {
+      header {
+        height: 150px;
+      }
+    }
+
+    /* 1028px */
+    @media (min-width: 64.25em) {
+      header {
+        height: auto;
+      }
+    }
+
+    nav {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 1248px;
+      padding-top: 20px;
+    }
+
+    /* 1028px */
+    @media (min-width: 64.25em) {
+      nav {
+        height: 40px;
+        padding-top: 0;
+      }
+
+      nav img,
+      .navbar,
+      .navbar li,
+      .bbc-search {
+        float: left;
+      }
+
+      nav img,
+      .navbar li,
+      .bbc-search {
+        border-right: 1px solid #666;
+      }
+    }
+
+    nav img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* 1028px */
+    @media (min-width: 64.25em) {
+      nav img {
+        margin-left: 8px;
+        margin-top: 8px;
+      }
+    }
+
+    .navbar {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: repeat(3, 1fr);
+      list-style-type: none;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    @media (min-width: 40em) {
+      .navbar {
+        grid-template-columns: repeat(9, 1fr);
+      }
+    }
+
+    /* 1028px */
+    @media (min-width: 64.25em) {
+      .navbar {
+        display: inline-block;
+        margin-bottom: 0;
+        margin-top: 0;
+      }
+
+      .navbar li {
+        display: inline-block;
+        height: 40px;
+        line-height: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+
+    input#bbc-search {
+      border: none;
+      background: white;
+      color: #333;
+      display: block;
+      float: left;
+      font-weight: bold;
+      height: 1.846em;
+      margin-left: 8px;
+      margin-right: 8px;
+      margin-top: 8px;
+      min-height: 24px;
+      padding-left: 6px;
+      width: calc(100% - 16px);
+    }
+
+    /* 1028px */
+    @media (min-width: 64.25em) {
+      input#bbc-search {
+        display: inline;
+        width: 162px;
+      }
+    }
+
+
+
+
+
+    /*************************
+    * Modules
+    *************************/
+    .module--promo {
+      background: #e7e8e1;
+      padding-bottom: 2rem;
+    }
+
+    .module__title,
+    .promo-grid,
+    .grid {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 80rem;
+    }
+
+    .module__title {
+      color: #4a4a4a;
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
+      padding-left: 20px;
+      padding-top: 2rem;
+      text-transform: uppercase;
+    }
+
+
+
+
+
+    /*************************
+    * Promo Grid
+    *************************/
+
+    /* Not Supports - CSS Grid */
+    @supports not (display: grid) {
+      .promo-grid > .promo-grid__item {
+        float: left;
+        width: 100%;
+      }
+
+      .promo-grid > .promo-grid__item:not(:nth-of-type(2n)) {
+        margin-right: 20px;
+      }
+
+      /* 640px */
+      @media (min-width: 40em) {
+        .promo-grid > .promo-grid__item {
+          width: calc(50% - 20px);
+        }
+      }
+    }
+
+    .promo-grid {
+      padding-left: 20px;
+      padding-right: 20px;
+
+      /* Flexbox */
+      display: flex;
+      flex-wrap: wrap;
+
+      /* Grid */
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+      grid-gap: 20px;
+      grid-template-areas:
+        "uno"
+        "dos"
+        "tres"
+        "cuatro"
+        "cinco";
+    }
+
+    /* 640px */
+    @media (min-width: 40em) {
+      .promo-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+        "uno      dos"
+        "tres     cuatro"
+        "cinco    .";
+      }
+    }
+
+    /* 1028px */
+    @media (min-width: 64.25em) {
+      .promo-grid {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+        "uno      uno     dos       tres"
+        "o        o     cuatro    cinco";
+      }
+    }
+
+    .promo-grid__item:nth-child(1) {
+      grid-area: uno;
+    }
+
+    .promo-grid__item:nth-child(2) {
+      grid-area: dos;
+    }
+
+    .promo-grid__item:nth-child(3) {
+      grid-area: tres;
+    }
+
+    .promo-grid__item:nth-child(4) {
+      grid-area: cuatro;
+    }
+
+    .promo-grid__item:nth-child(5) {
+      grid-area: cinco;
+    }
+
+    .small-hidden {
+      display: none
+    }
+
+    @media (min-width: 64.25em) {
+      .small-hidden {
+        grid-area: o;
+        color: white;
+        background-color: #333;
+
+        /* Flexbox */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    .promo-grid__title,
+    .promo-grid__tag {
+      margin-bottom: 24px;
+    }
+
+    .promo-grid__img {
+      margin-bottom: 8px;
+    }
+
+    .promo-grid__img {
+      height: 250px;
+    }
+
+    .promo-grid__img.uno,
+    .promo-grid__img.dos,
+    .promo-grid__img.tres,
+    .promo-grid__img.cuatro,
+    .promo-grid__img.cinco {
+      background-size: cover;
+    }
+
+    .promo-grid__img.uno {
+      background-image: url('img/bbc-uno.jpg');
+    }
+
+    .promo-grid__img.dos {
+      background-image: url('img/bbc-dos.jpg');
+    }
+
+    .promo-grid__img.tres {
+      background-image: url('img/bbc-tres.jpg');
+    }
+
+    .promo-grid__img.cuatro {
+      background-image: url('img/bbc-cuatro.jpg');
+    }
+
+    .promo-grid__img.cinco {
+      background-image: url('img/bbc-cinco.jpg');
+    }
+
+    .promo-grid__tag {
+      color: #333;
+      text-transform: uppercase;
+    }
+
+    .promo-grid__tag::before {
+      content:  '';
+      border: 1px solid #e91802;
+      margin-right: 5px;
+    }
+
+
+
+
+
+    /*************************
+    * Grid
+    *************************/
+    .grid {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .grid > .grid__item {
+      width: 100%;
+    }
+
+    /* 640px */
+    @media (min-width: 40em) {
+      .grid > .grid__item {
+        height: 410px;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        width: calc(50% - 20px);
+      }
+
+      .grid__item:nth-of-type(2),
+      .grid__item:nth-of-type(3) {
+        margin-right: 0;
+      }
+    }
+
+    /* 1028px */
+    @media (min-width: 64.25em) {
+      .grid > .grid__item {
+        float: left;
+        width: calc(33% - 20px);
+      }
+
+      .grid__item:nth-of-type(even) {
+        margin-right: 20px;
+      }
+
+      .grid__item:nth-of-type(3) {
+        margin-right: 0;
+      }
+    }
+
+    .grid__img {
+      height: 250px;
+    }
+
+    .grid__img {
+      margin-bottom: 8px;
+    }
+
+    .grid__img.uno,
+    .grid__img.dos,
+    .grid__img.tres {
+      background-size: cover;
+    }
+
+    .grid__img.uno {
+      background-image: url('img/bbc-news-uno.jpg');
+    }
+
+    .grid__img.dos {
+      background-image: url('img/bbc-news-dos.jpg');
+    }
+
+    .grid__img.tres {
+      background-image: url('img/bbc-news-tres.jpg');
+    }
+
+    .grid__title,
+    .grid__text {
+      margin-bottom: 16px;
+    }
+
+    .grid__text {
+      color: #333;
+    }
+	</style>
+</head>
+<body>
+
+  <!-- Header -->
+	<header>
+    <nav>
+      <img src="img/bbc-logo.png" alt="BBC">
+      <ul class="navbar">
+        <li>Home</li>
+        <li>News</li>
+        <li>Sport</li>
+        <li>Weather</li>
+        <li>Shop</li>
+        <li>Earth</li>
+        <li>Travel</li>
+        <li>Capital</li>
+        <li>More</li>
+      </ul>
+      <label for="bbc-search">
+        <input id="bbc-search" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" name="q" placeholder="Search">
+      </label>
+    </nav>
+  </header>
+
+
+  <!-- Promotional Module -->
+
+  <section class="module--promo">
+    <h2 class="module__title">Welcome to BBC.com - Sunday, 15 October</h2>
+    <div class="promo-grid  clearfix">
+      <div class="promo-grid__item">
+        <div class="promo-grid__img  uno"></div>
+        <h3 class="promo-grid__title">Hundreds dead in Mogadishu blast</h3>
+        <p class="promo-grid__tag">Africa</p>
+      </div>
+      <div class="promo-grid__item">
+        <div class="promo-grid__img  dos"></div>
+        <h3 class="promo-grid__title">Inter Milan v AC Milan - the 219th Derby di Milano</h3>
+        <p class="promo-grid__tag">European Football</p>
+      </div>
+      <div class="promo-grid__item">
+        <div class="promo-grid__img  tres"></div>
+        <h3 class="promo-grid__title">The importance of irrational behaviour</h3>
+        <p class="promo-grid__tag">Capital</p>
+      </div>
+      <div class="promo-grid__item">
+        <div class="promo-grid__img  cuatro"></div>
+        <h3 class="promo-grid__title">How India is shaping Hollywood</h3>
+        <p class="promo-grid__tag">Did you miss?</p>
+      </div>
+      <div class="promo-grid__item">
+        <div class="promo-grid__img  cinco"></div>
+        <h3 class="promo-grid__title">Get ahead with healthy meal prep ideas</h3>
+        <p class="promo-grid__tag">Good Food</p>
+      </div>
+      <div class="promo-grid__item  small-hidden">
+        <h3 class="promo-grid__title">This element is hidden until 64.25em</h3>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="module__title">News</h2>
+    <div class="grid">
+      <div class="grid__item">
+        <div class="grid__img  uno"></div>
+        <h3 class="grid__title">Somalia: 'The death toll is uncountable'</h3>
+        <p class="grid__text">Families are looking for missing loved ones amidst the ruins of one of the largest bombs ever to strike the Somali capital.</p>
+      </div>
+      <div class="grid__item">
+        <div class="grid__img  dos"></div>
+        <h3 class="grid__title">Austria set to elect world's youngest leader</h3>
+        <p class="grid__text">People's Party leader Sebastian Kurz, 31, on course to win after campaign dominated by immigration.</p>
+      </div>
+      <div class="grid__item">
+        <div class="grid__img  tres"></div>
+        <h3 class="grid__title">UK police investigate new Weinstein claims</h3>
+        <p class="grid__text">Hollywood film producer Harvey Weinstein is accused of three more sexual assaults in London, the BBC understands.</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

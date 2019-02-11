@@ -1,0 +1,30 @@
+// ----------------------------------------------------------------
+// This file contains all styles related to the blog post list.
+// ----------------------------------------------------------------
+.blog-wrapper {
+    @include section("/Blog", var(--color-base-medium));
+}
+
+.articles-list {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+}
+
+.language {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: var(--space-l);
+
+    @media (min-width: 25.1875em) {
+        p {
+            margin-bottom: 0;
+        }
+    }
+
+    p,
+    .btn:not(:last-of-type) {
+        margin-right: var(--space-s);
+    }
+}

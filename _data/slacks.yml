@@ -1,0 +1,17 @@
+- name: Web Performance
+  url: https://webperformance.herokuapp.com/
+
+- name: BcnEng
+  url: http://slack.bcneng.net/
+
+- name: Open Source Weekends
+  url: http://invitations-osweekends.herokuapp.com/
+
+- name: Animation at Work
+  url: http://damp-lake-50659.herokuapp.com/
+
+- name: Frontend Developers London
+  url: http://frontendlondon-slack.herokuapp.com/
+
+- name: Web a11y
+  url: https://web-a11y.herokuapp.com/

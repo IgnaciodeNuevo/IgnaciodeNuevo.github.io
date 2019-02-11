@@ -1,0 +1,368 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+//
+// Set up a decent box model on the root element
+// 1. Prevent adjustments of font size after orientation changes in iOS.
+//
+:root {
+    box-sizing: border-box;
+    color: var(--color-base-dark);
+    font-size: 100%; // 16px
+    line-height: 1.5;
+
+    @media (min-width: $mq-m) {
+        font-size: 120%;
+    }
+
+    @media (min-width: $mq-xl) {
+        font-size: 140%;
+    }
+}
+
+//
+// Make all elements from the DOM inherit from the parent box-sizing
+// Since `*` has a specificity of 0, it does not override the `html` value
+// making all elements inheriting from the root box-sizing value
+// See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+//
+*,
+*::before,
+*:after {
+    box-sizing: inherit;
+}
+
+::selection {
+    background-color: var(--color-primary);
+    color: var(--color-base-lightest);
+}
+
+body.is-active .offcanvas {
+    transform: translateX(0);
+}
+
+// TOOD: Removed if not needed
+// body.is-active .container {
+//     transform: translateX(-100%);
+// }
+
+//
+// Basic UL and OL styles
+//
+ul,
+ol {
+    list-style-type: none;
+    padding-left: var(--space-m);
+
+    @media (min-width: $mq-l) {
+        padding-left: 0;
+    }
+
+    li {
+        position: relative;
+
+        &::before {
+            background-color: var(--color-primary);
+            content: "";
+            height: 0.3em; // Magic String: Do not change/remove
+            left: -0.8em; // Magic String: Do not change/remove
+            position: absolute;
+            top: 0.55em; // Magic String: Do not change/remove
+            width: 0.3em; // Magic String: Do not change/remove
+        }
+    }
+}
+
+//
+// Add greyscale filter to every image in the website
+//
+img:not(.hero__img) {
+    @media (min-width: $mq-l) {
+        filter: grayscale(75%);
+
+        @include transition(filter);
+
+        &:hover {
+            filter: initial;
+        }
+    }
+}
+
+
+.container {
+    overflow: hidden;
+    position: relative;
+    z-index: var(--z-index-s);
+
+    @include transition(transform);
+}
+
+.about,
+.content {
+    h1:not(.related__title),
+    h2:not(.related__title),
+    h3:not(.related__title),
+    h4:not(.related__title),
+    h5:not(.related__title),
+    h6:not(.related__title),
+    p,
+    ul:not(.related__list),
+    ol:not(.related__list) {
+        @media (min-width: $mq-l) {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: var(--content-max-width);
+            padding-right: calc(#{var(--content-max-width)} - #{var(--content-width)});
+            width: 85%;
+        }
+    }
+
+    //
+    // Paragraph + Heaing styles
+    // To see heading default values see:
+    // https://stackoverflow.com/questions/30980873/what-are-the-default-css-styling-of-heading-tags-h1-h2-h3-h4-h5
+    //
+    .picture + h1,
+    .picture + .h1-like,
+    .highlight + h1,
+    .highlight + .h1-like,
+    iframe + h1,
+    iframe + .h1-like,
+    ul + h1,
+    ul + .h1-like,
+    ol + h1,
+    ol + .h1-like,
+    p + h1,
+    p + .h1-like {
+        margin-top: 1.17em; // 0.67em + 0.5em (To hace more space above than below the heading)
+    }
+
+    .picture + h2,
+    .picture + .h2-like,
+    .highlight + h2,
+    .highlight + .h2-like,
+    iframe + h2,
+    iframe + .h2-like,
+    ul + h2,
+    ul + .h2-like,
+    ol + h2,
+    ol + .h2-like,
+    p + h2,
+    p + .h2-like {
+        margin-top: 1.33em; // 0.83em + 0.5em (To hace more space above than below the heading)
+    }
+
+    .picture + h3,
+    .picture + .h3-like,
+    .highlight + h3,
+    .highlight + .h3-like,
+    iframe + h3,
+    iframe + .h3-like,
+    ul + h3,
+    ul + .h3-like,
+    ol + h3,
+    ol + .h3-like,
+    p + h3,
+    p + .h3-like {
+        margin-top: 1.5em; // 1em + 0.5em (To hace more space above than below the heading)
+    }
+
+    .picture + h4,
+    .picture + .h4-like,
+    .highlight + h4,
+    .highlight + .h4-like,
+    iframe + h4,
+    iframe + .h4-like,
+    ul + h4,
+    ul + .h4-like,
+    ol + h4,
+    ol + .h4-like,
+    p + h4,
+    p + .h4-like {
+        margin-top: 1.83em; // 1.33em + 0.5em (To hace more space above than below the heading)
+    }
+
+    .picture + h5,
+    .picture + .h5-like,
+    .highlight + h5,
+    .highlight + .h5-like,
+    iframe + h5,
+    iframe + .h5-like,
+    ul + h5,
+    ul + .h5-like,
+    ol + h5,
+    ol + .h5-like,
+    p + h5,
+    p + .h5-like {
+        margin-top: 2.17em; // 1.67em + 0.5em (To hace more space above than below the heading)
+    }
+
+    .picture + h6,
+    .picture + .h6-like,
+    .highlight + h6,
+    .highlight + .h6-like,
+    iframe + h6,
+    iframe + .h6-like,
+    ul + h6,
+    ul + .h6-like,
+    ol + h6,
+    ol + .h6-like,
+    p + h6,
+    p + .h6-like {
+        margin-top: 2.83em; // 2.33em + 0.5em (To hace more space above than below the heading)
+    }
+}
+
+
+//
+// Same as above but avoiding the code below, can't be merged due to this MQ with the code above
+// @media (min-width: $mq-l) {
+//     margin-left: auto;
+//     margin-right: auto;
+//     max-width: var(--content-max-width);
+//     padding-right: calc(#{var(--content-max-width)} - #{var(--content-width)});
+//     width: 85%;
+// }
+// Paragraph + Heaing styles
+// To see heading default values see:
+// https://stackoverflow.com/questions/30980873/what-are-the-default-css-styling-of-heading-tags-h1-h2-h3-h4-h5
+//
+.articles-list {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--container-max-width);
+
+    .article + h1,
+    .article + .h1-like {
+        margin-top: 1.17em; // 0.67em + 0.5em (To hace more space above than below the heading)
+    }
+
+    .article + h2,
+    .article + .h2-like {
+        margin-top: 1.33em; // 0.83em + 0.5em (To hace more space above than below the heading)
+    }
+
+    .article + h3,
+    .article + .h3-like {
+        margin-top: 1.5em; // 1em + 0.5em (To hace more space above than below the heading)
+    }
+
+    .article + h4,
+    .article + .h4-like {
+        margin-top: 1.83em; // 1.33em + 0.5em (To hace more space above than below the heading)
+    }
+
+    .article + h5,
+    .article + .h5-like {
+        margin-top: 2.17em; // 1.67em + 0.5em (To hace more space above than below the heading)
+    }
+
+    .article + h6,
+    .article + .h6-like {
+        margin-top: 2.83em; // 2.33em + 0.5em (To hace more space above than below the heading)
+    }
+}
+
+//
+// Basic icon styles
+//
+.icon {
+    fill: currentColor;
+    // Prevent the icon from shrinking inside a flex container.
+    flex-shrink: 0;
+    height: var(--icon-m);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2;
+    width: var(--icon-m);
+
+    &-stroke {
+        fill: none;
+        stroke: currentColor;
+    }
+}
+
+//
+// Section Caption
+//
+.section-caption {
+    align-items: center;
+    color: var(--color-primary);
+    display: flex;
+    font-family: var(--font-family-body-regular);
+    font-size: ms(-1); // Same as @mixin body-small(). Do not change/move
+    margin-bottom: 0;
+    margin-top: var(--space-l);
+    max-width: 80%;
+    white-space: nowrap;
+
+    @include opentype-all-opentype-small-caps();
+
+    span {
+        white-space: inherit;
+    }
+}
+
+//
+// Beta Badge
+//
+.beta {
+    align-items: center;
+    background-color: var(--color-base-lightest);
+    border-radius: var(--border-radius-xxs);
+    color: var(--color-warning);
+    display: flex;
+    font-family: var(--font-family-body-semibold);
+    height: 1.5rem; // Magic String: Do not change/remove
+    line-height: 1;
+    margin-left: var(--space-s);
+    padding-bottom: var(--space-xxs);
+    padding-left: var(--space-s);
+    padding-right: var(--space-s);
+    padding-top: var(--space-xxs);
+
+    @include opentype-all-opentype-small-caps();
+}
+
+//
+// Page design: /404, /newsletter and /curso-css (without content)
+//
+.page {
+    @include pattern();
+
+    color: var(--color-base-lightest);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 30rem; // Magic String: Do not change/remove
+    padding: var(--space-m);
+    position: relative;
+
+    @media (min-width: $mq-l) {
+        padding: var(--space-xl);
+    }
+}
+
+//
+// Print media query
+//
+.print {
+    @media print {
+        .header,
+        .foo-wrapper {
+            display: none;
+        }
+    }
+}
+
+//
+// Prefers reduced motion
+// https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion
+//
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation: none !important;
+        transition: none !important;
+    }
+}

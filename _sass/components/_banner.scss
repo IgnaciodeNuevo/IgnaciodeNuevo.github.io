@@ -1,0 +1,19 @@
+// -------------------------------------------------------------------------------
+// This file contains all styles related to the "Update Browser" banner component.
+// -------------------------------------------------------------------------------
+.banner {
+    background-color: #0047bb;
+    bottom: 0;
+    color: #ffffff;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem; // Magic String: Do not change/remove
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    z-index: 4; // Magic String: Do not change/remove
+
+    @supports (--border: 1px) {
+        display: none;
+    }
+}

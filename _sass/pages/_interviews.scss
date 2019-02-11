@@ -1,0 +1,23 @@
+// ----------------------------------------------------------------
+// This file contains all styles related to the /projects/interviws' page
+// ----------------------------------------------------------------
+.interviews-wrapper {
+    @include section("/Interviews", var(--color-base-medium));
+
+    .main {
+        padding-bottom: var(--space-xl);
+        padding-left: var(--space-m);
+        padding-right: var(--space-m);
+        padding-top: var(--space-xl);
+
+        @media (min-width: $mq-s) {
+            padding-left: var(--space-l);
+            padding-right: var(--space-l);
+        }
+
+        @media (min-width: $mq-l) {
+            padding-bottom: var(--space-xxl);
+            padding-top: var(--space-xxl);
+        }
+    }
+}

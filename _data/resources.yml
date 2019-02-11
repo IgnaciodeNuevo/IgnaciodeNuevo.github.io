@@ -1,0 +1,155 @@
+- name: CSS Reference
+  url: http://cssreference.io/
+
+- name: HTML Reference
+  url: http://htmlreference.io/
+
+- name: DevDocs
+  url: http://devdocs.io/
+
+- name: Awesome on GitHub
+  url: https://github.com/sindresorhus/awesome
+
+- name: Filament Group Open-Source Code
+  url: https://www.filamentgroup.com/code
+
+- name: Front End Resources
+  url: http://enboard.co/frontend
+
+- name: Frontend Dev Bookmarks
+  url: https://github.com/dypsilon/frontend-dev-bookmarks
+
+- name: 'MarkApp: Building apps with HTML'
+  url: http://markapp.io
+
+- name: 'HTML & CSS is Hard'
+  url: https://internetingishard.com/html-and-css/
+
+- name: Perf Tooling
+  url: http://www.perf-tooling.today
+
+- name: Responsive Patterns
+  url: http://bradfrost.github.io/this-is-responsive/patterns.html
+
+- name: Responsive Resources
+  url: http://bradfrost.github.io/this-is-responsive/resources.html
+
+- name: Styleguides.io
+  url: http://styleguides.io
+
+- name: Web Field Manual
+  url: http://webfieldmanual.com
+
+- name: WebAIM
+  url: http://webaim.org/resources
+
+- name: wwwhere
+  url: http://wwwhere.io
+
+- name: HTML5-Please
+  url: http://html5please.com/
+
+- name: A Collective List Of APIs.
+  url: http://apilist.fun/
+
+- name: Frontend Development Interview Questions
+  url: https://github.com/IgnaciodeNuevo/frontend-development-interviews/blob/master/README.md
+
+- name: PWA Stats
+  url: https://www.pwastats.com/
+
+- name: Design Resources
+  url: http://designresources.party/
+
+- name: Native form elements
+  url: http://nativeformelements.com/
+
+- name: PX to EM Calculator
+  url: http://pxtoem.com/
+
+- name: W3C Drafts
+  url: https://drafts.csswg.org/
+
+- name: Inclusive Components
+  url: https://inclusive-components.design/
+
+- name: The a11y project
+  url: https://a11yproject.com
+
+- name: OpenType Variable PlayGround
+  url: https://www.axis-praxis.org/specimens/__DEFAULT__
+
+- name: Design Patterns
+  url: https://refactoring.guru/design-patterns/catalog
+
+- name: A11y Resources
+  url: http://pauljadam.com/resources.html
+
+- name: Everyone has JavaScript, right?
+  url: https://kryogenix.org/code/browser/everyonehasjs.html
+
+- name: Frontend Checklist
+  url: https://frontendchecklist.io/
+
+- name: Web Feature Availability
+  url: https://paulirish.github.io/web-feature-availability/
+
+- name: CSS usage on the web platform
+  url: https://developer.microsoft.com/en-us/microsoft-edge/platform/usage/
+
+- name: W3C all CSS Properties
+  url: https://www.w3.org/Style/CSS/all-properties.en.html
+
+- name: Internet Explorer CSSGrid Layout support
+  url: https://rachelandrew.co.uk/archives/2016/11/26/should-i-try-to-use-the-ie-implementation-of-css-grid-layout/
+
+- name: Front-End Developer Handbook 2018
+  url: https://frontendmasters.com/books/frontend-handbook/2018/
+
+- name: The Front-End Design Checklist
+  url: https://frontenddesignchecklist.io/
+
+- name: HTTP Status Codes
+  url: https://httpstatuses.com/
+
+- name: Web Typography Resources
+  url: https://betterwebtype.com/web-typography-resources.html
+
+- name: CSS-Tricks
+  url: https://css-tricks.com
+
+- name: Smashingmag
+  url: https://www.smashingmagazine.com
+
+- name: CSS Guidelines
+  url: http://cssguidelin.es
+
+- name: Sass Guidelines
+  url: http://sass-guidelin.es
+
+- name: Font Family Reunion
+  url: http://fontfamily.io/
+
+- name: Font style matcher
+  url: https://meowni.ca/font-style-matcher/
+
+- name: CSS Duotone Generator
+  url: https://cssduotone.com/
+
+- name: Laws of UX
+  url: https://lawsofux.com/
+
+- name: SVG Filters
+  url: yoksel.github.io/svg-filters/#/
+
+- name: Typography Cheatsheet
+  url: https://www.typewolf.com/cheatsheet
+
+- name: Variable Font Experiments
+  url: https://markfromberg.com/projects/variable-font-experiments/
+
+- name: 30 seconds of CSS
+  url: https://30-seconds.github.io/30-seconds-of-css/
+
+- name: What’s next for CSS?
+  url: https://cssdb.org/

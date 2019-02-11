@@ -1,0 +1,25 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the .main of the website.
+// -----------------------------------------------------------------------------
+.main {
+    background-color: var(--color-background-light);
+    padding-bottom: var(--space-xl);
+    padding-left: var(--space-m);
+    padding-right: var(--space-m);
+    padding-top: var(--space-xl);
+
+    @media (min-width: $mq-s) {
+        padding-left: var(--space-l);
+        padding-right: var(--space-l);
+    }
+
+    // TODO: Review if it works something
+    &__title,
+    &__subtitle,
+    &__text,
+    .language {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: var(--container-max-width);
+    }
+}

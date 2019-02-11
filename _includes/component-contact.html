@@ -1,0 +1,23 @@
+<form class="form" name="contact" action="/success/" method="POST" data-netlify="true">
+    <p class="h3-like">Get in touch</p>
+
+    <label class="h4-like form__label" for="name">Who are you?</label>
+    <span class="label-desc">Name, company, how should I call you.</span>
+    <input class="form__input" id="name" type="text" name="name" placeholder="J. Doe" required />
+    <span class="help-text">* Who are you is a required field</span>
+
+    <label class="h4-like form__label" for="email">Your email address</label>
+    <span class="label-desc">So that I can recontact you.</span>
+    <input class="form__input" id="email" type="email" name="email" placeholder="j.doe@mail.com" required />
+    <span class="help-text">* Your email a required field</span>
+
+    <label class="h4-like form__label" for="message">Your message</label>
+    <span class="label-desc">What can I do for you?</span>
+    <textarea class="form__textarea" id="message" name="message" rows="8" placeholder="I would like to contact you..." required></textarea>
+    <span class="help-text">* Your message a required field</span>
+
+    <button class="btn btn--fill" type="submit">
+        <span class="btn__text">Send</span>
+        {% include icons/send.html %}
+    </button>
+</form>

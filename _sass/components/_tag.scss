@@ -1,0 +1,19 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the .tag component.
+// -----------------------------------------------------------------------------
+.tag {
+    align-items: center;
+    color: var(--color-base-dark);
+    display: inline-flex;
+    text-transform: lowercase;
+
+    @include body-small();
+
+    svg {
+        margin-right: var(--space-xxs);
+    }
+
+    span {
+        margin-right: var(--space-xs);
+    }
+}

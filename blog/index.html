@@ -1,0 +1,49 @@
+---
+layout: list
+title: "Blog"
+wrapper_class: blog-wrapper
+---
+<h1 class="main__title">Latest articles</h1>
+
+<p class="main__text">I write from time to time. If you are looking for something specific, you can <a class="link link--special" href="/search">hit the search</a> or look for in my <a class="link link--special" href="/tags">tags</a> system.</p>
+
+<div class="language">
+    <p class="language__text">Language:</p>
+    <div class="language__selector">
+        <button class="btn btn--fill js-lang-all">All</button>
+        <button class="btn btn--fill js-lang-es">
+            <span class="btn__text">Spanish</span>
+            {% include icons/flag.html %}
+        </button>
+        <button class="btn btn--fill js-lang-en">
+            <span class="btn__text">English</span>
+            {% include icons/flag.html %}
+        </button>
+    </div>
+</div>
+
+<section class="articles-list">
+    {% for post in paginator.posts %}
+        {% if post.lang %}
+            <article class="article" data-lang="{{ post.lang }}">
+        {% else %}
+            <article class="article">
+        {% endif %}
+                <a class="article__item" href="{{ post.url }}" lang="es">
+                    <time class="article__time" datetime="{{ post.date | date: '%F' }}">{{ post.date | date: "%b %-d %Y" }}</time>
+                    <h4 class="article__subtitle">{{ post.title }}</h4>
+                    {% if post.tags %}
+                        <span class="tag">
+                            {% include icons/tag.html %}
+                            {% for tag in post.tags %}
+                                <span>#{{ tag }}</span>
+                            {% endfor %}
+                        </span>
+                    {% endif %}
+                </a>
+            </article>
+    {% endfor %}
+</section>
+{% include component-paginator.html %}
+
+<script src="/assets/js/lang-toggle.js" async></script>

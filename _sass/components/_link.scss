@@ -1,0 +1,58 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the link component of the website.
+// -----------------------------------------------------------------------------
+.link {
+    color: currentColor;
+    font-family: var(--font-family-body-semibold);
+    padding-bottom: var(--space-xxs);
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: var(--space-xxs);
+    text-decoration-color: currentColor;
+    text-decoration-line: underline;
+    text-decoration-skip: ink;
+    text-decoration-style: dotted;
+
+    &:hover {
+        text-decoration-style: solid;
+    }
+
+    &--special {
+        @supports (background-clip: text) or (-webkit-background-clip: text) {
+            -webkit-background-clip: text;
+                    background-clip: text;
+            background-image: var(--linear-gradient);
+            border: 1px dotted transparent;
+            color: transparent;
+            position: relative;
+            text-decoration: none;
+            white-space: nowrap;
+
+            &:focus {
+                border-color: var(--color-primary); // Magic String: Do not change/remove
+            }
+
+            &:after {
+                background: var(--linear-gradient);
+                border-radius: var(--border-radius-xxs);
+                bottom: 0;
+                content: "";
+                height: 2px; // Magic String: Do not change/remove
+                left: 0;
+                opacity: var(--opacity);
+                position: absolute;
+                width: 100%;
+            }
+        }
+
+        &:hover:after {
+            @supports (background-clip: text) or (-webkit-background-clip: text) {
+                opacity: 1;
+            }
+        }
+    }
+
+    .icon {
+        margin-bottom: calc(#{var(--space-xs)} * -1); // Visual correction to align the text
+    }
+}

@@ -1,0 +1,29 @@
+// -------------------------------------------------------------------------------------------
+// This file contains all styles related to the correct submission page of the contact form.
+// -------------------------------------------------------------------------------------------
+.success {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 30rem; // Magic String: Do not change/remove
+    min-height: 50vh; // Magic String: Do not change/remove
+    padding-bottom: var(--space-xl);
+    padding-left: var(--space-m);
+    padding-right: var(--space-m);
+    padding-top: var(--space-xl);
+    text-align: center;
+
+    @media (min-width: $mq-s) {
+        padding-left: var(--space-l);
+        padding-right: var(--space-l);
+    }
+
+    @media (min-width: $mq-l) {
+        padding-bottom: var(--space-xxl);
+        padding-top: var(--space-xxl);
+    }
+
+    h1 {
+        margin-bottom: 0;
+    }
+}

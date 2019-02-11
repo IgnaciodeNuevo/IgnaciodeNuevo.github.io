@@ -1,0 +1,52 @@
+// ----------------------------------------------------------------
+// This file contains all styles related to the .author component.
+// ----------------------------------------------------------------
+.author {
+    background-color: var(--color-base-lightest);
+    color: var(--color-base-dark);
+    padding-bottom: var(--space-l);
+    padding-left: var(--space-m);
+    padding-right: var(--space-m);
+    padding-top: var(--space-l);
+    position: relative;
+
+    &::before {
+        @include linear-gradient-line-before();
+    }
+
+    @media (min-width: $mq-l) {
+        padding-bottom: var(--space-l);
+        padding-left: var(--space-l);
+        padding-right: var(--space-l);
+        padding-top: var(--space-l);
+    }
+
+    &__info {
+        margin-bottom: 0;
+        margin-bottom: var(--space-m);
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 30rem; // Magic String: Do not change/remove
+        text-align: center;
+
+        @media (min-width: $mq-l) {
+            margin-bottom: var(--space-l);
+        }
+    }
+
+    &__description {
+        text-transform: lowercase;
+    }
+
+    &__follow {
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .portrait {
+        display: block;
+        margin-bottom: var(--space-s);
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

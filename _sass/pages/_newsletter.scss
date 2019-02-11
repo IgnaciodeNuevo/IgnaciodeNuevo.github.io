@@ -1,0 +1,3 @@
+.newsletter {
+    @include section("/Ñewsletter", var(--color-base-dark));
+}

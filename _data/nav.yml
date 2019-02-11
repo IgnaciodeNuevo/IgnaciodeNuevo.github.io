@@ -1,0 +1,10 @@
+- label: Blog
+  url: /blog/
+- label: Speaking
+  url: /speaking/
+- label: Projects
+  url: /projects/
+- label: Search
+  url: /search/
+- label: About
+  url: /about/

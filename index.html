@@ -1,0 +1,139 @@
+---
+layout: default
+---
+
+<main class="main-home" role="main">
+    <section class="hero">
+        <picture class="hero__picture">
+            <!-- Portrait -->
+            <!-- Large: 1280px -->
+            <source
+                media="(min-width: 80em) and (orientation: portrait)"
+                srcset="/assets/images/hero/ignacio-home-large-portrait.jpg     1x,
+                        /assets/images/hero/ignacio-home-large-portrait@2x.jpg  2x,
+                        /assets/images/hero/ignacio-home-large-portrait@3x.jpg  3x"
+                type="image/jpg" />
+
+            <!-- Medium: 768px -->
+            <source
+                media="(min-width: 48em) and (orientation: portrait)"
+                srcset="/assets/images/hero/ignacio-home-medium-portrait.jpg    1x,
+                        /assets/images/hero/ignacio-home-medium-portrait@2x.jpg 2x,
+                        /assets/images/hero/ignacio-home-medium-portrait@3x.jpg 3x"
+                type="image/jpg" />
+
+            <!-- Small: 0 -->
+            <source
+                media="(min-width: 0em) and (orientation: portrait)"
+                srcset="/assets/images/hero/ignacio-home-small-portrait.jpg     1x,
+                        /assets/images/hero/ignacio-home-small-portrait@2x.jpg  2x,
+                        /assets/images/hero/ignacio-home-small-portrait@3x.jpg  3x"
+                type="image/jpg" />
+            <!-- End of Portrait -->
+
+            <!-- Landscape -->
+            <!-- Extra Large: 1440px -->
+            <source
+                media="(min-width: 90em)"
+                srcset="/assets/images/hero/ignacio-home-extralarge.jpg    1x,
+                        /assets/images/hero/ignacio-home-extralarge@2x.jpg 2x,
+                        /assets/images/hero/ignacio-home-extralarge@3x.jpg 3x"
+                type="image/jpg" />
+
+            <!-- Large: 1280px -->
+            <source
+                media="(min-width: 80em)"
+                srcset="/assets/images/hero/ignacio-home-large.jpg         1x,
+                        /assets/images/hero/ignacio-home-large@2x.jpg      2x,
+                        /assets/images/hero/ignacio-home-large@3x.jpg      3x"
+                type="image/jpg" />
+
+            <!-- Medium: 768px -->
+            <source
+                media="(min-width: 48em)"
+                srcset="/assets/images/hero/ignacio-home-medium.jpg        1x,
+                        /assets/images/hero/ignacio-home-medium@2x.jpg     2x,
+                        /assets/images/hero/ignacio-home-medium@3x.jpg     3x"
+                type="image/jpg" />
+
+            <!-- Small: 0 -->
+            <source
+                media="(min-width: 0em)"
+                srcset="/assets/images/hero/ignacio-home-small.jpg         1x,
+                        /assets/images/hero/ignacio-home-small@2x.jpg      2x,
+                        /assets/images/hero/ignacio-home-small@3x.jpg      3x"
+                type="image/jpg" />
+            <!-- End of Landscape -->
+
+            <!-- Regular IMG -->
+            <img
+                class="hero__img"
+                src="/assets/images/hero/ignacio-home-extralarge.jpg"
+                alt="Photography of Ignacio in a dark background"
+                srcset="/assets/images/hero/ignacio-home-extralarge.jpg    1x,
+                        /assets/images/hero/ignacio-home-extralarge@2x.jpg 2x,
+                        /assets/images/hero/ignacio-home-extralarge@3x.jpg 3x" />
+        </picture>
+        <div class="hero__content">
+            <h1 class="hero__title">{{ site.job }}</h1>
+            <div class="u-divider"></div>
+            <p class="hero__subtitle">{{ site.description }}.</p>
+        </div>
+        <p class="hero__disclaimer">{% include component-follow.html %}</p>
+    </section>
+
+    <div class="media-wrapper">
+        <section class="media">
+            <div class="media__item">
+                <h3>Writing</h3>
+                <div class="u-divider"></div>
+                <p>I use to write from time to time. If you are looking for something specific, you can hit <a class="link" href="/search">the search</a>.</p>
+                <a class="btn btn--regular" href="/blog/">
+                    <span>Blog</span>
+                    {% include icons/arrow-enter.html %}
+                </a>
+                <div class="u-divider"></div>
+                {% for post in site.posts limit: 3 %}
+                    {% if post.lang %}
+                            <article lang="{{ post.lang }}">
+                        {% else %}
+                            <article lang="en">
+                        {% endif %}
+                            <a class="media__link" href="{{ post.url }}">
+                                <time class="media__time" datetime="{{ post.date | date: '%F' }}">{{ post.date | date: "%b %-d %Y" }}</time>
+                                <h4 class="media__subtitle">{{ post.title }}</h4>
+                            </a>
+                        </article>
+                {% endfor %}
+            </div>
+            <div class="media__item">
+                <h3>Speaking</h3>
+                <div class="u-divider"></div>
+                {% for talk in site.data.speaking limit: 5 %}
+                    <article lang="es">
+                        <a class="media__link" href="/speaking/{{ talk.url }}" lang="es">
+                            <time class="media__time" datetime="{{ talk.date | date: '%F' }}">{{ talk.date | date: "%b %-d %Y" }}</time>
+                            <h4 class="media__subtitle">{{ talk.name }}</h4>
+                        </a>
+                    </article>
+                {% endfor %}
+            </div>
+            <div class="media__item">
+                <h3>Collaborations</h3>
+                <div class="u-divider"></div>
+                <p>I have had the pleasure of having been invited to collaborate with some Spanish media/publications of the web development sector.</p>
+                <div class="u-divider"></div>
+                {% for collaboration in site.data.collaborations limit: 5 %}
+                <article lang="es">
+                    <a class="media__link" href="{{ collaboration.url }}" target="_blank" rel="noopener">
+                        <time class="media__time" datetime="{{ collaboration.date | date: '%F' }}">{{ collaboration.date }}</time>
+                        <h4 class="media__subtitle">
+                            {{ collaboration.name }}
+                        </h4>
+                    </a>
+                </article>
+                {% endfor %}
+            </div>
+        </section>
+    </div>
+</main>

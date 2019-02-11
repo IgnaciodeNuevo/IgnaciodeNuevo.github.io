@@ -1,0 +1,114 @@
+.cv {
+    @include pattern();
+    @include section("/Curriculum", var(--color-base-dark));
+
+
+    @media print {
+        background-color: initial;
+        background-image: initial;
+    }
+
+    p:not(.cv__row-title):not(.cv__title) {
+        margin-bottom: 0;
+    }
+
+    &__page {
+        color: var(--color-base-lightest);
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: var(--a4-width);
+        padding-bottom: var(--space-xl);
+        padding-left: var(--space-m);
+        padding-right: var(--space-m);
+        padding-top: var(--space-xl);
+        position: relative;
+        width: 100%;
+
+        @media (min-width: $mq-s) {
+            padding-left: var(--space-l);
+            padding-right: var(--space-l);
+        }
+
+        @media (min-width: $mq-l) {
+            padding-bottom: var(--space-xxl);
+            padding-top: var(--space-xxl);
+        }
+
+        @media print {
+            color: var(--color-base-dark);
+            padding: 0;
+        }
+    }
+
+    &__title {
+        margin-bottom: var(--space-l);
+
+        @media (min-width: $mq-print) {
+            max-width: var(--cv-column-width);
+            text-align: right;
+        }
+    }
+
+    &__section {
+        margin-bottom: var(--space-m);
+    }
+
+    &__content {
+        margin-bottom: 1.5rem;
+    }
+
+    &__row {
+        margin-bottom: var(--space-m);
+
+        @media (min-width: $mq-print) {
+            display: grid;
+            grid-column-gap: var(--space-l);
+            grid-template-columns: var(--cv-column-width) 1fr;
+            margin-bottom: 0;
+        }
+
+        &-title {
+            margin-bottom: var(--space-s);
+            width: 100%;
+
+            @media (min-width: $mq-print) {
+                max-width: var(--cv-column-width);
+                text-align: right;
+            }
+        }
+    }
+
+    &__list {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .h4-like,
+    .h5-like {
+        text-align: center;
+
+
+        @media print {
+            color: var(--color-primary);
+        }
+    }
+
+    .h4-like {
+        margin-bottom: var(--space-l);
+    }
+
+    .h5-like {
+        margin-bottom: var(--space-m);
+
+        @media (min-width: $mq-print) {
+            text-align: right;
+        }
+    }
+
+    .link {
+        font-family: var(--font-family-body-regular);
+        padding: 0;
+    }
+}

@@ -1,0 +1,66 @@
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{% if page.title %}{{ page.title }} - {{ site.metatag }}{% else %}{{ site.title }}{% endif %}</title>
+
+    <!-- StyleSheets & DNS Prefetch -->
+    <link rel="dns-prefetch" href="{{ site.twitter }}">
+    <link rel="dns-prefetch" href="//platform.twitter.com">
+    <link rel="stylesheet" href="/assets/css/main.css">
+
+    <!-- Robots & indexing -->
+    {% if page.norobots %}
+        <meta name="robots" content="noindex,nofollow">
+    {% else %}
+        <meta name="robots" content="index,follow">
+        <meta name="revisit-after" content="1 days">
+    {% endif %}
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' }}"/>
+    <meta property="og:image" content="{{ site.url }}/assets/images/logo.jpg" />
+    <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.title }}{% endif %}" />
+    <meta property="og:site_name" content="{{ site.url }}" />
+
+    <!-- Twitter cards -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@IgnaciodeNuevo">
+    <meta name="twitter:domain" content="{{ page.url | replace:'index.html','' }}">
+    <meta name="twitter:creator" content="@IgnaciodeNuevo">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:image" content="{{ site.url }}/assets/images/logo.jpg">
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.title }}{% endif %}">
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" title="Bakery Store RSS" href="/feed.xml">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/assets/images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/assets/images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/assets/images/favicon/manifest.json">
+    <link rel="mask-icon" href="/assets/images/favicon/safari-pinned-tab.svg" color="#0047bb">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Chrome for Android Toolbar Color-->
+    <meta name="theme-color" content="#0047BB">
+
+    <!-- Other -->
+    <meta name="description" content="{% if page.title %}{{ page.title }} - {{ site.metatag }}{% else %}{{ site.title }}{% endif %}">
+
+</head>
+<!--
+.___                            .__           .___      _______
+|   | ____   ____ _____    ____ |__| ____   __| _/____  \      \  __ __   _______  ______
+|   |/ ___\ /    \\__  \ _/ ___\|  |/  _ \ / __ |/ __ \ /   |   \|  |  \_/ __ \  \/ /  _ \
+|   / /_/  >   |  \/ __ \\  \___|  (  <_> ) /_/ \  ___//    |    \  |  /\  ___/\   (  <_> )
+|___\___  /|___|  (____  /\___  >__|\____/\____ |\___  >____|__  /____/  \___  >\_/ \____/
+   /_____/      \/     \/     \/               \/    \/        \/            \/
+
+   - Twitter: @IgnaciodeNuevo - GitHub: IgnaciodeNuevo - Email: {{ site.email }} -
+
+-->

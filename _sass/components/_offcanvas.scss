@@ -1,0 +1,68 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the offcanvas nav of the website.
+// -----------------------------------------------------------------------------
+.offcanvas {
+    background-color: var(--color-secondary);
+    color: var(--color-base-dark);
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+    min-height: 100vh;
+    padding-bottom: var(--space-l);
+    padding-left: var(--space-l);
+    padding-right: var(--space-l);
+    padding-top: var(--space-xl);
+    position: fixed;
+    transform: translateX(100%);
+    width: 100%;
+    will-change: transform;
+    z-index: var(--z-index-xl);
+
+    @include transition(transform);
+
+    &__header {
+        align-items: center;
+        display: inherit;
+        flex-wrap: nowrap;
+        height: var(--nav-height);
+        justify-content: flex-end;
+        line-height: var(--nav-height);
+        position: absolute;
+        top: 0;
+        width: calc(100% - var(--space-l) * 2);
+    }
+
+    .nav-items {
+        display: inherit;
+        flex-direction: inherit;
+    }
+
+    &__counter {
+        counter-reset: offcanvas;
+        display: inherit;
+        flex-direction: inherit;
+
+        .link:before {
+            color: var(--color-primary);
+            content: counter(offcanvas) ". " ;
+            counter-increment: offcanvas;
+            font-family: var(--font-family-body-regular);
+
+            @include opentype-all-opentype-small-caps();
+        }
+    }
+
+    .link {
+        color: inherit;
+        font-family: var(--font-family-title);
+        padding-bottom: var(--space-s);
+        padding-top: var(--space-s);
+        text-decoration: none;
+
+        @include heading-h6();
+
+        .icon {
+            stroke: var(--color-primary);
+        }
+    }
+}

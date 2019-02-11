@@ -1,0 +1,45 @@
+// ------------------------------------------------------------------
+// This file contains all styles related to the blockquote component.
+// ------------------------------------------------------------------
+.quote {
+    background-color: var(--color-background-lightest);
+    border-left: var(--size-xs) solid var(--color-primary);
+    color: var(--color-primary);
+    font-family: var(--font-family-title);
+    margin-left: 0;
+    margin-right: 0;
+    padding: var(--space-l);
+
+    @include transition(background-color);
+
+    @media (min-width: $mq-l) {
+        border-left: initial;
+        border-right: var(--size-xs) solid var(--color-primary);
+        float: right;
+        margin-left: var(--space-xl);
+        margin-right: var(--space-xl);
+        margin-top: 0.5em; // Visual correction. Magic String: Do not change/remove
+        width: 50%;
+    }
+
+    &:after {
+        clear: both;
+        content: "";
+        display: table;
+    }
+
+    &:hover {
+        background-color: var(--color-base-lightest);
+    }
+
+    span {
+        display: block;
+        margin-bottom: 1em;
+    }
+
+    cite {
+        color: var(--color-base-dark);
+
+        @include caption();
+    }
+}

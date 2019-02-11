@@ -1,0 +1,21 @@
+@mixin linear-gradient-line-after() {
+    background-color: var(--color-primary);
+    background-image: var(--linear-gradient);
+    bottom: 0;
+    content: "";
+    height: 6px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+@mixin linear-gradient-line-before() {
+    background-color: var(--color-primary);
+    background-image: var(--linear-gradient);
+    content: "";
+    height: 6px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}

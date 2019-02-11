@@ -1,0 +1,23 @@
+@mixin section($section-text, $color: currentColor) {
+    overflow: hidden;
+    position: relative;
+
+    @media (min-width: $mq-l) {
+        &:after {
+            bottom: -6rem;
+            color: $color;
+            content: "#{$section-text}";
+            display: block;
+            font-family: var(--font-family-title);
+            font-size: ms(13);
+            margin-top: 0;
+            position: absolute;
+            right: 0;
+            white-space: nowrap;
+
+            @media print {
+                all: initial;
+            }
+        }
+    }
+}

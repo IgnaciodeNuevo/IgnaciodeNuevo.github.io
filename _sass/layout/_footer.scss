@@ -1,0 +1,82 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the website.
+// -----------------------------------------------------------------------------
+.foo-wrapper {
+    @include section("/Info", var(--color-secondary--darker));
+}
+
+.foo {
+    background-color: var(--color-secondary);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: var(--space-xl);
+    padding-left: var(--space-m);
+    padding-right: var(--space-m);
+    padding-top: var(--space-xl);
+
+    @media (min-width: $mq-s) {
+        padding-left: var(--space-l);
+        padding-right: var(--space-l);
+    }
+
+    @media (min-width: $mq-l) {
+        padding-bottom: var(--space-xxl);
+        padding-top: var(--space-xxl);
+    }
+
+    &__title,
+    p {
+        text-align: center;
+    }
+
+    p:last-of-type {
+        @media (min-width: $mq-l) {
+            margin-bottom: var(--space-l);
+        }
+    }
+
+    &__content {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: var(--container-max-width);
+        width: 100%;
+
+        @media (min-width: $mq-xs) {
+            display: flex;
+        }
+    }
+
+    &__social {
+        display: flex;
+        flex-direction: column;
+
+        &:last-child {
+            margin-bottom: var(--space-l);
+        }
+
+        @media (min-width: $mq-xs) {
+            width: 30%; // See 70% below. Magic String: Do not change/remove
+        }
+    }
+
+    .form {
+        margin-bottom: 3rem; // Magic String: Do not change/remove
+        margin-top: var(--space-l);
+
+        @media (min-width: $mq-xs) {
+            width: 70%; // See 30% above. Magic String: Do not change/remove
+        }
+    }
+
+    .link:not(.link--special) {
+        color: inherit;
+        font-family: var(--font-family-title);
+        padding-bottom: var(--space-s);
+        padding-top: var(--space-s);
+        text-decoration: none;
+
+        .icon {
+            stroke: var(--color-primary);
+        }
+    }
+}

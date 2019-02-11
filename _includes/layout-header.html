@@ -1,0 +1,17 @@
+<header class="header" role="banner">
+    <nav class="nav-main" aria-label="Main navigation on big screens">
+        <a class="nav-main__logo-link" href="/">{% include icons/logo-horizontal.html %} <span class="beta">BETA</span></a>
+
+        <div class="nav-items">
+            {% include layout-nav.html %}
+        </div>
+
+        <button id="js-open-menu" class="btn btn--ghost" aria-controls="js-nav">
+            {% include icons/hamburguer.html %}
+            <span>
+                <span class="u-visually-hidden">Open</span>
+                <span>Menu</span>
+            </span>
+        </button>
+    </nav>
+</header>

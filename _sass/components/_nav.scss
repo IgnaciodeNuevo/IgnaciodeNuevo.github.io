@@ -1,0 +1,113 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the nav of the website.
+// -----------------------------------------------------------------------------
+.nav-main {
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    height: var(--nav-height);
+    justify-content: space-between;
+    padding-left: var(--space-m);
+    padding-right: var(--space-m);
+
+    @media (min-width: $mq-s) {
+        padding-left: var(--space-l);
+        padding-right: 0;
+    }
+
+    &__logo-link {
+        align-items: center;
+        display: inherit;
+        text-decoration: none; // TODO: Remove when the .beta is removed
+    }
+
+    .btn {
+        @media (min-width: $mq-s) {
+            display: none;
+        }
+    }
+
+    .nav-items {
+        display: none;
+
+        @media (min-width: $mq-s) {
+            align-items: center;
+            display: flex;
+        }
+    }
+
+    .link {
+        align-items: inherit;
+        border-bottom: var(--border-width-xxs) solid transparent;
+        border-top: var(--border-width-xxs) solid transparent;
+        color: var(--color-base-lightest);
+        display: inherit;
+        font-family: var(--font-family-body-regular);
+        height: var(--nav-height);
+        position: relative;
+        text-decoration: none;
+
+        @include opentype-all-opentype-small-caps();
+        @include body-small();
+        @include transition(border-bottom);
+
+        &:hover,
+        &.is-active {
+            border-bottom: var(--border-width-xxs) solid var(--color-base-lightest);
+        }
+
+        &:nth-of-type(4) {
+            margin-right: var(--space-m);
+        }
+
+        &:last-of-type {
+            align-items: inherit;
+            background-color: var(--color-secondary);
+            color: var(--color-base-dark);
+            display: inherit;
+            margin-right: 0;
+            padding-left: var(--space-l);
+            padding-right: var(--space-l);
+
+            &:hover {
+                background-color: var(--color-base-lightest);
+                transition-duration: var(--animation-speed);
+                transition-property: background-color, border-bottom;
+                transition-timing-function: var(--animation-type-cubic);
+            }
+
+            &.is-active {
+                border-bottom: var(--border-width-xxs) solid transparent;
+            }
+        }
+
+        &:not(:last-of-type):not(:nth-of-type(4)) {
+            margin-right: var(--space-l);
+
+            &:after {
+                align-items: var(--nav-height);
+                color: var(--color-base-light);
+                display: var(--nav-height);
+                position: absolute;
+                right: calc(((var(--space-l) / 2) + var(--space-xxs)) * -1);  // Magic String: Do not change/remove: Half of the margin-right + half of its width multiplied by -1 tu be negative value
+                width: var(--space-xs);
+
+                @include caption();
+            }
+        }
+
+        &:not(:nth-of-type(4)):not(:last-of-type):after {
+            content: "/";
+        }
+    }
+}
+
+.logo {
+    fill: var(--color-base-lightest);
+    height: calc(var(--nav-height) - var(--space-m) * 2);
+    max-width: 8.75rem; // Magic String: Do not change/remove
+
+    @media (min-width: $mq-special) {
+        min-width: auto;
+    }
+}
