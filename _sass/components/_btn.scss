@@ -41,14 +41,6 @@
         border-color: var(--color-base-lightest);
         color: var(--color-base-dark);
     }
-
-    span {
-        margin-right: var(--space-s);
-    }
-
-     > span + svg {
-        margin-right: 0;
-    }
 }
 
 .btn--fill {
@@ -74,28 +66,6 @@
 
      > svg:last-child {
         margin-right: 0;
-    }
-}
-
-.btn--ghost {
-    background-color: transparent;
-    border: 2px solid currentColor; // Magic String: Do not change/remove
-    color: var(--color-base-lightest);
-    opacity: var(--opacity);
-
-    &:hover {
-        border: 2px solid var(--color-base-lightest); // Magic String: Do not change/remove
-        opacity: 1;
-    }
-
-    &:active {
-        background-color: var(--color-base-lightest);
-        color: var(--color-base-dark);
-        opacity: 1;
-    }
-
-    &:focus {
-        opacity: 1;
     }
 }
 
