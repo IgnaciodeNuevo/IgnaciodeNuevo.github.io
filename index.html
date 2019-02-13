@@ -85,7 +85,7 @@ layout: default
     <div class="media-wrapper">
         <section class="media">
             <div class="media__item">
-                <h3>Writing</h3>
+                <h2 class="h3-like">Writing</h2>
                 <div class="u-divider"></div>
                 <p>I use to write from time to time. If you are looking for something specific, you can hit <a class="link" href="/search">the search</a>.</p>
                 <a class="btn btn--regular" href="/blog/">
@@ -101,25 +101,25 @@ layout: default
                         {% endif %}
                             <a class="media__link" href="{{ post.url }}">
                                 <time class="media__time" datetime="{{ post.date | date: '%F' }}">{{ post.date | date: "%b %-d %Y" }}</time>
-                                <h4 class="media__subtitle">{{ post.title }}</h4>
+                                <h3 class="media__subtitle">{{ post.title }}</h3>
                             </a>
                         </article>
                 {% endfor %}
             </div>
             <div class="media__item">
-                <h3>Speaking</h3>
+                <h2 class="h3-like">Speaking</h2>
                 <div class="u-divider"></div>
                 {% for talk in site.data.speaking limit: 5 %}
                     <article lang="es">
                         <a class="media__link" href="/speaking/{{ talk.url }}" lang="es">
                             <time class="media__time" datetime="{{ talk.date | date: '%F' }}">{{ talk.date | date: "%b %-d %Y" }}</time>
-                            <h4 class="media__subtitle">{{ talk.name }}</h4>
+                            <h3 class="media__subtitle">{{ talk.name }}</h3>
                         </a>
                     </article>
                 {% endfor %}
             </div>
             <div class="media__item">
-                <h3>Collaborations</h3>
+                <h2 class="h3-like">Collaborations</h2>
                 <div class="u-divider"></div>
                 <p>I have had the pleasure of having been invited to collaborate with some Spanish media/publications of the web development sector.</p>
                 <div class="u-divider"></div>
@@ -127,9 +127,9 @@ layout: default
                 <article lang="es">
                     <a class="media__link" href="{{ collaboration.url }}" target="_blank" rel="noopener">
                         <time class="media__time" datetime="{{ collaboration.date | date: '%F' }}">{{ collaboration.date }}</time>
-                        <h4 class="media__subtitle">
+                        <h3 class="media__subtitle">
                             {{ collaboration.name }}
-                        </h4>
+                        </h3>
                     </a>
                 </article>
                 {% endfor %}
