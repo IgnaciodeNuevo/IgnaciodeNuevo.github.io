@@ -70,6 +70,15 @@
   font-weight: var(--font-weight-normal);
 }
 
+
+@font-face {
+  font-family: "Brando Italic Sans Subset";
+  src: url("/assets/fonts/Brando/Brando-Sans-Italic-Subset.woff2") format("woff2"),
+       url("/assets/fonts/Brando/Brando-Sans-Italic-Subset.woff") format("woff");
+  font-stretch: normal;
+  font-weight: var(--font-weight-normal);
+}
+
 @font-face {
     font-family: "Brando Semibold Sans";
     src: url("/assets/fonts/Brando/Brando-Sans-Semibold.woff2") format("woff2"),
