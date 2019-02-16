@@ -69,7 +69,7 @@
     }
 
     &__time {
-        color: var(--color-base-light);
+        color: var(--color-base-lightest);
         padding-bottom: var(--space-xs);
 
         @include opentype-all-opentype-small-caps();
