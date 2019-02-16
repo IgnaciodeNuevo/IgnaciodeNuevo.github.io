@@ -1,0 +1,3 @@
+.slides {
+  @include section("/Slides", var(--color-base-dark));
+}
