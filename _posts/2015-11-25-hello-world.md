@@ -18,7 +18,7 @@ Knowing this, I really appreciate that if someone ever read this gives me feedba
 
 <blockquote class="quote">
     <span>Writing, giving talks, and creating demos has been one of the best ways to force myself to dive in and fully understand something, inside and out. Even if no one ever reads what you write, the process of doing it is more than worth it.</span>
-    <cite>&mdash;<a class="link link--special" href="https://twitter.com/philwalton" target="_blank" rel="noopener noreferrer">@philwalton</a></cite>
+    <cite>&mdash;<a href="https://twitter.com/philwalton" target="_blank" rel="noopener noreferrer">@philwalton</a></cite>
 </blockquote>
 
 Writing about unknown topics is a way to force me to investigate about them and force myself to learn new things, one ot the hardest things ever, getting out of your comfort zone and explore new technologies, chat about problems in our industry like women in tech, the myth of web developer unicorns and so on.
