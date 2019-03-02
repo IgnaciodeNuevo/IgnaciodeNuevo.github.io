@@ -34,6 +34,8 @@
 
     &__input,
     &__textarea {
+        @include transition(border-color);
+
         &:focus {
             &:valid {
                 background-image: url("/assets/images/icon-valid.svg");
