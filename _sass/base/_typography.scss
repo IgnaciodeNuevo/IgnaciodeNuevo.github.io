@@ -136,7 +136,7 @@ html:not(.fonts-loaded) {
 
 // Heading h1 (not loaded) fallback tweaks
 html:not(.fonts-loaded) h1,
-html:not(.fonts-loaded) .h1-like, {
+html:not(.fonts-loaded) .h1-like {
     letter-spacing: -0.040625em; // -0.65px, Magic String: Do not change/remove
     word-spacing: -0.04375em; // -0.7px, Magic String: Do not change/remove
 }
@@ -151,7 +151,7 @@ html:not(.fonts-loaded) .h4-like,
 html:not(.fonts-loaded) h5,
 html:not(.fonts-loaded) .h5-like,
 html:not(.fonts-loaded) h6,
-html:not(.fonts-loaded) .h6-like, {
+html:not(.fonts-loaded) .h6-like {
     letter-spacing: -0.034375em; // -0.55px, Magic String: Do not change/remove
     word-spacing: -0.05em; // -0.8px, Magic String: Do not change/remove
 }
