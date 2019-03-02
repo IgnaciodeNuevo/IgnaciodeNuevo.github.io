@@ -4,12 +4,5 @@
 .related {
     background-color: var(--color-base-lightest);
     border-radius: var(--border-radius-xxs);
-    margin-left: auto;
-    margin-right: auto;
-    max-width: var(--content-max-width);
     padding: var(--space-l);
-
-    @media (min-width: $mq-l) {
-        width: var(--blog-paragraph-width);
-    }
 }
