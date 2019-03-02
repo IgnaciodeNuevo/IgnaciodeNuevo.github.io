@@ -3,16 +3,16 @@
 // TODO: Remove after reviewing
 //
 
-img:not([src]) {
-    border-color: red !important;
+// img:not([src]) {
+//     border-color: red !important;
 
-    border-style: solid;
-    border-width: 10px !important;
-}
+//     border-style: solid;
+//     border-width: 10px !important;
+// }
 
 //
 // TODO: Remove if not necessary
-// Was in: _article.scss uhnde &__subtitle { line: 61
+// Was in: _article.scss under &__subtitle -> line: 61
 //
 // .article__subtitle {
 //     .icon {
@@ -25,9 +25,9 @@ img:not([src]) {
 //
 // TODO: Check if every external link has target="_blank" attribute
 //
-// a:not([target="_blank"]) {
-//     border: 4px solid orchid !important;
-// }
+a:not([target="_blank"]) {
+    border: 4px solid orchid !important;
+}
 
 //
 // TODO: Check if every external link has rel="noopener noreferrer" attribute
