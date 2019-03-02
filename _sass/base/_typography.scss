@@ -80,10 +80,14 @@ p {
     @include body-text();
 }
 
+.link {
+  font-weight: bold;
+}
+
 b,
 cite,
 em {
-    font-family: var(--font-family-body-italic);
+    font-style: italic;
 }
 
 .small {
@@ -108,6 +112,18 @@ html.fonts-loaded .h5-like,
 html.fonts-loaded h6,
 html.fonts-loaded .h6-like {
     font-family: var(--font-family-title);
+}
+
+html.fonts-loaded b,
+html.fonts-loaded cite,
+html.fonts-loaded em {
+    font-family: var(--font-family-body-italic);
+    font-style: initial;
+}
+
+html.fonts-loaded .link {
+    font-family: var(--font-family-body-semibold);
+    font-weight: initial;
 }
 
 // Body text (not loaded) fallback tweaks
