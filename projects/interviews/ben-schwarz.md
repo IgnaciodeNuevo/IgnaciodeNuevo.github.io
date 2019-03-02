@@ -51,7 +51,7 @@ It really depends on the project. The first thing I’d do in any situation is g
 
 ## What excites you most these days?
 
-<a class="link link--special" href="https://calibreapp.com" target="_blank" rel="noopener">Calibre</a>
+<a class="link link--special" href="https://calibreapp.com" target="_blank" rel="noopener noreferrer">Calibre</a>
 
 ## What is the most important thing you’ve learned?
 

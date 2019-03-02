@@ -25,7 +25,7 @@ I wish I was a little less dogmatic. If you're 100% sure about something, you're
 
 ## What excites you most these days?
 
-These days I'm most excited about the effects that technology is having on the way we interact with the world. With the advent of powerful cloud computing, nearly ubiquitous connectivity, and affordable smartphones, the opportunity for disruption from upstarts has never been better. I and co-host Kelli Shaver talk about things that this enables - like virtual reality, drones, conversational computing, and more - on our podcast: <a class="link link--special" href="http://terrifyingrobotdog.com" target="_blank" rel="noopener">Terrifying Robot Dog</a>.
+These days I'm most excited about the effects that technology is having on the way we interact with the world. With the advent of powerful cloud computing, nearly ubiquitous connectivity, and affordable smartphones, the opportunity for disruption from upstarts has never been better. I and co-host Kelli Shaver talk about things that this enables - like virtual reality, drones, conversational computing, and more - on our podcast: <a class="link link--special" href="http://terrifyingrobotdog.com" target="_blank" rel="noopener noreferrer">Terrifying Robot Dog</a>.
 
 ## Do you have any advice for new developers just starting their career journey?
 

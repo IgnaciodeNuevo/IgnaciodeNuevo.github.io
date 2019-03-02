@@ -9,7 +9,7 @@ title: "Brian Rinaldi"
 
 <img class="portrait portrait--xxl" src="/assets/images/portrait-brian-rinaldi.jpg" alt="Brian Rinaldi's prtrait"  />
 
-I have spent over 20 years as a developer, but today my focus is on the developer community. I write, speak, manage sites and programs all focused on developers. Most of this I do through my role as the Developer Programs Manager at <a class="link link--special" href="http://www.telerik.com" target="_blank" rel="noopener">Telerik</a>, but I continue to do a lot of work outside of my official duties.
+I have spent over 20 years as a developer, but today my focus is on the developer community. I write, speak, manage sites and programs all focused on developers. Most of this I do through my role as the Developer Programs Manager at <a class="link link--special" href="http://www.telerik.com" target="_blank" rel="noopener noreferrer">Telerik</a>, but I continue to do a lot of work outside of my official duties.
 
 ## When you started developing, what were some common mistakes you made along the way?
 
@@ -29,7 +29,7 @@ I think, particularly when it comes to front end development, developers feel ov
 
 ## How would you recommend somebody to start learning web development?
 
-The great things is that web development is one of those things where there are few barriers to learn by doing. You have a browser and you have a text editor (or there are tons of free code editors), so you have everything you need to start trying. There are tons of interactive courses available like <a class="link link--special" href="https://www.codeschool.com" target="_blank" rel="noopener">CodeSchool</a> or <a class="link link--special" href="https://www.codecademy.com" target="_blank" rel="noopener">CodeAcademy</a>. There are tons of books from places like <a class="link link--special" href="http://www.oreilly.com" target="_blank" rel="noopener">O'Reilly</a> (I am a book learner, so I favor this method). There are even tons of videos on places like <a class="link link--special" href="https://www.pluralsight.com" target="_blank" rel="noopener">PluralSight</a>. The key thing is, no matter what type of learner you are, there are resources for you to learn and you already have the tools you need to try it out.
+The great things is that web development is one of those things where there are few barriers to learn by doing. You have a browser and you have a text editor (or there are tons of free code editors), so you have everything you need to start trying. There are tons of interactive courses available like <a class="link link--special" href="https://www.codeschool.com" target="_blank" rel="noopener noreferrer">CodeSchool</a> or <a class="link link--special" href="https://www.codecademy.com" target="_blank" rel="noopener noreferrer">CodeAcademy</a>. There are tons of books from places like <a class="link link--special" href="http://www.oreilly.com" target="_blank" rel="noopener noreferrer">O'Reilly</a> (I am a book learner, so I favor this method). There are even tons of videos on places like <a class="link link--special" href="https://www.pluralsight.com" target="_blank" rel="noopener noreferrer">PluralSight</a>. The key thing is, no matter what type of learner you are, there are resources for you to learn and you already have the tools you need to try it out.
 
 ## What are the things you would like to have known when you first started?
 
@@ -61,7 +61,7 @@ To enjoy things other than coding.
 
 ## Do you have any favorite books, videos, or resources that you could share with the readers?
 
-I subscribe to over 450 sites, so it's hard to pick just a few. Of course, I favor the <a class="link link--special" href="http://developer.telerik.com" target="_blank" rel="noopener">Telerik Developer Network</a> because it is what I run. That being said, I think we focus on a wide range of issues applicable to the broad developer community - not just product tutorials.
+I subscribe to over 450 sites, so it's hard to pick just a few. Of course, I favor the <a class="link link--special" href="http://developer.telerik.com" target="_blank" rel="noopener noreferrer">Telerik Developer Network</a> because it is what I run. That being said, I think we focus on a wide range of issues applicable to the broad developer community - not just product tutorials.
 
 ## Do you have any advice for new developers just starting their career journey?
 

@@ -22,7 +22,7 @@ wrapper_class: projects-wrapper
                     <p class="article__description">{{ project.description }}</p>
                     <div class="article__links">
                         {% if project.external %}
-                            <a class="btn btn--fill" href="{{ project.web }}" target="_blank" rel="noopener">
+                            <a class="btn btn--fill" href="{{ project.web }}" target="_blank" rel="noopener noreferrer">
                                 <span class="btn__text"><span class="u-visually-hidden">{{ project.name }}'s</span> Web</span>
                                 {% include icons/external.html %}
                             </a>
