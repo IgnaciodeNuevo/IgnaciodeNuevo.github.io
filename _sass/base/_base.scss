@@ -10,7 +10,7 @@
     box-sizing: border-box;
     color: var(--color-base-dark);
     font-size: 100%; // 16px
-    line-height: 1.5;
+    line-height: var(--line-height-m);
 
     @media (min-width: $mq-m) {
         font-size: 120%;
