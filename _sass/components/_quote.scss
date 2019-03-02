@@ -2,34 +2,29 @@
 // This file contains all styles related to the blockquote component.
 // ------------------------------------------------------------------
 .quote {
-    background-color: var(--color-background-lightest);
     border-left: var(--size-xs) solid var(--color-primary);
     color: var(--color-primary);
     font-family: var(--font-family-title);
     margin-left: 0;
     margin-right: 0;
-    padding: var(--space-l);
+    padding-top: var(--space-m);
 
     @include transition(background-color);
 
     @media (min-width: $mq-l) {
         border-left: initial;
-        border-right: var(--size-xs) solid var(--color-primary);
+        border-top: var(--size-s) solid var(--color-primary);
         float: right;
-        margin-left: var(--space-xl);
-        margin-right: var(--space-xl);
+        margin-left: var(--space-l);
+        margin-right: 30%; // Magic String: Do not change/remove
         margin-top: 0.5em; // Visual correction. Magic String: Do not change/remove
-        width: 50%;
+        width: 20%; // Magic String: Do not change/remove
     }
 
     &:after {
         clear: both;
         content: "";
         display: table;
-    }
-
-    &:hover {
-        background-color: var(--color-base-lightest);
     }
 
     span {
@@ -42,4 +37,26 @@
 
         @include caption();
     }
+
+    a {
+      color: inherit;
+      position: relative;
+      text-decoration: none;
+
+      &:after {
+          background: currentColor;
+          border-radius: var(--border-radius-xxs);
+          bottom: 0;
+          content: "";
+          height: 2px; // Magic String: Do not change/remove
+          left: 0;
+          opacity: var(--opacity);
+          position: absolute;
+          width: 100%;
+      }
+
+      &:hover:after {
+          opacity: 1;
+      }
+  }
 }
