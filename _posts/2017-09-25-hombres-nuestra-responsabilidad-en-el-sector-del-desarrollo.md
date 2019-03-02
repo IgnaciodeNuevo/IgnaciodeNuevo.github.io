@@ -36,13 +36,12 @@ Yo soy machista, no intencionadamente, pero si por como te "educa" esta sociedad
 
 ## Mi solución a algunos problemas
 
-Aunque parezca mentira creo que podemos hacer pequeños gestos en nuestro día a día que ni siquiera nos planteamos para mejorar esta situación. Si cada uno de nosotros contribuimos con un granito de arena haremos sin duda de nuestra sociedad un mejor lugar.
-
 <blockquote class="quote">
 Espero no ofender a nadie. Si se diese el caso ruego me escribáis a <a href="mailto:{{ site.email }}" target="_blank" rel="noopener noreferrer">mi email</a>.
 </blockquote>
 
-Por desgracia algunos compañeros, amigos, familiares y conocidos (hombres), no todos son así por supuesto, solamente hacen caso a otros hombres cuando se les dicen según que cosas.
+Aunque parezca mentira creo que podemos hacer pequeños gestos en nuestro día a día que ni siquiera nos planteamos para mejorar esta situación. Si cada uno de nosotros contribuimos con un granito de arena haremos sin duda de nuestra sociedad un mejor lugar. Por desgracia algunos compañeros, amigos, familiares y conocidos (hombres), no todos son así por supuesto, solamente hacen caso a otros hombres cuando se les dicen según que cosas.
+
 
 ## Charlando sobre diversidad y discriminación con amigas y conocidas
 
