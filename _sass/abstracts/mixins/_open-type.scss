@@ -3,7 +3,7 @@
     font-feature-settings: "c2sc", "smcp";
     -webkit-font-feature-settings: "c2sc", "smcp";
        -moz-font-feature-settings: "c2sc", "smcp";
-    letter-spacing: var(--letter-spacing); // Equals 5%
+    letter-spacing: var(--letter-spacing-m); // Equals 5%
 }
 
 @mixin opentype-small-caps() {
@@ -11,7 +11,7 @@
     font-feature-settings: "onum", "smcp", "c2sc" 0;
     -webkit-font-feature-settings: "onum", "smcp", "c2sc" 0;
        -moz-font-feature-settings: "onum", "smcp", "c2sc" 0;
-    letter-spacing: var(--letter-spacing); // Equals 5%
+    letter-spacing: var(--letter-spacing-m); // Equals 5%
 }
 
 @mixin opentype-liga() {

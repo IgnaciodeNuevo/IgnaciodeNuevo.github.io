@@ -11,5 +11,4 @@
     Jekyll + Simple-Jekyll-Search
     Pygments Syntax Highlighter
     GitHub Pages
-    Icons: materialdesignicons.com
-    Font: Roboto
+

@@ -22,6 +22,7 @@ h6,
 .h6-like {
     font-family: var(--font-family-title-fallback);
     font-weight: var(--font-weight-bold);
+    letter-spacing: var(--letter-spacing-s); // Equals 2.5%
 
     @include opentype-liga();
 }
@@ -39,7 +40,7 @@ h6,
 .h4-like,
 .h5-like,
 .h6-like {
-    line-height: 1.1;
+    line-height: var(--line-height-s);
 }
 
 h1,
@@ -79,10 +80,14 @@ p {
     @include body-text();
 }
 
+.link {
+  font-weight: bold;
+}
+
 b,
 cite,
 em {
-    font-family: var(--font-family-body-italic);
+    font-style: italic;
 }
 
 .small {
@@ -109,6 +114,18 @@ html.fonts-loaded .h6-like {
     font-family: var(--font-family-title);
 }
 
+html.fonts-loaded b,
+html.fonts-loaded cite,
+html.fonts-loaded em {
+    font-family: var(--font-family-body-italic);
+    font-style: initial;
+}
+
+html.fonts-loaded .link {
+    font-family: var(--font-family-body-semibold);
+    font-weight: initial;
+}
+
 // Body text (not loaded) fallback tweaks
 html:not(.fonts-loaded) {
     font-family: var(--font-family-body-regular);
@@ -119,7 +136,7 @@ html:not(.fonts-loaded) {
 
 // Heading h1 (not loaded) fallback tweaks
 html:not(.fonts-loaded) h1,
-html:not(.fonts-loaded) .h1-like, {
+html:not(.fonts-loaded) .h1-like {
     letter-spacing: -0.040625em; // -0.65px, Magic String: Do not change/remove
     word-spacing: -0.04375em; // -0.7px, Magic String: Do not change/remove
 }
@@ -134,7 +151,7 @@ html:not(.fonts-loaded) .h4-like,
 html:not(.fonts-loaded) h5,
 html:not(.fonts-loaded) .h5-like,
 html:not(.fonts-loaded) h6,
-html:not(.fonts-loaded) .h6-like, {
+html:not(.fonts-loaded) .h6-like {
     letter-spacing: -0.034375em; // -0.55px, Magic String: Do not change/remove
     word-spacing: -0.05em; // -0.8px, Magic String: Do not change/remove
 }

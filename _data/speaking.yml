@@ -15,7 +15,6 @@
   date: 2017-09-25T00:00:00+0200
   venue: Codemotion Madrid - Track 1
   url: codemotion2017/
-  video: https://www.youtube.com/watch?v=qnSbqv6rqx4
 
 - name: CSS Grid Layout en un proyecto Real
   description: Vemos las qué diferencias tiene CSS Grid Layout con Flexbox, las distintas propiedades y un proyecto usando fallbacks.

@@ -6,12 +6,13 @@
         margin-right: auto;
         max-width: var(--content-max-width);
         padding-right: calc(#{var(--content-max-width)} - #{var(--content-width)});
-        width: 85%;
+        width: var(--blog-paragraph-width);
     }
 }
 
 .meta {
-    background-color: var(--color-base-dark);
+    @include pattern();
+
     border-radius: var(--border-radius-xs);
     color: var(--color-base-lightest);
     list-style-type: none;
@@ -23,6 +24,7 @@
     @media (min-width: $mq-l) {
         max-width: var(--meta-width);
         padding: var(--space-l);
+        font-size: 1rem;
         position: absolute;
         right: 0;
 
@@ -45,13 +47,13 @@
 
     .h2-like {
         color: var(--color-secondary);
-        font-size: ms(2); // Do not change/move
+        font-size: ms(2); // Do not change/move ms() function
         margin-bottom: var(--space-xs);
     }
 
     .h4-like {
         color: var(--color-secondary);
-        font-size: ms(0); // Do not change/move
+        font-size: ms(0); // Do not change/move ms() function
         margin-bottom: var(--space-xs);
     }
 

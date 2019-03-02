@@ -15,7 +15,7 @@ I had problems, the biggest one was I want to <a class="link link--special" href
 
 First I thougt to start blogging in WordPress, but after using it for some projects I felt like my idea of frontend and web development is to make things from scratch when possible.
 
-I like making things, not using <a class="link link--special" href="http://getbootstrap.com/" target="_blank" rel="noopener">Boostrap</a> or other frameworks which are good tools for some people or to solve some problems but not for this one. I made a list of things I would like to have after dismissing few ideas:
+I like making things, not using <a class="link link--special" href="http://getbootstrap.com/" target="_blank" rel="noopener noreferrer">Boostrap</a> or other frameworks which are good tools for some people or to solve some problems but not for this one. I made a list of things I would like to have after dismissing few ideas:
 
 1 Blog
 2 Projects
@@ -30,7 +30,7 @@ I like making things, not using <a class="link link--special" href="http://getbo
 11. Resources
 12. Styleguide _(pending)_
 
-I realized that having this _sections_ would easy be managed via static files so I started looking for a <a class="link link--special" href="https://www.staticgen.com" target="_blank" rel="noopener">tool</a> and found one, <a class="link link--special" href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a> a Static Site Generator, which isn’t officially supported on Windows but it is still possible to <a class="link link--special" href="http://jekyll-windows.juthilo.com/" target="_blank" rel="noopener">run it</a> as I did because I use Windows 10 for now.
+I realized that having this _sections_ would easy be managed via static files so I started looking for a <a class="link link--special" href="https://www.staticgen.com" target="_blank" rel="noopener noreferrer">tool</a> and found one, <a class="link link--special" href="https://jekyllrb.com" target="_blank" rel="noopener noreferrer">Jekyll</a> a Static Site Generator, which isn’t officially supported on Windows but it is still possible to <a class="link link--special" href="http://jekyll-windows.juthilo.com/" target="_blank" rel="noopener noreferrer">run it</a> as I did because I use Windows 10 for now.
 
 Having only static files on the server means its fast and secure and with no needs of data bases to serve assets dynamically.
 
@@ -45,9 +45,9 @@ While Jekyll manages your content, it is not a CMS in the way Wordpress is. Sinc
 
 ## How Jekyll works
 
-Jekyll then works its magic by combining <a class="link link--special" href="http://yaml.org" target="_blank" rel="noopener">YAML</a> front matter with the <a class="link link--special" href="https://shopify.github.io/liquid" target="_blank" rel="noopener">Liquid</a> Tempting System. Jekyll will search for files with YAML front matter, any file that has it will be able to use variables from Liquid. That, in combination with your HTML, CSS, and JS files will tell the site how to look and behave.
+Jekyll then works its magic by combining <a class="link link--special" href="http://yaml.org" target="_blank" rel="noopener noreferrer">YAML</a> front matter with the <a class="link link--special" href="https://shopify.github.io/liquid" target="_blank" rel="noopener noreferrer">Liquid</a> Tempting System. Jekyll will search for files with YAML front matter, any file that has it will be able to use variables from Liquid. That, in combination with your HTML, CSS, and JS files will tell the site how to look and behave.
 
-Finally the importance of its modularity helping you follow the <a class="link link--special" href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself" target="_blank" rel="noopener">DRY</a> principle of programming from a folder that begins with an underscore like so:
+Finally the importance of its modularity helping you follow the <a class="link link--special" href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself" target="_blank" rel="noopener noreferrer">DRY</a> principle of programming from a folder that begins with an underscore like so:
 
 {% highlight markdown %}
 
@@ -65,7 +65,7 @@ Furthermore, any time I want to make a change to either, I only have to update i
     <img src="/assets/images/post-sublimetext-2.jpg" alt="">
     <figcaption class="caption">
         <b title="encima">Encima</b>
-        &mdash;<a class="link link--special" href="/assets/images/post-sublimetext-2--fullscreen.jpg" target="_blank" rel="noopener">Sublime Text Editor</a>
+        &mdash;<a class="link link--special" href="/assets/images/post-sublimetext-2--fullscreen.jpg" target="_blank" rel="noopener noreferrer">Sublime Text Editor</a>
     </figcaption>
 </figure>
 
@@ -73,11 +73,11 @@ Of course, dynamic sites have their advantages as well, with no back-end GUI tu 
 
 ## Github Pages to the rescue
 
-<a class="link link--special" href="https://pages.github.com" target="_blank" rel="noopener">GitHub Pages</a> accepts static HTML but can’t execute languages like PHP, or use a database in the way you’re probably used to, so you’ll need to output static HTML files. You can host your static website for _free_ directly from your <a class="link link--special" href="{{ site.github }}/ignaciodenuevo.github.io" target="_blank" rel="noopener">Github Repo</a>.
+<a class="link link--special" href="https://pages.github.com" target="_blank" rel="noopener noreferrer">GitHub Pages</a> accepts static HTML but can’t execute languages like PHP, or use a database in the way you’re probably used to, so you’ll need to output static HTML files. You can host your static website for _free_ directly from your <a class="link link--special" href="{{ site.github }}/ignaciodenuevo.github.io" target="_blank" rel="noopener noreferrer">Github Repo</a>.
 
 ## Iterating is the key
 
-I then spent the following 7 months <a class="link link--special" href="{{ site.github }}/ignaciodenuevo.github.io/commits" target="_blank" rel="noopener">iterating and iterating</a>. During this period, other <a class="link link--special" href="/projects/">projects</a> fell by the wayside as I got distracted by yet another feature addition, performance improvement or design detail.
+I then spent the following 7 months <a class="link link--special" href="{{ site.github }}/ignaciodenuevo.github.io/commits" target="_blank" rel="noopener noreferrer">iterating and iterating</a>. During this period, other <a class="link link--special" href="/projects/">projects</a> fell by the wayside as I got distracted by yet another feature addition, performance improvement or design detail.
 
 I have lot of things to do:
 
@@ -85,30 +85,30 @@ I have lot of things to do:
 - _Want to help people with disabilities_ to navigate my site in a better way, making it accesible which is not.
 - _Optimize my website assets and code_ to get
 
-<a class="link link--special" href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fignaciodenuevo.com&tab=desktop" target="_blank" rel="noopener">100/100 on Google Pagespeed</a> which I have not.
+<a class="link link--special" href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fignaciodenuevo.com&tab=desktop" target="_blank" rel="noopener noreferrer">100/100 on Google Pagespeed</a> which I have not.
 
 ## What now?
 
-Well, you can grab the <a class="link link--special" href="/feed.xml">RSS feed</a>, follow me on <a class="link link--special" href="{{ site.twitter }}" target="_blank" rel="noopener">Twitter</a> and keep an eye on the project on <a class="link link--special" href="{{ site.github }}/ignaciodenuevo.github.io" target="_blank" rel="noopener">GitHub</a>.
+Well, you can grab the <a class="link link--special" href="/feed.xml">RSS feed</a>, follow me on <a class="link link--special" href="{{ site.twitter }}" target="_blank" rel="noopener noreferrer">Twitter</a> and keep an eye on the project on <a class="link link--special" href="{{ site.github }}/ignaciodenuevo.github.io" target="_blank" rel="noopener noreferrer">GitHub</a>.
 
 Thanks, Ignacio.
 
 <div class="related">
     <h4 class="related__title">Jekyll resources and further reading</h4>
     <ul class="related__list">
-        <li><a class="link link--special" href="http://jekyllrb.com" target="_blank" rel="noopener">Jekyll Official Website</a></li>
-        <li><a class="link link--special" href="http://jekyll-windows.juthilo.com" target="_blank" rel="noopener">Jekyll on Windows</a></li>
-        <li><a class="link link--special" href="http://yaml.org" target="_blank" rel="noopener">YAML</a></li>
-        <li><a class="link link--special" href="https://shopify.github.io/liquid" target="_blank" rel="noopener">Liquid</a></li>
-        <li><a class="link link--special" href="https://docs.cloudcannon.com/editing/front-matter" target="_blank" rel="noopener">Front Matter</a></li>
-        <li><a class="link link--special" href="http://daringfireball.net/projects/markdown" target="_blank" rel="noopener">Markdown Official Website</a></li>
-        <li><a class="link link--special" href="https://pages.github.com" target="_blank" rel="noopener">GitHub Pages</a></li>
-        <li><a class="link link--special" href="http://jekyll.tips" target="_blank" rel="noopener">Jekyll Tips</a></li>
-        <li><a class="link link--special" href="http://jekyllthemes.org" target="_blank" rel="noopener">Jekyll Themes</a></li>
-        <li><a class="link link--special" href="http://jekyllsnippets.com/" target="_blank" rel="noopener">Jekyll Snippets</a></li>
-        <li><a class="link link--special" href="https://www.smashingmagazine.com/2016/02/content-modeling-with-jekyll" target="_blank" rel="noopener">Content Modeling With Jekyll</a></li>
-        <li><a class="link link--special" href="https://pages.github.com/versions" target="_blank" rel="noopener">Dependency Versions</a></li>
-        <li><a class="link link--special" href="https://help.github.com/articles/using-a-custom-domain-with-github-pages" target="_blank" rel="noopener">Using a custom domain with GitHub Pages</a></li>
-        <li><a class="link link--special" href="https://help.github.com/articles/troubleshooting-jekyll-builds" target="_blank" rel="noopener">Troubleshooting Jekyll builds</a></li>
+        <li><a class="link link--special" href="http://jekyllrb.com" target="_blank" rel="noopener noreferrer">Jekyll Official Website</a></li>
+        <li><a class="link link--special" href="http://jekyll-windows.juthilo.com" target="_blank" rel="noopener noreferrer">Jekyll on Windows</a></li>
+        <li><a class="link link--special" href="http://yaml.org" target="_blank" rel="noopener noreferrer">YAML</a></li>
+        <li><a class="link link--special" href="https://shopify.github.io/liquid" target="_blank" rel="noopener noreferrer">Liquid</a></li>
+        <li><a class="link link--special" href="https://docs.cloudcannon.com/editing/front-matter" target="_blank" rel="noopener noreferrer">Front Matter</a></li>
+        <li><a class="link link--special" href="http://daringfireball.net/projects/markdown" target="_blank" rel="noopener noreferrer">Markdown Official Website</a></li>
+        <li><a class="link link--special" href="https://pages.github.com" target="_blank" rel="noopener noreferrer">GitHub Pages</a></li>
+        <li><a class="link link--special" href="http://jekyll.tips" target="_blank" rel="noopener noreferrer">Jekyll Tips</a></li>
+        <li><a class="link link--special" href="http://jekyllthemes.org" target="_blank" rel="noopener noreferrer">Jekyll Themes</a></li>
+        <li><a class="link link--special" href="http://jekyllsnippets.com/" target="_blank" rel="noopener noreferrer">Jekyll Snippets</a></li>
+        <li><a class="link link--special" href="https://www.smashingmagazine.com/2016/02/content-modeling-with-jekyll" target="_blank" rel="noopener noreferrer">Content Modeling With Jekyll</a></li>
+        <li><a class="link link--special" href="https://pages.github.com/versions" target="_blank" rel="noopener noreferrer">Dependency Versions</a></li>
+        <li><a class="link link--special" href="https://help.github.com/articles/using-a-custom-domain-with-github-pages" target="_blank" rel="noopener noreferrer">Using a custom domain with GitHub Pages</a></li>
+        <li><a class="link link--special" href="https://help.github.com/articles/troubleshooting-jekyll-builds" target="_blank" rel="noopener noreferrer">Troubleshooting Jekyll builds</a></li>
     </ul>
 </div>

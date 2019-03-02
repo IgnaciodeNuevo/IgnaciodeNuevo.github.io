@@ -35,7 +35,7 @@
             padding-left: var(--space-l);
             padding-right: calc(#{var(--content-max-width)} - #{var(--content-width)});
             padding-top: var(--space-xl);
-            width: 85%;
+            width: var(--blog-paragraph-width);
         }
     }
 

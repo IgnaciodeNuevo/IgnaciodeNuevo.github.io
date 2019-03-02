@@ -3,25 +3,6 @@
 // TODO: Remove after reviewing
 //
 
-img:not([src]) {
-    border-color: red !important;
-
-    border-style: solid;
-    border-width: 10px !important;
-}
-
-//
-// TODO: Remove if not necessary
-// Was in: _article.scss uhnde &__subtitle { line: 61
-//
-// .article__subtitle {
-//     .icon {
-//         border: 4px solid red !important;
-//         fill: red !important;
-//         margin-bottom: calc(#{var(--space-xxs)} * -1);// Visual correction to align the text
-//     }
-// }
-
 //
 // TODO: Check if every external link has target="_blank" attribute
 //
@@ -30,8 +11,8 @@ img:not([src]) {
 // }
 
 //
-// TODO: Check if every external link has rel="noopener" attribute
+// TODO: Check if every external link has rel="noopener noreferrer" attribute
 //
-// a:not([rel="noopener"]) {
+// a:not([rel="noopener noreferrer"]) {
 //     background-color: green !important;
 // }

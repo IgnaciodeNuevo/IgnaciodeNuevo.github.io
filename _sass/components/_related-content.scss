@@ -10,6 +10,6 @@
     padding: var(--space-l);
 
     @media (min-width: $mq-l) {
-        width: 85%;
+        width: var(--blog-paragraph-width);
     }
 }
