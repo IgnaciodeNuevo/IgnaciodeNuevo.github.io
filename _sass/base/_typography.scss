@@ -22,6 +22,7 @@ h6,
 .h6-like {
     font-family: var(--font-family-title-fallback);
     font-weight: var(--font-weight-bold);
+    letter-spacing: var(--letter-spacing-s); // Equals 2.5%
 
     @include opentype-liga();
 }
