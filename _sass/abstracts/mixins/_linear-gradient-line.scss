@@ -3,7 +3,7 @@
     background-image: var(--linear-gradient);
     bottom: 0;
     content: "";
-    height: 6px;
+    height: var(--size-s);
     left: 0;
     position: absolute;
     width: 100%;
@@ -13,7 +13,7 @@
     background-color: var(--color-primary);
     background-image: var(--linear-gradient);
     content: "";
-    height: 6px;
+    height: var(--size-s);
     left: 0;
     position: absolute;
     top: 0;
