@@ -2,8 +2,6 @@
 // This file contains all styles related to the .masthead component.
 // -----------------------------------------------------------------
 .masthead {
-    @include pattern();
-
     margin-bottom: var(--space-l);
     margin-left: calc(#{var(--space-m)} * -1); // Helps element grow moving out its container, delimited by paddings
     margin-right: calc(#{var(--space-m)} * -1); // Helps element grow moving out its container, delimited by paddings
@@ -15,9 +13,13 @@
     position: relative;
     width: calc(100% + #{var(--space-m)} * 2); // Makes the element 100vw: Sums padding-left (--space-m) + padding-right (--space-m)
 
+    @include pattern();
+
     @media (min-width: $mq-s) {
         margin-left: calc(#{var(--space-l)} * -1); // Helps element grow moving out its container, delimited by paddings
         margin-right: calc(#{var(--space-l)} * -1); // Helps element grow moving out its container, delimited by paddings
+        padding-left: var(--space-l);
+        padding-right: var(--space-l);
         width: calc(100% + #{var(--space-l)} * 2); // Makes the element 100vw: Sums padding-left (--space-l) + padding-right (--space-l)
     }
 
@@ -29,6 +31,15 @@
 
     &:after {
         @include linear-gradient-line-after();
+    }
+
+    &__content {
+        @media (min-width: $mq-m) {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: var(--grid-width);
+            padding-right: calc(#{var(--space-xl)} + #{var(--meta-width)});
+        }
     }
 
     &__title {
