@@ -2,23 +2,38 @@
 // This file contains all styles related to the blockquote component.
 // ------------------------------------------------------------------
 .quote {
-    border-left: var(--size-xs) solid var(--color-primary);
+    border-bottom: 1px solid #796b5e;
+    border-top: var(--size-s) solid var(--color-primary);
     font-family: var(--font-family-title);
     letter-spacing: var(--letter-spacing-s);
+    margin-bottom: var(--space-m);
     margin-left: 0;
     margin-right: 0;
-    padding-top: var(--space-m);
+    padding-bottom: var(--space-l);
+    padding-top: var(--space-l);
 
     @include transition(background-color);
+    @include heading-h6();
 
-    @media (min-width: $mq-l) {
-        border-left: initial;
-        border-top: var(--size-s) solid var(--color-primary);
-        float: right;
-        margin-left: var(--space-l);
-        margin-right: 30%; // Magic String: Do not change/remove
-        margin-top: 0.5em; // Visual correction. Magic String: Do not change/remove
-        width: 20%; // Magic String: Do not change/remove
+    @media (min-width: $mq-s) {
+        border-bottom: none;
+        border-top-width: var(--size-m);
+        float: left;
+        margin-bottom: var(--size-m);
+        margin-right: var(--size-l);
+        margin-top: var(--size-s);
+        padding-bottom: initial;
+        padding-top: var(--space-l);
+        text-align: right;
+        width: 50%; // Magic String: Do not change/remove
+    }
+
+    @media (min-width: $mq-xl) {
+        margin-bottom: var(--size-l);
+    }
+
+    @media (min-width: $mq-xxl) {
+        margin-left: -25%; // Magic String: Do not change/remove
     }
 
     &:after {
@@ -39,24 +54,25 @@
     }
 
     a {
-      color: inherit;
-      position: relative;
-      text-decoration: none;
+        color: inherit;
+        position: relative;
+        text-decoration: none;
+        white-space: nowrap;
 
-      &:after {
-          background: currentColor;
-          border-radius: var(--border-radius-xxs);
-          bottom: 0;
-          content: "";
-          height: 2px; // Magic String: Do not change/remove
-          left: 0;
-          opacity: var(--opacity);
-          position: absolute;
-          width: 100%;
-      }
+        &:after {
+            background: currentColor;
+            border-radius: var(--border-radius-xxs);
+            bottom: 0;
+            content: "";
+            height: 2px; // Magic String: Do not change/remove
+            left: 0;
+            opacity: var(--opacity);
+            position: absolute;
+            width: 100%;
+        }
 
-      &:hover:after {
-          opacity: 1;
-      }
-  }
+        &:hover:after {
+            opacity: 1;
+        }
+    }
 }
