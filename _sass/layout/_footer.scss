@@ -71,6 +71,7 @@
     .link:not(.link--special) {
         color: inherit;
         font-family: var(--font-family-title);
+        letter-spacing: var(--letter-spacing-s);
         padding-bottom: var(--space-s);
         padding-top: var(--space-s);
         text-decoration: none;
