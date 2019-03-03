@@ -9,12 +9,12 @@
     margin-right: calc(var(--space-m) * -1);
     overflow-x: scroll;
     position: relative;
-    width: calc(100% + var(--space-m) * 2);
+    width: calc(100vw + var(--space-m) * 2);
 
     @media (min-width: $mq-s) {
-        margin-left: calc(var(--space-l) * -1);
-        margin-right: calc(var(--space-l) * -1);
-        width: calc(100% + var(--space-l) * 2);
+        margin-left: calc(var(--grid-width) / 2 * -1 - var(--space-l));
+        margin-right: calc(var(--grid-width) / 2 * -1 - var(--space-l));
+        width: calc(100vw + var(--space-l) * 2);
     }
 
     &:after {
@@ -33,7 +33,7 @@
             max-width: var(--content-max-width);
             padding-bottom: var(--space-xl);
             padding-left: var(--space-l);
-            padding-right: calc(#{var(--content-max-width)} - #{var(--content-width)});
+            padding-right: var(--space-l);
             padding-top: var(--space-xl);
             width: var(--blog-paragraph-width);
         }

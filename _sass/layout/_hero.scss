@@ -32,21 +32,21 @@
         grid-template-rows: var(--space-m) repeat(8, 1fr) var(--space-m);
         height: calc(100vh - var(--nav-height));
         padding: 0;
-
-        // PX units to make it work on Phones
-        @media (max-width: 540px) and (orientation: portrait) { // Magic String: Do not change/remove
-            height: calc(736px - var(--nav-height)); // Magic String: Do not change/remove
-        }
-
-        @media (min-width: $mq-s) {
-            grid-gap: initial;
-        }
-
-        @media (min-width: $mq-s) {
-            grid-template-columns: var(--space-l) repeat(8, 1fr) var(--space-l);
-        }
     }
 
+    // PX units to make it work on Phones
+    @media (max-width: 540px) and (orientation: portrait) {
+        // Magic String: Do not change/remove
+        height: calc(736px - var(--nav-height)); // Magic String: Do not change/remove
+    }
+
+    @media (min-width: $mq-s) {
+        grid-gap: initial;
+    }
+
+    @media (min-width: $mq-s) {
+        grid-template-columns: var(--space-l) repeat(8, 1fr) var(--space-l);
+    }
 
     &__picture,
     &__img {
@@ -57,16 +57,16 @@
             height: calc(100vh - var(--nav-height));
             object-fit: cover;
             width: 100%;
-
-            // PX units to make it work on Phones
-            @media (max-width: 540px) and (orientation: portrait) { // Magic String: Do not change/remove
-                height: calc(736px - var(--nav-height)); // Magic String: Do not change/remove
-            }
         }
 
         @supports (grid-gap: 1rem) {
             grid-column: 1 / -1;
             grid-row: 1 / -1;
+        }
+
+        // PX units to make it work on Phones
+        @media (max-width: 540px) and (orientation: portrait) {
+            height: calc(736px - var(--nav-height)); // Magic String: Do not change/remove
         }
     }
 
@@ -74,12 +74,13 @@
         margin-bottom: var(--space-l);
 
         @supports (grid-gap: 1rem) {
-            grid-area: content;
             margin-bottom: 0;
 
-            @media (min-width: $mq-l) {
-                align-self: end;
-            }
+            grid-area: content;
+        }
+
+        @media (min-width: $mq-l) {
+            align-self: end;
         }
     }
 
@@ -103,19 +104,16 @@
 
         @supports (grid-gap: 1rem) {
             grid-area: disclaimer;
-
-            @media (min-width: $mq-l) {
-                justify-self: end;
-                text-align: right;
-                writing-mode: vertical-lr;
-            }
         }
 
+        @media (min-width: $mq-l) {
+            justify-self: end;
+            text-align: right;
+            writing-mode: vertical-lr;
+        }
 
-        @supports (grid-gap: 1rem) {
-            @media (min-width: $mq-l) {
-                grid-area: right;
-            }
+        @media (min-width: $mq-l) {
+            grid-area: right;
         }
 
         .link {

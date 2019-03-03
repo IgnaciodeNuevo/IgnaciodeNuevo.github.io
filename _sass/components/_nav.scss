@@ -43,13 +43,12 @@
         color: var(--color-base-lightest);
         display: inherit;
         font-family: var(--font-family-body-regular);
-        font-size: ms(-1); // Do not change/move ms() function
-        margin-top: 0;
         height: var(--nav-height);
         position: relative;
         text-decoration: none;
 
         @include opentype-all-opentype-small-caps();
+        @include caption();
         @include transition(border-bottom);
 
         &:hover,
