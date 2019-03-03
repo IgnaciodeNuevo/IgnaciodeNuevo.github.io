@@ -29,7 +29,7 @@ layout: default
                     {% if page.lastupdate %}
                     <div class="last-updated">
                         <p class="h4-like">Last Update</p>
-                        <p>{{ site.time | date: '%b %-d %Y' }}</p>
+                        <p>{{ page.lastupdate | date: '%b %-d %Y' }}</p>
                     </div>
                     {% endif %}
                     <div class="meta__reading">{% include component-reading.html content=content %}</div>
