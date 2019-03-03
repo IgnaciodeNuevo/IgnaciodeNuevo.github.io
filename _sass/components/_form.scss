@@ -32,6 +32,11 @@
         @include caption();
     }
 
+    // Regular input
+    input {
+        @include transition(border-color);
+    }
+
     &__input,
     &__textarea {
         @include transition(border-color);
