@@ -64,12 +64,13 @@ ol {
 
         &::before {
             background-color: var(--color-primary);
+            border-radius: 0.05em; // Magic String: Do not change/remove
             content: "";
-            height: 0.3em; // Magic String: Do not change/remove
+            height: 0.25em; // Magic String: Do not change/remove
             left: -0.8em; // Magic String: Do not change/remove
             position: absolute;
             top: 0.55em; // Magic String: Do not change/remove
-            width: 0.3em; // Magic String: Do not change/remove
+            width: 0.25em; // Magic String: Do not change/remove
         }
     }
 }
