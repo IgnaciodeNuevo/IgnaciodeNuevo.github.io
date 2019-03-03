@@ -25,8 +25,7 @@
         margin-right: auto;
         max-width: var(--grid-width);
 
-        .meta,
-        .aside {
+        .meta {
             grid-area: meta;
         }
 
