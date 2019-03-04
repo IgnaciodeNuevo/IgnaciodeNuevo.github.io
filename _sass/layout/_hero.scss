@@ -14,7 +14,7 @@
         padding-right: var(--space-l);
     }
 
-    @supports (grid-gap: 1rem) {
+    @supports (grid-gap: 1rem) and (object-fit: cover) {
         display: grid;
         grid-gap: var(--space-m);
         grid-template-areas:
@@ -36,7 +36,6 @@
 
     // PX units to make it work on Phones
     @media (max-width: 540px) and (orientation: portrait) {
-        // Magic String: Do not change/remove
         height: calc(736px - var(--nav-height)); // Magic String: Do not change/remove
     }
 
@@ -52,14 +51,11 @@
     &__img {
         display: none;
 
-        @supports (object-fit: cover) {
+        @supports (grid-gap: 1rem) and (object-fit: cover) {
             display: block;
             height: calc(100vh - var(--nav-height));
             object-fit: cover;
             width: 100%;
-        }
-
-        @supports (grid-gap: 1rem) {
             grid-column: 1 / -1;
             grid-row: 1 / -1;
         }
@@ -73,15 +69,15 @@
     &__content {
         margin-bottom: var(--space-l);
 
-        @supports (grid-gap: 1rem) {
+        @supports (grid-gap: 1rem) and (object-fit: cover) {
             margin-bottom: 0;
-
             grid-area: content;
+
+            @media (min-width: $mq-l) {
+                align-self: end;
+            }
         }
 
-        @media (min-width: $mq-l) {
-            align-self: end;
-        }
     }
 
     &__title {
@@ -102,19 +98,21 @@
 
         @include body-small();
 
-        @supports (grid-gap: 1rem) {
+        @supports (grid-gap: 1rem) and (object-fit: cover) {
             grid-area: disclaimer;
+
+            @media (min-width: $mq-l) {
+                justify-self: end;
+                text-align: right;
+                writing-mode: vertical-lr;
+            }
+
+            @media (min-width: $mq-l) {
+                grid-area: right;
+            }
         }
 
-        @media (min-width: $mq-l) {
-            justify-self: end;
-            text-align: right;
-            writing-mode: vertical-lr;
-        }
 
-        @media (min-width: $mq-l) {
-            grid-area: right;
-        }
 
         .link {
             color: var(--color-secondary);
