@@ -2,40 +2,29 @@
 // This file contains all styles related to the syntax highlighter
 // ----------------------------------------------------------------
 .highlight {
-    @include pattern();
-
+    background-color: var(--highlight-bg);
     color: var(--color-base-lightest);
-    margin-left: calc(var(--space-m) * -1);
-    margin-right: calc(var(--space-m) * -1);
     overflow-x: scroll;
     position: relative;
-    width: calc(100vw + var(--space-m) * 2);
+    margin-left: calc(var(--space-l) * -1);
+    margin-right: calc(var(--space-l) * -1);
+    width: 100vw;
 
-    @media (min-width: $mq-s) {
-        margin-left: calc(var(--grid-width) / 2 * -1 - var(--space-l));
-        margin-right: calc(var(--grid-width) / 2 * -1 - var(--space-l));
-        width: calc(100vw + var(--space-l) * 2);
-    }
-
-    &:after {
-        @include linear-gradient-line-after();
+    @media (min-width: $mq-l) {
+        border-radius: var(--border-radius-xxs);
+        margin-left: 0;
+        margin-right: calc((var(--space-xxl) + var(--meta-width-m)) * -1);
+        width: auto;
     }
 
     pre {
-        padding-bottom: var(--space-l);
-        padding-left: var(--space-m);
-        padding-right: var(--space-m);
-        padding-top: var(--space-l);
+        padding: var(--space-l);
 
         @media (min-width: $mq-l) {
             margin-left: auto;
             margin-right: auto;
-            max-width: var(--content-max-width);
-            padding-bottom: var(--space-xl);
-            padding-left: var(--space-l);
-            padding-right: var(--space-l);
-            padding-top: var(--space-xl);
-            width: var(--blog-paragraph-width);
+            max-width: var(--grid-width); // Magic String: Do not change/remove
+            padding: var(--space-xl);
         }
     }
 
@@ -50,11 +39,7 @@
     }
 
     .k {
-        font-weight: var(--font-weight-bold);
-    }
-
-    .o {
-        font-weight: var(--font-weight-bold);
+        color: var(--highlight-at);
     }
 
     .cm {
@@ -64,18 +49,16 @@
 
     .cp {
         color: #999999;
-        font-weight: var(--font-weight-bold);
     }
 
     .c1 {
-        color: #999988;
+        color: var(--highlight-comment);
         font-style: italic;
     }
 
     .cs {
         color: #999999;
         font-style: italic;
-        font-weight: var(--font-weight-bold);
     }
 
     .gd {
@@ -118,10 +101,6 @@
         color: #555555;
     }
 
-    .gs {
-        font-weight: var(--font-weight-bold);
-    }
-
     .gu {
         color: #aaaaaa;
     }
@@ -130,46 +109,32 @@
         color: #aa0000;
     }
 
-    .kc {
-        font-weight: var(--font-weight-bold);
-    }
-
-    .kd {
-        font-weight: var(--font-weight-bold);
-    }
-
-    .kp {
-        font-weight: var(--font-weight-bold);
-    }
-
-    .kr {
-        font-weight: var(--font-weight-bold);
-    }
-
     .kt {
         color: #445588;
-        font-weight: var(--font-weight-bold);
     }
 
     .m {
-        color: #009999;
+        color: var(--highlight-number);
     }
 
     .s {
-        color: #dd1144;
+        color: var(--heading-string);
     }
 
     .na {
-        color: #008080;
+        color: var(--highlight-property);
     }
 
     .nb {
         color: #0086b3;
     }
 
+    .nd {
+        color: var(--heading-class);
+    }
+
     .nc {
-        color: #445588;
-        font-weight: var(--font-weight-bold);
+        color: var(--heading-class);
     }
 
     .no {
@@ -182,12 +147,18 @@
 
     .ne {
         color: #990000;
-        font-weight: var(--font-weight-bold);
     }
 
     .nf {
-        color: #990000;
-        font-weight: var(--font-weight-bold);
+        color: var(--highlight-property);
+    }
+
+    .nl {
+        color: var(--highlight-property);
+    }
+
+    .p {
+        color: var(--color-base-lightest);
     }
 
     .nn {
@@ -195,15 +166,11 @@
     }
 
     .nt {
-        color: #000080;
+        color: var(--highlight-property);
     }
 
     .nv {
-        color: #008080;
-    }
-
-    .ow {
-        font-weight: var(--font-weight-bold);
+        color: var(--highlight-at);
     }
 
     .w {
@@ -227,35 +194,35 @@
     }
 
     .sb {
-        color: #dd1144;
+        color: var(--heading-string);
     }
 
     .sc {
-        color: #dd1144;
+        color: var(--heading-string);
     }
 
     .sd {
-        color: #dd1144;
+        color: var(--heading-string);
     }
 
     .s2 {
-        color: #dd1144;
+        color: var(--heading-string);
     }
 
     .se {
-        color: #dd1144;
+        color: var(--heading-string);
     }
 
     .sh {
-        color: #dd1144;
+        color: var(--heading-string);
     }
 
     .si {
-        color: #dd1144;
+        color: var(--heading-string);
     }
 
     .sx {
-        color: #dd1144;
+        color: var(--heading-string);
     }
 
     .sr {
@@ -263,7 +230,7 @@
     }
 
     .s1 {
-        color: #dd1144;
+        color: var(--heading-string);
     }
 
     .ss {
