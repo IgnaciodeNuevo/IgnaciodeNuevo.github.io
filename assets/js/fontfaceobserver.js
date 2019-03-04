@@ -18,12 +18,14 @@ z(p,function(a){h=a;u()});t(p,L(c,'"'+c.family+'",monospace'))})})};"object"===t
 (function() {
     let htmlDocument = document.documentElement;
     const brandoRegularSansSubset = new FontFaceObserver('Brando Regular Sans Subset');
-    const brandoRegularSans = new FontFaceObserver('Brando Regular Sans');
     const guardianEgyptianSubset = new FontFaceObserver('Guardian Bold Egyptian Subset');
+    const brandoRegularSans = new FontFaceObserver('Brando Regular Sans');
+    const brandoItalicSans = new FontFaceObserver('Brando Italic Sans');
+    const brandoSemiboldSans = new FontFaceObserver('Brando Semibold Sans');
     const guardianEgyptian = new FontFaceObserver('Guardian Bold Egyptian');
     const input = new FontFaceObserver('Input');
 
-    Promise.all([brandoRegularSans.load(), guardianEgyptian.load(), input.load()])
+    Promise.all([brandoRegularSans.load(), brandoItalicSans.load(), brandoSemiboldSans.load(), guardianEgyptian.load(), input.load()])
         .then(function() {
             htmlDocument.classList.add('fonts-loaded');
             console.log('Fonts loaded');
