@@ -56,6 +56,6 @@
     }
 
     .icon {
-        margin-bottom: calc(#{var(--space-xs)} * -1); // Visual correction to align the text
+        margin-bottom: calc(var(--space-xs) * -1); // Visual correction to align the text
     }
 }
