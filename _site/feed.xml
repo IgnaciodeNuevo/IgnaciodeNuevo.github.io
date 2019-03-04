@@ -5,9 +5,19 @@
     <description>Focused on performance, responsive design, web typography and accessibility</description>
     <link>http://localhost:4000</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 13 Feb 2019 21:31:50 +0100</pubDate>
-    <lastBuildDate>Wed, 13 Feb 2019 21:31:50 +0100</lastBuildDate>
+    <pubDate>Mon, 04 Mar 2019 18:18:20 +0100</pubDate>
+    <lastBuildDate>Mon, 04 Mar 2019 18:18:20 +0100</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      
+        <item>
+          <title>En defensa de las y los juniors</title>
+          <description>¿Qué es ser junior? Yo me lo he preguntado muchas veces, sobre todo porque hasta hace bien poco no he aprendido a no compararme con otras personas y ver lo mucho que saben. Desde hace algún tiempo, mi forma de ver las cosas ha cambiado, creo que para bien.</description>
+          <pubDate>Sun, 03 Mar 2019 00:00:00 +0100</pubDate>
+          <link>http://localhost:4000/2019/03/03/juniors/</link>
+          <guid isPermaLink="true">http://localhost:4000/2019/03/03/juniors/</guid>
+        </item>
+      
     
       
         <item>
