@@ -34,15 +34,10 @@
     }
 
     &__content {
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 30rem;
-        width: 100%;
-
         @supports (grid-gap: 1rem) {
             @media (min-width: $mq-m) {
-                max-width: var(--grid-width);
-                width: auto;
+                margin-left: auto;
+                margin-right: auto;
                 padding-right: calc(var(--space-xxl) + var(--meta-width-s));
             }
 
