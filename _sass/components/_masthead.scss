@@ -36,7 +36,8 @@
     &__content {
         margin-left: auto;
         margin-right: auto;
-        width: 30rem;
+        max-width: 30rem;
+        width: 100%;
 
         @supports (grid-gap: 1rem) {
             @media (min-width: $mq-m) {
