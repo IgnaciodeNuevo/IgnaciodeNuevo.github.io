@@ -12,9 +12,37 @@ wrapper_class: speaking-wrapper
     {% for talk in site.data.speaking %}
         {% if page.lang %}
             <article class="article" lang="{{ page.lang }}">
+                <div class="article__item">
+                    <time class="article__time" datetime="{{ talk.date | date: '%F' }}">{{ talk.date | date: "%b %-d %Y"}}</time>
+                    <h2 class="article__subtitle">{{ talk.name }}</h2>
+                    <p class="article__description">{{ talk.description }}</p>
+                    <div class="article__links">
+                        <a class="btn btn--fill" href="/speaking/{{ talk.url }}" hreflang="{{ page.lang }}">
+                            <span class="btn__text"><span class="u-visually-hidden">{{ talk.name }}'s</span> Slides</span>
+                            {% include icons/external.html %}
+                        </a>
+                        {% if talk.video %}
+                            <a class="btn btn--fill" href="{{ talk.video }}" target="_blank" rel="noopener noreferrer" hreflang="{{ page.lang }}">
+                                <span class="btn__text"><span class="u-visually-hidden">{{ talk.name }}'s</span> Video</span>
+                                {% include icons/external.html %}
+                            </a>
+                        {% endif %}
+                        {% if talk.workshop %}
+                            <a class="btn btn--fill" href="{{ talk.workshop }}" target="_blank" rel="noopener noreferrer" hreflang="{{ page.lang }}">
+                                <span class="btn__text"><span class="u-visually-hidden">{{ talk.name }}'s</span> Workshop</span>
+                                {% include icons/external.html %}
+                            </a>
+                        {% endif %}
+                        {% if talk.codepen %}
+                            <a class="btn btn--fill" href="{{ talk.codepen }}" target="_blank" rel="noopener noreferrer" hreflang="{{ page.lang }}">
+                                <span class="btn__text"><span class="u-visually-hidden">{{ talk.name }}'s</span> Codepen</span>
+                                {% include icons/external.html %}
+                            </a>
+                        {% endif %}
+                    </div>
+                </div>
         {% else %}
-            <article class="article" lang="en">
-        {% endif %}
+            <article class="article">
                 <div class="article__item">
                     <time class="article__time" datetime="{{ talk.date | date: '%F' }}">{{ talk.date | date: "%b %-d %Y"}}</time>
                     <h2 class="article__subtitle">{{ talk.name }}</h2>
@@ -44,6 +72,7 @@ wrapper_class: speaking-wrapper
                         {% endif %}
                     </div>
                 </div>
+        {% endif %}
             </article>
     {% endfor %}
 </section>
