@@ -116,14 +116,8 @@
 
         .link {
             color: var(--color-secondary);
-            text-decoration: none;
 
             @include transition();
-
-            &:hover {
-                background-color: var(--color-secondary);
-                color: var(--color-base-dark);
-            }
         }
     }
 }
