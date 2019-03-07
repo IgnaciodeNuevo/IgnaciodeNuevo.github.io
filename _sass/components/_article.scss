@@ -51,6 +51,7 @@
     }
 
     &__time {
+        display: block;
         color: var(--color-base-light);
         margin-bottom: var(--space-xs);
 

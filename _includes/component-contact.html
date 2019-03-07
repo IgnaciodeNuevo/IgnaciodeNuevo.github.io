@@ -4,17 +4,17 @@
     <label class="h4-like form__label" for="name">Who are you?</label>
     <span class="label-desc">Name, company, how should I call you.</span>
     <input class="form__input" id="name" type="text" name="name" placeholder="J. Doe" required />
-    <span class="help-text">* Who are you is a required field</span>
+    <span class="help-text">* Who are you is a required field. Format: text...</span>
 
     <label class="h4-like form__label" for="email">Your email address</label>
     <span class="label-desc">So that I can recontact you.</span>
-    <input class="form__input" id="email" type="email" name="email" placeholder="j.doe@mail.com" required />
-    <span class="help-text">* Your email a required field</span>
+    <input class="form__input" id="email" type="email" name="email" placeholder="j.doe@mail.com" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" required />
+    <span class="help-text">* Your email a required field. Format: j.doe@mail.com</span>
 
     <label class="h4-like form__label" for="message">Your message</label>
     <span class="label-desc">What can I do for you?</span>
     <textarea class="form__textarea" id="message" name="message" rows="8" placeholder="I would like to contact you..." required></textarea>
-    <span class="help-text">* Your message a required field</span>
+    <span class="help-text">* Your message a required field. Format: text...</span>
 
     <button class="btn btn--fill" type="submit">
         <span class="btn__text">Send</span>

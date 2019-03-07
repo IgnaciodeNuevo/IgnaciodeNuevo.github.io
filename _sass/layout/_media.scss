@@ -92,11 +92,5 @@
 
     .link {
         @include transition();
-
-        &:hover {
-            background-color: var(--color-secondary);
-            color: var(--color-base-dark);
-            text-decoration: none;
-        }
     }
 }

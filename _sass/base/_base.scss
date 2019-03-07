@@ -62,6 +62,7 @@ ol {
     }
 
     li {
+        margin-bottom: var(--space-xxs);
         position: relative;
 
         &::before {
@@ -121,7 +122,7 @@ img:not(.hero__img) {
     }
 
     .tweet {
-      padding-right: initial;
+        padding-right: initial;
     }
 }
 
@@ -278,8 +279,7 @@ img:not(.hero__img) {
 //
 .icon {
     fill: currentColor;
-    // Prevent the icon from shrinking inside a flex container.
-    flex-shrink: 0;
+    flex-shrink: 0; // Prevent the icon from shrinking inside a flex container.
     height: var(--icon-m);
     stroke-linecap: round;
     stroke-linejoin: round;
@@ -338,8 +338,6 @@ img:not(.hero__img) {
 // Page design: /404, /newsletter and /curso-css (without content)
 //
 .page {
-    @include pattern();
-
     color: var(--color-base-lightest);
     display: flex;
     flex-direction: column;
@@ -347,6 +345,8 @@ img:not(.hero__img) {
     min-height: 30rem; // Magic String: Do not change/remove
     padding: var(--space-m);
     position: relative;
+
+    @include pattern();
 
     @media (min-width: $mq-l) {
         padding: var(--space-xl);

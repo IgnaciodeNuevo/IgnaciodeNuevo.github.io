@@ -38,6 +38,13 @@ to the `site_tags` variable. -->
         {% if post.title != null %}
             {% if post.lang %}
                 <article class="article" lang="{{ post.lang }}">
+                    <a class="article__item" href="{{ post.url }}" hreflang="{{ post.lang }}">
+                        <time class="article__time" datetime="{{ post.date | date: '%F' }}">{{ post.date | date: "%b %-d %Y" }}</time>
+                        <h4 class="article__subtitle">{{ post.title }}</h4>
+                    </a>
+                </article>
+            {% else %}
+                <article class="article">
                     <a class="article__item" href="{{ post.url }}">
                         <time class="article__time" datetime="{{ post.date | date: '%F' }}">{{ post.date | date: "%b %-d %Y" }}</time>
                         <h4 class="article__subtitle">{{ post.title }}</h4>

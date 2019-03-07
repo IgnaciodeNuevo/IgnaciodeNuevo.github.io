@@ -8,5 +8,11 @@
         shape-margin: var(--space-s);
         shape-outside: circle();
     }
+
+    @media (min-width: $mq-m) {
+        p {
+            padding-right: calc(var(--space-xxl) + var(--meta-width-s));
+        }
+    }
 }
 

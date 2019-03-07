@@ -14,9 +14,28 @@ wrapper_class: interviews-wrapper
     {% for interview in site.data.interviews %}
         {% if page.lang %}
                 <article class="article" lang="{{ page.lang }}">
+                    <div class="article__item">
+                        <time class="article__time" datetime="{{ interview.date | date: '%F' }}">{{ interview.date | date: "%b %-d %Y"}}</time>
+                        <div class="article__data">
+                            <img class="portrait" src="{{ interview.portrait }}" alt="{{ interview.name }}'s portrait" />
+                            <div>
+                                <h2 class="article__subtitle">{{ interview.name }}</h2>
+                                <p class="article__description">{{ interview.excerpt }}</p>
+                            </div>
+                        </div>
+                        <div class="article__links">
+                            <a class="btn btn--fill" href="/projects/interviews/{{ interview.url }}" hreflang="{{ page.lang }}">
+                                <span class="btn__text"><span class="u-visually-hidden">{{ interview.name }}'s</span> Interview</span>
+                                {% include icons/arrow-enter.html %}
+                            </a>
+                            <a class="btn btn--fill" href="{{ interview.twitter }}" target="_blank" rel="noopener noreferrer" hreflang="{{ page.lang }}">
+                                <span class="btn__text"><span class="u-visually-hidden">{{ interview.name }}'s</span> Twitter</span>
+                                {% include icons/twitter.html %}
+                            </a>
+                        </div>
+                    </div>
             {% else %}
-                <article class="article" lang="en">
-            {% endif %}
+                <article class="article">
                     <div class="article__item">
                         <time class="article__time" datetime="{{ interview.date | date: '%F' }}">{{ interview.date | date: "%b %-d %Y"}}</time>
                         <div class="article__data">
@@ -37,6 +56,7 @@ wrapper_class: interviews-wrapper
                             </a>
                         </div>
                     </div>
+            {% endif %}
                 </article>
     {% endfor %}
 </section>
