@@ -19,21 +19,6 @@
 - name: Frontend Dev Bookmarks
   url: https://github.com/dypsilon/frontend-dev-bookmarks
 
-- name: 'MarkApp: Building apps with HTML'
-  url: http://markapp.io
-
-- name: 'HTML & CSS is Hard'
-  url: https://internetingishard.com/html-and-css/
-
-- name: Perf Tooling
-  url: http://www.perf-tooling.today
-
-- name: Responsive Patterns
-  url: http://bradfrost.github.io/this-is-responsive/patterns.html
-
-- name: Responsive Resources
-  url: http://bradfrost.github.io/this-is-responsive/resources.html
-
 - name: Styleguides.io
   url: http://styleguides.io
 
@@ -55,17 +40,11 @@
 - name: Frontend Development Interview Questions
   url: https://github.com/IgnaciodeNuevo/frontend-development-interviews/blob/master/README.md
 
-- name: PWA Stats
-  url: https://www.pwastats.com/
-
 - name: Design Resources
   url: http://designresources.party/
 
 - name: Native form elements
   url: http://nativeformelements.com/
-
-- name: PX to EM Calculator
-  url: http://pxtoem.com/
 
 - name: W3C Drafts
   url: https://drafts.csswg.org/
@@ -91,6 +70,9 @@
 - name: Frontend Checklist
   url: https://frontendchecklist.io/
 
+- name: The Front-End Design Checklist
+  url: https://frontenddesignchecklist.io/
+
 - name: Web Feature Availability
   url: https://paulirish.github.io/web-feature-availability/
 
@@ -102,12 +84,6 @@
 
 - name: Internet Explorer CSSGrid Layout support
   url: https://rachelandrew.co.uk/archives/2016/11/26/should-i-try-to-use-the-ie-implementation-of-css-grid-layout/
-
-- name: Front-End Developer Handbook 2018
-  url: https://frontendmasters.com/books/frontend-handbook/2018/
-
-- name: The Front-End Design Checklist
-  url: https://frontenddesignchecklist.io/
 
 - name: HTTP Status Codes
   url: https://httpstatuses.com/
@@ -140,7 +116,7 @@
   url: https://lawsofux.com/
 
 - name: SVG Filters
-  url: yoksel.github.io/svg-filters/#/
+  url: http://yoksel.github.io/svg-filters/#/
 
 - name: Typography Cheatsheet
   url: https://www.typewolf.com/cheatsheet
