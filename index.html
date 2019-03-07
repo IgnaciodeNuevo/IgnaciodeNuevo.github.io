@@ -96,13 +96,17 @@ layout: default
                 {% for post in site.posts limit: 3 %}
                     {% if post.lang %}
                             <article lang="{{ post.lang }}">
+                                <a class="media__link" href="{{ post.url }}" lang="{{ post.lang }}" hreflang="{{ post.lang }}">
+                                    <time class="media__time" datetime="{{ post.date | date: '%F' }}">{{ post.date | date: "%b %-d %Y" }}</time>
+                                    <h3 class="media__subtitle">{{ post.title }}</h3>
+                                </a>
                         {% else %}
-                            <article lang="en">
+                            <article>
+                                <a class="media__link" href="{{ post.url }}">
+                                    <time class="media__time" datetime="{{ post.date | date: '%F' }}">{{ post.date | date: "%b %-d %Y" }}</time>
+                                    <h3 class="media__subtitle">{{ post.title }}</h3>
+                                </a>
                         {% endif %}
-                            <a class="media__link" href="{{ post.url }}">
-                                <time class="media__time" datetime="{{ post.date | date: '%F' }}">{{ post.date | date: "%b %-d %Y" }}</time>
-                                <h3 class="media__subtitle">{{ post.title }}</h3>
-                            </a>
                         </article>
                 {% endfor %}
             </div>
@@ -111,7 +115,7 @@ layout: default
                 <div class="u-divider"></div>
                 {% for talk in site.data.speaking limit: 5 %}
                     <article lang="es">
-                        <a class="media__link" href="/speaking/{{ talk.url }}" lang="es">
+                        <a class="media__link" href="/speaking/{{ talk.url }}" lang="es" hreflang="es">
                             <time class="media__time" datetime="{{ talk.date | date: '%F' }}">{{ talk.date | date: "%b %-d %Y" }}</time>
                             <h3 class="media__subtitle">{{ talk.name }}</h3>
                         </a>
@@ -125,7 +129,7 @@ layout: default
                 <div class="u-divider"></div>
                 {% for collaboration in site.data.collaborations limit: 5 %}
                 <article lang="es">
-                    <a class="media__link" href="{{ collaboration.url }}" target="_blank" rel="noopener noreferrer">
+                    <a class="media__link" href="{{ collaboration.url }}" hreflang="es" target="_blank" rel="noopener noreferrer">
                         <time class="media__time" datetime="{{ collaboration.date | date: '%F' }}">{{ collaboration.date }}</time>
                         <h3 class="media__subtitle">
                             {{ collaboration.name }}
