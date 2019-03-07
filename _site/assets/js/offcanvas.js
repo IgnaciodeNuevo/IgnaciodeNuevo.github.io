@@ -1,4 +1,4 @@
-(function() {
+(function () {
     const escapeCode = 27;
     const navOpenButton = document.querySelector('#js-open-menu');
     const navCloseButton = document.querySelector('#js-close-menu');
@@ -52,4 +52,11 @@
     }
 
     initApp();
+
+    window.onresize = function () {
+        if (window.innerWidth > 980 && document.body.classList.contains('is-active')) {
+            document.body.classList.remove('is-active');
+            disableNavLinks();
+        }
+    };
 })();
