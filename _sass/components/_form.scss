@@ -62,13 +62,13 @@
 input,
 textarea {
     border-radius: var(--border-radius-xxs);
-    border: 2px solid transparent; // Magic String: Do not change/remove
+    border: var(--border-width) solid transparent; // Magic String: Do not change/remove
     margin-bottom: var(--space-l);
     padding: var(--space-s);
     position: relative;
 
     &:focus {
-        border: 2px solid currentColor; // Magic String: Do not change/remove
+        border: var(--border-width) solid currentColor; // Magic String: Do not change/remove
     }
 
     &:invalid,

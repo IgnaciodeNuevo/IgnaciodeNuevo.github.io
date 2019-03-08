@@ -58,12 +58,14 @@
             grid-column: 1 / -1;
             grid-row: 1 / -1;
 
+            // TODO: Remove when /home's portrait is no longer pixelated
             @media (max-width: 80em) {
                 &.small {
                     display: block;
                 }
             }
 
+            // TODO: Remove when /home's portrait is no longer pixelated
             @media (min-width: 80.000000001em) {
                 &.small {
                     display: none;
