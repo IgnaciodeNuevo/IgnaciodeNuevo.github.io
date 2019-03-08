@@ -19,6 +19,11 @@
         align-items: center;
         display: inherit;
         text-decoration: none;
+
+        &:focus {
+            border: 2px dotted var(--color-secondary); // Magic String: Do not change/remove
+            outline: 0;
+        }
     }
 
     .btn {
