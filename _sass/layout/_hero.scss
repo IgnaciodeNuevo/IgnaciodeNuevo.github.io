@@ -17,17 +17,16 @@
     @supports (grid-gap: 1rem) and (object-fit: cover) {
         display: grid;
         grid-gap: var(--space-m);
-        grid-template-areas:
-            ".   .            .            .            .            .            .            .            .            right"
-            ".   .            .            .            .            .            .            .            .            right"
-            ".   .            .            .            .            .            .            .            .            right"
-            ".   .            .            .            .            .            .            .            .            right"
-            ".   .            .            .            .            .            .            .            .            right"
-            ".   .            .            .            .            .            .            .            .            right"
-            ".   .            .            .            .            .            .            .            .            right"
-            ".   content      content      content      content      content      content      content      content      right"
-            ".   disclaimer   disclaimer   disclaimer   disclaimer   disclaimer   disclaimer   disclaimer   disclaimer   ."
-            ".   .            .            .            .            .            .            .            .            .";
+        grid-template-areas: ".   .            .            .            .            .            .            .            .            right"
+        ".   .            .            .            .            .            .            .            .            right"
+        ".   .            .            .            .            .            .            .            .            right"
+        ".   .            .            .            .            .            .            .            .            right"
+        ".   .            .            .            .            .            .            .            .            right"
+        ".   .            .            .            .            .            .            .            .            right"
+        ".   .            .            .            .            .            .            .            .            right"
+        ".   content      content      content      content      content      content      content      content      right"
+        ".   disclaimer   disclaimer   disclaimer   disclaimer   disclaimer   disclaimer   disclaimer   disclaimer   ."
+        ".   .            .            .            .            .            .            .            .            .";
         grid-template-columns: var(--space-m) repeat(8, 1fr) var(--space-m);
         grid-template-rows: var(--space-m) repeat(8, 1fr) var(--space-m);
         height: calc(100vh - var(--nav-height));
@@ -52,12 +51,30 @@
         display: none;
 
         @supports (grid-gap: 1rem) and (object-fit: cover) {
-            display: block;
             height: calc(100vh - var(--nav-height));
             object-fit: cover;
             width: 100%;
+
             grid-column: 1 / -1;
             grid-row: 1 / -1;
+
+            // TODO: Remove when /home's portrait is no longer pixelated
+            @media (max-width: 80em) {
+                &.small {
+                    display: block;
+                }
+            }
+
+            // TODO: Remove when /home's portrait is no longer pixelated
+            @media (min-width: 80.000000001em) {
+                &.small {
+                    display: none;
+                }
+
+                &.big {
+                    display: block;
+                }
+            }
         }
 
         // PX units to make it work on Phones
@@ -71,13 +88,13 @@
 
         @supports (grid-gap: 1rem) and (object-fit: cover) {
             margin-bottom: 0;
+
             grid-area: content;
 
             @media (min-width: $mq-l) {
                 align-self: end;
             }
         }
-
     }
 
     &__title {

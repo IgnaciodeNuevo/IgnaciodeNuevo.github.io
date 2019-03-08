@@ -1,9 +1,10 @@
 (function () {
-    const escapeCode = 27;
     const navOpenButton = document.querySelector('#js-open-menu');
     const navCloseButton = document.querySelector('#js-close-menu');
     const navMenu = document.querySelector('#js-nav');
     const navLinks = navMenu.getElementsByTagName('a');
+    const escapeCode = 27;
+    const activeClassName = 'is-active';
 
     function initApp() {
         navMenu.addEventListener('keydown', handleKeydown);
@@ -53,10 +54,10 @@
 
     initApp();
 
-    window.onresize = function () {
-        if (window.innerWidth > 980 && document.body.classList.contains('is-active')) {
-            document.body.classList.remove('is-active');
+    window.addEventListener('resize', function () {
+        if (window.innerWidth > 768 && document.body.classList.contains(activeClassName)) {
+            document.body.classList.remove(activeClassName);
             disableNavLinks();
         }
-    };
+    });
 })();

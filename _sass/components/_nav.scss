@@ -17,8 +17,14 @@
 
     &__logo-link {
         align-items: center;
+        border: var(--border-width) dotted transparent; // Magic String: Do not change/remove
         display: inherit;
         text-decoration: none;
+
+        &:focus {
+            border-color: var(--color-secondary); // Magic String: Do not change/remove
+            outline: 0;
+        }
     }
 
     .btn {
@@ -38,8 +44,10 @@
 
     .link {
         align-items: inherit;
-        border-bottom: var(--border-width-xxs) solid transparent;
-        border-top: var(--border-width-xxs) solid transparent;
+        border-bottom: var(--border-width) solid transparent;
+        border-left: initial;
+        border-right: initial;
+        border-top: var(--border-width) solid transparent;
         color: var(--color-base-lightest);
         display: inherit;
         font-family: var(--font-family-body-regular);
@@ -53,7 +61,13 @@
 
         &:hover,
         &.is-active {
-            border-bottom: var(--border-width-xxs) solid var(--color-base-lightest);
+            border-bottom: var(--border-width) solid var(--color-base-lightest);
+        }
+
+        &.is-active:focus,
+        &:focus {
+            background-color: var(--color-base-lightest);
+            color: var(--color-base-dark);
         }
 
         &:nth-of-type(4) {
@@ -77,7 +91,7 @@
             }
 
             &.is-active {
-                border-bottom: var(--border-width-xxs) solid transparent;
+                border-bottom: var(--border-width) solid transparent;
             }
         }
 

@@ -10,6 +10,7 @@
     line-height: initial;
     padding: var(--space-s);
     text-decoration: none;
+    // white-space: nowrap; TODO: Uncomment when .beta is removed
 
     @include opentype-all-opentype-small-caps();
     @include transition();
@@ -21,7 +22,7 @@
     }
 
     &:focus {
-        border: 2px dotted var(--color-secondary); // Magic String: Do not change/remove
+        border: var(--border-width) dotted var(--color-secondary); // Magic String: Do not change/remove
         outline: 0;
     }
 
@@ -32,7 +33,7 @@
 
 .btn--regular {
     background-color: transparent;
-    border: 2px solid currentColor; // Magic String: Do not change/remove
+    border: var(--border-width) solid currentColor; // Magic String: Do not change/remove
     color: currentColor;
 
     &:active,
@@ -45,12 +46,12 @@
 
 .btn--fill {
     background-color: var(--color-primary);
-    border: 2px solid var(--color-primary); // Magic String: Do not change/remove
+    border: var(--border-width) solid var(--color-primary); // Magic String: Do not change/remove
     color: var(--color-base-lightest);
 
     &:hover {
         background-color: var(--color-primary-darker);
-        border: 2px solid var(--color-primary-darker); // Magic String: Do not change/remove
+        border: var(--border-width) solid var(--color-primary-darker); // Magic String: Do not change/remove
         color: var(--color-base-lightest);
     }
 
@@ -71,7 +72,7 @@
 
 .btn--inverted {
     background-color: transparent;
-    border: 2px solid currentColor; // Magic String: Do not change/remove
+    border: var(--border-width) solid currentColor; // Magic String: Do not change/remove
     color: var(--color-base-dark);
     padding: var(--space-s);
 
@@ -79,5 +80,9 @@
         background-color: var(--color-base-dark);
         border-color: var(--color-base-dark);
         color: var(--color-base-lightest);
+    }
+
+    &:focus {
+        border: var(--border-width) dotted var(--color-base-dark);
     }
 }

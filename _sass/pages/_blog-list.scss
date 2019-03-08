@@ -27,4 +27,9 @@
     .btn:not(:last-of-type) {
         margin-right: var(--space-s);
     }
+
+    .btn.is-active {
+        background-color: var(--color-primary-darkest);
+        border-color: var(--color-primary-darkest);
+    }
 }

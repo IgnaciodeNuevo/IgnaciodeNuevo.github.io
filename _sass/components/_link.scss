@@ -2,10 +2,9 @@
 // This file contains all styles related to the link component of the website.
 // -----------------------------------------------------------------------------
 .link {
+    border: var(--border-width) dotted transparent; // Magic String: Do not change/remove
     color: currentColor;
     padding-bottom: var(--space-xxs);
-    padding-left: 0;
-    padding-right: 0;
     padding-top: var(--space-xxs);
     text-decoration-color: currentColor;
     text-decoration-line: underline;
@@ -16,20 +15,21 @@
         text-decoration-style: solid;
     }
 
+    &:focus {
+        border-color: transparent; // Magic String: Do not change/remove
+        outline: var(--border-width) dotted currentColor;
+    }
+
     &--special {
         @supports (background-clip: text) or (-webkit-background-clip: text) {
             -webkit-background-clip: text;
                     background-clip: text;
             background-image: var(--linear-gradient);
-            border: 1px dotted transparent;
+            border: var(--border-width) dotted transparent; // Magic String: Do not change/remove
             color: transparent;
             position: relative;
             text-decoration: none;
             white-space: nowrap;
-
-            &::selection {
-                background-color: var(--color-secondary--darker);
-            }
 
             &:focus {
                 border-color: var(--color-primary); // Magic String: Do not change/remove

@@ -108,7 +108,7 @@
     --z-index-xl: 4;
 
     --a4-width: 297mm;
-    --border-width-xxs: 0.1875rem;
+    --border-width: calc(var(--font-base) / 8);  // 2px
     --btn-width: 8.75rem;
     --content-width: 33.75rem;
     --container-max-width: 60rem;
