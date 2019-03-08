@@ -185,7 +185,6 @@ build-iPhoneSimulator/
 
 # End of https://www.gitignore.io/api/node,ruby,macos,jekyll,visualstudiocode
 _site/speaking/jekyll-al-rescate/lib/js/classList.js
-_drafts/2019-03-08-como-realizar-una-auditoria-de-accesibilidad.md
 _site/404.html
 _site/README.md
 _site/csscomb.json
