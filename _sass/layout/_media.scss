@@ -69,6 +69,11 @@
                 color: inherit;
             }
         }
+
+        &:focus {
+            border-color: transparent;
+            outline: var(--border-width) dotted currentColor;
+        }
     }
 
     &__time {
