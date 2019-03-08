@@ -2,6 +2,7 @@
 // This file contains all styles related to the link component of the website.
 // -----------------------------------------------------------------------------
 .link {
+    border: 2px dotted transparent; // Magic String: Do not change/remove
     color: currentColor;
     padding-bottom: var(--space-xxs);
     padding-left: 0;
@@ -17,7 +18,7 @@
     }
 
     &:focus {
-        border: 2px dotted var(--color-secondary); // Magic String: Do not change/remove
+        border-color: currentColor; // Magic String: Do not change/remove
         outline: 0;
     }
 
