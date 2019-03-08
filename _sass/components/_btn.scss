@@ -81,4 +81,8 @@
         border-color: var(--color-base-dark);
         color: var(--color-base-lightest);
     }
+
+    &:focus {
+        border: 2px dotted var(--color-base-dark);
+    }
 }

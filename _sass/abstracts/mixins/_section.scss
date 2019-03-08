@@ -4,7 +4,7 @@
 
     @media (min-width: $mq-l) {
         &:after {
-            bottom: -6rem;
+            bottom: -6rem; // Magic String: Do not change/remove
             color: $color;
             content: "#{$section-text}";
             display: block;
