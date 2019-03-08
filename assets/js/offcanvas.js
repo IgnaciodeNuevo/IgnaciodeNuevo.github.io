@@ -53,10 +53,11 @@
 
     initApp();
 
-    window.onresize = function () {
-        if (window.innerWidth > 980 && document.body.classList.contains('is-active')) {
-            document.body.classList.remove('is-active');
+    window.addEventListener('resize', function () {
+        const activeClassName = 'is-active';
+        if (window.innerWidth > 768 && document.body.classList.contains(activeClassName)) {
+            document.body.classList.remove(activeClassName);
             disableNavLinks();
         }
-    };
+    });
 })();
