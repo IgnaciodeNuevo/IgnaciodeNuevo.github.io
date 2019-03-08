@@ -16,6 +16,11 @@
         text-decoration-style: solid;
     }
 
+    &:focus {
+        border: 2px dotted var(--color-secondary); // Magic String: Do not change/remove
+        outline: 0;
+    }
+
     &--special {
         @supports (background-clip: text) or (-webkit-background-clip: text) {
             -webkit-background-clip: text;
