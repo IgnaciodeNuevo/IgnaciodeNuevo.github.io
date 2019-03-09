@@ -2,8 +2,7 @@
 // This file contains all styles related to the syntax highlighter
 // ----------------------------------------------------------------
 .highlight {
-    @include pattern();
-
+    background-color: var(--highlight-bg);
     color: var(--color-base-lightest);
     margin-bottom: var(--space-l);
     margin-left: calc(var(--space-l) * -1);
@@ -13,8 +12,12 @@
     position: relative;
     width: 100vw;
 
+    @media (min-width: $mq-m) {
+        margin-left: calc(var(--space-l) * -1 - (var(--space-l) / 2)); // Hack: Visual correction of a side whitespace that should not exist
+        margin-right: calc(var(--space-l) * -1 - (var(--space-l) / 2)); // Hack: Visual correction of a side whitespace that should not exist
+    }
+
     @media (min-width: $mq-l) {
-        border-radius: var(--border-radius-xxs);
         margin-left: calc(var(--grid-width) / 2 * -1);
         // Margin left shoud be the sum of (--grid-width divided by 2 - .grid's grid-gap (--space-xxl) - second grid's column width (--meta-width-m) * -1)
         margin-right: calc(var(--grid-width) / 2 * -1 - var(--space-xxl) - var(--meta-width-m));
@@ -23,12 +26,26 @@
 
     pre {
         margin-bottom: initial;
-        padding: var(--space-l) var(--space-xl);
+        padding: var(--space-l);
+
+        @media (min-width: $mq-s) {
+            padding-bottom: var(--space-xl);
+            padding-left: var(--space-l);
+            padding-right: var(--space-l);
+            padding-top: var(--space-xl);
+        }
+
+        @media (min-width: $mq-m) {
+            padding-left: calc(var(--space-l) +  (var(--space-l) / 2)); // Hack: Visual correction of a side whitespace that should not exist
+            padding-right: calc(var(--space-l) +  (var(--space-l) / 2)); // Hack: Visual correction of a side whitespace that should not exist
+        }
 
         @media (min-width: $mq-l) {
             margin-left: auto;
             margin-right: auto;
             max-width: var(--grid-width); // Magic String: Do not change/remove
+            padding-left: initial;
+            padding-right: initial;
         }
     }
 
