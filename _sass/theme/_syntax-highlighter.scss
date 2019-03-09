@@ -2,29 +2,33 @@
 // This file contains all styles related to the syntax highlighter
 // ----------------------------------------------------------------
 .highlight {
-    background-color: var(--highlight-bg);
+    @include pattern();
+
     color: var(--color-base-lightest);
-    overflow-x: scroll;
-    position: relative;
+    margin-bottom: var(--space-l);
     margin-left: calc(var(--space-l) * -1);
     margin-right: calc(var(--space-l) * -1);
+    margin-top: initial;
+    overflow-x: scroll;
+    position: relative;
     width: 100vw;
 
     @media (min-width: $mq-l) {
         border-radius: var(--border-radius-xxs);
-        margin-left: 0;
-        margin-right: calc((var(--space-xxl) + var(--meta-width-m)) * -1);
+        margin-left: calc(var(--grid-width) / 2 * -1);
+        // Margin left shoud be the sum of (--grid-width divided by 2 - .grid's grid-gap (--space-xxl) - second grid's column width (--meta-width-m) * -1)
+        margin-right: calc(var(--grid-width) / 2 * -1 - var(--space-xxl) - var(--meta-width-m));
         width: auto;
     }
 
     pre {
-        padding: var(--space-l);
+        margin-bottom: initial;
+        padding: var(--space-l) var(--space-xl);
 
         @media (min-width: $mq-l) {
             margin-left: auto;
             margin-right: auto;
             max-width: var(--grid-width); // Magic String: Do not change/remove
-            padding: var(--space-xl);
         }
     }
 
