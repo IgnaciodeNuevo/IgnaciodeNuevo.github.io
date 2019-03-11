@@ -123,36 +123,36 @@ Otro tema a tener en cuenta son los skip-links que sirven para saltar de cosas n
 
 ## Documentación adicional sobre SVGs inline accesibles:
 
-  + [Icon Fonts vs SVGs - Which One Should You Use In 2018?](https://www.keycdn.com/blog/icon-fonts-vs-svgs).
-  + [IMG de Twitter](https://twitter.com/IgnaciodeNuevo/status/960646272356093952).
-  + [Inline SVG vs Icon Fonts](https://css-tricks.com/icon-fonts-vs-svg/).
-  + [Tips for Creating Accessible SVG](https://www.sitepoint.com/tips-accessible-svg/).
-  + [SVG, Icon Fonts, and Accessibility: A Case Study](https://www.24a11y.com/2017/svg-icon-fonts-accessibility-case-study/).
-  + [Using ARIA to enhance SVG accessibility](https://developer.paciellogroup.com/blog/2013/12/using-aria-enhance-svg-accessibility/).
-  + [Why Inline SVG is Best SVG](https://www.youtube.com/watch?v=af4ZQJ14yu8).
-  + [SVG is for Everybody](https://css-tricks.com/video-screencasts/137-svg-is-for-everybody/).
+  1 [Icon Fonts vs SVGs - Which One Should You Use In 2018?](https://www.keycdn.com/blog/icon-fonts-vs-svgs).
+  1 [IMG de Twitter](https://twitter.com/IgnaciodeNuevo/status/960646272356093952).
+  1 [Inline SVG vs Icon Fonts](https://css-tricks.com/icon-fonts-vs-svg/).
+  1 [Tips for Creating Accessible SVG](https://www.sitepoint.com/tips-accessible-svg/).
+  1 [SVG, Icon Fonts, and Accessibility: A Case Study](https://www.24a11y.com/2017/svg-icon-fonts-accessibility-case-study/).
+  1 [Using ARIA to enhance SVG accessibility](https://developer.paciellogroup.com/blog/2013/12/using-aria-enhance-svg-accessibility/).
+  1 [Why Inline SVG is Best SVG](https://www.youtube.com/watch?v=af4ZQJ14yu8).
+  1 [SVG is for Everybody](https://css-tricks.com/video-screencasts/137-svg-is-for-everybody/).
 
 ## Checklists
 
-  + [A11y Project Checklist](https://a11yproject.com/checklist/)
-  + [Accessibility Cheatsheet](https://moritzgiessmann.de/accessibility-cheatsheet/)
+  1 [A11y Project Checklist](https://a11yproject.com/checklist/)
+  1 [Accessibility Cheatsheet](https://moritzgiessmann.de/accessibility-cheatsheet/)
 
 ## Herramientas de validación y testeo
 
-  + [W3C Nu HTML Checker](https://validator.w3.org/nu/)
-  + [Tenon](https://www.tenon.io/)
-  + [aXe](https://www.deque.com/axe/)
-  + [WAVE](https://wave.webaim.org/extension/)
-  + [PowerMapper](https://www.powermapper.com/products/sortsite/checks/accessibility-checks/)
-  + [Lighthouse accessibility audit](https://developers.google.com/web/tools/lighthouse/)
-  + [Color Blind tool](https://www.toptal.com/designers/colorfilter/)
-  + [Chrome Accesibility Tool](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb)
-  + CLI
-    + [Pa11y](http://pa11y.org/)
-    + [AccessLint.js](https://github.com/AccessLint/accesslint.js)
-  + Bookmarklets
-    + [tota11y](http://khan.github.io/tota11y/)
-    + [HTML CodeSniffer](http://squizlabs.github.io/HTML_CodeSniffer/)
+  1 [W3C Nu HTML Checker](https://validator.w3.org/nu/)
+  1 [Tenon](https://www.tenon.io/)
+  1 [aXe](https://www.deque.com/axe/)
+  1 [WAVE](https://wave.webaim.org/extension/)
+  1 [PowerMapper](https://www.powermapper.com/products/sortsite/checks/accessibility-checks/)
+  1 [Lighthouse accessibility audit](https://developers.google.com/web/tools/lighthouse/)
+  1 [Color Blind tool](https://www.toptal.com/designers/colorfilter/)
+  1 [Chrome Accesibility Tool](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb)
+  1 CLI
+    1 [Pa11y](http://pa11y.org/)
+    1 [AccessLint.js](https://github.com/AccessLint/accesslint.js)
+  1 Bookmarklets
+    1 [tota11y](http://khan.github.io/tota11y/)
+    1 [HTML CodeSniffer](http://squizlabs.github.io/HTML_CodeSniffer/)
 
 
 
