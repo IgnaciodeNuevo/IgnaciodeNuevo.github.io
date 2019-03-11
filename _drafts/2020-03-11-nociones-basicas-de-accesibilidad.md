@@ -135,7 +135,6 @@ Otro tema a tener en cuenta son los skip-links que sirven para saltar de cosas n
 ## Checklists
 
   1 [A11y Project Checklist](https://a11yproject.com/checklist/)
-  1 [Accessibility Cheatsheet](https://moritzgiessmann.de/accessibility-cheatsheet/)
 
 ## Herramientas de validación y testeo
 
