@@ -8,76 +8,120 @@ page_class: post
 description:
 ---
 
+## Es necesario entender unas bases
+
 Cuando pensamos en accesibilidad lo importante es conocer quién o quienes van a ser las personas que van a usar nuestra web o aplicación. Desafortunadamente no siempre sabemos qué situación tiene cada uno de nuestros usuarios. Por ello vamos a quién deberíamos tener especial cuenta:
 
-### ¿A qué usuarios tengo que dar soporte?
-  + Personas que usan telcado.
-  + Personas invidentes.
-  + Personas daltónicas.
-  + Personas con baja visión.
-  + Personas sordas y con problemas de audición.
-  + Personas con dificultades de aprendizaje y limitaciones cognitivas.
-  + Personas con problemas de movilidad.
-  + Personas con discapacidades del habla.
-  + Personas con transtornos cognitivos.
+## ¿A qué usuarios tengo que dar soporte?
+
+  +	Personas que usan telcado.
+  +	Personas invidentes.
+  +	Personas daltónicas.
+  +	Personas con baja visión.
+  +	Personas sordas y con problemas de audición.
+  +	Personas con dificultades de aprendizaje y limitaciones cognitivas.
+  +	Personas con problemas de movilidad.
+  +	Personas con discapacidades del habla.
+  +	Personas con transtornos cognitivos.
 
 Puede parecer exagerado pensar en este tipo de personas pero en muchos casos debemos saber que gran parte de nuestros usuarios tendrán en algún momento problemas temporales que les impedirán usar nuestra plataforma adecuadamente.
 
 Puede ocurrir que en un viaje personal tengan un simple accidente y se fraturen una mano, un dedo, que por una revisión ocular se le dilaten las pupilas y pierda temporalmente la visión y su capacidad de ver nítidamente y así con numerables situaciones que no tenemos en cuenta porque no las vivimos y que pueden hacer que el buen uso sea un suplicio para aquella persona habituada a usarla pero que puntualmente tiene alguna situación como las anteriormente nombradas o muchas otras que probablemente no nos hayamos planteado.
 
-### El principio POUR (es un principio que está en inglés).
+## El principio POUR (es un principio que está en inglés).
 
-Indica lo siguiente:
+  +	Percibible (Perceivable) - La información y los componentes de la interfaz de usuario deben ser presentables a los usuarios de manera que puedan percibirlos.
+  +	Usable (Operable) - Los componentes de la interfaz de usuario y la navegación deben ser usables.
+  +	Comprensible (Understandable) - La información y el funcionamiento de la interfaz de usuario deben ser comprensibles.
+  +	Robusto (Robuts) - El contenido debe ser lo suficientemente robusto como para que pueda ser interpretado de forma fiable por una amplia variedad de agentes de usuario, incluidas las tecnologías de asistencia.
 
-  + Percibible (Perceivable) - La información y los componentes de la interfaz de usuario deben ser presentables a los usuarios de manera que puedan percibirlos.
-  + Usable (Operable) - Los componentes de la interfaz de usuario y la navegación deben ser usables.
-  + Comprensible (Understandable) - La información y el funcionamiento de la interfaz de usuario deben ser comprensibles.
-  + Robusto (Robuts) - El contenido debe ser lo suficientemente robusto como para que pueda ser interpretado de forma fiable por una amplia variedad de agentes de usuario, incluidas las tecnologías de asistencia.
+## Recomendaciones básicas de la W3C
 
+  +	Proporcionar suficiente contraste entre el color de primer plano y el de fondo.
+  +	No use el color solo para transmitir información.
+  +	Hay que asegurarse de que los elementos interactivos sean fáciles de identificar.
+  +	Proporcionar opciones de navegación fáciles de usar.
+  +	Asegúrese de que los elementos del formulario incluyan labels claramente asociados.
+  +	Proporcionar “feedback” fácilmente identificable.
+  +	Utilice los encabezados y el espaciado para agrupar el contenido relacionado.
+  +	Crear diseños para diferentes tamaños de pantalla.
+  +	Debemos añadir el atributo al y la consiguiente descripción a imágenes que son parte del contenido (o que no son simplemente decorativas) con lo que si las imágenes no se cargan correctamente al menos veremos el atributo y entenderemos que es el contenido.
+  +	Proporcione controles para el contenido que se inicie automáticamente.
+  +	Proporcionar títulos informativos y únicos
+  +	Usar encabezamientos para transmitir significado y estructura
+  +	Hacer que el texto de los enlace tenga sentido
+  +	Escribir alternativas textuales significativas para las imágenes
 
-### ¿Qué debemos tener en nuestras webs y aplicaciones?
+## Recomendaciones básicas generales
+
+  +	Deberíamos usar el “progressive enhancement” para que si fallan las librerías que usamos la aplicación siga funcionando con unos mínimos”
+  +	La web o aplicación debe tener fallbacks para las tipografías custom que usemos por si falla la carga de las primeras.
+  +	La web o aplicación debe poder seguir funcionando de forma correcta aún si se usan herramientas de bloqueo de anuncios como Ad Blocker, Privacy Badger, uBlock Origin…
+  +	No usar color únicamente para mostrar errores o cosas satisfactorias, añadir a ser posible de texturas, iconografía y textos.
+  +	Las web o aplicación debe verse bien, por ende tenemos que tener en cuenta el contraste de color.
+  +	En los formularios debemos asociar cada label a su input y nunca debemos tener un input de forma aislada.
+  +	La web o aplicación debe verse correctamente con un de 200%, posteriormente deberíamos probar que también se ve bien a 500%
+  +	Usar la metatag que ayuda al responsive correctamente, no bloquear el zoom, usar lo siguiente
+    +	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+##  ¿Qué debemos tener en nuestras webs y aplicaciones?
 
 Para empezar deberemos tener muy presente en usar elementos semánticos siempre que podamos ya que, componentes como los botones, links o elementos de formulario: inputs, dropdowns, datepickers… son por defecto focusables.
 Dichos elementos interactuables suelen usar unas teclas por defecto y si hacemos algún componente custom deberemos intentar salvo que desarrollemos una ayuda contextual usar las que por defecto usan los controles nativos.
 
 Nota:
-  +	Keyboard accessible.
-    + Tab (para avnazar al siguiente elemento).
-    + Shift + Tab (para retroceder al elemento anterior).
-    + Arrow keys (para moverte dentro del componente como en un dropdown).
-    + Space (para activar elementos como los checkboxes).
-    + Enter (para activar elementos como los botones de submit).
 
-Por tanto deberemos hacer que todos los elementos interaccionables de nuestra página web han de poder hacérseles foco, si debemos hacerlos vía JavaScript podremos usar el método nativo .focus().
+  +	Keyboard accessible
+    + Tab (para avnazar al siguiente elemento)
+    + Shift + Tab (para retroceder al elemento anterior)
+    + Arrow keys (para moverte dentro del componente como en un dropdown)
+    + Space (para activar elementos como los checkboxes)
+    + Enter (para activar elementos como los botones de submit)
+
+## Elementos de formulario
+
+En los elementos de formulario cada input debe tener varios factores claramente interpretables por el usuario con el sistema que utilice.
+
+  +	Role (que será expuesto en las APIs de accesibilidad)
+  +	Name o Label (que será expuesto en las APIs de accesibilidad)
+  +	State (que deberá ser expuesto en las APIs de accesibilidad)
+  +	Value (que será expuesto en las APIs de accesibilidad)
+
+## Checklist para controles personalizados
+
+  +	¿Podemos acceder al control personalizado con el que queremos interacturar con el teclado?
+  +	¿Podemos controlar el control personalizado con el teclado?
+  +	¿Podemos controlar el control personalizado con gestos?
+  +	¿Podemos controlar el control personalizado con tecnologías que ayuden a la accesibilidad?
+  +	¿Podemos controlar el control personalizado con las teclas o gestos standard para un control de este tipo?
+  +	¿Se puede ver fácilmente el control personalizado cuando se hace focus?
+  +	¿Tiene el control personalizado un label que se expone como nombre al API de accesibilidad?
+  +	¿Tiene el control personalizado un role que se expone al API de accesibilidad?
+  +	¿Tiene el control personalizado estados de interfaz que se exponen al API de accesibilidad?
+  +	El control personalizado tiene un label, una descripción e iconos perfeptibles y accesibles por usuarios con baja visión.
+  +	El control se puede usar correctamente cuando el usuario tenga el modo de Alto Contraste activo en su sistema operativo.
+
+Por tanto deberemos hacer que todos los elementos interaccionables de nuestra página web han de poder hacérseles foco y verse claramente. Si debemos hacerlos vía JavaScript podremos usar el método nativo .focus().
 
 Nota:
-  + Focusable.
-  + Se puede usar el método .focus() de JavaScript.
+
+  +	Focusable
+  +	Se puede usar el método .focus() de JavaScript
 
 Por otro lado deberemos tener en cuenta, que todos estos elementos por defecto tienen de forma implícita un TAB order, que no es ni más ni menos que irán haciéndose foco uno detrás de otro en el mismo orden que se encuentran en el DOM si no lo cambiamos activamente, cosa que en la mayoría de los casos debemos evitarlo.
 
 Nota:
-  + Tabindex
-    +	-1 (no son focusables).
-    +	0 (el estado normal).
-    +	Más de uno (aparecerán en dicho orden).
+
+  +	Tabindex
+    + -1 (no son focusables)
+    + 0 (el estado normal)
+    + Más de uno (aparecerán en dicho orden)
 
 Otro tema a tener en cuenta son los skip-links que sirven para saltar de cosas no tan importantes como una barra de navegación o un aside con diferentes elementos al contenido a consumir.
 
   + [Skip Links](https://webaim.org/techniques/skipnav/)
 
-Temas generals que debemos tener en cuenta y que muchas veces pasamos por alto:
-
-  + Debemos añadir el atributo al y la consiguiente descripción a imágenes que son parte del contenido (o que no son simplemente decorativas) con lo que si las imágenes no se cargan correctamente al menos veremos el atributo y entenderemos que es el contenido.
-  + Deberíamos usar el “progressive enhancement” para que si fallan las librerías que usamos la aplicación siga funcionando con unos mínimos”
-  + La web o aplicación debe tener fallbacks para las tipografías custom que usemos por si falla la carga de las primeras.
-  + La web o aplicación debe poder seguir funcionando de forma correcta aún si se usan herramientas de bloqueo de anuncios como Ad Blocker, Privacy Badger, uBlock Origin…
-  + No usar color únicamente para mostrar errores o cosas satisfactorias, añadir a ser posible de texturas, iconografía y textos.
-  + Las web o aplicación debe verse bien, por ende tenemos que tener en cuenta el contraste de color.
-  + En los formularios debemos asociar cada label a su input y nunca debemos tener un input de forma aislada.
-  + La web o aplicación debe verse correctamente con un zoom de 200%, posteriormente deberíamos probar que también se ve bien a 500%
-
-### SVGs inline accesibles:
+## SVGs inline accesibles:
 
   + [Icon Fonts vs SVGs - Which One Should You Use In 2018?](https://www.keycdn.com/blog/icon-fonts-vs-svgs).
   + [IMG de Twitter](https://twitter.com/IgnaciodeNuevo/status/960646272356093952).
@@ -88,12 +132,12 @@ Temas generals que debemos tener en cuenta y que muchas veces pasamos por alto:
   + [Why Inline SVG is Best SVG](https://www.youtube.com/watch?v=af4ZQJ14yu8).
   + [SVG is for Everybody](https://css-tricks.com/video-screencasts/137-svg-is-for-everybody/).
 
-### Checklists
+## Checklists
 
-  + A11y Project Checklist: https://a11yproject.com/checklist
-  + Accessibility Cheatsheet: https://moritzgiessmann.de/accessibility-cheatsheet/
+  + [A11y Project Checklist](https://a11yproject.com/checklist/)
+  + [Accessibility Cheatsheet](https://moritzgiessmann.de/accessibility-cheatsheet/)
 
-### Herramientas de validación y testeo
+## Herramientas de validación y testeo
 
   + [W3C Nu HTML Checker](https://validator.w3.org/nu/)
   + [Tenon](https://www.tenon.io/)
@@ -101,7 +145,7 @@ Temas generals que debemos tener en cuenta y que muchas veces pasamos por alto:
   + [WAVE](https://wave.webaim.org/extension/)
   + [PowerMapper](https://www.powermapper.com/products/sortsite/checks/accessibility-checks/)
   + [Lighthouse accessibility audit](https://developers.google.com/web/tools/lighthouse/)
-  + [Color Blind tool](https://www.toptal.com/designers/colorfilter)
+  + [Color Blind tool](https://www.toptal.com/designers/colorfilter/)
   + [Chrome Accesibility Tool](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb)
   + CLI
     + [Pa11y](http://pa11y.org/)
@@ -112,9 +156,81 @@ Temas generals que debemos tener en cuenta y que muchas veces pasamos por alto:
 
 
 
+-------------------------------------------------------------------------------
 
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+{% highlight css %}
+
+// CSS
+/**
+* Ejemplo de código que podríamos usar en los skip-links
+*/
+.accessible-hidden {
+  position: absolute;
+  top: 0;
+  left: -99999px;
+  height: 1px;
+  width: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+}
+
+.accessible-hidden:focus {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+  padding: 10px;
+  etc etc...
+}
+
+{% endhighlight %}
+
+
+
+-------------------------------------------------------------------------------
+
+
+
+{% highlight css %}
+// CSS
+
+/**
+* Hide element while making it readable for screen readers
+* Shamelessly borrowed from HTML5Boilerplate:
+* https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L119-L133
+*/
+.u-visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+{% endhighlight %}
+
+
+
+-------------------------------------------------------------------------------
+
+
+
+  + Aria Authoring Practices (patterns section: 11)
+  + Landmarks
+  + Use roles when necessary
+
+  + 5 Fast accesibility tests you can do
+    + Comprobar que se puede parar o dejar en silencio el contenido dinámico.
+    + Comprobar que se puede poner en pausa, parar o silenciar cualquier audio que tenga “autoplay”.
+    + Comprobar que los videos tienen subtítulos.
+    + Comprobar que si se aumenta la Fuente el contenido la web o aplicación no se “rompe” visualmente.
+    + Comprobar que los usuarios que usan teclado pueden saltarse el contenido repetido.
+
   + Accounts for multiple input types
     + Keyboard
     + Mouse
