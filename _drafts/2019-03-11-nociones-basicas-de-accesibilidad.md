@@ -29,14 +29,23 @@ Puede parecer exagerado pensar en este tipo de personas pero en muchos casos deb
 
 Puede ocurrir que en un simple accidente se fracturen una mano, un dedo, que por una revisión ocular se le dilaten las pupilas y pierda temporalmente la visión y su capacidad de ver nítidamente y así con numerables situaciones que no tenemos en cuenta porque no las vivimos y que pueden hacer que el buen uso de nuestra plataforma sea un suplicio para aquella persona habituada a usarla.
 
-## El principio _POUR_ (es un principio que está en inglés).
+## Niveles de accesibilidad
+
+Documentación oficial de: <a class="link link--special" src="https://www.w3.org/TR/2006/WD-WCAG20-20060427/conformance.html#conformance-reqs" target="_blank" rel="noopener noreferrer">Conformance levels and the baseline</a>
+
+  +	WCAG 2.0 Nivel A: para lograr conformidad con el Nivel A (el mínimo), la página web satisface todos los Criterios de Conformidad del Nivel A, o proporciona una versión alternativa conforme.
+  +	WCAG 2.0 Nivel AA: para lograr conformidad con el Nivel AA, la página web satisface todos los Criterios de Conformidad de los Niveles A y AA, o se proporciona una versión alternativa conforme al Nivel AA.
+  +	WCAG 2.0 Nivel AAA: para lograr conformidad con el Nivel AAA, la página web satisface todos los Criterios de Conformidad de los Niveles A, AA y AAA, o proporciona una versión alternativa conforme al Nivel AAA.
+
+
+## El principio POUR
 
   +	Perceptible (Perceivable) - La información y los componentes de la interfaz de usuario deben ser presentables a los usuarios de manera que puedan percibirlos.
   +	Usable (Operable) - Los componentes de la interfaz de usuario y la navegación deben ser usables.
   +	Comprensible (Understandable) - La información y el funcionamiento de la interfaz de usuario deben ser comprensibles.
   +	Robusto (Robust) - El contenido debe ser lo suficientemente robusto como para que pueda ser interpretado de forma fiable por una amplia variedad de _user agents_, incluidas las tecnologías de asistencia.
 
-## Recomendaciones básicas de la W3C
+## Recomendaciones de la W3C
 
   +	Proporcionar suficiente contraste entre el color de primer plano y el de fondo.
   +	No use el color solo para transmitir información.
@@ -51,7 +60,7 @@ Puede ocurrir que en un simple accidente se fracturen una mano, un dedo, que por
   +	Usar encabezamientos para transmitir significado y estructura.
   +	Hacer que el texto de los enlaces tenga sentido.
 
-## Recomendaciones básicas generales
+## Recomendaciones generales
 
   +	Deberíamos usar el _progressive enhancement_ para que si fallan las librerías que usamos la aplicación siga funcionando con unos mínimos.
   +	La web o aplicación debe tener _fallbacks_ para las tipografías custom que usemos por si falla la cargue una sustituta.
@@ -61,7 +70,31 @@ Puede ocurrir que en un simple accidente se fracturen una mano, un dedo, que por
   +	En los formularios debemos asociar cada `label` a su `input` y nunca debemos tener un `input` de forma aislada.
   +	La web o aplicación debe verse correctamente con un zoom de 200%, posteriormente deberíamos probar que también se ve bien a 500%
   +	Usar la `metatag` que ayuda al responsive correctamente, no bloquear el zoom del siguiente modo:
-    +	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% highlight css %}
+
+/**
+* Metatag en el <head></head>
+*/
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+/**
+* Hide element while making it readable for screen readers
+* Shamelessly borrowed from HTML5Boilerplate:
+* https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L119-L133
+*/
+.u-visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+{% endhighlight %}
 
 ##  ¿Qué debemos tener en nuestras webs y aplicaciones?
 
@@ -119,49 +152,11 @@ Nota:
 
 Otro tema a tener en cuenta son los skip-links que sirven para saltar de cosas no tan importantes como una barra de navegación o un aside con diferentes elementos al contenido a consumir.
 
-  + [Skip Links](https://webaim.org/techniques/skipnav/)
-
-## Documentación adicional sobre SVGs inline accesibles:
-
-  1 [Icon Fonts vs SVGs - Which One Should You Use In 2018?](https://www.keycdn.com/blog/icon-fonts-vs-svgs).
-  1 [IMG de Twitter](https://twitter.com/IgnaciodeNuevo/status/960646272356093952).
-  1 [Inline SVG vs Icon Fonts](https://css-tricks.com/icon-fonts-vs-svg/).
-  1 [Tips for Creating Accessible SVG](https://www.sitepoint.com/tips-accessible-svg/).
-  1 [SVG, Icon Fonts, and Accessibility: A Case Study](https://www.24a11y.com/2017/svg-icon-fonts-accessibility-case-study/).
-  1 [Using ARIA to enhance SVG accessibility](https://developer.paciellogroup.com/blog/2013/12/using-aria-enhance-svg-accessibility/).
-  1 [Why Inline SVG is Best SVG](https://www.youtube.com/watch?v=af4ZQJ14yu8).
-  1 [SVG is for Everybody](https://css-tricks.com/video-screencasts/137-svg-is-for-everybody/).
-
-## Checklists
-
-  1 [A11y Project Checklist](https://a11yproject.com/checklist/)
-
-## Herramientas de validación y testeo
-
-  1 [W3C Nu HTML Checker](https://validator.w3.org/nu/)
-  1 [Tenon](https://www.tenon.io/)
-  1 [aXe](https://www.deque.com/axe/)
-  1 [WAVE](https://wave.webaim.org/extension/)
-  1 [PowerMapper](https://www.powermapper.com/products/sortsite/checks/accessibility-checks/)
-  1 [Lighthouse accessibility audit](https://developers.google.com/web/tools/lighthouse/)
-  1 [Color Blind tool](https://www.toptal.com/designers/colorfilter/)
-  1 [Chrome Accesibility Tool](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb)
-  1 CLI
-    1 [Pa11y](http://pa11y.org/)
-    1 [AccessLint.js](https://github.com/AccessLint/accesslint.js)
-  1 Bookmarklets
-    1 [tota11y](http://khan.github.io/tota11y/)
-    1 [HTML CodeSniffer](http://squizlabs.github.io/HTML_CodeSniffer/)
-
-
-
--------------------------------------------------------------------------------
-
+  + <a class="link link--special" src="https://webaim.org/techniques/skipnav/" target="_blank" rel="noopener noreferrer">Skip Links</a>
 
 
 {% highlight css %}
 
-// CSS
 /**
 * Ejemplo de código que podríamos usar en los skip-links
 */
@@ -186,42 +181,48 @@ Otro tema a tener en cuenta son los skip-links que sirven para saltar de cosas n
 
 {% endhighlight %}
 
+## Checklists
+
+  1. <a class="link link--special" href="https://a11yproject.com/checklist/" target="_blank" rel="noopener noreferrer">A11y Project Checklist</a>
+
+## Herramientas de testeo
+
+  1. <a class="link link--special" href="https://validator.w3.org/nu/" target="_blank" rel="noopener noreferrer">W3C Nu HTML Checker</a>
+  1. <a class="link link--special" href="https://www.tenon.io/" target="_blank" rel="noopener noreferrer">Tenon</a>
+  1. <a class="link link--special" href="https://www.deque.com/axe/" target="_blank" rel="noopener noreferrer">aXe</a>
+  1. <a class="link link--special" href="https://wave.webaim.org/extension/" target="_blank" rel="noopener noreferrer">WAVE</a>
+  1. <a class="link link--special" href="https://www.powermapper.com/products/sortsite/checks/accessibility-checks/" target="_blank" rel="noopener noreferrer">PowerMapper</a>
+  1. <a class="link link--special" href="https://developers.google.com/web/tools/lighthouse/" target="_blank" rel="noopener noreferrer">Lighthouse accessibility audit</a>
+  1. <a class="link link--special" href="https://www.toptal.com/designers/colorfilter/" target="_blank" rel="noopener noreferrer">Color Blind tool</a>
+  1. <a class="link link--special" href="http://pa11y.org/" target="_blank" rel="noopener noreferrer">Pa11y</a>
+  1. <a class="link link--special" href="https://github.com/AccessLint/accesslint.js" target="_blank" rel="noopener noreferrer">AccessLint.js</a>
+  1. <a class="link link--special" href="http://khan.github.io/tota11y/" target="_blank" rel="noopener noreferrer">tota11y</a>
+  1. <a class="link link--special" href="http://squizlabs.github.io/HTML_CodeSniffer/" target="_blank" rel="noopener noreferrer">HTML CodeSniffer</a>
 
 
--------------------------------------------------------------------------------
+<div class="related">
+  <h4 class="related__title">Documentación adicional sobre SVGs inline accesibles</h4>
+  <ol class="related__list">
+    <li><a class="link link--special" href="https://www.keycdn.com/blog/icon-fonts-vs-svgs" target="_blank" rel="noopener noreferrer">Icon Fonts vs SVGs - Which One Should You Use In 2018?</a></li>
+    <li><a class="link link--special" href="https://twitter.com/IgnaciodeNuevo/status/960646272356093952" target="_blank" rel="noopener noreferrer">IMG de Twitter</a></li>
+    <li><a class="link link--special" href="https://css-tricks.com/icon-fonts-vs-svg/" target="_blank" rel="noopener noreferrer">Inline SVG vs Icon Fonts</a></li>
+    <li><a class="link link--special" href="https://www.sitepoint.com/tips-accessible-svg/" target="_blank" rel="noopener noreferrer">Tips for Creating Accessible SVG</a></li>
+    <li><a class="link link--special" href="https://www.24a11y.com/2017/svg-icon-fonts-accessibility-case-study/" target="_blank" rel="noopener noreferrer">SVG, Icon Fonts, and Accessibility: A Case Study</a></li>
+    <li><a class="link link--special" href="https://developer.paciellogroup.com/blog/2013/12/using-aria-enhance-svg-accessibility/" target="_blank" rel="noopener noreferrer">Using ARIA to enhance SVG accessibility</a></li>
+    <li><a class="link link--special" href="https://www.youtube.com/watch?v=af4ZQJ14yu8" target="_blank" rel="noopener noreferrer">Why Inline SVG is Best SVG</a></li>
+    <li><a class="link link--special" href="https://css-tricks.com/video-screencasts/137-svg-is-for-everybody/" target="_blank" rel="noopener noreferrer">SVG is for Everybody</a></li>
+  </ol>
+</div>
 
 
-
-{% highlight css %}
-// CSS
-
-/**
-* Hide element while making it readable for screen readers
-* Shamelessly borrowed from HTML5Boilerplate:
-* https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L119-L133
-*/
-.u-visually-hidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-}
-
-{% endhighlight %}
-
-
-
--------------------------------------------------------------------------------
 
 
 
   + Aria Authoring Practices (patterns section: 11)
   + Landmarks
   + Use roles when necessary
+
+Bla bla
 
   + 5 Fast accesibility tests you can do
     + Comprobar que se puede parar o dejar en silencio el contenido dinámico.
@@ -236,6 +237,8 @@ Otro tema a tener en cuenta son los skip-links que sirven para saltar de cosas n
     + Touch
     + Stylus
     + Voice
+
+Bla bla
 
   + 1.3.2 Meaningful Sequence
   + 2.1.2 No keyboard trap
