@@ -225,7 +225,11 @@ kbd,
 samp {
     font-family: var(--font-family-code); // 1
 
-    @include body-small(); // 2
+    @include caption(); // 2
+}
+
+code {
+  color: var(--color-primary);
 }
 
 //
