@@ -35,11 +35,12 @@
             grid-area: content;
         }
 
-        .tweet,
-        .picture,
-        .related {
-            margin-right: calc((var(--space-xl) + var(--meta-width-s)) * -1);
-        }
+        // .tweet,
+        // .picture,
+        // .related,
+        // .dropdown {
+        //     margin-right: calc((var(--space-xl) + var(--meta-width-s)) * -1);
+        // }
     }
 
     @media (min-width: $mq-l) {
@@ -47,7 +48,8 @@
 
         .tweet,
         .picture,
-        .related {
+        .related,
+        .dropdown {
             margin-left: calc(var(--space-l) * -1);
             margin-right: calc((var(--space-xxl) + var(--meta-width-m)) * -1);
         }

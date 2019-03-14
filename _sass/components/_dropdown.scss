@@ -1,0 +1,13 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the dropdown of the website.
+// -----------------------------------------------------------------------------
+.dropdown {
+    background-color: var(--color-base-lightest);
+    border-radius: var(--border-radius-xxs);
+    margin-bottom: var(--space-l);
+    padding: var(--space-l);
+
+    ul {
+        padding-left: var(--space-l);
+    }
+}
