@@ -51,7 +51,7 @@
             color: var(--color-base-light);
             display: block;
             line-height: 1;
-            margin-bottom: var(--space-s);
+            margin-bottom: var(--space-xs);
 
             @include opentype-all-opentype-small-caps();
             @include caption();
