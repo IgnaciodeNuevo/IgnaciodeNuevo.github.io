@@ -12,6 +12,66 @@
     }
 }
 
+.post-pagination {
+    border-bottom: 1px solid var(--color-base-light);
+    border-top: 1px solid var(--color-base-light);
+    display: flex;
+    margin-bottom: var(--size-l);
+    padding-bottom: var(--size-m);
+    padding-top: var(--size-m);
+
+    &__item {
+        border-radius: var(--border-radius-xxs);
+        border: var(--border-width) solid transparent;
+        color: var(--color-primary);
+        flex-basis: 0;
+        flex-grow: 1;
+        padding: var(--space-s);
+        text-decoration: none;
+
+        &:hover {
+            border-color: currentColor;
+        }
+
+        &:active {
+            background-color: var(--color-primary);
+            border: currentColor;
+            color: var(--color-base-lightest);
+
+            &::before {
+                color: var(--color-base-lightest);
+            }
+        }
+
+        &:focus {
+            border: var(--border-width) dotted var(--color-primary);
+        }
+
+        &::before {
+            color: var(--color-base-light);
+            display: block;
+            line-height: 1;
+            margin-bottom: var(--space-s);
+
+            @include opentype-all-opentype-small-caps();
+            @include caption();
+        }
+
+        &--prev::before {
+            content: "Previously: ";
+        }
+
+
+        &--next {
+            text-align: right;
+
+            &::before {
+                content: "Up next: ";
+            }
+        }
+    }
+}
+
 .grid {
     margin-left: auto;
     margin-right: auto;
