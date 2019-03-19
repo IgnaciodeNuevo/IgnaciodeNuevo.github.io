@@ -11,6 +11,7 @@
     color: var(--color-base-dark);
     font-size: 100%; // 16px
     line-height: var(--line-height-s);
+    scroll-behavior: smooth;
 
     @media (min-width: $mq-m) {
         font-size: 120%;
