@@ -1,10 +1,6 @@
 // -------------------------------------------------------------------------------------------
 // This file contains all styles related to the correct submission page of the contact form.
 // -------------------------------------------------------------------------------------------
-
-
-
-
-  .success {
+.success {
       @include section("/Success", var(--color-base-dark));
 }

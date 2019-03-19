@@ -1,0 +1,9 @@
+.license {
+    @include section("/License", var(--color-base-dark));
+}
+
+.license .page {
+    @media (min-width: $mq-l) {
+        padding-bottom: var(--space-xxl);
+    }
+}
