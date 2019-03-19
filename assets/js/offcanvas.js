@@ -54,8 +54,8 @@
 
     initApp();
 
-    window.addEventListener('resize', function () {
-        if (window.innerWidth > 768 && document.body.classList.contains(activeClassName)) {
+    window.matchMedia('(min-width: 48em)').addListener(function () {
+        if (document.body.classList.contains(activeClassName)) {
             document.body.classList.remove(activeClassName);
             disableNavLinks();
         }
