@@ -96,9 +96,9 @@ img:not(.hero__img) {
 
 code {
     background: var(--color-base-lightest);
-    border-radius: var(--size-xs);
+    border-radius: var(--size-xxs);
     color: var(--color-primary);
-    padding: var(--size-xxs) var(--space-xs);
+    padding: 0 var(--space-xs);
 }
 
 .container {
