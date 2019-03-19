@@ -125,6 +125,7 @@ A11y Audit
 + Why Inline SVG is Best SVG: https://www.youtube.com/watch?v=af4ZQJ14yu8
 + #137: SVG is for Everybody: https://css-tricks.com/video-screencasts/137-svg-is-for-everybody/
 
++ [Accessibility testing tools](https://developer.paciellogroup.com/blog/2019/02/accessibility-testing-tools-we-use/)
 + W3C Nu HTML Checker: https://validator.w3.org/nu/
 + Tenon
 + aXe: https://www.deque.com/axe/

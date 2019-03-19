@@ -98,11 +98,13 @@ p {
   font-weight: bold;
 }
 
-b,
-cite,
-em {
+b {
+    font-weight: bold;
+}
+
+em,
+cite {
     font-style: italic;
-    font-weight: initial;
 }
 
 .small {
@@ -132,13 +134,22 @@ html.fonts-loaded .h6-like {
 }
 
 //
-// Body Text Italic (loaded) font-family
+// Italic Text (loaded) font-family
 //
-html.fonts-loaded b,
-html.fonts-loaded cite,
-html.fonts-loaded em {
+html.fonts-loaded em,
+html.fonts-loaded cite {
     font-family: var(--font-family-body-italic);
     font-style: initial;
+    font-weight: initial;
+}
+
+//
+// Body Text (loaded) font-family
+//
+html.fonts-loaded b {
+    font-family: var(--font-family-body-semibold);
+    font-style: initial;
+    font-weight: initial;
 }
 
 //
@@ -214,7 +225,7 @@ kbd,
 samp {
     font-family: var(--font-family-code); // 1
 
-    @include body-small(); // 2
+    @include caption(); // 2
 }
 
 //

@@ -22,8 +22,7 @@
         text-decoration: none;
 
         &:focus {
-            border-color: var(--color-secondary); // Magic String: Do not change/remove
-            outline: 0;
+            outline: var(--border-width) dotted var(--color-base-lightest);
         }
     }
 
@@ -59,15 +58,21 @@
         @include caption();
         @include transition(border-bottom);
 
+        &.is-active:focus,
+        &:focus {
+            height: calc(var(--nav-height) - (var(--border-width) * 2));
+            outline: var(--border-width) dotted var(--color-base-lightest);
+        }
+
         &:hover,
         &.is-active {
             border-bottom: var(--border-width) solid var(--color-base-lightest);
         }
 
-        &.is-active:focus,
-        &:focus {
-            background-color: var(--color-base-lightest);
-            color: var(--color-base-dark);
+        &:active {
+            height: var(--nav-height);
+            border-bottom: var(--border-width) solid var(--color-base-lightest);
+            outline: initial;
         }
 
         &:nth-of-type(4) {

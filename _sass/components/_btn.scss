@@ -22,7 +22,7 @@
     }
 
     &:focus {
-        border: var(--border-width) dotted var(--color-secondary); // Magic String: Do not change/remove
+        border: var(--border-width) dotted var(--color-secondary);
         outline: 0;
     }
 

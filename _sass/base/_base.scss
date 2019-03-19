@@ -11,6 +11,7 @@
     color: var(--color-base-dark);
     font-size: 100%; // 16px
     line-height: var(--line-height-s);
+    scroll-behavior: smooth;
 
     @media (min-width: $mq-m) {
         font-size: 120%;
@@ -66,14 +67,14 @@ ol {
         position: relative;
 
         &::before {
-            background-color: var(--color-primary);
-            border-radius: 0.05em; // Magic String: Do not change/remove
-            content: "";
-            height: 0.25em; // Magic String: Do not change/remove
-            left: -0.8em; // Magic String: Do not change/remove
-            position: absolute;
-            top: 0.55em; // Magic String: Do not change/remove
-            width: 0.25em; // Magic String: Do not change/remove
+          background-color: var(--color-primary);
+          border-radius: 0.05em; // Magic String: Do not change/remove
+          content: "";
+          height: 0.25em; // Magic String: Do not change/remove
+          left: -0.8em; // Magic String: Do not change/remove
+          position: absolute;
+          top: 0.5em; // Magic String: Do not change/remove
+          width: 0.25em; // Magic String: Do not change/remove
         }
     }
 }
@@ -93,6 +94,12 @@ img:not(.hero__img) {
     }
 }
 
+code {
+    background: var(--color-base-lightest);
+    border-radius: var(--size-xxs);
+    color: var(--color-primary);
+    padding: 0 var(--space-xs);
+}
 
 .container {
     overflow: hidden;
@@ -278,33 +285,33 @@ img:not(.hero__img) {
 // Basic icon styles
 //
 .icon {
-    fill: currentColor;
-    flex-shrink: 0; // Prevent the icon from shrinking inside a flex container.
-    height: var(--icon-m);
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-width: 2;
-    width: var(--icon-m);
+  fill: currentColor;
+  flex-shrink: 0; // Prevent the icon from shrinking inside a flex container.
+  height: var(--icon-m);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2;
+  width: var(--icon-m);
 
-    &-stroke {
-        fill: none;
-        stroke: currentColor;
-    }
+  &-stroke {
+      fill: none;
+      stroke: currentColor;
+  }
 }
 
 //
 // Section Caption
 //
 .section-caption {
-    align-items: center;
-    color: var(--color-primary);
-    display: flex;
-    font-family: var(--font-family-body-regular);
-    font-size: ms(-1); // Same as @mixin body-small(). Do not change/move
-    margin-bottom: 0;
-    margin-top: var(--space-l);
-    max-width: 80%;
-    white-space: nowrap;
+  align-items: center;
+  color: var(--color-primary);
+  display: flex;
+  font-family: var(--font-family-body-regular);
+  font-size: ms(-1); // Same as @mixin body-small(). Do not change/move
+  margin-bottom: 0;
+  margin-top: var(--space-l);
+  max-width: 80%;
+  white-space: nowrap;
 
     @include opentype-all-opentype-small-caps();
 

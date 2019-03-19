@@ -61,6 +61,15 @@
         @media (min-width: $mq-xs) {
             width: 30%; // See 70% below. Magic String: Do not change/remove
         }
+
+        .link {
+            max-width: 90%; // Magic String: Do not change/remove
+            white-space: nowrap;
+
+            @media (min-width: $mq-l) {
+                max-width: 50%; // Magic String: Do not change/remove
+            }
+        }
     }
 
     .form {

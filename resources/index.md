@@ -35,6 +35,12 @@ wrapper_class: resources-wrapper
                 </a>
             </article>
         {% endfor %}
+        <h2>RSS Feeds</h2>
+        <article class="article">
+            <a class="article__item" href="/feedly.opml">
+                <h3 class="article__subtitle">RSS Feeds</h3>
+            </a>
+        </article>
         <h2>Slack Channels</h2>
         {% for resource in site.data.slacks %}
             <article class="article">

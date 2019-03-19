@@ -48,6 +48,24 @@
                 color: var(--color-base-lightest);
             }
         }
+
+        &:focus {
+            background-color: var(--color-base-dark);
+            color: var(--color-base-dark);
+
+            .article__time {
+                color: var(--color-base-lightest);
+            }
+
+            .article__subtitle {
+                color: var(--color-secondary);
+            }
+
+            .tag,
+            .article__description {
+                color: var(--color-base-lightest);
+            }
+        }
     }
 
     &__time {
