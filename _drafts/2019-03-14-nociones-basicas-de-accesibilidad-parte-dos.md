@@ -10,6 +10,55 @@ description:
 
 ## Es necesario entender unas bases
 
+{% highlight css %}
+
+/**
+* Metatag en el <head></head>
+*/
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+/**
+* Hide element while making it readable for screen readers
+* Shamelessly borrowed from HTML5Boilerplate:
+* https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L119-L133
+*/
+.u-visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+{% endhighlight %}
+
+##  ¿Qué debemos tener en nuestras webs y aplicaciones?
+
+Para empezar, deberemos tener muy presente en usar elementos semánticos siempre que podamos ya que, componentes con los que podemos interactuar como los botones, links o elementos de formulario: `inputs`, `dropdowns`, `datepickers`… son por defecto focusables.
+
+Dichos elementos interactuables suelen usar unas teclas por defecto de forma nativa y si hacemos algún componente custom deberemos intentar salvo que desarrollemos una ayuda contextual usar las que por defecto usan los controles nativos.
+
+Nota:
+
+  +	Tab (para avanzar al siguiente elemento)
+  +	Shift + Tab (para retroceder al elemento anterior)
+  +	Arrow keys (para moverte dentro del componente como en un dropdown)
+  +	Space (para activar elementos como los checkboxes)
+  +	Enter (para activar elementos como los botones de submit)
+
+
+## Elementos de formulario
+
+En los elementos de formulario cada `input` debe tener varios factores claramente interpretables por el usuario con el sistema que utilice y que a su vez serán expuestos al API de accesibilidad.
+
+  + `role`
+  + `name` o `label`
+  + `state`
+  + `value`
+
 ## Checklist para controles personalizados
 
   +	¿Podemos acceder al control personalizado con el que queremos interactuar con el teclado?
