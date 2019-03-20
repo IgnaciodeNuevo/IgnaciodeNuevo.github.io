@@ -10,4 +10,17 @@
     ul {
         padding-left: var(--space-l);
     }
+
+    ul,
+    ol {
+        li::before {
+            top: 0.6em;
+        }
+    }
+
+
+    code {
+        background-color: initial;
+        padding: initial;
+    }
 }
