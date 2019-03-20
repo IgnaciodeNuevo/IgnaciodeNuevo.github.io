@@ -27,6 +27,13 @@ Según la  <a class="link link--special" href="https://www.ine.es/revistas/cifra
 
 De este porcentaje, habrá quienes piensen que _«no vale la pena»_, pero existían (y dudo mucho que haya decrecido el número notablemente) 1,48 millones depersonas con discapacidad en edad de trabajar, es decir con edades comprendidas entre 16 y 64 años. Así que pensemos en el bien de la sociedad y no únicamente en un negocio. Como profesionales del sector IT, tenemos un gran poder para cambiar las cosas ya que somos quienes hacemos el software (webs y aplicaciones entre otros) que usan las personas.
 
+<figure class="picture">
+    <img src="/assets/images/post-nociones-basicas-de accesibilidad-parte-uno-de-dos.jpg" alt="">
+    <figcaption class="caption">
+        <b title="encima">Encima</b>
+        <span lang="en">&mdash;Most common WCAG failures (% of home pages). Source: WebAIM's article cited below.</span>
+    </figcaption>
+</figure>
 
 ## El principio POUR
 
@@ -54,14 +61,11 @@ En su momento, la <a class="link link--special" href="www.w3.org/" target="_blan
   +	Debemos usar encabezamientos para transmitir significado y estructura.
   +	Debemos hacer que el texto de los enlaces tenga sentido.
 
-## Recomendaciones generales
+## Otras recomendaciones
 
   +	Deberíamos usar el <span lang="en"><em>progressive enhancement</em></span> para que si fallan las librerías que usamos la aplicación siga funcionando con unos mínimos.
-  +	La web debe tener <span lang="en"><em>fallbacks</em></span> para las tipografías personalizadas, por si falla la cargue, que haya una sustituta.
+  +	La web debe tener <span lang="en"><em>fallbacks</em></span> para las tipografías personalizadas, por si falla la cargua de éstas, que haya una sustituta.
   +	La web debe poder seguir funcionando de forma correcta aún si se usan herramientas de bloqueo de anuncios como Ad Blocker, Privacy Badger, uBlock Origin…
-  +	No usar color únicamente para mostrar mensajes, añadir a ser posible, texturas, iconografía y/o textos.
-  +	Las web debe verse bien, debemos pensar en el contraste de color.
-  +	En los formularios debemos asociar cada `label` a su `input` y nunca debemos tener un `input` de forma aislada.
   +	La web debe verse correctamente con un zoom de 200%, también deberíamos probar que se ve bien a 500%.
   +	No bloquear el zoom en el metatag del `<head></head>`.
 
@@ -172,7 +176,7 @@ La <a class="link link--special" href="www.w3.org/" target="_blank" rel="noopene
     <ul class="related__list">
        <li>How to Meet <a class="link link--special" href="https://www.w3.org/WAI/WCAG21/quickref/?versions=2.1" target="_blank" rel="noopener noreferrer">WCAG 2.1 (Quick Reference)</a>.</li>
        <li>Hilo de Twitter con <a class="link link--special" href="https://twitter.com/IgnaciodeNuevo/status/952620136250462210" target="_blank" rel="noopener noreferrer">recursos sobre accesibilidad</a>.</li>
-       <li>Libro sobre <a class="link link--special" href="http://wcag2madeeasy.com/libro-accesibilidad-web.html" target="_blank" rel="noopener noreferrer">accesibilidad web</a>.</li>
-
+       <li>Libro sobre <a class="link link--special" href="http://wcag2madeeasy.com/libro-accesibilidad-web.html" target="_blank" rel="noopener noreferrer">accesibilidad web</a> de
+<a class="link link--special" href="https://twitter.com/itakora" target="_blank" rel="noopener noreferrer">Olga Revilla</a> y <a class="link link--special" href="https://twitter.com/olgacarreras" target="_blank" rel="noopener noreferrer">Olga Carreras</a>.</li>
     </ul>
 </div>
