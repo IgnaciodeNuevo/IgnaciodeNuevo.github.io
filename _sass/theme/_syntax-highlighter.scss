@@ -146,6 +146,7 @@
         color: var(--heading-string);
     }
 
+    .n,
     .na {
         color: var(--highlight-property);
     }
@@ -180,6 +181,10 @@
 
     .nl {
         color: var(--highlight-property);
+    }
+
+    .o {
+      color: var(--color-base-lightest);
     }
 
     .p {
