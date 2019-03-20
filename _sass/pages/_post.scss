@@ -59,7 +59,7 @@
         }
 
         &--prev::before {
-            content: "Previously: ";
+            content: "Anterior: ";
         }
 
 
@@ -67,7 +67,7 @@
             text-align: right;
 
             &::before {
-                content: "Up next: ";
+                content: "Siguiente: ";
             }
         }
     }
@@ -96,6 +96,7 @@
             grid-area: content;
         }
 
+        // TODO: Remove if not neccessary
         // .tweet,
         // .picture,
         // .related,
