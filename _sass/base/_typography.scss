@@ -87,7 +87,8 @@ h6,
     @include heading-h6();
 }
 
-p {
+p,
+li {
     font-kerning: normal;
 
     @include opentype-liga();
