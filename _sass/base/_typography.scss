@@ -87,7 +87,8 @@ h6,
     @include heading-h6();
 }
 
-p {
+p,
+li {
     font-kerning: normal;
 
     @include opentype-liga();
@@ -225,7 +226,7 @@ kbd,
 samp {
     font-family: var(--font-family-code); // 1
 
-    @include caption(); // 2
+    @include body-small(); // 2
 }
 
 //

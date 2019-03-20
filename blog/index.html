@@ -35,9 +35,11 @@ wrapper_class: blog-wrapper
                     {% if post.tags %}
                         <span class="tag">
                             {% include icons/tag.html %}
+                            <span class="u-visually-hidden">Written under: </span>
                             {% for tag in post.tags %}
                                 <span>#{{ tag }}</span>
                             {% endfor %}
+                            <span class="u-visually-hidden">tag(s).</span>
                         </span>
                     {% endif %}
                 </a>
