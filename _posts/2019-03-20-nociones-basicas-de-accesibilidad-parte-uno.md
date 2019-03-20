@@ -5,73 +5,71 @@ tags:
   - Accessibility
 lang: es
 page_class: post
-description: Cuando pensamos en accesibilidad lo importante es conocer quién o quienes van a ser las personas que van a usar nuestra web o aplicación. Desafortunadamente no siempre sabemos qué situación tiene cada uno de nuestras usuarias y usuarios.
+description: Cuando pensamos en accesibilidad lo importante es conocer quién o quiénes van a ser las personas que van a usar nuestra web o aplicación. Desafortunadamente no siempre sabemos qué situación tiene cada una de nuestras usuarias y usuarios.
 ---
 
 ## Empecemos por la base
 
-La web se concibió como una herramienta para transmitir información, hagamos porque esto sea así y llegue a la mayor cantidad de personas posible.
+La web se concibió como una herramienta para transmitir información, hagamos por que esto sea así y llegue a la mayor cantidad de personas posible.
 
-Puede parecer exagerado pensar en este tipo de cosas, pero en muchos casos, debemos saber que gran parte de nuestras usuarias y usuarios tendrán en algún momento problemas temporales que les impedirán usar nuestra plataforma adecuadamente, así como las personas con discapacidad. Pensemos en todo, 🙏.
+Puede parecer exagerado pensar en este tipo de cosas, pero en muchos casos, debemos saber que las personas con discapacidad permanente o temporal han de poder usar nuestra plataforma. Pensemos en todo, 🙏.
 
-  +	Personas que usan teclado.
-  +	Personas invidentes y con baja visión.
+  +	Personas que usan teclado o una pantalla táctil.
+  +	Personas ciegas o con baja visión.
   +	Personas daltónicas.
-  +	Personas sordas y con problemas de audición.
+  +	Personas sordas o con problemas de audición.
   +	Personas con dificultades de aprendizaje y limitaciones cognitivas.
-  +	Personas con problemas de movilidad.
+  +	Personas con problemas motrices.
   +	Personas con discapacidades del habla.
-  +	Personas con trastornos cognitivos.
 
-Según la  <a class="link link--special" href="https://www.ine.es/revistas/cifraine/1009.pdf" target="_blank" rel="noopener noreferrer">última encuesta del INE</a> en la Encuesta de Discapacidad, Autonomía personal y situaciones de Dependencia, de 2008, arroja que hay 3,85 millones de personas con alguna limitación visual, motora, cognitiva, auditiva… en España.
+Según los <a class="link link--special" href="https://www.ine.es/revistas/cifraine/1009.pdf" target="_blank" rel="noopener noreferrer">últimos datos del INE</a> en la Encuesta de Discapacidad, Autonomía personal y situaciones de Dependencia, de 2008, arroja que hay 3,85 millones de personas con alguna limitación visual, motora, cognitiva, auditiva... en España.
 
-De este porcentaje, habrá quienes piensen que _«no vale la pena»_, pero existían (y dudo mucho que haya decrecido el número notablemente) 1,48 millones depersonas con discapacidad en edad de trabajar, es decir con edades comprendidas entre 16 y 64 años. Así que pensemos en el bien de la sociedad y no únicamente en un negocio. Como profesionales del sector IT, tenemos un gran poder para cambiar las cosas ya que somos quienes hacemos el software (webs y aplicaciones entre otros) que usan las personas.
+De este porcentaje, habrá quienes piensen que _«no vale la pena»_ preocuparse por la accesibilidad, pero existen 1,48 millones depersonas con discapacidad en edad de trabajar, es decir con edades comprendidas entre 16 y 64 años. Así que pensemos en el bien de la sociedad y no únicamente en un negocio. Como profesionales del sector IT, tenemos un gran poder para cambiar las cosas ya que somos quienes hacemos el software que usan las personas (webs y aplicaciones entre otros).
 
 <figure class="picture">
-    <img src="/assets/images/post-nociones-basicas-de accesibilidad-parte-uno-de-dos.jpg" alt="">
+    <img src="/assets/images/post-nociones-basicas-de accesibilidad-parte-uno-de-dos.jpg" alt="Tabla con datos estadísticos de los errores que ocurren en las páginas 'home' mostrados en porcentaje.">
     <figcaption class="caption">
         <b title="encima">Encima</b>
-        <span lang="en">&mdash;Most common WCAG failures (% of home pages). Source: WebAIM's article cited below.</span>
+        &mdash;Mayoría de errores (% de las páginas principales). Fuente: artículo de WebAIM citado más abajo.
     </figcaption>
 </figure>
 
-## El principio POUR
+## Los principios POCR
 
-Existe este principio que indica, básicamente la necesidad de hacer las cosas _bien_.
+Se trata de unos principios que indican, básicamente la necesidad de hacer las cosas _bien_.
 
-  +	Perceptible (<span lang="en">Perceivable</span>) – La información y los componentes de la interfaz de usuario deben ser presentables a los usuarios de manera que puedan percibirlos.
-  +	Usable (<span lang="en">Operable</span>) – Los componentes de la interfaz de usuario y la navegación deben ser usables.
-  +	Comprensible (<span lang="en">Understandable</span>) – La información y el funcionamiento de la interfaz de usuario deben ser comprensibles.
-  +	Robusto (<span lang="en">Robust</span>) – El contenido debe ser lo suficientemente robusto como para que pueda ser interpretado de forma fiable por una amplia variedad de _user agents_, incluidas las tecnologías de asistencia.
+  +	Perceptible – La información y los componentes de la interfaz de usuario deben ser presentables a los usuarios de manera que puedan percibirlos.
+  +	Operable – Los componentes de la interfaz de usuario y la navegación deben ser usables.
+  +	Comprensible – La información y el funcionamiento de la interfaz de usuario deben ser comprensibles.
+  +	Robusto – El contenido debe ser lo suficientemente robusto como para que pueda ser interpretado de forma fiable por una amplia variedad de aplicaciones de usuario (user agents), incluidas las ayudas técnicas.
 
-## Recomendaciones de la W3C
+## Recomendaciones de el Consorcio W3C
 
-En su momento, la <a class="link link--special" href="www.w3.org/" target="_blank" rel="noopener noreferrer">W3C</a> hizo las siguientes recomendaciones, que aún siendo básicas, siguen ocurriendo como bien indica <a class="link link--special" href="https://webaim.org/" target="_blank" rel="noopener noreferrer">WebAIM</a> en su artículo <span lang="en">an <a class="link link--special" href="https://webaim.org/projects/million/" target="_blank" rel="noopener noreferrer">accessibility analysis</a> of the top 1,000,000 home pages</span>.
+En su momento, el <a class="link link--special" href="www.w3.org/" target="_blank" rel="noopener noreferrer">Consorcio W3C</a> hizo las siguientes recomendaciones, que aún siguen siendo válidas, siguen ocurriendo como bien indica <a class="link link--special" href="https://webaim.org/" target="_blank" rel="noopener noreferrer">WebAIM</a> en su artículo <span lang="en">an <a class="link link--special" href="https://webaim.org/projects/million/" target="_blank" rel="noopener noreferrer">accessibility analysis</a> of the top 1,000,000 home pages</span> (un análisis de accesibilidad de las 1.000.000 de páginas principales).
 
   +	Debemos proporcionar suficiente contraste entre el color de primer plano y el de fondo.
-  +	No hay que usar el color únicamente para transmitir información.
-  +	Hay que asegurarse de que los elementos interactivos sean fáciles de identificar.
+  +	No hay que usar el color el color como única forma de información.
+  +	Hay que asegurarse de que los elementos interactivos sean fáciles de identificar, fáciles de identificar visualmente y también por su semántica.
   +	Debemos proporcionar opciones de navegación fáciles de usar.
-  +	Debemos asegurarnos de que los elementos del formulario incluyan `labels` claramente asociados a sus `inputs` o `textareas`.
-  +	Debemos proporcionar `feedback` fácilmente identificable.
+  +	Debemos asegurarnos de que los elementos del formulario incluyan etiquetados claramente asociados a sus controles.
+  +	Debemos proporcionar `feedback` fácilmente interpretado por los productos de apoyo (aparte de visible y comprensible).
   +	Debemos utilizar los encabezados y el espaciado para agrupar el contenido relacionado.
-  +	Debemos crear diseños para diferentes tamaños de pantalla en los que se ajuste el contenido.
   +	Debemos añadir el atributo `alt` y la consiguiente descripción a imágenes que son parte del contenido (o que no son decorativas).
-  +	Debemos proporcionar controles para el contenido cuya reproducción se inicie automáticamente.
-  +	Debemos usar encabezamientos para transmitir significado y estructura.
-  +	Debemos hacer que el texto de los enlaces tenga sentido.
-
-## Otras recomendaciones
-
-  +	Deberíamos usar el <span lang="en"><em>progressive enhancement</em></span> para que si fallan las librerías que usamos la aplicación siga funcionando con unos mínimos.
-  +	La web debe tener <span lang="en"><em>fallbacks</em></span> para las tipografías personalizadas, por si falla la cargua de éstas, que haya una sustituta.
-  +	La web debe poder seguir funcionando de forma correcta aún si se usan herramientas de bloqueo de anuncios como Ad Blocker, Privacy Badger, uBlock Origin…
+  +	Debemos proporcionar una forma sencilla y evidente de parar el contenido cuya reproducción se inicie automáticamente.
+  +	Debemos hacer que el texto de los enlaces identifique el destino.
   +	La web debe verse correctamente con un zoom de 200%, también deberíamos probar que se ve bien a 500%.
   +	No bloquear el zoom en el metatag del `<head></head>`.
 
+## Otras recomendaciones
+
+  +	Debemos crear diseños para diferentes tamaños de pantalla en los que se ajuste el contenido.
+  +	Deberíamos usar el mejora progresiva (<span lang="en"><em>progressive enhancement</em></span>) para que si fallan las librerías que usamos la aplicación siga funcionando con unos mínimos.
+  +	La web debe tener <span lang="en"><em>fallbacks</em></span> para las tipografías de sistema alternativas, por si falla la cargua de éstas, que haya una sustituta.
+  +	La web debe poder seguir funcionando de forma correcta aún si se usan herramientas de bloqueo de anuncios como Ad Blocker, Privacy Badger, uBlock Origin…
+
 ## Niveles de accesibilidad
 
-La <a class="link link--special" href="www.w3.org/" target="_blank" rel="noopener noreferrer">W3C</a> tiene unas pautas, llamadas Web Content Accessibility Guidelines <a class="link link--special" href="https://www.w3.org/TR/WCAG21/" target="_blank" rel="noopener noreferrer">(WCAG) 2.1</a>, W3C Recommendation desde el 5 de junio de 2018 que hemos de intentar cumplir. Como dijo un compañero del sector en el <a class="link link--special" href="https://t3chfest.uc3m.es/2019/" target="_blank" rel="noopener noreferrer">T3chfest</a>: _«si no es por las personas, que sea por la Guardia Civil»_, y es que, existen leyes que obligan a su cumplimiento. Seamos serios, por favor.
+El <a class="link link--special" href="www.w3.org/" target="_blank" rel="noopener noreferrer">Consorcio W3C</a> tiene unas pautas, llamadas Pautas de Accesibilidad al Contenido Web <a class="link link--special" href="https://www.w3.org/TR/WCAG21/" target="_blank" rel="noopener noreferrer">(WCAG) 2.1</a>, Recomendación (<span lang="en">W3C Recommendation</span>) desde el 5 de junio de 2018 que hemos de intentar cumplir. Como dijo un compañero del sector en el <a class="link link--special" href="https://t3chfest.uc3m.es/2019/" target="_blank" rel="noopener noreferrer">T3chfest</a>: _«si no es por las personas, que sea por la Guardia Civil»_, y es que existen leyes que obligan a su cumplimiento. Seamos serios, por favor.
 
 <details class="dropdown">
     <summary>WCAG 2.1 Nivel A</summary>
@@ -169,7 +167,7 @@ La <a class="link link--special" href="www.w3.org/" target="_blank" rel="noopene
     </ul>
 </details>
 
-¡Ésto es todo, amigos! Por ahora, porque ya estoy preparando el siguiente artículo sobre accesibilidad.
+¡Ésto es todo, amigas y amigos! Por ahora, porque ya estoy preparando el siguiente artículo sobre accesibilidad.
 
 <div class="related">
     <h4 class="related__title">Recursos</h4>
