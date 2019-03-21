@@ -23,7 +23,7 @@ In general, I've found that if something doesn't genuinely interest you, it's ok
 That can feel like a cop-out, especially if it's the latest shiny technology that everyone seems to be talking about, but peer pressure is not a good deciding factor in what to learn.
 
 <figure class="picture">
-    <img src="/assets/images/interview-clearleft-1.jpg" alt="">
+    <img src="/assets/images/interview-clearleft-1.jpg" alt="Foto">
     <figcaption class="caption">
         <b title="encima">Encima</b>
         &mdash;Clearleft
@@ -37,7 +37,7 @@ There's so much involved in frontend development these days, I think that one of
 ## How would you recommend somebody to start learning web development?
 
 <figure class="picture">
-    <img src="/assets/images/interview-clearleft-2.jpg" alt="">
+    <img src="/assets/images/interview-clearleft-2.jpg" alt="Clearleft's building facade.">
     <figcaption class="caption">
         <b title="encima">Encima</b>
         &mdash;1st and 2nd floor at night

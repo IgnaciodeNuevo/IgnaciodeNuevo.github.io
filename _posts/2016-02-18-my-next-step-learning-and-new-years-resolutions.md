@@ -16,7 +16,7 @@ Cause as we all know one of the best things in our industry is to learn new thin
 As many of my coworkers know, I've been writing <a class="link link--special" href="https://en.wikipedia.org/wiki/HTML" target="_blank" rel="noopener noreferrer">HTML</a> and <a class="link link--special" href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank" rel="noopener noreferrer">CSS</a> a couple of years in my <a class="link link--special" href="/projects/">projects</a> so, after my last permanent job in <a class="link link--special" href="http://www.martin-young.com" target="_blank" rel="noopener noreferrer">Martin & Young</a>, a small digital agency in Madrid I had the time to start reading several books such as <a class="link link--special" href="#JSBookOne">JavaScript for Kids</a> & <a class="link link--special" href="#JSBookTwo">Eloquent JavaScript</a> but as they have exercises to do, I left them halfway.
 
 <figure class="picture">
-    <img src="/assets/images/resource-javascript-for-kids.jpg" alt="">
+    <img src="/assets/images/resource-javascript-for-kids.jpg" alt="Portada del libro JavaScript for Kids'.">
     <figcaption class="caption">
         <b title="encima">Encima</b>
         &mdash;<a class="link link--special" href="#JSBookOne">JavaScript for Kids' book</a>
@@ -41,7 +41,7 @@ Here are the things you'll learn in <a class="link link--special" href="http://w
 </ul>
 
 <figure class="picture">
-    <img src="/assets/images/resource-eloquent-javascript.jpg" alt="">
+    <img src="/assets/images/resource-eloquent-javascript.jpg" alt="Portada de Eloquent JavaScript.">
     <figcaption class="caption">
         <b title="encima">Encima</b>
         &mdash;<a class="link link--special" href="#JSBookTwo">Eloquent JavaScript's book</a>

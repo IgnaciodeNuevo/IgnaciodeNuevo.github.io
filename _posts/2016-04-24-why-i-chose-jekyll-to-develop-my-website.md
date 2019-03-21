@@ -62,7 +62,7 @@ _includes
 Furthermore, any time I want to make a change to either, I only have to update it in one place and it’s pushed out to the entire site.
 
 <figure class="picture">
-    <img src="/assets/images/post-sublimetext-2.jpg" alt="">
+    <img src="/assets/images/post-sublimetext-2.jpg" alt="Captura de pantalla del editor de texto Sublime Text.">
     <figcaption class="caption">
         <b title="encima">Encima</b>
         &mdash;<a class="link link--special" href="/assets/images/post-sublimetext-2--fullscreen.jpg" target="_blank" rel="noopener noreferrer">Sublime Text Editor</a>

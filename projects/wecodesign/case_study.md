@@ -15,7 +15,7 @@ I decided to chat about this with a friend who is Publicist and Ilustrator and d
 We send several emails to people we wanted to interview and everyone with only one exception (_because he don't want to expose himself to Internet_) said yes (_I feel amazed how web people are so close_).
 
 <figure class="picture">
-    <img src="/assets/images/proyecto-wecodesign-1.jpg" alt="">
+    <img src="/assets/images/proyecto-wecodesign-1.jpg" alt="iTunes de WeCodeSign cover.">
     <figcaption class="caption">
         <b title="encima">Encima</b>
         &mdash;iTunes de WeCodeSign cover
@@ -53,7 +53,7 @@ Looking for help at <a class="link link--special" href="https://talk.jekyllrb.co
 I added a <code>style</code> element to allow embed style information on each loop.
 
 <figure class="picture">
-    <img src="/assets/images/proyecto-wecodesign-2.jpg" alt="">
+    <img src="/assets/images/proyecto-wecodesign-2.jpg" alt="WeCodeSign's codeCaptura.">
     <figcaption class="caption">
         <b title="encima">Encima</b>
         &mdash;Code of WeCodeSign
