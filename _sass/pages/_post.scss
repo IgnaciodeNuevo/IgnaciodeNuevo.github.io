@@ -12,81 +12,20 @@
     }
 }
 
-.post-pagination {
-    border-bottom: 1px solid var(--color-base-light);
-    border-top: 1px solid var(--color-base-light);
-    display: flex;
-    margin-bottom: var(--size-l);
-    padding-bottom: var(--size-m);
-    padding-top: var(--size-m);
-
-    &__item {
-        border-radius: var(--border-radius-xxs);
-        border: var(--border-width) solid transparent;
-        color: var(--color-primary);
-        flex-basis: 0;
-        flex-grow: 1;
-        max-width: 50%;
-        padding: var(--space-s);
-        text-decoration: none;
-
-        &:hover {
-            border-color: currentColor;
-        }
-
-        &:active {
-            background-color: var(--color-primary);
-            border: currentColor;
-            color: var(--color-base-lightest);
-
-            &::before {
-                color: var(--color-base-lightest);
-            }
-        }
-
-        &:focus {
-            border: var(--border-width) dotted var(--color-primary);
-        }
-
-        &::before {
-            color: var(--color-base-light);
-            display: block;
-            line-height: 1;
-            margin-bottom: var(--space-xs);
-
-            @include opentype-all-opentype-small-caps();
-            @include caption();
-        }
-
-        &--prev::before {
-            content: "Anterior: ";
-        }
-
-
-        &--next {
-            text-align: right;
-
-            &::before {
-                content: "Siguiente: ";
-            }
-        }
-    }
-}
-
 .grid {
     margin-left: auto;
     margin-right: auto;
     max-width: 30rem; // Magic String: Do not change/remove
 
     @media (min-width: $mq-m) {
+        grid-column-gap: var(--space-xxl);
+        grid-template-areas: "content meta";
+        grid-template-columns: 1fr var(--meta-width-s);
+
         @supports (grid-gap: 1rem) {
             display: grid; // Magic String: Do not change/remove
             max-width: var(--grid-width); // Magic String: Do not change/remove
         }
-
-        grid-column-gap: var(--space-xxl);
-        grid-template-areas: "content meta";
-        grid-template-columns: 1fr var(--meta-width-s);
 
         .meta {
             grid-area: meta;

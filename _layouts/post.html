@@ -48,12 +48,12 @@ layout: default
                 </aside>
             </div>
             <div class="content">{{ content }}</div>
-            <nav class="post-pagination">
+            <nav class="pagination pagination--post">
                 {% if page.previous.url %}
-                    <a class="post-pagination__item  post-pagination__item--prev" href="{{page.previous.url}}">{{page.previous.title}}</a>
+                    <a class="pagination--post__item  pagination--post__item--prev" href="{{page.previous.url}}">{{page.previous.title}}</a>
                 {% endif %}
                 {% if page.next.url %}
-                    <a class="post-pagination__item  post-pagination__item--next" href="{{page.next.url}}">{{page.next.title}}</a>
+                    <a class="pagination--post__item  pagination--post__item--next" href="{{page.next.url}}">{{page.next.title}}</a>
                 {% endif %}
             </nav>
         </div>

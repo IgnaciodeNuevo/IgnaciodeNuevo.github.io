@@ -5,13 +5,12 @@
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    margin-bottom: 0;
+    margin-bottom: initial;
     margin-left: auto;
     margin-right: auto;
     margin-top: var(--space-l);
     max-width: calc(var(--btn-width) * 2 + var(--space-m)); // --space-m = space between elements
-    padding-bottom: var(--space-xl);
-    padding-left: 0;
+    padding-left: initial;
 
     li::before {
         background-color: initial;
@@ -19,5 +18,63 @@
 
     .btn {
         width: var(--btn-width);
+    }
+
+    &--post {
+        border-top: var(--border-width) solid var(--color-base-light);
+        max-width: initial;
+        padding-top: var(--space-s);
+        width: 100%;
+
+        &__item {
+            border-radius: var(--border-radius-xxs);
+            border: var(--border-width) solid transparent;
+            color: var(--color-primary);
+            flex-basis: 0;
+            flex-grow: 1;
+            max-width: calc(50% - var(--space-xxs));
+            padding-bottom: var(--space-s);
+            padding-left: var(--space-s);
+            padding-right: var(--space-s);
+            padding-top: inherit;
+            text-decoration: none;
+
+            &:hover,
+            &:active {
+                background-color: var(--color-base-dark);
+                color: var(--color-secondary);
+
+                &::before,
+                &::before {
+                    color: var(--color-base-lightest);
+                }
+            }
+
+            &:focus {
+                border: var(--border-width) dotted currentColor;
+            }
+
+            &::before {
+                color: var(--color-base-light);
+                display: block;
+                line-height: 1;
+                margin-bottom: var(--space-xs);
+
+                @include opentype-all-opentype-small-caps();
+                @include caption();
+            }
+
+            &--prev::before {
+                content: "Anterior: ";
+            }
+
+            &--next {
+                text-align: right;
+
+                &::before {
+                    content: "Siguiente: ";
+                }
+            }
+        }
     }
 }
