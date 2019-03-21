@@ -43,9 +43,9 @@ Se trata de unos principios que indican, básicamente la necesidad de hacer las 
   +	Comprensible – La información y el funcionamiento de la interfaz de usuario deben ser comprensibles.
   +	Robusto – El contenido debe ser lo suficientemente robusto como para que pueda ser interpretado de forma fiable por una amplia variedad de aplicaciones de usuario (user agents), incluidas las ayudas técnicas.
 
-## Recomendaciones de el Consorcio W3C
+## Consejos de el Consorcio W3C
 
-En su momento, el <a class="link link--special" href="www.w3.org/" target="_blank" rel="noopener noreferrer">Consorcio W3C</a> hizo las siguientes recomendaciones, que aún siguen siendo válidas, siguen ocurriendo como bien indica <a class="link link--special" href="https://webaim.org/" target="_blank" rel="noopener noreferrer">WebAIM</a> en su artículo <span lang="en">an <a class="link link--special" href="https://webaim.org/projects/million/" target="_blank" rel="noopener noreferrer">accessibility analysis</a> of the top 1,000,000 home pages</span> (un análisis de accesibilidad de las 1.000.000 de páginas principales).
+En su momento, el <a class="link link--special" href="www.w3.org/" target="_blank" rel="noopener noreferrer">Consorcio W3C</a> hizo las siguientes consejo, que aún siguen siendo válidas, siguen ocurriendo como bien indica <a class="link link--special" href="https://webaim.org/" target="_blank" rel="noopener noreferrer">WebAIM</a> en su artículo <span lang="en">an <a class="link link--special" href="https://webaim.org/projects/million/" target="_blank" rel="noopener noreferrer">accessibility analysis</a> of the top 1,000,000 home pages</span> (un análisis de accesibilidad de las 1.000.000 de páginas principales).
 
   +	Debemos proporcionar suficiente contraste entre el color de primer plano y el de fondo.
   +	No hay que usar el color como única forma de información.
@@ -60,7 +60,7 @@ En su momento, el <a class="link link--special" href="www.w3.org/" target="_blan
   +	La web debe verse correctamente con un zoom de 200%, también deberíamos probar que se ve bien a 500%.
   +	No bloquear el zoom en el metatag del `<head></head>`.
 
-## Otras recomendaciones
+## Otros consejos
 
   +	Debemos crear diseños para diferentes tamaños de pantalla en los que se ajuste el contenido.
   +	Deberíamos usar el mejora progresiva (<span lang="en"><em>progressive enhancement</em></span>) para que si fallan las librerías que usamos la aplicación siga funcionando con unos mínimos.
