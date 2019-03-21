@@ -48,7 +48,7 @@ Se trata de unos principios que indican, básicamente la necesidad de hacer las 
 En su momento, el <a class="link link--special" href="www.w3.org/" target="_blank" rel="noopener noreferrer">Consorcio W3C</a> hizo las siguientes recomendaciones, que aún siguen siendo válidas, siguen ocurriendo como bien indica <a class="link link--special" href="https://webaim.org/" target="_blank" rel="noopener noreferrer">WebAIM</a> en su artículo <span lang="en">an <a class="link link--special" href="https://webaim.org/projects/million/" target="_blank" rel="noopener noreferrer">accessibility analysis</a> of the top 1,000,000 home pages</span> (un análisis de accesibilidad de las 1.000.000 de páginas principales).
 
   +	Debemos proporcionar suficiente contraste entre el color de primer plano y el de fondo.
-  +	No hay que usar el color el color como única forma de información.
+  +	No hay que usar el color como única forma de información.
   +	Hay que asegurarse de que los elementos interactivos sean fáciles de identificar, fáciles de identificar visualmente y también por su semántica.
   +	Debemos proporcionar opciones de navegación fáciles de usar.
   +	Debemos asegurarnos de que los elementos del formulario incluyan etiquetados claramente asociados a sus controles.
