@@ -135,6 +135,26 @@ Los componentes de la interfaz de usuario y la navegación deben ser operables.
 
 ## 4.3.	Principio 3: Contenido comprensible
 
+Las principales barreras detectadas son: inadecuada descripción alternativa, botones sin etiquetar, saltos en las jerarquías de encabezados, carencia de uso de listas, avisos con orden de lectura inadecuados, instrucciones para indicar las salas que forman parte del juego, enlaces identificados solo por color, solapamiento de contenidos al redimensionar el contenido, ausencia de salto al contenido principal, falta de títulos en páginas, ausencia de orden de foco al duplicar elementos, enlaces sin información de contexto, ausencia de foco visible en selectores y uso de aria-hidden en toda la página.
+
+## 6. Referencias
+
+  +	Web Content Accessibility Guidelines 2.0, 11 Dec 2008
+http://www.w3.org/TR/WCAG20/
+  +	Understanding WCAG 2.0:
+http://www.w3.org/TR/UNDERSTANDING-WCAG20/
+  +	Techniques for WCAG 2.0
+http://www.w3.org/TR/WCAG20-TECHS/
+  +	WebAIM. Web Accessibility In Mind
+http://www.webaim.org/
+  +	Juicy Studio, by Gez Lemon
+http://www.juicystudio.com
+  +	The Paciello Group
+http://www.paciellogroup.com/
+  +	Useit.com. Jakob Nielsen on Usability and web design
+http://www.useit.com/
+
+
 + Focusable
 + Se puede usar el método .focus() de JS
 + Keyboard accessible
