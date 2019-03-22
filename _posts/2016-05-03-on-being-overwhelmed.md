@@ -25,7 +25,7 @@ I've heard before that the web is dead. Native apps are going to rule the future
 I don't think so. A fact about the web is that with one and only one link or URL, "EVERYONE" can access a site, no need of updating the app via any App Store and with thanks to progressive enhancement users with old devices can have a fine experience and brand new devices can have the best of the best.
 
 <figure class="picture">
-    <img src="/assets/images/post-front-end-overwhelmed.png" alt="Web Technologies.">
+    <img src="/assets/images/post-front-end-overwhelmed.png" alt="Web Technologies screenshot.">
     <figcaption class="caption">
         <b title="encima">Encima</b>
         &mdash;Web Technologies
