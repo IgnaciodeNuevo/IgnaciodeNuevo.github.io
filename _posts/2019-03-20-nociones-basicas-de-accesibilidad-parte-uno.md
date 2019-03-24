@@ -24,7 +24,7 @@ Puede parecer exagerado pensar en este tipo de cosas, pero en muchos casos, debe
 
 Según los <a class="link link--special" href="https://www.ine.es/revistas/cifraine/1009.pdf" target="_blank" rel="noopener noreferrer">últimos datos del INE</a> en la Encuesta de Discapacidad, Autonomía personal y situaciones de Dependencia, de 2008, arroja que hay 3,85 millones de personas con alguna limitación visual, motora, cognitiva, auditiva... en España.
 
-De este porcentaje, habrá quienes piensen que _«no vale la pena»_ preocuparse por la accesibilidad, pero existen 1,48 millones depersonas con discapacidad en edad de trabajar, es decir con edades comprendidas entre 16 y 64 años. Así que pensemos en el bien de la sociedad y no únicamente en un negocio. Como profesionales del sector IT, tenemos un gran poder para cambiar las cosas ya que somos quienes hacemos el software que usan las personas (webs y aplicaciones entre otros).
+De este porcentaje, habrá quienes piensen que _«no vale la pena»_ preocuparse por la accesibilidad, pero existen 1,48 millones de personas con discapacidad en edad de trabajar, es decir con edades comprendidas entre 16 y 64 años. Así que pensemos en el bien de la sociedad y no únicamente en un negocio. Como profesionales del sector IT, tenemos un gran poder para cambiar las cosas ya que somos quienes hacemos el software que usan las personas (webs y aplicaciones entre otros).
 
 <figure class="picture">
     <img src="/assets/images/post-nociones-basicas-de accesibilidad-parte-uno-de-dos.jpg" alt="Tabla con datos estadísticos de los errores que ocurren en las páginas 'home' mostrados en porcentaje.">
@@ -65,7 +65,7 @@ En su momento, el <a class="link link--special" href="www.w3.org/" target="_blan
   +	Debemos crear diseños para diferentes tamaños de pantalla en los que se ajuste el contenido.
   +	Deberíamos usar el mejora progresiva (<span lang="en"><em>progressive enhancement</em></span>) para que si fallan las librerías que usamos la aplicación siga funcionando con unos mínimos.
   +	La web debe tener <span lang="en"><em>fallbacks</em></span> para las tipografías de sistema alternativas, por si falla la cargua de éstas, que haya una sustituta.
-  +	La web debe poder seguir funcionando de forma correcta aún si se usan herramientas de bloqueo de anuncios como Ad Blocker, Privacy Badger, uBlock Origin…
+  +	La web debe poder seguir funcionando de forma correcta aún si se usan herramientas de bloqueo de anuncios como <span lang="en">Ad Blocker, Privacy Badger, uBlock Origin…</span>
 
 ## Niveles de accesibilidad
 

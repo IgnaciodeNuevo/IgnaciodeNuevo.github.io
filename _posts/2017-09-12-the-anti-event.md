@@ -55,7 +55,7 @@ Había sido un día muy intenso y de mucho caminar por la mañana así que decid
 Estuvimos cenando y charlando un tranquilamente. La verdad que me lo pasé genial. La pena es que no pude dormir bien y al día siguiente estaba destrozado. ¡Gracias por no dejarme dormir compi de cuarto! 😞
 
 <figure class="picture">
-    <img src="/assets/images/post-antievent-1.jpg" alt="">
+    <img src="/assets/images/post-antievent-1.jpg" alt="Foto de la gente que asistió al evento hablando unos con otros.">
     <figcaption class="caption">
         <b title="encima">Encima</b>
         &mdash;¡Empieza TheAntiEvent  2017!
@@ -71,7 +71,7 @@ La mañana del sábado ibamos con las pilas cargadas y con ganas de empezar. Com
 Nada mejor que empezar la mañana relajadamente que de la mano de <a class="link link--special" href="https://twitter.com/oneeyedman" target="_blank" rel="noopener noreferrer">Carlos</a> impartiendo un taller de acuarela, (_que yo creía iba a ser teórico o como mucho una demostración magistral por su parte_), pero no. ¡Iba a ser práctico! 😱
 
 <figure class="picture">
-    <img src="/assets/images/post-antievent-4.jpg" alt="">
+    <img src="/assets/images/post-antievent-4.jpg" alt="Posando para foto en el taller de Acuarelas.">
     <figcaption class="caption">
         <b title="encima">Encima</b>
         &mdash;Posando para foto en el taller de Acuarelas
@@ -83,7 +83,7 @@ Por mi parte como siempre me pasa en estas situaciones tuve un buen rato una ter
 Se nos pasó tan rápido el taller que nos saltamos una charla, estuvimos dos horas jugando con acuarelas. Ahora doy las gracias a <a class="link link--special" href="https://twitter.com/carmenansio" target="_blank" rel="noopener noreferrer">Carmen</a> por animarme a pintar lo que había dibujado.
 
 <figure class="picture">
-    <img src="/assets/images/post-antievent-2.jpg" alt="">
+    <img src="/assets/images/post-antievent-2.jpg" alt="Fotografía del tablero de las charlas organizadas sobre la marcha.">
     <figcaption class="caption">
         <b title="encima">Encima</b>
         &mdash;Tablero de Anti Charlas
@@ -113,7 +113,7 @@ Tras la comida <a class="link link--special" href="https://twitter.com/carmenans
 Fue super entretenido contar todos los entresijos, incluso hicimos un pequeño spoiler sobre un futuro episodio y sobre novedades que nos estamos planteando para el año que viene.
 
 <figure class="picture">
-    <img src="/assets/images/post-antievent-5.jpg" alt="">
+    <img src="/assets/images/post-antievent-5.jpg" alt="Foto de Carmen y yo hablando sobre WeCodeSign.">
     <figcaption class="caption">
         <b title="encima">Encima</b>
         &mdash;Carmen y yo hablando sobre WeCodeSign
@@ -165,7 +165,7 @@ Como conclusión decir que ha sido el mejor evento tecnológico al que he podido
 ¡Espero no perderme TheAntiEvent  el año que viene, ha sido increible!
 
 <figure class="picture">
-    <img src="/assets/images/post-antievent-3.jpg" alt="">
+    <img src="/assets/images/post-antievent-3.jpg" alt="Fotografía de una preciosa Anti Taza.">
     <figcaption class="caption">
         <b title="encima">Encima</b>
         &mdash;Una preciosa Anti Taza

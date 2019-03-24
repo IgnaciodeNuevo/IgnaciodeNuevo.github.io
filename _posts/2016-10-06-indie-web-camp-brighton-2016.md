@@ -17,7 +17,7 @@ IndieWebCamp Brighton 2016 was held September 24/25 at <a class="link link--spec
 I've first learnt about this Indie movement two months ago and now I can say that this people where really supportive.
 
 <figure class="picture">
-    <img src="/assets/images/post-IWC-Brighton-2016-1.gif" alt="">
+    <img src="/assets/images/post-IWC-Brighton-2016-1.gif" alt="Photo of the IndieWebCamp Brighton 2016's attendees by Julie Anne Noying CC-BY/Flickr.">
     <figcaption class="caption">
         <b title="encima">Encima</b>
         &mdash;Photo of the IndieWebCamp Brighton 2016's attendees by Julie Anne Noying CC-BY/Flickr
@@ -32,7 +32,7 @@ I was astonished by the variety topics and software used.
 
 
 <figure class="picture">
-    <img src="/assets/images/post-IWC-Brighton-2016-2.jpg" alt="">
+    <img src="/assets/images/post-IWC-Brighton-2016-2.jpg" alt="Photo of the IndieWebCamp Brighton 2016's attendees talking and eating by Julie Anne Noying CC-BY/Flickr.">
     <figcaption class="caption">
         <b title="encima">Encima</b>
         &mdash;Photo of the IndieWebCamp Brighton 2016's attendees talking and eating by Julie Anne Noying CC-BY/Flickr
@@ -63,7 +63,7 @@ Now I can say that being part of <a class="link link--special" href="https://ind
 
 
 <figure class="picture">
-    <img src="/assets/images/post-IWC-Brighton-2016-4.jpg" alt="">
+    <img src="/assets/images/post-IWC-Brighton-2016-4.jpg" alt="hoto of the IndieWebCamp Brighton 2016's attendees all together by Julie Anne Noying CC-BY/Flickr.">
     <figcaption class="caption">
         <b title="encima">Encima</b>
         &mdash;Photo of the IndieWebCamp Brighton 2016's attendees all together by Julie Anne Noying CC-BY/Flickr
