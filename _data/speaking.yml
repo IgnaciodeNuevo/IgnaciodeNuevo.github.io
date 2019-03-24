@@ -1,3 +1,9 @@
+- name: Masterclass - Escalado de tipografía en la Web
+  description: Se dice que la mayor parte de la web es tipografía y como tal hemos de tratarla con respeto. Veremos como hacer mejor uso de la misma en la Web.
+  date: 2019-03-29T00:00:00+0200
+  venue: Factoría F5
+  url: escalado-de-tipografia-en-la-web/
+
 - name: Workshop - CSS Grid Layout con fallbacks y a lo loco
   description: Mediante Live Coding vimos de manera sencilla como CSS Grid Layout es capaz de solucionarnos estructuras de maquetación que requerían de trucos.
   date: 2018-07-07T00:00:00+0200
