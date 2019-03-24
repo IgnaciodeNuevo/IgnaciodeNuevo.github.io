@@ -65,7 +65,7 @@ En su momento, el <a class="link link--special" href="www.w3.org/" target="_blan
   +	Debemos crear diseños para diferentes tamaños de pantalla en los que se ajuste el contenido.
   +	Deberíamos usar el mejora progresiva (<span lang="en"><em>progressive enhancement</em></span>) para que si fallan las librerías que usamos la aplicación siga funcionando con unos mínimos.
   +	La web debe tener <span lang="en"><em>fallbacks</em></span> para las tipografías de sistema alternativas, por si falla la cargua de éstas, que haya una sustituta.
-  +	La web debe poder seguir funcionando de forma correcta aún si se usan herramientas de bloqueo de anuncios como Ad Blocker, Privacy Badger, uBlock Origin…
+  +	La web debe poder seguir funcionando de forma correcta aún si se usan herramientas de bloqueo de anuncios como <span lang="en">Ad Blocker, Privacy Badger, uBlock Origin…</span>
 
 ## Niveles de accesibilidad
 
