@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Algunas consideraciones sobre tipografía web"
+title: "Escalado de tipografía en la Web"
 tags:
   - Learning
   - Opinion
