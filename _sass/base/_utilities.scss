@@ -59,8 +59,7 @@
 //
 .u-hide-text {
     overflow: hidden;
-    padding: 0; // 1
-    text-indent: 101%;
+    padding: 0; // 1  text-indent: 101%;
     white-space: nowrap;
 }
 
@@ -72,10 +71,13 @@
 .u-visually-hidden {
     border: 0;
     clip: rect(0 0 0 0);
-    height: 1px; // Magic String: Do not change/remove
-    margin: -1px; // Magic String: Do not change/remove
+            clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
+    -webkit-clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
+    height: 1px;
+    margin: -1px;
     overflow: hidden;
     padding: 0;
     position: absolute;
-    width: 1px; // Magic String: Do not change/remove
+    white-space: nowrap;
+    width: 1px;
 }
