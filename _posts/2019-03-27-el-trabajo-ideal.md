@@ -103,7 +103,7 @@ Por suerte o por desgracia tener fruta en la oficina, descuentos en un gimnasio 
 
 Sin que se me olvide, hay cosas que según me las dicen me echan para atrás. Suele ser cuando te intentan vender la moto de lo que «molan» o cuando te piden que seas «proactivo». Seamos claros, esto no está bien, lo primero porque vender humo sabemos todos. Luego te das cuenta que no es así y ambos perdemos el tiempo, la empresa que contrata y tú en haber pasado por un proceso de selección a veces demasiado largo.
 
-Segundo, eso de «ser proactivo» está muy bien de forma puntual pero, por favor, no caigamos en la autoexplotación. Muchas veces nos decimos (yo lo llevo haciendo desde que empecé y me cuesta darme cuenta de ello) que nos gusta hacer cosas fuera del trabajo porque es nuestra afición.
+Segundo, eso de «ser proactivo» está muy bien de forma puntual pero, por favor, no caigamos en la autoexplotación. Muchas veces nos decimos (yo lo llevo haciendo desde que empecé y me cuesta darme cuenta de ello, digo esto mientras escribo un artículo) que nos gusta hacer cosas fuera del trabajo porque es nuestra afición.
 
 La cultura de «hacer un esfuerzo» al final no suele ser positiva ya que podemos quemarnos o incluso peor.
 
