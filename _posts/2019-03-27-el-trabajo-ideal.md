@@ -10,9 +10,9 @@ description: ¿Alguna vez nos hemos planteado qué es importante para nosotros e
 
 ## ¿Existe?
 
-No, no existe. El problema es cuando nos hacemos la idea de que hay algo ahí fuera que podrá satisfacer todas nuestras necesidades o intereses. Idealizar esto, puede ser furstrante, y no lo digo por otras personas, lo digo por mi mismo.
+No, no existe. El problema es cuando nos hacemos la idea de que hay algo ahí fuera que podrá satisfacer todas nuestras necesidades o intereses.
 
-Resulta que hará un tiempo, empecé a plantearme lo que sería para mi el trabajo ideal, ese trabajo que si me llamasen, lo dejaría todo y no miraría atrás para decir si en el instante. Así que, recopilé una lista de cosas que para mi son importantes, tanto como persona, como laboralmente, pero sin olvidarme de la parte humana de la empresa.
+Resulta que hará un tiempo, empecé a plantearme lo que sería para mi el trabajo ideal, ese trabajo que si me llamasen, lo dejaría todo y no miraría atrás para decir sí en el instante. Así que, recopilé una lista de cosas que para mi son importantes, tanto como persona, como laboralmente, pero sin olvidarme de la parte humana de la empresa.
 
 Digamos que fundamentalmente tengo cuatro pilares que me interesan:
 
@@ -35,7 +35,7 @@ Quizá se debe a que soy muy perfeccionista, tanto que en el pasado hasta me dej
 
 Ayudar al usuario final. Considero que es necesario hacer las cosas lo mejor posible para que nuestros usuarios puedan recibir el contenido la mejor manera posible. Siempre he pensado que el hacer bien las cosas nos permite tener personas más contentas, pero para ello hay muchas formas de _hacer las cosas bien_.
 
-Podríamos hablar de lo importante que es para mi el tener en cuenta a las personas o al menos intentarlo, creo que es super necesario, aunque en algún caso no podamos dar soporte a todo el mundo.
+Podríamos hablar de lo importante que es para mi el tener en cuenta a las personas o al menos intentarlo, aunque en algún caso no podamos dar soporte a todo el mundo.
 
 En mi caso puntual uso tecnologías bastante modernas, así que si alguien accede y no tiene un navegador relativamente reciente verá poco o ningún contenido, pero no quita que esté intentando hacerlo lo mejor posible en todos los sentidos. Para ello es necesario tener cuenta la accesibilidad y muchos otros factores como el <span lang="en"><em>progressive enhancement</em></span> que se, no tengo en cuenta en navegadores antiguos.
 
