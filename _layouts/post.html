@@ -19,41 +19,80 @@ layout: default
 
         <div class="grid">
             <div class="meta-wrapper">
-                <aside class="meta">
-                    {% if page.date %}
-                    <div class="last-updated">
-                        <p class="h2-like">Publication date</p>
-                        <p>{{ page.date | date: '%b %-d %Y' }}</p>
-                    </div>
-                    {% endif %}
-                    {% if page.lastupdate %}
-                    <div class="last-updated">
-                        <p class="h4-like">Last Update</p>
-                        <p>{{ page.lastupdate | date: '%b %-d %Y' }}</p>
-                    </div>
-                    {% endif %}
-                    <div class="meta__reading">{% include component-reading.html content=content %}</div>
-                    <div>
-                        {% if page.tags %}
-                        <p class="h4-like">Tagged under</p>
-                        <div class="tag">
-                            {% include icons/tag.html %} {% for tag in page.tags %}
-                            <a href="/tags/#{{ tag }}">
-                                <span>#{{ tag }}</span>
-                            </a>
-                            {% endfor %}
+
+                {% if page.lang == 'es' %}
+                    <aside class="meta">
+                        {% if page.date %}
+                        <div class="last-updated">
+                            <p class="h2-like">Publicación</p>
+                            <p>{{ page.date | date: '%b %-d %Y' }}</p>
                         </div>
                         {% endif %}
-                    </div>
-                </aside>
+                        {% if page.lastupdate %}
+                        <div class="last-updated">
+                            <p class="h4-like">Última actualización</p>
+                            <p>{{ page.lastupdate | date: '%b %-d %Y' }}</p>
+                        </div>
+                        {% endif %}
+                        <div class="meta__reading">
+                            <p class="h4-like">Tiempo de lectura</p>
+                            {% include component-reading.html content=content %}
+                        </div>
+                        <div>
+                            {% if page.tags %}
+                            <p class="h4-like">Etiquetado en</p>
+                            <div class="tag">
+                                {% include icons/tag.html %} {% for tag in page.tags %}
+                                <a href="/tags/#{{ tag }}">
+                                    <span>#{{ tag }}</span>
+                                </a>
+                                {% endfor %}
+                            </div>
+                            {% endif %}
+                        </div>
+                    </aside>
+                {% else %}
+                    <aside class="meta">
+                        {% if page.date %}
+                        <div class="last-updated">
+                            <p class="h2-like">Publication date</p>
+                            <p>{{ page.date | date: '%b %-d %Y' }}</p>
+                        </div>
+                        {% endif %}
+                        {% if page.lastupdate %}
+                        <div class="last-updated">
+                            <p class="h4-like">Last Update</p>
+                            <p>{{ page.lastupdate | date: '%b %-d %Y' }}</p>
+                        </div>
+                        {% endif %}
+                        <div class="meta__reading">
+                            <p class="h4-like">Estimated reading time</p>
+                            {% include component-reading.html content=content %}
+                        </div>
+                        <div>
+                            {% if page.tags %}
+                            <p class="h4-like">Tagged under</p>
+                            <div class="tag">
+                                {% include icons/tag.html %} {% for tag in page.tags %}
+                                <a href="/tags/#{{ tag }}">
+                                    <span>#{{ tag }}</span>
+                                </a>
+                                {% endfor %}
+                            </div>
+                            {% endif %}
+                        </div>
+                    </aside>
+                {% endif %}
             </div>
             <div class="content">{{ content }}</div>
             <nav class="pagination pagination--post">
                 {% if page.previous.url %}
-                    <a class="pagination--post__item  pagination--post__item--prev" href="{{page.previous.url}}">{{page.previous.title}}</a>
+                <a class="pagination--post__item  pagination--post__item--prev"
+                    href="{{page.previous.url}}">{{page.previous.title}}</a>
                 {% endif %}
                 {% if page.next.url %}
-                    <a class="pagination--post__item  pagination--post__item--next" href="{{page.next.url}}">{{page.next.title}}</a>
+                <a class="pagination--post__item  pagination--post__item--next"
+                    href="{{page.next.url}}">{{page.next.title}}</a>
                 {% endif %}
             </nav>
         </div>

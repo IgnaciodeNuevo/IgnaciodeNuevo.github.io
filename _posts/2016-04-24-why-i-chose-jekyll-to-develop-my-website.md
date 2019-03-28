@@ -22,7 +22,7 @@ I like making things, not using <a class="link link--special" href="http://getbo
 3 Interviews with web developers
 4 About
 5 Twitter
-6 Github
+6 GitHub
 7 RSS Feed
 8 Email
 9 FAQ
@@ -71,9 +71,9 @@ Furthermore, any time I want to make a change to either, I only have to update i
 
 Of course, dynamic sites have their advantages as well, with no back-end GUI tu manage updates, plugins and for no tech-savvy people would be more difficult to admin the website, write content and push changes to the server.
 
-## Github Pages to the rescue
+## GitHub Pages to the rescue
 
-<a class="link link--special" href="https://pages.github.com" target="_blank" rel="noopener noreferrer">GitHub Pages</a> accepts static HTML but can’t execute languages like PHP, or use a database in the way you’re probably used to, so you’ll need to output static HTML files. You can host your static website for _free_ directly from your <a class="link link--special" href="{{ site.github }}/ignaciodenuevo.github.io" target="_blank" rel="noopener noreferrer">Github Repo</a>.
+<a class="link link--special" href="https://pages.github.com" target="_blank" rel="noopener noreferrer">GitHub Pages</a> accepts static HTML but can’t execute languages like PHP, or use a database in the way you’re probably used to, so you’ll need to output static HTML files. You can host your static website for _free_ directly from your <a class="link link--special" href="{{ site.github }}/ignaciodenuevo.github.io" target="_blank" rel="noopener noreferrer">GitHub Repo</a>.
 
 ## Iterating is the key
 
