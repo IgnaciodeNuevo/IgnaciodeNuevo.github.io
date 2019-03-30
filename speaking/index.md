@@ -16,6 +16,7 @@ wrapper_class: speaking-wrapper
                     <time class="article__time" datetime="{{ talk.date | date: '%F' }}">{{ talk.date | date: "%b %-d %Y"}}</time>
                     <h2 class="article__subtitle">{{ talk.name }}</h2>
                     <p class="article__description">{{ talk.description }}</p>
+                    <!-- <p class="article__description u-mb-xs">{{ talk.venue }}</p> -->
                     <div class="article__links">
                         <a class="btn btn--fill" href="/speaking/{{ talk.url }}" hreflang="{{ page.lang }}">
                             <span class="btn__text"><span class="u-visually-hidden">{{ talk.name }}'s</span> Slides</span>
@@ -47,6 +48,7 @@ wrapper_class: speaking-wrapper
                     <time class="article__time" datetime="{{ talk.date | date: '%F' }}">{{ talk.date | date: "%b %-d %Y"}}</time>
                     <h2 class="article__subtitle">{{ talk.name }}</h2>
                     <p class="article__description">{{ talk.description }}</p>
+                    <!-- <p class="article__description u-mb-xs">{{ talk.venue }}</p> -->
                     <div class="article__links">
                         <a class="btn btn--fill" href="/speaking/{{ talk.url }}">
                             <span class="btn__text"><span class="u-visually-hidden">{{ talk.name }}'s</span> Slides</span>

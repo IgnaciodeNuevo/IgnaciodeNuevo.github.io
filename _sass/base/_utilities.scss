@@ -49,7 +49,14 @@
 // Reset margin-bottom
 //
 .u-reset-mb {
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
+}
+
+//
+// Margin-bottom XS
+//
+.u-mb-xs {
+    margin-bottom: var(--space-xs) !important;
 }
 
 //
