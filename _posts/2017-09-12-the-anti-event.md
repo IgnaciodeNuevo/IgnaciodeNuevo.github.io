@@ -34,7 +34,7 @@ Algo que puedo decir con total franqueza es que no hubo ningún ego rondando el 
 
 ## Vue
 
-¡Cómo no! <a class="link link--special" href="https://vuejs.org/v2/guide/" target="_blank" rel="noopener noreferrer">Vue</a> es el nuevo juguete de los Frontend y no podía faltar a una charla sobre esta librería que imparieron <a class="link link--special" href="https://twitter.com/Xaviju" target="_blank" rel="noopener noreferrer">Xavi</a> de <a class="link link--special" href="http://kaleidos.net/" target="_blank" rel="noopener noreferrer">Kaleidos</a> y <a class="link link--special" href="https://twitter.com/sirikon" target="_blank" rel="noopener noreferrer">Carlos</a> de <a class="link link--special" href="https://www.plainconcepts.com/" target="_blank" rel="noopener noreferrer">Plain Concepts</a> (Bilbao).
+¡Cómo no! <a class="link link--special" href="https://vuejs.org/v2/guide/" target="_blank" rel="noopener noreferrer">Vue</a> es el nuevo juguete de los Frontend y no podía faltar a una charla sobre esta librería que imparieron <a class="link link--special" href="https://twitter.com/Xaviju" target="_blank" rel="noopener noreferrer">Xavi</a> de <a class="link link--special" href="http://kaleidos.net/" target="_blank" rel="noopener noreferrer">Kaleidos</a> y <a class="link link--special" href="https://twitter.com/sirikon" target="_blank" rel="noopener noreferrer">Carlos</a> de Bilbao.
 
 Nos estuvieron contanto sobre las ventajas de usarlo frente a otras herramientas del mercado como Angular o React y contaban que el creador se ha decantado por las mejores partes de estos. El sistema de templating, shadow DOM, reactividad...
 
