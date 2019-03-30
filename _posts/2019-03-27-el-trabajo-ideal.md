@@ -39,9 +39,13 @@ Podríamos hablar de lo importante que es para mi el tener en cuenta a las perso
 
 En mi caso puntual uso tecnologías bastante modernas, así que si alguien accede y no tiene un navegador relativamente reciente verá poco o ningún contenido, pero no quita que esté intentando hacerlo lo mejor posible en todos los sentidos. Para ello es necesario tener cuenta la accesibilidad y muchos otros factores como el <span lang="en"><em>progressive enhancement</em></span> que se, no tengo en cuenta en navegadores antiguos.
 
-Me resulta _vital_ la calidad técnica, ésta viene dada por un buen código, usando buenas prácticas en todos los sentidos, desde hacer tests para que nuestra plataforma sea robusta, no falle, nos eyude a escalar, a refactorizar y hacerla más mantenible, ya sea haciendo <span lang="en"><em>pair programming</em></span>, <abbr title="Test Driven Development">TDD</abbr> o un largo etc pero siempre en proyectos que te reten, si no ocurre, me aburriría probablemente y acabaría dejando el proyecto tarde o temprano.
+<blockquote class="quote">
+    Considero que una parte importantísima es el buen código. Mantenible, robusto y sencillo de entender.
+</blockquote>
 
-Por último algo que para mi es super necesario como pesona es el trabajar junto a diseño, desde siempre he estado super interesado. He intentado aprender y <a class="link link--special" href="https://github.com/IgnaciodeNuevo/personal-goals#design" target="_blank" rel="noopener noreferrer">recopilando todo</a>. Así que _necesito tenerlo cerca para ser feliz_.
+Considero _vital_ la calidad técnica, ésta viene dada por un buen código, usando buenas prácticas en todos los sentidos, desde hacer tests para que nuestra plataforma sea robusta, no falle, nos ayuda a escalar, a refactorizar y hacerla más mantenible, ya sea haciendo <span lang="en"><em>pair programming</em></span>, <abbr title="Test Driven Development">TDD</abbr> o un largo etc pero siempre en proyectos que te reten, si no ocurre, me aburriría probablemente y acabaría dejando el proyecto tarde o temprano.
+
+Por último algo que para mi es super necesario como persona es el trabajar junto a diseño, desde siempre he estado super interesado. He intentado aprender y <a class="link link--special" href="https://github.com/IgnaciodeNuevo/personal-goals#design" target="_blank" rel="noopener noreferrer">recopilando todo</a>. Así que _necesito tenerlo cerca para ser feliz_.
 
 ### Humanidad de la empresa
 
@@ -98,6 +102,10 @@ Por último como uno de los cuatro pilares fundamentales que para mi son importa
 Por último y _FUNDAMENTAL_ me parece que hay que darse cuenta que trabajamos por dinero.
 
 Por suerte o por desgracia tener fruta en la oficina, descuentos en un gimnasio u otro tipo de <span lang="en"><em>perks</em></span> no hacen que paguemos las facturas a final de mes. Ya me gustaría a mi pagar a mi casero con abrazos. Así que es _imprescindible_ tener un salario digno y si, se que somos un sector privilegiado pero no todo el mundo cobra un buen salario, hay aún mucha gente con sueldos precarios.
+
+<p class="tweet">
+    <a class="link" href="https://twitter.com/IgnaciodeNuevo/status/1110981926381330433" target="_blank" rel="noopener noreferrer">Tweet: ⚡️ «Como no me gusta quedarme las cosas para mi la suma de lo que habéis respondido al hilo que cito es la siguiente.»</a>
+</p>
 
 ### Lo que no me gusta tanto
 
