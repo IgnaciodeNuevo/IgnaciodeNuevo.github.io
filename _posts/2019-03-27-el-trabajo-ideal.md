@@ -33,7 +33,7 @@ Si, todo muy bonito, digamos que ahí podría encajar la mejor empresa del mundo
 
 Quizá se debe a que soy muy perfeccionista, tanto que en el pasado hasta me dejó bloqueado sin poder avanzar en proyectos personales. Así que supongo debido a este motivo siempre me ha parecido necesaria esta parte.
 
-Ayudar al usuario final. Considero que es necesario hacer las cosas lo mejor posible para que nuestros usuarios puedan recibir el contenido la mejor manera posible. Siempre he pensado que el hacer bien las cosas nos permite tener personas más contentas, pero para ello hay muchas formas de _hacer las cosas bien_.
+Ayudar al usuario final. Considero que es necesario hacer las cosas lo mejor posible para que nuestros usuarios puedan recibir el contenido de la mejor manera posible. Siempre he pensado que el hacer bien las cosas nos permite tener personas más contentas, pero para ello hay muchas formas de _hacer las cosas bien_.
 
 Podríamos hablar de lo importante que es para mi el tener en cuenta a las personas o al menos intentarlo, aunque en algún caso no podamos dar soporte a todo el mundo.
 
