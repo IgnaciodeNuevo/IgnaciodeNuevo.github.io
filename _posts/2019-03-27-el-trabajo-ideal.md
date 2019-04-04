@@ -54,7 +54,7 @@ Por último algo que para mi es super necesario como persona es el trabajar junt
 - Honestidad
 - Humildad
 - Libertad
-- Que no tenga gente toxica
+- Que no tenga gente tóxica
 - Trabajo en equipo
 - Transparencia en decisiones y cualquier persona pueda hablar y ser escuchada
 - Valores reales
