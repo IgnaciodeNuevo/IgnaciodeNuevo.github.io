@@ -86,3 +86,31 @@
         border: var(--border-width) dotted var(--color-base-dark);
     }
 }
+
+.btn--fixed {
+    background-color: var(--color-primary);
+    border: var(--border-width) solid var(--color-primary); // Magic String: Do not change/remove
+    bottom: var(--space-m);
+    color: var(--color-base-lightest);
+    max-width: 10rem; // Magic String: Do not change/remove
+    position: fixed;
+    right: var(--space-m);
+    text-align: center;
+
+    &:hover {
+        background-color: var(--color-primary-darker);
+        border: var(--border-width) solid var(--color-primary-darker); // Magic String: Do not change/remove
+        color: var(--color-base-lightest);
+    }
+
+    &:active {
+        background-color: var(--color-primary-darkest);
+        border-color: var(--color-primary-darkest);
+        color: var(--color-base-lightest);
+    }
+
+     > svg:last-child {
+        margin-bottom: calc(var(--space-xxs) * -1); // Optical fix
+        margin-right: 0;
+    }
+}
