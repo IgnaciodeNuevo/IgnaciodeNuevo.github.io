@@ -89,7 +89,7 @@ I have lot of things to do:
 
 ## What now?
 
-Well, you can grab the <a class="link link--special" href="/feed.xml">RSS feed</a>, follow me on <a class="link link--special" href="{{ site.twitter }}" target="_blank" rel="noopener noreferrer">Twitter</a> and keep an eye on the project on <a class="link link--special" href="{{ site.github }}/ignaciodenuevo.github.io" target="_blank" rel="noopener noreferrer">GitHub</a>.
+Well, you can grab the <a class="link link--special" href="/feed.xml">RSS feed</a>, follow me on <a class="link link--special" href="{{ site.twitter }}" target="_blank" rel="noopener noreferrer me">Twitter</a> and keep an eye on the project on <a class="link link--special" href="{{ site.github }}/ignaciodenuevo.github.io" target="_blank" rel="noopener noreferrer">GitHub</a>.
 
 Thanks, Ignacio.
 

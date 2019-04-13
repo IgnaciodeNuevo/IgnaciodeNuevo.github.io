@@ -10,7 +10,7 @@ description: He sido machista, bueno, lo soy, pero creo que están en todos mejo
 
 Cuando abrí esta Web lo planteaba como un lugar donde hablar sobre mi profesión. Hará un par de años se me ocurría que escribiría únicamente en inglés (por aquello de forzarme a mejorar), para mostrar mis proyectos personales y profesionales.
 
-Nunca pensaba usar mi <a class="link link--special" href="{{ site.twitter }}" target="_blank" rel="noopener noreferrer">Twitter</a> más que para hablar sobre desarrollo frontend y pensaba dejar a un lado temas personales.
+Nunca pensaba usar mi <a class="link link--special" href="{{ site.twitter }}" target="_blank" rel="noopener noreferrer me">Twitter</a> más que para hablar sobre desarrollo frontend y pensaba dejar a un lado temas personales.
 
 El problema viene cuando, desde hace algún tiempo; (un año aproximadamente), empecé a darme cuenta de cosas que no estaban bien en el sector del desarrollo. Como los relacionados con la discriminación o el acoso, por lo que empecé a informarme, aprender y sobre todo a replantearme si todo lo que "nos han enseñado" era correcto.
 
@@ -69,7 +69,7 @@ Otro caso habitual es cuando un conocido comenta algo sobre una mujer de un modo
 
 ### Usar un lenguaje inclusivo
 
-Hará algún tiempo, gracias a ver algún video sobre el tema comentaba en <a class="link link--special" href="{{ site.twitter }}/status/894677736123490306" target="_blank" rel="noopener noreferrer">este hilo de Twitter</a> la posibilidad de usar la E en lugar de la O cuando nos dirigimos a un grupo grande para ser más inclusivos. Decir por otro lado que los lenguajes evolucionan. En castellano tenemos "el" y "ella" pero no todo el mundo se identifica con estos y aunque el género gramatical no es el mismo que el de las personas algunas lo entienden como tal.
+Hará algún tiempo, gracias a ver algún video sobre el tema comentaba en <a class="link link--special" href="{{ site.twitter }}/status/894677736123490306" target="_blank" rel="noopener noreferrer me">este hilo de Twitter</a> la posibilidad de usar la E en lugar de la O cuando nos dirigimos a un grupo grande para ser más inclusivos. Decir por otro lado que los lenguajes evolucionan. En castellano tenemos "el" y "ella" pero no todo el mundo se identifica con estos y aunque el género gramatical no es el mismo que el de las personas algunas lo entienden como tal.
 
 Otra opción es que en lugar de hablar sobre ellos hablemos con palabras más genéricas como personas o gente. Una clara situación de mejoría es la redacción de ofertas laborales. 😊
 
