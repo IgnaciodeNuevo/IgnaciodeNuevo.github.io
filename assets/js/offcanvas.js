@@ -33,6 +33,7 @@
         if (document.body.classList.contains(activeClassName)) {
             removeBodyActiveClass()
             disableNavLinks();
+            navOpenButton.focus();
         } else {
             document.body.classList.add(activeClassName);
             navOpenButton.setAttribute('aria-label', 'Menu expanded');
@@ -60,7 +61,6 @@
     }
 
     function trapFocus() {
-        console.log('focusableElements :', focusableElements);
         navMenu.addEventListener('keydown', function (event) {
             const isTabPressed = event.key === 'Tab' || event.keyCode === 9;
 
