@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Nociones básicas de accesibilidad: Parte dos de dos."
+title: "Nociones básicas de accesibilidad, parte dos de dos."
 tags:
   - Accessibility
 lang: es
@@ -9,6 +9,20 @@ description:
 ---
 
 ## Es necesario entender unas bases
+
+##  ¿Qué debemos tener en nuestras webs y aplicaciones?
+
+Para empezar, deberemos tener muy presente en usar elementos semánticos siempre que podamos ya que, componentes con los que podemos interactuar como los botones, links o elementos de formulario: `inputs`, `dropdowns`, `datepickers`… son por defecto focusables.
+
+Dichos elementos interactuables suelen usar unas teclas por defecto de forma nativa y si hacemos algún componente custom deberemos intentar salvo que desarrollemos una ayuda contextual usar las que por defecto usan los controles nativos.
+
+Nota:
+
+  +	Tab (para avanzar al siguiente elemento)
+  +	Shift + Tab (para retroceder al elemento anterior)
+  +	Arrow keys (para moverte dentro del componente como en un dropdown)
+  +	Space (para activar elementos como los checkboxes)
+  +	Enter (para activar elementos como los botones de submit)
 
 {% highlight css %}
 
@@ -34,21 +48,6 @@ description:
 }
 
 {% endhighlight %}
-
-##  ¿Qué debemos tener en nuestras webs y aplicaciones?
-
-Para empezar, deberemos tener muy presente en usar elementos semánticos siempre que podamos ya que, componentes con los que podemos interactuar como los botones, links o elementos de formulario: `inputs`, `dropdowns`, `datepickers`… son por defecto focusables.
-
-Dichos elementos interactuables suelen usar unas teclas por defecto de forma nativa y si hacemos algún componente custom deberemos intentar salvo que desarrollemos una ayuda contextual usar las que por defecto usan los controles nativos.
-
-Nota:
-
-  +	Tab (para avanzar al siguiente elemento)
-  +	Shift + Tab (para retroceder al elemento anterior)
-  +	Arrow keys (para moverte dentro del componente como en un dropdown)
-  +	Space (para activar elementos como los checkboxes)
-  +	Enter (para activar elementos como los botones de submit)
-
 
 ## Elementos de formulario
 
