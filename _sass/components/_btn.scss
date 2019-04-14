@@ -92,6 +92,7 @@
     border: var(--border-width) solid var(--color-primary); // Magic String: Do not change/remove
     bottom: var(--space-m);
     color: var(--color-base-lightest);
+    display: none;
     max-width: 10rem; // Magic String: Do not change/remove
     position: fixed;
     right: var(--space-m);
