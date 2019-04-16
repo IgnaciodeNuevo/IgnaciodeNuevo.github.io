@@ -10,6 +10,13 @@
         background-color: var(--color-base-lightest);
         border-radius: var(--border-radius-xxs);
     }
+
+    .masthead h1 + p:first-of-type:first-line,
+    .content > h2 + p:first-of-type:first-line {
+        font-family: var(--font-family-body-semibold);
+        font-variant-caps: opentype-small-caps;
+        font-feature-settings: "onum", "smcp", "c2sc" 0;
+    }
 }
 
 .grid {

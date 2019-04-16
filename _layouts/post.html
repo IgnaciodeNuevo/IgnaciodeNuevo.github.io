@@ -3,9 +3,9 @@ layout: default
 ---
 
 {% if page.page_class %}
-<main class="main {{ page.page_class }}" role="main">
-    {% else %}
-    <main class="main" role="main">
+    <main class="main {{ page.page_class }}" id="anchor" role="main">
+{% else %}
+    <main class="main" id="anchor" role="main">
         {% endif %} {% if page.title %}
         <div class="masthead">
             <div class="masthead__content">
@@ -15,7 +15,7 @@ layout: default
                 {% endif %}
             </div>
         </div>
-        {% endif %}
+{% endif %}
 
         <div class="grid">
             <div class="meta-wrapper">
@@ -96,6 +96,16 @@ layout: default
                 {% endif %}
             </nav>
         </div>
+
+        {% if page.lang == 'es' %}
+            <a id="topBtn" class="btn btn--fixed" href="#anchor">
+                {% include icons/arrow-top-es.html %}
+            </a>
+        {% else %}
+            <a id="topBtn" class="btn btn--fixed" href="#anchor">
+                {% include icons/arrow-top.html %}
+            </a>
+        {% endif %}
     </main>
     {% include component-author.html %}
 </main>
