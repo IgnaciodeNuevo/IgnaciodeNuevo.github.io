@@ -94,3 +94,4 @@ Menos humo y más pagar salarios en condiciones <b>A TODO EL MUNDO</b>.
 - Que pongan rangos salariales.
 - Mira, en mi caso entré en mi primer trabajo como desarrollador serio, tras haber pasado por becario y posteriormente un freelance por 14K, en Madrid hará (3 o años y algo). Y sinceramente, me quema por dentro que algunos se aprovechen de la necesidad de la gente para pagar una mierda.
 - Volviendo al draft, ¿Qué son unas condiciones de vida dignas? ¿Qué es para ti vivir sin preocupaciones económicas? Es que es meterse en un terreno farragoso te lo digo por experiencia y porque ya estoy hasta el coño de tener que justificar querer ganar dinero aunque sea para limpiarme el culo
+- En tu opinión ¿Cuál crees que sería el salario justo para un developer?
