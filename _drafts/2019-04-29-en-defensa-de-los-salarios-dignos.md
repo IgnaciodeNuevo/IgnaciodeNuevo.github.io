@@ -83,6 +83,14 @@ Menos humo y más pagar salarios en condiciones <b>A TODO EL MUNDO</b>.
     </ul>
 </div>
 
+## Pendiente de hablar
 
 - Hablar de otros sectores y lo mal que están.
 - ¿Qué debería cobrar un junior?
+- Vivimos en una burbuja donde falta gente.
+- No todas las empresas pueden pagar buenos salarios, hay muchísima pequeña y mediana empresa.
+- Lo de que sea X empresa o Y si se ha interpretado como un ataque realmente es lo de menos.
+- NUNCA he tenido una charla de dinero -que no sea un 1 a 1- que aporte algopositivo, salvo envídia, celo, urañismo monetario y cosas chungas.
+- Que pongan rangos salariales.
+- Mira, en mi caso entré en mi primer trabajo como desarrollador serio, tras haber pasado por becario y posteriormente un freelance por 14K, en Madrid hará (3 o años y algo). Y sinceramente, me quema por dentro que algunos se aprovechen de la necesidad de la gente para pagar una mierda.
+- Volviendo al draft, ¿Qué son unas condiciones de vida dignas? ¿Qué es para ti vivir sin preocupaciones económicas? Es que es meterse en un terreno farragoso te lo digo por experiencia y porque ya estoy hasta el coño de tener que justificar querer ganar dinero aunque sea para limpiarme el culo
