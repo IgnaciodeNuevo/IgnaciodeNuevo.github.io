@@ -82,3 +82,7 @@ Menos humo y más pagar salarios en condiciones <b>A TODO EL MUNDO</b>.
         <li>Apartado de la encuesta de stackoverlow 2019 <a class="link link--special" href="https://insights.stackoverflow.com/survey/2019#technology-_-what-languages-are-associated-with-the-highest-salaries-worldwide" target="_blank" rel="noopener noreferrer">sobre salarios</a>.</li>
     </ul>
 </div>
+
+
+- Hablar de otros sectores y lo mal que están.
+- ¿Qué debería cobrar un junior?
