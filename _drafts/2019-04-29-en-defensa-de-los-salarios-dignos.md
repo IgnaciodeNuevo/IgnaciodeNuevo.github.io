@@ -88,7 +88,7 @@ Menos humo y más pagar salarios en condiciones <b>A TODO EL MUNDO</b>.
 - Hablar de otros sectores y lo mal que están.
 - ¿Qué debería cobrar un junior?
 - Vivimos en una burbuja donde falta gente.
-- No todas las empresas pueden pagar buenos salarios, hay muchísima pequeña y mediana empresa.
+- No todas las empresas pueden pagar buenos salarios, hay muchísima pequeña y mediana empresa. ver Tweet: https://twitter.com/lainde/status/1120990213600436224
 - Lo de que sea X empresa o Y si se ha interpretado como un ataque realmente es lo de menos.
 - NUNCA he tenido una charla de dinero -que no sea un 1 a 1- que aporte algopositivo, salvo envídia, celo, urañismo monetario y cosas chungas.
 - Que pongan rangos salariales.
