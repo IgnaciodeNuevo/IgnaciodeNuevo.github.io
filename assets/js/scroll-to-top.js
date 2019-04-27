@@ -1,10 +1,11 @@
-// When the user scrolls down 500px from the top of the document, show the button
-window.addEventListener('scroll', function(event) {
-    event.preventDefault();
+window.addEventListener('scroll', function () {
+    // When the user scrolls down 500px from the top of the document, show the button
+    const isScrollPast500px = document.body.scrollTop > 500 || document.documentElement.scrollTop > 500;
+    const topBtn = document.getElementById('topBtn');
 
-    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-        document.getElementById('topBtn').style.display = 'block';
+    if (isScrollPast500px) {
+        topBtn.style.display = 'block';
     } else {
-        document.getElementById('topBtn').style.display = 'none';
+        topBtn.style.display = 'none';
     }
-});
+}, { passive: true });
