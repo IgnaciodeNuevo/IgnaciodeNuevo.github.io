@@ -1,4 +1,3 @@
-
 const navOpenButton = document.querySelector('#js-open-menu');
 const navCloseButton = document.querySelector('#js-close-menu');
 const navMenu = document.querySelector('#js-nav');
@@ -41,9 +40,9 @@ function handleClick() {
         navCloseButton.removeAttribute('tabIndex');
         navMenu.removeAttribute('aria-hidden');
 
-        for (let i = 0; i < navLinks.length; ++i) {
-            navLinks[i].removeAttribute('tabIndex');
-        }
+        navLinks.forEach(element => {
+            element.removeAttribute('tabIndex');
+        });
 
         navLinks[0].focus();
     }
@@ -55,9 +54,9 @@ function disableNavLinks() {
     navCloseButton.tabIndex = -1;
     navMenu.setAttribute('aria-hidden', 'true');
 
-    for (let i = 0; i < navLinks.length; ++i) {
-        navLinks[i].tabIndex = -1;
-    }
+    navLinks.forEach(element => {
+        element.tabIndex = -1;
+    });
 }
 
 function trapFocus() {
