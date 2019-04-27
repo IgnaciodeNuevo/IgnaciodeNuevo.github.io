@@ -8,9 +8,7 @@ const englishArticles = document.querySelectorAll("[data-lang='en']");
 
 // Declared in offcanvas.js => const activeClassName = 'is-active';
 
-selectAll.addEventListener('click', (event) => {
-    event.preventDefault();
-
+selectAll.addEventListener('click', () => {
     selectAll.classList.add(activeClassName);
 
     selectEnglish.classList.remove(activeClassName);
@@ -21,9 +19,7 @@ selectAll.addEventListener('click', (event) => {
     });
 });
 
-selectSpanish.addEventListener('click', (event) => {
-    event.preventDefault();
-
+selectSpanish.addEventListener('click', () => {
     selectSpanish.classList.add(activeClassName);
 
     selectEnglish.classList.remove(activeClassName);
@@ -38,9 +34,7 @@ selectSpanish.addEventListener('click', (event) => {
     });
 });
 
-selectEnglish.addEventListener('click', (event) => {
-    event.preventDefault();
-
+selectEnglish.addEventListener('click', () => {
     selectEnglish.classList.add(activeClassName);
 
     selectSpanish.classList.remove(activeClassName);
