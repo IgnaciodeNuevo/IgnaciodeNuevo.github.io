@@ -2,11 +2,11 @@ const selectAll = document.querySelector('.js-lang-all');
 const selectSpanish = document.querySelector('.js-lang-es');
 const selectEnglish = document.querySelector('.js-lang-en');
 
-const activeClassName = 'is-active';
+const allArticles = document.querySelectorAll('article');
+const spanishArticles = document.querySelectorAll("[data-lang='es']");
+const englishArticles = document.querySelectorAll("[data-lang='en']");
 
-let allArticles = document.querySelectorAll('article');
-let spanishArticles = document.querySelectorAll("[data-lang='es']");
-let englishArticles = document.querySelectorAll("[data-lang='en']");
+// Declared in offcanvas.js => const activeClassName = 'is-active';
 
 selectAll.addEventListener('click', () => {
     selectAll.classList.add(activeClassName);
