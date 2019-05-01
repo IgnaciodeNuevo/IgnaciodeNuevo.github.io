@@ -92,6 +92,29 @@ Mi resumen de todo es, pair programming, mucho pairing, hasta que el equipo est�
 
 <a class="link link--special" href="https://twitter.com/geeksusma" target="_blank" rel="noopener noreferrer">Twitter de Jesús María Villar</a>.
 
+## Dani Latorre
+
+Buenas! Pues lo he intentado en un par de ocasiones: Con @senpaidevs era un poco particular por ser grupal. Montamos una lista de temas que creíamos que eran importantes y pueden aportar a "cualquiera". Íbamos improvisando sobre la marcha entre hacer charletas y ejercicios (katas y un proyecto), además de recomendar lecturas y videos para comentarlos luego.
+
+- TDD y testing
+- Git
+- Cultura devops
+- Metodología
+- Katas
+- Un proyecto
+
+Los ejercicios siempre en pairing, nadie trabajaba a solas.
+
+En otra ocasión intenté echar un cable a una compañera a introducirse en la programación front/js. Salió un poco mal porque era en remoto y ni ella ni yo lo empujamos demasiado. Procuré darle un enfoque algo "agnóstico" empezando con temas de koans de js y katas con js... hasta que nos deshinchamos ambos; mi idea hubiera sido seguir con vue (por ser el fw que venía utilizando) y hacer un proyecto como hilo conductor.
+
+En ese caso al ser remoto la aproximación de code reviews asíncronos creo que nos hubieran facilitado. Pairear en remoto en mi experiencia es un poco más complicadete.
+
+Ah! Y una práctica que creo que puede ser interesante, si es una persona que trabaja ya en el sector, es utilizar código real. Ya sea de su curro o participar o hacer algo open source.
+
+Lo de que sea del curro en el tiempo libre es un poco... meh, pero ayuda a llevar al día a día lo que se va aprendiendo (en temas de testing es un punto muy guay IMHO :))
+
+<a class="link link--special" href="https://twitter.com/dani_latorre" target="_blank" rel="noopener noreferrer">Dani Latorre</a>
+
 <div class="related">
     <h4 class="related__title">Recursos</h4>
     <ul class="related__list">
