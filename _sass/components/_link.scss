@@ -23,7 +23,7 @@
     &--special {
             background: -webkit-gradient(linear, left top, right top, from(#0047bb), to(#00173b)); // Do not change/remove, will break styles in Chrome
             background: linear-gradient(to right, #0047bb, #00173b); // Do not change/remove, will break styles in Chrome
-            border: var(--border-width) dotted transparent; // Magic String: Do not change/remove
+            border: 1px solid transparent; // Magic String: Do not change/remove
             box-decoration-break: clone;
             position: relative;
             text-decoration: none;
