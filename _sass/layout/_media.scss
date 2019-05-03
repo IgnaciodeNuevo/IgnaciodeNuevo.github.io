@@ -94,8 +94,4 @@
             margin-bottom: calc(var(--space-xxs) * -1); // Visual correction to align the text
         }
     }
-
-    .link {
-        @include transition();
-    }
 }
