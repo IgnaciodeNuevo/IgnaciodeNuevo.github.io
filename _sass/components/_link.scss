@@ -55,6 +55,26 @@
         }
     }
 
+    &__text {
+        position: relative;
+
+        &:after {
+            background: currentColor;
+            border-radius: var(--border-radius-xxs);
+            bottom: 0;
+            content: "";
+            height: 2px; // Magic String: Do not change/remove
+            left: 0;
+            opacity: var(--opacity);
+            position: absolute;
+            width: 100%;
+        }
+
+        &:hover:after {
+            opacity: 1;
+        }
+    }
+
     .icon {
         margin-bottom: calc(var(--space-xs) * -1); // Visual correction to align the text
     }
