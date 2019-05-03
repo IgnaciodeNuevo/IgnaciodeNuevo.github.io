@@ -102,7 +102,7 @@
 
     .btn--fill:hover {
         background-color: var(--color-base-lightest);
-        border: var(--border-width) solid var(--color-base-lightest); // Magic String: Do not change/remove
+        border: var(--border-width) solid var(--color-base-lightest);
         color: var(--color-base-dark);
     }
 }
