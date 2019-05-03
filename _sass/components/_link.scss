@@ -2,7 +2,7 @@
 // This file contains all styles related to the link component of the website.
 // -----------------------------------------------------------------------------
 .link {
-    border: 2px dotted transparent; // Magic String: Do not change/remove
+    border: var(--border-width) dotted transparent; // Magic String: Do not change/remove
     color: currentColor;
     padding-bottom: var(--space-xxs);
     padding-top: var(--space-xxs);
@@ -17,7 +17,7 @@
 
     &:focus {
         border-color: transparent; // Magic String: Do not change/remove
-        outline: 2px dotted currentColor;
+        outline: var(--border-width) dotted currentColor;
     }
 
     &--special {
@@ -33,7 +33,7 @@
 
             &:focus {
                 border-color: transparent; // Magic String: Do not change/remove
-                outline: 2px dotted currentColor;
+                outline: var(--border-width) dotted currentColor;
             }
 
             &:after {
@@ -56,6 +56,8 @@
     }
 
     &__text {
+        padding-bottom: var(--space-xxs);
+        padding-top: var(--space-xxs);
         position: relative;
 
         &:after {
@@ -63,7 +65,7 @@
             border-radius: var(--border-radius-xxs);
             bottom: 0;
             content: "";
-            height: 2px; // Magic String: Do not change/remove
+            height: 2px;
             left: 0;
             opacity: var(--opacity);
             position: absolute;
