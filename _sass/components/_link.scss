@@ -11,8 +11,10 @@
     text-decoration-skip: ink;
     text-decoration-style: dotted;
 
-    &:hover {
-        text-decoration-style: solid;
+    @media (hover: hover) {
+        &:hover {
+            text-decoration-style: solid;
+        }
     }
 
     &:focus {
@@ -49,8 +51,10 @@
             width: 100%;
         }
 
-        &:hover:after {
-            opacity: 1;
+        @media (hover: hover) {
+            &:hover:after {
+                opacity: 1;
+            }
         }
     }
 
@@ -71,8 +75,10 @@
             width: 100%;
         }
 
-        &:hover:after {
-            opacity: 1;
+        @media (hover: hover) {
+            &:hover:after {
+                opacity: 1;
+            }
         }
     }
 

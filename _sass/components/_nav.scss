@@ -64,7 +64,12 @@
             outline: var(--border-width) dotted var(--color-base-lightest);
         }
 
-        &:hover,
+        @media (hover: hover) {
+            &:hover {
+                border-bottom: var(--border-width) solid var(--color-base-lightest);
+            }
+        }
+
         &.is-active {
             border-bottom: var(--border-width) solid var(--color-base-lightest);
         }
@@ -88,11 +93,13 @@
             padding-left: var(--space-l);
             padding-right: var(--space-l);
 
-            &:hover {
-                background-color: var(--color-base-lightest);
-                transition-duration: var(--animation-speed);
-                transition-property: background-color, border-bottom;
-                transition-timing-function: var(--animation-type-cubic);
+            @media (hover: hover) {
+                &:hover {
+                    background-color: var(--color-base-lightest);
+                    transition-duration: var(--animation-speed);
+                    transition-property: background-color, border-bottom;
+                    transition-timing-function: var(--animation-type-cubic);
+                }
             }
 
             &.is-active {

@@ -15,10 +15,12 @@
     @include opentype-all-opentype-small-caps();
     @include transition();
 
-    &:hover {
-        background-color: var(--color-base-lightest);
-        color: var(--color-base-dark);
-        cursor: pointer;
+    @media (hover: hover) {
+        &:hover {
+            background-color: var(--color-base-lightest);
+            color: var(--color-base-dark);
+            cursor: pointer;
+        }
     }
 
     &:focus {
@@ -36,8 +38,15 @@
     border: var(--border-width) solid currentColor;
     color: currentColor;
 
-    &:active,
-    &:hover {
+    @media (hover: hover) {
+        &:hover {
+            background-color: var(--color-base-lightest);
+            border-color: var(--color-base-lightest);
+            color: var(--color-base-dark);
+        }
+    }
+
+    &:active {
         background-color: var(--color-base-lightest);
         border-color: var(--color-base-lightest);
         color: var(--color-base-dark);
@@ -49,10 +58,12 @@
     border: var(--border-width) solid var(--color-primary);
     color: var(--color-base-lightest);
 
-    &:hover {
-        background-color: var(--color-primary-darker);
-        border: var(--border-width) solid var(--color-primary-darker);
-        color: var(--color-base-lightest);
+    @media (hover: hover) {
+        &:hover {
+            background-color: var(--color-primary-darker);
+            border: var(--border-width) solid var(--color-primary-darker);
+            color: var(--color-base-lightest);
+        }
     }
 
     &:active {
@@ -65,7 +76,7 @@
         margin-right: var(--space-s);
     }
 
-     > svg:last-child {
+    > svg:last-child {
         margin-right: 0;
     }
 }
@@ -76,10 +87,12 @@
     color: var(--color-base-dark);
     padding: var(--space-s);
 
-    &:hover {
-        background-color: var(--color-base-dark);
-        border-color: var(--color-base-dark);
-        color: var(--color-base-lightest);
+    @media (hover: hover) {
+        &:hover {
+            background-color: var(--color-base-dark);
+            border-color: var(--color-base-dark);
+            color: var(--color-base-lightest);
+        }
     }
 
     &:focus {
@@ -98,10 +111,12 @@
     right: var(--space-m);
     text-align: center;
 
-    &:hover {
-        background-color: var(--color-primary-darker);
-        border: var(--border-width) solid var(--color-primary-darker);
-        color: var(--color-base-lightest);
+    @media (hover: hover) {
+        &:hover {
+            background-color: var(--color-primary-darker);
+            border: var(--border-width) solid var(--color-primary-darker);
+            color: var(--color-base-lightest);
+        }
     }
 
     &:active {

@@ -60,13 +60,15 @@
 
         @include transition();
 
-        &:hover {
-            background-color: var(--color-base-lightest);
-            color: var(--color-base-dark);
+        @media (hover: hover) {
+            &:hover {
+                background-color: var(--color-base-lightest);
+                color: var(--color-base-dark);
 
-            .media__time,
-            .media__subtitle {
-                color: inherit;
+                .media__time,
+                .media__subtitle {
+                    color: inherit;
+                }
             }
         }
 
