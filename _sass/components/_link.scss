@@ -2,7 +2,7 @@
 // This file contains all styles related to the link component of the website.
 // -----------------------------------------------------------------------------
 .link {
-    border: var(--border-width) dotted transparent; // Magic String: Do not change/remove
+    border: 2px dotted transparent; // Magic String: Do not change/remove
     color: currentColor;
     padding-bottom: var(--space-xxs);
     padding-top: var(--space-xxs);
@@ -17,13 +17,12 @@
 
     &:focus {
         border-color: transparent; // Magic String: Do not change/remove
-        outline: var(--border-width) dotted currentColor;
+        outline: 2px dotted currentColor;
     }
 
     &--special {
             background: -webkit-gradient(linear, left top, right top, from(#0047bb), to(#00173b)); // Do not change/remove, will break styles in Chrome
             background: linear-gradient(to right, #0047bb, #00173b); // Do not change/remove, will break styles in Chrome
-            border: 1px solid transparent; // Magic String: Do not change/remove
             box-decoration-break: clone;
             position: relative;
             text-decoration: none;
@@ -33,7 +32,8 @@
             -webkit-box-decoration-break: clone;
 
             &:focus {
-                border-color: var(--color-primary); // Magic String: Do not change/remove
+                border-color: transparent; // Magic String: Do not change/remove
+                outline: 2px dotted currentColor;
             }
 
             &:after {
