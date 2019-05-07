@@ -93,6 +93,18 @@ window.matchMedia('(min-width: 48em)').addListener(function () {
     }
 });
 
-window.addEventListener('DOMContentLoaded', function () {
-    removeBodyActiveClass();
+
+// navLinks.forEach(function(element) {
+//     element.addEventListener('click', function () {
+//         console.log(`Deleted ${activeClassName} class on body by clicking ${element}`)
+//         removeBodyActiveClass();
+//     });
+// })
+
+
+navMenu.addEventListener('click', function (event) {
+    if (event.target.parentElement.hasAttribute('href')) {
+        alert(`Removed .${activeClassName} CSS class by clicking ${event.target.parentElement}`)
+        removeBodyActiveClass();
+    }
 });
