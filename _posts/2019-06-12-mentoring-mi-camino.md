@@ -5,12 +5,12 @@ tags:
   - Mentoring
 lang: es
 page_class: post
-description: ¿Qué es la mentoría? Siempre pensé lo interesante que sería tener un mentor o mentora y lo que se puede aprender. Lo que nunca me plantee es ser mentor, llevo poco tiempo en el sector y aunque se CSS no a mucha gente le interesa en exceso. ¿Qué podía enseñar yo?
+description: ¿Qué es la mentoría? Siempre pensé lo interesante que sería tener un mentor o mentora y lo que se puede aprender. Lo que nunca me plantee es ser mentor, llevo poco tiempo en el sector y aunque se CSS no a mucha gente le interesa en exceso. ¿Qué voy a aportar yo?
 ---
 
 Todo parte cuando decidí dar el salto a aprender JavaScript, algo que como cualquier cosa no se aprende el mismo día. Siempre me ha tocado <a class="link link--special" href="https://github.com/IgnaciodeNuevo/personal-goals" target="_blank" rel="noopener noreferrer">ser autodidacta</a> (como a mucha gente en el sector). Realmente se puede decir que empecé a aprender JavaScript de verdad en octubre de 2017 cuando me vine a Barcelona, un cambio profesional en el que sin duda he aprendido muchísimo. Ahora hago alguna cosa con Vue y React incluso.
 
-Mi forma de enfocarlo, como casi todo, es desde las bases, soy firme creyente que lo mejor que se puede hacer es aprender Vanilla JavaScript, a diferencia de otras personas que se ponen con una librería o framework concreto. Entender qué patrones sigue al hacer según que cosas, arquitectura para ver como ordenar las carpetas y evitar así problemas, en definitiva, lo que está debajo de la herramienta que está debajo.
+Mi forma de enfocarlo, como casi todo, es desde las bases, soy firme creyente que lo mejor que se puede hacer es aprender Vanilla JavaScript, a diferencia de otras personas que se ponen con una librería o framework concreto. Entender qué patrones sigue al hacer según que cosas, arquitectura para ver como ordenar las carpetas y evitar así problemas, en definitiva, lo que está debajo de la herramienta.
 
 Así que, tras entrar en el nuevo trabajo y empezar a tener trato con algunos compañeros decidí preguntarle a uno si no le importaría ser mi mentor, que estaba intentando aprender sobre el tema.
 
@@ -18,7 +18,7 @@ Me dijo que si y nos pusimos manos a la obra.
 
 ¿Por dónde empezar? ¿Qué se puede hacer con JavaScript? Me surgían dudas porque al empezar no conocía prácticamente nada más que añadir alguna clase en el HTML y poco más. ¿Testing? ¿Eso qué es? ¿Para qué sirve?
 
-Tenía muchísimas dudas porque no sabía programar más que lo que era hacer bucles, <span lang="en">if statements</span> y poco más. Si, hacía un tiempo había hecho un Bootcamp (en Ruby y cuatro días de jQuery y JavaScript) y no solamente ya no me acordaba de nada si no que no sabía por donde empezar. Conocer el ecosistema de herramientas y tecnologías no me ayudaba mucho, sabía que existía React, Vue, Angular y mil cosas más pero no sabía que era una directiva, un endpoint, no tenía ni idea de patrones de diseño (aún conozco pocos) pero menos aún conocía buenas prácticas. Durante mis primeros dos años o dos años y medio había maquetado únicamente, se me daba decentemente pero no era programador y por tanto por mucho que había escuchado decir que JavaScript proveía de la interacción eso no me decía mucho. Para mi interacción es movimiento, ¿animaciones web entonces?
+Tenía muchísimas dudas porque no sabía programar más que lo que era hacer bucles, <span lang="en">if statements</span> y poco más. Si, hacía un tiempo había hecho un Bootcamp (en Ruby y cuatro días de jQuery y JavaScript) y no solamente ya no me acordaba de nada si no que no sabía por donde empezar. Conocer el ecosistema de herramientas y tecnologías no me ayudaba mucho, sabía que existía React, Vue, Angular y mil cosas más pero no sabía que era una directiva, un <span lang="en">endpoint</span>, no tenía ni idea de patrones de diseño (aún conozco pocos) pero menos aún conocía buenas prácticas. Durante mis primeros dos años o dos años y medio había maquetado únicamente, se me daba decentemente pero no era programador y por tanto por mucho que había escuchado decir que JavaScript proveía de la interacción eso no me decía mucho. Para mi interacción es movimiento, ¿animaciones web entonces?
 
 ## Mi definición de mentoría
 
@@ -34,7 +34,7 @@ Me acuerdo que me decía, habrá un momento que hará «click» y entenderas cie
 
 Efectivamente, al cabo de un tiempo hizo «click» y entendí como hacer composición de funciones y pasar parámetros.
 
-No funcionó, por mi desgana al no saber hacia donde ir y por ir dejándolo pasar al final lo dejamos. Poco después de fue a trabajar a Londres, gracias por tanto Alfredo.
+No funcionó, por mi desgana al no saber hacia donde ir y por ir dejándolo pasar al final lo dejamos. Poco después se fue a trabajar a Londres, gracias por tanto Alfredo.
 
 ## De mentorizado a mentor
 
@@ -57,11 +57,11 @@ Tomé unas cuantas notas, así que aquí las dejo por si le sirven a alguien, te
 ### Notas del Open Space
 
 - Ayudar a la persona a ser autosuficiente.
-- El ritmo lo ha de llevar quien es mentorizado o mentorzada.
+- El ritmo lo ha de llevar quien es mentorizado o mentorizada.
 - El por qué se aprenden las cosas.
 - Hacer pair programming.
 - No tirar del mentee, que se preocupe de progresar.
-- Evitar el paternalismo y el adoctrinamiento (ser dogmático).
+- Evitar el paternalismo y el adoctrinamiento (no ser dogmático).
 - Si se intenta hacer fracasar la mentoría y el mentee no tira, mal.
 - Lado oscuro del mentee: falta de crítica y/o sumisión.
 - Expresar tu duda constantemente, hacerte ver que no eres perfecto, nadie lo es.
@@ -73,9 +73,9 @@ Tomé unas cuantas notas, así que aquí las dejo por si le sirven a alguien, te
 - Prender que las cosas pueden ser válidas y a su vez ninguna mejor que otra.
 - Dejarles hacer algo y que cuando se hayan equivocado hacerles una pregunta para cuestionar el resultado.
 - Dejar que fallen para que cuando vean la solución aprendan y refactoricen.
-- Cuestionar sus decisiones (no pain no gain).
+- Cuestionar sus decisiones (<span lang="en">no pain no gain</span>).
 
-Un año después (empezamos el 6 de julio de 2018) sigo mentorizando a esta perona, de Londres, en inglés (que aunque entiendo perfectamente hablado, escrito y oido hablado se me da regular). Ha sido un año increible de aprendizaje, desde como explicar conceptos, a guiar a una persona. Estoy muy orgulloso de lo que está consiguiendo.
+Un año después (empezamos el 6 de julio de 2018) sigo mentorizando a esta persona, de Londres, en inglés (que aunque entiendo perfectamente hablado, escrito y oido hablado se me da regular). Ha sido un año increible de aprendizaje, desde como explicar conceptos, a guiar a una persona. Estoy muy orgulloso de lo que está consiguiendo.
 
 He leído que el mentoring ha de ser bidireccional, que si tu no ganas no se está llevando bien. En verdad me da bastante igual el «ganar» algo o no. Lo hago porque tengo la suerte de tener tiempo. Lo que si me he dado cuenta es que aunque mi nivel hablado de inglés es decente, noto que me falta infinito vocabulario y me paso el día pidiendo perdón por mi capacidad a la hora de expresarme.
 
@@ -113,19 +113,19 @@ Tengo la suerte de tener muchos conocidos super agradables en el sector que no h
 
 ### Cristina Grim
 
-Al principio el apoyo sobre todo es moral, les surgen muchas dudas sobre su primer trabajo en el sector, entrevistas, cv....
+Al principio el apoyo sobre todo es moral, les surgen muchas dudas sobre su primer trabajo en el sector, entrevistas, currículum....
 
 Luego es más un contacto profesional y si surge una relación de amistad, es diferente, con unas cañas se da todo el apoyo que necesitan
 
 Les ayuda también bastante ir contigo a eventos para introducirse en el sector conocer a más gente, etc, etc
 
-<a class="link link--special" href="https://twitter.com/CristinaGrim" target="_blank" rel="noopener noreferrer">Twitter de Cristina Grim</a>
+<a class="link link--special" href="https://twitter.com/CristinaGrim" target="_blank" rel="noopener noreferrer">Twitter de Cristina Grim</a>.
 
 ### Daniel Primo
 
-Hola! Tengo experiencias intermitentes de mi etapa de trabajo en empresa y de hace un año con un oyente que me lo pidió expresamente. Volveré a la carga en una semana menotirzando a otra persona. Ya no recuerdo si te escribí por esto, pero la mayor dificultad no fue la motivación sino "que me hicieran caso". Tu dices "vete por aquí" y se despistan con cualquier tontería. Aquello del rabbit hole.
+Hola! Tengo experiencias intermitentes de mi etapa de trabajo en empresa y de hace un año con un oyente que me lo pidió expresamente. Volveré a la carga en una semana menotirzando a otra persona. Ya no recuerdo si te escribí por esto, pero la mayor dificultad no fue la motivación sino "que me hicieran caso". Tu dices "vete por aquí" y se despistan con cualquier tontería. Aquello del <span lang="en">rabbit hole</span>.
 
-<a class="link link--special" href="https://twitter.com/delineas" target="_blank" rel="noopener noreferrer">Twitter de Daniel Primo</a>
+<a class="link link--special" href="https://twitter.com/delineas" target="_blank" rel="noopener noreferrer">Twitter de Daniel Primo</a>.
 
 ### Jorge Barrachina
 
@@ -147,7 +147,7 @@ Hay dos líneas de actuación: La puramente técnica, y la social.
 - En cuanto a hacer "pairing", al principio si lo considero fundamental sobre todo, porque la gente a la que he mentorizado, no está acostumbrada a programar, y lo que hago es intentar que "cambien el chip" a la hora de cómo plantear un problema (descomponiéndolo en problemas pequeños), y siempre desde un punto de vista lógico. (La implementación es lo último).
 - En la parte de implementación, siempre hacemos varias, y luego le explico pro's y contras de hacer una u otra. Pero les dejo claro que al principio, es más importante que funcione que que sea elegante. Eso ya lo irán interiorizando con la experiencia.
 
-<a class="link link--special" href="https://twitter.com/NTKOG" target="_blank" rel="noopener noreferrer">Twitter de Jorge Barrachina</a>
+<a class="link link--special" href="https://twitter.com/NTKOG" target="_blank" rel="noopener noreferrer">Twitter de Jorge Barrachina</a>.
 
 ### Meritxell Calvo
 
@@ -169,7 +169,7 @@ Si es una mentoría en un evento, solemos recurrir al pair programming y a las r
 
 - Cuando es una mentoría de grupo, por ejemplo durante los cursos de la Devscola, intentamos que se forme una mentalidad de aprendizaje en equipo. Aunque cada una tiene su trello con sus recursos, el grupo en conjunto tiene un objetivo (un proyecto real).
 
-<a class="link link--special" href="https://twitter.com/nyan_dev" target="_blank" rel="noopener noreferrer">Twitter de Meritxell Calvo</a>
+<a class="link link--special" href="https://twitter.com/nyan_dev" target="_blank" rel="noopener noreferrer">Twitter de Meritxell Calvo</a>.
 
 ### Alberto Fortes
 
@@ -184,7 +184,7 @@ En mi caso:
 - Y dejando de hacer código y estando en cambio dispuesto y libre para ayudar. En mi caso al principio me costó pq prefiero picar código q estar de call en call rollo mentoring.
 - Ah y muy importante, si eres tech lead, que todo ticket asignado a tu equipo pase antes por ti. Para detectar duplicados, tareas contradictorias o erróneas, decidir si dicha tarea es o no adecuada para tal persona o falta coherencia o instrucciones etc.
 
-<a class="link link--special" href="https://twitter.com/albertofortes" target="_blank" rel="noopener noreferrer">Twitter de Alberto Fortes</a>
+<a class="link link--special" href="https://twitter.com/albertofortes" target="_blank" rel="noopener noreferrer">Twitter de Alberto Fortes</a>.
 
 ### Jesús María Villar
 
@@ -192,10 +192,10 @@ Yo en mi curro soy Teach Lead aka Mentor, y también mentorizo a dos compis que 
 
 Lo primero es lo primero, y es que cómo mentor, debes tener muy claro hacia dónde quieres mentorizar a tus compañeros. Yo por ejemplo, considero que lo que todo desarrollador de calidad debe tener es lo siguiente:
 
-- Principios SOLID
-- TDD
-- BDD
-- Automatización de pruebas
+- Principios SOLID.
+- TDD.
+- BDD.
+- Automatización de pruebas.
 
 Si te fijas, son conceptos totalmente agnósticos de la tecnología que implementes (a no ser que trabajes con cobol o cosas así que lo dudo).
 
@@ -215,12 +215,12 @@ Mi resumen de todo es, pair programming, mucho pairing, hasta que el equipo est�
 
 Buenas! Pues lo he intentado en un par de ocasiones: Con @senpaidevs era un poco particular por ser grupal. Montamos una lista de temas que creíamos que eran importantes y pueden aportar a "cualquiera". Íbamos improvisando sobre la marcha entre hacer charletas y ejercicios (katas y un proyecto), además de recomendar lecturas y videos para comentarlos luego.
 
-- TDD y testing
-- Git
-- Cultura devops
-- Metodología
-- Katas
-- Un proyecto
+- TDD y testing.
+- Git.
+- Cultura devops.
+- Metodología.
+- Katas.
+- Un proyecto.
 
 Los ejercicios siempre en pairing, nadie trabajaba a solas.
 
