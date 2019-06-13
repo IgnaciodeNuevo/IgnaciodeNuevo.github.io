@@ -52,7 +52,7 @@ No pudo ser mejor la experiencia, quizá porque no tenía mucha idea de práctic
     <a class="link" href="https://twitter.com/IgnaciodeNuevo/status/1008032551309463553" target="_blank" rel="noopener noreferrer">Tweet: ⚡️ «Viaje en el día de Barcelona a Valencia al Open Space organizado por @XaV1uzz y @gootyfer»</a>
 </p>
 
-Tomé unas cuantas notas, así que aquí las dejo por si le sirven a alguien, teniendo en cuenta que yo no soy un experto y que de ésto ha pasado más de un año. Puede que algo esté fuera de contexto y os parezca raro.
+Tomé unas cuantas notas, así que aquí las dejo por si le sirven a alguien, también tener en cuenta que de ésto ha pasado más de un año. Puede que algo esté fuera de contexto y os parezca raro.
 
 ### Notas del Open Space
 
@@ -101,9 +101,9 @@ Desde hace tiempo también miramos lo no técnico, miedos de no encontrar trabaj
 
 Aún así, lo que más me ha costado con mucho es el ver que cada uno tiene sus tiempos y aprendemos de diferentes modos.
 
-Como veis, soy totalmente inexperto y aún así una persona a la que aprecio me preguntó hace unos días si podía mentorizarle así que he aceptado, creo que aunque voy a tener a dos personas en paralelo voy a poder dedicarles el tiempo que merecen, si no, no lo haría. Vivo solo y no tengo cargas familiares, eso no puede decirlo todo el mundo, así que no nos olvidemos de este pequeño detalle, lo hago porque puedo.
+Una persona a la que aprecio me preguntó hace unos días si podía mentorizarle así que he aceptado, creo que aunque voy a tener a dos personas en paralelo voy a poder dedicarles el tiempo que merecen, si no, no lo haría. Vivo solo y no tengo cargas familiares, eso no puede decirlo todo el mundo, así que no nos olvidemos de este pequeño detalle, lo hago porque puedo.
 
-Como no soy un experto pregunté a en Twitter si alguien me podía dar consejos para mejorar.
+Pregunté a en Twitter si alguien me podía dar consejos para mejorar.
 
 <p class="tweet" lang="es">
     <a class="link" href="https://twitter.com/IgnaciodeNuevo/status/1123697248456577025" target="_blank" rel="noopener noreferrer">Tweet: ⚡️ «¿Algún consejo o recurso sobre mentoring?»</a>
@@ -238,7 +238,7 @@ Lo de que sea del curro en el tiempo libre es un poco... meh, pero ayuda a lleva
 
 Estoy muy contento de ver a gente progresar y sentir que soy útil a alguien de ese modo, ojalá yo hubiese sabido aprovechar la mentoría de Alfredo.
 
-Me queda muchísimo que aprender, no soy un experto ni muchísimo menos pero para ayudar a la gente no tienes que llevar 20 años en el sector, siempre puedes encontrar alguien a quien le puedas aportar.
+Me queda muchísimo que aprender, pero para ayudar a la gente no tienes que llevar 20 años en el sector, siempre puedes encontrar alguien a quien le puedas aportar.
 
 Espero que os sea de utilidad, es el artículo con mucho que más me ha costado escribir y del que hasta ahora más orgulloso me siento.
 
