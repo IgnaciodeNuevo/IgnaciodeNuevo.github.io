@@ -10,11 +10,11 @@ description: ¿Qué es la mentoría? Siempre pensé lo interesante que sería te
 
 Todo parte cuando decidí dar el salto a aprender JavaScript, algo que como cualquier cosa no se aprende el mismo día. Siempre me ha tocado <a class="link link--special" href="https://github.com/IgnaciodeNuevo/personal-goals" target="_blank" rel="noopener noreferrer">ser autodidacta</a> (como a mucha gente en el sector). Realmente se puede decir que empecé a aprender JavaScript de verdad en octubre de 2017 cuando me vine a Barcelona, un cambio profesional en el que sin duda he aprendido muchísimo. Ahora hago alguna cosa con Vue y React incluso.
 
-Mi forma de enfocarlo, como casi todo, es desde las bases, soy firme creyente que lo mejor que se puede hacer es aprender Vanilla JavaScript, a diferencia de otras personas que se ponen con una librería o <span lang="en">framework</span> concreto. Entender qué patrones sigue al hacer según que cosas, arquitectura para ver como ordenar las carpetas y evitar así problemas, en definitiva, lo que está debajo de la herramienta.
+Mi forma de enfocarlo, como casi todo, es desde las bases. Soy firme creyente que lo mejor que se puede hacer es aprender Vanilla JavaScript, a diferencia de otras personas que se ponen con una librería o <span lang="en">framework</span> concreto. Entender qué patrones sigue al hacer según que cosas, arquitectura para ver cómo ordenar las carpetas y evitar así problemas, en definitiva, lo que está debajo de la herramienta.
 
 Así que, tras entrar en el nuevo trabajo y empezar a tener trato con algunos compañeros decidí preguntarle a uno si no le importaría ser mi mentor, que estaba intentando aprender sobre el tema.
 
-Me dijo que si y nos pusimos manos a la obra.
+Me dijo que sí y nos pusimos manos a la obra.
 
 ¿Por dónde empezar? ¿Qué se puede hacer con JavaScript? Me surgían dudas porque al empezar no conocía prácticamente nada más que añadir alguna clase en el HTML y poco más. ¿<span lang="en">Testing</span>? ¿Eso qué es? ¿Para qué sirve?
 
@@ -22,13 +22,13 @@ Tenía muchísimas dudas porque no sabía programar más que lo que era hacer bu
 
 ## Mi definición de mentoría
 
-Una persona con experiencia en un campo concreto guía, que no enseña a otra que comienzan o quieren mejorar manteniendo una relación personal.
+Una persona con experiencia en un campo concreto que guía (no enseña) a otra que comienza o quiere mejorar, manteniendo una relación personal.
 
 ## Mi experiencia siendo mentorizado
 
 Estuvimos unas semanas reuniéndonos después del trabajo de vez en cuando pero unas veces no podía él y otras veces yo me hacía el remolón porque me costaba saber que preguntar o por donde avanzar, estaba perdido.
 
-Me ayudó a que me explicase ciertas cosas que yo había visto y no entendía tras haber dedicado tiempo a investigar por mi cuenta. Le preguntaba definiciones sobre términos de JavaScript como <span lang="en">closures</span>, recursividad, o <span lang="en">callback hell</span>. El problema es que aunque había leído sobre el tema en mi casa, al ser términos avanzados (al menos para mi en ese momento) y desde luego que eran inconexos me costaba muchísimo entenderlos.
+Me ayudó a que me explicase ciertas cosas que yo había visto y no entendía tras haber dedicado tiempo a investigar por mi cuenta. Le preguntaba definiciones sobre términos de JavaScript como <span lang="en">closures</span>, recursividad, o <span lang="en">callback hell</span>. El problema es que aunque había leído sobre el tema en mi casa, al ser términos avanzados (al menos para mí en ese momento) y desde luego que eran inconexos me costaba muchísimo entenderlos.
 
 Me acuerdo que me decía, habrá un momento que hará «click» y entenderás ciertas cosas. ¿Cómo que hará «click»? No sabía ni pasar parámetros a funciones y mucho menos hacer composición de funciones.
 
@@ -62,7 +62,7 @@ Tomé unas cuantas notas, así que aquí las dejo por si le sirven a alguien, ta
 - Hacer <span lang="en">pair programming</span>.
 - No tirar del <span lang="en">mentee</span>, que se preocupe de progresar.
 - Evitar el paternalismo y el adoctrinamiento (no ser dogmático).
-- Si se intenta hacer fracasar la mentoría y el mentee no tira, mal.
+- Ha de ser el mentee quien tome la iniciativa en la mentoría para que sea un éxito.
 - Lado oscuro del <span lang="en">mentee</span>: falta de crítica y/o sumisión.
 - Expresar tu duda constantemente, hacerte ver que no eres perfecto, nadie lo es.
 - <span lang="en">Code reviews</span>.
@@ -70,7 +70,7 @@ Tomé unas cuantas notas, así que aquí las dejo por si le sirven a alguien, ta
 - Cada persona tiene su ritmo.
 - Al principio aceptar como válido y absorber conocimiento pero a la larga ser crítico y capaz de cambiar de opinión.
 - Resolver dudas de cosas que tu también tuviste.
-- Prender que las cosas pueden ser válidas y a su vez ninguna mejor que otra.
+- Aprender que las cosas pueden ser válidas y a su vez ninguna mejor que otra.
 - Dejarles hacer algo y que cuando se hayan equivocado hacerles una pregunta para cuestionar el resultado.
 - Dejar que fallen para que cuando vean la solución aprendan y <span lang="en">refactoricen</span>.
 - Cuestionar sus decisiones (<span lang="en">no pain no gain</span>).
