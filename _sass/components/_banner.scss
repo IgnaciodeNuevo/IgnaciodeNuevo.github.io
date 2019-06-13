@@ -7,11 +7,11 @@
     color: #ffffff;
     display: block;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 1rem; // Magic String: Do not change/remove
+    padding: 1rem;
     position: fixed;
     text-align: center;
     width: 100%;
-    z-index: 4; // Magic String: Do not change/remove
+    z-index: 4;
 
     @supports (--border: 1px) {
         display: none;

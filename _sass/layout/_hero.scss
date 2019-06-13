@@ -48,7 +48,7 @@
 
     &__picture,
     &__img {
-        display: none;
+        // display: none;
 
         @supports (grid-gap: 1rem) and (object-fit: cover) {
             height: calc(100vh - var(--nav-height));
@@ -59,22 +59,22 @@
             grid-row: 1 / -1;
 
             // TODO: Remove when /home's portrait is no longer pixelated
-            @media (max-width: 80em) {
-                &.small {
-                    display: block;
-                }
-            }
+            // @media (max-width: 80em) {
+            //     &.small {
+            //         display: block;
+            //     }
+            // }
 
             // TODO: Remove when /home's portrait is no longer pixelated
-            @media (min-width: 80.000000001em) {
-                &.small {
-                    display: none;
-                }
+            // @media (min-width: 80.000000001em) {
+            //     &.small {
+            //         display: none;
+            //     }
 
-                &.big {
-                    display: block;
-                }
-            }
+            //     &.big {
+            //         display: block;
+            //     }
+            // }
         }
 
         // PX units to make it work on Phones
@@ -133,8 +133,6 @@
 
         .link {
             color: var(--color-secondary);
-
-            @include transition();
         }
     }
 }

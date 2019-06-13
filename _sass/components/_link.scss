@@ -2,7 +2,7 @@
 // This file contains all styles related to the link component of the website.
 // -----------------------------------------------------------------------------
 .link {
-    border: var(--border-width) dotted transparent; // Magic String: Do not change/remove
+    border: var(--border-width) dotted transparent;
     color: currentColor;
     padding-bottom: var(--space-xxs);
     padding-top: var(--space-xxs);
@@ -11,45 +11,72 @@
     text-decoration-skip: ink;
     text-decoration-style: dotted;
 
-    &:hover {
-        text-decoration-style: solid;
+    @media (hover: hover) {
+        &:hover {
+            text-decoration-style: solid;
+        }
     }
 
     &:focus {
-        border-color: transparent; // Magic String: Do not change/remove
+        border-color: transparent;
         outline: var(--border-width) dotted currentColor;
     }
 
     &--special {
-            background: -webkit-gradient(linear, left top, right top, from(#0047bb), to(#00173b)); // Do not change/remove, will break styles in Chrome
-            background: linear-gradient(to right, #0047bb, #00173b); // Do not change/remove, will break styles in Chrome
-            border: var(--border-width) dotted transparent; // Magic String: Do not change/remove
-            box-decoration-break: clone;
-            position: relative;
-            text-decoration: none;
-            white-space: nowrap;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            -webkit-box-decoration-break: clone;
+        background: -webkit-gradient(linear, left top, right top, from(#0047bb), to(#00173b)); // Do not change/remove, will break styles in Chrome
+        background: linear-gradient(to right, #0047bb, #00173b); // Do not change/remove, will break styles in Chrome
+        background-clip: border-box;
+        box-decoration-break: clone;
+        position: relative;
+        text-decoration: none;
+        white-space: nowrap;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-box-decoration-break: clone;
 
-            &:focus {
-                border-color: var(--color-primary); // Magic String: Do not change/remove
+        &:focus {
+            border-color: transparent;
+            outline: var(--border-width) dotted currentColor;
+        }
+
+        &:after {
+            background: var(--linear-gradient);
+            border-radius: var(--border-radius-xxs);
+            bottom: 0;
+            content: "";
+            height: 2px; // Magic String: Do not change/remove
+            left: 0;
+            opacity: var(--opacity);
+            position: absolute;
+            width: 100%;
+        }
+
+        @media (hover: hover) {
+            &:hover:after {
+                opacity: 1;
             }
+        }
+    }
 
-            &:after {
-                background: var(--linear-gradient);
-                border-radius: var(--border-radius-xxs);
-                bottom: 0;
-                content: "";
-                height: 2px; // Magic String: Do not change/remove
-                left: 0;
-                opacity: var(--opacity);
-                position: absolute;
-                width: 100%;
-            }
+    &__text {
+        padding-bottom: var(--space-xxs);
+        padding-top: var(--space-xxs);
+        position: relative;
 
-        &:hover:after {
-            @supports (background-clip: text) or (-webkit-background-clip: text) {
+        &:after {
+            background: currentColor;
+            border-radius: var(--border-radius-xxs);
+            bottom: 0;
+            content: "";
+            height: 2px;
+            left: 0;
+            opacity: var(--opacity);
+            position: absolute;
+            width: 100%;
+        }
+
+        @media (hover: hover) {
+            &:hover:after {
                 opacity: 1;
             }
         }

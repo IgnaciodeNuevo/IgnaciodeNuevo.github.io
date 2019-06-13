@@ -62,21 +62,21 @@
 input,
 textarea {
     border-radius: var(--border-radius-xxs);
-    border: var(--border-width) solid transparent; // Magic String: Do not change/remove
+    border: var(--border-width) solid transparent;
     margin-bottom: var(--space-l);
     padding: var(--space-s);
     position: relative;
 
     &:focus {
-        border: var(--border-width) solid currentColor; // Magic String: Do not change/remove
+        border: var(--border-width) solid currentColor;
     }
 
     &:invalid,
     &:valid {
         background-position: right var(--space-s) bottom 50%;
         background-repeat: no-repeat;
-        box-shadow: initial; // Reset default browser behavior
-        outline: initial; // Reset default browser behavior
+        box-shadow: initial;
+        outline: initial;
     }
 }
 

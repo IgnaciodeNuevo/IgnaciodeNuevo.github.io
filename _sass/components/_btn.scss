@@ -15,10 +15,12 @@
     @include opentype-all-opentype-small-caps();
     @include transition();
 
-    &:hover {
-        background-color: var(--color-base-lightest);
-        color: var(--color-base-dark);
-        cursor: pointer;
+    @media (hover: hover) {
+        &:hover {
+            background-color: var(--color-base-lightest);
+            color: var(--color-base-dark);
+            cursor: pointer;
+        }
     }
 
     &:focus {
@@ -33,11 +35,18 @@
 
 .btn--regular {
     background-color: transparent;
-    border: var(--border-width) solid currentColor; // Magic String: Do not change/remove
+    border: var(--border-width) solid currentColor;
     color: currentColor;
 
-    &:active,
-    &:hover {
+    @media (hover: hover) {
+        &:hover {
+            background-color: var(--color-base-lightest);
+            border-color: var(--color-base-lightest);
+            color: var(--color-base-dark);
+        }
+    }
+
+    &:active {
         background-color: var(--color-base-lightest);
         border-color: var(--color-base-lightest);
         color: var(--color-base-dark);
@@ -46,13 +55,15 @@
 
 .btn--fill {
     background-color: var(--color-primary);
-    border: var(--border-width) solid var(--color-primary); // Magic String: Do not change/remove
+    border: var(--border-width) solid var(--color-primary);
     color: var(--color-base-lightest);
 
-    &:hover {
-        background-color: var(--color-primary-darker);
-        border: var(--border-width) solid var(--color-primary-darker); // Magic String: Do not change/remove
-        color: var(--color-base-lightest);
+    @media (hover: hover) {
+        &:hover {
+            background-color: var(--color-primary-darker);
+            border: var(--border-width) solid var(--color-primary-darker);
+            color: var(--color-base-lightest);
+        }
     }
 
     &:active {
@@ -65,21 +76,23 @@
         margin-right: var(--space-s);
     }
 
-     > svg:last-child {
+    > svg:last-child {
         margin-right: 0;
     }
 }
 
 .btn--inverted {
     background-color: transparent;
-    border: var(--border-width) solid currentColor; // Magic String: Do not change/remove
+    border: var(--border-width) solid currentColor;
     color: var(--color-base-dark);
     padding: var(--space-s);
 
-    &:hover {
-        background-color: var(--color-base-dark);
-        border-color: var(--color-base-dark);
-        color: var(--color-base-lightest);
+    @media (hover: hover) {
+        &:hover {
+            background-color: var(--color-base-dark);
+            border-color: var(--color-base-dark);
+            color: var(--color-base-lightest);
+        }
     }
 
     &:focus {
@@ -89,7 +102,7 @@
 
 .btn--fixed {
     background-color: var(--color-primary);
-    border: var(--border-width) solid var(--color-primary); // Magic String: Do not change/remove
+    border: var(--border-width) solid var(--color-primary);
     bottom: var(--space-m);
     color: var(--color-base-lightest);
     display: none;
@@ -98,10 +111,12 @@
     right: var(--space-m);
     text-align: center;
 
-    &:hover {
-        background-color: var(--color-primary-darker);
-        border: var(--border-width) solid var(--color-primary-darker); // Magic String: Do not change/remove
-        color: var(--color-base-lightest);
+    @media (hover: hover) {
+        &:hover {
+            background-color: var(--color-primary-darker);
+            border: var(--border-width) solid var(--color-primary-darker);
+            color: var(--color-base-lightest);
+        }
     }
 
     &:active {

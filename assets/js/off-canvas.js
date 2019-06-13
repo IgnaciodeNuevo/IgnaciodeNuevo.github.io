@@ -60,7 +60,7 @@ function disableNavLinks() {
 }
 
 function trapFocus() {
-    navMenu.addEventListener('keydown', function(event) {
+    navMenu.addEventListener('keydown', function (event) {
         const isTabPressed = event.key === 'Tab' || event.keyCode === 9;
 
         if (!isTabPressed) {
@@ -86,9 +86,25 @@ function trapFocus() {
 initApp();
 trapFocus();
 
-window.matchMedia('(min-width: 48em)').addListener(function() {
+window.matchMedia('(min-width: 48em)').addListener(function () {
     if (document.body.classList.contains(activeClassName)) {
         removeBodyActiveClass()
         disableNavLinks();
+    }
+});
+
+
+// navLinks.forEach(function(element) {
+//     element.addEventListener('click', function () {
+//         console.log(`Deleted ${activeClassName} class on body by clicking ${element}`)
+//         removeBodyActiveClass();
+//     });
+// })
+
+
+navMenu.addEventListener('click', function (event) {
+    if (event.target.parentElement.hasAttribute('href')) {
+        alert(`Removed .${activeClassName} CSS class by clicking ${event.target.parentElement}`)
+        removeBodyActiveClass();
     }
 });

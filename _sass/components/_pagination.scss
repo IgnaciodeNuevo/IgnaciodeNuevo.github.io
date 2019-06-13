@@ -38,7 +38,18 @@
             padding-top: inherit;
             text-decoration: none;
 
-            &:hover,
+            @media (hover: hover) {
+                &:hover {
+                    background-color: var(--color-base-dark);
+                    color: var(--color-secondary);
+
+                    &::before,
+                    &::before {
+                        color: var(--color-base-lightest);
+                    }
+                }
+            }
+
             &:active {
                 background-color: var(--color-base-dark);
                 color: var(--color-secondary);

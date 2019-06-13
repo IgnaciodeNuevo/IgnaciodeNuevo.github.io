@@ -30,8 +30,8 @@
         grid-template-columns: 1fr var(--meta-width-s);
 
         @supports (grid-gap: 1rem) {
-            display: grid; // Magic String: Do not change/remove
-            max-width: var(--grid-width); // Magic String: Do not change/remove
+            display: grid;
+            max-width: var(--grid-width);
         }
 
         .meta {

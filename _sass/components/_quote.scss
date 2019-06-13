@@ -85,8 +85,10 @@
             width: 100%;
         }
 
-        &:hover:after {
-            opacity: 1;
+        @media (hover: hover) {
+            &:hover:after {
+                opacity: 1;
+            }
         }
     }
 }

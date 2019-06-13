@@ -31,21 +31,23 @@
         padding-top: var(--space-m);
         text-decoration: none;
 
-        &:hover {
-            background-color: var(--color-base-dark);
-            color: var(--color-base-dark);
+        @media (hover: hover) {
+            &:hover {
+                background-color: var(--color-base-dark);
+                color: var(--color-base-dark);
 
-            .article__time {
-                color: var(--color-base-lightest);
-            }
+                .article__time {
+                    color: var(--color-base-lightest);
+                }
 
-            .article__subtitle {
-                color: var(--color-secondary);
-            }
+                .article__subtitle {
+                    color: var(--color-secondary);
+                }
 
-            .tag,
-            .article__description {
-                color: var(--color-base-lightest);
+                .tag,
+                .article__description {
+                    color: var(--color-base-lightest);
+                }
             }
         }
 
@@ -100,9 +102,11 @@
         margin-right: var(--space-s);
     }
 
-    .btn--fill:hover {
-        background-color: var(--color-base-lightest);
-        border: var(--border-width) solid var(--color-base-lightest); // Magic String: Do not change/remove
-        color: var(--color-base-dark);
+    @media (hover: hover) {
+        .btn--fill:hover {
+            background-color: var(--color-base-lightest);
+            border: var(--border-width) solid var(--color-base-lightest);
+            color: var(--color-base-dark);
+        }
     }
 }
