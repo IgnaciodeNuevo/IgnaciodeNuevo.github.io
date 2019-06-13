@@ -253,8 +253,8 @@ Espero que os sea de utilidad, es el artículo con mucho que más me ha costado 
         <li><a class="link link--special" href="https://www.pdfdrive.com/clean-code-d38664751.html" target="_blank" rel="noopener noreferrer">Clean Code</a>.</li>
         <li><a class="link link--special" href="https://backlog.com/blog/git-vs-svn-version-control-system/" target="_blank" rel="noopener noreferrer">Git vs SVN</a>.</li>
         <li><a class="link link--special" href="http://rogerdudler.github.io/git-guide/index.es.html" target="_blank" rel="noopener noreferrer">Git la guía sencilla</a>.</li>
-        <li><a class="link link--special" href="https://blog.mwaysolutions.com/2014/06/05/10-best-practices-for-better-restful-api/" target="_blank" rel="noopener noreferrer">Best practices for better Restful <abbr title="Application programming interface">API</abbr></a>.</li>
-        <li><a class="link link--special" href="https://www.youtube.com/watch?v=MkpvaPcYvqk" target="_blank" rel="noopener noreferrer"><abbr title="Test Driven Development">TDD</abbr>, Vence a tu código zombie</a>.</li>
+        <li>Best practices for <a class="link link--special" href="https://blog.mwaysolutions.com/2014/06/05/10-best-practices-for-better-restful-api/" target="_blank" rel="noopener noreferrer">better Restful <abbr title="Application programming interface">API</abbr></a>.</li>
+        <li><a class="link link--special" href="https://www.youtube.com/watch?v=MkpvaPcYvqk" target="_blank" rel="noopener noreferrer"><abbr title="Test Driven Development">TDD</abbr></a>, Vence a tu código zombie.</li>
     </ul>
 </div>
 
