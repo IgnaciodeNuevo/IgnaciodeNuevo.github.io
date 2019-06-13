@@ -5,7 +5,7 @@ tags:
   - Mentoring
 lang: es
 page_class: post
-description: ¿Qué es la mentoría? Siempre pensé lo interesante que sería tener un mentor o mentora y lo que se puede aprender. Lo que nunca me plantee es ser mentor, llevo poco tiempo en el sector y aunque se <abbr title="Cascading Style Sheets">CSS</abbr> no a mucha gente le interesa en exceso. ¿Qué voy a aportar yo?
+description: ¿Qué es la mentoría? Siempre pensé lo interesante que sería tener un mentor o mentora y lo que se puede aprender. Lo que nunca me plantee es ser mentor, llevo poco tiempo en el sector y aunque me gusta el <abbr title="Cascading Style Sheets">CSS</abbr> o la accesibilidad, ¿a quién le iba interesar?
 ---
 
 Todo parte cuando decidí dar el salto a aprender JavaScript, algo que como cualquier cosa no se aprende el mismo día. Siempre me ha tocado <a class="link link--special" href="https://github.com/IgnaciodeNuevo/personal-goals" target="_blank" rel="noopener noreferrer">ser autodidacta</a> (como a mucha gente en el sector). Realmente se puede decir que empecé a aprender JavaScript de verdad en octubre de 2017 cuando me vine a Barcelona, un cambio profesional en el que sin duda he aprendido muchísimo. Ahora hago alguna cosa con Vue y React incluso.
@@ -40,7 +40,7 @@ No funcionó, por mi desgana al no saber hacia donde ir y por ir dejándolo pasa
 
 Después de un par de meses o así donde ya había unido conceptos (había hecho «click») decidí buscar nuevo mentor y un conocido de Twitter me recomendó un Slack orientado a <span lang="en">backend</span> que llevaba una empresa de <span lang="en">recruiting</span> en Gran Bretaña así que decidí probar suerte y buscar mentor pero cuando entré me preguntaron si podría mentorizar a alguien. Acepté pero claro, yo solamente sabía <abbr title="Cascading Style Sheets">CSS</abbr> así que les ofrecí <span lang="en">mentoring</span> técnico en ese área. Me preguntaron tres o cuatro personas y al final parece que encajé con una.
 
-Estaba con una ilusión enorme de ayudar a alguien, en el pasado lo había intentado un par de veces pero fallé estrepitosamente, cuando las cosas no funcionan hay que dejarlas ir. En Twitter vi que un compañero del sector que vive en Valencia comentó que iba a organizar un <a class="link link--special" href="http://reeelab.com/2013/02/16/manual-de-instrucciones-para-un-open-space/" target="_blank" rel="noopener noreferrer">Open Space</a> sobre y allá que fui.
+Estaba con una ilusión enorme de ayudar a alguien, en el pasado lo había intentado un par de veces pero fallé estrepitosamente, cuando las cosas no funcionan hay que dejarlas ir. En Twitter vi que un compañero del sector que vive en Valencia comentó que iba a organizar un <a class="link link--special" href="http://reeelab.com/2013/02/16/manual-de-instrucciones-para-un-open-space/" target="_blank" rel="noopener noreferrer">Open Space</a> sobre didáctica de la programación y allá que fui.
 
 <p class="tweet" lang="es">
     <a class="link" href="https://twitter.com/XaV1uzz/status/1005019520468168704" target="_blank" rel="noopener noreferrer">Tweet: ⚡️ «¿Os acordáis del Open Space ese sobre didáctica de la programación?»</a>
@@ -81,13 +81,13 @@ He leído que el <span lang="en">mentoring</span> ha de ser bidireccional, que s
 
 ## ¿Cómo nos organizamos?
 
-Al principio era un poco caos, quería aprender <abbr title="Cascading Style Sheets">CSS</abbr> y yo no paraba de facilitarle recursos, ya filtrados de los que creo que no son tan interesantes, pero acabas dándote cuenta que cada persona tiene una forma de aprender. Tenemos una reunión cada dos-tres semanas por Skype (de unas 2-3h) donde compartimos pantalla, hacemos <span lang="en">pair programming</span> y/o solucionamos algún problema. Ayer mismo me pidió ayuda con JavaScript y no súper solucionarlo 🤦🏻‍.
+Al principio era un poco caos, quería aprender <abbr title="Cascading Style Sheets">CSS</abbr> y yo no paraba de facilitarle recursos, ya filtrados de los que creo que no son tan interesantes, pero acabas dándote cuenta que cada persona tiene una forma de aprender. Tenemos una reunión cada dos-tres semanas por Skype (de unas 2-3h) donde compartimos pantalla, hacemos <span lang="en">pair programming</span> y/o solucionamos algún problema. Ayer mismo me pidió ayuda con JavaScript y no supe solucionarlo 🤦🏻‍.
 
-Empezó aprendiendo algo Flexbox y CSS Grid Layout, pero como todo hasta que no te encuentras problemas reales por mucha teoría que sepas si no te enfrentas a solucionarlo no acabas aprendiendo (al menos yo). Básicamente es lo que yo a muy grandes rasgos considero que es la diferencia entre un <span lang="en">junior</span> y un <span lang="en">senior</span>. El <span lang="en">senior</span> se ha peleado muchas más veces con problemas similares y le resultan familiares.
+Empezó aprendiendo algo de Flexbox y CSS Grid Layout, pero como todo hasta que no te encuentras problemas reales por mucha teoría que sepas si no te enfrentas a solucionarlo no acabas aprendiendo (al menos yo). Básicamente es lo que yo a muy grandes rasgos considero que es la diferencia entre un <span lang="en">junior</span> y un <span lang="en">senior</span>. El <span lang="en">senior</span> se ha peleado muchas más veces con problemas similares y le resultan familiares.
 
 Hacíamos pequeños ejercicios con Flexbox y Grid, posteriormente hizo su primera web y la subió a Github, luego la deployó en Netlify. Todo un logro. Nos hemos peleado con Gulp, estuvo un par de semanas con una frustración enorme porque el <span lang="en">Boilerplate</span> que habíamos montado no funcionaba y me dijo que se había cansado de usar Gulp, que le parecía una tontería y que iba a usar <abbr title="Cascading Style Sheets">CSS</abbr> sin Sass (motivo por el cual usábamos Gulp) así que al cabo de unos días lo migró a Gulp 4 y me dijo, «¡Ya funciona!».
 
-Hemos estado viendo como enfrentarse a sus primeros procesos de selección (apunta alto, la BBC, Spotify...), le ha pasado muchas veces que ve ofertas donde no se ve capaz, piden un junior con conocimientos de React, Redux, MYSQL, Node.JavaScript... Lo de siempre, la lista de los reyes magos. Hasta ha dado hasta su primera charla pública de nada menos que 15min.
+Hemos estado viendo como enfrentarse a sus primeros procesos de selección (apunta alto, la BBC, Spotify...), le ha pasado muchas veces que ve ofertas donde no se ve capaz, piden un junior con conocimientos de React, Redux, MYSQL, Node.JavaScript... Lo de siempre, la lista de los reyes magos. Hasta ha dado su primera charla pública de nada menos que 15min.
 
 Resulta mucho más fácil decirle que se de cuenta de lo que ha conseguido en apenas un año que de hacerlo yo con mi progreso. Quizá porque somos más críticos con nosotros mismos y nos cuesta ver nuestros propios logros.
 
