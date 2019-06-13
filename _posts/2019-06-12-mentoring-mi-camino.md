@@ -5,7 +5,7 @@ tags:
   - Mentoring
 lang: es
 page_class: post
-description: ¿Qué es la mentoría? Siempre pensé lo interesante que sería tener un mentor o mentora y lo que se puede aprender. Lo que nunca me plantee es ser mentor, llevo poco tiempo en el sector y aunque se <abbr title="Cascading Style Sheets">CSS</abbr> no a mucha gente le interesa en exceso. ¿Qué voy a aportar yo?
+description: ¿Qué es la mentoría? Siempre pensé lo interesante que sería tener un mentor o mentora y lo que se puede aprender. Lo que nunca me plantee es ser mentor, llevo poco tiempo en el sector y aunque me gusta el <abbr title="Cascading Style Sheets">CSS</abbr> o la accesibilidad, ¿a quién le iba interesar?
 ---
 
 Todo parte cuando decidí dar el salto a aprender JavaScript, algo que como cualquier cosa no se aprende el mismo día. Siempre me ha tocado <a class="link link--special" href="https://github.com/IgnaciodeNuevo/personal-goals" target="_blank" rel="noopener noreferrer">ser autodidacta</a> (como a mucha gente en el sector). Realmente se puede decir que empecé a aprender JavaScript de verdad en octubre de 2017 cuando me vine a Barcelona, un cambio profesional en el que sin duda he aprendido muchísimo. Ahora hago alguna cosa con Vue y React incluso.
