@@ -94,7 +94,6 @@
     text-align: center;
 
     &:hover {
-        padding: var(--space-xxs);
         position: relative;
 
         &::after {
@@ -105,11 +104,11 @@
             animation-timing-function: ease-in-out;
             background-image: linear-gradient(to right, var(--lgbt-flag));
             border-radius: var(--border-radius-xxs);
-            content: attr(data-name);
-            height: 100%;
+            bottom: 0;
+            content: "";
+            height: var(--border-width);
             left: 0;
             position: absolute;
-            text-shadow: var(--text-shadow-border);
             width: 100%;
         }
     }
