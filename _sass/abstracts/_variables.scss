@@ -30,8 +30,10 @@
     --heading-class: #FFB20D;
     --heading-bool: var(--heading-class);
     --heading-string: #F43F11;
+    --lgbt-flag: #ec3237 0%, #ec3237 16.67%, #f47435 16.67%, #f47435 33.33%, #fff112 33.33%, #fff112 50.00%, #22b354 50.00%, #22b354 66.67%, #006fa7 66.67%, #006fa7 83.33%, #5a3e95 83.33%, #5a3e95 100%;
 
     --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    --text-shadow-border: 1px 0 0 var(--color-base-lightest), -1px 0 0 var(--color-base-lightest), 0 1px 0 var(--color-base-lightest), 0 -1px 0 var(--color-base-lightest), 1px 1px var(--color-base-lightest), -1px -1px 0 var(--color-base-lightest), 1px -1px 0 var(--color-base-lightest), -1px 1px 0 var(--color-base-lightest);
 
     --linear-gradient: linear-gradient(to right, var(--color-primary) 0, var(--color-primary-darkest) 100%);
 

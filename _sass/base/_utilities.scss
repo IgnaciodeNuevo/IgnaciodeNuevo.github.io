@@ -77,9 +77,8 @@
 //
 .u-visually-hidden {
     border: 0;
-    clip: rect(0 0 0 0);
             clip-path: polygon(0 0, 0 0, 0 0);
-    -webkit-clip-path: polygon(0 0, 0 0, 0 0);
+    clip: rect(0 0 0 0);
     height: 1px;
     margin: -1px;
     overflow: hidden;
@@ -87,4 +86,37 @@
     position: absolute;
     white-space: nowrap;
     width: 1px;
+
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0);
+}
+
+.u-lgbt {
+    text-align: center;
+
+    &:hover {
+        padding: var(--space-xxs);
+        position: relative;
+
+        &::after {
+            animation-direction: alternate;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-name: animatedBackground;
+            animation-timing-function: ease-in-out;
+            background-image: linear-gradient(to right, var(--lgbt-flag));
+            border-radius: var(--border-radius-xxs);
+            content: attr(data-name);
+            height: 100%;
+            left: 0;
+            position: absolute;
+            text-shadow: var(--text-shadow-border);
+            width: 100%;
+        }
+    }
+}
+
+@keyframes animatedBackground {
+    to {
+        background-position: calc(100vw / 6);
+    }
 }
