@@ -93,23 +93,25 @@
 .u-lgbt {
     text-align: center;
 
-    &:hover {
-        position: relative;
+    @media (hover: hover) {
+        &:hover {
+            position: relative;
 
-        &::after {
-            animation-direction: alternate;
-            animation-duration: 5s;
-            animation-iteration-count: infinite;
-            animation-name: animatedBackground;
-            animation-timing-function: ease-in-out;
-            background-image: linear-gradient(to right, var(--lgbt-flag));
-            border-radius: var(--border-radius-xxs);
-            bottom: 0;
-            content: "";
-            height: var(--border-width);
-            left: 0;
-            position: absolute;
-            width: 100%;
+            &::after {
+                animation-direction: alternate;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+                animation-name: animatedBackground;
+                animation-timing-function: ease-in-out;
+                background-image: linear-gradient(to right, var(--lgbt-flag));
+                border-radius: var(--border-radius-xxs);
+                bottom: 0;
+                content: "";
+                height: var(--border-width);
+                left: 0;
+                position: absolute;
+                width: 100%;
+            }
         }
     }
 }
