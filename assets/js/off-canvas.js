@@ -104,7 +104,6 @@ window.matchMedia('(min-width: 48em)').addListener(function () {
 
 navMenu.addEventListener('click', function (event) {
     if (event.target.parentElement.hasAttribute('href')) {
-        alert(`Removed .${activeClassName} CSS class by clicking ${event.target.parentElement}`)
         removeBodyActiveClass();
     }
 });
