@@ -1,7 +1,7 @@
 - name: WeCodeSign Podcast
   description: "The Design and Development Podcast in Spanish by Ignacio Villanueva."
   date: 2016-06-01T00:00:00+0200
-  web: http://wecodesignpodcast.com
+  web: http://wecodesign.github.io/
   case_study: wecodesign/case_study/
   external: yes
 
