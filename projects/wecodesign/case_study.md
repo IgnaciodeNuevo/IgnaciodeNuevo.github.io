@@ -68,4 +68,4 @@ I'm happy with this project.
 
 I wouldn't change anything except for possible code errors or accesibility issues.
 
-<a class="link link--special" href="http://wecodesignpodcast.com" target="_blank" rel="noopener noreferrer">Listen my Podcast</a>
+<a class="link link--special" href="http://wecodesign.github.io/" target="_blank" rel="noopener noreferrer">Listen my Podcast</a>

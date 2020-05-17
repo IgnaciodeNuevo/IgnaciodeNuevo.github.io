@@ -108,7 +108,7 @@ Decir por otro lado que como fan absoluto del trabajo de <a class="link link--sp
 
 ### Podcasting
 
-Tras la comida <a class="link link--special" href="https://twitter.com/carmenansio" target="_blank" rel="noopener noreferrer">Carmen</a> y yo estuvimos charlando en una sala contanto como surgió <a class="link link--special" href="http://wecodesignpodcast.com" target="_blank" rel="noopener noreferrer">WeCodeSign</a>, como nos organizamos y que hacemos para grabar cada episodio. (_en breve escribiré un artículo detallado sobre el tema_), ya que ella vive en Barcelona, yo en Madrid y cada invitado/a al Podcast está en un lugar distinto de España.
+Tras la comida <a class="link link--special" href="https://twitter.com/carmenansio" target="_blank" rel="noopener noreferrer">Carmen</a> y yo estuvimos charlando en una sala contanto como surgió <a class="link link--special" href="http://wecodesign.github.io/" target="_blank" rel="noopener noreferrer">WeCodeSign</a>, como nos organizamos y que hacemos para grabar cada episodio. (_en breve escribiré un artículo detallado sobre el tema_), ya que ella vive en Barcelona, yo en Madrid y cada invitado/a al Podcast está en un lugar distinto de España.
 
 Fue super entretenido contar todos los entresijos, incluso hicimos un pequeño spoiler sobre un futuro episodio y sobre novedades que nos estamos planteando para el año que viene.
 

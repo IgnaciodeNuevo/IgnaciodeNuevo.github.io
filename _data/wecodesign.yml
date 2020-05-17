@@ -1,187 +1,187 @@
 - name: "Episodio 2x14 - Polymer"
   description: "Polymer"
   date: "Diciembre 26, 2017"
-  web: http://wecodesignpodcast.com/2017/12/26/polymer/
+  web: http://wecodesign.github.io/2017/12/26/polymer/
 
 - name: "Episodio 2x13 - Proyectos Sostenibles"
   description: "Proyectos Sostenibles"
   date: "Diciembre 13, 2017"
-  web: http://wecodesignpodcast.com/2017/12/12/proyectos-sostenibles/
+  web: http://wecodesign.github.io/2017/12/12/proyectos-sostenibles/
 
 - name: "Episodio 2x11 - El valor del diseño"
   description: "El valor del diseño"
   date: "Noviembre 28, 2017"
-  web: http://wecodesignpodcast.com/2017/11/28/la-importancia-del-diseno/
+  web: http://wecodesign.github.io/2017/11/28/la-importancia-del-diseno/
 
 - name: "Episodio 2x11 - El ecosistema de React"
   description: "El ecosistema de React"
   date: "Noviembre 14, 2017"
-  web: http://wecodesignpodcast.com/2017/11/14/el-ecosistema-de-react/
+  web: http://wecodesign.github.io/2017/11/14/el-ecosistema-de-react/
 
 - name: "Episodio 2x10 - La W3C"
   description: "La W3C"
   date: "Octubre 31, 2017"
-  web: http://wecodesignpodcast.com/2017/10/31/la-w3c/
+  web: http://wecodesign.github.io/2017/10/31/la-w3c/
 
 - name: "Episodio 2x09 - El Síndrome del Impostor"
   description: "Progressive Web Apps"
   date: "Octubre 17, 2017"
-  web: http://wecodesignpodcast.com/2017/10/17/sindrome-del-impostor/
+  web: http://wecodesign.github.io/2017/10/17/sindrome-del-impostor/
 
 - name: "Episodio 2x08 - Progressive Web Apps"
   description: "Progressive Web Apps"
   date: "Octubre 02, 2017"
-  web: http://wecodesignpodcast.com/2017/10/03/progressive-web-apps/
+  web: http://wecodesign.github.io/2017/10/03/progressive-web-apps/
 
 - name: "Episodio Mini 11 - ¡Novedades!"
   description: "¡Novedades!"
   date: "Septiembre 26, 2017"
-  web: http://wecodesignpodcast.com/2017/09/26/mini-11/
+  web: http://wecodesign.github.io/2017/09/26/mini-11/
 
 - name: "Episodio 2x07 - La Web Abierta"
   description: "La Web Abierta"
   date: "Septiembre 19, 2017"
-  web: http://wecodesignpodcast.com/2017/09/18/la-web-abierta/
+  web: http://wecodesign.github.io/2017/09/18/la-web-abierta/
 
 - name: "Episodio Mini 10 - Empresas Unicornio"
   description: "Miedo al fracaso"
   date: "Septiembre 12, 2017"
-  web: http://wecodesignpodcast.com/2017/09/12/mini-10/
+  web: http://wecodesign.github.io/2017/09/12/mini-10/
 
 - name: "Episodio 2x06 - Accesibilidad Práctica"
   description: "Accesibilidad Práctica"
   date: "Septiembre 05, 2017"
-  web: http://wecodesignpodcast.com/2017/09/05/accesibilidad-practica/
+  web: http://wecodesign.github.io/2017/09/05/accesibilidad-practica/
 
 - name: "Episodio Mini 9 - Miedo al fracaso"
   description: "Miedo al fracaso"
   date: "Julio 25, 2017"
-  web: http://wecodesignpodcast.com/2017/07/25/mini-9/
+  web: http://wecodesign.github.io/2017/07/25/mini-9/
 
 - name: "Episodio 2x05 - Camino a la programación funcional"
   description: "Camino a la programación funcional"
   date: "Julio 18, 2017"
-  web: http://wecodesignpodcast.com/2017/07/18/camino-a-la-programacion-funcional/
+  web: http://wecodesign.github.io/2017/07/18/camino-a-la-programacion-funcional/
 
 - name: "Episodio Mini - 8"
   description: "Ñapas as a Service"
   date: "Julio 11, 2017"
-  web: http://wecodesignpodcast.com/2017/07/11/mini-8/
+  web: http://wecodesign.github.io/2017/07/11/mini-8/
 
 - name: "Episodio 2x04 - Mobile First"
   description: "Mobile First"
   date: "Julio 4, 2017"
-  web: http://wecodesignpodcast.com/2017/07/04/mobile-first/
+  web: http://wecodesign.github.io/2017/07/04/mobile-first/
 
 - name: "Episodio Mini - 7"
   description: "Salarios"
   date: "Junio 13, 2017"
-  web: http://wecodesignpodcast.com/2017/06/27/mini-7/
+  web: http://wecodesign.github.io/2017/06/27/mini-7/
 
 - name: "Episodio 2x03 - Trabajando en Remoto"
   description: "Trabajando en Remoto"
   date: "Junio 20, 2017"
-  web: http://wecodesignpodcast.com/2017/06/20/trabajando-en-remoto/
+  web: http://wecodesign.github.io/2017/06/20/trabajando-en-remoto/
 
 - name: "Episodio Mini - 6"
   description: "¿Qué aportan los juniors?"
   date: "Junio 13, 2017"
-  web: http://wecodesignpodcast.com/2017/06/13/mini-6/
+  web: http://wecodesign.github.io/2017/06/13/mini-6/
 
 - name: "Episodio 2x02 - Toma de Requisitos"
   description: "Carlos Blé, desarrollador Agile, mentor y speaker nos contará su experiencia sobre la importancia de la toma de requisitos."
   date: "Junio 6, 2017"
-  web: http://wecodesignpodcast.com/2017/06/06/toma-de-requisitos/
+  web: http://wecodesign.github.io/2017/06/06/toma-de-requisitos/
 
 - name: "Episodio Mini - 5"
   description: "¿Somos proactivos?"
   date: "Mayo 30, 2017"
-  web: http://wecodesignpodcast.com/2017/05/30/mini-5/
+  web: http://wecodesign.github.io/2017/05/30/mini-5/
 
 - name: "Episodio 2x01 - Adalab"
   description: "Inés y Rosario decidieron unir sus conocimientos para formar Adalab, con el objetivo de ayudar a mujeres con dificultades a introducirse en sector del desarrollo."
   date: "Mayo 23, 2017"
-  web: http://wecodesignpodcast.com/2017/05/23/adalab/
+  web: http://wecodesign.github.io/2017/05/23/adalab/
 
 - name: "Episodio Mini - 4"
   description: "¡Un año de WeCodeSign!"
   date: "Mayo 16, 2017"
-  web: http://wecodesignpodcast.com/2017/05/16/mini-4/
+  web: http://wecodesign.github.io/2017/05/16/mini-4/
 
 - name: "Episodio 27 - Paradigmas de Interacción"
   description: "Carmel Hassan, UX Designer nos hablará de los diferentes modelos de interfaz existentes como interactuar con ellos."
   date: "Mayo 09, 2017"
-  web: http://wecodesignpodcast.com/2017/05/09/paradigmas-de-interaccion/
+  web: http://wecodesign.github.io/2017/05/09/paradigmas-de-interaccion/
 
 - name: "Episodio Mini - 3"
   description: "¿Vale cualquier tecnología para todo?"
   date: "Mayo 2, 2017"
-  web: http://wecodesignpodcast.com/2017/05/02/mini-3/
+  web: http://wecodesign.github.io/2017/05/02/mini-3/
 
 - name: "Episodio 26 - Design Systems"
   description: "Naiara Abaroa, Frontend Designer y apasionada por el CSS, nos ayudará a entender los Design Systems."
   date: "Abril 25, 2017"
-  web: http://wecodesignpodcast.com/2017/04/25/design-systems/
+  web: http://wecodesign.github.io/2017/04/25/design-systems/
 
 - name: "Episodio Mini - 2"
   description: "¿Podemos usar tecnologías modernas?"
   date: "Mayo 2, 2017"
-  web: http://wecodesignpodcast.com/2017/04/18/mini-2/
+  web: http://wecodesign.github.io/2017/04/18/mini-2/
 
 - name: "Episodio 25 - PostCSS"
   description: "Joan León Frontend y UI Developer y responsable de formación en su empresa nos hablará sobre PostCSS."
   date: "Abril 11, 2017"
-  web: http://wecodesignpodcast.com/2017/04/11/postcss/
+  web: http://wecodesign.github.io/2017/04/11/postcss/
 
 - name: "Episodio Mini - 1"
   description: "¿Qué es un episodio Mini?"
   date: "Abril 3, 2017"
-  web: http://wecodesignpodcast.com/2017/04/03/mini-1/
+  web: http://wecodesign.github.io/2017/04/03/mini-1/
 
 - name: "Episodio 24 - CSS Grid Layout"
   description: "Manuel Rego desarrollador, Chromium/Blink owner & WebKit reviewer nos habla sobre la implementación y el presente de CSS Grid Layout."
   date: "Marzo 28, 2017"
-  web: http://wecodesignpodcast.com/2017/03/28/css-grid-layout/
+  web: http://wecodesign.github.io/2017/03/28/css-grid-layout/
 
 - name: "Episodio 23 - De educadora a Frontend"
   description: "Laetitia Carquet, aprendiz insaciable y colaboradora de proyectos como Semillasocial nos contará su experiencia."
   date: "Marzo 14, 2017"
-  web: http://wecodesignpodcast.com/2017/03/14/de-educadora-a-frontend/
+  web: http://wecodesign.github.io/2017/03/14/de-educadora-a-frontend/
 
 - name: "Episodio 22 - La importancia del diseño en la web"
   description: "Wences Sanz, Senior Designer en Everis nos cuenta su visión por el diseño y las tendencias web que podremos ver este 2017."
   date: "Febrero 28, 2017"
-  web: http://wecodesignpodcast.com/2017/02/28/la-importancia-del-diseno-y-sus-tendencias/
+  web: http://wecodesign.github.io/2017/02/28/la-importancia-del-diseno-y-sus-tendencias/
 
 - name: "Episodio 21 - Presente y futuro del UX"
   description: "Mauricio Angulo, consultor de User Experience, Google Developer Expert nos cuenta sus pensamientos sobre la experiencia de usuario."
   date: "Febrero 14, 2017"
-  web: http://wecodesignpodcast.com/2017/02/14/presente-y-futuro-del-ux/
+  web: http://wecodesign.github.io/2017/02/14/presente-y-futuro-del-ux/
 
 - name: "Episodio 20 - La importancia del Open Source"
   description: "Ulises Gascón, desarrollador OpenSource y especializado en JavaScript y Node nos cuenta su opinión el importancia del software libre."
   date: "Enero 31, 2017"
-  web: http://wecodesignpodcast.com/2017/01/31/la-importancia-del-open-source/
+  web: http://wecodesign.github.io/2017/01/31/la-importancia-del-open-source/
 
 - name: "Episodio 19 - Reclutando Talento"
   description: "Jose Martín-Corral, recruiter de Aurigae una consultora española del sector IT nos contará trucos para saber afrontar una entrevista."
   date: "Enero 17, 2017"
-  web: http://wecodesignpodcast.com/2017/01/17/reclutando-talento/
+  web: http://wecodesign.github.io/2017/01/17/reclutando-talento/
 
 - name: "Episodio 18 - Metodologías de Trabajo"
   description: "Mario Sánchez, Director Creativo & UX en Redbility nos cuenta sus experiencias organizando proyectos y gestionando equipos."
   date: "Enero 3, 2016"
-  web: http://wecodesignpodcast.com/2017/01/03/metodologias-de-trabajo/
+  web: http://wecodesign.github.io/2017/01/03/metodologias-de-trabajo/
 
 - name: "Episodio 17 - SVG"
   description: "Hoy hablamos con Jorge Aznar, frontend designer y autor de Scalable un libro sobre SVG y nos contará trucos y consejos para usar SVG."
   date: "Diciembre 20, 2016"
-  web: http://wecodesignpodcast.com/2016/12/20/SVG/
+  web: http://wecodesign.github.io/2016/12/20/SVG/
 
 - name: "Episodio 16 - Buenas prácticas CSS"
   description: "Hoy hablamos con Belén Albeza, devrel de Mozilla sobre la importancia del buen código CSS y buenas prácticas a tener en cuenta."
   date: "Diciembre 6, 2016"
-  web: http://wecodesignpodcast.com/2016/12/06/buenas-practicas-css/
+  web: http://wecodesign.github.io/2016/12/06/buenas-practicas-css/
 
 - name: "Web Performance con Ignacio Villanueva - Hablemos de Web"
   description: "Ángel y Natalia, de Hablemos de Web me entrevistan en su Podcast sobre Web Performance y las bases del desarrollo web."
@@ -191,74 +191,74 @@
 - name: "Episodio 15 - herramientas del Frontend"
   description: "Hoy como invitado está con nosotros Luis de Dios, frontend que nos ayudará a entender las herramientas que usamos día a día."
   date: "Noviembre 22, 2016"
-  web: http://wecodesignpodcast.com/2016/11/22/herramientas-del-frontend/
+  web: http://wecodesign.github.io/2016/11/22/herramientas-del-frontend/
 
 - name: "Episodio 14 - Accesibilidad Web"
   description: "Jonathan Chacón, desarrollador y consultor web nos explica las recomendaciones para hacer la web más accesible."
   date: "Noviembre 8, 2016"
-  web: http://wecodesignpodcast.com/2016/11/08/accesibilidad-en-la-web/
+  web: http://wecodesign.github.io/2016/11/08/accesibilidad-en-la-web/
 
 - name: "Episodio 13 - El ecosistema frontend"
   description: "Miguel Martín, CTO de Redradix nos cuenta como ve la situación actual del frontend, que herramientas utiliza y cuales no."
   date: "Octubre 25, 2016"
-  web: http://wecodesignpodcast.com/2016/10/25/el-ecosistema-frontend/
+  web: http://wecodesign.github.io/2016/10/25/el-ecosistema-frontend/
 
 - name: "Episodio 12 - Tipografía Web"
   description: "El Diseñador UI y tipógrafo Lole Román nos cuenta como debemos usar la tipografía en la web y trucos para usarla correctamente."
   date: "Octubre 11, 2016"
-  web: http://wecodesignpodcast.com/2016/10/11/tipografia-web/
+  web: http://wecodesign.github.io/2016/10/11/tipografia-web/
 
 - name: "Episodio 11 - Web Audio"
   description: "La desarrolladora y DevRel de Mozilla Soledad Penadés, visita el podcast para contarnos el Web Audio y su influencia en la Web."
   date: "Septiembre 27, 2016"
-  web: http://wecodesignpodcast.com/2016/09/27/web-audio/
+  web: http://wecodesign.github.io/2016/09/27/web-audio/
 
 - name: "Episodio 10 - Diseño de Interacción"
   description: "Izaskun Saez, UX/UI Senior Designer nos comenta cual es la situación de un sector que vive un aparente boom: El Diseño de Interacción."
   date: "Septiembre 13, 2016"
-  web: http://wecodesignpodcast.com/2016/09/13/diseno-de-interaccion/
+  web: http://wecodesign.github.io/2016/09/13/diseno-de-interaccion/
 
 - name: "Episodio 9 - El estado actual de Angular y Polymer"
   description: "Alejandro Arroyo Duque nos cuenta su experiencia con Angular y Polymer y su visión sobre el futuro de dichas tecnologías."
   date: "Agosto 30, 2016"
-  web: http://wecodesignpodcast.com/2016/08/30/estado-actual-de-angular-y-polymer/
+  web: http://wecodesign.github.io/2016/08/30/estado-actual-de-angular-y-polymer/
 
 - name: "Episodio 8 - Trabajando con diferentes CMS"
   description: "Luis Martín de Martin & Young, una agencia de desarrollo y posicionamiento web nos cuenta su experiencia trabajando con diferentes CMS."
   date: "Agosto 16, 2016"
-  web: http://wecodesignpodcast.com/2016/08/16/episodio-8-trabajando-con-diferentes-CMS/
+  web: http://wecodesign.github.io/2016/08/16/episodio-8-trabajando-con-diferentes-CMS/
 
 - name: "Episodio 7 - Exportando talento"
   description: "Miguel es un desarrollador bilbaíno asentado en Vancouver y nos cuenta su paso de creador de Apps a exitoso editor de vídeo."
   date: "Agosto 2, 2016"
-  web: http://wecodesignpodcast.com/2016/08/02/episodio-7/
+  web: http://wecodesign.github.io/2016/08/02/episodio-7/
 
 - name: "Episodio 6 - Primeros pasos como Frontend Designer"
   description: "La diseñadora y desarrolladora Frontend Lidia Pescuezo nos explica cómo fue su paso desde Bellas Artes a una Agencia Digital."
   date: "Julio 19, 2016"
-  web: http://wecodesignpodcast.com/2016/07/19/episodio-6/
+  web: http://wecodesign.github.io/2016/07/19/episodio-6/
 
 - name: "Episodio 5 - UX y UI"
   description: "El UX / UI Designer & FrontEnd Developer Javier Larrea García comenta sobre la situación del UX y el UI y el estado actual de dicho perfil."
   date: "Junio 21, 2016"
-  web: http://wecodesignpodcast.com/2016/07/05/episodio-5/
+  web: http://wecodesign.github.io/2016/07/05/episodio-5/
 
 - name: "Episodio 4 - SEO y SEM"
   description: "El consultor y analista SEO Jose Ramón Saura nos desvela algunos de los secretos detrás de esta profesión tan importante como desconocida."
   date: "Junio 21, 2016"
-  web: http://wecodesignpodcast.com/2016/06/21/episodio-4/
+  web: http://wecodesign.github.io/2016/06/21/episodio-4/
 
 - name: "Episodio 3 - Formación online"
   description: "En WCD hablamos de las plataformas online como Udacity y entrevistamos a Álvaro Sanmartín, su responsable de desarrollo."
   date: "Junio 7, 2016"
-  web: http://wecodesignpodcast.com/2016/06/07/episodio-3/
+  web: http://wecodesign.github.io/2016/06/07/episodio-3/
 
 - name: "Episodio 2 - Los Bootcamps"
   description: "Analizamos las características de los Bootcamps como alternativa formativa y entrevistamos a Gonzalo Manrique, co-fundador de Ironhack."
   date: "Mayo 24, 2016"
-  web: http://wecodesignpodcast.com/2016/05/24/episodio-2/
+  web: http://wecodesign.github.io/2016/05/24/episodio-2/
 
 - name: "Episodio 1 - Educación clásica"
   description: "Analizamos el rol de la universidad y entrevistamos a Edu Fierro, Digital Sr en Yslandia y docente en Lightbox."
   date: "Mayo 10, 2016"
-  web: http://wecodesignpodcast.com/2016/05/10/episodio-1/
+  web: http://wecodesign.github.io/2016/05/10/episodio-1/

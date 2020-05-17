@@ -35,7 +35,7 @@ Parece fácil y aunque he sido "organizador" este año no creo que deba colgarme
 
 ## Un cambio de ciudad
 
-Cuando me mudé a Barcelona hace ya más de dos años, me di cuenta que había muchas de esas cosas que había empezado a hacer años atrás para "demostrar mi interés y ser contratable": <a class="link link--special" href="http://wecodesignpodcast.com/" target="_blank" rel="noopener noreferrer">WeCodeSign</a>, <a class="link link--special" href="/blog/">blog</a>, aprender fuera de horario laboral, organizar <a class="link link--special" href="https://twitter.com/OS_Weekends" target="_blank" rel="noopener noreferrer">OpenSource Weekends</a> y también organizar en <a class="link link--special" href="https://frontfest.es/" target="_blank" rel="noopener noreferrer">FrontFest</a> que estaban saturándome así que empecé a bajar el ritmo.
+Cuando me mudé a Barcelona hace ya más de dos años, me di cuenta que había muchas de esas cosas que había empezado a hacer años atrás para "demostrar mi interés y ser contratable": <a class="link link--special" href="http://wecodesign.github.io/" target="_blank" rel="noopener noreferrer">WeCodeSign</a>, <a class="link link--special" href="/blog/">blog</a>, aprender fuera de horario laboral, organizar <a class="link link--special" href="https://twitter.com/OS_Weekends" target="_blank" rel="noopener noreferrer">OpenSource Weekends</a> y también organizar en <a class="link link--special" href="https://frontfest.es/" target="_blank" rel="noopener noreferrer">FrontFest</a> que estaban saturándome así que empecé a bajar el ritmo.
 
 Quizá el <a class="link link--special" href="https://frontfest.es/" target="_blank" rel="noopener noreferrer">FrontFest</a> por lo mucho que significa ha sido lo último en cerrar una etapa.
 

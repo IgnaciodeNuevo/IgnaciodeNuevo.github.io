@@ -20,7 +20,7 @@ En su día hará cuatro años y medio aproximadamente cuando empecé en el secto
     <a class="link" href="https://twitter.com/lainde/status/1120990213600436224" target="_blank" rel="noopener noreferrer">Tweet: ⚡️ «Cuando los #devs se enrocan en discutir acaloradamente sobre sueldos de las consultoras...»</a>
 </p>
 
-Dicho lo cual, basta ya de no ofrecer un rango salarial. Empecemos porque trabajar en este sector es bastante exigente y puede llevarnos a <a class="link link--special" href="http://wecodesignpodcast.com/2019/04/04/autoexplotacion/" target="_blank" rel="noopener noreferrer">la autoexplotación</a>.
+Dicho lo cual, basta ya de no ofrecer un rango salarial. Empecemos porque trabajar en este sector es bastante exigente y puede llevarnos a <a class="link link--special" href="http://wecodesign.github.io/2019/04/04/autoexplotacion/" target="_blank" rel="noopener noreferrer">la autoexplotación</a>.
 
 A veces se da el caso de que hay que entregar un proyecto en un determinado plazo y es necesario cumplirlo.
 
