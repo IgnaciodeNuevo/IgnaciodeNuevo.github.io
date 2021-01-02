@@ -326,27 +326,6 @@ code {
 }
 
 //
-// Beta Badge
-//
-.beta {
-    align-items: center;
-    background-color: var(--color-base-lightest);
-    border-radius: var(--border-radius-xxs);
-    color: var(--color-warning);
-    display: flex;
-    font-family: var(--font-family-body-semibold);
-    height: 1.5rem; // Magic String: Do not change/remove
-    line-height: var(--line-height-xxs);
-    margin-left: var(--space-s);
-    padding-bottom: var(--space-xxs);
-    padding-left: var(--space-s);
-    padding-right: var(--space-s);
-    padding-top: var(--space-xxs);
-
-    @include opentype-all-opentype-small-caps();
-}
-
-//
 // Page design: /404, /newsletter and /curso-css (without content)
 //
 .page {
