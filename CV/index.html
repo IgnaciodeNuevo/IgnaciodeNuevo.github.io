@@ -14,116 +14,136 @@ page_class: print
             <h2 class="h5-like cv__title">Personal Information</h2>
             <section class="cv__section">
                 <div>
-                    <div class="cv__row">
+                    <article class="cv__row">
                         <h3 class="h6-like cv__row-title">Name</h3>
                         <a>Ignacio Villanueva</a>
-                    </div>
-                    <div class="cv__row">
+                    </article>
+                    <article class="cv__row">
                         <h3 class="h6-like cv__row-title">Email</h3>
                         <a class="link" href="mailto:{{site.email}}?Subject=Contact%20from%20IgnaciodeNuevo’s%20website" rel="me">{{ site.email }}</a>
-                    </div>
-                    <div class="cv__row">
+                    </article>
+                    <article class="cv__row">
                         <h3 class="h6-like cv__row-title">Web</h3>
                         <a class="link" href="{{ site.url }}" rel="me">{{site.url}}</a>
-                    </div>
-                    <div class="cv__row">
+                    </article>
+                    <article class="cv__row">
                         <h3 class="h6-like cv__row-title">Twitter</h3>
                         <a class="link" href="{{ site.twitter }}" target="_blank" rel="noopener noreferrer me">{{ site.twitter }}</a>
-                    </div>
-                    <div class="cv__row">
+                    </article>
+                    <article class="cv__row">
                         <h3 class="h6-like cv__row-title">GitHub</h3>
                         <a class="link" href="{{ site.github }}" target="_blank" rel="noopener noreferrer me">{{ site.github }}</a>
-                    </div>
+                    </article>
                 </div>
             </section>
         </div>
         <!-- End of Personal Info -->
+        <!-- Start of Introduction -->
+        <h2 class="h5-like cv__title">Introduction</h2>
+            <section class="cv__section">
+                <article class="cv__row">
+                    <div class="h6-like cv__row-title"></div>
+                    <p class="cv__content">I started doing a master's degree in Graphic and Web Design in 2013 to see if I could change career to the design sector. Coming from printing in graphic arts (offset) and trying to set up a design studio with two friends of mine in adolescence, I saw the change clear but it turned out that I discovered to create interfaces using HTML and CSS and later decided to do a Bootcamp. That's when my professional career started, as a profile between design and development. At the end of 2018 when I was already at PlainConcepts I started programming, until then I had mainly helped with the development of interfaces (HTML and CSS).
+                </article>
+            </section>
+        <!-- End of Introduction -->
+        <!-- Start of Technologies -->
+        <h2 class="h5-like cv__title">Technologies</h2>
+        <section class="cv__section">
+            <article class="cv__row">
+                <h3 class="h6-like cv__row-title">What I use</h3>
+                <ul class="cv__list">
+                    <li><a class="link" href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer">TypeScript</a>, ~1 year of experience</li>
+                    <li><a class="link" href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">JavaScript (React)</a>, ~2 years of experience</li>
+                    <li><a class="link" href="https://www.apollographql.com/" target="_blank" rel="noopener noreferrer">GraphQL (Apollo)</a>, ~2 years of experience</li>
+                    <li><a class="link" href="https://jestjs.io/" target="_blank" rel="noopener noreferrer">Unit Testing (Jest)</a>, ~2 years of experience</li>
+                    <li><a class="link" href="https://www.cypress.io/" target="_blank" rel="noopener noreferrer">e2e Testing (Cypress)</a>, ~2 years of experience</li>
+                    <li><a class="link" href="https://sass-lang.com/" target="_blank" rel="noopener noreferrer">Sass</a>, +5 years of experience</li>
+                    <li><a class="link" href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer">HTML</a>, +5 years of experience</li>
+                </ul>
+            </article>
+        </section>
+        <!-- End of Technologies -->
         <!-- Skills -->
         <h2 class="h5-like cv__title">Skills</h2>
         <section class="cv__section">
-            <div class="cv__row">
-                <h3 class="h6-like cv__row-title">Frontend Skills</h3>
-                <ul class="cv__list">
-                    <li>{{ site.description }}, JavaScript (React), Sass, HTML and frontend architecture.</li>
-                </ul>
-            </div>
-            <div class="cv__row">
+            <article class="cv__row">
                 <h3 class="h6-like cv__row-title">Strengths</h3>
                 <ul class="cv__list">
                     <li> Collaborative: predisposed to help teammates look beyond purely technical solutions.</li>
                     <li> Curious: constantly learning new topics to keep my knowledge current, with a particular interest in performance, responsive design, web typography, accessibility.</li>
                     <li> Engaged: working on side-projects, contributing to open source projects, speaking and organizing events helps me grow as developer and give back to the community.</li>
                 </ul>
-            </div>
+            </article>
         </section>
         <!-- End of Skills -->
         <!-- Work Experience -->
         <h2 class="h5-like cv__title">Work Experience</h2>
         <section class="cv__section">
             <div class="cv__content">
-                <div class="cv__row">
+                <article class="cv__row">
                     <h3 class="h6-like cv__row-title">Jun 2019 – present</h3>
                     <p class="cv__content">Frontend at N26 (Barcelona)</p>
-                </div>
-                <div class="cv__row">
+                </article>
+                <article class="cv__row">
                     <p></p>
                     <ul class="cv__list">
                         <li>Helped to improve internal tooling for customer support.</li>
                         <li>Developed part of N26's web app.</li>
                     </ul>
-                </div>
+                </article>
             </div>
             <div class="cv__content">
-                <div class="cv__row">
+                <article class="cv__row">
                     <h3 class="h6-like cv__row-title">Oct 2017 – Jun 2019</h3>
                     <p class="cv__content">Frontend at PlainConcepts (Barcelona)</p>
-                </div>
-                <div class="cv__row">
+                </article>
+                <article class="cv__row">
                     <p></p>
                     <ul class="cv__list">
                         <li>Helped to improve Sass architectures using best practices leading the initiative.</li>
                         <li>Developed several SPAs using React and Vue to big clients.</li>
                         <li>Developed several applications using .NET technologies.</li>
                     </ul>
-                </div>
+                </article>
             </div>
             <div class="cv__content">
-                <div class="cv__row">
+                <article class="cv__row">
                     <h3 class="h6-like cv__row-title">Dec 2016 – Oct 2017</h3>
                     <p class="cv__content">Frontend at Kubide (Madrid)</p>
-                </div>
-                <div class="cv__row">
+                </article>
+                <article class="cv__row">
                     <p></p>
                     <ul class="cv__list">
                         <li>Developed JavaScript-based UI solutions, websites and hybrid web apps.</li>
                         <li>Converted CSS into Sass using BEM methodology to help themaintainability of the code.</li>
                         <li>A client had a CSS codebase that had grown large and unmaintainable overtime. Using a Sass processor, I helped them refactor it, enforcing CSSbest practices. This reduced both it’s size and complexity, making iteasily adaptable and extensible by others.</li>
                     </ul>
-                </div>
+                </article>
             </div>
             <div class="cv__content">
-                <div class="cv__row">
+                <article class="cv__row">
                     <h3 class="h6-like cv__row-title">Dec 2015 – Feb 2016</h3>
                     <p class="cv__content">Frontend – Freelance (Remote)</p>
-                </div>
-                <div class="cv__row">
+                </article>
+                <article class="cv__row">
                     <p></p>
                     <ul class="cv__list">
                         <li>Designed and developed a modern and intuitive UI for a sports socialnetwork hybrid web app, helping to test and validate a client’s minimumvalue product (MVP)</li>
                     </ul>
-                </div>
+                </article>
             </div>
             <div class="cv__content">
-                <div class="cv__row">
+                <article class="cv__row">
                     <h3 class="h6-like cv__row-title">May 2015 – Nov 2015</h3>
                     <p class="cv__content">Frontend at Martin & Young (Madrid)</p>
-                </div>
-                <div class="cv__row">
+                </article>
+                <article class="cv__row">
                     <p></p>
                     <ul class="cv__list">
                         <li>Developed UI-based solutions for landing pages and websites using avariety of CMS.</li>
                     </ul>
-                </div>
+                </article>
             </div>
         </section>
         <!-- End of Work Experience -->
@@ -131,65 +151,65 @@ page_class: print
         <h2 class="h5-like cv__title">Side Projects</h2>
         <section class="cv__section">
             <div class="cv__content">
-                <div class="cv__row">
+                <article class="cv__row">
                     <h3 class="h6-like cv__row-title">Nov 2016 – present</h3>
                     <p class="cv__content">Co-founder of FrontFest.es</p>
-                </div>
-                <div class="cv__row">
+                </article>
+                <article class="cv__row">
                     <p></p>
                     <p><a class="link" href="http://frontfest.es" target="_blank" rel="noopener noreferrer">frontfest.es</a></p>
-                </div>
-                <div class="cv__row">
+                </article>
+                <article class="cv__row">
                     <p></p>
                     <ul class="cv__list">
                         <li>Founded one of the biggest conferences about frontend development in Spain.</li>
                     </ul>
-                </div>
+                </article>
             </div>
             <div class="cv__content">
-                <div class="cv__row">
+                <article class="cv__row">
                     <h3 class="h6-like cv__row-title">May 2016 – Dec 2017</h3>
                     <p class="cv__content">Frontend and Podcaster</p>
-                </div>
-                <div class="cv__row">
+                </article>
+                <article class="cv__row">
                     <p></p>
                     <p><a class="link" href="http://wecodesign.github.io/" target="_blank" rel="noopener noreferrer">wecodesignpodcast.com</a></p>
-                </div>
-                <div class="cv__row">
+                </article>
+                <article class="cv__row">
                     <p></p>
                     <ul class="cv__list">
                         <li>Designed and developed a Jekyll-based static site promoting WeCodeSign.</li>
                         <li>Host and produce a weekly Podcast about frontend, UX and web design.</li>
                     </ul>
-                </div>
+                </article>
             </div>
             <div class="cv__content">
-                <div class="cv__row">
+                <article class="cv__row">
                     <h3 class="h6-like cv__row-title">Nov 2016 – Oct 2017</h3>
                     <p class="cv__content">Co-founder of Open Source Weekends</p>
-                </div>
-                <div class="cv__row">
+                </article>
+                <article class="cv__row">
                     <p></p>
                     <p><a class="link" href="http://osweekends.com" target="_blank" rel="noopener noreferrer">osweekends.com</a></p>
-                </div>
-                <div class="cv__row">
+                </article>
+                <article class="cv__row">
                     <p></p>
                     <ul class="cv__list">
                         <li>Designed and developed a Jekyll-based static site promoting OSWeekends effectively and help our members know more about the activities we do outside our monthly event.</li>
                     </ul>
-                </div>
+                </article>
             </div>
             <div class="cv__content">
-                <div class="cv__row">
+                <article class="cv__row">
                     <h3 class="h6-like cv__row-title">Oct 2016 – Mar 2017</h3>
                     <p class="cv__content">Frontend and Open Source Contributor</p>
-                </div>
-                <div class="cv__row">
+                </article>
+                <article class="cv__row">
                     <p></p>
                     <ul class="cv__list">
                         <li>Developed a landing page for a goods exchange platform delivering low-cost, open source solutions to non-profit organisations and people with no purchasing power.</li>
                     </ul>
-                </div>
+                </article>
             </div>
         </section>
         <!-- End of Side Projects -->
