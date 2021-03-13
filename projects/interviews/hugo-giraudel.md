@@ -1,14 +1,14 @@
 ---
 layout: post
 page_class: interview
-title: "Hugo Giraudel"
+title: "Kitty Giraudel"
 ---
 
 ## To all those who have not meet you yet, how do you describe yourself?
 
-<img class="portrait portrait--xxl" src="/assets/images/portrait-hugo-giraudel.jpg" alt="Hugo Giraudel's prtrait"/>
+<img class="portrait portrait--xxl" src="/assets/images/portrait-kitty-giraudel.jpg" alt="Kitty Giraudel's prtrait"/>
 
-My name is Hugo. I am a French frontend developer about to turn 24 and living in Berlin, Germany. I am working at <a class="link link--special" href="http://edenspiekermann.com" target="_blank" rel="noopener noreferrer">Edenspiekermann</a>, where I can play with HTML, CSS (Sass & CSS Modules) and JavaScript (React) on a daily basis.
+My name is Kitty. I am a French frontend developer about to turn 24 and living in Berlin, Germany. I am working at <a class="link link--special" href="http://edenspiekermann.com" target="_blank" rel="noopener noreferrer">Edenspiekermann</a>, where I can play with HTML, CSS (Sass & CSS Modules) and JavaScript (React) on a daily basis.
 
 ## When you started developing, what were some common mistakes you made along the way?
 
@@ -54,7 +54,7 @@ My very first position as a 19 year old developer was an internship in a very sm
 
 ## What was the most challenging project you ever faced and why?
 
-I have litterally no idea. I guess all projects are challenging in one way or the other. I remember spending 3 nights in a row writing <a class="link link--special" href="https://github.com/HugoGiraudel/SassyJSON" target="_blank" rel="noopener noreferrer">SassyJSON</a>, a JSON parser entirely made out of Sass (no programming language such as Ruby or JavaScript). I basically converted the Java parser from Firefox to Sass, and it was challenging. Because Sass is not made for this, obviously. Very fun though (not meant for production by the way).
+I have litterally no idea. I guess all projects are challenging in one way or the other. I remember spending 3 nights in a row writing <a class="link link--special" href="https://github.com/KittyGiraudel/SassyJSON" target="_blank" rel="noopener noreferrer">SassyJSON</a>, a JSON parser entirely made out of Sass (no programming language such as Ruby or JavaScript). I basically converted the Java parser from Firefox to Sass, and it was challenging. Because Sass is not made for this, obviously. Very fun though (not meant for production by the way).
 
 ## Can you describe your workflow when you create HTML, CSS and JavaScript from scratch?
 
@@ -77,6 +77,6 @@ On the CSS side, I would highly recommend *CSS Secrets* from Lea Verou. Definite
 “It is dangerous to go alone!” — unnamed old man from the Legend of Zelda
 Nobody gets good by themselves. We get good by working with other people. Have your own projects, write code, experiment, but talk to people. Ask about how to tackle issues. Ask for code reviews. Ask about their opinion. Soon enough, you’ll realise you are not the key to get better. Peers are.
 
-## What can we expect from Hugo in the future? Anything you want to share?
+## What can we expect from Kitty in the future? Anything you want to share?
 
 Well, I am currently writing a book about Sass for beginners, published by SitePoint in the “Jump Start” collection. It should be ready by February I guess, so there is that. I will also probably get back to public speaking next year, if I can find a few opportunities. And, of course, a lot of open source. :)
