@@ -89,12 +89,12 @@
   twitter: https://twitter.com/BenSchwarz
   url: ben-schwarz
 
-- name: "Hugo Giraudel"
-  excerpt: "My name is Hugo. I am a French frontend developer about to turn 24 and living in Berlin, Germany. I am working at Edenspiekermann, where I can play with HTML, CSS (Sass & CSS Modules) and JavaScript (React) on a daily basis."
-  portrait: /assets/images/portrait-hugo-giraudel.jpg
+- name: "Kitty Giraudel"
+  excerpt: "My name is Kitty. I am a French frontend developer about to turn 24 and living in Berlin, Germany. I am working at Edenspiekermann, where I can play with HTML, CSS (Sass & CSS Modules) and JavaScript (React) on a daily basis."
+  portrait: /assets/images/portrait-kitty-giraudel.jpg
   date: 2015-12-14T00:00:00+0200
-  twitter: https://twitter.com/HugoGiraudel
-  url: hugo-giraudel
+  twitter: https://twitter.com/KittyGiraudel
+  url: kitty-giraudel
 
 - name: "Jamie Knight"
   excerpt: "I am Jamie, I am autistic, 26 and have been coding for the web since I was 9. I am never seen far from a large plushie lion named “Lion”."

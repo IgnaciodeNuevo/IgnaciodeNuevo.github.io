@@ -68,4 +68,4 @@ I'm happy to say that NOW I know what is to be a Frontend developer.
 
 Whant to know lot of useful tips from some of the best Web Developers, Managers and Creative people in the web industry?
 
-I'm <a class="link link--special" href="/projects/interviews/">publishing some interviews</a> with people like Hugo Giraudel, Brad Frost or Jeremy Keith.
+I'm <a class="link link--special" href="/projects/interviews/">publishing some interviews</a> with people like Kitty Giraudel, Brad Frost or Jeremy Keith.
